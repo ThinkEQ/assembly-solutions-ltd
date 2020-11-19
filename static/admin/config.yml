@@ -38,7 +38,7 @@ collections:
       - {label: "Featured Article", name: "featuredarticle", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
+      - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
 
   - name: "team"
     label: "Team"
@@ -51,6 +51,28 @@ collections:
       - {label: "Image", name: "image", widget: image}
       - {label: "Alternate Image", name: "alternateimage", widget: image, required: false}
       - {label: "bio", name: "bio", widget: "markdown"}
+
+  - name: "video"
+    label: "Video"
+    folder: "src/pages/video"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "video"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Embed Link", name: "embed", widget: "text"}
+
+  - name: "testimonial"
+    label: "Testimonial"
+    folder: "src/pages/testimonial"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonial"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Position", name: "position", widget: "string", required: false}
+      - {label: "Company", name: "company", widget: "string", required: false}
+      - {label: "Quote", name: "quote", widget: "text"}
 
   - name: "pages"
     label: "Pages"
