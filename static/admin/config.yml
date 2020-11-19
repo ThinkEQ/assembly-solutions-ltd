@@ -40,6 +40,18 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
 
+  - name: "team"
+    label: "Team"
+    folder: "src/pages/team"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Image", name: "image", widget: image}
+      - {label: "Alternate Image", name: "alternateimage", widget: image, required: false}
+      - {label: "bio", name: "bio", widget: "markdown"}
+
   - name: "pages"
     label: "Pages"
     files:
