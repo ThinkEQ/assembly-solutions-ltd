@@ -25,4 +25,6 @@ $ netlify dev # or ntl dev
 
 Open another terminal window and run the following command;
 
-`npx netlify-cms-proxy-server`
+```
+$ npx netlify-cms-proxy-server
+```
