@@ -47,7 +47,6 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Image", name: "image", widget: image}
-      - {label: "Alternate Image", name: "alternateimage", widget: image, required: false}
       - {label: "bio", name: "bio", widget: "markdown"}
 
   - name: "video"
