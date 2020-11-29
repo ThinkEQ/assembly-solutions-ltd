@@ -35,8 +35,6 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "news-article"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Article", name: "featuredarticle", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
 
