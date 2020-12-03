@@ -47,6 +47,9 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
       - {label: "Name", name: "name", widget: "string"}
+      - {label: "Job title", name: "jobtitle", widget: "string"}
+      - {label: "LinkedIn", name: "linkedin", widget: "string"}
+      - {label: "Interests", name: interests, widget: select, multiple: true, options: [{label: "Cycling", value: "cycling"}, {label: "Gardening", value: "gardening"}, {label: "Jiu Jitsu", value: "jiujitsu"}, {label: "Skiing", value: "skiing"}, {label: "Surfing", value: "surfing"}, {label: "Snowboarding", value: "snowboarding"}, {label: "Formula 1", value: "formula1"}, {label: "Archery", value: "archery"}, {label: "Cooking", value: "cooking"}, {label: "Football", value: "football"}, {label: "Hiking", value: "hiking"}, {label: "Church", value: "church"}, {label: "Decorating", value: "decorating"}, {label: "Climbing Wall", value: "climbing-wall"}, {label: "Golf", value: "golf"}, {label: "Knitting", value: "knitting"}, {label: "Reading", value: "reading"}, {label: "Xbox", value: "xbox"}]}
       - {label: "Image", name: "image", widget: image}
       - {label: "bio", name: "bio", widget: "markdown"}
 
@@ -92,6 +95,18 @@ collections:
       - {label: "Content", name: "body", widget: "markdown"}
       - {label: "Image Gallery", name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
       - {label: "Testimonial", name: testimonial, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Quote, name: quote, widget: text}]}
+      - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
+
+  - name: "projects"
+    label: "Projects"
+    folder: "src/pages/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-article"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Image", name: "image", widget: image}
       - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
 
   - name: "pages"
