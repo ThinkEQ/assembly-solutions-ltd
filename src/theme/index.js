@@ -57,7 +57,7 @@ const overrides = {
         },
         blue: {
             900: '#091540',
-            800: '#1B2CC1'
+            800: '#1B2CC1',
         },
         gradient: {
             900: 'linear-gradient(151.59deg, #00ABAC 0%, #00AB69 100%)'
