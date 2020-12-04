@@ -1,14 +1,24 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
+
+import { Text, Heading, Box } from '@chakra-ui/react'
+
+// Load components
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import useSiteMetadata from './SiteMetadata'
+import { ChakraProvider } from '@chakra-ui/react'
+
+// Load theme
+import theme from '../theme/index'
+import Button from '../theme/button'
+
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div>
+    <Fragment>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -47,10 +57,21 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
+
       <Navbar />
-      <div>{children}</div>
+      <ChakraProvider theme={theme}>
+      <Box padding="8">
+          <Text textStyle="p" >Test text here</Text>
+          <Heading textStyle="h1" as="h1" >What we get here?</Heading>
+          <Button variant="gradient">Learn more</Button>
+      </Box>
+      
+        <main>
+          {children}
+        </main>
+      </ChakraProvider>
       <Footer />
-    </div>
+    </Fragment>
   )
 }
 
