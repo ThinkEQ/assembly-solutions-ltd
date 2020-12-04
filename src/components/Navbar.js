@@ -1,98 +1,38 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import React, { useState } from 'react'
 
-const Navbar = class extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      active: false,
-      navBarActiveClass: '',
-    }
-  }
+// Load assets
+import Logo from '../img/logo.svg'
 
-  toggleHamburger = () => {
-    // toggle the active boolean in the state
-    this.setState(
-      {
-        active: !this.state.active,
-      },
-      // after state has been updated,
-      () => {
-        // set the class in state for the navbar accordingly
-        this.state.active
-          ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
-          : this.setState({
-              navBarActiveClass: '',
-            })
-      }
-    )
-  }
+// Load components
+import { Box, Text, Image } from '@chakra-ui/react'
+import { ChatIcon } from '@chakra-ui/icons'
+import Hamburger from './UI/Hamburger/Hamburger'
 
-  render() {
-    return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    )
-  }
+const navText = {
+  fontSize: "16px",
+  fontWeight: "bold",
+  color: "#fff",
+  lineHeight: "19px",
+  cursor: "pointer"
+}
+
+const Navbar = () => {
+  const [menu, setMenu] = useState(false)
+  return (
+     <Box position="absolute" top="0" right="0" height="85px" background="gradient.900" borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" alignItems="center">
+        <Box padding="4">
+         <Image src={Logo} alt="asl logo" />
+        </Box>
+        <Box padding="4" minWidth="163px" display="flex" alignItems="center" justifyContent="center">
+          <Text {...navText} onClick={() => setMenu(!menu)}>{menu ? 'Close menu' : 'View menu'}</Text>
+          <Hamburger isOpen={menu} toggle={() => setMenu(!menu)} />
+        </Box>
+        <Box bg="blue.800" padding="4" display="flex" alignItems="center" height="100%" minWidth="222px" justifyContent="center">
+          <ChatIcon color="#fff" marginRight="5px"/>
+          <Text {...navText}>get in touch</Text>
+        </Box>
+    </Box>
+  )
 }
 
 export default Navbar

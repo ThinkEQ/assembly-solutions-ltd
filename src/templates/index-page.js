@@ -2,71 +2,49 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
+// Load components
+import { Box, Heading, Text, Image } from '@chakra-ui/react'
+import Button from '../theme/button'
 import Layout from '../components/Layout'
+
+// Load asset
+import stock from '../img/stock.jpg'
+import DownArrow from '../img/arrowCircleDown.svg'
+
+const imgBk = {
+  background: `linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%), url(${stock});`,
+  backgroundSize: 'cover'
+}
 
 export const IndexPageTemplate = ({
   title,
-}) => (
-  <div>
-    <div
-      className="full-width-image margin-top-0"
-    >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-        <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >
-          {title}
-        </h1>
-        <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-          style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
-        >        </h3>
-      </div>
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{title}</h1>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-)
+  heading,
+  subheading,
+  mainpitch,
+  description,
+  intro,
+}) => {
+return (
+    <Box>
+      <Box as="header" minHeight="100vh" paddingTop="100px" {...imgBk} display="flex">
+          <Box padding="50px"  display="flex" minHeight="100vh" alignItems="flex-start" flexDirection="column" justifyContent="center">
+              <Heading textStyle="h1" textTransform="uppercase" color="#fff">
+                Efficient manufacturing <br/>
+                that delivers <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent"}}>Quality & Speed</Text>
+              </Heading>
+              <Text fontSize="24px" lineHeight="38px" color="#fff" marginBottom="50px">
+                ASL is a family business based in Bolton, manufacturing cable <br/>
+                assemblies, wiring harnesses and control panels.
+              </Text>
+              <Button variant="solid">Watch Full Video</Button>
+          </Box>
+          <Box padding="50px" alignSelf="flex-end" cursor="pointer">
+            <Image src={DownArrow} />
+          </Box>
+      </Box>
+    </Box>
+  )
+}
 
 IndexPageTemplate.propTypes = {
   title: PropTypes.string,
