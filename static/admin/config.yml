@@ -121,7 +121,7 @@ collections:
           - {label: "Image", name: "image", widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Testimonial", name: testimonial, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Quote, name: quote, widget: text}]}
-          - {label: "Industries", name: industries, widget: list, fields: [{label: Name, name: name, widget: text}, {label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}, {label: Featured, name: featured, widget: boolean}]}
+          - {label: "Industries", name: industries, widget: list, fields: [{label: Name, name: name, widget: text}, {label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}, {label: Featured, name: featured, widget: boolean, required: false}]}
           - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
       - file: "src/pages/terms/index.md"
         label: "Terms & Conditions"
