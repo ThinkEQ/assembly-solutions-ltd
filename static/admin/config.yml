@@ -13,19 +13,6 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Tags", name: "tags", widget: "list"}
   - name: "news"
     label: "News"
     folder: "src/pages/news"
@@ -35,9 +22,8 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "news-article"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Article", name: "featuredarticle", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Image", name: "image", widget: image}
       - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
 
   - name: "team"
@@ -48,8 +34,10 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
       - {label: "Name", name: "name", widget: "string"}
+      - {label: "Job title", name: "jobtitle", widget: "string"}
+      - {label: "LinkedIn", name: "linkedin", widget: "string"}
+      - {label: "Interests", name: interests, widget: select, multiple: true, options: [{label: "Cycling", value: "cycling"}, {label: "Gardening", value: "gardening"}, {label: "Jiu Jitsu", value: "jiujitsu"}, {label: "Skiing", value: "skiing"}, {label: "Surfing", value: "surfing"}, {label: "Snowboarding", value: "snowboarding"}, {label: "Formula 1", value: "formula1"}, {label: "Archery", value: "archery"}, {label: "Cooking", value: "cooking"}, {label: "Football", value: "football"}, {label: "Hiking", value: "hiking"}, {label: "Church", value: "church"}, {label: "Decorating", value: "decorating"}, {label: "Climbing Wall", value: "climbing-wall"}, {label: "Golf", value: "golf"}, {label: "Knitting", value: "knitting"}, {label: "Reading", value: "reading"}, {label: "Xbox", value: "xbox"}]}
       - {label: "Image", name: "image", widget: image}
-      - {label: "Alternate Image", name: "alternateimage", widget: image, required: false}
       - {label: "bio", name: "bio", widget: "markdown"}
 
   - name: "video"
@@ -62,52 +50,93 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Embed Link", name: "embed", widget: "text"}
 
-  - name: "testimonial"
-    label: "Testimonial"
-    folder: "src/pages/testimonial"
+  - name: "product-category"
+    label: "Product Group"
+    folder: "src/pages/product-category"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonial"}
-      - {label: "Name", name: "name", widget: "string"}
-      - {label: "Position", name: "position", widget: "string", required: false}
-      - {label: "Company", name: "company", widget: "string", required: false}
-      - {label: "Quote", name: "quote", widget: "text"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-category"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sub-title", name: "subtitle", widget: "string"}
+      - {label: "Image", name: "image", widget: image}
+      - {label: "USP", name: usps, widget: list, fields: [{label: USP, name: usp, widget: string}]}
+      - {label: "Content", name: "body", widget: "markdown"}
+      - {label: "Blurbs", name: blurbs, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
+      - {label: "Image Gallery", name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
+      - {label: "Testimonial", name: testimonial, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Quote, name: quote, widget: text}]}
+      - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
+      - {label: "Products", name: products, widget: relation, collection: product, searchFields: [title], displayFields: [title], valueField: title, multiple: true, required: false}
+
+  - name: "product"
+    label: "Product"
+    folder: "src/pages/product"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sub-title", name: "subtitle", widget: "string"}
+      - {label: "Image", name: "image", widget: image}
+      - {label: "USP", name: usps, widget: list, fields: [{label: USP, name: usp, widget: string}]}
+      - {label: "Content", name: "body", widget: "markdown"}
+      - {label: "Image Gallery", name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
+      - {label: "Testimonial", name: testimonial, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Quote, name: quote, widget: text}]}
+      - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
+
+  - name: "projects"
+    label: "Projects"
+    folder: "src/pages/projects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-article"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Image", name: "image", widget: image}
+      - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
 
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/index.md"
-        label: "Landing Page"
-        name: "index"
-        fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Subheading, name: subheading, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
+          - {label: "Sub-title", name: "subtitle", widget: "string"}
+          - {label: "Intro", name: "intro", widget: "text"}
+          - {label: "Image", name: "image", widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
-      - file: "src/pages/products/index.md"
-        label: "Products Page"
-        name: "products"
+          - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
+      - file: "src/pages/industries/index.md"
+        label: "Industries"
+        name: "industries"
         fields:
-          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page"}
-          - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Heading, name: heading, widget: string}
-          - {label: Description, name: description, widget: string}
-          - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: markdown}]}]}
-          - {label: Main, name: main, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Image1, name: image1, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image2, name: image2, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}, {label: Image3, name: image3, widget: object, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}]}
-          - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
-          - {label: Full_image, name: full_image, widget: image}
-          - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "industries-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Sub-title", name: "subtitle", widget: "string"}
+          - {label: "Intro", name: "intro", widget: "text"}
+          - {label: "Image", name: "image", widget: image}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Testimonial", name: testimonial, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Quote, name: quote, widget: text}]}
+          - {label: "Industries", name: industries, widget: list, fields: [{label: Name, name: name, widget: text}, {label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}, {label: Featured, name: featured, widget: boolean, required: false}]}
+          - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
+      - file: "src/pages/terms/index.md"
+        label: "Terms & Conditions"
+        name: "terms-and-conditions"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "terms-and-conditions-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
+      - file: "src/pages/privacy-policy/index.md"
+        label: "Privacy Policy"
+        name: "privacy-policy"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "privacy-policy-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
+      
