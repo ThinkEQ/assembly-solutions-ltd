@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
@@ -80,3 +81,16 @@ export const pageQuery = graphql`
     }
   }
 `
+=======
+
+
+const NewsPage = () => {
+    return (
+        <div>
+        News Page
+        </div>
+    )
+}
+
+export default NewsPage
+>>>>>>> master
