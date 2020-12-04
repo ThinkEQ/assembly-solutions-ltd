@@ -1,0 +1,22 @@
+---
+templateKey: industries-page
+title: Industries
+subtitle: We supply into any industry and have built a wealth of knowledge and
+  experience over our 25 years in business.
+intro: These include; Agriculture, Automotive, Construction, Energy & Utilities,
+  Engineering, Lighting, Medical, Nanotechnology, Nuclear and Test &
+  Measurement.
+image: /img/blog-index.jpg
+testimonial:
+  quote: "Excellent service, great quality and very few issues. We have been using
+    ASL since 2013 and have been very satisfied with their work, delivery time
+    scales, responsiveness to issues, and staff attitude towards customers has
+    been great. "
+  name: A happy customer in the Automotive industry.
+industries:
+  - name: Agriculture
+    image: /img/blog-index.jpg
+    alt: Agriculture
+    featured: false
+---
+We are definitely diverse when it comes to...
