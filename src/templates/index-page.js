@@ -31,7 +31,7 @@ return (
           <Box padding="50px"  display="flex" minHeight="100vh" alignItems="flex-start" flexDirection="column" justifyContent="center">
               <Heading textStyle="h1" textTransform="uppercase" color="#fff">
                 Efficient manufacturing <br/>
-                that delivers <Text as="span">Quality & Speed</Text>
+                that delivers <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent"}}>Quality & Speed</Text>
               </Heading>
               <Text fontSize="24px" lineHeight="38px" color="#fff" marginBottom="50px">
                 ASL is a family business based in Bolton, manufacturing cable <br/>
