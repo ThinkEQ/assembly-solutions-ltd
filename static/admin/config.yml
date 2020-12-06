@@ -30,9 +30,9 @@ collections:
     label: "Team"
     folder: "src/pages/team"
     create: true
-    slug: "{{slug}}"
+    identifier_field: name
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-member"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Job title", name: "jobtitle", widget: "string"}
       - {label: "LinkedIn", name: "linkedin", widget: "string"}
