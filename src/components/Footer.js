@@ -25,7 +25,7 @@ const Footer = () => {
         <Box width="48%">
           <InputGroup size="lg">
             <Input borderRadius="3px" color="blue.900" placeholder="name@email.com" borderColor="blue.900" border="none" height="72px" background="#fff" />
-            <InputRightElement width="175px" children={<Button variant="solid" height="72px">Subscribe</Button>} height="72px" background="green.900" fontWeight="bold" borderTopRightRadius="3px" borderBottomRightRadius="3px" />
+            <InputRightElement width="175px" children={<Button variant="solid" height="72px" whiteSpace="nowrap">Subscribe</Button>} height="72px" background="green.900" fontWeight="bold" borderTopRightRadius="3px" borderBottomRightRadius="3px" />
           </InputGroup>
           <Box display="flex" alignItems="flex-start" justifyContent="space-between" width="80%" marginTop="20px">
             <Text {...para} >
