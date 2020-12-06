@@ -10,6 +10,7 @@ import { Heading, Box, Text, Image, Link, Drawer, DrawerBody, DrawerContent, Dra
 import { ChatIcon } from '@chakra-ui/icons'
 import Hamburger from './UI/Hamburger/Hamburger'
 import Button from '../theme/button'
+import SVG from '../components/UI/SVG/index'
 
 const navText = {
   fontSize: "16px",
@@ -29,7 +30,7 @@ const menuLink = {
 
 const MainNav = () => (
   <Box display="flex" alignItems="flex-start" justifyContent="space-around" height="100%">
-  <Box>
+  <Box paddingBottom="20px">
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/" {...menuLink}>Home</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/about-us" {...menuLink}>About</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/industries" {...menuLink}>Industries</Link>
@@ -37,6 +38,13 @@ const MainNav = () => (
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/projects" {...menuLink}>Projects</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/teams" {...menuLink}>Teams</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/videos" {...menuLink}>Videos</Link>
+    <Box display="flex" alignItems="center">
+      <SVG name="youtube" fill="#fff" />
+      <Box margin="0 15px"><SVG name="linkedin" fill="#fff" /></Box>
+      <Text color="#fff" fontSize="18px" marginRight="10px">
+        ASL &copy;2020
+      </Text>
+    </Box>
   </Box>
   <Box>
     <Text {...menuLink} fontWeight="300" fontSize="34px">Products & Services</Text>
@@ -93,19 +101,19 @@ const ContactUs = () => {
         <Box spacing="4" display="flex" justifyContent="space-between" flexWrap="wrap">
             <FormControl id="firstName" color="#fff" width="45%" marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">First name</FormLabel>
-            <Input size="lg" display="inline-block" />
+            <Input size="lg" height="67px" display="inline-block" />
           </FormControl>
           <FormControl color="#fff" width="45%" marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">Last name</FormLabel>
-            <Input size="lg" display="inline-block" />
+            <Input size="lg" height="67px" display="inline-block" />
           </FormControl>
           <FormControl id="Telephone" color="#fff" width="45%" marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">Telephone number</FormLabel>
-            <Input type="tel" size="lg" display="inline-block" />
+            <Input type="tel" size="lg" height="67px" display="inline-block" />
           </FormControl>
           <FormControl id="eamil" color="#fff" width="45%" marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">Email address</FormLabel>
-            <Input type="email" size="lg" display="inline-block" />
+            <Input type="email" size="lg" height="67px" display="inline-block" />
           </FormControl>
           <Textarea size="lg" color="#fff" />
           <Box display="flex" justifyContent="flex-end" width="100%" padding="10px 0">
@@ -139,7 +147,7 @@ const Navbar = () => {
     }
   }
   return (
-     <Box position="absolute" top="0" right="0" height="85px" background="gradient.900" borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" alignItems="center">
+     <Box position="absolute" top="0" right="0" height="72px" background="gradient.900" borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" alignItems="center">
         <Box padding="4" zIndex={menu ? "2000" : "0"}>
          <Image src={Logo} alt="asl logo" />
         </Box>

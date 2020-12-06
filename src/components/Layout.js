@@ -10,6 +10,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 
 // Load theme
 import theme from '../theme/index'
+import '../fonts/fonts.css'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()

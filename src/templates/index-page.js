@@ -38,7 +38,7 @@ return (
               </Text>
               <Button variant="solid">Watch Full Video</Button>
           </Box>
-          <Box padding="50px" alignSelf="flex-end" cursor="pointer">
+          <Box display="flex" width="20%" justifyContent="flex-end" padding="50px" alignSelf="flex-end" cursor="pointer">
             <Image src={DownArrow} />
           </Box>
       </Box>
