@@ -8,21 +8,17 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
   const PageContent = contentComponent || Content
 
   return (
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <div className="section">
-              <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
-                {title}
-              </h2>
-              <p>{subtitle}</p>
-              <p>{intro}</p>
-              <PageContent className="content" content={content} />
-            </div>
-          </div>
-        </div>
-      </div>
+    <section>
+        <h1>
+            {title}
+        </h1>
+        <h2>
+            {subtitle}
+        </h2>
+        <p>
+            {intro}
+        </p>
+        <PageContent className="content" content={content} />
     </section>
   )
 }
