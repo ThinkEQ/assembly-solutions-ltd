@@ -44,6 +44,9 @@ const overrides = {
             fontSize: "20px",
             lineHeight: "38px",
             letterSpacing: "0.71px",
+        },
+        section: {
+            padding: {base: "6", lg:"12"}
         }
     },
     colors: {
@@ -59,9 +62,13 @@ const overrides = {
             900: '#091540',
             800: '#1B2CC1',
         },
+        neutral: {
+            900: '#FAFAFA'
+        },
         gradient: {
             900: 'linear-gradient(151.59deg, #00ABAC 0%, #00AB69 100%)',
-            800: 'linear-gradient(184.08deg, #1B2CC1 0%, #091540 100%)'
+            800: 'linear-gradient(184.08deg, #1B2CC1 0%, #091540 100%)',
+            700: 'linear-gradient(270deg, rgba(36,155,171,0.05) 0%, rgba(36,155,171,0.5) 31.24%, #249BAB 100%)'
         }
     }
 }
