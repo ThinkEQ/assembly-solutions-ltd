@@ -60,7 +60,8 @@ const overrides = {
             800: '#1B2CC1',
         },
         gradient: {
-            900: 'linear-gradient(151.59deg, #00ABAC 0%, #00AB69 100%)'
+            900: 'linear-gradient(151.59deg, #00ABAC 0%, #00AB69 100%)',
+            800: 'linear-gradient(184.08deg, #1B2CC1 0%, #091540 100%)'
         }
     }
 }

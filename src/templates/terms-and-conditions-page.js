@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 
-export const IndustryPageTemplate = ({ title, content, contentComponent, subtitle, intro }) => {
+export const TermsPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -12,53 +12,43 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
         <h1>
             {title}
         </h1>
-        <h2>
-            {subtitle}
-        </h2>
-        <p>
-            {intro}
-        </p>
         <PageContent className="content" content={content} />
     </section>
   )
 }
 
-IndustryPageTemplate.propTypes = {
+TermsPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const IndustryPage = ({ data }) => {
+const TermsPage = ({ data }) => {
   const { markdownRemark: post } = data
 
   return (
     <Layout>
-      <IndustryPageTemplate
+      <TermsPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
-        subtitle={post.frontmatter.subtitle}
-        intro={post.frontmatter.intro}
         content={post.html}
       />
     </Layout>
   )
 }
 
-IndustryPage.propTypes = {
+TermsPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default IndustryPage
+export default TermsPage
 
-export const industryPageQuery = graphql`
-  query IndustryPage($id: String!) {
+export const termsPageQuery = graphql`
+  query TermsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {
-        title,
-        subtitle,
-        intro
+        title
       }
     }
   }
