@@ -11,9 +11,9 @@ import Stars from '../../../img/stars.svg'
 
 const Group = ({ text, icon, altText }) => {
     return (
-        <Box display="flex" justifyContent="space-between" flexDirection="column" alignItems="center" marginBottom={{base: "50px", xl: "0"}} minWidth={{base: "100%", md:"50%", lg: "25%"}}>
-            <Image src={icon} alt={altText} height="110px" />
-            <Text fontSize="30px" fontWeight="bold" marginTop="50px">
+        <Box display="flex" justifyContent="space-between" flexDirection="column" alignItems="center" marginBottom={{base: "50px", lg: "0"}} width={{base: "48%", lg: "24%"}}>
+            <Image src={icon} alt={altText} height={{base:"80px", md: "110px"}} />
+            <Text fontSize={{base: "18px", md:"30px"}} textAlign="center" fontWeight="bold" marginTop={{base: "30px", md:"50px"}} >
                 {text}
             </Text>
         </Box>
@@ -26,7 +26,7 @@ const BannerUSP = () => {
             <Heading textStyle="h2" marginBottom="20">
                 Why buy from us?
             </Heading>
-            <Box display="flex" justifyContent={{base: "center", sm: "space-between", md:"space-around"}} alignItems="center" flexWrap="wrap">
+            <Box display="flex" justifyContent={{base: "space-between", md:"space-between"}} alignItems="center" flexWrap="wrap">
                 <Group icon={Hand} text="Quality Assurance" altText="hand icon" />
                 <Group icon={User} text="Family Business" altText="user icon" />
                 <Group icon={Fast} text="Fast Delivery" altText="van icon" />

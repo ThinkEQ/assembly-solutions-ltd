@@ -26,13 +26,13 @@ const overrides = {
     },
     textStyles: {
         h1: {
-            fontSize: "60px",
-            lineHeight: "72px",
+            fontSize: {base: "42px", md:"60px"},
+            lineHeight: {base: "62px", md:"72px"},
             lettSpacing: "-2.12px"
         },
         h2: {
-            fontSize: "44px",
-            lineHeight: "53px",
+            fontSize: {base: "28px", md:"44px"},
+            lineHeight: {base: "34px", md: "53px"},
             letterSpacing: "-1.55px"
         },
         h3: {
@@ -41,12 +41,12 @@ const overrides = {
             letterSpacing: "-1.06px"
         },
         p: {
-            fontSize: "20px",
+            fontSize: {base: "16px", md:"20px"},
             lineHeight: "38px",
             letterSpacing: "0.71px",
         },
         section: {
-            padding: {base: "6", lg:"12"}
+            padding: {base: "6", lg:"16"}
         }
     },
     colors: {

@@ -56,7 +56,9 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
 
       <ChakraProvider theme={theme}>
-          <Navbar />
+          <nav>
+            <Navbar />
+          </nav>
           <main>
             {children}
           </main>

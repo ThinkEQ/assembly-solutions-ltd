@@ -19,9 +19,9 @@ const BannerOurCustomers = () => {
                     </Text>
                 </Box>
 
-                <Box display="flex" alignSelf="center" height="100%">
-                    <Image src={ring} alt="circular" marginRight="20px" />
-                    <Image src={ring} alt="circular" />
+                <Box display="flex" alignSelf="center" justifyContent="space-between" height="100%" width={{base: "100%", lg:"40%"}}>
+                    <Image src={ring} alt="circular" width="45%" />
+                    <Image src={ring} alt="circular" width="45%" />
                 </Box>
             </Box>
         </Box>
