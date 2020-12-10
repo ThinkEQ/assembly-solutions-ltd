@@ -6,7 +6,7 @@ import Logo from '../img/logo.svg'
 import MapMock from '../img/mockmap.png'
 
 // Load components
-import { Heading, Box, Text, Image, Link, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, useDisclosure, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react'
+import { keyframes, Heading, Box, Text, Image, Link, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, useDisclosure, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react'
 import { ChatIcon } from '@chakra-ui/icons'
 import Hamburger from './UI/Hamburger/Hamburger'
 import Button from '../theme/button'
@@ -27,6 +27,13 @@ const menuLink = {
   fontFamily: "inherit",
   color: "#fff"
 }
+
+const flow = keyframes `
+  0%{background-position: 0% 50%}
+  50%{background-position: 100% 50%}
+  100%{background-position: 0% 50%}
+`
+
 
 const MainNav = () => (
   <Box display="flex" alignItems="flex-start" justifyContent="space-around" height="100%">
@@ -129,45 +136,55 @@ const ContactUs = () => {
 const Navbar = () => {
   const [menu, setMenu] = useState(false)
   const {isOpen, onClose, onOpen } = useDisclosure()
-
+  
   function toggleDrawer(type) {
-      
-    // toggle main nav
-    if (type === 'nav') {
-          setMenu(!menu)
-          onOpen()
-      }
 
-    if (type === 'contact') {
-        onOpen()
-    }
-
-    if (isOpen) {
+    if (isOpen && type === menu) {
       return onClose()
     }
+
+    // if (isOpen && type !== menu) {
+    //   onClose()
+    // }
+
+    setMenu(type)
+    onOpen()
+    return
+  }
+
+  let menuDisplay = null
+
+  switch(menu) {
+    case 'nav':
+      menuDisplay = <MainNav />
+      break
+    case 'contact':
+      menuDisplay = <ContactUs />
+      break
+    default:
+      menuDisplay = null
   }
   return (
-     <Box position="absolute" top="0" right="0" height="72px" background="gradient.900" borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" alignItems="center">
-        <Box padding="4" zIndex={menu ? "2000" : "0"}>
+     <Box animation={`${flow} infinite 15s ease`} position="absolute" top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" alignItems="center">
+        <Box padding="4" zIndex={menu === 'nav' ? "2000" : "0"}>
          <Image src={Logo} alt="asl logo" />
         </Box>
-        <Box padding="4" minWidth="163px" display="flex" alignItems="center" justifyContent="center" zIndex={menu ? "2000" : "0"}>
-          <Text {...navText} onClick={() => toggleDrawer('nav')}>{menu ? 'Close menu' : 'View menu'}</Text>
-          <Hamburger isOpen={menu} toggle={() => toggleDrawer('nav')} />
+        <Box padding="4" minWidth="163px" display="flex" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : "0"}>
+          <Text {...navText} onClick={() => toggleDrawer('nav')}>{(isOpen && menu === 'nav') ? 'Close menu' : 'View menu'}</Text>
+          <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={() => toggleDrawer('nav')} />
         </Box>
-        <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" display="flex" alignItems="center" height="100%" minWidth="222px" justifyContent="center" zIndex={menu ? "2000" : "0"}>
+        <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" display="flex" alignItems="center" height="100%" minWidth="222px" borderBottomLeftRadius="3.2px" justifyContent="center" zIndex={menu === 'nav' ? "2000" : "0"}>
           <ChatIcon color="#fff" marginRight="5px"/>
           <Text {...navText}>get in touch</Text>
         </Box>
         <Drawer placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
         <DrawerOverlay />
-        <DrawerContent background={menu ? "gradient.900" : "gradient.800"}>
+        <DrawerContent animation={`${flow} infinite 15s ease`} background={menu === 'nav' ? 'gradient.900' : 'gradient.800'} backgroundSize="600% 600%" >
           <DrawerHeader minHeight="100px">
-          {!menu && <DrawerCloseButton color="#fff" />}
+          {menu === 'contact' && <DrawerCloseButton color="#fff" />}
           </DrawerHeader>
             <DrawerBody>
-              {menu && <MainNav />}
-              {!menu && <ContactUs />}
+             {menuDisplay}
             </DrawerBody>
         </DrawerContent>
       </Drawer>

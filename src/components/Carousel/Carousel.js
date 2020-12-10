@@ -27,9 +27,9 @@ export const SlideRight = (props) => {
     )
 }
 
-const Carousel = ({ children, totalSlides }) => {
+const Carousel = ({ children, setHeight, setWidth, hildren, totalSlides, ...props }) => {
     return (
-        <CarouselProvider isIntrinsicHeight infinite naturalSlideWidth={100} naturalSlideHeight={100} totalSlides={totalSlides} orientation="horizontal">
+        <CarouselProvider naturalSlideWidth={setHeight} naturalSlideHeight={setWidth} totalSlides={totalSlides} orientation="horizontal" {...props}>
             {children}
         </CarouselProvider>
     )

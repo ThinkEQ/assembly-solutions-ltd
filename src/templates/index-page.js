@@ -11,6 +11,7 @@ import Carousel, { SlideLeft, SlideRight } from '../components/Carousel/Carousel
 import { Slider, Slide } from 'pure-react-carousel'
 import ProductSlide from '../components/ProductSlide/ProductSlide'
 import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerOurCustomers'
+import CardNews from '../components/Cards/CardNews/CardNews'
 
 // Load asset
 import stock from '../img/stock.jpg'
@@ -59,8 +60,8 @@ return (
         <Heading textStyle="h1" marginBottom={{base: "40px", lg:"60px"}}>
           What we do?
         </Heading>
-        <Carousel totalSlides={3}>
-            <Slider onMasterSpinner>
+        <Carousel totalSlides={3} isIntrinsicHeight infinite setHeight={100} setWidth={100}>
+            <Slider >
               <Slide index={0}>
                 <ProductSlide
                   heading="Cable Assembly"
@@ -102,14 +103,32 @@ return (
             </Box>
       </Box>
 
-      <Box as="section" position="relative">
+      <Box as="section" position="relative" overflow="hidden">
         <Box width="100%" height="440px" textStyle="section" background="blue.900">
           <Heading textStyle="h2" color="#fff">
             Latest News
           </Heading>
         </Box>
         <Box  width="100%" height="440px" background="neutral.900" />
-      
+        <Box height="600px" overflow="auto" width="100%" position="absolute" top="55%" left="10%" transform="translateY(-50%)">
+
+        <Carousel isIntrinsicHeight totalSlides={5} visibleSlides={3} setHeight={100} setWidth={100}>
+        <Slider >
+          <Slide index={0} style={{padding: "10px", width: "500px"}}>
+            <CardNews imgSrc={stock} title="ASL 1 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
+          </Slide>
+          <Slide index={1} style={{padding: "10px", width: "500px"}}>
+            <CardNews imgSrc={stock} title="ASL 2 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
+          </Slide>
+          <Slide index={2} style={{padding: "10px", width: "500px"}}>
+            <CardNews imgSrc={stock} title="ASL 3 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
+          </Slide>
+          <Slide index={3} style={{padding: "10px", width: "500px"}}>
+          <CardNews imgSrc={stock} title="ASL 4 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
+        </Slide>
+        </Slider>
+        </Carousel>
+        </Box>
       </Box>
      
       <BannerUSP />
