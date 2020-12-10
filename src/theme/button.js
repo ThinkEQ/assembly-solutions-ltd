@@ -26,6 +26,10 @@ export const ButtonStyles = {
         gradient: {
             bg: "gradient.900",
             color: "#fff"
+        },
+        outline: {
+            bg: "transparent",
+            color: "#fff"
         }
     },
     defaultProps: {
