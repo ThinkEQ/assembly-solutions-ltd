@@ -3,7 +3,7 @@ import { Box, Image, Text } from '@chakra-ui/react'
 
 const CardNews = ({ title, date, imgSrc, imgAlt }) => {
     return (
-        <Box borderRadius="4px" display="flex" flexDirection="column" background="#fff" height="470px" width="100%" overflow="hidden">
+        <Box borderRadius="4px" display="flex" flexDirection="column" background="#fff" height={{base: "370px", md:"470px"}} width="100%" overflow="hidden">
             <Box height="50%" width="100%" overflow="hidden">
                 <Image src={imgSrc} alt={imgAlt} />
             </Box>

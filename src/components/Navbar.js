@@ -36,7 +36,7 @@ const flow = keyframes `
 
 
 const MainNav = () => (
-  <Box display="flex" alignItems="flex-start" justifyContent="space-around" height="100%">
+  <Box display="flex" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} justifyContent="space-around" >
   <Box paddingBottom="20px">
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/" {...menuLink}>Home</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/about-us" {...menuLink}>About</Link>
@@ -45,7 +45,7 @@ const MainNav = () => (
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/projects" {...menuLink}>Projects</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/teams" {...menuLink}>Teams</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/videos" {...menuLink}>Videos</Link>
-    <Box display="flex" alignItems="center">
+    <Box display="flex" alignItems="center" margin={{base: "20px 0", lg: "0"}}>
       <SVG name="youtube" fill="#fff" />
       <Box margin="0 15px"><SVG name="linkedin" fill="#fff" /></Box>
       <Text color="#fff" fontSize="18px" marginRight="10px">
@@ -143,10 +143,6 @@ const Navbar = () => {
       return onClose()
     }
 
-    // if (isOpen && type !== menu) {
-    //   onClose()
-    // }
-
     setMenu(type)
     onOpen()
     return
@@ -169,11 +165,11 @@ const Navbar = () => {
         <Box padding="4" zIndex={menu === 'nav' ? "2000" : "0"}>
          <Image src={Logo} alt="asl logo" />
         </Box>
-        <Box padding="4" minWidth="163px" display="flex" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : "0"}>
-          <Text {...navText} onClick={() => toggleDrawer('nav')}>{(isOpen && menu === 'nav') ? 'Close menu' : 'View menu'}</Text>
+        <Box padding="4" display="flex" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : "0"}>
+          <Text {...navText} minWidth="90px" display={{base: "none", lg: "block"}} onClick={() => toggleDrawer('nav')}>{(isOpen && menu === 'nav') ? 'Close menu' : 'View menu'}</Text>
           <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={() => toggleDrawer('nav')} />
         </Box>
-        <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" display="flex" alignItems="center" height="100%" minWidth="222px" borderBottomLeftRadius="3.2px" justifyContent="center" zIndex={menu === 'nav' ? "2000" : "0"}>
+        <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" display="flex" alignItems="center" height="100%" minWidth={{base: "40%", md:"222px"}} borderBottomLeftRadius="3.2px" justifyContent="center" zIndex={menu === 'nav' ? "2000" : "0"}>
           <ChatIcon color="#fff" marginRight="5px"/>
           <Text {...navText}>get in touch</Text>
         </Box>

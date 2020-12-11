@@ -64,7 +64,8 @@ const overrides = {
         },
         neutral: {
             900: '#FAFAFA',
-            800: "#A0A0A0"
+            800: "#A0A0A0",
+            700: '#D9D9D9'
         },
         gradient: {
             900: 'linear-gradient(-45deg, #00ABAC 0%, #00AB69, #00ABAC, #00AB69 100%)',

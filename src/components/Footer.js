@@ -108,6 +108,19 @@ const Footer = () => {
           <SVG name="youtube" />
           <SVG name="linkedin" />
         </Box>
+
+      <List justifyContent="space-around" alignItems="flex-start" width="100%" marginBottom="20px" display={{base: "flex", lg: "none"}}>
+        <ListItem {...para} fontWeight="300">
+          <Link as={ReachLink} to="/terms">
+            Terms of Use
+          </Link>
+        </ListItem>
+        <ListItem {...para} fontWeight="300">
+          <Link as={ReachLink} to="/privacy">
+            Privacy Policy
+          </Link>
+        </ListItem>
+      </List>
         
         <Box>
           <Text fontSize="14px" lineHeight="17px" marginBottom={{base: "20px", lg: "0"}}>
