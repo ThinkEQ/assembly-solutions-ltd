@@ -5,7 +5,8 @@ import Img from 'gatsby-image'
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const { alt = '', childImageSharp, image } = imageInfo
   const maxHeight = childImageSharp.fluid.presentationHeight ? childImageSharp.fluid.presentationHeight : "auto"
-  const imageStyle = { maxHeight: maxHeight }
+  const maxWidth = childImageSharp.fluid.presentationWidth ? childImageSharp.fluid.presentationWidth : "auto"
+  const imageStyle = { maxHeight, maxWidth }
   if (!!image && !!image.childImageSharp) {
     return (
       <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />
