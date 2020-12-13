@@ -3,17 +3,15 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 // Load components
-import { Box, Heading, Text, Image, useMediaQuery } from '@chakra-ui/react'
+import { Box, Heading, Text, Image } from '@chakra-ui/react'
 import Button from '../theme/button'
 import Layout from '../components/Layout'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import Carousel, { SlideLeft, SlideRight } from '../components/Carousel/Carousel'
 import { Slider, Slide } from 'pure-react-carousel'
+import CarouselNews from '../components/Carousel/CarouselNews'
 import ProductSlide from '../components/ProductSlide/ProductSlide'
 import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerOurCustomers'
-import CardNews from '../components/Cards/CardNews/CardNews'
-
-import CustomSlide from '../components/Slider/Slider'
 
 // Load asset
 import stock from '../img/stock.jpg'
@@ -35,7 +33,7 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
+
 return (
     <Fragment>
       <Box as="header" minHeight={{base: "calc(100vh - 50px)", lg:"calc(100vh - 100px)"}} paddingTop={{base: "50px", lg: "100px"}} {...imgBk}>
@@ -107,32 +105,7 @@ return (
       </Box>
 
       <Box as="section" position="relative" width="100%" overflow="hidden">
-        <Box width="100%" height={{base: "240px", md:"440px"}} textStyle="section" background="blue.900">
-          <Heading textStyle="h2" color="#fff">
-            Latest News
-          </Heading>
-        </Box>
-        <Box  width="100%" height={{base: "340px", md:"440px"}} background="neutral.900" />
-        <Box height="600px" overflow="auto" width="100%" position="absolute" top={{base: "70%", md:"60%"}} left={{base:"0", lg:"10%"}} transform="translateY(-50%)">
-
-        <Carousel isIntrinsicHeight totalSlides={5} visibleSlides={isLargerThan900 ? 3 : 1} setHeight={400} setWidth={400}>
-          <Slider >
-              <Slide index={0} style={{padding: "10px"}}>
-                <CardNews imgSrc={stock} title="ASL 1 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
-              </Slide>
-              <Slide index={1} style={{padding: "10px"}}>
-                <CardNews imgSrc={stock} title="ASL 2 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
-              </Slide>
-              <Slide index={2} style={{padding: "10px"}}>
-                <CardNews imgSrc={stock} title="ASL 3 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
-              </Slide>
-              <Slide index={3} style={{padding: "10px"}}>
-                <CardNews imgSrc={stock} title="ASL 4 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
-              </Slide>
-            </Slider>
-            <CustomSlide />
-        </Carousel>
-        </Box>
+       <CarouselNews />
       </Box>
      
       <BannerUSP />
