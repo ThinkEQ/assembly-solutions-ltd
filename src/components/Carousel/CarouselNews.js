@@ -3,7 +3,7 @@ import React, { Fragment } from 'react'
 // Load components
 import { Slider, Slide } from 'pure-react-carousel'
 import { Box, Heading, useMediaQuery } from '@chakra-ui/react'
-import Carousel from './Carousel'
+import Carousel from './index'
 import CardNews from '../Cards/CardNews/CardNews'
 import CustomSlide from '../Slider/Slider'
 

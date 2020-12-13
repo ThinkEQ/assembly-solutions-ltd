@@ -14,7 +14,7 @@ const overrides = {
             },
             // Global element styles - non specific
             a: {
-                color: mode("blue.900")(props)
+                color: mode("green.900")(props)
             }
         })
     },

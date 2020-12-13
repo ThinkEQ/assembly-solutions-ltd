@@ -7,16 +7,13 @@ import { Box, Heading, Text, Image } from '@chakra-ui/react'
 import Button from '../theme/button'
 import Layout from '../components/Layout'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
-import Carousel, { SlideLeft, SlideRight } from '../components/Carousel/Carousel'
-import { Slider, Slide } from 'pure-react-carousel'
+import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import CarouselNews from '../components/Carousel/CarouselNews'
-import ProductSlide from '../components/ProductSlide/ProductSlide'
 import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerOurCustomers'
 
 // Load asset
 import stock from '../img/stock.jpg'
 import DownArrow from '../img/arrowCircleDown.svg'
-import stockCable from '../img/stockWire.jpg'
 
 const imgBk = {
   background: `linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%), url(${stock});`,
@@ -58,36 +55,7 @@ return (
           </Box>
       </Box>
       <Box textStyle="section" as="section" minHeight="700px" position="relative" background="neutral.900">
-        <Heading textStyle="h1" marginBottom={{base: "40px", lg:"60px"}}>
-          What we do?
-        </Heading>
-        <Carousel totalSlides={3} isIntrinsicHeight infinite setHeight={100} setWidth={100}>
-            <Slider >
-              <Slide index={0}>
-                <ProductSlide
-                  heading="Cable Assembly"
-                  text="With an IPC A-620 fully trained workforce, we guarantee low costs and high quality on all our cable assembly manufacture."
-                  imgSrc={stockCable}
-                />
-              </Slide>
-              <Slide index={1}>
-                <ProductSlide
-                  heading="Mock Slide"
-                  text="With an IPC A-620 fully trained workforce, we guarantee low costs and high quality on all our cable assembly manufacture."
-                  imgSrc={stockCable}
-                />
-              </Slide>
-              <Slide index={3}>
-              <ProductSlide
-                heading="Mock Slide - 2"
-                text="With an IPC A-620 fully trained workforce, we guarantee low costs and high quality on all our cable assembly manufacture."
-                imgSrc={stockCable}
-              />
-            </Slide>
-            </Slider>
-            <SlideLeft position="absolute" top="50%" left="20px" transform="translateY(-50%)" display={{base: "none", lg: "block"}}  />
-            <SlideRight position="absolute" top="50%" right="20px" transform="translateY(-50%)" display={{base: "none", lg: "block"}} />
-        </Carousel>
+        <CarouselWhatWeDo />
       </Box>
       <Box as="section" >
        <BannerOurCustomers />

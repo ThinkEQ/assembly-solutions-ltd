@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Heading, Text, Image } from '@chakra-ui/react'
-import { SlideLeft, SlideRight } from '../Carousel/Carousel'
+import { SlideLeft, SlideRight } from '../Carousel/CarouselWhatWeDo'
 import Button from '../../theme/button'
 
 const ProductSlide = ({ heading, text, btnLink, imgSrc, imgAlt }) => {
