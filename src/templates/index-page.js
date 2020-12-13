@@ -9,6 +9,7 @@ import Layout from '../components/Layout'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import Carousel, { SlideLeft, SlideRight } from '../components/Carousel/Carousel'
 import { Slider, Slide } from 'pure-react-carousel'
+import CarouselNews from '../components/Carousel/CarouselNews'
 import ProductSlide from '../components/ProductSlide/ProductSlide'
 import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerOurCustomers'
 
@@ -32,6 +33,7 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
+
 return (
     <Fragment>
       <Box as="header" minHeight={{base: "calc(100vh - 50px)", lg:"calc(100vh - 100px)"}} paddingTop={{base: "50px", lg: "100px"}} {...imgBk}>
@@ -59,8 +61,8 @@ return (
         <Heading textStyle="h1" marginBottom={{base: "40px", lg:"60px"}}>
           What we do?
         </Heading>
-        <Carousel totalSlides={3}>
-            <Slider onMasterSpinner>
+        <Carousel totalSlides={3} isIntrinsicHeight infinite setHeight={100} setWidth={100}>
+            <Slider >
               <Slide index={0}>
                 <ProductSlide
                   heading="Cable Assembly"
@@ -98,18 +100,12 @@ return (
                 <Text textStyle="p" marginBottom={12} maxW={{base: "100%", lg:"70%"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
-                <Button variant="outline">Lear more</Button>
+                <Button variant="outline">Learn more</Button>
             </Box>
       </Box>
 
-      <Box as="section" position="relative">
-        <Box width="100%" height="440px" textStyle="section" background="blue.900">
-          <Heading textStyle="h2" color="#fff">
-            Latest News
-          </Heading>
-        </Box>
-        <Box  width="100%" height="440px" background="neutral.900" />
-      
+      <Box as="section" position="relative" width="100%" overflow="hidden">
+       <CarouselNews />
       </Box>
      
       <BannerUSP />
