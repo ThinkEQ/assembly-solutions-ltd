@@ -102,7 +102,7 @@ return (
                 <Text textStyle="p" marginBottom={12} maxW={{base: "100%", lg:"70%"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
-                <Button variant="outline">Lear more</Button>
+                <Button variant="outline">Learn more</Button>
             </Box>
       </Box>
 

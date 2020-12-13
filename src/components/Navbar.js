@@ -66,7 +66,7 @@ const MainNav = () => (
 const ContactUs = () => {
   return (
     <Box>
-      <Box display="flex" justifyContent="space-between">
+      <Box display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}}>
         <Box color="#fff">
           <Heading textStyle="h1" as="h1" color="#fff">
             Contact us
@@ -105,20 +105,20 @@ const ContactUs = () => {
         </Box>
       </Box>
       <Box marginTop="50px">
-        <Box spacing="4" display="flex" justifyContent="space-between" flexWrap="wrap">
-            <FormControl id="firstName" color="#fff" width="45%" marginBottom="6">
+        <Box spacing="4" display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}} flexWrap={{base: "nowrap", lg: "wrap" }}>
+            <FormControl id="firstName" color="#fff" width={{base: "100%", lg:"45%"}} marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">First name</FormLabel>
             <Input size="lg" height="67px" display="inline-block" />
           </FormControl>
-          <FormControl color="#fff" width="45%" marginBottom="6">
+          <FormControl color="#fff" width={{base: "100%", lg:"45%"}} marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">Last name</FormLabel>
             <Input size="lg" height="67px" display="inline-block" />
           </FormControl>
-          <FormControl id="Telephone" color="#fff" width="45%" marginBottom="6">
+          <FormControl id="Telephone" color="#fff" width={{base: "100%", lg:"45%"}} marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">Telephone number</FormLabel>
             <Input type="tel" size="lg" height="67px" display="inline-block" />
           </FormControl>
-          <FormControl id="eamil" color="#fff" width="45%" marginBottom="6">
+          <FormControl id="eamil" color="#fff" width={{base: "100%", lg:"45%"}} marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">Email address</FormLabel>
             <Input type="email" size="lg" height="67px" display="inline-block" />
           </FormControl>
@@ -173,7 +173,7 @@ const Navbar = () => {
           <ChatIcon color="#fff" marginRight="5px"/>
           <Text {...navText}>get in touch</Text>
         </Box>
-        <Drawer placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
+        <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
         <DrawerOverlay />
         <DrawerContent animation={`${flow} infinite 15s ease`} background={menu === 'nav' ? 'gradient.900' : 'gradient.800'} backgroundSize="600% 600%" >
           <DrawerHeader minHeight="100px">
