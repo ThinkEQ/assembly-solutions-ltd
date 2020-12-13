@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphq, Link as ReachLink } from 'gatsby'
 
 // Load components
 import Content, { HTMLContent } from '../components/Content'
 import { BsCircleFill } from 'react-icons/bs'
-import { Box, Text, Heading, List, ListItem, ListIcon } from '@chakra-ui/react'
+import { Box, Text, Heading, List, ListItem, ListIcon, Link } from '@chakra-ui/react'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import ImageComp from '../components/PreviewCompatibleImage'
 import Button from '../theme/button'
@@ -80,7 +80,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
 
         <Box display="flex" justifyContent="center" margin="20px 0">
           <Button variant="solid" width="100%" maxWidth="327px">
-            Meet the team
+            <Link as={ReachLink} to="/team" textDecoration="none" _hover={{textDecoration: "none"}}>
+              Meet the team
+            </Link>
           </Button>
         </Box>
       </Box>
