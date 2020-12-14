@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import { graphq, Link as ReachLink } from 'gatsby'
+import { graphql , Link as ReachLink } from 'gatsby'
 
 // Load components
 import Content, { HTMLContent } from '../components/Content'
@@ -102,8 +102,7 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
-  console.log(data)
-
+  
   return (
     <Layout>
       <AboutPageTemplate
