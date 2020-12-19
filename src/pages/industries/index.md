@@ -18,6 +18,15 @@ industries:
     image: /img/blog-index.jpg
     alt: Agriculture
     featured: false
+  - name: Automotive
+    image: /img/home-jumbotron.jpg
+    alt: Automotive
+  - name: Construction
+    alt: Construction
+    image: /img/flavor_wheel.jpg
+  - name: Nuclear
+    image: /img/jumbotron.jpg
+    alt: Nuclear
 ---
 We are definitely diverse when it comes to the Industries and different applications that we manufacture and supply into. 
 
