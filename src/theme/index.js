@@ -13,8 +13,30 @@ const overrides = {
                 color: "blue.900"
             },
             // Global element styles - non specific
-            a: {
-                color: mode("green.900")(props)
+            ".mdx-prose": {
+                a: {
+                    color: mode("green.900")(props)
+                },
+                h1: {
+                    fontSize: {base: "42px", md:"60px"},
+                    lineHeight: {base: "62px", md:"72px"},
+                    lettSpacing: "-2.12px"
+                },
+                h2: {
+                    fontSize: {base: "28px", md:"44px"},
+                    lineHeight: {base: "34px", md: "53px"},
+                    letterSpacing: "-1.55px"
+                },
+                h3: {
+                    fontSize: "30px",
+                    lineHeight: "36px",
+                    letterSpacing: "-1.06px"
+                },
+                p: {
+                    fontSize: {base: "16px", md:"20px"},
+                    lineHeight: "38px",
+                    letterSpacing: "0.71px",
+                }
             }
         })
     },
