@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql, Link as ReachLink } from 'gatsby'
 
 // Load components
-import Content, { HTMLContent } from '../components/Content'
+import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 import { BsCircleFill } from 'react-icons/bs'
 import { Box, Text, Heading, List, ListItem, ListIcon, Link } from '@chakra-ui/react'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
@@ -39,7 +39,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
       <Box as="section" textStyle="section">
         <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>
           <Box width={{base: "100%", lg:"48%"}} marginBottom={{base: "20px", lg: "0"}}>
-            <PageContent className="content" content={content} />
+            <MDXWrapper>
+              <PageContent content={content} />
+            </MDXWrapper>
           </Box>
           <Box width={{base: "100%", lg:"48%"}}>
             <Text textStyle="p" fontSize="24px" fontWeight="bold" marginBottom="20px">

@@ -43,7 +43,7 @@ const MainNav = () => (
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/industries" {...menuLink}>Industries</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/news" {...menuLink}>News</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/projects" {...menuLink}>Projects</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/teams" {...menuLink}>Teams</Link>
+    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/team" {...menuLink}>Team</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/videos" {...menuLink}>Videos</Link>
     <Box display="flex" alignItems="center" margin={{base: "20px 0", lg: "0"}}>
       <SVG name="youtube" fill="#fff" />
