@@ -36,6 +36,26 @@ const overrides = {
                     fontSize: {base: "16px", md:"20px"},
                     lineHeight: "38px",
                     letterSpacing: "0.71px",
+                },
+                ul: {
+                    listStyle: 'none'
+                },
+                "li::before": {
+                    position: 'absolute',
+                    top: '8px',
+                    left: '-5px',
+                    content: "''",
+                    borderRadius: "50%",
+                    width: '15px',
+                    height: "15px",
+                    backgroundColor: mode("green.900")(props),
+                },
+                li: {
+                    display: "block",
+                    position: "relative",
+                    paddingLeft: "30px",
+                    paddingBottom: "10px",
+                    fontSize: {base: "16px", md:"20px"},
                 }
             }
         })
