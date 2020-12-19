@@ -2,15 +2,37 @@ import React from 'react'
 import { Link as ReachLink } from 'gatsby'
 
 // Load components
-import { Text, Heading, Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, Link } from '@chakra-ui/react'
+import { useMediaQuery, Text, Heading, Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, Link } from '@chakra-ui/react'
 import PreviewCompatibleImage from '../../PreviewCompatibleImage'
 import SVG from '../../UI/SVG/index'
 import { HTMLContent } from '../../Content'
 
+const sameWidth = {
+    name: "sameWidth",
+    enabled: true,
+    phase: "beforeWrite",
+    requires: ["computeStyles"],
+    fn: ({ state }) => {
+        state.styles.popper.maxWidth = '50%'
+    }
+}
+
+const sameWidthMob = {
+    name: "sameWidth",
+    enabled: true,
+    phase: "beforeWrite",
+    requires: ["computeStyles"],
+    fn: ({ state }) => {
+        state.styles.popper.maxWidth = '100%'
+    }
+}
+
+
 const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
+    const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
+    const popperModifier = isLargerThan900 ? sameWidth : sameWidthMob
     return (
-        <Box maxWidth="250px">
-            <Popover placement="auto" trigger="click" autoFocus={false}>
+            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"} autoFocus={false}>
                 <PopoverTrigger>
                     <Box>
                         <PreviewCompatibleImage imageInfo={teamImg} />
@@ -22,7 +44,7 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
                         </Text>
                     </Box>
                 </PopoverTrigger>
-                <PopoverContent  borderRadius="0">
+                <PopoverContent maxWidth="100%" borderRadius="0">
                     <PopoverHeader display="flex" justifyContent="space-between" alignItems="center" border="none" borderColor="blue.900" backgroundColor="blue.900">
                         <Heading as="h2" fontSize="35px" lineHeight="42px" color="#fff">
                             About {name}
@@ -50,8 +72,6 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
                     </PopoverBody>
                 </PopoverContent>
             </Popover>
-        </Box>
-
     )
 }
 

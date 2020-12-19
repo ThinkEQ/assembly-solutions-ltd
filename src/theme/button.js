@@ -24,7 +24,7 @@ export const ButtonStyles = {
             color: "#fff"
         },
         gradient: {
-            bg: "gradient.900",
+            bg: "gradient.600",
             color: "#fff"
         },
         outline: {

@@ -3,8 +3,9 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 // Load components
-import { Box, Heading, Text, SimpleGrid } from '@chakra-ui/react'
+import { Box, Heading, Text, SimpleGrid, Button } from '@chakra-ui/react'
 import TeamCard from '../components/Cards/TeamCard/TeamCard'
+import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 
 // Load layout
 import Layout from '../components/Layout'
@@ -18,13 +19,13 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
           <Text textStyle="p" marginBottom="20px" fontSize="22px">
               {title}
             </Text>
-            <Heading as="h1" textStyle="h1">
+            <Heading as="h1" textStyle="h1" maxWidth={{base: "100%", lg: "80%"}}>
               We have built a team on the foundation of family values and all share the passion of delivering a quality service
             </Heading>
         </Box>
       </Box>
-      <Box as="section" textStyle="section" position="relative" overflow="hidden">
-          <SimpleGrid minChildWidth="220px" justifyContent="center" spacing="40px" >
+      <Box as="section" textStyle="section">
+          <SimpleGrid minChildWidth="220px" position="relative" spacing="20px" >
              {teamMembers.length > 0 && 
               teamMembers.map((team) => {
                 return (
@@ -38,6 +39,12 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
                 )
               })}
           </SimpleGrid>
+          <Box marginTop="30px" textAlign="center">
+            <Button variant="solid">Find out more about us</Button>
+          </Box>
+      </Box>
+      <Box textStyle="section" as="section" minHeight="700px" position="relative" background="neutral.900">
+        <CarouselWhatWeDo />
       </Box>
     </Fragment>
   )
@@ -49,7 +56,6 @@ TeamPageTemplate.propTypes = {
 
 const TeamPage = ({ data }) => {
   const { markdownRemark: post } = data
-  console.log(data)
 
   return (
     <Layout>
