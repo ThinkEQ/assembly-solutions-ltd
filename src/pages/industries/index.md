@@ -18,5 +18,32 @@ industries:
     image: /img/blog-index.jpg
     alt: Agriculture
     featured: false
+  - name: Automotive
+    image: /img/home-jumbotron.jpg
+    alt: Automotive
+  - name: Construction
+    alt: Construction
+    image: /img/flavor_wheel.jpg
+  - name: Nuclear
+    image: /img/jumbotron.jpg
+    alt: Nuclear
 ---
-We are definitely diverse when it comes to...
+We are definitely diverse when it comes to the Industries and different applications that we manufacture and supply into. 
+
+</br>
+
+From small wire preparation assemblies for Security alarms, to large Bus wiring looms, and control panels for Nuclear power stations, there really is quite a contrast! 
+
+<br/>
+
+Our wealth of knowledge and experience in all these areas has grown naturally and happened because we enjoy the new challenges that every project brings. 
+
+<br/>
+
+*  Agriculture
+* Automotive
+* Medical
+* Nuclear
+* Security
+* Test & Measurement
+* Utilities
