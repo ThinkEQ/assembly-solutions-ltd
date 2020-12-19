@@ -82,7 +82,7 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
         </Box>
       </Box>
 
-      <Box as="section" position="relative" width="100%" overflow="hidden" margin="20px 0">
+      <Box as="section" position="relative" width="100%" overflow="hidden" margin={{base:"30px 0", lg: "0"}}>
         <CarouselProvider totalSlides={industries.length} visibleSlides={isLargerThan760 ? 3 : 2} naturalSlideWidth={200} isPlaying={true} playDirection="forward" interval={3000} naturalSlideHeight={400} infinite={true}>
         <Slider>
           {industries.map((item, index) => {
