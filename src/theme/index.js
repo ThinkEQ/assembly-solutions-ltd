@@ -82,6 +82,11 @@ const overrides = {
             lineHeight: "36px",
             letterSpacing: "-1.06px"
         },
+        h4: {
+            fontSize: "24px",
+            lineHeight: "36px",
+            letterSpacing: "-1.06px"
+        },
         p: {
             fontSize: {base: "16px", md:"20px"},
             lineHeight: "38px",
