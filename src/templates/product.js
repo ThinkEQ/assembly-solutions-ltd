@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 
 
 // Load components
-import { Box, Heading, Text, Link, useMediaQuery, ListIcon, List, ListItem } from '@chakra-ui/react'
+import { Box, Heading, Text, useMediaQuery, ListIcon, List, ListItem, Grid, GridItem } from '@chakra-ui/react'
 import CarouselProjects from '../components/Carousel/CarouselProduct'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMore'
@@ -17,7 +17,7 @@ import TestimonialBlock from '../components/Testimonial/Testimonial'
 // Load asset
 import Check from '../components/UI/SVG/svgs/check'
 
-export const ProductPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, testimonial, usps, relatedProducts }) => {
+export const ProductPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, testimonial, usps, relatedProducts, blurbs }) => {
   const PageContent = contentComponent || Content
   const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
 
@@ -29,21 +29,19 @@ export const ProductPageTemplate = ({ title, content, contentComponent, subtitle
               {title}
             </Text>
             <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>
-              <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
+                <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
                   {subtitle}
-              </Heading>
-              <Box>
-                <List>
+                </Heading>
+                <List spacing="6">
                  {usps.map((item) => {
                     return (
-                        <ListItem display="flex" alignItems="center" fontSize="20px" lineHeight="28px" padding="10px 0">
+                        <ListItem display="flex" alignItems="center" fontSize="20px" lineHeight="28px">
                             <ListIcon as={Check} fontSize="28px" />
                             {item.usp}
                         </ListItem>
                     )
                 })}
                 </List>
-              </Box>
             </Box>
             <Box position="relative">
               <PreviewImage imageInfo={imgHeader} />
@@ -77,6 +75,10 @@ export const ProductPageTemplate = ({ title, content, contentComponent, subtitle
           })}          
         </Slider>
         </CarouselProvider>
+        </Box>
+
+        <Box as="section" textStyle="section">
+           
         </Box>
 
         <BannerUSP />
