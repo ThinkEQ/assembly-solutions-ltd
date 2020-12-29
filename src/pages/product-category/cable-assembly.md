@@ -7,18 +7,19 @@ usps:
   - usp: UK Made in Bolton
   - usp: 4 Week Delivery
   - usp: ISO 9001 Quality Approved
+  - usp: 25 years of Cable Assembly
 images:
+  - image: /img/jumbotron.jpg
+    alt: Mock 2
+    products: Cable Preperation
   - products: Cable Preperation
     image: /img/stock.jpg
     alt: cable
   - image: /img/chemex.jpg
     alt: Mock
     products: Cable Preperation
-  - image: /img/jumbotron.jpg
-    alt: Mock 2
-    products: Cable Preperation
 products:
-  - Cable Preperation
+  - Cable Assemblies
 layout:
   - type: column
     column:
@@ -70,6 +71,16 @@ layout:
         * Automotive cables and looms
         * Battery cable assembly
         * Ribbon cable assembly
+  - type: column
+    column:
+      title: Waterproof cable assembly
+      text: >-
+        As the current cable assembly and control panel build supplier to UK water company, United Utilities, we know the importance of building a protected cable assembly that works against the elements. That’s why all our cable assemblies are built to be durable.
+  - type: column
+    column:
+      title: What our customers think
+      text: >-
+        As well as having recently been awarded a contract from UK Bus Manufacturer Optare, our cable assembly solutions were a part of their contract for the Greater Manchester Transport Authority who required 66 Hybrid Buses.
 ---
 #### **Custom made cable assemblies made for you**  
 
