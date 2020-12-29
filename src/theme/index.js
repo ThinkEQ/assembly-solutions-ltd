@@ -48,7 +48,7 @@ const overrides = {
                 "li::before": {
                     position: 'absolute',
                     top: '8px',
-                    left: '-5px',
+                    left: '0px',
                     content: "''",
                     borderRadius: "50%",
                     width: '15px',

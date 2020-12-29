@@ -14,7 +14,7 @@ import stock from '../../img/stock.jpg'
  * @todo
  * State quieries
  */
-const CarouselNews = () => {
+const CarouselProject = () => {
     const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
     return (
         <Fragment>
@@ -49,4 +49,4 @@ const CarouselNews = () => {
     )
 }
 
-export default CarouselNews
+export default CarouselProject

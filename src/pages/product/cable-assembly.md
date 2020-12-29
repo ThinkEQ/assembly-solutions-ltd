@@ -1,12 +1,9 @@
 ---
 templateKey: product
-title: Cable Assembly
-subtitle: "UK cable assembly manufacturers  "
-image: /img/stock.jpg
 usps:
-  - usp: UK Made in Bolton
-  - usp: 4 Week Delivery
-  - usp: ISO 9001 Quality Approved
+  - usp: ISO9001 Approved
+  - usp: Low Costs
+  - usp: Fast Turnaround
 related-products:
   - name: Cable Assemblies
     slug: cable-assemblies
@@ -22,6 +19,17 @@ related-products:
     slug: braded-cables
     image: /img/chemex.jpg
     alt: Braided Cables
+title: Cable Preperation
+subtitle: Assembly Solutions are suppliers of Cable Preperation and Wire Preperation.
+images:
+  - image: /img/stock.jpg
+    alt: Test 1
+  - image: /img/stock.jpg
+    alt: Test 2
+  - alt: Test 3
+    image: /img/stock.jpg
+  - image: /img/stock.jpg
+    alt: Test 4
 blurbs:
   - title: Things we think you probably want to know
     text: >-
@@ -53,39 +61,20 @@ blurbs:
       * Automotive cables and looms 
       * Battery cable assembly
       * Ribbon cable assembly
-images:
-  - image: /img/stock.jpg
-    alt: Test 1
-  - image: /img/stock.jpg
-    alt: Test 2
-  - alt: Test 3
-    image: /img/stock.jpg
-  - image: /img/stock.jpg
-    alt: Test 4
+image: /img/stock.jpg
 testimonial:
-  quote: >
-    ASL are different to other cable manufacturers I have used. I’m probably not
-    their most important  customer but somehow they treat me like I am. Right
-    from sending the enquiry, I got a really fast and quick reply from Sophie to
-    say thank you, and then the sales engineer Gary called me discussing  prompt
-    Award-winning cable assembly manufacturers
+  quote: >2
+     “We selected Assembly Solutions because they offered a competitive quotation and came across keen and flexible”.
+
+
+    “ASL completed the delivery of the final panels on time, within budget and with no quality problems. I would have no hesitation recommending ASL to other companies requiring similar projects”.
 ---
-#### **Custom made cable assemblies made for you**  
+#### **Wire Preparation**
 
 <br/>
 
-Welcome to ASL and our cable assembly division, where you should find everything you need to  know about the different types of cable assemblies we manufacture. 
-​
-To put it quite simple, we manufacture any type of cable assembly, so we should be able to help you.  From simple xx and xxx, through to xxx and xxx. 
+Wire stripping, whether round or flat cables, single or multi core, our cable cutters and wire stripping machines offer a wide range of processing. Volumes are typically high for this type of process, but we do accept lower quantities so please don’t hesitate to get in touch.
 
-Every cable assembly we make is manufactured right here at our family built factory in Bolton. We  don’t use overseas suppliers or partners as we need to ensure quality is excellent and we work 
-against a target lead time of 4 weeks. don’t feel the quality is as good and the lead times are longer. 
+<br/>
 
-With a strong workforce of 60 staff we have , we’re proud to  We have a workforce of 60 staff who are  fully trained to IPC A-620 and  
-
-Cable assembly manufacture is in the heart of Bolton in our recently renovated factory, our staff with 
-all our cable assembly operators fully qualified to IPC A-620 
-This comes as standard but to emphasise our lead time is a promised 4 weeks UK manufacturers, we 
-guarantee our our clients a fast turnaround clients a fast-turnaround and high-quality quality 
-measurement to see products.  products as standard. We’re a family-run business. This is the 
-certification for the requirements and acceptance of cable assembly and wire loom assemblies.
+Send your wire drawing to sales@assembly-solutions.com and we will respond instantly with our competitive quotation.

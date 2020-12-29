@@ -17,6 +17,18 @@ exports.createPages = ({ actions, graphql }) => {
             }
             frontmatter {
               templateKey
+              products
+              title
+              image {
+                childImageSharp {
+                  fluid(maxHeight: 457, quality: 80) {
+                    base64
+                    aspectRatio
+                    src
+                    presentationHeight
+                  }
+                }
+              }
             }
           }
         }
@@ -29,9 +41,11 @@ exports.createPages = ({ actions, graphql }) => {
     }
 
     const posts = result.data.allMarkdownRemark.edges
+    const products = posts.filter(post => post.node.frontmatter.templateKey === 'product')
 
     posts.forEach((edge) => {
       const id = edge.node.id
+      const productArr = edge.node.frontmatter.products ? edge.node.frontmatter.products : []
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve(
@@ -40,6 +54,7 @@ exports.createPages = ({ actions, graphql }) => {
         // additional data can be passed via context
         context: {
           id,
+          products: products.filter((product) => productArr.includes(product.node.frontmatter.title))
         },
       })
     })

@@ -37,12 +37,29 @@ collections:
       - {label: "Sub-title", name: "subtitle", widget: "string"}
       - {label: "Image", name: "image", widget: image}
       - {label: "USP", name: usps, widget: list, fields: [{label: USP, name: usp, widget: string}]}
-      - {label: "Content", name: "body", widget: "markdown"}
-      - {label: "Blurbs", name: blurbs, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
+      - {label: "Content Intro", name: "body", widget: "markdown"}
       - {label: "Image Gallery", name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
-      - {label: "Testimonial", name: testimonial, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Quote, name: quote, widget: text}]}
-      - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
       - {label: "Products", name: products, widget: relation, collection: product, searchFields: [title], displayFields: [title], valueField: title, multiple: true, required: false}
+      - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
+      - label: "Layout Content" 
+        name: "layout" 
+        widget: "list" 
+        types: 
+          - label: "Testimonial" 
+            name: "testimonial" 
+            widget: object 
+            fields: 
+              - {label: Testimonial Block, name: testimonial, widget: object, fields: [{ label: Name, name: name, widget: string, required: false}, { label: Quote, name: quote, widget: text}]}
+          - label: "Column" 
+            name: "column" 
+            widget: object 
+            fields: 
+              - {label: "Column Block", name: column, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
+          - label: "Full width"
+            name: "full"
+            widget: object
+            fields:
+             - {label: "Content Block", name: content, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
 
   - name: "product"
     label: "Product"
@@ -53,15 +70,12 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Sub-title", name: "subtitle", widget: "string"}
-      - {label: "Image", name: "image", widget: image}
       - {label: "USP", name: usps, widget: list, fields: [{label: USP, name: usp, widget: string}]}
-      - {label: "Related Products", name: related-products, widget: list, fields: [{label: Name, name: name, widget: text}, {label: Slug, name: slug, required: true, pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$','A slug can have no spaces or special characters'], hint: The post URL (do not include folder or file extension)}, {label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}, {label: Featured, name: featured, widget: boolean, required: false}]}
+      - {label: "Image", name: "image", widget: image}
       - {label: "Content", name: "body", widget: "markdown"}
-      - {label: "Blurbs", name: blurbs, widget: list, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
       - {label: "Image Gallery", name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
       - {label: "Testimonial", name: testimonial, widget: object, fields: [{label: Name, name: name, widget: string, required: false}, {label: Quote, name: quote, widget: text, required: false}]}
       - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
-
   - name: "projects"
     label: "Projects"
     folder: "src/pages/projects"
