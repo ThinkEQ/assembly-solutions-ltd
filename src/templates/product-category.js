@@ -93,9 +93,9 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
                     return (
                         <GridItem colSpan={span}>
                             <Heading as="h4" textStyle="h4" marginBottom="20px">
-                                {content.column.title}
+                                {content.full.title}
                             </Heading>
-                            <PageContent content={toHTML(content.column.text)} />
+                            <PageContent content={toHTML(content.full.text)} />
                         </GridItem>
                     )
                 }
@@ -116,8 +116,6 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
                 )
             })}
         </Grid>
-     
-        
         </MDXWrapper>
     </Box>
 
