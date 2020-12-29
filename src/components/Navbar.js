@@ -55,10 +55,10 @@ const MainNav = () => (
   </Box>
   <Box>
     <Text {...menuLink} fontWeight="300" fontSize="34px">Products & Services</Text>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product/wire" {...menuLink}>Wire Preparation</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product/cable-assembly" {...menuLink}>Cable Assembly</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product/wiring" {...menuLink}>Wiring Harness</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product/control" {...menuLink}>Control Panel</Link>
+    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product-category/wire" {...menuLink}>Wire Preparation</Link>
+    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product-category/cable-assembly" {...menuLink}>Cable Assembly</Link>
+    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product-category/wiring" {...menuLink}>Wiring Harness</Link>
+    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product-category/control" {...menuLink}>Control Panel</Link>
   </Box>
 </Box>
 )
