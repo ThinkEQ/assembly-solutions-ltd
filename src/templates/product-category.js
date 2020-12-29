@@ -53,7 +53,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
       {/** INTRO BODY CONTENT */}
       <Box as="section" textStyle="section">
         <MDXWrapper>
-            <Box style={{columnCount: 2, columnGap: "60px"}}>
+            <Box style={{columnCount: isLargerThan760 ? 2 : 1, columnGap: "60px"}}>
                 <PageContent content={content} />
             </Box>
         </MDXWrapper>
@@ -66,11 +66,11 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
         {relatedProducts.map((item, index) => {
           return (
             <Slide index={index}>
-              <Box cursor="pointer" mr="5px" height="100%" position="relative">
+              <Box cursor="pointer" mr={{base: 0, lg:"5px"}} height="100%" position="relative">
                 <Link as={ReachLink} to={item.node.fields.slug} >
                     <Box position="absolute" height="100%" width="100%" zIndex="50" top="0" left="0px" background="rgba(9,21,64,0.5)" />
                     <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" />
-                    <Text textAlign="center" zIndex="75" fontSize={{base: "24px", md: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
+                    <Text textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
                     {item.node.frontmatter.title}
                     </Text>
                 </Link>
@@ -85,7 +85,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
     {/**Main content */}
     <Box as="section" textStyle="section">
         <MDXWrapper>
-        <Grid templateColumns="repeat(2, 1fr)" templateRows="auto" gap={10}>
+        <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10}>
             {mainContent.map((content) => {
                 const span = content.type === 'column' ? 1 : 2
 
