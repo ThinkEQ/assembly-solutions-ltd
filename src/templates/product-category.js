@@ -66,9 +66,9 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
         {relatedProducts.map((item, index) => {
           return (
             <Slide index={index}>
-              <Box cursor="pointer" mr={{base: 0, lg:"5px"}} height="100%" position="relative">
+              <Box cursor="pointer" mr={{base: 0, lg:"5px"}} height="100%" maxHeight="480px" position="relative">
                 <Link as={ReachLink} to={item.node.fields.slug} >
-                    <Box position="absolute" height="100%" width="100%" zIndex="50" top="0" left="0px" background="rgba(9,21,64,0.5)" />
+                    <Box position="absolute" height="100%" width="100%" maxHeight="457px" zIndex="50" top="0" left="0px" background="rgba(9,21,64,0.5)" />
                     <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" />
                     <Text textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
                     {item.node.frontmatter.title}
@@ -127,7 +127,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
                return (
                  <Slide index={index}>
                    <Box padding={{base: "0 5px", lg: "0 25px"}}>
-                     <PreviewCompatibleImage imageInfo={img.image} height="100%" />
+                     <PreviewCompatibleImage imageInfo={img.image} borderRadius="3px" height="100%" />
                    </Box>
                  </Slide>
              )
