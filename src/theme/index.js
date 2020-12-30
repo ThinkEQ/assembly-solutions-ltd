@@ -32,6 +32,11 @@ const overrides = {
                     lineHeight: "36px",
                     letterSpacing: "-1.06px"
                 },
+                h4: {
+                    fontSize: "24px",
+                    lineHeight: "36px",
+                    letterSpacing: "-1.06px"
+                },
                 p: {
                     fontSize: {base: "16px", md:"20px"},
                     lineHeight: "38px",
@@ -43,7 +48,7 @@ const overrides = {
                 "li::before": {
                     position: 'absolute',
                     top: '8px',
-                    left: '-5px',
+                    left: '0px',
                     content: "''",
                     borderRadius: "50%",
                     width: '15px',
@@ -82,13 +87,22 @@ const overrides = {
             lineHeight: "36px",
             letterSpacing: "-1.06px"
         },
+        h4: {
+            fontSize: "24px",
+            lineHeight: "36px",
+            letterSpacing: "-1.06px"
+        },
         p: {
             fontSize: {base: "16px", md:"20px"},
             lineHeight: "38px",
             letterSpacing: "0.71px",
         },
         section: {
-            padding: {base: "6", lg:"16"}
+            padding: {base: "6", lg:"16"}, 
+        },
+        container: {
+            maxWidth: "1600px",
+            margin: "0 auto"
         }
     },
     colors: {

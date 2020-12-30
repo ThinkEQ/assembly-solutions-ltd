@@ -1,6 +1,20 @@
 import React from 'react'
-import { CarouselProvider } from 'pure-react-carousel'
+import { CarouselProvider, ButtonNext } from 'pure-react-carousel'
 import 'pure-react-carousel/dist/react-carousel.es.css';
+import { Box, Image } from '@chakra-ui/react'
+
+// Load assets
+import LeftHandle from '../../img/leftHandle.svg'
+
+export const SlideLeftReverse = (props) => {
+    return (
+        <Box {...props}>
+         <ButtonNext>
+            <Image src={LeftHandle} alt="left icon" />
+         </ButtonNext>
+        </Box>  
+    )
+}
 
 const Carousel = ({ children, setHeight, setWidth, hildren, totalSlides, ...props }) => {
     return (
