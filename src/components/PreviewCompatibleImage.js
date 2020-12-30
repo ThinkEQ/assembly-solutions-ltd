@@ -2,11 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Img from 'gatsby-image'
 
-const PreviewCompatibleImage = ({ imageInfo }) => {
+const PreviewCompatibleImage = ({ imageInfo, ...props }) => {
   const { alt = '', childImageSharp, image } = imageInfo
   const maxHeight = childImageSharp.fluid.presentationHeight ? childImageSharp.fluid.presentationHeight : "auto"
   const maxWidth = childImageSharp.fluid.presentationWidth ? childImageSharp.fluid.presentationWidth : "auto"
-  const imageStyle = { maxHeight, maxWidth }
+  const imageStyle = { maxHeight, maxWidth, ...props }
   if (!!image && !!image.childImageSharp) {
     return (
       <Img style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />

@@ -43,7 +43,7 @@ const MainNav = () => (
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/industries" {...menuLink}>Industries</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/news" {...menuLink}>News</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/projects" {...menuLink}>Projects</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/teams" {...menuLink}>Teams</Link>
+    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/team" {...menuLink}>Team</Link>
     <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/videos" {...menuLink}>Videos</Link>
     <Box display="flex" alignItems="center" margin={{base: "20px 0", lg: "0"}}>
       <SVG name="youtube" fill="#fff" />
@@ -55,10 +55,10 @@ const MainNav = () => (
   </Box>
   <Box>
     <Text {...menuLink} fontWeight="300" fontSize="34px">Products & Services</Text>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/wire" {...menuLink}>Wire Preparation</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/cable" {...menuLink}>Cable Assembly</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/wiring" {...menuLink}>Wiring Harness</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/control" {...menuLink}>Control Panel</Link>
+    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product-category/wire" {...menuLink}>Wire Preparation</Link>
+    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product-category/cable-assembly" {...menuLink}>Cable Assembly</Link>
+    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product-category/wiring" {...menuLink}>Wiring Harness</Link>
+    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/product-category/control" {...menuLink}>Control Panel</Link>
   </Box>
 </Box>
 )

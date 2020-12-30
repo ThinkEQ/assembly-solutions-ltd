@@ -16,35 +16,42 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
     <Fragment>
       <Box as="header" paddingTop={{base: "100px", lg:"50px"}}>
         <Box textStyle="section">
-          <Text textStyle="p" marginBottom="20px" fontSize="22px">
-              {title}
-            </Text>
-            <Heading as="h1" textStyle="h1" maxWidth={{base: "100%", lg: "80%"}}>
-              We have built a team on the foundation of family values and all share the passion of delivering a quality service
-            </Heading>
+          <Box textStyle="container">
+              <Text textStyle="p" marginBottom="20px" fontSize="22px">
+                {title}
+              </Text>
+              <Heading as="h1" textStyle="h1" maxWidth={{base: "100%", lg: "80%"}}>
+                We have built a team on the foundation of family values and all share the passion of delivering a quality service
+              </Heading>
+          </Box>
+      
         </Box>
       </Box>
       <Box as="section" textStyle="section">
+        <Box textStyle="container">
           <SimpleGrid minChildWidth="220px" position="relative" spacing="20px" >
-             {teamMembers.length > 0 && 
-              teamMembers.map((team) => {
-                return (
-                <TeamCard 
-                teamImg={team.image} 
-                name={team.name} 
-                jobTitle={team.jobtitle} 
-                bio={team.bio} 
-                linkedIn={team.linkedin} 
-                iconList={team.interests}  />
-                )
-              })}
-          </SimpleGrid>
-          <Box marginTop="30px" textAlign="center">
-            <Button variant="solid">Find out more about us</Button>
-          </Box>
+              {teamMembers.length > 0 && 
+                teamMembers.map((team) => {
+                  return (
+                  <TeamCard 
+                  teamImg={team.image} 
+                  name={team.name} 
+                  jobTitle={team.jobtitle} 
+                  bio={team.bio} 
+                  linkedIn={team.linkedin} 
+                  iconList={team.interests}  />
+                  )
+                })}
+            </SimpleGrid>
+            <Box marginTop="30px" textAlign="center">
+              <Button variant="solid">Find out more about us</Button>
+            </Box>
+        </Box>
       </Box>
-      <Box textStyle="section" as="section" minHeight="700px" position="relative" background="neutral.900">
-        <CarouselWhatWeDo />
+      <Box textStyle="section" as="section" minHeight="700px" background="neutral.900">
+        <Box textStyle="container" position="relative">
+          <CarouselWhatWeDo />
+        </Box>
       </Box>
     </Fragment>
   )

@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import { graphql, Link as ReachLink } from 'gatsby'
 
 // Load components
-import Content, { HTMLContent } from '../components/Content'
+import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 import { BsCircleFill } from 'react-icons/bs'
 import { Box, Text, Heading, List, ListItem, ListIcon, Link } from '@chakra-ui/react'
+import CarouselNews from '../components/Carousel/CarouselNews'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import ImageComp from '../components/PreviewCompatibleImage'
 import Button from '../theme/button'
@@ -18,8 +19,8 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
 
   return (
     <Fragment>
-      <Box as="header" paddingTop={{base: "100px", lg:"50px"}}>
-        <Box textStyle="section">
+      <Box as="header" textStyle="section">
+        <Box textStyle="container" paddingTop={{base: "100px", lg:"50px"}}>
           <Text textStyle="p" marginBottom="20px" fontSize="22px">
               {title}
             </Text>
@@ -37,9 +38,11 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
         <ImageComp imageInfo={imgSrc} />
       </Box>
       <Box as="section" textStyle="section">
-        <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>
+        <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} textStyle="container">
           <Box width={{base: "100%", lg:"48%"}} marginBottom={{base: "20px", lg: "0"}}>
-            <PageContent className="content" content={content} />
+            <MDXWrapper>
+              <PageContent content={content} />
+            </MDXWrapper>
           </Box>
           <Box width={{base: "100%", lg:"48%"}}>
             <Text textStyle="p" fontSize="24px" fontWeight="bold" marginBottom="20px">
@@ -78,7 +81,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
           </Box>
         </Box>
 
-        <Box display="flex" justifyContent="center" margin="20px 0">
+        <Box display="flex" justifyContent="center" marginTop="50px">
           <Button variant="solid" width="100%" maxWidth="327px">
             <Link as={ReachLink} to="/team" textDecoration="none" _hover={{textDecoration: "none"}}>
               Meet the team
@@ -87,8 +90,13 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
         </Box>
       </Box>
       <Box textStyle="section" as="section" minHeight="700px" position="relative" background="neutral.900">
-        <CarouselWhatWeDo />
+        <Box textStyle="container" position="relative">
+          <CarouselWhatWeDo />
+        </Box>
       </Box>
+      <Box as="section" position="relative" width="100%" overflow="hidden">
+        <CarouselNews />      
+     </Box>
     </Fragment>
    
   )
