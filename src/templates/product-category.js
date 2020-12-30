@@ -21,46 +21,49 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent }) => {
   const PageContent = contentComponent || Content
-  const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
   const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
 
   return (
     <Fragment>
       <Box as="header" paddingTop={{base: "100px", lg:"50px"}}>
         <Box textStyle="section">
+          <Box textStyle="container">
             <Text textStyle="p" marginBottom="20px" fontSize="22px">
-              {title}
-            </Text>
-            <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} marginBottom={{base: "20px", lg: "0"}}>
-                <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
-                  {subtitle}
-                </Heading>
-                <List spacing="6">
-                 {usps.map((item) => {
-                    return (
-                        <ListItem display="flex" alignItems="center" fontSize="20px" lineHeight="28px">
-                            <ListIcon as={Check} fontSize="28px" />
-                            {item.usp}
-                        </ListItem>
-                    )
-                })}
-                </List>
-            </Box>             
+                {title}
+              </Text>
+              <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} marginBottom={{base: "20px", lg: "0"}}>
+                  <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
+                    {subtitle}
+                  </Heading>
+                  <List spacing="6">
+                  {usps.map((item) => {
+                      return (
+                          <ListItem display="flex" alignItems="center" fontSize="20px" lineHeight="28px">
+                              <ListIcon as={Check} fontSize="28px" />
+                              {item.usp}
+                          </ListItem>
+                      )
+                  })}
+                  </List>
+              </Box>             
+          </Box>
         </Box>
         <PreviewImage imageInfo={imgHeader} />
       </Box>
 
       {/** INTRO BODY CONTENT */}
       <Box as="section" textStyle="section">
-        <MDXWrapper>
-            <Box style={{columnCount: isLargerThan760 ? 2 : 1, columnGap: "60px"}}>
-                <PageContent content={content} />
-            </Box>
-        </MDXWrapper>
+        <Box textStyle="container">
+          <MDXWrapper>
+              <Box style={{columnCount: isLargerThan760 ? 2 : 1, columnGap: "60px"}}>
+                  <PageContent content={content} />
+              </Box>
+          </MDXWrapper>
+        </Box>
       </Box>
 
     {/**Relate products Carousel */}
-    <Box as="section" position="relative" width="100%" margin="30px 0">
+    <Box as="section" position="relative" width="100%" maxHeight="500px" margin="30px 0">
       <Carousel totalSlides={relatedProducts.length} visibleSlides={isLargerThan760 ? 3 : 1} naturalSlideWidth={450} isPlaying={false} playDirection="forward" interval={3000} naturalSlideHeight={450} infinite={true}>
       <Slider>
         {relatedProducts.map((item, index) => {
@@ -84,39 +87,42 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
 
     {/**Main content */}
     <Box as="section" textStyle="section">
+      <Box textStyle="container">
         <MDXWrapper>
-        <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10}>
-            {mainContent.map((content) => {
-                const span = content.type === 'column' ? 1 : 2
+          <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10}>
+              {mainContent.map((content) => {
+                  const span = content.type === 'column' ? 1 : 2
 
-                if (content.type === 'full') {
-                    return (
-                        <GridItem colSpan={span}>
-                            <Heading as="h4" textStyle="h4" marginBottom="20px">
-                                {content.full.title}
-                            </Heading>
-                            <PageContent content={toHTML(content.full.text)} />
-                        </GridItem>
-                    )
-                }
-                if (content.type === 'testimonial') {
-                    return (
-                        <GridItem>
-                            <TestimonialBlock author={content.testimonial.name}  quote={content.testimonial.quote} />
-                        </GridItem>
-                    )
-                }
-                return (
-                    <GridItem colSpan={span}>
-                        <Heading as="h4" textStyle="h4" marginBottom="20px">
-                            {content.column.title}
-                        </Heading>
-                        <PageContent content={toHTML(content.column.text)} />
-                    </GridItem>
-                )
-            })}
-        </Grid>
-        </MDXWrapper>
+                  if (content.type === 'full') {
+                      return (
+                          <GridItem colSpan={span}>
+                              <Heading as="h4" textStyle="h4" marginBottom="20px">
+                                  {content.full.title}
+                              </Heading>
+                              <PageContent content={toHTML(content.full.text)} />
+                          </GridItem>
+                      )
+                  }
+                  if (content.type === 'testimonial') {
+                      return (
+                          <GridItem>
+                              <TestimonialBlock author={content.testimonial.name}  quote={content.testimonial.quote} />
+                          </GridItem>
+                      )
+                  }
+                  return (
+                      <GridItem colSpan={span}>
+                          <Heading as="h4" textStyle="h4" marginBottom="20px">
+                              {content.column.title}
+                          </Heading>
+                          <PageContent content={toHTML(content.column.text)} />
+                      </GridItem>
+                  )
+              })}
+          </Grid>
+          </MDXWrapper>
+      </Box>
+       
     </Box>
 
     {/** Reel */}
@@ -136,9 +142,17 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
          <SlideLeftReverse position="absolute" top="50%" left="-5%" transform="translateY(-50%)" display={{base: "none", lg: "block"}} />
        </CarouselReel> 
       </Box>
-      <BannerUSP />
-      <BannerLearnMore />
+
+      <Box as="section" textStyle="section">
+       <BannerUSP />
+      </Box>
+     
+      <Box as="section">
+          <BannerLearnMore />
+      </Box>
+     
       <Box as="section" position="relative" width="100%" overflow="hidden">
+        
           <CarouselProjects />
       </Box>
     </Fragment>

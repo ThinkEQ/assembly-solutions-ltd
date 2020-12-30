@@ -98,7 +98,11 @@ const overrides = {
             letterSpacing: "0.71px",
         },
         section: {
-            padding: {base: "6", lg:"16"}
+            padding: {base: "6", lg:"16"}, 
+        },
+        container: {
+            maxWidth: "1600px",
+            margin: "0 auto"
         }
     },
     colors: {

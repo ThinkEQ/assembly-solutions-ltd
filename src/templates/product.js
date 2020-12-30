@@ -26,40 +26,44 @@ export const ProductPageTemplate = ({ title, content, contentComponent, subtitle
     <Fragment>
       <Box as="header" paddingTop={{base: "100px", lg:"50px"}}>
         <Box textStyle="section">
-            <Text textStyle="p" marginBottom="20px" fontSize="22px">
-              {title}
-            </Text>
-            <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} marginBottom={{base: "20px", lg: "0"}}>
-                <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
-                  {subtitle}
-                </Heading>
-                <List spacing="6">
-                 {usps.map((item) => {
-                    return (
-                        <ListItem display="flex" alignItems="center" fontSize="20px" lineHeight="28px">
-                            <ListIcon as={Check} fontSize="28px" />
-                            {item.usp}
-                        </ListItem>
-                    )
-                })}
-                </List>
-            </Box>             
+            <Box textStyle="container">
+              <Text textStyle="p" marginBottom="20px" fontSize="22px">
+                {title}
+              </Text>
+              <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} marginBottom={{base: "20px", lg: "0"}}>
+                  <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
+                    {subtitle}
+                  </Heading>
+                  <List spacing="6">
+                  {usps.map((item) => {
+                      return (
+                          <ListItem display="flex" alignItems="center" fontSize="20px" lineHeight="28px">
+                              <ListIcon as={Check} fontSize="28px" />
+                              {item.usp}
+                          </ListItem>
+                      )
+                  })}
+                  </List>
+              </Box>             
+            </Box>
         </Box>
         <PreviewImage imageInfo={imgHeader} />
       </Box>
 
       {/** MAIN BODY CONTENT */}
       <Box as="section" textStyle="section">
-        <MDXWrapper>
-            <Box display="flex" flexDirection={{base: "column", lg: "row"}} justifyContent="space-between">
-                <Box width={{base: "100%", lg: "45%"}} marginBottom={{base: "20px", lg: "0"}}>
-                  <PageContent content={content} />
-                </Box>
-                <Box width={{base: "100%", lg: "45%"}}>
-                  <TestimonialBlock quote={testimonial.quote} author={testimonial.name} />
-                </Box>
-            </Box>
-        </MDXWrapper>
+        <Box textStyle="container">
+          <MDXWrapper>
+              <Box display="flex" flexDirection={{base: "column", lg: "row"}} justifyContent="space-between">
+                  <Box width={{base: "100%", lg: "45%"}} marginBottom={{base: "20px", lg: "0"}}>
+                    <PageContent content={content} />
+                  </Box>
+                  <Box width={{base: "100%", lg: "45%"}}>
+                    <TestimonialBlock quote={testimonial.quote} author={testimonial.name} />
+                  </Box>
+              </Box>
+          </MDXWrapper>
+        </Box>
       </Box>
 
       {/** Reel */}
@@ -70,7 +74,7 @@ export const ProductPageTemplate = ({ title, content, contentComponent, subtitle
                 return (
                   <Slide index={index}>
                     <Box padding="0 25px">
-                      <PreviewCompatibleImage imageInfo={img.image} height="100%" />
+                      <PreviewCompatibleImage imageInfo={img.image} height="100%" maxHeight="450px" />
                     </Box>
                   </Slide>
               )
@@ -80,7 +84,12 @@ export const ProductPageTemplate = ({ title, content, contentComponent, subtitle
         </CarouselReel>
        
       </Box>
-      <BannerUSP />
+      <Box as="section" textStyle="section">
+        <Box textStyle="container">
+          <BannerUSP />
+        </Box>
+      </Box>
+
       <BannerLearnMore />
       <Box as="section" position="relative" width="100%" overflow="hidden">
           <CarouselProjects />

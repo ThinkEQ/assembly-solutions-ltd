@@ -22,7 +22,7 @@ const Group = ({ text, icon, altText }) => {
 
 const BannerUSP = () => {
     return (
-        <Box textStyle="section">
+        <Box textStyle="container">
             <Heading textStyle="h2" marginBottom="20">
                 Why buy from us?
             </Heading>

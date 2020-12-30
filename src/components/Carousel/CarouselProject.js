@@ -16,15 +16,18 @@ import stock from '../../img/stock.jpg'
  */
 const CarouselProject = () => {
     const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
+    const [isLargerThan1600] = useMediaQuery("(min-width: 1600px)")
     return (
         <Fragment>
             <Box width="100%" height={{base: "240px", md:"440px"}} textStyle="section" background="blue.900">
-                <Heading textStyle="h2" color="#fff">
-                    Related Projects
-                </Heading>
+                <Box textStyle="container">
+                    <Heading textStyle="h2" color="#fff">
+                        Related Projects
+                    </Heading>
+                </Box>
             </Box>
             <Box  width="100%" height={{base: "340px", md:"440px"}} background="neutral.900" />
-            <Box height="600px" overflow="auto" width="100%" position="absolute" top={{base: "70%", md:"60%"}} left={{base:"0", lg:"10%"}} transform="translateY(-50%)">
+            <Box  height="600px" overflow="auto" width="100%" minWidth={{base: "100%", lg: "1600px"}}  position="absolute" top={{base: "70%", md:"60%"}} left={{base:"0", lg: isLargerThan1600 ? "18%" : "5%"}} transform="translateY(-50%)">
 
             <Carousel isIntrinsicHeight totalSlides={5} visibleSlides={isLargerThan900 ? 3 : 1} setHeight={400} setWidth={400}>
                 <Slider >

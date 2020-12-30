@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
@@ -42,25 +42,27 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
     <Fragment>
       <Box as="header" paddingTop={{base: "100px", lg:"50px"}}>
         <Box textStyle="section">
-          <Text textStyle="p" marginBottom="20px" fontSize="22px">
-              {title}
-            </Text>
-            <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>
-              <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
-                  {subtitle}
-              </Heading>
-              <Text textStyle="p" width={{base: "100%", lg:"35%"}}>
-                  {intro}
+          <Box textStyle="container">
+            <Text textStyle="p" marginBottom="20px" fontSize="22px">
+                {title}
               </Text>
-            </Box>
-            <Box position="relative">
-              <PreviewImage imageInfo={imgHeader} />
-            </Box>
+              <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>
+                <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
+                    {subtitle}
+                </Heading>
+                <Text textStyle="p" width={{base: "100%", lg:"35%"}}>
+                    {intro}
+                </Text>
+              </Box>
+          </Box>
+        </Box>
+        <Box position="relative">
+            <PreviewImage imageInfo={imgHeader} />
         </Box>
       </Box>
 
       <Box as="section" textStyle="section">
-        <Box display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}} alignContent="flex-start"> 
+        <Box display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}} alignContent="flex-start" textStyle="container"> 
           <Box width={{base: "100%", lg:"48%"}} marginBottom={{base: "25px", lg: "0"}}>
             <MDXWrapper>
               <PageContent content={content} />
@@ -82,13 +84,13 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
         </Box>
       </Box>
 
-      <Box as="section" position="relative" width="100%" overflow="hidden" margin={{base:"30px 0", lg: "0"}}>
+      <Box as="section" position="relative" width="100%" overflow="hidden" maxHeight="700px" margin={{base:"30px 0", lg: "50px 0"}}>
         <CarouselProvider totalSlides={industries.length} visibleSlides={isLargerThan760 ? 3 : 2} naturalSlideWidth={200} isPlaying={true} playDirection="forward" interval={3000} naturalSlideHeight={400} infinite={true}>
         <Slider>
           {industries.map((item, index) => {
             return (
               <Slide index={index}>
-                <Box padding="0 5px" height="100%" position="relative">
+                <Box padding="0 5px" height="100%" maxHeight="700px" position="relative">
                   <PreviewImage imageInfo={item.image} borderRadius="3px" height="100%" />
                   <Text fontSize={{base: "24px", md: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
                     {item.name}

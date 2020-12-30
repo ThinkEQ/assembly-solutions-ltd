@@ -65,8 +65,8 @@ const CarouselWhatWeDo = () => {
                     />
                 </Slide>
                 </Slider>
-                <SlideLeft position="absolute" top="50%" left="20px" transform="translateY(-50%)" display={{base: "none", lg: "block"}}  />
-                <SlideRight position="absolute" top="50%" right="20px" transform="translateY(-50%)" display={{base: "none", lg: "block"}} />
+                <SlideLeft position="absolute" top="50%" left="0px" transform="translateY(-50%)" display={{base: "none", lg: "block"}}  />
+                <SlideRight position="absolute" top="50%" right="0px" transform="translateY(-50%)" display={{base: "none", lg: "block"}} />
             </Carousel>
         </Fragment>
     )
