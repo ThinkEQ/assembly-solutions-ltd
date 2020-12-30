@@ -4,14 +4,14 @@ import Layout from '../components/Layout'
 
 
 // Load components
-import { Box, Heading, Text, ListIcon, List, ListItem } from '@chakra-ui/react'
+import { Box, Heading, Text, ListIcon, List, ListItem, Grid, GridItem } from '@chakra-ui/react'
 import CarouselProjects from '../components/Carousel/CarouselProject'
 import CarouselReel from '../components/Carousel/CarouselReel'
 import { SlideLeftReverse } from '../components/Carousel/index'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMore'
 import PreviewImage from '../components/PreviewCompatibleImage'
-import Content, { HTMLContent, MDXWrapper } from '../components/Content'
+import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
 import {Slide, Slider } from 'pure-react-carousel'
 import TestimonialBlock from '../components/Testimonial/Testimonial'
 
@@ -19,7 +19,7 @@ import TestimonialBlock from '../components/Testimonial/Testimonial'
 import Check from '../components/UI/SVG/svgs/check'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-export const ProductPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, testimonial, usps, imgCarousel }) => {
+export const ProductPageTemplate = ({ title, mainContent, contentComponent, subtitle, imgHeader, testimonial, usps, imgCarousel }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -50,21 +50,44 @@ export const ProductPageTemplate = ({ title, content, contentComponent, subtitle
         <PreviewImage imageInfo={imgHeader} />
       </Box>
 
-      {/** MAIN BODY CONTENT */}
-      <Box as="section" textStyle="section">
-        <Box textStyle="container">
-          <MDXWrapper>
-              <Box display="flex" flexDirection={{base: "column", lg: "row"}} justifyContent="space-between">
-                  <Box width={{base: "100%", lg: "45%"}} marginBottom={{base: "20px", lg: "0"}}>
-                    <PageContent content={content} />
-                  </Box>
-                  <Box width={{base: "100%", lg: "45%"}}>
-                    <TestimonialBlock quote={testimonial.quote} author={testimonial.name} />
-                  </Box>
-              </Box>
+     {/**Main content */}
+    <Box as="section" textStyle="section">
+      <Box textStyle="container">
+        <MDXWrapper>
+          <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10}>
+              {mainContent.map((content) => {
+                  const span = content.type === 'column' ? 1 : 2
+
+                  if (content.type === 'full') {
+                      return (
+                          <GridItem colSpan={span}>
+                              <Heading as="h4" textStyle="h4" marginBottom="20px">
+                                  {content.full.title}
+                              </Heading>
+                              <PageContent content={toHTML(content.full.text)} />
+                          </GridItem>
+                      )
+                  }
+                  if (content.type === 'testimonial') {
+                      return (
+                          <GridItem>
+                              <TestimonialBlock author={content.testimonial.name}  quote={content.testimonial.quote} />
+                          </GridItem>
+                      )
+                  }
+                  return (
+                      <GridItem colSpan={span}>
+                          <Heading as="h4" textStyle="h4" marginBottom="20px">
+                              {content.column.title}
+                          </Heading>
+                          <PageContent content={toHTML(content.column.text)} />
+                      </GridItem>
+                  )
+              })}
+          </Grid>
           </MDXWrapper>
-        </Box>
       </Box>
+    </Box>
 
       {/** Reel */}
       <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "400px", md: "600px"}} overflow="hidden">
@@ -109,7 +132,7 @@ const ProductPage = ({ data }) => {
         subtitle={post.frontmatter.subtitle}
         usps={post.frontmatter.usps || []}
         testimonial={post.frontmatter.testimonial || {}}
-        content={post.html}
+        mainContent={post.frontmatter.layout || []}
         imgHeader={post.frontmatter.image}
         imgCarousel={post.frontmatter.images || []}
       />
@@ -132,6 +155,17 @@ query productPageQuery($slug: StringQueryOperatorInput = {}) {
           usps {
             usp
           }
+          layout {
+            type
+            column {
+                title
+                text
+            }
+            testimonial {
+                name
+                quote
+            }
+          }
           image {
             childImageSharp {
               fluid(maxHeight: 680, quality: 80) {
@@ -152,7 +186,6 @@ query productPageQuery($slug: StringQueryOperatorInput = {}) {
             }
           }
         }
-        html
     }
   }
 `

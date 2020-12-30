@@ -30,6 +30,26 @@ images:
     image: /img/stock.jpg
   - image: /img/stock.jpg
     alt: Test 4
+layout:
+  - type: column
+    column:
+      title: Wire Preparation
+      text: >-
+        Wire stripping, whether round or flat cables, single or multi core, our
+        cable cutters and wire stripping machines offer a wide range of
+        processing. Volumes are typically high for this type of process, but we
+        do accept lower quantities so please don’t hesitate to get in touch.
+
+
+
+        Send your wire drawing to sales@assembly-solutions.com and we will respond instantly with our competitive quotation.
+  - type: testimonial
+    testimonial:
+      quote: >-2
+         “We selected Assembly Solutions because they offered a competitive quotation and came across keen and flexible”.
+
+
+        “ASL completed the delivery of the final panels on time, within budget and with no quality problems. I would have no hesitation recommending ASL to other companies requiring similar projects”.
 blurbs:
   - title: Things we think you probably want to know
     text: >-
@@ -69,12 +89,3 @@ testimonial:
 
     “ASL completed the delivery of the final panels on time, within budget and with no quality problems. I would have no hesitation recommending ASL to other companies requiring similar projects”.
 ---
-#### **Wire Preparation**
-
-<br/>
-
-Wire stripping, whether round or flat cables, single or multi core, our cable cutters and wire stripping machines offer a wide range of processing. Volumes are typically high for this type of process, but we do accept lower quantities so please don’t hesitate to get in touch.
-
-<br/>
-
-Send your wire drawing to sales@assembly-solutions.com and we will respond instantly with our competitive quotation.

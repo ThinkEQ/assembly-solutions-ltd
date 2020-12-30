@@ -72,9 +72,26 @@ collections:
       - {label: "Sub-title", name: "subtitle", widget: "string"}
       - {label: "USP", name: usps, widget: list, fields: [{label: USP, name: usp, widget: string}]}
       - {label: "Image", name: "image", widget: image}
-      - {label: "Content", name: "body", widget: "markdown"}
       - {label: "Image Gallery", name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
-      - {label: "Testimonial", name: testimonial, widget: object, fields: [{label: Name, name: name, widget: string, required: false}, {label: Quote, name: quote, widget: text, required: false}]}
+      - label: "Layout Content" 
+        name: "layout" 
+        widget: "list" 
+        types: 
+          - label: "Testimonial" 
+            name: "testimonial" 
+            widget: object 
+            fields: 
+              - {label: Testimonial Block, name: testimonial, widget: object, fields: [{ label: Name, name: name, widget: string, required: false}, { label: Quote, name: quote, widget: text}]}
+          - label: "Column" 
+            name: "column" 
+            widget: object 
+            fields: 
+              - {label: "Column Block", name: column, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
+          - label: "Full width"
+            name: "full"
+            widget: object
+            fields:
+             - {label: "Content Block", name: content, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
       - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
   - name: "projects"
     label: "Projects"
