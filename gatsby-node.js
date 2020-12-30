@@ -1,7 +1,12 @@
 const _ = require('lodash')
 const path = require('path')
+const slugify = require('slugify')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+
+// Replacing '/' would result in empty string which is invalid
+// Remove trailing /
+const replacePath = path => (path === `/` ? path : path.replace(/\/$/, ``))
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -46,6 +51,10 @@ exports.createPages = ({ actions, graphql }) => {
     posts.forEach((edge) => {
       const id = edge.node.id
       const productArr = edge.node.frontmatter.products ? edge.node.frontmatter.products : []
+      
+      // Use title for these roots to keep site flat i.e replace /product/:slug => /:slug 
+      edge.node.fields.slug = ['product', 'product-category'].includes(edge.node.frontmatter.templateKey) ? slugify(edge.node.frontmatter.title, {lower: true, strict: true}) : replacePath(edge.node.fields.slug)
+      
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve(
@@ -54,7 +63,6 @@ exports.createPages = ({ actions, graphql }) => {
         // additional data can be passed via context
         context: {
           id,
-         // slug: edge.node.fields.slug,
           products: products.filter((product) => productArr.includes(product.node.frontmatter.title))
         },
       })

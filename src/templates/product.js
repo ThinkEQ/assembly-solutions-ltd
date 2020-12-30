@@ -124,6 +124,7 @@ export const ProductPageTemplate = ({ title, mainContent, contentComponent, subt
 
 const ProductPage = ({ data }) => {
   const { markdownRemark: post } = data
+  
   return (
     <Layout>
       <ProductPageTemplate
