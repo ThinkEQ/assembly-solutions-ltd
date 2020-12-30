@@ -54,6 +54,7 @@ exports.createPages = ({ actions, graphql }) => {
         // additional data can be passed via context
         context: {
           id,
+         // slug: edge.node.fields.slug,
           products: products.filter((product) => productArr.includes(product.node.frontmatter.title))
         },
       })

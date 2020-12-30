@@ -161,7 +161,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
 
 const ProductCategoryPage = ({ data, pageContext }) => {
   const { markdownRemark: post } = data
-  console.log(data, 'cat')
+ 
   return (
     <Layout>
       <ProductCategoryPageTemplate
@@ -182,9 +182,9 @@ const ProductCategoryPage = ({ data, pageContext }) => {
 export default ProductCategoryPage
 
 export const productCategoryPageQuery = graphql`
-query productCategoryPageQuery($slug: StringQueryOperatorInput = {}) {
-    markdownRemark(frontmatter: {templateKey: {eq: "product-category"}}, fields: {slug: $slug}) {
-        frontmatter {
+query productCategoryPageQuery($id: String!) {
+  markdownRemark(id: { eq: $id }, frontmatter: {templateKey: {eq: "product-category"}}) {
+    frontmatter {
           title,
           subtitle
           usps {

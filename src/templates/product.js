@@ -143,49 +143,49 @@ const ProductPage = ({ data }) => {
 export default ProductPage
 
 export const productPageQuery = graphql`
-query productPageQuery($slug: StringQueryOperatorInput = {}) {
-    markdownRemark(frontmatter: {templateKey: {eq: "product"}}, fields: {slug: $slug}) {
-        frontmatter {
-          title,
-          subtitle
+query productPageQuery($id: String!) {
+  markdownRemark(id: { eq: $id }, frontmatter: {templateKey: {eq: "product"}}) {
+      frontmatter {
+        title,
+        subtitle
+        testimonial {
+          name,
+          quote
+        }
+        usps {
+          usp
+        }
+        layout {
+          type
+          column {
+              title
+              text
+          }
           testimonial {
-            name,
-            quote
+              name
+              quote
           }
-          usps {
-            usp
-          }
-          layout {
-            type
-            column {
-                title
-                text
-            }
-            testimonial {
-                name
-                quote
-            }
-          }
-          image {
-            childImageSharp {
-              fluid(maxHeight: 680, quality: 80) {
-                ...GatsbyImageSharpFluid
-                presentationHeight
-              }
-            }
-          }
-          images {
-              alt
-              image {
-                childImageSharp {
-                  fluid(maxHeight: 580, quality: 80) {
-                    ...GatsbyImageSharpFluid
-                    presentationHeight
-                  }
-                }
+        }
+        image {
+          childImageSharp {
+            fluid(maxHeight: 680, quality: 80) {
+              ...GatsbyImageSharpFluid
+              presentationHeight
             }
           }
         }
+        images {
+            alt
+            image {
+              childImageSharp {
+                fluid(maxHeight: 580, quality: 80) {
+                  ...GatsbyImageSharpFluid
+                  presentationHeight
+                }
+              }
+          }
+        }
+      }
     }
   }
 `
