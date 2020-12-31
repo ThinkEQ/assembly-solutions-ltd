@@ -1,6 +1,7 @@
 const _ = require('lodash')
 const path = require('path')
 const slugify = require('slugify')
+const { paginate } = require('gatsby-awesome-pagination')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
@@ -47,6 +48,15 @@ exports.createPages = ({ actions, graphql }) => {
 
     const posts = result.data.allMarkdownRemark.edges
     const products = posts.filter(post => post.node.frontmatter.templateKey === 'product')
+
+     // Create your paginated pages
+     paginate({
+      createPage, // The Gatsby `createPage` function
+      items: posts, // An array of objects
+      itemsPerPage: 1, // How many items you want per page
+      pathPrefix: '/news', // Creates pages like `/blog`, `/blog/2`, etc
+      component: path.resolve('src/templates/news.js'), // Just like `createPage()`
+    })
 
     posts.forEach((edge) => {
       const id = edge.node.id
