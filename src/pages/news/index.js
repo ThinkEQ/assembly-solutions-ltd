@@ -1,19 +1,31 @@
 import React from 'react'
 
+// Load components
 import Layout from '../../components/Layout'
-import NewsRoll from '../../components/NewsRoll'
+import NewsRoll from '../../components/Static/News/NewsRoll'
+import { Box, Heading, Text } from '@chakra-ui/react'
 
-export default class NewsIndexPage extends React.Component {
-  render() {
-    return (
-      <Layout>
-          <h1>
-            Latest Stories
-          </h1>
-        <section>
-            <NewsRoll />
-        </section>
+const NewsIndex = () => {
+  return (
+         <Layout>
+          <Box as="header" textStyle="section" >
+            <Box textStyle="container" paddingTop={{base: "100px", lg:"50px"}}>
+              <Text textStyle="p" marginBottom="20px" fontSize="22px">
+                News
+              </Text>
+
+              <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
+                We are always up to something new, so keep yourself up to date on all our latest news stories
+              </Heading>
+            </Box>
+          </Box>
+          <Box as="section" textStyle="section" minHeight="500px" backgroundColor="neutral.900">
+            <Box textStyle="container">
+              <NewsRoll />
+            </Box>
+          </Box>
       </Layout>
-    )
-  }
+  )
 }
+
+export default NewsIndex

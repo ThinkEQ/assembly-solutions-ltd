@@ -69,7 +69,7 @@ export default NewsArticle
 
 export const pageQuery = graphql`
   query NewsArticleByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+    markdownRemark(id: { eq: $id }, frontmatter: {templateKey: {eq: "news-article"}}) {
       id
       html
       frontmatter {
