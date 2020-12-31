@@ -53,7 +53,7 @@ exports.createPages = ({ actions, graphql }) => {
      paginate({
       createPage, // The Gatsby `createPage` function
       items: posts, // An array of objects
-      itemsPerPage: 1, // How many items you want per page
+      itemsPerPage: 6, // How many items you want per page
       pathPrefix: '/news', // Creates pages like `/blog`, `/blog/2`, etc
       component: path.resolve('src/templates/news.js'), // Just like `createPage()`
     })

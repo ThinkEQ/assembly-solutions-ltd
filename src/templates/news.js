@@ -2,11 +2,11 @@ import React from 'react'
 
 // Load components
 import Layout from '../components/Layout'
-import NewsRoll from '../components/Static/News/NewsRoll'
 import { Box, Heading, Text } from '@chakra-ui/react'
+import Roll from '../components/Roll/Roll'
 import { graphql } from 'gatsby'
 
-export const NewsIndexTemplate = () => {
+export const NewsIndexTemplate = ({ data, pagination }) => {
   return (
          <Layout>
           <Box as="header" textStyle="section" >
@@ -22,7 +22,7 @@ export const NewsIndexTemplate = () => {
           </Box>
           <Box as="section" textStyle="section" minHeight="500px" backgroundColor="neutral.900">
             <Box textStyle="container">
-              <NewsRoll />
+              <Roll title="All articles" data={data} />
             </Box>
           </Box>
       </Layout>
@@ -30,9 +30,7 @@ export const NewsIndexTemplate = () => {
 }
 
 const NewsIndex =  ({data, pageContext}) => {
-  console.log(data, 'dta')
-  console.log(pageContext, 'context')
-  return <NewsIndexTemplate />
+  return <NewsIndexTemplate data={data} pagination={pageContext} />
 }
 
 export const newsIndexQuery = graphql`
