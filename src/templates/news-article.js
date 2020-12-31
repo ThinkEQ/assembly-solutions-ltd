@@ -1,32 +1,59 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
-import { Helmet } from 'react-helmet'
-import { graphql } from 'gatsby'
+import { graphql, Link as ReachLink } from 'gatsby'
+
+// Load components
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import Testimonial from '../components/Testimonial/Testimonial'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import Content, { HTMLContent, MDXWrapper } from '../components/Content'
+import { Box, Heading, Text, Link } from '@chakra-ui/react'
 
 export const NewsArticleTemplate = ({
   content,
   contentComponent,
   title,
-  helmet,
+  date,
+  img,
+  testimonial
 }) => {
-  const PostContent = contentComponent || Content
-
+  const CMSContent = contentComponent || Content
+  
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <PostContent content={content} />
-          </div>
-        </div>
-      </div>
-    </section>
+    <Fragment>
+      <Box as="header" textStyle="section" >
+        <Box textStyle="container" paddingTop={{base: "100px", lg:"50px"}}>
+          <Link as={ReachLink} to="/news" display="inline-block" textStyle="p" marginBottom="20px" fontSize="22px">
+            Back to all articles
+          </Link>
+          <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
+          {title}
+          </Heading>
+          <Text fontSize="18px" marginTop="20px" color="neutral.800">
+            {date}
+          </Text>
+        </Box>
+      </Box>
+      <Box as="section" textStyle="section" paddingTop="0 !important" backgroundColor="neutral.900">
+        <Box textStyle="container">
+          <Box marginBottom="50px">
+            <PreviewCompatibleImage imageInfo={img} />
+          </Box>
+          <MDXWrapper>
+            <Box display="flex" flexDirection={{base: "column", lg: "row"}} alignItems="flex-start" justifyContent="space-between">
+              <Box width={{base:"100%", lg: "45%"}}>
+               <CMSContent content={content} />  
+              </Box>
+              {testimonial &&
+                <Box width={{base:"100%", lg: "45%"}} marginTop={{base: "20px", lg: "0"}}>
+                <Testimonial author={testimonial.name} quote={testimonial.quote} />
+              </Box>
+              }  
+            </Box>
+          </MDXWrapper>
+        </Box>
+      </Box>
+    </Fragment>
   )
 }
 
@@ -45,15 +72,11 @@ const NewsArticle = ({ data }) => {
       <NewsArticleTemplate
         content={post.html}
         contentComponent={HTMLContent}
-        helmet={
-          <Helmet titleTemplate="%s | News">
-            <title>{`${post.frontmatter.title}`}</title>
-            <meta
-              content={`${post.frontmatter.description}`}
-            />
-          </Helmet>
-        }
         title={post.frontmatter.title}
+        testimonial={post.frontmatter.testimonial}
+        img={post.frontmatter.image}
+        date={post.frontmatter.date}
+        testimonial={post.frontmatter.testimonial}
       />
     </Layout>
   )
@@ -75,6 +98,18 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        image {
+          childImageSharp {
+            fluid(maxHeight: 480, quality: 80) {
+              ...GatsbyImageSharpFluid
+              presentationHeight
+            }
+          }
+        }
+        testimonial {
+          quote
+          name
+        }
       }
     }
   }

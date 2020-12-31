@@ -14,14 +14,14 @@ const NewsRoll = ({ data, count}) => {
         <Heading textStyle="h1" fontSize="40px" marginBottom="20px">
           All articles <sup>60</sup>
         </Heading>
-        <SimpleGrid minChildWidth="45%" padding="8" spacing="40px">
+        <SimpleGrid minChildWidth={{base: "100%", md: "45%"}} padding={{base: "2", md:"8"}} spacing="40px">
           {posts &&
             posts.map((post, index) => {
             return (
                 <Link as={ReachLink} to={posts[index].node.fields.slug} _hover={{textDecoration: "none"}} textDecoration="none" key={posts[index].node.id}>
                   <Card 
                       key={posts[index].node.id}
-                      title={posts[index].node.excerpt}
+                      title={posts[index].node.frontmatter.title}
                       imgFluid={posts[index].node.frontmatter.image}
                       date={posts[index].node.frontmatter.date}
                     />
