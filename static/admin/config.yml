@@ -22,10 +22,27 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "news-article"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: Testimonial, name: testimonial, widget: object, fields: [{ label: Name, name: name, widget: string, required: false}, { label: Quote, name: quote, widget: text}]}
       - {label: "Image", name: "image", widget: image}
       - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
+      - label: "Layout Content" 
+        name: "layout" 
+        widget: "list" 
+        types: 
+          - label: "Testimonial" 
+            name: "testimonial" 
+            widget: object 
+            fields: 
+              - {label: Testimonial Block, name: testimonial, widget: object, fields: [{ label: Name, name: name, widget: string, required: false}, { label: Quote, name: quote, widget: text}]}
+          - label: "Column" 
+            name: "column" 
+            widget: object 
+            fields: 
+              - {label: "Column Block", name: column, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Text, name: text, widget: markdown}]}
+          - label: "Full width"
+            name: "full"
+            widget: object
+            fields:
+             - {label: "Content Block", name: content, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
 
   - name: "product-category"
     label: "Product Group"

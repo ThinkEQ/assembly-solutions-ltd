@@ -6,16 +6,15 @@ import { graphql, Link as ReachLink } from 'gatsby'
 import Layout from '../components/Layout'
 import Testimonial from '../components/Testimonial/Testimonial'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import Content, { HTMLContent, MDXWrapper } from '../components/Content'
-import { Box, Heading, Text, Link } from '@chakra-ui/react'
+import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
+import { Box, Heading, Text, Link, Grid, GridItem } from '@chakra-ui/react'
 
 export const NewsArticleTemplate = ({
-  content,
   contentComponent,
   title,
   date,
   img,
-  testimonial
+  mainContent
 }) => {
   const CMSContent = contentComponent || Content
   
@@ -40,16 +39,37 @@ export const NewsArticleTemplate = ({
             <PreviewCompatibleImage imageInfo={img} />
           </Box>
           <MDXWrapper>
-            <Box display="flex" flexDirection={{base: "column", lg: "row"}} alignItems="flex-start" justifyContent="space-between">
-              <Box width={{base:"100%", lg: "45%"}}>
-               <CMSContent content={content} />  
-              </Box>
-              {testimonial &&
-                <Box width={{base:"100%", lg: "45%"}} marginTop={{base: "20px", lg: "0"}}>
-                <Testimonial author={testimonial.name} quote={testimonial.quote} />
-              </Box>
-              }  
-            </Box>
+            <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10}>
+            {mainContent && mainContent.map((content) => {
+                const span = content.type === 'column' ? 1 : 2
+
+                if (content.type === 'full') {
+                    return (
+                        <GridItem colSpan={span}>
+                            <Heading as="h4" textStyle="h4" marginBottom="20px">
+                                {content.full.title}
+                            </Heading>
+                            <CMSContent content={toHTML(content.full.text)} />
+                        </GridItem>
+                    )
+                }
+                if (content.type === 'testimonial') {
+                    return (
+                        <GridItem>
+                            <Testimonial author={content.testimonial.name}  quote={content.testimonial.quote} />
+                        </GridItem>
+                    )
+                }
+                return (
+                    <GridItem colSpan={span}>
+                        <Heading as="h4" textStyle="h4" marginBottom="20px">
+                            {content.column.title}
+                        </Heading>
+                        <CMSContent content={toHTML(content.column.text)} />
+                    </GridItem>
+                )
+            })}
+            </Grid>
           </MDXWrapper>
         </Box>
       </Box>
@@ -73,10 +93,9 @@ const NewsArticle = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
-        testimonial={post.frontmatter.testimonial}
+        mainContent={post.frontmatter.layout}
         img={post.frontmatter.image}
         date={post.frontmatter.date}
-        testimonial={post.frontmatter.testimonial}
       />
     </Layout>
   )
@@ -106,9 +125,16 @@ export const pageQuery = graphql`
             }
           }
         }
-        testimonial {
-          quote
-          name
+        layout {
+          type
+          column {
+              title
+              text
+          }
+          testimonial {
+              name
+              quote
+          }
         }
       }
     }
