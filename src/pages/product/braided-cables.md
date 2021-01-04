@@ -10,7 +10,7 @@ usps:
 image: /img/chemex.jpg
 layout:
   - type: full
-    content:
+    full:
       title: First-class braided cables with an ultra-fast turnaround
       text: >-
         When you buy your braided cables through ASL, you can be confident that

@@ -10,7 +10,7 @@ usps:
 image: /img/chemex.jpg
 layout:
   - type: full
-    content:
+    full:
       text: >-
         Our staff are dedicated to making hundreds of custom battery cables
         daily. So, we ask you to come and virtually visit our world-class

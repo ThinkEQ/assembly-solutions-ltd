@@ -10,7 +10,7 @@ usps:
 image: /img/flavor_wheel.jpg
 layout:
   - type: full
-    content:
+    full:
       title: Stay grounded with the right earth strap manufacturer
       text: >-
         Finding the right manufacturer for your requirements is essential, but

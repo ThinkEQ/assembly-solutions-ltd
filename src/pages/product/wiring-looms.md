@@ -10,7 +10,7 @@ usps:
 image: /img/blog-index.jpg
 layout:
   - type: full
-    content:
+    full:
       title: Wiring looms made to reduce your costs and improve your delivery time
       text: >-
         Welcome to ASL and our wiring loom division, where we hope to show how
