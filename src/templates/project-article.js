@@ -8,7 +8,7 @@ import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMo
 import Testimonial from '../components/Testimonial/Testimonial'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
-import { Box, Heading, Text, Link, Grid, GridItem } from '@chakra-ui/react'
+import { Box, Heading, Link } from '@chakra-ui/react'
 
 export const ProjectArticleTemplate = ({
   contentComponent,
@@ -32,32 +32,33 @@ export const ProjectArticleTemplate = ({
           </Heading>
         </Box>
       </Box>
-      <Box as="section" textStyle="section" paddingTop="0 !important" backgroundColor="neutral.900">
-        <Box textStyle="container">
+      <Box as="section" paddingTop="0 !important" backgroundColor="neutral.900">
           <Box marginBottom="50px">
             <PreviewCompatibleImage imageInfo={img} />
           </Box>
+          <Box textStyle="section">
+            <Box textStyle="container">
+              {/**Intro content */}
+              <MDXWrapper>
+                <CMSContent content={toHTML(intro)} />
+              </MDXWrapper>
 
-            {/**Intro content */}
-          <MDXWrapper>
-            <CMSContent content={toHTML(intro)} />
-          </MDXWrapper>
-
-          {/**Feature image + testimonial */}
-          {feature && 
-            <Box display="flex" flexDirection={{base: "column", lg: "row"}} justifyContent="space-between" margin="20px 0" padding="30px 0">
-              <Box width={{base: "100%", lg: "48%"}}>
-                <PreviewCompatibleImage imageInfo={feature.image} />
-              </Box>
-              <Box width={{base: "100%", lg: "48%"}} display="flex" marginTop={{base: "20px", lg: "0"}}>
-                <Testimonial author={feature.name} quote={feature.quote} />
-              </Box>
-            </Box>}
-          
-          {/**Main body content */}
-          <MDXWrapper>
-            <CMSContent content={content} />
-          </MDXWrapper>
+              {/**Feature image + testimonial */}
+              {feature && 
+                <Box display="flex" flexDirection={{base: "column", lg: "row"}} justifyContent="space-between" margin="20px 0" padding="30px 0">
+                  <Box width={{base: "100%", lg: "48%"}}>
+                    <PreviewCompatibleImage imageInfo={feature.image} />
+                  </Box>
+                  <Box width={{base: "100%", lg: "48%"}} display="flex" marginTop={{base: "20px", lg: "0"}}>
+                    <Testimonial author={feature.name} quote={feature.quote} />
+                  </Box>
+                </Box>}
+              
+              {/**Main body content */}
+              <MDXWrapper>
+                <CMSContent content={content} />
+              </MDXWrapper>
+            </Box>       
         </Box>
       </Box>
       <BannerLearnMore />
