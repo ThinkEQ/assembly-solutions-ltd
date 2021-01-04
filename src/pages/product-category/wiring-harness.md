@@ -10,6 +10,8 @@ usps:
   - usp: 25 Years of Wiring Harnesses
 products:
   - Wiring Looms
+  - Cable Looms
+  - Agricultural Looms
 layout:
   - type: column
     column:
