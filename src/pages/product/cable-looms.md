@@ -10,7 +10,7 @@ usps:
 image: /img/flavor_wheel.jpg
 layout:
   - type: full
-    content:
+    full:
       title: This is excellence in Cable Loom Manufacture
       text: >-
         Look, we know that when it comes to your cable loom manufacturer, you

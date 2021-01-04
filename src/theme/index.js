@@ -101,7 +101,7 @@ const overrides = {
             padding: {base: "6", lg:"16"}, 
         },
         container: {
-            maxWidth: "1600px",
+            maxWidth: {base: "1000px", xl:"1600px"},
             margin: "0 auto"
         }
     },

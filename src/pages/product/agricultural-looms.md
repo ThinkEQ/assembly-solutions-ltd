@@ -10,7 +10,7 @@ usps:
 image: /img/products-grid2.jpg
 layout:
   - type: full
-    content:
+    full:
       title: Reduce your costs and man hours, sub-contract to ASL
       text: >-
         Working in the Agricultural trade is busy, fast-paced and there’s very

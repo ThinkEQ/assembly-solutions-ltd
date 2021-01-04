@@ -10,7 +10,7 @@ usps:
 image: /img/chemex.jpg
 layout:
   - type: full
-    content:
+    full:
       title: Don’t get your cables in a twist
       text: >-
         No matter what type of ribbon cable you require, we’ve seen it all.
