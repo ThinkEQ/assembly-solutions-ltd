@@ -34,8 +34,6 @@ export const ProjectIndexTemplate = ({ data, pagination }) => {
 }
 
 const ProjectIndex =  ({data, pageContext}) => {
-    console.log(data, 'data')
-    console.log(pageContext, 'pageCOntext')
   return <ProjectIndexTemplate data={data} pagination={pageContext} />
 }
 
