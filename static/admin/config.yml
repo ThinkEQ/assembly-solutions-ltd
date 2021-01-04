@@ -118,9 +118,11 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-article"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Image", name: "image", widget: image}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Intro", name: "intro", widget: "markdown"}
+      - {label: "Project Feature", name: "projectfeature", widget: object, fields: [{label: "Project Image", name: "image", widget: "image"}, {label: "Name", name: "name", widget: string}, {label: "Quote", name: "quote", widget: text}]}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
 
   - name: "pages"

@@ -11,7 +11,7 @@ const CardNews = ({ title, date, imgSrc = false, imgAlt, imgFluid = false }) => 
             </Box>
             <Box position="relative" display="flex" flexDirection="column" justifyContent="space-between" padding="6" height="50%">
                 <Text textStyle="p">{title}</Text>
-                <Text fontSize="16px" color="neutral.800">{date}</Text>
+                {date && <Text fontSize="16px" color="neutral.800">{date}</Text>}
             </Box>
         </Box>
     )
