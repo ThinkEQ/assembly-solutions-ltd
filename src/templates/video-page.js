@@ -1,47 +1,111 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import React, { useState } from 'react'
+
+// Load components
 import Layout from '../components/Layout'
+import { Box, Heading, SimpleGrid, Text, Modal, ModalBody, ModalContent, ModalOverlay, ModalCloseButton, useDisclosure } from '@chakra-ui/react'
+import Pagination from '../components/Pagination/Pagination'
+import { graphql } from 'gatsby'
+import CardVideo from '../components/Cards/CardVideo/CardVideo'
 
-export const VideoPageTemplate = ({ title }) => {
-
+const VideoCard = ({ videoSrc }) => {
   return (
-    <section>
-        <h1>
-            {title}
-        </h1>
-    </section>
+      <Box paddingBottom="50%" position="relative" height="0" overflow="hidden">
+        <iframe width="100%"
+          height="315"
+          src={`https://www.youtube-nocookie.com/embed/${videoSrc}`}
+          frameborder="0"
+          style={{border: 0, position: "absolute", top: 0, left: 0, width:"100%", height:"100%"}}
+          allowfullscreen />
+      </Box>
   )
 }
 
-VideoPageTemplate.propTypes = {
-  title: PropTypes.string.isRequired,
-}
+export const VideoIndexTemplate = ({ videos, pagination }) => {
+  const {isOpen, onOpen, onClose } = useDisclosure()
+  const [vidSrc, setSrc] = useState('')
 
-const VideoPage = ({ data }) => {
-  const { markdownRemark: post } = data
-
+  function triggerModal(video) {
+      setSrc(video)
+      onOpen()
+  }
+  
   return (
-    <Layout>
-      <VideoPageTemplate
-        title={post.frontmatter.title}
-      />
-    </Layout>
+         <Layout>
+          <Box as="header" textStyle="section" >
+              <Box textStyle="container" paddingTop={{base: "100px", lg:"50px"}}>
+                  <Text textStyle="p" marginBottom="20px" fontSize="22px">
+                    Videos
+                  </Text>
+                  <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
+                    Watch our videos to see where the magic happens and to learn more about our processes and products
+                  </Heading>
+                </Box>
+            </Box>
+            <Box as="section" textStyle="section" minHeight="500px" backgroundColor="neutral.900">
+              <Box textStyle="container">
+                <SimpleGrid minChildWidth={{base: "100%", md: "45%"}} padding={{base: "2", md:"8"}} spacing="40px">
+                  {videos.map((video, index) => {
+                    return (
+                      <CardVideo 
+                        key={index}
+                        imgSrc={`http://img.youtube.com/vi/${video.id}/maxresdefault.jpg`} 
+                        title={video.name}
+                        click={() => triggerModal(video.id)}
+                      />
+                    )
+                  })} 
+                </SimpleGrid>
+              
+                <Box display="flex" justifyContent="flex-end" padding={{base: "0 10px", md: "0 30px"}}>
+                  <Pagination currentPage={pagination.humanPageNumber} totalPages={pagination.numberOfPages} nextPage={pagination.nextPagePath} />
+                </Box>
+              </Box>
+          </Box>
+          <Modal onClose={onClose} size="100%" motionPreset="scale" isOpen={isOpen} isCentered closeOnEsc>
+            <ModalOverlay />
+            <ModalContent width="80%">
+              <ModalBody padding="0">
+                <VideoCard videoSrc={vidSrc} />
+              </ModalBody>
+            </ModalContent>
+          </Modal>
+      </Layout>
   )
 }
 
-VideoPage.propTypes = {
-  data: PropTypes.object.isRequired,
+const VideosIndex =  ({data, pageContext}) => {
+  console.log(data, 'data')
+  console.log(pageContext, '[pah')
+  const { edges: posts } = data.allMarkdownRemark
+  return <VideoIndexTemplate videos={posts[0].node.frontmatter.video || []} pagination={pageContext} />
 }
 
-export default VideoPage
-
-export const videoageQuery = graphql`
-  query VideoPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      frontmatter {
-        title,
+export const videoIndexQuery = graphql`
+query VideosIndexQuery {
+  allMarkdownRemark(
+    sort: { order: DESC, fields: [frontmatter___date] }
+    filter: { frontmatter: { templateKey: { eq: "video-page" } } }
+  ) {
+    edges {
+      node {
+        excerpt(pruneLength: 400)
+        id
+        html
+        fields {
+          slug
+        }
+        frontmatter {
+          title
+          templateKey
+          video {
+            name
+            id
+          }
+        }
       }
     }
   }
+}
 `
+
+export default VideosIndex
