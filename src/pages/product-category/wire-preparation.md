@@ -5,11 +5,6 @@ subtitle: Wire and Cable Preparation
 image: /img/chemex.jpg
 products:
   - Cable Preparation
-  - Electrical Control Panels
-  - Panel Wiring
-  - Panel Build
-  - Automotive Control Panels
-  - Nuclear Control Panels
 layout:
   - type: column
     column:
