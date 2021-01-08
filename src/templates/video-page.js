@@ -81,9 +81,11 @@ const VideosIndex =  ({data, pageContext}) => {
 }
 
 export const videoIndexQuery = graphql`
-query VideosIndexQuery {
+query VideosIndexQuery($skip: Int!, $limit: Int!) {
   allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date] }
+    skip: $skip
+    limit: $limit
     filter: { frontmatter: { templateKey: { eq: "video-page" } } }
   ) {
     edges {
