@@ -7,9 +7,18 @@ testimonial:
   quote: Some quote....
 image: /img/blog-index.jpg
 layout:
-  - type: column
+  - type: content
     column:
-      text: some body text....
+      text: >-
+        some body text.... some body text.... some body text.... some body
+        text.... some body text.... some body text.... some body text.... some
+        body text.... some body text.... some body text.... some body text....
+        some body text.... some body text.... some body text.... some body
+        text.... some body text.... some body text.... some body text.... some
+        body text.... some body text.... 
+
+
+        some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text.... some body text....
   - type: testimonial
     testimonial:
       quote: some mock text....
