@@ -43,6 +43,9 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
             </Box>
             <Box as="section" textStyle="section" minHeight="500px" backgroundColor="neutral.900">
               <Box textStyle="container">
+              <Heading textStyle="h1" fontSize="40px" marginBottom="20px">
+                All videos <sup>{videos && videos.length}</sup>
+              </Heading>
                 <SimpleGrid minChildWidth={{base: "100%", md: "45%"}} padding={{base: "2", md:"8"}} spacing="40px">
                   {videos.map((video, index) => {
                     return (
