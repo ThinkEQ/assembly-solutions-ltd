@@ -17,6 +17,9 @@ export const LinkStyles = {
         }
     },
     variants: {
+        page: {
+            display: 'block'
+        },
         nav: {
             color: "#fff",
             display: "inline-block",
@@ -42,7 +45,7 @@ export const LinkStyles = {
     },
     defaultProps: {
         size: "md",
-        variant: "nav"
+        variant: "page"
     }
 }
 
