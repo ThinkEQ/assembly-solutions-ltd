@@ -50,7 +50,8 @@ exports.createPages = ({ actions, graphql }) => {
     const products = posts.filter(post => post.node.frontmatter.templateKey === 'product')
     const news = posts.filter(post => post.node.frontmatter.templateKey === 'news-article')
     const projects = posts.filter(post => post.node.frontmatter.templateKey === 'project-article')
-
+    const videos = posts.filter(post => post.node.frontmatter.templateKey === 'video-page')
+   
      // Create your paginated pages
      paginate({
       createPage, // The Gatsby `createPage` function
@@ -87,6 +88,15 @@ exports.createPages = ({ actions, graphql }) => {
           products: products.filter((product) => productArr.includes(product.node.frontmatter.title))
         },
       })
+    })
+
+  // Create your paginated pages => Must be added last as this is a page
+  paginate({
+      createPage, // The Gatsby `createPage` function
+      items: videos, // An array of objects
+      itemsPerPage: 6, // How many items you want per page
+      pathPrefix: '/videos', // Creates pages like `/blog`, `/blog/2`, etc
+      component: path.resolve('src/templates/video-page.js'), // Just like `createPage()`
     })
   })
 }
