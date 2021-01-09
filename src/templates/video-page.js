@@ -51,7 +51,7 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
                     return (
                       <CardVideo 
                         key={index}
-                        imgSrc={`http://img.youtube.com/vi/${video.id}/maxresdefault.jpg`} 
+                        imgSrc={`https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`} 
                         title={video.name}
                         click={() => triggerModal(video.id)}
                       />
@@ -77,8 +77,6 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
 }
 
 const VideosIndex =  ({data, pageContext}) => {
-  console.log(data, 'data')
-  console.log(pageContext, '[pah')
   const { edges: posts } = data.allMarkdownRemark
   return <VideoIndexTemplate videos={posts[0].node.frontmatter.video || []} pagination={pageContext} />
 }

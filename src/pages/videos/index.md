@@ -2,6 +2,7 @@
 templateKey: video-page
 title: Videos
 video:
+  - name:
     id: B8vlk1UR99k&list
   - name: "Test video two "
     id: 2Xc9gXyf2G4
