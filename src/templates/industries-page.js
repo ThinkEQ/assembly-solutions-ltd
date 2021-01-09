@@ -118,7 +118,7 @@ IndustryPageTemplate.propTypes = {
 
 const IndustryPage = ({ data }) => {
   const { markdownRemark: post } = data
-console.log(data, 'data industries')
+
   return (
     <Layout>
       <IndustryPageTemplate

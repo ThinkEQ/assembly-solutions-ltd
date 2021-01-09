@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 // Load components
-import { Box, Heading, Text, Image } from '@chakra-ui/react'
-import Button from '../theme/button'
+import { Box, Heading, Text, Image, Button } from '@chakra-ui/react'
+//import Button from '../theme/button'
 import Layout from '../components/Layout'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'

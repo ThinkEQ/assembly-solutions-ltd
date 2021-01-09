@@ -162,6 +162,10 @@ query productPageQuery($id: String!) {
               title
               text
           }
+          full {
+            title
+            text
+          }
           testimonial {
               name
               quote

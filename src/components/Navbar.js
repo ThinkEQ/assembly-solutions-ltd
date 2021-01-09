@@ -6,7 +6,7 @@ import Logo from '../img/logo.svg'
 import MapMock from '../img/mockmap.png'
 
 // Load components
-import { keyframes, Heading, Box, Text, Image, Link, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, useDisclosure, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react'
+import { keyframes, Heading, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, useDisclosure, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react'
 import { ChatIcon } from '@chakra-ui/icons'
 import Hamburger from './UI/Hamburger/Hamburger'
 import Button from '../theme/button'
@@ -37,14 +37,29 @@ const flow = keyframes `
 
 const MainNav = () => (
   <Box display="flex" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} justifyContent="space-around" >
-  <Box paddingBottom="20px">
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/" {...menuLink}>Home</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/about-us" {...menuLink}>About</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/industries" {...menuLink}>Industries</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/news" {...menuLink}>News</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/projects" {...menuLink}>Projects</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/team" {...menuLink}>Team</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/videos" {...menuLink}>Videos</Link>
+  <Box as="ul" paddingBottom="20px">
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/" size="lg" variant="nav">Home</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/about-us" size="lg" variant="nav" >About</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/industries" size="lg" variant="nav">Industries</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/news" size="lg" variant="nav">News</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/projects" size="lg" variant="nav">Projects</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/team" size="lg" variant="nav">Team</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/videos" size="lg" variant="nav">Videos</Link>
+    </Box>
+  
     <Box display="flex" alignItems="center" margin={{base: "20px 0", lg: "0"}}>
       <SVG name="youtube" fill="#fff" />
       <Box margin="0 15px"><SVG name="linkedin" fill="#fff" /></Box>
@@ -53,12 +68,22 @@ const MainNav = () => (
       </Text>
     </Box>
   </Box>
-  <Box>
-    <Text {...menuLink} fontWeight="300" fontSize="34px">Products & Services</Text>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/wire" {...menuLink}>Wire Preparation</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/cable-assembly" {...menuLink}>Cable Assembly</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/wiring" {...menuLink}>Wiring Harness</Link>
-    <Link as={ReachLink} activeStyle={{textDecoration: "underline"}} to="/control" {...menuLink}>Control Panel</Link>
+  <Box as="ul" textDecoration="none">
+    <Box as="li" display="block">
+      <Text {...menuLink} fontWeight="300" fontSize="34px">Products & Services</Text>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/wire-and-cable-preparation" size="lg" variant="nav">Wire and Cable Preparation</Link>
+    </Box>
+    <Box as="li" display="block">
+     <Link as={ReachLink} to="/cable-assembly" size="lg" variant="nav">Cable Assembly</Link>
+    </Box>
+    <Box as="li" display="block">
+     <Link as={ReachLink} to="/wiring-harness" size="lg" variant="nav">Wiring Harness</Link>
+    </Box>
+    <Box as="li" display="block">
+    <Link as={ReachLink} to="/control-panel" size="lg" variant="nav">Control Panel</Link>
+    </Box>
   </Box>
 </Box>
 )

@@ -3,6 +3,7 @@ import { mode } from '@chakra-ui/theme-tools'
 
 // Load custom components
 import { ButtonStyles as Button } from './button'
+import {LinkStyles as Link} from './link'
 
 // Custom theme overrides
 const overrides = {
@@ -66,7 +67,8 @@ const overrides = {
         })
     },
     components: {
-        Button
+        Button,
+        Link
     },
     fonts: {
         heading: "Bahnschrift Regular"
@@ -101,7 +103,7 @@ const overrides = {
             padding: {base: "6", lg:"16"}, 
         },
         container: {
-            maxWidth: "1600px",
+            maxWidth: {base: "1000px", xl:"1600px"},
             margin: "0 auto"
         }
     },

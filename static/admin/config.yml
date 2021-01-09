@@ -22,9 +22,27 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "news-article"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Image", name: "image", widget: image}
       - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
+      - label: "Layout Content" 
+        name: "layout" 
+        widget: "list" 
+        types: 
+          - label: "Testimonial" 
+            name: "testimonial" 
+            widget: object 
+            fields: 
+              - {label: Testimonial Block, name: testimonial, widget: object, fields: [{ label: Name, name: name, widget: string, required: false}, { label: Quote, name: quote, widget: text}]}
+          - label: "Column" 
+            name: "column" 
+            widget: object 
+            fields: 
+              - {label: "Column Block", name: column, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Text, name: text, widget: markdown}]}
+          - label: "Full"
+            name: "full"
+            widget: object
+            fields:
+             - {label: "Full Width Block", name: full, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
 
   - name: "product-category"
     label: "Product Group"
@@ -54,12 +72,12 @@ collections:
             name: "column" 
             widget: object 
             fields: 
-              - {label: "Column Block", name: column, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
-          - label: "Full width"
+              - {label: "Column Block", name: column, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Text, name: text, widget: markdown}]}
+          - label: "Full"
             name: "full"
             widget: object
             fields:
-             - {label: "Content Block", name: content, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
+             - {label: "Full Width Block", name: full, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Text, name: text, widget: markdown}]}
 
   - name: "product"
     label: "Product"
@@ -86,12 +104,12 @@ collections:
             name: "column" 
             widget: object 
             fields: 
-              - {label: "Column Block", name: column, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
-          - label: "Full width"
+              - {label: "Column Block", name: column, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Text, name: text, widget: markdown}]}
+          - label: "Full"
             name: "full"
             widget: object
             fields:
-             - {label: "Content Block", name: content, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Text, name: text, widget: markdown}]}
+             - {label: "Full Width Block", name: full, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Text, name: text, widget: markdown}]}
       - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
   - name: "projects"
     label: "Projects"
@@ -100,9 +118,11 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-article"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Image", name: "image", widget: image}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Intro", name: "intro", widget: "markdown"}
+      - {label: "Project Feature", name: "projectfeature", widget: object, fields: [{label: "Project Image", name: "image", widget: "image"}, {label: "Name", name: "name", widget: string}, {label: "Quote", name: "quote", widget: text}]}
+      - {label: "Body", name: "body", widget: "markdown"}
       - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
 
   - name: "pages"
@@ -133,7 +153,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "video-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Videos", name: video, widget: list, fields: [{label: "Name", name: "name", widget: "string"},{label: "Embed link", name: "embedlink", widget: "text"}]}
+          - {label: "Videos", name: video, widget: list, fields: [{label: "Name", name: "name", widget: "string"},{label: "Youtube video ID", name: "id", widget: "text"}]}
           - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Description, name: description, widget: text, required: false}]}
       - file: "src/pages/industries/index.md"
         label: "Industries"
