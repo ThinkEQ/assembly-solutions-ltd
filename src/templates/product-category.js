@@ -70,7 +70,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
           return (
             <Slide index={index}>
               <Box cursor="pointer" mr={{base: 0, lg:"5px"}} height="100%" maxHeight="480px" position="relative">
-                <Link as={ReachLink} to={`/${item.node.fields.slug}`} >
+                <Link as={ReachLink} to={`/${item.node.fields.slug}`} height="100%" >
                     <Box position="absolute" height="100%" width="100%" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="0px" background="rgba(9,21,64,0.5)" />
                     <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" />
                     <Text textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" pointerEvents="none" transform="translate(-50%, -50%)">
