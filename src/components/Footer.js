@@ -41,17 +41,17 @@ const Footer = () => {
           <Box width={{base: "100%", lg:"48%"}} display="flex" justifyContent="space-between" paddingTop="10px">
             <List spacing="4">
               <ListItem {...para}>
-                <Link as={ReachLink} to="/wire">
+                <Link as={ReachLink} to="/wire-and-cable-preparation">
                   Wire Preperation
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/cable">
+                <Link as={ReachLink} to="/cable-assembly">
                   Cable Assembly
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/control">
+                <Link as={ReachLink} to="/control-panel">
                   Control Panel
                 </Link>
               </ListItem>
@@ -79,24 +79,24 @@ const Footer = () => {
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/wire">
+                <Link as={ReachLink} to="/videos">
                   Videos
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/wire">
+                <Link as={ReachLink} to="/contact-us">
                   Contact Us
                 </Link>
               </ListItem>
             </List>
             <List spacing="4" display={{base: "none", lg: "block"}}>
               <ListItem {...para} fontWeight="300">
-                <Link as={ReachLink} to="/terms">
+                <Link as={ReachLink} to="/terms-and-conditions">
                   Terms of Use
                 </Link>
               </ListItem>
               <ListItem {...para} fontWeight="300">
-                <Link as={ReachLink} to="/privacy">
+                <Link as={ReachLink} to="/privacy-policy">
                   Privacy Policy
                 </Link>
               </ListItem>
@@ -112,12 +112,12 @@ const Footer = () => {
 
         <List justifyContent="space-around" alignItems="flex-start" width="100%" marginBottom="20px" display={{base: "flex", lg: "none"}}>
           <ListItem {...para} fontWeight="300">
-            <Link as={ReachLink} to="/terms">
+            <Link as={ReachLink} to="/terms-and-conditions">
               Terms of Use
             </Link>
           </ListItem>
           <ListItem {...para} fontWeight="300">
-            <Link as={ReachLink} to="/privacy">
+            <Link as={ReachLink} to="/privacy-policy">
               Privacy Policy
             </Link>
           </ListItem>
