@@ -1,5 +1,11 @@
 import React from 'react'
-import { useStyleConfig, Box } from '@chakra-ui/react'
+import { useStyleConfig, Box, keyframes } from '@chakra-ui/react'
+
+const flow = keyframes `
+  0%{background-position: 0% 50%}
+  50%{background-position: 100% 50%}
+  100%{background-position: 0% 50%}
+`
 
 // Custom button styles
 export const ButtonStyles = {
@@ -21,7 +27,12 @@ export const ButtonStyles = {
     variants: {
         solid: {
             bg: "green.900",
-            color: "#fff"
+            color: "#fff",
+            _hover: {
+                background: "gradient.900",
+                backgroundSize: "600% 600%",
+                animation: `${flow} infinite 10s ease`
+            }
         },
         gradient: {
             bg: "gradient.600",
@@ -29,7 +40,44 @@ export const ButtonStyles = {
         },
         outline: {
             bg: "transparent",
-            color: "#fff"
+            position: "relative",
+            background: "none",
+            color: "#fff",
+            transition: ".5s all ease",
+            _before: {
+                height: "100%",
+                width: "100%",
+                position: "absolute",
+                content: "''",
+                top: 0,
+                left: 0,
+            },
+            _after: {
+                transition: ".5s all ease",
+                background: "transparent",
+                height: "0",
+                width: "0",
+                position: "absolute",
+                content: "''",
+                top: "50%",
+                left: "50%",
+            },
+            _hover: {
+                background: "transparent",
+                color: "green.900",
+                zIndex: "10",
+                '&::after': {
+                    position: "absolute",
+                    content: "''",
+                    background: "#fff",
+                    height: "100%",
+                    left: "0",
+                    top: "0",
+                    width: "100%",
+                    borderRadius: "2px",
+                    zIndex: "-1"
+                }
+            }
         }
     },
     defaultProps: {
