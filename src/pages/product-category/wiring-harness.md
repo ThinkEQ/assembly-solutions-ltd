@@ -12,6 +12,9 @@ products:
   - Wiring Looms
   - Cable Looms
   - Agricultural Looms
+  - Electric Vehicle & Hybrid Vehicle Wiring Harnesses
+  - Motorsport Harnesses
+  - Trailer Wiring Looms
 layout:
   - type: column
     column:
