@@ -131,6 +131,10 @@ export const pageQuery = graphql`
               title
               text
           }
+          full {
+            title
+            text
+          }
           testimonial {
               name
               quote
