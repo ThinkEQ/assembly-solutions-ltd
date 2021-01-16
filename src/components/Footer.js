@@ -10,7 +10,7 @@ const para = {
   fontSize: "18px",
   lineHeight: "20px",
   fontFamily: "inherit",
-  fontWeight: "600"
+  fontWeight: "400"
 }
 
 
@@ -18,7 +18,7 @@ const Footer = () => {
   return(
     <Box background="blue.900" color="#fff" textStyle="section">
       <Box textStyle="container">
-        <Heading fontFamily="30px" lineHeight="36px" marginBottom="20px">
+        <Heading fontFamily="30px" lineHeight="36px" fontWeight="400" marginBottom="20px">
           Stay Connected
         </Heading>
 
