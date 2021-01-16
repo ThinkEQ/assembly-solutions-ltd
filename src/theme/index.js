@@ -10,7 +10,8 @@ const overrides = {
     styles: {
         global: (props) => ({
             body: {
-                fontFamily: "Bahnschrift Light",
+                fontFamily: "Titillium Web",
+                fontWeight: 300,
                 color: "blue.900"
             },
             // Global element styles - non specific
@@ -21,22 +22,26 @@ const overrides = {
                 h1: {
                     fontSize: {base: "42px", md:"60px"},
                     lineHeight: {base: "62px", md:"72px"},
-                    lettSpacing: "-2.12px"
+                    lettSpacing: "-2.12px",
+                    fontWeight: 600
                 },
                 h2: {
                     fontSize: {base: "28px", md:"44px"},
                     lineHeight: {base: "34px", md: "53px"},
-                    letterSpacing: "-1.55px"
+                    letterSpacing: "-1.55px",
+                    fontWeight: 600
                 },
                 h3: {
                     fontSize: "30px",
                     lineHeight: "36px",
-                    letterSpacing: "-1.06px"
+                    letterSpacing: "-1.06px",
+                    fontWeight: 600
                 },
                 h4: {
                     fontSize: "24px",
                     lineHeight: "36px",
-                    letterSpacing: "-1.06px"
+                    letterSpacing: "-1.06px",
+                    fontWeight: 600
                 },
                 p: {
                     fontSize: {base: "16px", md:"20px"},
@@ -61,6 +66,7 @@ const overrides = {
                     position: "relative",
                     paddingLeft: "30px",
                     paddingBottom: "10px",
+                    fontFamily: "inherit",
                     fontSize: {base: "16px", md:"20px"},
                 }
             }
@@ -71,28 +77,32 @@ const overrides = {
         Link
     },
     fonts: {
-        heading: "Bahnschrift Regular"
+        heading: "Titillium Web"
     },
     textStyles: {
         h1: {
             fontSize: {base: "42px", md:"60px"},
             lineHeight: {base: "62px", md:"72px"},
-            lettSpacing: "-2.12px"
+            lettSpacing: "-2.12px",
+            fontWeight: 600
         },
         h2: {
             fontSize: {base: "28px", md:"44px"},
             lineHeight: {base: "34px", md: "53px"},
-            letterSpacing: "-1.55px"
+            letterSpacing: "-1.55px",
+            fontWeight: 600
         },
         h3: {
             fontSize: "30px",
             lineHeight: "36px",
-            letterSpacing: "-1.06px"
+            letterSpacing: "-1.06px",
+            fontWeight: 600
         },
         h4: {
             fontSize: "24px",
             lineHeight: "36px",
-            letterSpacing: "-1.06px"
+            letterSpacing: "-1.06px",
+            fontWeight: 600
         },
         p: {
             fontSize: {base: "16px", md:"20px"},
