@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 
 // Load components
 import { Box, Heading, Text, Image, Button } from '@chakra-ui/react'
+
 //import Button from '../theme/button'
 import Layout from '../components/Layout'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
