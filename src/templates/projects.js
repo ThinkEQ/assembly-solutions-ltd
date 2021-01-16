@@ -34,8 +34,8 @@ export const ProjectIndexTemplate = ({ data, pagination }) => {
 }
 
 const ProjectIndex =  ({data, pageContext}) => {
-  const { markdownRemark: post } = data
-  const { seo } = post.frontmatter
+  const { edges: posts } = data.allMarkdownRemark
+  const { seo } = posts[0].node.frontmatter
   const title = seo ? seo.title : undefined
   const description = seo ? seo.description : undefined
   return (
