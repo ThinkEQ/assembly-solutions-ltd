@@ -31,14 +31,16 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [
-          {
-            family: `Titillium Web`,
-            variants: [`300`, `400`, `600`],
-          },
-        ],
+        fonts: {
+          google: [
+              {
+                family: `Titillium Web`,
+                variants: [`300`, `400`, `600`],
+              },
+            ],
+        }
       },
     },
     {
