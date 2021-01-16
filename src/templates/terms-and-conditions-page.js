@@ -41,9 +41,12 @@ TermsPageTemplate.propTypes = {
 
 const TermsPage = ({ data }) => {
   const { markdownRemark: post } = data
+  const { seo } = post.frontmatter
+  const title = seo ? seo.title : undefined
+  const description = seo ? seo.description : undefined
 
   return (
-    <Layout>
+    <Layout metaTitle={title} metaDescription={description}>
       <TermsPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -65,6 +68,10 @@ export const termsPageQuery = graphql`
       html
       frontmatter {
         title
+        seo {
+          title
+          description
+        }
       }
     }
   }

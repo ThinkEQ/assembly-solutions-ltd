@@ -118,9 +118,12 @@ IndustryPageTemplate.propTypes = {
 
 const IndustryPage = ({ data }) => {
   const { markdownRemark: post } = data
+  const { seo } = post.frontmatter
+  const title = seo ? seo.title : undefined
+  const description = seo ? seo.description : undefined
 
   return (
-    <Layout>
+    <Layout metaTitle={title} metaDescription={description}>
       <IndustryPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -149,6 +152,10 @@ export const industryPageQuery = graphql`
         title,
         subtitle,
         intro,
+        seo {
+          title 
+          description
+        }
         testimonial {
           name,
           quote

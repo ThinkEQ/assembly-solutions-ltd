@@ -161,9 +161,12 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
 
 const ProductCategoryPage = ({ data, pageContext }) => {
   const { markdownRemark: post } = data
+  const { seo } = post.frontmatter
+  const title = seo ? seo.title : undefined
+  const description = seo ? seo.description : undefined
  
   return (
-    <Layout>
+    <Layout metaTitle={title} metaDescription={description}>
       <ProductCategoryPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -187,6 +190,10 @@ query productCategoryPageQuery($id: String!) {
     frontmatter {
           title,
           subtitle
+          seo {
+            title
+            description
+          }
           usps {
             usp
           }

@@ -86,9 +86,12 @@ NewsArticleTemplate.propTypes = {
 
 const NewsArticle = ({ data }) => {
   const { markdownRemark: post } = data
+  const { seo } = post.frontmatter
+  const title = seo ? seo.title : undefined
+  const description = seo ? seo.description : undefined
 
   return (
-    <Layout>
+    <Layout metaTitle={title} metaDescription={description}>
       <NewsArticleTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -117,6 +120,10 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        seo {
+          title 
+          description
+        }
         image {
           childImageSharp {
             fluid(maxHeight: 480, quality: 80) {

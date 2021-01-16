@@ -75,9 +75,12 @@ ProjectArticleTemplate.propTypes = {
 
 const ProjectArticle = ({ data }) => {
   const { markdownRemark: post } = data
+  const { seo } = post.frontmatter
+  const title = seo ? seo.title : undefined
+  const description = seo ? seo.description : undefined
 
   return (
-    <Layout>
+    <Layout metaTitle={title} metaDescription={description}>
       <ProjectArticleTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -106,6 +109,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         intro
+        seo {
+          title 
+          description
+        }
         projectfeature {
           name
           quote
