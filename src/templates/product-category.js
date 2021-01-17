@@ -105,7 +105,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
                   }
                   if (content.type === 'testimonial') {
                       return (
-                          <GridItem>
+                          <GridItem colSpan={{base: 2,  lg: span}}>
                               <TestimonialBlock author={content.testimonial.name}  quote={content.testimonial.quote} />
                           </GridItem>
                       )

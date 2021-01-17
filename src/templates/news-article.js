@@ -55,7 +55,7 @@ export const NewsArticleTemplate = ({
                 }
                 if (content.type === 'testimonial') {
                     return (
-                        <GridItem>
+                        <GridItem colSpan={{base: 2,  lg: span}}>
                             <Testimonial author={content.testimonial.name}  quote={content.testimonial.quote} />
                         </GridItem>
                     )
