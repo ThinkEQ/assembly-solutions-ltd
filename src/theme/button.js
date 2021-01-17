@@ -26,12 +26,20 @@ export const ButtonStyles = {
     },
     variants: {
         solid: {
-            bg: "green.900",
+            bg: "gradient.500",
             color: "#fff",
+            borderColor: "green.900",
+            backfaceVisibility: "hidden",
+            '-webkit-backface-visibility': "hidden",
             _hover: {
-                background: "gradient.900",
+                bg: "gradient.900",
+                borderColor: "green.900",
                 backgroundSize: "600% 600%",
                 animation: `${flow} infinite 10s ease`
+            },
+            _active: {
+                bg: "gradient.500",
+                borderColor: "green.900",
             }
         },
         gradient: {
@@ -61,6 +69,10 @@ export const ButtonStyles = {
                 content: "''",
                 top: "50%",
                 left: "50%",
+            },
+            _active: {
+                bg: "#fff",
+                color: "green.900"
             },
             _hover: {
                 background: "transparent",
