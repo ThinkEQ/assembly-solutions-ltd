@@ -80,7 +80,7 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
 const VideosIndex =  ({data, pageContext}) => {
   const { edges: posts } = data.allMarkdownRemark
   const { seo } = posts[0].node.frontmatter
-  const title = seo ? seo.title : undefined
+  const title = seo ? seo.title : 'Videos'
   const description = seo ? seo.description : undefined
 
   return (

@@ -42,7 +42,7 @@ PrivacyPageTemplate.propTypes = {
 const PrivacyPage = ({ data }) => {
   const { markdownRemark: post } = data
   const { seo } = post.frontmatter
-  const title = seo ? seo.title : undefined
+  const title = seo ? seo.title : post.frontmatter.title
   const description = seo ? seo.description : undefined
 
   return (

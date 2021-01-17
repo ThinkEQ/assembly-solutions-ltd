@@ -162,7 +162,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
 const ProductCategoryPage = ({ data, pageContext }) => {
   const { markdownRemark: post } = data
   const { seo } = post.frontmatter
-  const title = seo ? seo.title : undefined
+  const title = seo ? seo.title : post.frontmatter.title
   const description = seo ? seo.description : undefined
  
   return (

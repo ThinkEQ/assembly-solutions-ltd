@@ -112,7 +112,7 @@ const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
   const { seo: { title, description } } = post.frontmatter
   return (
-    <Layout metaTitle={title} metaDescription={description} >
+    <Layout metaTitle={title || post.frontmatter.title} metaDescription={description} >
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
