@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 // Load components
-import { Box, Heading, Text, Image, Button } from '@chakra-ui/react'
+import { Box, Heading, Text, Image, Button, keyframes } from '@chakra-ui/react'
+import ReactScroll from '../components/ReactScroll/ReactScroll'
 
 //import Button from '../theme/button'
 import Layout from '../components/Layout'
@@ -22,6 +23,12 @@ const imgBk = {
   backgroundPosition: "center",
   width: '100vw'
 }
+
+const bounce = keyframes `
+  0%{transform: translateY(-25px)}
+  50%{transform: translateY(0px)}
+  100%{transform: translateY(-25px)}
+`
 
 export const IndexPageTemplate = ({
   title,
@@ -47,17 +54,21 @@ return (
                 </Text>
                 <Box display="flex" justifyContent="space-between" width="100%">
                 <Button variant="solid">Watch Full Video</Button>
-                  <Box display={{base:"flex", lg: "none"}} justifyContent="flex-end" alignSelf="flex-end" cursor="pointer">
-                    <Image src={DownArrow} />
+                  <Box display={{base:"flex", lg: "none"}} justifyContent="flex-end" alignSelf="flex-end" animation={`${bounce} infinite 5s ease-in-out`}  cursor="pointer">
+                    <ReactScroll>
+                      <Image src={DownArrow} />
+                    </ReactScroll>  
                   </Box>
                 </Box>
-                <Box display={{base: "none", lg:"block"}} position="absolute" bottom="50px" right="50px" cursor="pointer">
-                  <Image src={DownArrow} />
+                <Box display={{base: "none", lg:"block"}} position="absolute" bottom="50px" right="50px" animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
+                  <ReactScroll>
+                    <Image src={DownArrow} />
+                  </ReactScroll>  
                 </Box>
               </Box>
       
       </Box>
-      <Box textStyle="section" as="section" minHeight="700px" position="relative" background="neutral.900">
+      <Box textStyle="section" as="section" id="what-we-do-home" minHeight="700px" position="relative" background="neutral.900">
         <Box textStyle="container" position="relative">
           <CarouselWhatWeDo />
         </Box>
