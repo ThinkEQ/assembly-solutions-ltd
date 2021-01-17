@@ -22,6 +22,14 @@ export const ButtonStyles = {
             paddingLeft: "2.5rem",
             paddingRight: "2.5rem",
             height: "3.5rem"
+        },
+        full: {
+            fontSize: "14px",
+            paddingTop: "2px",
+            paddingLeft: "2.5rem",
+            paddingRight: "2.5rem",
+            height: "100%",
+            width: "100%"
         }
     },
     variants: {
