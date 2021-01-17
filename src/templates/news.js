@@ -36,7 +36,7 @@ export const NewsIndexTemplate = ({ data, pagination }) => {
 const NewsIndex =  ({data, pageContext}) => {
   const { edges: posts } = data.allMarkdownRemark
   const { seo } = posts[0].node.frontmatter
-  const title = seo ? seo.title : 'News'
+  const title = seo ? seo.title : posts[0].node.frontmatter.title
   const description = seo ? seo.description : undefined
 
   return (
