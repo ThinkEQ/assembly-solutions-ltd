@@ -111,7 +111,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
                       )
                   }
                   return (
-                      <GridItem colSpan={span}>
+                      <GridItem colSpan={{base: 2,  lg: span}} >
                           <Heading as="h4" textStyle="h4" marginBottom="20px">
                               {content.column.title}
                           </Heading>
