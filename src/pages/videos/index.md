@@ -2,10 +2,23 @@
 templateKey: video-page
 title: Videos
 video:
-  - name:
-    id: B8vlk1UR99k&list
-  - name: "Test video two "
-    id: 2Xc9gXyf2G4
-  - name: Test video 3
-    id: 2Xc9gXyf2G4
+  - name: Who We Are
+    id: wusos_tZNIQ
+  - name: Cable & Wire Preparation
+    id: Cp3lVNhtjrI
+  - name: Cable Assembly
+    id: JM9UP2GiQ_M
+  - name: Wiring Harnesses
+    id: TTebZ3qU9sQ
+  - name: Control Panels
+    id: BG1WAnAd6mI
+  - name: Heavy Duty Cables
+    id: jG3VVdSHQ3A
+  - name: Our People
+    id: TIdtUZEsQxA
+  - name: Outtakes
+    id: a1WtEMgyijY
+seo:
+  title: Videos
+  description: Videos
 ---
