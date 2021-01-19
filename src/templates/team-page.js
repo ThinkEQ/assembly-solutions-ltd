@@ -63,9 +63,12 @@ TeamPageTemplate.propTypes = {
 
 const TeamPage = ({ data }) => {
   const { markdownRemark: post } = data
+  const { seo } = post.frontmatter
+  const title = seo ? seo.title : post.frontmatter.title
+  const description = seo ? seo.description : undefined
 
   return (
-    <Layout>
+    <Layout metaTitle={title} metaDescription={description}>
       <TeamPageTemplate
         title={post.frontmatter.title}
         teamMembers={post.frontmatter.team_members}
@@ -85,6 +88,10 @@ export const teamPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        seo {
+          title
+          description
+        }
         team_members {
           bio
           interests

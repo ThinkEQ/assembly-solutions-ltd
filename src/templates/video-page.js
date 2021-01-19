@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { Fragment, useState } from 'react'
 
 // Load components
 import Layout from '../components/Layout'
@@ -31,7 +31,7 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
   }
   
   return (
-         <Layout>
+      <Fragment>
           <Box as="header" textStyle="section" >
               <Box textStyle="container" paddingTop={{base: "100px", lg:"50px"}}>
                   <Text textStyle="p" marginBottom="20px" fontSize="22px">
@@ -73,13 +73,21 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
               </ModalBody>
             </ModalContent>
           </Modal>
-      </Layout>
+    </Fragment>
   )
 }
 
 const VideosIndex =  ({data, pageContext}) => {
   const { edges: posts } = data.allMarkdownRemark
-  return <VideoIndexTemplate videos={posts[0].node.frontmatter.video || []} pagination={pageContext} />
+  const { seo } = posts[0].node.frontmatter
+  const title = seo ? seo.title : posts[0].node.frontmatter.title
+  const description = seo ? seo.description : undefined
+console.log(data, 'data')
+  return (
+    <Layout metaTitle={title} metaDescription={description}>
+      <VideoIndexTemplate videos={posts[0].node.frontmatter.video || []} pagination={pageContext} />
+    </Layout>
+  )
 }
 
 export const videoIndexQuery = graphql`
@@ -101,6 +109,10 @@ query VideosIndexQuery($skip: Int!, $limit: Int!) {
         frontmatter {
           title
           templateKey
+          seo {
+            title
+            description
+          }
           video {
             name
             id

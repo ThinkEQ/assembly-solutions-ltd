@@ -11,14 +11,14 @@ import { ChakraProvider } from '@chakra-ui/react'
 // Load theme
 import theme from '../theme/index'
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
   const { title, description } = useSiteMetadata()
   return (
     <Fragment>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>{metaTitle || title}</title>
+        <meta name="description" content={metaDescription || description} />
 
         <link
           rel="apple-touch-icon"

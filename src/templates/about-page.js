@@ -110,9 +110,9 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
-  
+  const { seo: { title, description } } = post.frontmatter
   return (
-    <Layout>
+    <Layout metaTitle={title || post.frontmatter.title} metaDescription={description} >
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -140,6 +140,10 @@ export const aboutPageQuery = graphql`
         title,
         subtitle,
         intro
+        seo {
+          title
+          description
+        }
         image {
           childImageSharp {
             fluid(maxHeight: 600, quality: 80) {

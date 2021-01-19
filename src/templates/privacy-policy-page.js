@@ -41,9 +41,12 @@ PrivacyPageTemplate.propTypes = {
 
 const PrivacyPage = ({ data }) => {
   const { markdownRemark: post } = data
+  const { seo } = post.frontmatter
+  const title = seo ? seo.title : post.frontmatter.title
+  const description = seo ? seo.description : undefined
 
   return (
-    <Layout>
+    <Layout metaTitle={title} metaDescription={description}>
       <PrivacyPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -65,6 +68,10 @@ export const privacyPageQuery = graphql`
       html
       frontmatter {
         title
+        seo {
+          title
+          description
+        }
       }
     }
   }
