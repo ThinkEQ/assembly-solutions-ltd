@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 // Load components
-import { Box, Heading, Text, Image, Button, keyframes } from '@chakra-ui/react'
+import { Box, Heading, Text, Image, Button, keyframes, createIcon } from '@chakra-ui/react'
 import ReactScroll from '../components/ReactScroll/ReactScroll'
 
 //import Button from '../theme/button'
@@ -15,7 +15,8 @@ import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerO
 
 // Load asset
 import stock from '../img/stock.jpg'
-import DownArrow from '../img/arrowCircleDown.svg'
+import Icon from '../components/UI/SVG/index'
+import '../components/UI/SVG/styles.css'
 
 const imgBk = {
   background: `linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%), url(${stock});`,
@@ -43,30 +44,23 @@ return (
     <Fragment>
       <Box as="header" minHeight={{base: "calc(100vh - 50px)", lg:"calc(100vh - 100px)"}} paddingTop={{base: "50px", lg: "100px"}} textStyle="section" {...imgBk}>
           <Box minHeight={{base: "calc(100vh - 50px)", lg:"calc(100vh - 100px)"}} textStyle="container" display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
-             
-                <Heading textStyle="h1" textTransform="uppercase" color="#fff">
-                  Efficient manufacturing <br/>
-                  that delivers <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>Quality & Speed</Text>
-                </Heading>
-                <Text fontSize={{base: "16px", lg:"24px"}} lineHeight={{base: "28px", lg:"38px"}} color="#fff" marginBottom="50px">
-                  ASL is a family business based in Bolton, manufacturing cable <br/>
-                  assemblies, wiring harnesses and control panels.
-                </Text>
-                <Box display="flex" justifyContent="space-between" width="100%">
-                <Button variant="solid">Watch Full Video</Button>
-                  <Box display={{base:"flex", lg: "none"}} justifyContent="flex-end" alignSelf="flex-end" animation={`${bounce} infinite 5s ease-in-out`}  cursor="pointer">
-                    <ReactScroll>
-                      <Image src={DownArrow} />
-                    </ReactScroll>  
-                  </Box>
-                </Box>
-                <Box display={{base: "none", lg:"block"}} position="absolute" bottom="50px" right="50px" animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
-                  <ReactScroll>
-                    <Image src={DownArrow} />
-                  </ReactScroll>  
-                </Box>
-              </Box>
-      
+            <Heading textStyle="h1" textTransform="uppercase" color="#fff">
+              Efficient manufacturing <br/>
+              that delivers <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>Quality & Speed</Text>
+            </Heading>
+            <Text fontSize={{base: "16px", lg:"24px"}} lineHeight={{base: "28px", lg:"38px"}} color="#fff" marginBottom="50px">
+              ASL is a family business based in Bolton, manufacturing cable <br/>
+              assemblies, wiring harnesses and control panels.
+            </Text>
+            <Box display="flex" justifyContent="space-between" width="100%">
+              <Button variant="solid">Watch Full Video</Button>
+            </Box>
+            <Box display={{base:"block", lg: "block"}} position="absolute" bottom={{base: "65px", md: "50px"}} right={{base: "0", md: "50px"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
+              <ReactScroll>
+                <Icon  name="downArrow" />
+              </ReactScroll>  
+            </Box>
+          </Box>
       </Box>
       <Box textStyle="section" as="section" id="what-we-do-home" minHeight="700px" position="relative" background="neutral.900">
         <Box textStyle="container" position="relative">
