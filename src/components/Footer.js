@@ -26,7 +26,7 @@ const Footer = () => {
           <Box width={{base: "100%", lg:"48%"}} marginBottom={{base: "30px", lg: "0"}}>
             <InputGroup size="lg">
               <Input borderRadius="3px" color="blue.900" placeholder="name@email.com" borderColor="blue.900" border="none" height={{base: "51px", md:"72px"}} background="#fff" />
-              <InputRightElement width={{base: "110px", md:"175px"}} padding={{base: "0", md: "1rem"}} children={<Button variant="solid" height={{base: "100%", md:"72px"}} width="100%" paddingRight={{base: "0", md: "2.5rem"}} paddingLeft={{base: "0", md: "2.5rem"}} whiteSpace="nowrap">Subscribe</Button>} height={{base: "51px", md:"72px"}} background="green.900" fontWeight="bold" borderTopRightRadius="3px" borderBottomRightRadius="3px" />
+              <InputRightElement width={{base: "110px", md:"175px"}} padding="0" children={<Button variant="solid" size="full" paddingRight={{base: "0", md: "2.5rem"}} paddingLeft={{base: "0", md: "2.5rem"}} whiteSpace="nowrap">Subscribe</Button>} height={{base: "51px", md:"72px"}} background="green.900" fontWeight="bold" borderTopRightRadius="3px" borderBottomRightRadius="3px" />
             </InputGroup>
             <Box display="flex" alignItems="flex-start" justifyContent="space-between" width={{base: "100%", lg:"80%"}} marginTop="20px">
               <Text {...para} fontSize={{base: "14px", lg: "18px"}} >
