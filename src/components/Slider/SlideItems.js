@@ -5,14 +5,17 @@ import Draggable from 'react-draggable'
 import { Box, Heading, useMediaQuery, Slider, SliderTrack, SliderThumb, SliderFilledTrack  } from '@chakra-ui/react'
 import CardArticle from '../Cards/CardArticle/CardArticle'
 
-// Load asset
-import stock from '../../img/stock.jpg'
-
-const SlideItems = ({ title }) => {
+const SlideItems = ({ title, data = [] }) => {
+   
+    
     const [isLargerThan767] = useMediaQuery("(min-width: 767px)")
     const [position, setPosition] = useState('0')
     const [deltaPositions, setDelta] = useState({ x: 0, y: 0})
 
+    // Bounds
+    const maxBounds = isLargerThan767 ? data.length * 400 : data.length * 250
+
+    // Handle onDrag 
     function onControlledDrag(e, position) {
         const { x, y } = position
         setDelta({ x, y})
@@ -21,10 +24,16 @@ const SlideItems = ({ title }) => {
         setPosition(positive) 
     }
 
+    // Handle thumb slider
     function onSlide(value) {
-
         setPosition(value)
         setDelta({x: -value, y: 0})
+    }
+
+     
+    // Remove from page if no data
+    if (data.length < 1) {
+        return null
     }
 
     return (
@@ -41,25 +50,25 @@ const SlideItems = ({ title }) => {
                 axis="x"
                 position={deltaPositions}
                 onDrag={onControlledDrag}
-                bounds={{ right: 0, left: isLargerThan767 ? -1600 : -1100, top: 0, bottom: 0}}
+                bounds={{ right: 0, left: -maxBounds, top: 0, bottom: 0}}
                 >
-                <Box display="flex" justifyContent="space-between" width="100%"  minWidth={{base: "1400px", md: "2000px"}}>
-                    <Box marginRight="25px">
-                     <CardArticle imgSrc={stock} title="ASL 1 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
-                    </Box>
-                    <Box marginRight="25px">
-                     <CardArticle imgSrc={stock} title="ASL 2 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
-                    </Box>
-                    <Box marginRight="25px">
-                     <CardArticle imgSrc={stock} title="ASL 3 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
-                    </Box>
-                    <Box>
-                     <CardArticle imgSrc={stock} title="ASL 4 Commercial Team Climb Ben Nevis" date="July 27, 2020 - ASL Team" />
-                    </Box>
+                <Box display="flex" justifyContent="space-between" width="100%">
+                   {data.length && data.map((item, index) => {
+                       const { frontmatter, fields } = item.node
+
+                        if (index > 4) {
+                            return null
+                        }
+                       return (
+                           <Box width="100%" minWidth={{base:"300px", md: "535px"}} maxWidth={{base:"300px", md: "535px"}} marginRight="25px">
+                                <CardArticle title={frontmatter.title} slug={fields.slug} imgFluid={frontmatter.image} date={`${frontmatter.date} - ASL Team`} />
+                           </Box>
+                       )
+                   })}
                 </Box>
                 </Draggable>
                 <Box maxWidth={{base: "100%", lg: "80%"}} paddingTop="30px" marginLeft={{base: "25px", lg: "60px"}}>
-                    <Slider value={position} min={0} max={isLargerThan767 ? 1600 : 1100} step={1} onChange={(value) => onSlide(value)} focusThumbOnChange={false}>
+                    <Slider value={position} min={0} max={maxBounds} step={1} onChange={(value) => onSlide(value)} focusThumbOnChange={false}>
                     <SliderTrack background="neutral.700" height="1px">
                         <SliderFilledTrack background="neutral.700" color="neutral.700"  />
                     </SliderTrack>

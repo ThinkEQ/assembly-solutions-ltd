@@ -10,7 +10,7 @@ import ReactScroll from '../components/ReactScroll/ReactScroll'
 import Layout from '../components/Layout'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
-import SliderItems from '../components/Slider/SlideItems'
+import NewsArticles from '../components/StaticQueries/NewsArticles'
 import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerOurCustomers'
 
 // Load asset
@@ -87,9 +87,8 @@ return (
       </Box>
 
       <Box as="section" position="relative" width="100%" overflow="hidden">
-       <SliderItems title="Latest News" />     
+        <NewsArticles />
       </Box>
-
       <Box as="section" textStyle="section">
         <BannerUSP />
       </Box>

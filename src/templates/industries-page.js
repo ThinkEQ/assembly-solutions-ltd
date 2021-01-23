@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 
 // Load components
 import { Box, Heading, Text, Link, useMediaQuery } from '@chakra-ui/react'
-import SliderItems from '../components/Slider/SlideItems'
+import NewsArticle from '../components/StaticQueries/NewsArticles'
 import PreviewImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 import { CarouselProvider, Slide, Slider } from 'pure-react-carousel'
@@ -104,7 +104,7 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
       </Box>
 
       <Box as="section" position="relative" width="100%" overflow="hidden">
-        <SliderItems title="Latest News" />
+        <NewsArticle />
       </Box>
     </Fragment>
   )
