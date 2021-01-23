@@ -6,7 +6,7 @@ import { graphql, Link as ReachLink } from 'gatsby'
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 import { BsCircleFill } from 'react-icons/bs'
 import { Box, Text, Heading, List, ListItem, ListIcon, Link } from '@chakra-ui/react'
-import CarouselNews from '../components/Carousel/CarouselNews'
+import NewsArticle from '../components/StaticQueries/NewsArticles'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import ImageComp from '../components/PreviewCompatibleImage'
 import Button from '../theme/button'
@@ -95,7 +95,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
         </Box>
       </Box>
       <Box as="section" position="relative" width="100%" overflow="hidden">
-        <CarouselNews />      
+        <NewsArticle />
      </Box>
     </Fragment>
    

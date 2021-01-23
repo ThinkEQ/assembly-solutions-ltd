@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 // Load components
 import { Box, Heading, Text, ListIcon, List, ListItem, useMediaQuery, Link, Grid, GridItem } from '@chakra-ui/react'
 import Carousel, { SlideLeftReverse } from '../components/Carousel/index'
-import CarouselProjects from '../components/Carousel/CarouselProject'
+import RelatedProjects from '../components/StaticQueries/RelatedProjects'
 import CarouselReel from '../components/Carousel/CarouselReel'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMore'
@@ -126,7 +126,8 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
     </Box>
 
     {/** Reel */}
-    <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "400px", md: "600px"}} overflow="hidden">
+    {imgCarousel.length &&
+      <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "400px", md: "600px"}} overflow="hidden">
        <CarouselReel totalSlides={imgCarousel.length + 1}>
          <Slider>
              {imgCarousel.map((img, index) => {
@@ -142,9 +143,10 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
          <SlideLeftReverse position="absolute" top="50%" left="-5%" transform="translateY(-50%)" display={{base: "none", lg: "block"}} />
        </CarouselReel> 
       </Box>
+      }
 
       <Box as="section" textStyle="section">
-       <BannerUSP />
+        <BannerUSP />
       </Box>
      
       <Box as="section">
@@ -152,8 +154,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
       </Box>
      
       <Box as="section" position="relative" width="100%" overflow="hidden">
-        
-          <CarouselProjects />
+          <RelatedProjects />
       </Box>
     </Fragment>
   )
@@ -164,7 +165,7 @@ const ProductCategoryPage = ({ data, pageContext }) => {
   const { seo } = post.frontmatter
   const title = seo ? seo.title : post.frontmatter.title
   const description = seo ? seo.description : undefined
- 
+  
   return (
     <Layout metaTitle={title} metaDescription={description}>
       <ProductCategoryPageTemplate
