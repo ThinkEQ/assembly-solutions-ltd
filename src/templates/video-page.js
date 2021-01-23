@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 // Load components
 import Layout from '../components/Layout'
-import { Box, Heading, SimpleGrid, Text, Modal, ModalBody, ModalContent, ModalOverlay, ModalCloseButton, useDisclosure } from '@chakra-ui/react'
+import { Box, Heading, SimpleGrid, Text, Modal, ModalBody, ModalContent, ModalOverlay, useDisclosure } from '@chakra-ui/react'
 import Pagination from '../components/Pagination/Pagination'
 import { graphql } from 'gatsby'
 import CardVideo from '../components/Cards/CardVideo/CardVideo'
@@ -14,6 +14,7 @@ const VideoCard = ({ videoSrc }) => {
           height="315"
           src={`https://www.youtube-nocookie.com/embed/${videoSrc}`}
           frameborder="0"
+          title="youtube"
           style={{border: 0, position: "absolute", top: 0, left: 0, width:"100%", height:"100%"}}
           allowfullscreen />
       </Box>

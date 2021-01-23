@@ -45,7 +45,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
             </MDXWrapper>
           </Box>
           <Box width={{base: "100%", lg:"48%"}}>
-            <Text textStyle="p" fontSize="24px" fontWeight="bold" marginBottom="20px">
+            <Text textStyle="p" fontSize="24px" fontWeight="600" marginBottom="20px">
               With a wide product range, Assembly Solutions serve any market sector from Automotive, to Nuclear and Utilities.
             </Text>
             <List spacing="4">

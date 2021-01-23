@@ -17,7 +17,7 @@ const ProductSlide = ({ heading, text, btnLink, imgSrc, imgAlt }) => {
                 <Text textStyle="p" marginBottom="40px">
                     {text}
                 </Text>
-                <Button>Learn more</Button>
+                <Button variant="solid">Learn more</Button>
             </Box>
             <Box display="flex" justifyContent="center" alignItems="flex-start" width={{base:"100%", lg:"40%"}}>
                 <Image src={imgSrc} alt={imgAlt} borderRadius="8px" />

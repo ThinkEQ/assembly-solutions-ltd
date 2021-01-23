@@ -1,19 +1,35 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+
+// Load components
+import { Box, Heading, Text } from '@chakra-ui/react'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 
 export const PrivacyPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <section>
-        <h1>
-            {title}
-        </h1>
-        <PageContent className="content" content={content} />
-    </section>
+   <Fragment>
+      <Box as="header" textStyle="section">
+        <Box textStyle="container" paddingTop={{base: "100px", lg:"50px"}}>
+          <Text textStyle="p" marginBottom="20px" fontSize="22px">
+              Legal
+            </Text> 
+            <Heading as="h1" textStyle="h1">
+                {title}
+            </Heading>
+        </Box>
+      </Box>
+      <Box as="section" textStyle="section">
+        <Box textStyle="container">
+          <MDXWrapper>
+          <PageContent content={content} />
+          </MDXWrapper>
+        </Box>
+      </Box>
+   </Fragment>
   )
 }
 
