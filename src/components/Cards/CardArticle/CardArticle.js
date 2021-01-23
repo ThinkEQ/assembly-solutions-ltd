@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Image, Text } from '@chakra-ui/react'
 import PreviewImage from '../../PreviewCompatibleImage'
 
-const CardNews = ({ title, date, imgSrc = false, imgAlt, imgFluid = false }) => {
+const CardArticle = ({ title, date, imgSrc = false, imgAlt, imgFluid = false }) => {
     return (
         <Box borderRadius="4px" display="flex" flexDirection="column" background="#fff" height={{base: "370px", md:"470px"}} width="100%" overflow="hidden">
             <Box height="50%" width="100%" overflow="hidden">
@@ -17,4 +17,4 @@ const CardNews = ({ title, date, imgSrc = false, imgAlt, imgFluid = false }) => 
     )
 }
 
-export default CardNews
+export default CardArticle

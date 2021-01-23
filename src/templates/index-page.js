@@ -3,14 +3,14 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 // Load components
-import { Box, Heading, Text, Image, Button, keyframes, createIcon } from '@chakra-ui/react'
+import { Box, Heading, Text, Button, keyframes } from '@chakra-ui/react'
 import ReactScroll from '../components/ReactScroll/ReactScroll'
 
 //import Button from '../theme/button'
 import Layout from '../components/Layout'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
-import CarouselNews from '../components/Carousel/CarouselNews'
+import SliderItems from '../components/Slider/SlideItems'
 import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerOurCustomers'
 
 // Load asset
@@ -87,7 +87,7 @@ return (
       </Box>
 
       <Box as="section" position="relative" width="100%" overflow="hidden">
-       <CarouselNews />      
+       <SliderItems title="Latest News" />     
       </Box>
 
       <Box as="section" textStyle="section">

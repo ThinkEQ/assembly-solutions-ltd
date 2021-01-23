@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 
 // Load components
 import { Box, Heading, Text, ListIcon, List, ListItem, Grid, GridItem } from '@chakra-ui/react'
-import CarouselProjects from '../components/Carousel/CarouselProject'
+import SlideItems from '../components/Slider/SlideItems'
 import CarouselReel from '../components/Carousel/CarouselReel'
 import { SlideLeftReverse } from '../components/Carousel/index'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
@@ -115,7 +115,7 @@ export const ProductPageTemplate = ({ title, mainContent, contentComponent, subt
 
       <BannerLearnMore />
       <Box as="section" position="relative" width="100%" overflow="hidden">
-          <CarouselProjects />
+          <SlideItems title="Related Projects" />
       </Box>
     </Fragment>
   )
