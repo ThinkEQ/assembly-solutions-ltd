@@ -79,6 +79,15 @@ const overrides = {
     fonts: {
         heading: "Titillium Web"
     },
+    layerStyles: {
+        brightness: {
+            filter: "brightness(100%)",
+            transition: ".6s ease-in-out",
+            _hover: {
+                filter: "brightness(50%)"
+            }
+        }
+    },
     textStyles: {
         h1: {
             fontSize: {base: "42px", md:"60px"},
