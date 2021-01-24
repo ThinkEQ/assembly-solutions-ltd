@@ -5,7 +5,8 @@ import Layout from '../components/Layout'
 
 // Load components
 import { Box, Heading, Text, ListIcon, List, ListItem, useMediaQuery, Link, Grid, GridItem } from '@chakra-ui/react'
-import Carousel, { SlideLeftReverse } from '../components/Carousel/index'
+import { SlideLeftReverse } from '../components/Carousel/index'
+import Carousel from '../components/Carousel/CustomCarousel'
 import RelatedProjects from '../components/StaticQueries/RelatedProjects'
 import CarouselReel from '../components/Carousel/CarouselReel'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
@@ -22,6 +23,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent }) => {
   const PageContent = contentComponent || Content
   const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
+  const [isLessThan464] = useMediaQuery("(max-width: 464px")
 
   return (
     <Fragment>
@@ -62,27 +64,30 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
         </Box>
       </Box>
 
-    {/**Relate products Carousel */}
-    <Box as="section" position="relative" width="100%" maxHeight="500px" margin="30px 0">
-      <Carousel totalSlides={relatedProducts.length} visibleSlides={isLargerThan760 ? 3 : 1} naturalSlideWidth={450} isPlaying={false} playDirection="forward" interval={3000} naturalSlideHeight={450} infinite={true}>
-      <Slider>
-        {relatedProducts.map((item, index) => {
-          return (
-            <Slide index={index}>
-              <Box cursor="pointer" mr={{base: 0, lg:"5px"}} height="100%" maxHeight="480px" position="relative">
-                <Link as={ReachLink} to={`/${item.node.fields.slug}`} height="100%" >
-                    <Box position="absolute" height="100%" width="100%" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="0px" background="rgba(9,21,64,0.5)" />
-                    <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" />
-                    <Text textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" pointerEvents="none" transform="translate(-50%, -50%)">
-                    {item.node.frontmatter.title}
-                    </Text>
-                </Link>
+      <Box as="section" width="100%" maxHeight="600px" margin={{base:"30px 0", lg: "50px 0"}}>
+        <Carousel
+          arrows={false}
+          autoPlay
+          autoPlaySpeed={5000}
+          customTransition="transform 3000ms ease-in-out"
+          transitionDuration={3000}
+          centerMode={isLessThan464 ? false : true}
+          partialVisible={isLessThan464 ? true : false}
+          >
+            {relatedProducts.map((item) => {
+              return (
+                <Box cursor="pointer" padding="0 5px" width="calc(100% - 10px)" height="457px" maxHeight="457px" position="relative">
+                  <Link as={ReachLink} to={`/${item.node.fields.slug}`} height="100%">
+                      <Box position="absolute" height="100%" width="calc(100% - 10px)" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="5px" background="rgba(9,21,64,0.5)" />
+                      <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
+                      <Text textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" pointerEvents="none" transform="translate(-50%, -50%)">
+                      {item.node.frontmatter.title}
+                      </Text>
+                  </Link>
               </Box>
-          </Slide>
-          )
-        })}          
-      </Slider>
-      </Carousel>
+              )
+            })}          
+        </Carousel> 
     </Box>
 
     {/**Main content */}

@@ -6,11 +6,11 @@ import Layout from '../components/Layout'
 
 
 // Load components
-import { Box, Heading, Text, Link, useMediaQuery } from '@chakra-ui/react'
+import { Box, Heading, Text, Link } from '@chakra-ui/react'
 import NewsArticle from '../components/StaticQueries/NewsArticles'
 import PreviewImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
-import { CarouselProvider, Slide, Slider } from 'pure-react-carousel'
+import Carousel from '../components/Carousel/CustomCarousel'
 
 /**
  * @todo Animate scroll text
@@ -36,7 +36,7 @@ import { CarouselProvider, Slide, Slider } from 'pure-react-carousel'
 
 export const IndustryPageTemplate = ({ title, content, contentComponent, subtitle, intro, imgHeader, testimonial, industries }) => {
   const PageContent = contentComponent || Content
-  const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
+  //const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
 
   return (
     <Fragment>
@@ -84,24 +84,30 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
         </Box>
       </Box>
 
-      <Box as="section" position="relative" width="100%" overflow="hidden" maxHeight="700px" margin={{base:"30px 0", lg: "50px 0"}}>
-        <CarouselProvider totalSlides={industries.length} visibleSlides={isLargerThan760 ? 3 : 2} naturalSlideWidth={200} isPlaying={true} playDirection="forward" interval={3000} naturalSlideHeight={400} infinite={true}>
-        <Slider>
+      <Box as="section" width="100%" maxHeight="700px" margin={{base:"30px 0", lg: "50px 0"}}>
+        <Carousel
+        arrows={false}
+        autoPlay
+        autoPlaySpeed={5000}
+        customTransition="transform 3000ms ease-in-out"
+        transitionDuration={3000}
+        centerMode={true}
+        >
           {industries.map((item, index) => {
             return (
-              <Slide index={index}>
-                <Box padding="0 5px" height="100%" maxHeight="700px" position="relative">
-                  <PreviewImage imageInfo={item.image} borderRadius="3px" height="100%" />
+                <Box padding="0 5px" height={{base: "400px", md: "600px"}} position="relative">
+                  <Box height="100%"  layerStyle="brightness" >
+                    <PreviewImage imageInfo={item.image} borderRadius="3px" height="100%" width="100%"/>
+                  </Box>
                   <Text fontSize={{base: "24px", md: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
                     {item.name}
                   </Text>
                 </Box>
-            </Slide>
             )
           })}          
-        </Slider>
-        </CarouselProvider>
+        </Carousel> 
       </Box>
+   
 
       <Box as="section" position="relative" width="100%" overflow="hidden">
         <NewsArticle />

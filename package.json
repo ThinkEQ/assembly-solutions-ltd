@@ -43,6 +43,7 @@
     "react-draggable": "^4.4.3",
     "react-helmet": "^6.0.0",
     "react-icons": "^4.1.0",
+    "react-multi-carousel": "^2.6.1",
     "react-scroll": "^1.8.1",
     "react-spring": "^8.0.27",
     "remark": "^13.0.0",
