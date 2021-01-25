@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import { graphql, Link as ReachLink } from 'gatsby'
+import { graphql, navigate } from 'gatsby'
 import Layout from '../components/Layout'
 
 
@@ -24,6 +24,10 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
   const PageContent = contentComponent || Content
   const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
   const [isLessThan464] = useMediaQuery("(max-width: 464px")
+
+  function nav(slug) {
+    navigate(slug)
+  }
 
   return (
     <Fragment>
@@ -73,13 +77,11 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
             {relatedProducts.map((item) => {
               return (
                 <Box cursor="pointer" _active={{cursor: "grabbing"}} padding="0 5px" width="calc(100% - 10px)" height="457px" maxHeight="457px" position="relative">
-                  <Link as={ReachLink} pointerEvents="none" to={`/${item.node.fields.slug}`} height="100%">
-                      <Box position="absolute" height="100%" width="calc(100% - 10px)" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="5px" background="rgba(9,21,64,0.5)" />
-                      <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
-                      <Text textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" pointerEvents="none" transform="translate(-50%, -50%)">
-                      {item.node.frontmatter.title}
-                      </Text>
-                  </Link>
+                  <Box position="absolute" pointerEvents="none" height="100%" width="calc(100% - 10px)" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="5px" background="rgba(9,21,64,0.5)" />
+                  <PreviewImage pointerEvents="none" imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
+                  <Text onClick={() => nav(`/${item.node.fields.slug}`)} textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
+                  {item.node.frontmatter.title}
+                  </Text>
               </Box>
               )
             })}          
