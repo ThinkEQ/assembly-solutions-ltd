@@ -49,11 +49,11 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
                         <Heading as="h2" fontSize="35px" lineHeight="42px" color="#fff">
                             About {name}
                         </Heading>
-                        <Box maxHeight="50px" maxWidth="50px">
+                        {/* <Box maxHeight="50px" maxWidth="50px">
                             <Link as={ReachLink} to={linkedIn} target="_blank" isExternal>
                                 <SVG name="linkedin" />
                             </Link>
-                        </Box>
+                        </Box> */}
                     </PopoverHeader>
                     <PopoverBody>
                         <Box display="flex" justifyContent="space-between">

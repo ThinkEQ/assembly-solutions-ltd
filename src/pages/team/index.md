@@ -90,7 +90,7 @@ team-members:
     interests:
       - football
   - name: Gareth Edwards
-    jobtitle: Gareth is our Head of Sales & Commercial.
+    jobtitle: Head of Sales & Commercial
     bio: >-
       Since joining ASL 15 years ago as a production operator, Gareth has
       technical knowledge from hands on shopfloor experience, he is brilliant at
@@ -103,7 +103,7 @@ team-members:
     interests:
       - hiking
   - name: Amanda Freeman
-    jobtitle: Amanda is our Accounts Manager.
+    jobtitle: Accounts Manager
     bio: >-
       She recently celebrated 10 years with ASL, and that included 100%
       attendance every year! Amanda is the number cruncher who we can’t wait to
@@ -117,7 +117,7 @@ team-members:
       - decorating
       - gardening
   - name: Gary Scowcroft
-    jobtitle: Gary is our Technical Sales Engineer.
+    jobtitle: Technical Sales Engineer
     bio: >-
       With an impressive 40 years of experience in wire and cable assemblies,
       Gary knows a lot! Since joining ASL 5 years ago, he has transformed the
@@ -131,7 +131,7 @@ team-members:
     interests:
       - hiking
   - name: John Waterworth
-    jobtitle: John is our Customer Accounts Manager.
+    jobtitle: Customer Accounts Manager
     bio: >-
       We all wish we could keep as cool as John when the pressure hits! Since he
       was in school, John has had a passion for electronics and has been
@@ -144,7 +144,7 @@ team-members:
     interests:
       - football
   - name: Michele Barnes
-    jobtitle: Michele is our Sales Administrator.
+    jobtitle: Sales Administrator
     bio: >-
       She loves to type, so much so that she could probably type a 10 page
       document faster than Usain Bolt could sprint 10 meters! Our customers
@@ -158,7 +158,7 @@ team-members:
     interests:
       - reading
   - name: Adam Tunnah
-    jobtitle: Adam is our Costing Engineer.
+    jobtitle: Costing Engineer
     bio: >-
       He is our costing king, who although is fresh from completing his business
       apprenticeship, has already played a big part in driving down costs to
