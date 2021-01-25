@@ -101,6 +101,35 @@ exports.createPages = ({ actions, graphql }) => {
   })
 }
 
+// Make childImageSharpAvailable in a nested field
+exports.createResolvers = ({
+  actions,
+  cache,
+  createNodeId,
+  createResolvers,
+  store,
+  reporter,
+}) => {
+  const { createNode } = actions
+  createResolvers({
+    TeamPage: {
+      image: {
+        type: `File`,
+        resolve(source, args, context, info) {
+          return createRemoteFileNode({
+            url: `http://localhost:8000${source.url}`,   //`${source.url}`, // for S3 upload. For local: `http://localhost:1337${source.url}`,
+            store,
+            cache,
+            createNode,
+            createNodeId,
+            reporter,
+          })
+        },
+      },
+    },
+  })
+}
+
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
   fmImagesToRelative(node) // convert image paths for gatsby images
