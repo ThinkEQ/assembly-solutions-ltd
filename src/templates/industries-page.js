@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 
 
 // Load components
-import { Box, Heading, Text, Link } from '@chakra-ui/react'
+import { Box, Heading, Text, Link, useMediaQuery } from '@chakra-ui/react'
 import NewsArticle from '../components/StaticQueries/NewsArticles'
 import PreviewImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
@@ -36,7 +36,8 @@ import Carousel from '../components/Carousel/CustomCarousel'
 
 export const IndustryPageTemplate = ({ title, content, contentComponent, subtitle, intro, imgHeader, testimonial, industries }) => {
   const PageContent = contentComponent || Content
-  //const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
+  const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
+  const [isLessThan464] = useMediaQuery("(max-width: 464px")
 
   return (
     <Fragment>
@@ -87,17 +88,14 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
       <Box as="section" width="100%" maxHeight="700px" margin={{base:"30px 0", lg: "50px 0"}}>
         <Carousel
         arrows={false}
-        autoPlay
-        autoPlaySpeed={5000}
-        customTransition="transform 3000ms ease-in-out"
-        transitionDuration={3000}
-        centerMode={true}
+        centerMode={isLessThan464 ? false : true}
+        partialVisible={isLessThan464 ? true : false}
         >
           {industries.map((item, index) => {
             return (
-                <Box padding="0 5px" height={{base: "400px", md: "600px"}} position="relative">
-                  <Box height="100%"  layerStyle="brightness" >
-                    <PreviewImage imageInfo={item.image} borderRadius="3px" height="100%" width="100%"/>
+                <Box padding="0 5px" height={{base: "400px", md: "600px"}} cursor="grab" _active={{cursor: "grabbing"}} position="relative">
+                  <Box height="100%" layerStyle="brightness" >
+                    <PreviewImage pointerEvents="none" imageInfo={item.image} borderRadius="3px" height="100%" width="100%"/>
                   </Box>
                   <Text fontSize={{base: "24px", md: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
                     {item.name}

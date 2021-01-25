@@ -67,17 +67,13 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
       <Box as="section" width="100%" maxHeight="600px" margin={{base:"30px 0", lg: "50px 0"}}>
         <Carousel
           arrows={false}
-          autoPlay
-          autoPlaySpeed={5000}
-          customTransition="transform 3000ms ease-in-out"
-          transitionDuration={3000}
           centerMode={isLessThan464 ? false : true}
           partialVisible={isLessThan464 ? true : false}
           >
             {relatedProducts.map((item) => {
               return (
-                <Box cursor="pointer" padding="0 5px" width="calc(100% - 10px)" height="457px" maxHeight="457px" position="relative">
-                  <Link as={ReachLink} to={`/${item.node.fields.slug}`} height="100%">
+                <Box cursor="pointer" _active={{cursor: "grabbing"}} padding="0 5px" width="calc(100% - 10px)" height="457px" maxHeight="457px" position="relative">
+                  <Link as={ReachLink} pointerEvents="none" to={`/${item.node.fields.slug}`} height="100%">
                       <Box position="absolute" height="100%" width="calc(100% - 10px)" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="5px" background="rgba(9,21,64,0.5)" />
                       <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
                       <Text textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" pointerEvents="none" transform="translate(-50%, -50%)">
