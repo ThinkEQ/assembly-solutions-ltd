@@ -5,7 +5,6 @@ import Layout from '../components/Layout'
 
 // Load components
 import { Box, Heading, Text, ListIcon, List, ListItem, Grid, GridItem } from '@chakra-ui/react'
-import CarouselProjects from '../components/Carousel/CarouselProject'
 import CarouselReel from '../components/Carousel/CarouselReel'
 import { SlideLeftReverse } from '../components/Carousel/index'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
@@ -70,13 +69,13 @@ export const ProductPageTemplate = ({ title, mainContent, contentComponent, subt
                   }
                   if (content.type === 'testimonial') {
                       return (
-                          <GridItem>
+                          <GridItem colSpan={{base: 2,  lg: 1}}>
                               <TestimonialBlock author={content.testimonial.name}  quote={content.testimonial.quote} />
                           </GridItem>
                       )
                   }
                   return (
-                      <GridItem colSpan={span}>
+                      <GridItem colSpan={{base: 2,  lg: span}}>
                           <Heading as="h4" textStyle="h4" marginBottom="20px">
                               {content.column.title}
                           </Heading>
@@ -114,13 +113,9 @@ export const ProductPageTemplate = ({ title, mainContent, contentComponent, subt
       </Box>
 
       <BannerLearnMore />
-      <Box as="section" position="relative" width="100%" overflow="hidden">
-          <CarouselProjects />
-      </Box>
     </Fragment>
   )
 }
-
 
 const ProductPage = ({ data }) => {
   const { markdownRemark: post } = data

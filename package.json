@@ -40,12 +40,16 @@
     "pure-react-carousel": "^1.27.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-draggable": "^4.4.3",
     "react-helmet": "^6.0.0",
     "react-icons": "^4.1.0",
+    "react-multi-carousel": "^2.6.1",
+    "react-scroll": "^1.8.1",
     "react-spring": "^8.0.27",
     "remark": "^13.0.0",
     "remark-html": "^13.0.1",
     "slugify": "^1.4.6",
+    "swiper": "^6.4.8",
     "uuid": "^7.0.0"
   },
   "keywords": [

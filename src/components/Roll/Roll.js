@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import { Link as ReachLink } from 'gatsby'
 
 // Load components
-import Card from '../Cards/CardNews/CardNews'
+import CardArticle from '../Cards/CardArticle/CardArticle'
 import { Heading, Link, SimpleGrid } from '@chakra-ui/react'
 
 const Roll = ({ data, title}) => {
@@ -18,7 +18,7 @@ const Roll = ({ data, title}) => {
             posts.map((post, index) => {
             return (
                 <Link as={ReachLink} to={posts[index].node.fields.slug} _hover={{textDecoration: "none"}} textDecoration="none" key={posts[index].node.id}>
-                  <Card 
+                  <CardArticle 
                       key={posts[index].node.id}
                       title={posts[index].node.frontmatter.title}
                       imgFluid={posts[index].node.frontmatter.image}

@@ -20,6 +20,19 @@
     stroke-dasharray: 60 60;
     stroke-width: 6;
   }
+
+  .menu:hover .line1 {
+    stroke-dasharray: 30 207;
+  }
+
+  .menu:hover .line2 {
+    stroke-dasharray: 50 50;
+  }
+
+  .menu:hover .line3 {
+    stroke-dasharray: 20 207;
+  }
+
   .line3 {
     stroke-dasharray: 60 207;
     stroke-width: 6;

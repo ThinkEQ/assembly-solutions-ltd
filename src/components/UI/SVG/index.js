@@ -4,6 +4,7 @@ import React from 'react'
 import LinkedIn from './svgs/linkedin' 
 import Youtube from './svgs/youtube'
 import Check from './svgs/check'
+import Arrow from './svgs/dwnArrow'
 
 const SvgIcon = (props) => {
     switch (props.name) {
@@ -13,6 +14,8 @@ const SvgIcon = (props) => {
             return <Youtube {...props} />
         case "check":
             return <Check {...props} />
+        case "downArrow":
+            return <Arrow {...props}/>
         default:
             return '?'
     }
