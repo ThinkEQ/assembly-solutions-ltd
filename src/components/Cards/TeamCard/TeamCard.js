@@ -32,10 +32,10 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
     const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
     const popperModifier = isLargerThan900 ? sameWidth : sameWidthMob
     return (
-            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"} autoFocus={false}>
+            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"}  autoFocus={false}>
                 <PopoverTrigger>
-                    <Box>
-                        <PreviewCompatibleImage imageInfo={teamImg} />
+                    <Box width="100%">
+                        <PreviewCompatibleImage width="100%" imageInfo={teamImg} />
                         <Text textStyle="p">
                             {name}
                         </Text>
@@ -57,7 +57,7 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
                     </PopoverHeader>
                     <PopoverBody>
                         <Box display="flex" justifyContent="space-between">
-                            <Box width="80%">
+                            <Box width="80%" maxH="60vh" overflow="auto">
                                 <MDXWrapper>
                                     <HTMLContent content={toHTML(bio)} />
                                 </MDXWrapper>
