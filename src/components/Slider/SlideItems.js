@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import Draggable from 'react-draggable'
 
 // Load components
@@ -11,9 +11,10 @@ const SlideItems = ({ title, data = [] }) => {
     const [isLargerThan767] = useMediaQuery("(min-width: 767px)")
     const [position, setPosition] = useState('0')
     const [deltaPositions, setDelta] = useState({ x: 0, y: 0})
+    const nodeRef = useRef(null)
 
-    // Bounds
-    const maxBounds = isLargerThan767 ? data.length * 400 : data.length * 250
+    //Bounds
+    const maxBounds = isLargerThan767 ? data.length * 350 : data.length * 250
 
     // Handle onDrag 
     function onControlledDrag(e, position) {
@@ -24,14 +25,14 @@ const SlideItems = ({ title, data = [] }) => {
         setPosition(positive) 
     }
 
-    // Handle thumb slider
+    //Handle thumb slider
     function onSlide(value) {
         setPosition(value)
         setDelta({x: -value, y: 0})
     }
 
      
-    // Remove from page if no data
+    //Remove from page if no data
     if (data.length < 1) {
         return null
     }
@@ -47,12 +48,15 @@ const SlideItems = ({ title, data = [] }) => {
             </Box>
             <Box textStyle="section" marginTop={{base: "-28px", lg: "-60px"}} marginLeft={{base: "0px", lg:"80px", xl: "16.5%"}}>
                 <Draggable
+                nodeRef={nodeRef}
                 axis="x"
                 position={deltaPositions}
+                grid={[10, 1]}
                 onDrag={onControlledDrag}
+                
                 bounds={{ right: 0, left: -maxBounds, top: 0, bottom: 0}}
                 >
-                <Box display="flex" justifyContent="space-between" width="100%">
+                <Box ref={nodeRef} cursor="grab" _active={{cursor: "grabbing"}} display="flex" justifyContent="space-between" transitionTimingFunction="ease-in-out" transitionDuration="0ms" width="100%">
                    {data.length && data.map((item, index) => {
                        const { frontmatter, fields } = item.node
 

@@ -57,7 +57,7 @@ return (
             </Box>
             <Box display={{base:"block", lg: "block"}} position="absolute" bottom={{base: "65px", md: "50px"}} right={{base: "0", md: "50px"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
               <ReactScroll>
-                <Icon  name="downArrow" />
+                <Icon name="downArrow" />
               </ReactScroll>  
             </Box>
           </Box>
@@ -86,7 +86,7 @@ return (
           </Box>
       </Box>
 
-      <Box as="section" position="relative" width="100%" overflow="hidden">
+      <Box as="section" position="relative" width="100%">
         <NewsArticles />
       </Box>
       <Box as="section" textStyle="section">

@@ -2,11 +2,11 @@ import React from 'react'
 import { graphql, StaticQuery} from 'gatsby'
 
 // Load components
-import SliderItems from '../Slider/SlideItems'
+import Swiper from '../Swiper/Swiper'
 
 const NewsArticles = ({ data }) => {
     return (
-        <SliderItems title="Latest News" data={data.edges} />
+        <Swiper title="Latest News" data={data.edges} />
     )
 }
 
