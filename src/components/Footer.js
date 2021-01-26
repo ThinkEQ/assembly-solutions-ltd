@@ -41,18 +41,23 @@ const Footer = () => {
           <Box width={{base: "100%", lg:"48%"}} display="flex" justifyContent="space-between" paddingTop="10px">
             <List spacing="4">
               <ListItem {...para}>
-                <Link as={ReachLink} to="/wire-and-cable-preparation">
-                  Wire Preperation
-                </Link>
-              </ListItem>
-              <ListItem {...para}>
                 <Link as={ReachLink} to="/cable-assembly">
                   Cable Assembly
                 </Link>
               </ListItem>
               <ListItem {...para}>
+                <Link as={ReachLink} to="/wire-and-cable-preparation">
+                  Wire Preperation
+                </Link>
+              </ListItem>
+              <ListItem {...para}>
+                <Link as={ReachLink} to="/wiring-harness">
+                  Wiring Harnesses
+                </Link>
+              </ListItem>
+              <ListItem {...para}>
                 <Link as={ReachLink} to="/control-panel">
-                  Control Panel
+                  Control Panels
                 </Link>
               </ListItem>
             </List>
@@ -71,11 +76,6 @@ const Footer = () => {
               <ListItem {...para}>
                 <Link as={ReachLink} to="/news">
                 News
-                </Link>
-              </ListItem>
-              <ListItem {...para}>
-                <Link as={ReachLink} to="/projects">
-                  Projects
                 </Link>
               </ListItem>
               <ListItem {...para}>

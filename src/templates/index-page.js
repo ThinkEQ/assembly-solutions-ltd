@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import { navigate } from 'gatsby-link'
 
 // Load components
 import { Box, Heading, Text, Button, keyframes } from '@chakra-ui/react'
@@ -81,7 +82,7 @@ return (
                 <Text textStyle="p" marginBottom={12} maxW={{base: "100%", lg:"70%"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
-                <Button variant="outline" maxWidth="200px">Learn more</Button>
+                <Button variant="outline" maxWidth="200px" onClick={() => navigate('/team')}>Learn more</Button> 
             </Box>
           </Box>
       </Box>

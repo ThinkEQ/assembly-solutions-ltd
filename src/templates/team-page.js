@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import { navigate } from 'gatsby-link'
 
 // Load components
 import { Box, Heading, Text, SimpleGrid, Button } from '@chakra-ui/react'
@@ -44,7 +45,7 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
                 })}
             </SimpleGrid>
             <Box marginTop="30px" textAlign="center">
-              <Button variant="solid">Find out more about us</Button>
+            <Button variant="solid" onClick={() => navigate('/about-us')}>Find out more about us</Button> 
             </Box>
         </Box>
       </Box>
@@ -96,7 +97,6 @@ export const teamPageQuery = graphql`
           bio
           interests
           jobtitle
-          linkedin
           name
           image {
             childImageSharp {
