@@ -5,7 +5,7 @@ import { Link as ReachLink } from 'gatsby'
 import { useMediaQuery, Text, Heading, Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, Link } from '@chakra-ui/react'
 import PreviewCompatibleImage from '../../PreviewCompatibleImage'
 import SVG from '../../UI/SVG/index'
-import { HTMLContent } from '../../Content'
+import { HTMLContent, MDXWrapper, toHTML } from '../../Content'
 
 const sameWidth = {
     name: "sameWidth",
@@ -58,7 +58,9 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
                     <PopoverBody>
                         <Box display="flex" justifyContent="space-between">
                             <Box width="80%">
-                                <HTMLContent content={bio} />
+                                <MDXWrapper>
+                                    <HTMLContent content={toHTML(bio)} />
+                                </MDXWrapper>
                             </Box>
                             <Box width="20%">
                             {iconList.length > 0 &&
