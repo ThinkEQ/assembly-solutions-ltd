@@ -41,29 +41,40 @@ const CarouselWhatWeDo = () => {
             <Heading textStyle="h1" marginBottom={{base: "40px", lg:"60px"}}>
                 What we do?
             </Heading>
-            <Carousel totalSlides={3} isIntrinsicHeight infinite setHeight={100} setWidth={100}>
+            <Carousel totalSlides={4} isIntrinsicHeight infinite setHeight={100} setWidth={100}>
                 <Slider >
                     <Slide index={0}>
                     <ProductSlide
-                        heading="Cable Assembly"
-                        text="With an IPC A-620 fully trained workforce, we guarantee low costs and high quality on all our cable assembly manufacture."
+                        heading="Wire Preparation"
+                        text="Wire and Cable Preparation produced in seconds using automatic high speed machinery."
+                        btnLink="/wire-and-cable-preparation"
                         imgSrc={stockCable}
                     />
                     </Slide>
                     <Slide index={1}>
                     <ProductSlide
-                        heading="Mock Slide"
-                        text="With an IPC A-620 fully trained workforce, we guarantee low costs and high quality on all our cable assembly manufacture."
+                        heading="Cable Assembly"
+                        text="Cable assemblies manufactured through the most efficient operations and highest quality standards."
+                        btnLink="/cable-assembly"
+                        imgSrc={stockCable}
+                    />
+                    </Slide>
+                    <Slide index={2}>
+                        <ProductSlide
+                        heading="Wiring Harnesses"
+                        text="Wiring Looms and Harnesses made on a fast turnaround and delivered with 100% electrical testing."
+                        btnLink="/wiring-harness"
                         imgSrc={stockCable}
                     />
                     </Slide>
                     <Slide index={3}>
-                    <ProductSlide
-                    heading="Mock Slide - 2"
-                    text="With an IPC A-620 fully trained workforce, we guarantee low costs and high quality on all our cable assembly manufacture."
-                    imgSrc={stockCable}
+                        <ProductSlide
+                        heading="Control Panels"
+                        text="Control Panels assembled in low and high volume by skilled and experienced panel wiring builders."
+                        btnLink="/control-panel"
+                        imgSrc={stockCable}
                     />
-                </Slide>
+                    </Slide>
                 </Slider>
                 <SlideLeft position="absolute" top="50%" left="0px" transform="translateY(-50%)" display={{base: "none", lg: "block"}}  />
                 <SlideRight position="absolute" top="50%" right="0px" transform="translateY(-50%)" display={{base: "none", lg: "block"}} />
