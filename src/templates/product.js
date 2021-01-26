@@ -89,7 +89,8 @@ export const ProductPageTemplate = ({ title, mainContent, contentComponent, subt
     </Box>
 
       {/** Reel */}
-      <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "400px", md: "600px"}} overflow="hidden">
+      {imgCarousel.length > 0 && 
+        <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "400px", md: "600px"}} overflow="hidden">
         <CarouselReel totalSlides={imgCarousel.length}>
           <Slider>
               {imgCarousel.map((img, index) => {
@@ -103,9 +104,8 @@ export const ProductPageTemplate = ({ title, mainContent, contentComponent, subt
             })}
           </Slider>
           <SlideLeftReverse position="absolute" top="50%" left="-5%" transform="translateY(-50%)" display={{base: "none", lg: "block"}} />
-        </CarouselReel>
-       
-      </Box>
+        </CarouselReel>       
+      </Box>}
       <Box as="section" textStyle="section">
         <Box textStyle="container">
           <BannerUSP />
@@ -122,7 +122,7 @@ const ProductPage = ({ data }) => {
   const { seo } = post.frontmatter
   const title = seo ? seo.title : post.frontmatter.title
   const description = seo ? seo.description : undefined
-  
+
   return (
     <Layout metaTitle={title} metaDescription={description}>
       <ProductPageTemplate
