@@ -5,19 +5,16 @@ import Layout from '../components/Layout'
 
 // Load components
 import { Box, Heading, Text, ListIcon, List, ListItem, useMediaQuery, Grid, GridItem } from '@chakra-ui/react'
-import { SlideLeftReverse } from '../components/Carousel/index'
 import Carousel from '../components/Carousel/CustomCarousel'
 import CarouselReel from '../components/Carousel/CarouselReel'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMore'
 import PreviewImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
-import {Slide, Slider } from 'pure-react-carousel'
 import TestimonialBlock from '../components/Testimonial/Testimonial'
 
 // Load asset
 import Check from '../components/UI/SVG/svgs/check'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent }) => {
   const PageContent = contentComponent || Content
@@ -67,25 +64,26 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
         </Box>
       </Box>
 
-      <Box as="section" width="100%" maxHeight="600px" margin={{base:"30px 0", lg: "50px 0"}}>
-        <Carousel
-          arrows={false}
-          centerMode={isLessThan464 ? false : true}
-          partialVisible={isLessThan464 ? true : false}
-          >
-            {relatedProducts.map((item) => {
-              return (
-                <Box cursor="pointer" _active={{cursor: "grabbing"}} padding="0 5px" width="calc(100% - 10px)" height="457px" maxHeight="457px" position="relative">
-                  <Box position="absolute" pointerEvents="none" height="100%" width="calc(100% - 10px)" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="5px" background="rgba(9,21,64,0.5)" />
-                  <PreviewImage pointerEvents="none" imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
-                  <Text onClick={() => nav(`/${item.node.fields.slug}`)} textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
-                  {item.node.frontmatter.title}
-                  </Text>
-              </Box>
-              )
-            })}          
-        </Carousel> 
-    </Box>
+      {relatedProducts.length > 0 &&
+        <Box as="section" width="100%" maxHeight="600px" margin={{base:"30px 0", lg: "50px 0"}}>
+          <Carousel
+            arrows={false}
+            centerMode={isLessThan464 ? false : true}
+            partialVisible={isLessThan464 ? true : false}
+            >
+              {relatedProducts.map((item) => {
+                return (
+                  <Box cursor="pointer" _active={{cursor: "grabbing"}} padding="0 5px" width="calc(100% - 10px)" height="457px" maxHeight="457px" position="relative">
+                    <Box position="absolute" pointerEvents="none" height="100%" width="calc(100% - 10px)" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="5px" background="rgba(9,21,64,0.5)" />
+                    <PreviewImage pointerEvents="none" imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
+                    <Text onClick={() => nav(`/${item.node.fields.slug}`)} textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
+                    {item.node.frontmatter.title}
+                    </Text>
+                </Box>
+                )
+              })}          
+          </Carousel> 
+      </Box>}
 
     {/**Main content */}
     <Box as="section" textStyle="section">
@@ -129,21 +127,8 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
 
     {/** Reel */}
     {imgCarousel.length &&
-      <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "400px", md: "600px"}} overflow="hidden">
-       <CarouselReel totalSlides={imgCarousel.length + 1}>
-         <Slider>
-             {imgCarousel.map((img, index) => {
-               return (
-                 <Slide index={index}>
-                   <Box padding={{base: "0 5px", lg: "0 25px"}}>
-                     <PreviewCompatibleImage imageInfo={img.image} borderRadius="3px" height="100%" />
-                   </Box>
-                 </Slide>
-             )
-           })}
-         </Slider>
-         <SlideLeftReverse position="absolute" top="50%" left="-5%" transform="translateY(-50%)" display={{base: "none", lg: "block"}} />
-       </CarouselReel> 
+      <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "300px", md: "450px", lg: "600px"}} width="100%" overflow="hidden">
+          <CarouselReel data={imgCarousel} />
       </Box>
       }
 

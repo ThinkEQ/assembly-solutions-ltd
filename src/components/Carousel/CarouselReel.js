@@ -1,25 +1,44 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 // Load components
-import { Box, useMediaQuery } from '@chakra-ui/react'
-import Carousel from './index'
+import { Box, useMediaQuery, Image } from '@chakra-ui/react'
+import Carousel from './CustomCarousel'
+import LeftHandle from '../../img/leftHandle.svg'
+import PreviewCompatibleImage from '../PreviewCompatibleImage'
 
-
-/**
- * @todo
- * State quieries
- */
-const CarouselReel = ({ totalSlides, children}) => {
-    const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
+export const SlideLeft = ({ next }) => {
     return (
-        <Fragment>
-            <Box width="100%" position="absolute" top="50%" left={{base:"0", lg:"10%"}} transform="translateY(-50%)">
-                <Carousel isIntrinsicHeight totalSlides={totalSlides} infinite visibleSlides={isLargerThan900 ? 3 : 1} setHeight={500} setWidth={500}>
-                    {children}
-                </Carousel>
-            </Box>
-        </Fragment>
+        <Box onClick={() => next()} cursor="pointer" top="50%" left={{base: "-50px", lg: "-80px"}}  height={{base:"45px", lg: "90px"}} width={{base: "45px", lg: "90px"}} transform="translateX(-50%)" position="absolute">
+            <Image src={LeftHandle} alt="left icon" />
+        </Box>  
+    )
+}
 
+const CarouselReel = ({ data }) => {
+    const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
+    const [isLessThan464] = useMediaQuery("(max-width: 464px")
+    return (
+        <Box width="100%" position="absolute" top="50%" left={{base:"20%", md: "10%", lg:"15%"}} transform="translateY(-50%)">
+            <Carousel 
+            inifnite={true}
+            arrows={false}
+            desktopView={3}
+            tabletView={2}
+            mobileView={1}
+            centerMode={false}
+            partialVisible={isLessThan464 ? false : true}
+            renderButtonGroupOutside={true} 
+            customButtonGroup={<SlideLeft />}
+            >
+            {data.map((img, index) => {
+                return (
+                  <Box width={{base: "80%", md: "100%"}} cursor="grab" _active={{cursor: "grabbing"}} maxHeight="400px" layerStyle={isLargerThan900 ? "brightness" : ""} height="100%">
+                      <PreviewCompatibleImage imageInfo={img.image} borderRadius="3px" height="100%" width="98%" />
+                  </Box>
+                  )
+            })}
+            </Carousel>
+        </Box>
     )
 }
 

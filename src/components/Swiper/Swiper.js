@@ -31,8 +31,6 @@ const SwipeContainer = ({ data, title }) => {
             <Swiper
             spaceBetween={30}
             slidesPerView={isLargerThan767 ? 2 : 1}
-            onSlideChange={(e) => console.log(e, 'slide change')}
-            onSwiper={(swiper) => console.log(swiper)}
             scrollbar={{ draggable: true }}
             >
             {data.length && data.map((item) => {

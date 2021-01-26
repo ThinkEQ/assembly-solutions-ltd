@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link as ReachLink } from 'gatsby'
+//import { Link as ReachLink } from 'gatsby'
 
 // Load components
-import { useMediaQuery, Text, Heading, Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, Link } from '@chakra-ui/react'
+import { useMediaQuery, Text, Heading, Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box } from '@chakra-ui/react'
 import PreviewCompatibleImage from '../../PreviewCompatibleImage'
 import SVG from '../../UI/SVG/index'
 import { HTMLContent } from '../../Content'

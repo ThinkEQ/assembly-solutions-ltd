@@ -1,6 +1,5 @@
 import React from 'react'
 import { Box, Heading, Text, Image } from '@chakra-ui/react'
-import { SlideLeft, SlideRight } from '../Carousel/CarouselWhatWeDo'
 import Button from '../../theme/button'
 import { navigate } from 'gatsby-link'
 
