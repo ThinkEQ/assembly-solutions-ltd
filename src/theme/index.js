@@ -23,25 +23,25 @@ const overrides = {
                     fontSize: {base: "42px", md:"60px"},
                     lineHeight: {base: "62px", md:"72px"},
                     lettSpacing: "-2.12px",
-                    fontWeight: 400
+                    fontWeight: 600
                 },
                 h2: {
                     fontSize: {base: "28px", md:"44px"},
                     lineHeight: {base: "34px", md: "53px"},
                     letterSpacing: "-1.55px",
-                    fontWeight: 400
+                    fontWeight: 600
                 },
                 h3: {
                     fontSize: "30px",
                     lineHeight: "36px",
                     letterSpacing: "-1.06px",
-                    fontWeight: 400
+                    fontWeight: 600
                 },
                 h4: {
                     fontSize: "24px",
                     lineHeight: "36px",
                     letterSpacing: "-1.06px",
-                    fontWeight: 400
+                    fontWeight: 600
                 },
                 p: {
                     fontSize: {base: "16px", md:"20px"},
@@ -93,25 +93,25 @@ const overrides = {
             fontSize: {base: "42px", md:"60px"},
             lineHeight: {base: "62px", md:"72px"},
             lettSpacing: "-2.12px",
-            fontWeight: 400
+            fontWeight: 600
         },
         h2: {
             fontSize: {base: "28px", md:"44px"},
             lineHeight: {base: "34px", md: "53px"},
             letterSpacing: "-1.55px",
-            fontWeight: 400
+            fontWeight: 600
         },
         h3: {
             fontSize: "30px",
             lineHeight: "36px",
             letterSpacing: "-1.06px",
-            fontWeight: 400
+            fontWeight: 600
         },
         h4: {
             fontSize: "24px",
             lineHeight: "36px",
             letterSpacing: "-1.06px",
-            fontWeight: 400
+            fontWeight: 600
         },
         p: {
             fontSize: {base: "16px", md:"20px"},
