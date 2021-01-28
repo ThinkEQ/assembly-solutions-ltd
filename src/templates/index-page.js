@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { navigate } from 'gatsby-link'
 
 // Load components
-import { Box, Heading, Text, Button, keyframes } from '@chakra-ui/react'
+import { Box, Heading, Text, Button, keyframes, useMediaQuery } from '@chakra-ui/react'
 import ReactScroll from '../components/ReactScroll/ReactScroll'
 
 //import Button from '../theme/button'
@@ -17,6 +17,8 @@ import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerO
 // Load asset
 import stock from '../img/stock.jpg'
 import Icon from '../components/UI/SVG/index'
+import TeamDesktop from '../img/about-bg.png'
+import TeamMobile from '../img/mobile-team.png'
 import '../components/UI/SVG/styles.css'
 
 const imgBk = {
@@ -40,6 +42,10 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
+  const [isLargerThan1600] = useMediaQuery("(min-width: 1600px)")
+  const [isLargerThan480] = useMediaQuery("(min-width: 480px)")
+
+  const teamHero = isLargerThan480 ? `linear-gradient(270deg, rgba(36,155,171,0.05) 0%, rgba(36,155,171,0.5) 31.24%, #249BAB 100%), url(${TeamDesktop})` : `linear-gradient(184.08deg, rgba(9,21,64, 0.6), 100%, rgba(255,255,255,1), #091540 100%), url(${TeamMobile})`
 
 return (
     <Fragment>
@@ -68,18 +74,16 @@ return (
           <CarouselWhatWeDo />
         </Box>
       </Box>
-      <Box as="section" textStyle="section">
-        <Box textStyle="container">
+      <Box as="section" >
           <BannerOurCustomers />
-        </Box>
       </Box>
-      <Box as="section" textStyle="section" background="gradient.700" height="700px" width="100%" position="relative">
+      <Box as="section" textStyle="section" background={teamHero} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center" height={{base: "400px", md: isLargerThan1600 ? "1150px" : "700px"}} width="100%" position="relative">
           <Box textStyle="container" height="100%">
               <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
-                <Heading textStyle="h2">
+                <Heading textStyle="h2" color={{base: "#fff", lg:"inherit"}}>
                   Meet the ASL team
                 </Heading>
-                <Text textStyle="p" marginBottom={12} maxW={{base: "100%", lg:"70%"}}>
+                <Text textStyle="p" marginBottom={12} color={{base: "#fff", lg:"inherit"}} maxW={{base: "100%", lg:"70%"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
                 <Button variant="outline" maxWidth="200px" onClick={() => navigate('/team')}>Learn more</Button> 
