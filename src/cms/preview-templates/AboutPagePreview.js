@@ -10,7 +10,6 @@ const AboutPagePreview = ({ entry, widgetFor }) => {
     content={widgetFor('body')}
     subtitle={entry.getIn(['data', 'subtitle'])}
     intro={entry.getIn(['data', 'intro'])}
-    content={entry.getIn(['data', 'body'])}
     imgSrc={{childImageSharp: { fluid: entry.getIn(['data', 'image'])}}}
   />
   )
