@@ -166,21 +166,8 @@ const ContactUs = () => {
   )
 }
 
-const Navbar = () => {
-  const [menu, setMenu] = useState(false)
-  const {isOpen, onClose, onOpen } = useDisclosure()
+const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
   
-  function toggleDrawer(type) {
-
-    if (isOpen && type === menu) {
-      return onClose()
-    }
-
-    setMenu(type)
-    onOpen()
-    return
-  }
-
   let menuDisplay = null
 
   switch(menu) {
