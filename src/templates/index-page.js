@@ -42,7 +42,7 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-  const [isLargerThan1600] = useMediaQuery("(min-width: 1600px)")
+  const [isLargerThan1600] = useMediaQuery("(min-width: 1800px)")
   const [isLargerThan480] = useMediaQuery("(min-width: 480px)")
 
   const teamHero = isLargerThan480 ? `linear-gradient(270deg, rgba(36,155,171,0.05) 0%, rgba(36,155,171,0.5) 31.24%, #249BAB 100%), url(${TeamDesktop})` : `linear-gradient(184.08deg, rgba(9,21,64, 0.6), 100%, rgba(255,255,255,1), #091540 100%), url(${TeamMobile})`
