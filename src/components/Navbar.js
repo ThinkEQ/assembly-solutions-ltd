@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link as ReachLink } from 'gatsby'
 
 // Load assets
 import Logo from '../img/logo.svg'
 
 // Load components
-import { keyframes, Heading, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, useDisclosure, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react'
+import { keyframes, Heading, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react'
 import Hamburger from './UI/Hamburger/Hamburger'
 import Button from '../theme/button'
 import SVG from '../components/UI/SVG/index'
