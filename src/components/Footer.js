@@ -14,7 +14,7 @@ const para = {
 }
 
 
-const Footer = () => {
+const Footer = ({ toggleDrawer }) => {
   return(
     <Box background="blue.900" color="#fff" textStyle="section">
       <Box textStyle="container">
@@ -84,7 +84,7 @@ const Footer = () => {
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/contact-us">
+                <Link onClick={() => toggleDrawer('contact')} to="#">
                   Contact Us
                 </Link>
               </ListItem>

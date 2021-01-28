@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState} from 'react'
 import { Helmet } from 'react-helmet'
 import { withPrefix } from 'gatsby'
 
@@ -6,13 +6,41 @@ import { withPrefix } from 'gatsby'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import useSiteMetadata from './SiteMetadata'
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider, useDisclosure } from '@chakra-ui/react'
 
 // Load theme
 import theme from '../theme/index'
 
 const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
   const { title, description } = useSiteMetadata()
+  
+  const [menu, setMenu] = useState(false)
+  const {isOpen, onClose, onOpen } = useDisclosure()
+
+  function toggleDrawer(type) {
+
+    // Close the drawer
+    if (isOpen && type === menu) {
+      return onClose()
+    }
+
+    // Delay to allow transatiion to change drawer content
+    if(isOpen && type !== menu) {
+     onClose()
+
+     return setTimeout(() => {
+      setMenu(type)
+      onOpen()
+     }, 500)
+    }
+
+    // Open the drawer
+    setMenu(type)
+    onOpen()
+    return
+  }
+
+  
   return (
     <Fragment>
       <Helmet>
@@ -55,13 +83,13 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
       </Helmet>
 
       <ChakraProvider theme={theme}>
-          <nav>
-            <Navbar />
-          </nav>
-          <main>
-            {children}
-          </main>
-          <Footer />
+            <nav>
+              <Navbar menu={menu} toggleDrawer={toggleDrawer} isOpen={isOpen} onClose={onClose} />
+            </nav>
+            <main>
+              {children}
+            </main>
+            <Footer toggleDrawer={toggleDrawer}  />
       </ChakraProvider>
     </Fragment>
   )
