@@ -33,11 +33,11 @@ const SwipeContainer = ({ data, title }) => {
             slidesPerView={isLargerThan767 ? 2 : 1}
             scrollbar={{ draggable: true }}
             >
-            {data.length && data.map((item) => {
+            {data.length && data.map((item, index) => {
                 const { frontmatter, fields } = item.node
 
                 return (
-                    <SwiperSlide>
+                    <SwiperSlide key={index}>
                         <Box width="100%" maxWidth={{base: "300px", md: "100%"}} height="100%">
                             <CardArticle title={frontmatter.title} slug={fields.slug} imgFluid={frontmatter.image} date={`${frontmatter.date} - ASL Team`} />
                         </Box>
