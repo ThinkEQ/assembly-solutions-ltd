@@ -119,7 +119,9 @@ const overrides = {
             letterSpacing: "0.71px",
         },
         section: {
-            padding: {base: "6", lg:"16"}, 
+            py: {base: "6", lg:"40px"},
+            paddingLeft: {base: "5%", lg: "15%"},
+            paddingRight: {base: "5%", lg: "15%"}
         },
         container: {
             maxWidth: {base: "1000px", xl:"1600px"},
