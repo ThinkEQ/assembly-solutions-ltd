@@ -3,14 +3,14 @@ import { Link as ReachLink } from 'gatsby'
 
 // Load assets
 import Logo from '../img/logo.svg'
-import MapMock from '../img/mockmap.png'
 
 // Load components
 import { keyframes, Heading, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, useDisclosure, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react'
-import { ChatIcon } from '@chakra-ui/icons'
 import Hamburger from './UI/Hamburger/Hamburger'
 import Button from '../theme/button'
 import SVG from '../components/UI/SVG/index'
+import Chat from '../img/svg/chat.svg'
+import GMap from '../components/Map/Map'
 
 const navText = {
   fontSize: "16px",
@@ -59,7 +59,7 @@ const MainNav = () => (
     <Box as="li" display="block">
       <Link as={ReachLink} to="/videos" size="lg" variant="nav">Videos</Link>
     </Box>
-    <Box display={{base: "none", lg: "flex"}} alignItems="center" margin={{base: "20px 0", lg: "0"}}>
+    <Box display={{base: "none", lg: "flex"}} alignItems="center" margin="20px 0">
       <SVG name="youtube" fill="#fff" />
       <Box margin="0 15px"><SVG name="linkedin" fill="#fff" /></Box>
       <Text color="#fff" fontSize="18px" marginRight="10px">
@@ -131,8 +131,8 @@ const ContactUs = () => {
             BL3 6BW UK
           </Text>
         </Box>
-        <Box display="flex" alignItems="center" >
-          <Image src={MapMock} alt="Stree map" width="500px" height="70%" />
+        <Box display="flex" maxHeight="550px" marginTop="20px" width={{base: "100%", lg:"80%"}} alignItems="center" >
+          <GMap />
         </Box>
       </Box>
       <Box marginTop="50px">
@@ -157,7 +157,7 @@ const ContactUs = () => {
             <FormLabel fontSize="18px" fontWeight="bold">Enquiry</FormLabel>
             <Textarea focusBorderColor="green.900" size="lg" minH="250px" color="#fff" />
           </FormControl>
-          <Box display="flex" justifyContent="flex-end" width="100%" padding="10px 0">
+          <Box display="flex" justifyContent="flex-end" width="100%" padding="10px 0" paddingBottom={{base: "40px", md: "10px"}}>
             <Button type="submit" variant="solid" width="300px">Submit</Button>
           </Box>
         </Box>
@@ -181,7 +181,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
       menuDisplay = null
   }
   return (
-     <Box animation={`${flow} infinite 15s ease`} position={{base: "fixed", md: "absolute"}} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1500" alignItems="center">
+     <Box animation={`${flow} infinite 15s ease`} position={{base: "fixed", md: "absolute"}} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" alignItems="center">
         <Box padding="4" zIndex={menu === 'nav' ? "2000" : "0"}>
         <Link as={ReachLink} to="/">
           <Image src={Logo} alt="asl logo" />
@@ -192,12 +192,12 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
           <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={() => toggleDrawer('nav')} />
         </Box>
         <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" display="flex" alignItems="center" height="100%" minWidth={{base: "40%", md:"222px"}} borderBottomLeftRadius="3.2px" justifyContent="center" zIndex={menu === 'nav' ? "2000" : "0"}>
-          <ChatIcon color="#fff" marginRight="5px"/>
+          <Image src={Chat} color="#fff" marginRight="5px"/>
           <Text {...navText}>get in touch</Text>
         </Box>
         <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
         <DrawerOverlay />
-        <DrawerContent animation={`${flow} infinite 15s ease`} background={menu === 'nav' ? 'gradient.900' : 'gradient.800'} backgroundSize="600% 600%" >
+        <DrawerContent animation={`${flow} infinite 15s ease`} background={menu === 'nav' ? 'gradient.900' : 'gradient.800'} zIndex="2000" backgroundSize="600% 600%" >
           <DrawerHeader minHeight="100px">
           {menu === 'contact' && <DrawerCloseButton color="#fff" />}
           </DrawerHeader>

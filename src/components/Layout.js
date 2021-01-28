@@ -19,10 +19,22 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
 
   function toggleDrawer(type) {
 
+    // Close the drawer
     if (isOpen && type === menu) {
       return onClose()
     }
 
+    // Delay to allow transatiion to change drawer content
+    if(isOpen && type !== menu) {
+     onClose()
+
+     return setTimeout(() => {
+      setMenu(type)
+      onOpen()
+     }, 500)
+    }
+
+    // Open the drawer
     setMenu(type)
     onOpen()
     return
