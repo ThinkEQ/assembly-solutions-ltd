@@ -5,6 +5,9 @@ subtitle: Wire and Cable Preparation
 image: /img/chemex.jpg
 products:
   - Cable Preparation
+seo:
+  title: Wire and Cable Preparation
+  description: Wire and Cable Preparation
 layout:
   - type: column
     column:
