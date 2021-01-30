@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { navigate } from 'gatsby-link'
 
 // Load components
-import { Box, Heading, Text, Button, keyframes } from '@chakra-ui/react'
+import { Box, Heading, Text, Button, keyframes, AspectRatio } from '@chakra-ui/react'
 import ReactScroll from '../components/ReactScroll/ReactScroll'
 
 //import Button from '../theme/button'
@@ -17,6 +17,8 @@ import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerO
 // Load asset
 import stock from '../img/stock.jpg'
 import Icon from '../components/UI/SVG/index'
+import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
+import homvidmp from '../videos/HOMEPAGEMP4.mp4'
 import '../components/UI/SVG/styles.css'
 
 const imgBk = {
@@ -31,7 +33,6 @@ const bounce = keyframes `
   50%{transform: translateY(0px)}
   100%{transform: translateY(-25px)}
 `
-
 export const IndexPageTemplate = ({
   title,
   heading,
@@ -43,25 +44,35 @@ export const IndexPageTemplate = ({
 
 return (
     <Fragment>
-      <Box as="header" minHeight={{base: "calc(100vh - 50px)", lg:"calc(100vh - 100px)"}} paddingTop={{base: "50px", lg: "100px"}} textStyle="section" {...imgBk}>
-          <Box minHeight={{base: "calc(100vh - 50px)", lg:"calc(100vh - 100px)"}} textStyle="container" display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
-            <Heading textStyle="h1" textTransform="uppercase" color="#fff">
-              Efficient manufacturing <br/>
-              that delivers <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>Quality & Speed</Text>
-            </Heading>
-            <Text fontSize={{base: "16px", lg:"24px"}} lineHeight={{base: "28px", lg:"38px"}} color="#fff" marginBottom="50px">
-              ASL is a family business based in Bolton, manufacturing cable <br/>
-              assemblies, wiring harnesses and control panels.
-            </Text>
-            <Box display="flex" justifyContent="space-between" width="100%">
-              <Button variant="solid">Watch Full Video</Button>
+      <Box as="header" minHeight={{base: "100vh", md:"700px"}} height="100%" positiom="relative">
+        <Box position="absolute" top="0" left="0" width="100%" height="100%" zIndex="-1" >
+          <AspectRatio ratio={{base: 9 / 16, lg: 4 / 3}}>
+            <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" objectFit="cover">
+              <source src={homvidwm} type="video/webm"></source>
+              <source src={homvidmp} type="video/mp4"></source>
             </Box>
-            <Box display={{base:"block", lg: "block"}} position="absolute" bottom={{base: "65px", md: "50px"}} right={{base: "0", md: "50px"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
-              <ReactScroll>
-                <Icon name="downArrow" />
-              </ReactScroll>  
-            </Box>
-          </Box>
+          </AspectRatio>
+        </Box>
+            <Box height="100%" textStyle="container" minHeight={{base: "100vh", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
+              <Box textStyle="section">
+                <Heading textStyle="h1" textTransform="uppercase" color="#fff">
+                  Efficient manufacturing <br/>
+                  that delivers <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>Quality & Speed</Text>
+                </Heading>
+                <Text fontSize={{base: "16px", lg:"24px"}} lineHeight={{base: "28px", lg:"38px"}} color="#fff" marginBottom="50px">
+                  ASL is a family business based in Bolton, manufacturing cable <br/>
+                  assemblies, wiring harnesses and control panels.
+                </Text>
+                <Box display="flex" justifyContent="space-between" width="100%">
+                  <Button variant="solid">Watch Full Video</Button>
+                </Box>
+                <Box position="absolute" bottom={{base: "90px", md: "50px"}} right={{base: "15px", md: "50px"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
+                  <ReactScroll>
+                    <Icon name="downArrow" />
+                  </ReactScroll>  
+                </Box>
+              </Box>
+            </Box>   
       </Box>
       <Box textStyle="section" as="section" id="what-we-do-home" minHeight="700px" position="relative" background="neutral.900">
         <Box textStyle="container" position="relative">
