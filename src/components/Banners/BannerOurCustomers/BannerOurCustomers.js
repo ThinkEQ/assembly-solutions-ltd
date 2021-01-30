@@ -1,7 +1,8 @@
 import React from 'react'
 
 // Load components
-import { Box, Heading, Text, Image, SimpleGrid } from '@chakra-ui/react'
+import { Box, Heading, Text, Image, SimpleGrid, useMediaQuery } from '@chakra-ui/react'
+import Carousel from '../../Carousel/CustomCarousel'
 
 // Load asset
 import ring from '../../../img/ring.svg'
@@ -13,6 +14,7 @@ import Stanley from '../../../img/brands/stanley.png'
 import Vodafone from '../../../img/brands/vodafone.png'
 
 const BannerOurCustomers = () => {
+    const [isLessThan464] = useMediaQuery("(max-width: 464px")
     return (
         <Box>
             <Box as="section" textStyle="section" maxWidth="1600px" margin="0 auto" display="flex" flexDirection={{base: "column", lg: "row"}} justifyContent="space-between" alignItems="flex-start">
@@ -30,19 +32,25 @@ const BannerOurCustomers = () => {
                     <Image src={ring} alt="circular" width="45%" />
                 </Box>
             </Box>
-       
-            <SimpleGrid columns={6} spacing={5} display={{base: "none", lg: "grid"}} alignItems="center" width="100%" paddingBottom="50px">
-                <Image src={Ford} width="100%" alt="Ford brand" />
-                <Image src={Stanley} width="100%" alt="Stanley brand" />
-                <Image src={Brompton} width="100%" alt="Brompton brand" />
-                <Image src={Vodafone} width="100%" alt="Vodafone brand" />
-                <Image src={Siemens} width="100%" alt="Siemans brand" />
-                <Image src={AstonMartin} width="100%" alt="AstonMartin brand" />
-            </SimpleGrid>
-            <SimpleGrid columns={2} spacing={10} display={{base: "grid", lg: "none"}} alignItems="center" padding="50px 0">
-                <Image src={Ford} width="100%" maxHeight={{base: "auto", md: "100px"}} objectFit="fill"  alt="Ford brand" />
-                <Image src={Stanley} width="100%" objectFit="fill" maxHeight={{base: "auto", md: "100px"}} alt="Stanley brand" />
-        </SimpleGrid>
+
+          <Box width="100%" padding="50px 0">
+            <Carousel
+                autoPlay={true}
+                autoPlaySpeed={3000}
+                centerMode={isLessThan464 ? false : true}
+                arrows={false}
+                desktopView={3}
+                tabletView={3}
+                mobileView={2}
+            >
+                <Box width={{base: "90%", lg:"70%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Ford} width="100%" alt="Ford brand" /></Box>
+                <Box width={{base: "90%", lg:"70%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Stanley} width="100%" alt="Stanley brand" /></Box>
+                <Box width={{base: "90%", lg:"70%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Brompton} width="100%" alt="Brompton brand" /></Box>
+                <Box width={{base: "90%", lg:"70%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Vodafone} width="100%" alt="Vodafone brand" /></Box>
+                <Box width={{base: "90%", lg:"70%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Siemens} width="100%" alt="Siemans brand" /></Box>
+                <Box width={{base: "90%", lg:"70%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={AstonMartin} width="100%" alt="AstonMartin brand" /></Box>
+            </Carousel>
+          </Box>
         </Box>
     )
 }
