@@ -12,7 +12,7 @@ import stockCable from '../../img/stockWire.jpg'
 
 export const SlideLeft = (props) => {
     return (
-        <Box {...props} cursor="pointer" right={{base: "80px", lg: "initial"}} top={{base: "235px", md: "70%", lg: "initial"}}  height={{base:"45px", lg: "90px"}} width={{base: "45px", lg: "90px"}}  position="absolute">
+        <Box {...props} cursor="pointer" right={{base: "80px", lg: "initial"}} bottom={{base: "165px", lg: "initial"}}  height={{base:"55px", md: "60px", lg: "90px"}} width={{base: "45px", md: "55px", lg: "90px"}}  position="absolute">
             <Image src={LeftHandle} alt="left icon" />
         </Box>  
     )
@@ -20,7 +20,7 @@ export const SlideLeft = (props) => {
 
 export const SlideRight = (props) => {
     return (
-        <Box cursor="pointer" {...props} right="0" top={{base: "235px", md: "70%", lg: "initial"}} height={{base:"45px", lg: "90px"}} width={{base: "45px", lg: "90px"}} position="absolute">
+        <Box cursor="pointer" {...props} right={{base: "0", lg: "-30px"}} bottom={{base: "165px", lg: "initial"}} height={{base:"55px", md: "60px", lg: "90px"}} width={{base: "45px", md: "55px", lg: "90px"}} position="absolute">
             <Image src={RightHandle} alt="right icon" />
         </Box>  
     )
