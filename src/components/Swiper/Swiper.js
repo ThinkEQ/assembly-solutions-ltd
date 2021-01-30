@@ -20,32 +20,30 @@ const SwipeContainer = ({ data, title }) => {
     
     return (
         <Box width="100%" padding={{base: "30px 0", lg: "0"}} minHeight={{base: "550px", md: "700px"}} overflow="hidden" background="gradient.400">
-            <Box textStyle="section">
-                <Box textStyle="container">
+            <Box marginTop={{base: "8px", lg: "-30px"}} textStyle="container" paddingRight={{base: "25px", lg: isLargerthan1600 ? "0px" : "80px"}} paddingLeft={{base: "25px", lg: isLargerthan1600 ? "0px" : "80px"}} marginRight="auto" marginLeft="auto">
+                <Box paddingTop="50px" marginBottom="25px" >
                     <Heading textStyle="h2" color="#fff">
                         {title}
                     </Heading>
                 </Box>
-            </Box>
-            <Box marginTop={{base: "8px", lg: "-30px"}} paddingRight={{base: "25px", lg: isLargerthan1600 ? "19%" : "11%"}} paddingLeft={{base: "25px", lg: isLargerthan1600 ? "19%" : "11%"}} marginRight="auto" marginLeft="auto">
-            <Swiper
-            spaceBetween={30}
-            slidesPerView={isLargerThan767 ? 2 : 1}
-            scrollbar={{ draggable: true }}
-            >
-            {data.length && data.map((item) => {
-                const { frontmatter, fields } = item.node
+                <Swiper
+                spaceBetween={30}
+                slidesPerView={isLargerThan767 ? 2 : 1}
+                scrollbar={{ draggable: true }}
+                >
+                {data.length && data.map((item) => {
+                    const { frontmatter, fields } = item.node
 
-                return (
-                    <SwiperSlide>
-                        <Box width="100%" maxWidth={{base: "300px", md: "100%"}} height="100%">
-                            <CardArticle title={frontmatter.title} slug={fields.slug} imgFluid={frontmatter.image} date={`${frontmatter.date} - ASL Team`} />
-                        </Box>
-                    </SwiperSlide> 
-                )
-                })}
-            </Swiper>
-            <div className="swiper-scrollbar" data-carousel-articles="scrollbar"></div>
+                    return (
+                        <SwiperSlide>
+                            <Box width="100%" maxWidth={{base: "300px", md: "100%"}} height="100%">
+                                <CardArticle title={frontmatter.title} slug={fields.slug} imgFluid={frontmatter.image} date={`${frontmatter.date} - ASL Team`} />
+                            </Box>
+                        </SwiperSlide> 
+                    )
+                    })}
+                </Swiper>
+                <div className="swiper-scrollbar" data-carousel-articles="scrollbar"></div>
             </Box>
         </Box>
     )
