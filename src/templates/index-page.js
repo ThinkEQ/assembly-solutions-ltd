@@ -44,9 +44,9 @@ export const IndexPageTemplate = ({
 
 return (
     <Fragment>
-      <Box as="header" minHeight={{base: "100vh", md:"700px"}} height="100%" positiom="relative">
+      <Box as="header" minHeight={{base: "100vh", md:"700px"}} height="100%" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
         <Box position="absolute" top="0" left="0" width="100%" height="100%" zIndex="-1" >
-          <AspectRatio ratio={{base: 9 / 16, lg: 4 / 3}}>
+          <AspectRatio ratio={{base: 9 / 16, lg: 4 / 3}} >
             <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" objectFit="cover">
               <source src={homvidwm} type="video/webm"></source>
               <source src={homvidmp} type="video/mp4"></source>
