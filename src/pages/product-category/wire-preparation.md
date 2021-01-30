@@ -2,6 +2,7 @@
 templateKey: product-category
 title: Wire and Cable Preparation
 subtitle: Wire and Cable Preparation
+video: wire-and-cable-preparation
 image: /img/chemex.jpg
 products:
   - Cable Preparation
