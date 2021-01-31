@@ -13,7 +13,7 @@ const sameWidth = {
     phase: "beforeWrite",
     requires: ["computeStyles"],
     fn: ({ state }) => {
-        state.styles.popper.maxWidth = '50%'
+        state.styles.popper.maxWidth = '80%'
     }
 }
 
@@ -32,15 +32,15 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
     const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
     const popperModifier = isLargerThan900 ? sameWidth : sameWidthMob
     return (
-            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"}  autoFocus={false}>
+            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "click" : "click"}  autoFocus={false}>
                 <PopoverTrigger>
                     <Box width="100%">
                         <PreviewCompatibleImage width="100%" imageInfo={teamImg} />
-                        <Text textStyle="p">
+                        <Text textStyle="p" fontWeight="bold">
                             {name}
                         </Text>
                         <Text textStyle="p">
-                        {jobTitle}
+                            {jobTitle}
                         </Text>
                     </Box>
                 </PopoverTrigger>
@@ -56,16 +56,16 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
                         </Box> */}
                     </PopoverHeader>
                     <PopoverBody>
-                        <Box display="flex" justifyContent="space-between">
-                            <Box width="80%" maxH="60vh" overflow="auto">
+                        <Box display="flex"  justifyContent="space-between" flexDirection={{base: "column", lg: "row"}}>
+                            <Box width={{base: "100%", lg:"75%"}} maxHeight="60vh" overflow="auto">
                                 <MDXWrapper>
                                     <HTMLContent content={toHTML(bio)} />
                                 </MDXWrapper>
                             </Box>
-                            <Box width="20%">
+                            <Box width={{base: "100%", lg:"25%"}} height="100%" paddingTop="10px" display="flex" justifyContent="space-between" flexDirection="column" alignContent="center" alignItems="center">
                             {iconList.length > 0 &&
                                 iconList.map((icon) => {
-                                   return <Text textTransform="capitalize" textStyle="p">{icon}</Text>
+                                   return <SVG name={icon} fill="#091540"/>
                                 })}
                             
                             </Box>
