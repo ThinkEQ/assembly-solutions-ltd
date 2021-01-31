@@ -20,7 +20,7 @@ const SwipeContainer = ({ data, title }) => {
     
     return (
         <Box width="100%" padding={{base: "30px 0", lg: "0"}} minHeight={{base: "550px", md: "700px"}} overflow="hidden" background="gradient.400">
-            <Box marginTop={{base: "8px", lg: "-30px"}} textStyle="container" paddingRight={{base: "25px", lg: isLargerthan1600 ? "0px" : "80px"}} paddingLeft={{base: "25px", lg: isLargerthan1600 ? "0px" : "80px"}} marginRight="auto" marginLeft="auto">
+            <Box marginTop={{base: "8px", lg: "-30px"}} textStyle="container" paddingRight={{base: "25px", lg: isLargerthan1600 ? "0px" : "120px"}} paddingLeft={{base: "25px", lg: isLargerthan1600 ? "0px" : "120px"}} marginRight="auto" marginLeft="auto">
                 <Box paddingTop="50px" marginBottom="25px" >
                     <Heading textStyle="h2" color="#fff">
                         {title}
