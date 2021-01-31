@@ -32,7 +32,7 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
     const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
     const popperModifier = isLargerThan900 ? sameWidth : sameWidthMob
     return (
-            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "click" : "click"}  autoFocus={false}>
+            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"}  autoFocus={false}>
                 <PopoverTrigger>
                     <Box width="100%">
                         <PreviewCompatibleImage width="100%" imageInfo={teamImg} />
@@ -55,17 +55,21 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
                             </Link>
                         </Box> */}
                     </PopoverHeader>
-                    <PopoverBody>
+                    <PopoverBody maxHeight="50vh" overflow="auto">
                         <Box display="flex"  justifyContent="space-between" flexDirection={{base: "column", lg: "row"}}>
-                            <Box width={{base: "100%", lg:"75%"}} maxHeight="60vh" overflow="auto">
+                            <Box width={{base: "100%", lg:"75%"}}>
                                 <MDXWrapper>
                                     <HTMLContent content={toHTML(bio)} />
                                 </MDXWrapper>
                             </Box>
-                            <Box width={{base: "100%", lg:"25%"}} height="100%" paddingTop="10px" display="flex" justifyContent="space-between" flexDirection="column" alignContent="center" alignItems="center">
+                            <Box width={{base: "100%", lg:"25%"}} height="auto" padding={{base: "15px 0", lg:"0"}} display="flex" justifyContent="space-around" flexDirection={{base: "row", lg: "column"}} alignContent="center" alignItems="center">
                             {iconList.length > 0 &&
                                 iconList.map((icon) => {
-                                   return <SVG name={icon} fill="#091540"/>
+                                   return (
+                                    <Box width={{base: "60px", md: "80px", lg: "40%"}} height={{base:"60px", md: "80px", lg: "40%"}}>
+                                        <SVG name={icon} width="100%" height="100%" fill="#091540"/>
+                                    </Box>
+                                   )
                                 })}
                             
                             </Box>
