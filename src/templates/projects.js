@@ -24,9 +24,10 @@ export const ProjectIndexTemplate = ({ data, pagination }) => {
           <Box as="section" textStyle="section" minHeight="500px" backgroundColor="neutral.900">
             <Box textStyle="container">
               <Roll title="All projects" data={data} />
-              <Box display="flex" justifyContent="flex-end" padding={{base: "0 10px", md: "0 30px"}}>
-                <Pagination currentPage={pagination.humanPageNumber} totalPages={pagination.numberOfPages} nextPage={pagination.nextPagePath} />
-              </Box>
+              {pagination.numberOfPages > 1 && 
+                <Box display="flex" justifyContent="flex-end" padding={{base: "0 10px", md: "0 30px"}}>
+                  <Pagination currentPage={pagination.humanPageNumber} totalPages={pagination.numberOfPages} nextPage={pagination.nextPagePath} />
+                </Box>}
             </Box>
           </Box>
       </Fragment>
