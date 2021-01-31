@@ -17,8 +17,9 @@ import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerO
 // Load asset
 import stock from '../img/stock.jpg'
 import Icon from '../components/UI/SVG/index'
-import TeamDesktop from '../img/about-bg.png'
-import TeamMobile from '../img/mobile-team.png'
+import teamTablet from '../img/about-bg.png'
+import teamDesktop from '../img/about-imageAlt.jpg'
+import teamMobile from '../img/mobile-team.png'
 import '../components/UI/SVG/styles.css'
 
 const imgBk = {
@@ -42,11 +43,10 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-  const [isLargerThan1600] = useMediaQuery("(min-width: 1800px)")
+  const [isLargerThan1200] = useMediaQuery("(min-width: 1200px)")
   const [isLargerThan480] = useMediaQuery("(min-width: 480px)")
-
-  const teamHero = isLargerThan480 ? `linear-gradient(270deg, rgba(36,155,171,0.05) 0%, rgba(36,155,171,0.5) 31.24%, #249BAB 100%), url(${TeamDesktop})` : `linear-gradient(184.08deg, rgba(9,21,64, 0.6), 100%, rgba(255,255,255,1), #091540 100%), url(${TeamMobile})`
-
+ 
+  const bkImg = isLargerThan1200 ? `url(${teamDesktop})` : isLargerThan480 ? `linear-gradient(184.08deg, rgba(9,21,64, 0.6), 100%, rgba(255,255,255,1), #091540 100%), url(${teamTablet})` : `linear-gradient(184.08deg, rgba(9,21,64, 0.6), 100%, rgba(255,255,255,1), #091540 100%), url(${teamMobile})`
 return (
     <Fragment>
       <Box as="header" minHeight={{base: "calc(100vh - 50px)", lg:"calc(100vh - 100px)"}} paddingTop={{base: "50px", lg: "100px"}} textStyle="section" {...imgBk}>
@@ -77,13 +77,13 @@ return (
       <Box as="section" >
           <BannerOurCustomers />
       </Box>
-      <Box as="section" textStyle="section" background={teamHero} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center" height={{base: "400px", md: isLargerThan1600 ? "1150px" : "700px"}} width="100%" position="relative">
+      <Box as="section" textStyle="section" background={bkImg} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height={{base: "400px", md: "700px"}} width="100%" position="relative">
           <Box textStyle="container" height="100%">
               <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
-                <Heading textStyle="h2" color={{base: "#fff", lg:"inherit"}}>
+                <Heading textStyle="h2" color={{base: "#fff", lg: isLargerThan1200 ? "inherit" : "#fff"}}>
                   Meet the ASL team
                 </Heading>
-                <Text textStyle="p" marginBottom={12} color={{base: "#fff", lg:"inherit"}} maxW={{base: "100%", lg:"70%"}}>
+                <Text textStyle="p" marginBottom={12} color={{base: "#fff", lg: isLargerThan1200 ? "inherit" : "#fff"}} maxW={{base: "100%", lg:"70%"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
                 <Button variant="outline" maxWidth="200px" onClick={() => navigate('/team')}>Learn more</Button> 
