@@ -154,7 +154,7 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "video-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Videos", name: video, widget: list, fields: [{label: "Name", name: "name", widget: "string"},{label: "Youtube video ID", name: "id", widget: "string"}]}
+          - {label: "youtube", name: video, widget: list, fields: [{label: "Name", name: "name", widget: "string"},{label: "Youtube video ID", name: "id", widget: "string"}]}
           - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
       - file: "src/pages/industries/index.md"
         label: "Industries"

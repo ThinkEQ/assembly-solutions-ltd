@@ -15,18 +15,10 @@ import NewsArticles from '../components/StaticQueries/NewsArticles'
 import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerOurCustomers'
 
 // Load asset
-import stock from '../img/stock.jpg'
 import Icon from '../components/UI/SVG/index'
 import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
 import homvidmp from '../videos/HOMEPAGEMP4.mp4'
 import '../components/UI/SVG/styles.css'
-
-const imgBk = {
-  background: `linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%), url(${stock});`,
-  backgroundSize: 'cover',
-  backgroundPosition: "center",
-  width: '100vw'
-}
 
 const bounce = keyframes `
   0%{transform: translateY(-25px)}

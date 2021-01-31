@@ -12,7 +12,6 @@ export const ButtonStyles = {
     // Styles all button have in common
     baseStyles: {
         fontWeight: "bold",
-        borderRadius: "2px",
         fontFamily: "inherit",
     },
     sizes: {
@@ -37,6 +36,7 @@ export const ButtonStyles = {
             bg: "gradient.500",
             color: "#fff",
             borderColor: "green.900",
+            borderRadius: "2px",
             backfaceVisibility: "hidden",
             '-webkit-backface-visibility': "hidden",
             _hover: {
@@ -52,11 +52,13 @@ export const ButtonStyles = {
         },
         gradient: {
             bg: "gradient.600",
+            borderRadius: "2px",
             color: "#fff"
         },
         outline: {
             bg: "transparent",
             position: "relative",
+            borderRadius: "2px",
             background: "none",
             color: "#fff",
             transition: ".5s all ease",
@@ -94,7 +96,7 @@ export const ButtonStyles = {
                     left: "0",
                     top: "0",
                     width: "100%",
-                    borderRadius: "2px",
+                    borderRadius: "0px",
                     zIndex: "-1"
                 }
             }

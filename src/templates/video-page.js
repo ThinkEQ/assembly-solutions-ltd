@@ -112,7 +112,7 @@ query VideosIndexQuery($skip: Int!, $limit: Int!) {
             title
             description
           }
-          video {
+          youtube {
             name
             id
           }
