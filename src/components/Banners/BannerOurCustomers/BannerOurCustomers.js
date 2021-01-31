@@ -72,11 +72,11 @@ const BannerOurCustomers = () => {
                     </Text>
                 </Box>
 
-                <Box display="flex" alignSelf="center" justifyContent="space-between" height="100%" width={{base: "100%", lg:"40%"}}>
-                    <Box width="45%" maxW="250px">
+                <Box display="flex" alignSelf="center" justifyContent="space-around" height="100%" width={{base: "100%", lg:"40%"}}>
+                    <Box width="45%" maxW="180px">
                         <ProgressBar text="Satisfaction"  value={vs} />
                     </Box>
-                    <Box width="45%" maxW="250px">
+                    <Box width="45%" maxW="180px">
                         <ProgressBar text="Retention" value={vr} />
                     </Box>
                 </Box>
