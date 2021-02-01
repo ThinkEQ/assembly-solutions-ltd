@@ -13,7 +13,7 @@ const sameWidth = {
     phase: "beforeWrite",
     requires: ["computeStyles"],
     fn: ({ state }) => {
-        state.styles.popper.maxWidth = '50%'
+        state.styles.popper.maxWidth = '80%'
     }
 }
 
@@ -34,13 +34,13 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
     return (
             <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"}  autoFocus={false}>
                 <PopoverTrigger>
-                    <Box width="100%" minWidth="290px">
-                        <PreviewCompatibleImage width="100%" maxWidth="292px"  imageInfo={teamImg} />
-                        <Text textStyle="p">
+                    <Box width="100%">
+                        <PreviewCompatibleImage width="100%" height={{base: "293px", md: "262px"}} maxHeight="293px" maxWidth={{base: "100%", md:"292px"}} imageInfo={teamImg} />
+                        <Text textStyle="p" fontWeight="bold">
                             {name}
                         </Text>
                         <Text textStyle="p">
-                        {jobTitle}
+                            {jobTitle}
                         </Text>
                     </Box>
                 </PopoverTrigger>
@@ -55,17 +55,21 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
                             </Link>
                         </Box> */}
                     </PopoverHeader>
-                    <PopoverBody>
-                        <Box display="flex" justifyContent="space-between">
-                            <Box width="80%" maxH="60vh" overflow="auto">
+                    <PopoverBody maxHeight="50vh" overflow="auto">
+                        <Box display="flex"  justifyContent="space-between" flexDirection={{base: "column", lg: "row"}}>
+                            <Box width={{base: "100%", lg:"75%"}}>
                                 <MDXWrapper>
                                     <HTMLContent content={toHTML(bio)} />
                                 </MDXWrapper>
                             </Box>
-                            <Box width="20%">
+                            <Box width={{base: "100%", lg:"25%"}} height="auto" padding={{base: "15px 0", lg:"0"}} display="flex" justifyContent="space-around" flexDirection={{base: "row", lg: "column"}} alignContent="center" alignItems="center">
                             {iconList.length > 0 &&
                                 iconList.map((icon) => {
-                                   return <Text textTransform="capitalize" textStyle="p">{icon}</Text>
+                                   return (
+                                    <Box width={{base: "60px", md: "80px", lg: "40%"}} height={{base:"60px", md: "80px", lg: "40%"}}>
+                                        <SVG name={icon} width="100%" height="100%" fill="#091540"/>
+                                    </Box>
+                                   )
                                 })}
                             
                             </Box>

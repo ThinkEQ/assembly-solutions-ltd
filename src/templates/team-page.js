@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { navigate } from 'gatsby-link'
 
 // Load components
-import { Box, Heading, Text, SimpleGrid, Button, useMediaQuery } from '@chakra-ui/react'
+import { Box, Heading, Text, SimpleGrid, Button } from '@chakra-ui/react'
 import TeamCard from '../components/Cards/TeamCard/TeamCard'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 
@@ -12,7 +12,6 @@ import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import Layout from '../components/Layout'
 
 export const TeamPageTemplate = ({ title, teamMembers }) => {
-  const [isLargerThan1600] = useMediaQuery("(min-width: 1600px)")
 
   return (
     <Fragment>
@@ -30,8 +29,8 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
         </Box>
       </Box>
       <Box as="section" textStyle="section">
-        <Box textStyle="container" overflow="hidden">
-          <SimpleGrid minChildWidth={{base: "220px", lg:"290px"}} position="relative" spacingX="15px" spacingY="20px" >
+        <Box textStyle="container" >
+          <SimpleGrid minChildWidth={{base: "220px",  lg: "23%"}}  position="relative" spacing="20px" >
               {teamMembers.length > 0 && 
                 teamMembers.map((team) => {
                   return (
@@ -101,7 +100,7 @@ export const teamPageQuery = graphql`
           name
           image {
             childImageSharp {
-              fluid(maxHeight: 263, maxWidth: 400, quality: 80) {
+              fluid(maxHeight: 263, maxWidth: 292, quality: 80) {
                 ...GatsbyImageSharpFluid
                 presentationHeight
                 presentationWidth
