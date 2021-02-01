@@ -34,8 +34,8 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
     return (
             <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"}  autoFocus={false}>
                 <PopoverTrigger>
-                    <Box width="100%">
-                        <PreviewCompatibleImage width="100%" imageInfo={teamImg} />
+                    <Box width="100%" minWidth="290px">
+                        <PreviewCompatibleImage width="100%" maxWidth="292px"  imageInfo={teamImg} />
                         <Text textStyle="p">
                             {name}
                         </Text>
