@@ -15,7 +15,7 @@ team-members:
       - cycling
     name: Graham Balshaw
     jobtitle: Founder & Chairman
-    image: /img/blog-index.jpg
+    image: /img/team1.png
   - name: Gareth Balshaw
     jobtitle: Managing Director
     bio: >-
@@ -28,7 +28,7 @@ team-members:
       \
 
       In Gareth’s spare time he is either in the gym or competing in cycling races.
-    image: /img/blog-index.jpg
+    image: /img/team2.png
     interests:
       - cycling
   - name: Sophie Balshaw
@@ -45,7 +45,7 @@ team-members:
       Sophie loves being by the sea, so she spends most weekends wakesurfing down the welsh coast, or relaxing on deck with a glass of prosecco!
     interests:
       - surfing
-    image: /img/blog-index.jpg
+    image: /img/team3.png
   - name: Oliver Balshaw
     jobtitle: Purchasing Manager
     bio: >-
@@ -57,13 +57,13 @@ team-members:
 
 
       Oliver loves to drink, but with all bars shut at the minute, he’s enjoying his new found sport in cycling and counting down the days until he can book a holiday and dust off his snowboard!
-    image: /img/blog-index.jpg
+    image: /img/team4.png
     interests:
       - cycling
       - snowboarding
   - name: Damien Walsh
     jobtitle: Production Manager (Wiring Harnesses & Control Panels)
-    image: /img/blog-index.jpg
+    image: /img/team5.png
     bio: >-
       After an impressive 20 years at ASL, Damien holds the record for “longest
       serving employee” – it’s no wonder he’s not much hair! Being technically
@@ -86,7 +86,7 @@ team-members:
       \
 
       Rob’s daughter is a future star, after being signed for Manchester United Girls Football Team. When Rob isn’t organising production, he is cheering on the girls!
-    image: /img/blog-index.jpg
+    image: /img/team6.png
     interests:
       - football
   - name: Gareth Edwards
@@ -99,7 +99,7 @@ team-members:
       \
 
       A keen explorer in the outdoors, Gareth enjoys to travel around the UK countryside’s with his family and has even hiked up Ben Nevis in treacherous snow conditions!
-    image: /img/blog-index.jpg
+    image: /img/team7.png
     interests:
       - hiking
   - name: Amanda Freeman
@@ -112,7 +112,7 @@ team-members:
       \
 
       When she isn’t chasing payment from customers, Amanda usually has a paintbrush or trowel in hand, as she loves to decorate the house and she loves to keep the garden looking gorgeous!
-    image: /img/blog-index.jpg
+    image: /img/team8.png
     interests:
       - decorating
       - gardening
@@ -127,7 +127,7 @@ team-members:
       \
 
       Gary is a devoted grandfather and a real outdoors guy, so when we can’t get hold of him at the weekend, it’s because he’s either entertaining his grandchildren or climbing up Ben Nevis!
-    image: /img/blog-index.jpg
+    image: /img/team9.png
     interests:
       - hiking
   - name: John Waterworth
