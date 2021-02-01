@@ -52,7 +52,7 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
                     return (
                       <CardVideo 
                         key={index}
-                        imgSrc={`https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`} 
+                        imgSrc={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`} 
                         title={video.name}
                         click={() => triggerModal(video.id)}
                       />
