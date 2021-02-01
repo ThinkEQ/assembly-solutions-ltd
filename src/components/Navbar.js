@@ -105,59 +105,59 @@ const MainNav = () => (
 const ContactUs = () => {
   return (
     <Box>
-      <Box display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}}>
+      <Box display="flex" justifyContent="space-between" paddingLeft={{base: "0", lg: "20px"}} flexDirection={{base: "column", lg: "row"}}>
         <Box color="#fff">
-          <Heading textStyle="h1" as="h1" color="#fff">
+          <Heading textStyle="h2" as="h2" color="#fff">
             Contact us
           </Heading>
           <Text fontSize="26px" fontWeight="bold" lineHeight="31px" margin="15px 0">
             T: 01204 521999
           </Text>
-          <Text as="a" href="mailto:enquiry@assembly-solutions.com" target="_blank" textDecoration="none" fontSize="26px" fontWeight="bold" lineHeight="31px">
-            E: enquiry@assembly-solutions.com
+          <Text as="a" href="mailto:enquiry@assembly-solutions.com" target="_blank" fontSize="26px" fontWeight="bold" lineHeight="31px">
+            E: Enquiries@
           </Text>
 
-          <Text  fontSize="26px" fontWeight="bold" lineHeight="31px" marginTop="35px">
+          <Text  fontSize="26px" fontWeight="bold" lineHeight="31px" marginTop="50px" marginBottom="15px">
             Where we are
           </Text>
-          <Text textStyle="p">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px">
             Assembly Solutions Ltd
           </Text>
-          <Text textStyle="p">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px">
            Terence House
           </Text>
-          <Text textStyle="p">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px">
             Nile Street
           </Text>
-          <Text textStyle="p">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px">
             Bolton
           </Text>
-          <Text textStyle="p">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px">
             Greater Manchester
           </Text>
-          <Text textStyle="p">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px">
             BL3 6BW UK
           </Text>
         </Box>
-        <Box display="flex" maxHeight="550px" marginTop="20px" width={{base: "100%", lg:"80%"}} alignItems="center" >
+        <Box display="flex" maxHeight="550px" height={{base: "auto", lg:"500px"}}  marginTop="20px" width={{base: "100%", lg:"60%"}} alignItems="center" >
           <GMap />
         </Box>
       </Box>
-      <Box marginTop="50px">
+      <Box marginTop="30px" paddingLeft={{base: "0", lg:"20px"}}>
         <Box spacing="4" display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}} flexWrap={{base: "nowrap", lg: "wrap" }}>
-            <FormControl id="firstName" act color="#fff" width={{base: "100%", lg:"45%"}} marginBottom="6">
+            <FormControl id="firstName" act color="#fff" width={{base: "100%", lg:"48%"}} marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">First name</FormLabel>
             <Input focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
           </FormControl>
-          <FormControl color="#fff" width={{base: "100%", lg:"45%"}} marginBottom="6">
+          <FormControl color="#fff" width={{base: "100%", lg:"48%"}} marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">Last name</FormLabel>
             <Input focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
           </FormControl>
-          <FormControl id="Telephone" color="#fff" width={{base: "100%", lg:"45%"}} marginBottom="6">
+          <FormControl id="Telephone" color="#fff" width={{base: "100%", lg:"48%"}} marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">Telephone number</FormLabel>
             <Input focusBorderColor="green.900" type="tel" size="lg" height="67px" display="inline-block" />
           </FormControl>
-          <FormControl id="eamil" color="#fff" width={{base: "100%", lg:"45%"}} marginBottom="6">
+          <FormControl id="eamil" color="#fff" width={{base: "100%", lg:"48%"}} marginBottom="6">
             <FormLabel fontSize="18px" fontWeight="bold">Email address</FormLabel>
             <Input focusBorderColor="green.900" type="email" size="lg" height="67px" display="inline-block" />
           </FormControl>
@@ -165,8 +165,8 @@ const ContactUs = () => {
             <FormLabel fontSize="18px" fontWeight="bold">Enquiry</FormLabel>
             <Textarea focusBorderColor="green.900" size="lg" minH="250px" color="#fff" />
           </FormControl>
-          <Box display="flex" justifyContent="flex-end" width="100%" padding="10px 0" paddingBottom={{base: "40px", md: "10px"}}>
-            <Button type="submit" variant="solid" width="300px">Submit</Button>
+          <Box display="flex" justifyContent="flex-end" width="100%" padding="10px 0" paddingBottom={{base: "100px", md: "10px"}}>
+            <Button type="submit" variant="solid" width={{base: "100%", lg: "300px"}}>Submit</Button>
           </Box>
         </Box>
       </Box>
@@ -189,7 +189,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
       menuDisplay = null
   }
   return (
-     <Box animation={`${flow} infinite 15s ease`} position={{base: "fixed", md: "absolute"}} width={{base:"100%", md: "auto"}} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1500" alignItems="center">
+     <Box animation={`${flow} infinite 15s ease`} position={{base: "fixed", md: "absolute"}} width={{base:"100%", md: "auto"}} top="0" right="0" height="72px" background={"gradient.900"} backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex={!isOpen ? "1000" : ""} alignItems="center">
         <Box padding="4" zIndex={menu === 'nav' ? "2000" : "0"}>
         <Link as={ReachLink} to="/">
           <Image src={Logo} alt="asl logo" />
@@ -209,7 +209,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
           <DrawerHeader minHeight="100px">
           {menu === 'contact' && <DrawerCloseButton color="#fff" />}
           </DrawerHeader>
-            <DrawerBody>
+            <DrawerBody paddingRight={{base: "20px", lg: "100px"}}>
              {menuDisplay}
             </DrawerBody>
         </DrawerContent>
