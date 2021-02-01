@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 
 
 // Load components
-import { Box, Heading, Text, ListIcon, List, ListItem, useMediaQuery, Grid, GridItem } from '@chakra-ui/react'
+import { Box, Heading, Text, ListIcon, List, ListItem, useMediaQuery, Grid, GridItem, AspectRatio } from '@chakra-ui/react'
 import Carousel from '../components/Carousel/CustomCarousel'
 import CarouselReel from '../components/Carousel/CarouselReel'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
@@ -15,8 +15,16 @@ import TestimonialBlock from '../components/Testimonial/Testimonial'
 
 // Load asset
 import Check from '../components/UI/SVG/svgs/check'
+import WireMP from '../videos/WIRE_PREP.mp4'
+import WireWEB from '../videos/WIRE_PREP.webm'
+import CableMP from '../videos/CABLE_ASSEMBLY.mp4'
+import CableWEB from '../videos/CABLE_ASSEMBLY.webm'
+import WiringMP from '../videos/WIRING_HARNESSES.mp4'
+import WiringWEB from '../videos/WIRING_HARNESSES.webm'
+import ControlMP from '../videos/CONTROL_PANEL.mp4'
+import ControlWEB from '../videos/CONTROL_PANEL.webm'
 
-export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent }) => {
+export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent, video }) => {
   const PageContent = contentComponent || Content
   const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
   const [isLessThan464] = useMediaQuery("(max-width: 464px")
@@ -24,6 +32,37 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
 
   function nav(slug) {
     navigate(slug)
+  }
+
+  let videoLoader = null
+
+  switch (video) {
+    case 'wire-and-cable-preparation':
+      videoLoader = {
+        mp: WireMP,
+        web: WireWEB
+      }
+      break
+    case 'cable-assembly':
+      videoLoader = {
+        mp: CableMP,
+        web: CableWEB
+      }
+      break
+    case 'wiring-harness':
+      videoLoader = {
+        mp: WiringMP,
+        web: WiringWEB
+      }
+      break
+    case 'control-panel':
+      videoLoader = {
+        mp: ControlMP,
+        web: ControlWEB
+      }
+      break
+    default:
+      videoLoader = null
   }
 
   return (
@@ -51,7 +90,17 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
               </Box>             
           </Box>
         </Box>
-        <PreviewImage imageInfo={imgHeader} />
+        {!videoLoader && <PreviewImage imageInfo={imgHeader} />}
+        {videoLoader && 
+          <Box width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}}>
+            <AspectRatio ratio={{base: 9 / 16, lg: 16 / 9}} >
+              <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}} objectFit="cover">
+                <source src={videoLoader.web} type="video/webm"></source>
+                <source src={videoLoader.mp} type="video/mp4"></source>
+              </Box>
+            </AspectRatio>
+          </Box>
+        }
       </Box>
 
       {/** INTRO BODY CONTENT */}
@@ -132,11 +181,11 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
     </Box>
 
     {/** Reel */}
-    {imgCarousel.length &&
+    {imgCarousel.length > 0 &&
       <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "300px", md: "450px", lg: "600px"}} width="100%" overflow="hidden">
           <CarouselReel data={imgCarousel} />
       </Box>
-      }
+    }
 
       <Box as="section" textStyle="section">
         <BannerUSP />
@@ -154,7 +203,6 @@ const ProductCategoryPage = ({ data, pageContext }) => {
   const { seo } = post.frontmatter
   const title = seo ? seo.title : post.frontmatter.title
   const description = seo ? seo.description : undefined
-  
   return (
     <Layout metaTitle={title} metaDescription={description}>
       <ProductCategoryPageTemplate
@@ -166,6 +214,7 @@ const ProductCategoryPage = ({ data, pageContext }) => {
         content={post.html}
         relatedProducts={pageContext.products}
         imgHeader={post.frontmatter.image}
+        video={post.frontmatter.video}
         imgCarousel={post.frontmatter.images || []}
       />
     </Layout>
@@ -180,6 +229,7 @@ query productCategoryPageQuery($id: String!) {
     frontmatter {
           title,
           subtitle
+          video 
           seo {
             title
             description

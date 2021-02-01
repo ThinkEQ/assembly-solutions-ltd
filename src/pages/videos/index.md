@@ -1,7 +1,7 @@
 ---
 templateKey: video-page
 title: Videos
-video:
+youtube:
   - name: Who We Are
     id: wusos_tZNIQ
   - name: Cable & Wire Preparation
