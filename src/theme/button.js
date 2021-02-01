@@ -12,7 +12,6 @@ export const ButtonStyles = {
     // Styles all button have in common
     baseStyles: {
         fontWeight: "bold",
-        borderRadius: "2px",
         fontFamily: "inherit",
     },
     sizes: {
@@ -22,25 +21,44 @@ export const ButtonStyles = {
             paddingLeft: "2.5rem",
             paddingRight: "2.5rem",
             height: "3.5rem"
+        },
+        full: {
+            fontSize: "14px",
+            paddingTop: "2px",
+            paddingLeft: "2.5rem",
+            paddingRight: "2.5rem",
+            height: "100%",
+            width: "100%"
         }
     },
     variants: {
         solid: {
-            bg: "green.900",
+            bg: "gradient.500",
             color: "#fff",
+            borderColor: "green.900",
+            borderRadius: "2px",
+            backfaceVisibility: "hidden",
+            '-webkit-backface-visibility': "hidden",
             _hover: {
-                background: "gradient.900",
+                bg: "gradient.900",
+                borderColor: "green.900",
                 backgroundSize: "600% 600%",
                 animation: `${flow} infinite 10s ease`
+            },
+            _active: {
+                bg: "gradient.500",
+                borderColor: "green.900",
             }
         },
         gradient: {
             bg: "gradient.600",
+            borderRadius: "2px",
             color: "#fff"
         },
         outline: {
             bg: "transparent",
             position: "relative",
+            borderRadius: "2px",
             background: "none",
             color: "#fff",
             transition: ".5s all ease",
@@ -62,6 +80,10 @@ export const ButtonStyles = {
                 top: "50%",
                 left: "50%",
             },
+            _active: {
+                bg: "#fff",
+                color: "green.900"
+            },
             _hover: {
                 background: "transparent",
                 color: "green.900",
@@ -74,7 +96,7 @@ export const ButtonStyles = {
                     left: "0",
                     top: "0",
                     width: "100%",
-                    borderRadius: "2px",
+                    borderRadius: "0px",
                     zIndex: "-1"
                 }
             }

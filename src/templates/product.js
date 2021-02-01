@@ -5,19 +5,15 @@ import Layout from '../components/Layout'
 
 // Load components
 import { Box, Heading, Text, ListIcon, List, ListItem, Grid, GridItem } from '@chakra-ui/react'
-import CarouselProjects from '../components/Carousel/CarouselProject'
 import CarouselReel from '../components/Carousel/CarouselReel'
-import { SlideLeftReverse } from '../components/Carousel/index'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMore'
 import PreviewImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
-import {Slide, Slider } from 'pure-react-carousel'
 import TestimonialBlock from '../components/Testimonial/Testimonial'
 
 // Load asset
 import Check from '../components/UI/SVG/svgs/check'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ProductPageTemplate = ({ title, mainContent, contentComponent, subtitle, imgHeader, testimonial, usps, imgCarousel }) => {
   const PageContent = contentComponent || Content
@@ -70,13 +66,13 @@ export const ProductPageTemplate = ({ title, mainContent, contentComponent, subt
                   }
                   if (content.type === 'testimonial') {
                       return (
-                          <GridItem>
+                          <GridItem colSpan={{base: 2,  lg: 1}}>
                               <TestimonialBlock author={content.testimonial.name}  quote={content.testimonial.quote} />
                           </GridItem>
                       )
                   }
                   return (
-                      <GridItem colSpan={span}>
+                      <GridItem colSpan={{base: 2,  lg: span}}>
                           <Heading as="h4" textStyle="h4" marginBottom="20px">
                               {content.column.title}
                           </Heading>
@@ -90,23 +86,11 @@ export const ProductPageTemplate = ({ title, mainContent, contentComponent, subt
     </Box>
 
       {/** Reel */}
-      <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "400px", md: "600px"}} overflow="hidden">
-        <CarouselReel totalSlides={imgCarousel.length}>
-          <Slider>
-              {imgCarousel.map((img, index) => {
-                return (
-                  <Slide index={index}>
-                    <Box padding="0 25px">
-                      <PreviewCompatibleImage imageInfo={img.image} height="100%" maxHeight="450px" />
-                    </Box>
-                  </Slide>
-              )
-            })}
-          </Slider>
-          <SlideLeftReverse position="absolute" top="50%" left="-5%" transform="translateY(-50%)" display={{base: "none", lg: "block"}} />
-        </CarouselReel>
-       
-      </Box>
+      {imgCarousel.length > 0 && 
+      <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "300px", md: "600px"}} width="100%" overflow="hidden">
+          <CarouselReel data={imgCarousel} />
+      </Box>}
+
       <Box as="section" textStyle="section">
         <Box textStyle="container">
           <BannerUSP />
@@ -114,19 +98,18 @@ export const ProductPageTemplate = ({ title, mainContent, contentComponent, subt
       </Box>
 
       <BannerLearnMore />
-      <Box as="section" position="relative" width="100%" overflow="hidden">
-          <CarouselProjects />
-      </Box>
     </Fragment>
   )
 }
 
-
 const ProductPage = ({ data }) => {
   const { markdownRemark: post } = data
-  
+  const { seo } = post.frontmatter
+  const title = seo ? seo.title : post.frontmatter.title
+  const description = seo ? seo.description : undefined
+
   return (
-    <Layout>
+    <Layout metaTitle={title} metaDescription={description}>
       <ProductPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -155,6 +138,10 @@ query productPageQuery($id: String!) {
         }
         usps {
           usp
+        }
+        seo {
+          title
+          description
         }
         layout {
           type

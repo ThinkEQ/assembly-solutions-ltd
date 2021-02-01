@@ -11,6 +11,9 @@ intro: >-
 
   Family values are not just words, they're a real thing that you can see when walking around the factory. We work together as a team, sharing the same vision, values and goals.
 image: /img/chemex.jpg
+seo:
+  title: About
+  description: Test about page
 ---
 We run a really efficient operation. Every production line is streamlined for fast manufacture, so that we can deliver products in the quickest possible time.
 

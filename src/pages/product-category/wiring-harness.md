@@ -2,6 +2,7 @@
 templateKey: product-category
 title: Wiring Harness
 subtitle: Wiring Harness
+video: wiring-harness
 image: /img/chemex.jpg
 usps:
   - usp: UK Made in Bolton
@@ -12,6 +13,12 @@ products:
   - Wiring Looms
   - Cable Looms
   - Agricultural Looms
+  - Electric Vehicle & Hybrid Vehicle Wiring Harnesses
+  - Motorsport Harnesses
+  - Trailer Wiring Looms
+seo:
+  title: Wiring Harness
+  description: Wiring Harness
 layout:
   - type: column
     column:

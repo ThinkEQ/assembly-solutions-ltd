@@ -1,27 +1,30 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import { navigate } from 'gatsby-link'
 
 // Load components
-import { Box, Heading, Text, Image, Button } from '@chakra-ui/react'
+import { Box, Heading, Text, Button, keyframes, AspectRatio } from '@chakra-ui/react'
+import ReactScroll from '../components/ReactScroll/ReactScroll'
+
 //import Button from '../theme/button'
 import Layout from '../components/Layout'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
-import CarouselNews from '../components/Carousel/CarouselNews'
+import NewsArticles from '../components/StaticQueries/NewsArticles'
 import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerOurCustomers'
 
 // Load asset
-import stock from '../img/stock.jpg'
-import DownArrow from '../img/arrowCircleDown.svg'
+import Icon from '../components/UI/SVG/index'
+import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
+import homvidmp from '../videos/HOMEPAGEMP4.mp4'
+import '../components/UI/SVG/styles.css'
 
-const imgBk = {
-  background: `linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%), url(${stock});`,
-  backgroundSize: 'cover',
-  backgroundPosition: "center",
-  width: '100vw'
-}
-
+const bounce = keyframes `
+  0%{transform: translateY(-25px)}
+  50%{transform: translateY(0px)}
+  100%{transform: translateY(-25px)}
+`
 export const IndexPageTemplate = ({
   title,
   heading,
@@ -33,9 +36,17 @@ export const IndexPageTemplate = ({
 
 return (
     <Fragment>
-      <Box as="header" minHeight={{base: "calc(100vh - 50px)", lg:"calc(100vh - 100px)"}} paddingTop={{base: "50px", lg: "100px"}} textStyle="section" {...imgBk}>
-          <Box minHeight={{base: "calc(100vh - 50px)", lg:"calc(100vh - 100px)"}} textStyle="container" display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
-             
+      <Box as="header" minHeight={{base: "100vh", md:"700px"}} height="100%" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
+        <Box position="absolute" top="0" left="0" width="100%" height="100%" zIndex="-1" >
+          <AspectRatio ratio={{base: 9 / 16, lg: 4 / 3}} >
+            <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" objectFit="cover">
+              <source src={homvidwm} type="video/webm"></source>
+              <source src={homvidmp} type="video/mp4"></source>
+            </Box>
+          </AspectRatio>
+        </Box>
+            <Box height="100%" textStyle="container" minHeight={{base: "100vh", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
+              <Box textStyle="section">
                 <Heading textStyle="h1" textTransform="uppercase" color="#fff">
                   Efficient manufacturing <br/>
                   that delivers <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>Quality & Speed</Text>
@@ -45,18 +56,17 @@ return (
                   assemblies, wiring harnesses and control panels.
                 </Text>
                 <Box display="flex" justifyContent="space-between" width="100%">
-                <Button variant="solid">Watch Full Video</Button>
-                  <Box display={{base:"flex", lg: "none"}} justifyContent="flex-end" alignSelf="flex-end" cursor="pointer">
-                    <Image src={DownArrow} />
-                  </Box>
+                  <Button variant="solid">Watch Full Video</Button>
                 </Box>
-                <Box display={{base: "none", lg:"block"}} position="absolute" bottom="50px" right="50px" cursor="pointer">
-                  <Image src={DownArrow} />
+                <Box position="absolute" bottom={{base: "90px", md: "50px"}} right={{base: "15px", md: "50px"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
+                  <ReactScroll>
+                    <Icon name="downArrow" />
+                  </ReactScroll>  
                 </Box>
               </Box>
-      
+            </Box>   
       </Box>
-      <Box textStyle="section" as="section" minHeight="700px" position="relative" background="neutral.900">
+      <Box textStyle="section" as="section" id="what-we-do-home" minHeight="700px" position="relative" background="neutral.900">
         <Box textStyle="container" position="relative">
           <CarouselWhatWeDo />
         </Box>
@@ -75,15 +85,14 @@ return (
                 <Text textStyle="p" marginBottom={12} maxW={{base: "100%", lg:"70%"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
-                <Button variant="outline" maxWidth="200px">Learn more</Button>
+                <Button variant="outline" maxWidth="200px" onClick={() => navigate('/team')}>Learn more</Button> 
             </Box>
           </Box>
       </Box>
 
-      <Box as="section" position="relative" width="100%" overflow="hidden">
-       <CarouselNews />      
+      <Box as="section" position="relative" width="100%">
+        <NewsArticles />
       </Box>
-
       <Box as="section" textStyle="section">
         <BannerUSP />
       </Box>

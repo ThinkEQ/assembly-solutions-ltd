@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 // Load components
 import Layout from '../components/Layout'
@@ -9,7 +9,7 @@ import { graphql } from 'gatsby'
 
 export const ProjectIndexTemplate = ({ data, pagination }) => {
   return (
-         <Layout>
+         <Fragment>
           <Box as="header" textStyle="section" >
             <Box textStyle="container" paddingTop={{base: "100px", lg:"50px"}}>
               <Text textStyle="p" marginBottom="20px" fontSize="22px">
@@ -29,12 +29,20 @@ export const ProjectIndexTemplate = ({ data, pagination }) => {
               </Box>
             </Box>
           </Box>
-      </Layout>
+      </Fragment>
   )
 }
 
 const ProjectIndex =  ({data, pageContext}) => {
-  return <ProjectIndexTemplate data={data} pagination={pageContext} />
+  const { edges: posts } = data.allMarkdownRemark
+  const { seo } = posts[0].node.frontmatter
+  const title = seo ? seo.title : posts[0].node.frontmatter.title
+  const description = seo ? seo.description : undefined
+  return (
+      <Layout metaTitle={title} metaDescription={description}>
+        <ProjectIndexTemplate data={data} pagination={pageContext} />
+      </Layout>
+    )
 }
 
 export const projectIndexQuery = graphql`

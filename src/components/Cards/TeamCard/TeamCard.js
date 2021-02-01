@@ -1,11 +1,11 @@
 import React from 'react'
-import { Link as ReachLink } from 'gatsby'
+//import { Link as ReachLink } from 'gatsby'
 
 // Load components
-import { useMediaQuery, Text, Heading, Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box, Link } from '@chakra-ui/react'
+import { useMediaQuery, Text, Heading, Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box } from '@chakra-ui/react'
 import PreviewCompatibleImage from '../../PreviewCompatibleImage'
 import SVG from '../../UI/SVG/index'
-import { HTMLContent } from '../../Content'
+import { HTMLContent, MDXWrapper, toHTML } from '../../Content'
 
 const sameWidth = {
     name: "sameWidth",
@@ -32,10 +32,10 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
     const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
     const popperModifier = isLargerThan900 ? sameWidth : sameWidthMob
     return (
-            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"} autoFocus={false}>
+            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"}  autoFocus={false}>
                 <PopoverTrigger>
-                    <Box>
-                        <PreviewCompatibleImage imageInfo={teamImg} />
+                    <Box width="100%">
+                        <PreviewCompatibleImage width="100%" imageInfo={teamImg} />
                         <Text textStyle="p">
                             {name}
                         </Text>
@@ -49,16 +49,18 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
                         <Heading as="h2" fontSize="35px" lineHeight="42px" color="#fff">
                             About {name}
                         </Heading>
-                        <Box maxHeight="50px" maxWidth="50px">
+                        {/* <Box maxHeight="50px" maxWidth="50px">
                             <Link as={ReachLink} to={linkedIn} target="_blank" isExternal>
                                 <SVG name="linkedin" />
                             </Link>
-                        </Box>
+                        </Box> */}
                     </PopoverHeader>
                     <PopoverBody>
                         <Box display="flex" justifyContent="space-between">
-                            <Box width="80%">
-                                <HTMLContent content={bio} />
+                            <Box width="80%" maxH="60vh" overflow="auto">
+                                <MDXWrapper>
+                                    <HTMLContent content={toHTML(bio)} />
+                                </MDXWrapper>
                             </Box>
                             <Box width="20%">
                             {iconList.length > 0 &&

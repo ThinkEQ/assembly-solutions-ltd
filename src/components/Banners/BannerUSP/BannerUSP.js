@@ -13,7 +13,7 @@ const Group = ({ text, icon, altText }) => {
     return (
         <Box display="flex" justifyContent="space-between" flexDirection="column" alignItems="center" marginBottom={{base: "50px", lg: "0"}} width={{base: "48%", lg: "24%"}}>
             <Image src={icon} alt={altText} height={{base:"80px", md: "110px"}} />
-            <Text fontSize={{base: "18px", md:"30px"}} textAlign="center" fontWeight="bold" marginTop={{base: "30px", md:"50px"}} >
+            <Text fontSize={{base: "18px", md:"30px"}} textAlign="center" fontWeight="400" marginTop={{base: "30px", md:"50px"}} >
                 {text}
             </Text>
         </Box>

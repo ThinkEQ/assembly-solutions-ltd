@@ -1,0 +1,30 @@
+#downArrow {
+    transition: all .3s ease-in-out;
+    transform: scale(1);
+}
+
+#downArrow:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.33);
+}
+
+#Desktop {
+    transition: all .3s ease-in-out;
+    fill: transparent;
+}
+
+#Desktop:hover {
+    transition: all .3s ease-in-out;
+    animation: flow linear infinite 10s ease;
+    fill: #fff;
+}
+
+
+
+@keyframes flow {
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+
+

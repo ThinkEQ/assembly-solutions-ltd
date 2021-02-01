@@ -10,15 +10,15 @@ const para = {
   fontSize: "18px",
   lineHeight: "20px",
   fontFamily: "inherit",
-  fontWeight: "bold"
+  fontWeight: "400"
 }
 
 
-const Footer = () => {
+const Footer = ({ toggleDrawer }) => {
   return(
     <Box background="blue.900" color="#fff" textStyle="section">
       <Box textStyle="container">
-        <Heading fontFamily="30px" lineHeight="36px" fontWeight="bold" marginBottom="20px">
+        <Heading fontFamily="30px" lineHeight="36px" fontWeight="400" marginBottom="20px">
           Stay Connected
         </Heading>
 
@@ -26,7 +26,7 @@ const Footer = () => {
           <Box width={{base: "100%", lg:"48%"}} marginBottom={{base: "30px", lg: "0"}}>
             <InputGroup size="lg">
               <Input borderRadius="3px" color="blue.900" placeholder="name@email.com" borderColor="blue.900" border="none" height={{base: "51px", md:"72px"}} background="#fff" />
-              <InputRightElement width={{base: "110px", md:"175px"}} padding={{base: "0", md: "1rem"}} children={<Button variant="solid" height={{base: "100%", md:"72px"}} width="100%" paddingRight={{base: "0", md: "2.5rem"}} paddingLeft={{base: "0", md: "2.5rem"}} whiteSpace="nowrap">Subscribe</Button>} height={{base: "51px", md:"72px"}} background="green.900" fontWeight="bold" borderTopRightRadius="3px" borderBottomRightRadius="3px" />
+              <InputRightElement width={{base: "110px", md:"175px"}} padding="0" children={<Button variant="solid" size="full" paddingRight={{base: "0", md: "2.5rem"}} paddingLeft={{base: "0", md: "2.5rem"}} whiteSpace="nowrap">Subscribe</Button>} height={{base: "51px", md:"72px"}} background="green.900" fontWeight="bold" borderTopRightRadius="3px" borderBottomRightRadius="3px" />
             </InputGroup>
             <Box display="flex" alignItems="flex-start" justifyContent="space-between" width={{base: "100%", lg:"80%"}} marginTop="20px">
               <Text {...para} fontSize={{base: "14px", lg: "18px"}} >
@@ -41,18 +41,23 @@ const Footer = () => {
           <Box width={{base: "100%", lg:"48%"}} display="flex" justifyContent="space-between" paddingTop="10px">
             <List spacing="4">
               <ListItem {...para}>
-                <Link as={ReachLink} to="/wire">
-                  Wire Preperation
-                </Link>
-              </ListItem>
-              <ListItem {...para}>
-                <Link as={ReachLink} to="/cable">
+                <Link as={ReachLink} to="/cable-assembly">
                   Cable Assembly
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/control">
-                  Control Panel
+                <Link as={ReachLink} to="/wire-and-cable-preparation">
+                  Wire Preperation
+                </Link>
+              </ListItem>
+              <ListItem {...para}>
+                <Link as={ReachLink} to="/wiring-harness">
+                  Wiring Harnesses
+                </Link>
+              </ListItem>
+              <ListItem {...para}>
+                <Link as={ReachLink} to="/control-panel">
+                  Control Panels
                 </Link>
               </ListItem>
             </List>
@@ -74,29 +79,24 @@ const Footer = () => {
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/projects">
-                  Projects
-                </Link>
-              </ListItem>
-              <ListItem {...para}>
-                <Link as={ReachLink} to="/wire">
+                <Link as={ReachLink} to="/videos">
                   Videos
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/wire">
+                <Link onClick={() => toggleDrawer('contact')} to="#">
                   Contact Us
                 </Link>
               </ListItem>
             </List>
             <List spacing="4" display={{base: "none", lg: "block"}}>
               <ListItem {...para} fontWeight="300">
-                <Link as={ReachLink} to="/terms">
+                <Link as={ReachLink} to="/terms-and-conditions">
                   Terms of Use
                 </Link>
               </ListItem>
               <ListItem {...para} fontWeight="300">
-                <Link as={ReachLink} to="/privacy">
+                <Link as={ReachLink} to="/privacy-policy">
                   Privacy Policy
                 </Link>
               </ListItem>
@@ -112,12 +112,12 @@ const Footer = () => {
 
         <List justifyContent="space-around" alignItems="flex-start" width="100%" marginBottom="20px" display={{base: "flex", lg: "none"}}>
           <ListItem {...para} fontWeight="300">
-            <Link as={ReachLink} to="/terms">
+            <Link as={ReachLink} to="/terms-and-conditions">
               Terms of Use
             </Link>
           </ListItem>
           <ListItem {...para} fontWeight="300">
-            <Link as={ReachLink} to="/privacy">
+            <Link as={ReachLink} to="/privacy-policy">
               Privacy Policy
             </Link>
           </ListItem>

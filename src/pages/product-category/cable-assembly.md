@@ -2,6 +2,7 @@
 templateKey: product-category
 title: Cable Assembly
 subtitle: UK cable assembly manufacturers
+video: cable-assembly
 image: /img/stockwire.jpg
 usps:
   - usp: UK Made in Bolton
@@ -24,6 +25,9 @@ products:
   - Braided Cables
   - Earth Straps
   - Ribbon Cables
+seo:
+  title: Cable Assembly
+  description: Cable Assembly
 layout:
   - type: column
     column:

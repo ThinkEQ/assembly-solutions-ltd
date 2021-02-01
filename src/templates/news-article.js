@@ -55,13 +55,13 @@ export const NewsArticleTemplate = ({
                 }
                 if (content.type === 'testimonial') {
                     return (
-                        <GridItem>
+                        <GridItem colSpan={{base: 2,  lg: span}}>
                             <Testimonial author={content.testimonial.name}  quote={content.testimonial.quote} />
                         </GridItem>
                     )
                 }
                 return (
-                    <GridItem colSpan={span}>
+                    <GridItem colSpan={{base: 2,  lg: span}}>
                         <Heading as="h4" textStyle="h4" marginBottom="20px">
                             {content.column.title}
                         </Heading>
@@ -86,9 +86,12 @@ NewsArticleTemplate.propTypes = {
 
 const NewsArticle = ({ data }) => {
   const { markdownRemark: post } = data
+  const { seo } = post.frontmatter
+  const title = seo ? seo.title : post.frontmatter.title
+  const description = seo ? seo.description : undefined
 
   return (
-    <Layout>
+    <Layout metaTitle={title} metaDescription={description}>
       <NewsArticleTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -117,6 +120,10 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        seo {
+          title 
+          description
+        }
         image {
           childImageSharp {
             fluid(maxHeight: 480, quality: 80) {
@@ -130,6 +137,10 @@ export const pageQuery = graphql`
           column {
               title
               text
+          }
+          full {
+            title
+            text
           }
           testimonial {
               name

@@ -6,7 +6,7 @@ import { graphql, Link as ReachLink } from 'gatsby'
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 import { BsCircleFill } from 'react-icons/bs'
 import { Box, Text, Heading, List, ListItem, ListIcon, Link } from '@chakra-ui/react'
-import CarouselNews from '../components/Carousel/CarouselNews'
+import NewsArticle from '../components/StaticQueries/NewsArticles'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import ImageComp from '../components/PreviewCompatibleImage'
 import Button from '../theme/button'
@@ -45,7 +45,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
             </MDXWrapper>
           </Box>
           <Box width={{base: "100%", lg:"48%"}}>
-            <Text textStyle="p" fontSize="24px" fontWeight="bold" marginBottom="20px">
+            <Text textStyle="p" fontSize="24px" fontWeight="600" marginBottom="20px">
               With a wide product range, Assembly Solutions serve any market sector from Automotive, to Nuclear and Utilities.
             </Text>
             <List spacing="4">
@@ -95,7 +95,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
         </Box>
       </Box>
       <Box as="section" position="relative" width="100%" overflow="hidden">
-        <CarouselNews />      
+        <NewsArticle />
      </Box>
     </Fragment>
    
@@ -110,9 +110,9 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
-  
+  const { seo: { title, description } } = post.frontmatter
   return (
-    <Layout>
+    <Layout metaTitle={title || post.frontmatter.title} metaDescription={description} >
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
@@ -140,6 +140,10 @@ export const aboutPageQuery = graphql`
         title,
         subtitle,
         intro
+        seo {
+          title
+          description
+        }
         image {
           childImageSharp {
             fluid(maxHeight: 600, quality: 80) {

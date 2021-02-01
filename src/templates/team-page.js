@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import { navigate } from 'gatsby-link'
 
 // Load components
-import { Box, Heading, Text, SimpleGrid, Button } from '@chakra-ui/react'
+import { Box, Heading, Text, SimpleGrid, Button, useMediaQuery } from '@chakra-ui/react'
 import TeamCard from '../components/Cards/TeamCard/TeamCard'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 
@@ -11,6 +12,7 @@ import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import Layout from '../components/Layout'
 
 export const TeamPageTemplate = ({ title, teamMembers }) => {
+  const [isLargerThan1600] = useMediaQuery("(min-width: 1600px)")
 
   return (
     <Fragment>
@@ -28,8 +30,8 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
         </Box>
       </Box>
       <Box as="section" textStyle="section">
-        <Box textStyle="container">
-          <SimpleGrid minChildWidth="220px" position="relative" spacing="20px" >
+        <Box textStyle="container" overflow="hidden">
+          <SimpleGrid minChildWidth={{base: "220px", lg: isLargerThan1600 ? "320px" : "220px"}} position="relative" spacing="20px" >
               {teamMembers.length > 0 && 
                 teamMembers.map((team) => {
                   return (
@@ -44,7 +46,7 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
                 })}
             </SimpleGrid>
             <Box marginTop="30px" textAlign="center">
-              <Button variant="solid">Find out more about us</Button>
+            <Button variant="solid" onClick={() => navigate('/about-us')}>Find out more about us</Button> 
             </Box>
         </Box>
       </Box>
@@ -63,9 +65,12 @@ TeamPageTemplate.propTypes = {
 
 const TeamPage = ({ data }) => {
   const { markdownRemark: post } = data
+  const { seo } = post.frontmatter
+  const title = seo ? seo.title : post.frontmatter.title
+  const description = seo ? seo.description : undefined
 
   return (
-    <Layout>
+    <Layout metaTitle={title} metaDescription={description}>
       <TeamPageTemplate
         title={post.frontmatter.title}
         teamMembers={post.frontmatter.team_members}
@@ -85,15 +90,18 @@ export const teamPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        seo {
+          title
+          description
+        }
         team_members {
           bio
           interests
           jobtitle
-          linkedin
           name
           image {
             childImageSharp {
-              fluid(maxHeight: 263, maxWidth: 292, quality: 80) {
+              fluid(maxHeight: 263, maxWidth: 400, quality: 80) {
                 ...GatsbyImageSharpFluid
                 presentationHeight
                 presentationWidth
