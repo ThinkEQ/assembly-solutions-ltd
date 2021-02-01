@@ -10,7 +10,7 @@ import LeftHandle from '../../img/leftHandle.svg'
 import RightHandle from '../../img/rightHandle.svg'
 import stockCable from '../../img/stockWire.jpg'
 
-export const SlideLeft = (props) => {
+export const SlideLeft = ({ onClick }) => {
     return (
         <Box {...props} cursor="pointer" right={{base: "70px", md: "80px", lg: "initial"}} bottom={{base: "205px",  md: "165px", lg: "initial"}}  height={{base:"55px", md: "60px", lg: "90px"}} width={{base: "45px", md: "55px", lg: "90px"}}  position="absolute">
             <Image src={LeftHandle} alt="left icon" />
@@ -18,7 +18,7 @@ export const SlideLeft = (props) => {
     )
 }
 
-export const SlideRight = (props) => {
+export const SlideRight = ({ onClick }) => {
     return (
         <Box cursor="pointer" {...props} right={{base: "0", lg: "-30px"}} bottom={{base: "205px", md: "165px", lg: "initial"}} height={{base:"55px", md: "60px", lg: "90px"}} width={{base: "45px", md: "55px", lg: "90px"}} position="absolute">
             <Image src={RightHandle} alt="right icon" />

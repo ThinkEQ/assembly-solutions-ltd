@@ -14,7 +14,7 @@ const para = {
 }
 
 
-const Footer = () => {
+const Footer = ({ toggleDrawer }) => {
   return(
     <Box background="blue.900" color="#fff" textStyle="section">
       <Box textStyle="container">
@@ -84,7 +84,7 @@ const Footer = () => {
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/contact-us">
+                <Link onClick={() => toggleDrawer('contact')} to="#">
                   Contact Us
                 </Link>
               </ListItem>
@@ -106,8 +106,12 @@ const Footer = () => {
 
         <Box display="flex" flexDirection={{base: "column", lg: "row"}} alignItems={{base: "flex-start", lg:"center"}} justifyContent="space-between" marginTop="30px">
           <Box display="flex" alignItems="flex-start" justifyContent="space-between" width="125px" marginBottom={{base: "30px", lg: "0"}}>
-            <SVG name="youtube" />
-            <SVG name="linkedin" />
+            <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
+              <SVG name="youtube" />
+            </Link>
+            <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
+              <SVG name="linkedin" />
+            </Link>
           </Box>
 
         <List justifyContent="space-around" alignItems="flex-start" width="100%" marginBottom="20px" display={{base: "flex", lg: "none"}}>

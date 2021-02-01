@@ -9,16 +9,16 @@ const PreviewCompatibleImage = ({ imageInfo, ...props }) => {
   const imageStyle = { maxHeight, maxWidth, ...props }
   if (!!image && !!image.childImageSharp) {
     return (
-      <Img draggable="false" style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />
+      <Img draggable={false} style={imageStyle} fluid={image.childImageSharp.fluid} alt={alt} />
     )
   }
 
   if (!!childImageSharp) {
-    return <Img draggable="false" style={imageStyle} fluid={childImageSharp.fluid} alt={alt} />
+    return <Img draggable={false} style={imageStyle} fluid={childImageSharp.fluid} alt={alt} />
   }
 
   if (!!image && typeof image === 'string')
-    return <img draggable="false" style={imageStyle} src={image} alt={alt} />
+    return <img draggable={false} style={imageStyle} src={image} alt={alt} />
 
   return null
 }

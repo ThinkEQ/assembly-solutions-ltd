@@ -1,16 +1,16 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link as ReachLink } from 'gatsby'
 
 // Load assets
 import Logo from '../img/logo.svg'
-import MapMock from '../img/mockmap.png'
 
 // Load components
-import { keyframes, Heading, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, useDisclosure, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react'
-import { ChatIcon } from '@chakra-ui/icons'
+import { keyframes, Heading, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react'
 import Hamburger from './UI/Hamburger/Hamburger'
 import Button from '../theme/button'
 import SVG from '../components/UI/SVG/index'
+import Chat from '../img/svg/chat.svg'
+import GMap from '../components/Map/Map'
 
 const navText = {
   fontSize: "16px",
@@ -59,9 +59,13 @@ const MainNav = () => (
     <Box as="li" display="block">
       <Link as={ReachLink} to="/videos" size="lg" variant="nav">Videos</Link>
     </Box>
-    <Box display={{base: "none", lg: "flex"}} alignItems="center" margin={{base: "20px 0", lg: "0"}}>
+    <Box display={{base: "none", lg: "flex"}} alignItems="center" margin="20px 0">
+    <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
       <SVG name="youtube" fill="#fff" />
-      <Box margin="0 15px"><SVG name="linkedin" fill="#fff" /></Box>
+    </Link>
+    <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
+      <SVG name="linkedin" fill="#fff" />
+    </Link>
       <Text color="#fff" fontSize="18px" marginRight="10px">
         ASL &copy;2020
       </Text>
@@ -85,8 +89,12 @@ const MainNav = () => (
     </Box>
   </Box>
   <Box display={{base: "flex", lg: "none"}} alignItems="center" margin={{base: "20px 0", lg: "0"}}>
-    <SVG name="youtube" fill="#fff" />
-    <Box margin="0 15px"><SVG name="linkedin" fill="#fff" /></Box>
+    <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
+      <SVG name="youtube" fill="#fff" />
+    </Link>
+    <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
+      <SVG name="linkedin" fill="#fff" />
+    </Link>
     <Text color="#fff" fontSize="18px" marginRight="10px">
       ASL &copy;2020
     </Text>
@@ -131,8 +139,8 @@ const ContactUs = () => {
             BL3 6BW UK
           </Text>
         </Box>
-        <Box display="flex" alignItems="center" >
-          <Image src={MapMock} alt="Stree map" width="500px" height="70%" />
+        <Box display="flex" maxHeight="550px" marginTop="20px" width={{base: "100%", lg:"80%"}} alignItems="center" >
+          <GMap />
         </Box>
       </Box>
       <Box marginTop="50px">
@@ -157,7 +165,7 @@ const ContactUs = () => {
             <FormLabel fontSize="18px" fontWeight="bold">Enquiry</FormLabel>
             <Textarea focusBorderColor="green.900" size="lg" minH="250px" color="#fff" />
           </FormControl>
-          <Box display="flex" justifyContent="flex-end" width="100%" padding="10px 0">
+          <Box display="flex" justifyContent="flex-end" width="100%" padding="10px 0" paddingBottom={{base: "40px", md: "10px"}}>
             <Button type="submit" variant="solid" width="300px">Submit</Button>
           </Box>
         </Box>
@@ -166,21 +174,8 @@ const ContactUs = () => {
   )
 }
 
-const Navbar = () => {
-  const [menu, setMenu] = useState(false)
-  const {isOpen, onClose, onOpen } = useDisclosure()
+const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
   
-  function toggleDrawer(type) {
-
-    if (isOpen && type === menu) {
-      return onClose()
-    }
-
-    setMenu(type)
-    onOpen()
-    return
-  }
-
   let menuDisplay = null
 
   switch(menu) {
@@ -205,12 +200,12 @@ const Navbar = () => {
           <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={() => toggleDrawer('nav')} />
         </Box>
         <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" display="flex" alignItems="center" height="100%" minWidth={{base: "40%", md:"222px"}} borderBottomLeftRadius="3.2px" justifyContent="center" zIndex={menu === 'nav' ? "2000" : "0"}>
-          <ChatIcon color="#fff" marginRight="5px"/>
+          <Image src={Chat} color="#fff" marginRight="5px"/>
           <Text {...navText}>get in touch</Text>
         </Box>
         <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
         <DrawerOverlay />
-        <DrawerContent animation={`${flow} infinite 15s ease`} background={menu === 'nav' ? 'gradient.900' : 'gradient.800'} backgroundSize="600% 600%" >
+        <DrawerContent animation={`${flow} infinite 15s ease`} background={menu === 'nav' ? 'gradient.900' : 'gradient.800'} zIndex="2000" backgroundSize="600% 600%" >
           <DrawerHeader minHeight="100px">
           {menu === 'contact' && <DrawerCloseButton color="#fff" />}
           </DrawerHeader>
