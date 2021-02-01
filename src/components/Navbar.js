@@ -60,8 +60,12 @@ const MainNav = () => (
       <Link as={ReachLink} to="/videos" size="lg" variant="nav">Videos</Link>
     </Box>
     <Box display={{base: "none", lg: "flex"}} alignItems="center" margin="20px 0">
+    <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
       <SVG name="youtube" fill="#fff" />
-      <Box margin="0 15px"><SVG name="linkedin" fill="#fff" /></Box>
+    </Link>
+    <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
+      <SVG name="linkedin" fill="#fff" />
+    </Link>
       <Text color="#fff" fontSize="18px" marginRight="10px">
         ASL &copy;2020
       </Text>
@@ -85,8 +89,12 @@ const MainNav = () => (
     </Box>
   </Box>
   <Box display={{base: "flex", lg: "none"}} alignItems="center" margin={{base: "20px 0", lg: "0"}}>
-    <SVG name="youtube" fill="#fff" />
-    <Box margin="0 15px"><SVG name="linkedin" fill="#fff" /></Box>
+    <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
+      <SVG name="youtube" fill="#fff" />
+    </Link>
+    <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
+      <SVG name="linkedin" fill="#fff" />
+    </Link>
     <Text color="#fff" fontSize="18px" marginRight="10px">
       ASL &copy;2020
     </Text>
