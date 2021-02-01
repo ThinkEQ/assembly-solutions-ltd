@@ -189,7 +189,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
       menuDisplay = null
   }
   return (
-     <Box animation={`${flow} infinite 15s ease`} position={{base: "fixed", md: "absolute"}} top="0" right="0" height="72px" background={isOpen ? "transparent" : "gradient.900"} zIndex={(isOpen && menu === 'contact' )? "0" : "1500"} backgroundSize="600% 600%" borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" alignItems="center">
+     <Box animation={`${flow} infinite 15s ease`} position={{base: "fixed", md: "absolute"}} width={{base:"100%", md: "auto"}} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1500" alignItems="center">
         <Box padding="4" zIndex={menu === 'nav' ? "2000" : "0"}>
         <Link as={ReachLink} to="/">
           <Image src={Logo} alt="asl logo" />
