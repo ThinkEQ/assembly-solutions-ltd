@@ -5,7 +5,7 @@ import React from 'react'
 import { useMediaQuery, Text, Heading, Popover, PopoverTrigger, PopoverContent, PopoverHeader, PopoverBody, Box } from '@chakra-ui/react'
 import PreviewCompatibleImage from '../../PreviewCompatibleImage'
 import SVG from '../../UI/SVG/index'
-import { HTMLContent } from '../../Content'
+import { HTMLContent, MDXWrapper, toHTML } from '../../Content'
 
 const sameWidth = {
     name: "sameWidth",
@@ -32,10 +32,10 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
     const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
     const popperModifier = isLargerThan900 ? sameWidth : sameWidthMob
     return (
-            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"} autoFocus={false}>
+            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"}  autoFocus={false}>
                 <PopoverTrigger>
-                    <Box>
-                        <PreviewCompatibleImage imageInfo={teamImg} />
+                    <Box width="100%">
+                        <PreviewCompatibleImage width="100%" imageInfo={teamImg} />
                         <Text textStyle="p">
                             {name}
                         </Text>
@@ -57,8 +57,10 @@ const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
                     </PopoverHeader>
                     <PopoverBody>
                         <Box display="flex" justifyContent="space-between">
-                            <Box width="80%">
-                                <HTMLContent content={bio} />
+                            <Box width="80%" maxH="60vh" overflow="auto">
+                                <MDXWrapper>
+                                    <HTMLContent content={toHTML(bio)} />
+                                </MDXWrapper>
                             </Box>
                             <Box width="20%">
                             {iconList.length > 0 &&
