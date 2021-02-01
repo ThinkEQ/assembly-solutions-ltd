@@ -63,7 +63,7 @@ const MainNav = () => (
     <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
       <SVG name="youtube" fill="#fff" />
     </Link>
-    <Link href="https://www.linkedin.com/company/assembly-solutions-limited" margin="0 15px" target="_blank" isExternal cursor="pointer">
+    <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
       <SVG name="linkedin" fill="#fff" />
     </Link>
       <Text color="#fff" fontSize="18px" marginRight="10px">
@@ -92,7 +92,7 @@ const MainNav = () => (
     <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
       <SVG name="youtube" fill="#fff" />
     </Link>
-    <Link href="https://www.linkedin.com/company/assembly-solutions-limited" margin="0 15px" target="_blank" isExternal cursor="pointer">
+    <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
       <SVG name="linkedin" fill="#fff" />
     </Link>
     <Text color="#fff" fontSize="18px" marginRight="10px">
