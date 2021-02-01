@@ -52,7 +52,7 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
                     return (
                       <CardVideo 
                         key={index}
-                        imgSrc={`https://img.youtube.com/vi/${video.id}/maxresdefault.jpg`} 
+                        imgSrc={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`} 
                         title={video.name}
                         click={() => triggerModal(video.id)}
                       />
@@ -60,9 +60,10 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
                   })} 
                 </SimpleGrid>
               
-                <Box display="flex" justifyContent="flex-end" padding={{base: "0 10px", md: "0 30px"}}>
-                  <Pagination currentPage={pagination.humanPageNumber} totalPages={pagination.numberOfPages} nextPage={pagination.nextPagePath} />
-                </Box>
+                {pagination.numberOfPages > 1 &&
+                  <Box display="flex" justifyContent="flex-end" padding={{base: "0 10px", md: "0 30px"}}>
+                    <Pagination currentPage={pagination.humanPageNumber} totalPages={pagination.numberOfPages} nextPage={pagination.nextPagePath} />
+                  </Box>}
               </Box>
           </Box>
           <Modal onClose={onClose} size="100%" motionPreset="scale" isOpen={isOpen} isCentered closeOnEsc>

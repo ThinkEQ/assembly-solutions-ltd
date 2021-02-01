@@ -60,8 +60,12 @@ const MainNav = () => (
       <Link as={ReachLink} to="/videos" size="lg" variant="nav">Videos</Link>
     </Box>
     <Box display={{base: "none", lg: "flex"}} alignItems="center" margin="20px 0">
+    <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
       <SVG name="youtube" fill="#fff" />
-      <Box margin="0 15px"><SVG name="linkedin" fill="#fff" /></Box>
+    </Link>
+    <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
+      <SVG name="linkedin" fill="#fff" />
+    </Link>
       <Text color="#fff" fontSize="18px" marginRight="10px">
         ASL &copy;2020
       </Text>
@@ -85,8 +89,12 @@ const MainNav = () => (
     </Box>
   </Box>
   <Box display={{base: "flex", lg: "none"}} alignItems="center" margin={{base: "20px 0", lg: "0"}}>
-    <SVG name="youtube" fill="#fff" />
-    <Box margin="0 15px"><SVG name="linkedin" fill="#fff" /></Box>
+    <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
+      <SVG name="youtube" fill="#fff" />
+    </Link>
+    <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
+      <SVG name="linkedin" fill="#fff" />
+    </Link>
     <Text color="#fff" fontSize="18px" marginRight="10px">
       ASL &copy;2020
     </Text>
@@ -181,7 +189,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
       menuDisplay = null
   }
   return (
-     <Box animation={`${flow} infinite 15s ease`} position={{base: "fixed", md: "absolute"}} top="0" right="0" height="72px" background={isOpen ? "transparent" : "gradient.900"} zIndex={(isOpen && menu === 'contact' )? "0" : "1500"} backgroundSize="600% 600%" borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" alignItems="center">
+     <Box animation={`${flow} infinite 15s ease`} position={{base: "fixed", md: "absolute"}} width={{base:"100%", md: "auto"}} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1500" alignItems="center">
         <Box padding="4" zIndex={menu === 'nav' ? "2000" : "0"}>
         <Link as={ReachLink} to="/">
           <Image src={Logo} alt="asl logo" />

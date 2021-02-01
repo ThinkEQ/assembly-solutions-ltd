@@ -38,7 +38,7 @@ export const ButtonStyles = {
             color: "#fff",
             borderColor: "green.900",
             backfaceVisibility: "hidden",
-            '-webkit-backface-visibility': "hidden",
+            'WebkitBackfaceVisibility': "hidden",
             _hover: {
                 bg: "gradient.900",
                 borderColor: "green.900",
