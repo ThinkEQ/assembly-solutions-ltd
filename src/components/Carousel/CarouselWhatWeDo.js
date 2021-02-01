@@ -10,17 +10,17 @@ import LeftHandle from '../../img/leftHandle.svg'
 import RightHandle from '../../img/rightHandle.svg'
 import stockCable from '../../img/stockWire.jpg'
 
-export const SlideLeft = (props) => {
+export const SlideLeft = ({ onClick }) => {
     return (
-        <Box {...props} cursor="pointer" right={{base: "80px", lg: "initial"}} top={{base: "235px", md: "70%", lg: "initial"}}  height={{base:"45px", lg: "90px"}} width={{base: "45px", lg: "90px"}}  position="absolute">
+        <Box onClick={onClick} cursor="pointer" right={{base: "80px", lg: "initial"}} top={{base: "235px", md: "70%", lg: "initial"}}  height={{base:"45px", lg: "90px"}} width={{base: "45px", lg: "90px"}}  position="absolute">
             <Image src={LeftHandle} alt="left icon" />
         </Box>  
     )
 }
 
-export const SlideRight = (props) => {
+export const SlideRight = ({ onClick }) => {
     return (
-        <Box cursor="pointer" {...props} right="0" top={{base: "235px", md: "70%", lg: "initial"}} height={{base:"45px", lg: "90px"}} width={{base: "45px", lg: "90px"}} position="absolute">
+        <Box cursor="pointer" onClick={onClick} right="0" top={{base: "235px", md: "70%", lg: "initial"}} height={{base:"45px", lg: "90px"}} width={{base: "45px", lg: "90px"}} position="absolute">
             <Image src={RightHandle} alt="right icon" />
         </Box>  
     )
