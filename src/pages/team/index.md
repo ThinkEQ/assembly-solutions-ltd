@@ -140,7 +140,7 @@ team-members:
       \
 
       When customers have kept him busy all week, John looks forward to relaxing with a cold pint of Guinness and watching Manchester City!
-    image: /img/blog-index.jpg
+    image: /img/team10.png
     interests:
       - football
   - name: Michele Barnes
@@ -154,7 +154,7 @@ team-members:
       \
 
       Michele is a devoted grandmother and a real bookworm, so in her free time she loves playing with her granddaughter or reading a good book.
-    image: /img/blog-index.jpg
+    image: /img/team11.png
     interests:
       - reading
   - name: Adam Tunnah
@@ -167,7 +167,7 @@ team-members:
       \
 
       After a busy day at the office, Adam’s way of relaxing is playing a competitive game of COD, and enjoying a KFC Boneless Banquet!
-    image: /img/blog-index.jpg
+    image: /img/2.png
     interests:
       - xbox
 seo:
