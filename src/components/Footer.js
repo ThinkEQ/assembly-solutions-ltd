@@ -1,16 +1,34 @@
 import React from 'react'
 import { Link as ReachLink } from 'gatsby'
+import { Field } from 'formik'
 
 // Load components
-import { Box, Heading, Input, InputGroup, InputRightElement, Text, ListItem, List, Link } from '@chakra-ui/react'
-import Button from '../theme/button'
+import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl } from '@chakra-ui/react'
 import SVG from './UI/SVG/index'
+import FormProvider from './Form/Form'
 
 const para = {
   fontSize: "18px",
   lineHeight: "20px",
   fontFamily: "inherit",
   fontWeight: "400"
+}
+
+const SignUp = ({ isSubmitting, submitForm, ...props }) => {
+ console.log(props, 'poprs')
+  return (
+    <Field name="email">
+    {({ field, form }) => (
+      <FormControl id="email" isInvalid={form.errors.email && form.touched.email}>
+        <InputGroup size="lg">
+          <Input {...field} borderRadius="3px" id="email" color="blue.900" placeholder="name@email.com" borderColor="blue.900" border="none" height={{base: "51px", md:"72px"}} background="#fff" />
+          <InputRightElement width={{base: "110px", md:"175px"}} padding="0" children={<Button variant="solid" size="full" type="submit" onClick={() => submitForm()} isLoading={isSubmitting} loadingText="Submitting" paddingRight={{base: "0", md: "2.5rem"}} paddingLeft={{base: "0", md: "2.5rem"}} whiteSpace="nowrap">Subscribe</Button>} height={{base: "51px", md:"72px"}} background="green.900" fontWeight="bold" borderTopRightRadius="3px" borderBottomRightRadius="3px" />
+        </InputGroup>
+        <FormErrorMessage>{form.errors.email}</FormErrorMessage>
+      </FormControl>
+      )}
+    </Field>
+  )
 }
 
 
@@ -24,11 +42,10 @@ const Footer = ({ toggleDrawer }) => {
 
         <Box display="flex" flexDirection={{base: "column", lg:"row"}} alignItems="flex-start" justifyContent="space-between">
           <Box width={{base: "100%", lg:"48%"}} marginBottom={{base: "30px", lg: "0"}}>
-            <InputGroup size="lg">
-              <Input borderRadius="3px" color="blue.900" placeholder="name@email.com" borderColor="blue.900" border="none" height={{base: "51px", md:"72px"}} background="#fff" />
-              <InputRightElement width={{base: "110px", md:"175px"}} padding="0" children={<Button variant="solid" size="full" paddingRight={{base: "0", md: "2.5rem"}} paddingLeft={{base: "0", md: "2.5rem"}} whiteSpace="nowrap">Subscribe</Button>} height={{base: "51px", md:"72px"}} background="green.900" fontWeight="bold" borderTopRightRadius="3px" borderBottomRightRadius="3px" />
-            </InputGroup>
-            <Box display="flex" alignItems="flex-start" justifyContent="space-between" width={{base: "100%", lg:"80%"}} marginTop="20px">
+            <FormProvider formName="signup" initialValues={{email: ""}}>
+                <SignUp />
+            </FormProvider>
+              <Box display="flex" alignItems="flex-start" justifyContent="space-between" width={{base: "100%", lg:"80%"}} marginTop="20px">
               <Text {...para} fontSize={{base: "14px", lg: "18px"}} >
                 ASL <br/> Newsletter
               </Text>
