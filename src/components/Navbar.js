@@ -85,7 +85,7 @@ const MainNav = () => (
      <Link as={ReachLink} to="/wiring-harness" size="lg" variant="nav">Wiring Harness</Link>
     </Box>
     <Box as="li" display="block">
-    <Link as={ReachLink} to="/control-panel" size="lg" variant="nav">Control Panel</Link>
+    <Link as={ReachLink} to="/control-panels" size="lg" variant="nav">Control Panel</Link>
     </Box>
   </Box>
   <Box display={{base: "flex", lg: "none"}} alignItems="center" margin={{base: "20px 0", lg: "0"}}>
