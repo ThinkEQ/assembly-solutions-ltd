@@ -6,7 +6,7 @@ import { withPrefix } from 'gatsby'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import useSiteMetadata from './SiteMetadata'
-import { ChakraProvider, useDisclosure } from '@chakra-ui/react'
+import { ChakraProvider, useDisclosure, Box } from '@chakra-ui/react'
 
 // Load theme
 import theme from '../theme/index'
@@ -83,13 +83,16 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
       </Helmet>
 
       <ChakraProvider theme={theme}>
+            
             <nav>
               <Navbar menu={menu} toggleDrawer={toggleDrawer} isOpen={isOpen} onClose={onClose} />
             </nav>
-            <main>
+            <Box as="main" minHeight="100vh">
               {children}
-            </main>
-            <Footer toggleDrawer={toggleDrawer}  />
+            </Box>
+            <Box as="footer">
+              <Footer toggleDrawer={toggleDrawer}  />
+            </Box>
       </ChakraProvider>
     </Fragment>
   )
