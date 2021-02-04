@@ -16,6 +16,9 @@ import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerO
 
 // Load asset
 import Icon from '../components/UI/SVG/index'
+import teamTablet from '../img/about-bg.png'
+import teamDesktop from '../img/about-imageAlt.jpg'
+import teamMobile from '../img/mobile-team.png'
 import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
 import homvidmp from '../videos/HOMEPAGEMP4.mp4'
 import '../components/UI/SVG/styles.css'
@@ -33,13 +36,17 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => {
-
+  
+  const mobile = `linear-gradient(184.08deg, rgba(9,21,64, 0.6), 100%, rgba(255,255,255,1), #091540 100%), url(${teamMobile})`
+  const tablet = `linear-gradient(270deg, rgba(36,155,171,0) 0%, rgba(36,155,171,0) 31.24%, #249BAB 90%), url(${teamTablet})`
+  const dekstop = `url(${teamDesktop})`
+ 
 return (
     <Fragment>
-      <Box as="header" minHeight={{base: "100vh", md:"700px"}} height="100%" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
-        <Box position="absolute" top="0" left="0" width="100%" height="100%" zIndex="-1" >
+      <Box as="header" minHeight={{base: "100vh", md:"700px", xl: "900px"}} maxHeight="900px" height="100%" overflow="hidden" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
+        <Box position="absolute" top="0" left="0" width="100%" height="100%" overflow="hidden" zIndex="-1">
           <AspectRatio ratio={{base: 9 / 16, lg: 4 / 3}} >
-            <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" objectFit="cover">
+            <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" overflow="hidden" maxHeight="900px" objectFit="cover">
               <source src={homvidwm} type="video/webm"></source>
               <source src={homvidmp} type="video/mp4"></source>
             </Box>
@@ -58,7 +65,7 @@ return (
                 <Box display="flex" justifyContent="space-between" width="100%">
                   <Button variant="solid">Watch Full Video</Button>
                 </Box>
-                <Box position="absolute" bottom={{base: "90px", md: "50px"}} right={{base: "15px", md: "50px"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
+                <Box position="absolute" bottom={{base: "90px", md: "50px"}} right={{base: "15px", md: "10%"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
                   <ReactScroll>
                     <Icon name="downArrow" />
                   </ReactScroll>  
@@ -71,18 +78,16 @@ return (
           <CarouselWhatWeDo />
         </Box>
       </Box>
-      <Box as="section" textStyle="section">
-        <Box textStyle="container">
+      <Box as="section" >
           <BannerOurCustomers />
-        </Box>
       </Box>
-      <Box as="section" textStyle="section" background="gradient.700" height="700px" width="100%" position="relative">
+      <Box as="section" textStyle="section" backgroundImage={{base: mobile, md: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height={{base: "400px", md: "700px"}} width="100%" position="relative">
           <Box textStyle="container" height="100%">
               <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
-                <Heading textStyle="h2">
+                <Heading textStyle="h2" color={{base: "#fff", md: "inherit"}}>
                   Meet the ASL team
                 </Heading>
-                <Text textStyle="p" marginBottom={12} maxW={{base: "100%", lg:"70%"}}>
+                <Text textStyle="p" marginBottom={12} color={{base: "#fff", md: "inherit"}} maxW={{base: "100%", lg:"70%"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
                 <Button variant="outline" maxWidth="200px" onClick={() => navigate('/team')}>Learn more</Button> 

@@ -46,7 +46,7 @@ const SlideItems = ({ title, data = [] }) => {
                     </Heading>
                 </Box>
             </Box>
-            <Box textStyle="section" marginTop={{base: "-28px", lg: "-60px"}} marginLeft={{base: "0px", lg:"80px", xl: "16.5%"}}>
+            <Box textStyle="section" marginTop={{base: "-28px", lg: "-60px"}} marginLeft={{base: "0px", lg:"80px", xl: "80px"}}>
                 <Draggable
                 nodeRef={nodeRef}
                 axis="x"
