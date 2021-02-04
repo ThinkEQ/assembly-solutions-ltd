@@ -1,7 +1,14 @@
 import React from 'react'
+import { navigate } from 'gatsby'
 import { Formik, Form } from 'formik'
 
-const FormProvider = ({ formName = 'contact', initialValues = {}, children }) => {
+const FormProvider = ({ formName = 'contact', initialValues = {}, children, setRules = [] }) => {
+
+    function encode(data) {
+      return Object.keys(data)
+        .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+        .join('&')
+    }
     return (
         <Formik
        initialValues={{...initialValues}}
@@ -14,16 +21,16 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children }) =>
          ) {
            errors.email = 'Invalid email address';
          } 
-         if(!values.firstName) {
+         if(!values.firstName && setRules.includes('firstName')) {
              errors.firstName = 'Required'
          }
-         if(!values.lastName) {
+         if(!values.lastName && setRules.includes('lastName')) {
             errors.lastName = 'Required'
         }
-        if(!values.enquiry) {
+        if(!values.enquiry && setRules.includes('enquiry')) {
             errors.enquiry= 'Required'
         }
-    
+  
          return errors;
        }}
        onSubmit={(values, { setSubmitting }) => {
@@ -31,16 +38,20 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children }) =>
             fetch('/', {
                 method: 'POST',
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: new URLSearchParams(values).toString()
-              }).then((res) => console.log(res, 'Form successfully submitted')).catch((error) => console.log(error, 'error'))
+                //body: new URLSearchParams(values).toString()
+                body: encode({
+                  'form-name': formName,
+                  ...values,
+                }),
+              }).then(() => navigate('/contact/thanks')).catch((error) => console.log(error, 'error'))
            
               setSubmitting(false);
          }, 1000);
        }}
      >
-       {({ isSubmitting, submitForm, ...props}) => {
+       {({ isSubmitting }) => {
         const cloneChildren = React.Children.map(children, child => 
-            React.cloneElement(child, {isSubmitting, submitForm, props}))
+            React.cloneElement(child, { isSubmitting }))
         return (
             <Form name={formName} method="POST" style={{width: "100%"}} data-netlify="true">
                 <input type="hidden" name="form-name" value={formName} />

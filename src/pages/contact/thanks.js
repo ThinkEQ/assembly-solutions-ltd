@@ -1,15 +1,21 @@
 import React from 'react'
 import Layout from '../../components/Layout'
+import { Box, Heading, Text } from '@chakra-ui/react'
 
 export default () => (
   <Layout>
-    <section className="section">
-      <div className="container">
-        <div className="content">
-          <h1>Thank you!</h1>
-          <p>This is a custom thank you page for form submissions</p>
-        </div>
-      </div>
-    </section>
+    <Box as="header" paddingTop={{base: "100px", lg:"50px"}}>
+      <Box textStyle="section">
+          <Box textStyle="container">
+              <Text textStyle="p" marginBottom="20px" fontWeight="bold" fontSize="22px">
+                Thank you
+              </Text>
+              <Heading as="h1" textStyle="h1" maxWidth={{base: "100%", xl:"90%"}}  marginBottom="40px">
+               Thank you for your message, one of our team will be in touch shortly to follow up. If you need
+               to speak to us sooner please call us on <br/>01204 52199
+            </Heading>
+          </Box>
+      </Box>
+    </Box>
   </Layout>
 )
