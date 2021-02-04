@@ -1,8 +1,11 @@
 ---
 templateKey: news-article
-title: "ASL Celebrate 25 Years in Business "
+title: ASL Celebrate 25 Years in Business
 date: 2021-01-15T09:07:01.381Z
-image: /img/e4016bcb-589f-4b0d-9a77-57ef43858016.jpeg
+image: /img/20200623_152755.jpg
+seo:
+  title: "ASL Celebrate 25 Years in Business "
+  description: "ASL Celebrate 25 Years in Business "
 layout:
   - type: column
     column:

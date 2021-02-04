@@ -2,7 +2,12 @@
 templateKey: news-article
 title: How we’ve coped through COVID and the surprising opportunities it has given us
 date: 2021-01-15T09:11:24.756Z
-image: /img/e4016bcb-589f-4b0d-9a77-57ef43858016.jpeg
+image: /img/asl-47.png
+seo:
+  title: How we’ve coped through COVID and the surprising opportunities it has
+    given us
+  description: How we’ve coped through COVID and the surprising opportunities it
+    has given us
 layout:
   - type: full
     full:

@@ -11,7 +11,10 @@ testimonial:
     of ASL over the last 20 years, I have to pay tribute to the wonderful team I
     have around me for all the support they have given me over the years. They
     truly are amazing”.
-image: /img/blog-index.jpg
+image: /img/img_8969.jpg
+seo:
+  title: Production Manager Damien reaches a record of 20 years service with ASL
+  description: Production Manager Damien reaches a record of 20 years service with ASL
 ---
 We are delighted to announce, our Production Manager Damien Walsh has reached a record of 20 years’ service with ASL. 
 
