@@ -30,12 +30,13 @@ const sameWidthMob = {
 
 const TeamCard = ({ teamImg, name, jobTitle, bio, linkedIn, iconList}) => {
     const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
+    const [isLargerThan480] = useMediaQuery("(min-width: 900px)")
     const popperModifier = isLargerThan900 ? sameWidth : sameWidthMob
     return (
-            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"}  autoFocus={false}>
+            <Popover modifiers={popperModifier} placement="auto-start" trigger={isLargerThan900 ? "hover" : "click"} autoFocus={false}>
                 <PopoverTrigger>
                     <Box width="100%">
-                        <PreviewCompatibleImage width="100%" imageInfo={teamImg} />
+                        <PreviewCompatibleImage width="100%" height={isLargerThan480 ? "262px" : "293px"} maxHeight="293px" maxWidth={isLargerThan480 ? "292px" : "100%"} imageInfo={teamImg} />
                         <Text textStyle="p" fontWeight="bold">
                             {name}
                         </Text>

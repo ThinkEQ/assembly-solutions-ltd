@@ -30,17 +30,17 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
       </Box>
       <Box as="section" textStyle="section">
         <Box textStyle="container" >
-          <SimpleGrid minChildWidth={{base: "220px",  lg: "23%"}} position="relative" spacing="20px" >
+          <SimpleGrid minChildWidth={{base: "220px",  xl: "23%"}}  position="relative" spacing="20px" >
               {teamMembers.length > 0 && 
                 teamMembers.map((team) => {
                   return (
-                  <TeamCard 
-                  teamImg={team.image} 
-                  name={team.name} 
-                  jobTitle={team.jobtitle} 
-                  bio={team.bio} 
-                  linkedIn={team.linkedin} 
-                  iconList={team.interests}  />
+                        <TeamCard 
+                      teamImg={team.image} 
+                      name={team.name} 
+                      jobTitle={team.jobtitle} 
+                      bio={team.bio} 
+                      linkedIn={team.linkedin} 
+                      iconList={team.interests}  />
                   )
                 })}
             </SimpleGrid>
@@ -100,7 +100,7 @@ export const teamPageQuery = graphql`
           name
           image {
             childImageSharp {
-              fluid(maxHeight: 263, maxWidth: 400, quality: 80) {
+              fluid(maxHeight: 263, maxWidth: 292, quality: 80) {
                 ...GatsbyImageSharpFluid
                 presentationHeight
                 presentationWidth
