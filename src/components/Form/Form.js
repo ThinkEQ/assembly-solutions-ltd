@@ -2,7 +2,7 @@ import React from 'react'
 import { navigate } from 'gatsby'
 import { Formik, Form } from 'formik'
 
-const FormProvider = ({ formName = 'contact', initialValues = {}, children, setRules = [] }) => {
+const FormProvider = ({ formName = 'contact', initialValues = {}, children, url = '', setRules = [] }) => {
 
     function encode(data) {
       return Object.keys(data)
@@ -34,6 +34,7 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, setR
          return errors;
        }}
        onSubmit={(values, { setSubmitting }) => {
+
          setTimeout(() => {
             fetch('/', {
                 method: 'POST',
@@ -43,7 +44,7 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, setR
                   'form-name': formName,
                   ...values,
                 }),
-              }).then(() => navigate('/contact/thanks')).catch((error) => console.log(error, 'error'))
+              }).then(() => navigate(url)).catch((error) => console.log(error, 'error'))
            
               setSubmitting(false);
          }, 1000);

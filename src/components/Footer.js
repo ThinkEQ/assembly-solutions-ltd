@@ -41,7 +41,7 @@ const Footer = ({ toggleDrawer }) => {
 
         <Box display="flex" flexDirection={{base: "column", lg:"row"}} alignItems="flex-start" justifyContent="space-between">
           <Box width={{base: "100%", lg:"48%"}} marginBottom={{base: "30px", lg: "0"}}>
-            <FormProvider formName="signup" initialValues={{email: ""}}>
+            <FormProvider url="/subscribed" formName="signup" initialValues={{email: ""}}>
                 <SignUp />
             </FormProvider>
               <Box display="flex" alignItems="flex-start" justifyContent="space-between" width={{base: "100%", lg:"80%"}} marginTop="20px">

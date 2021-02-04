@@ -202,7 +202,7 @@ const ContactUs = () => {
         </Box>
       </Box> 
       <Box marginTop="30px" paddingLeft={{base: "0", lg:"20px"}}>
-        <FormProvider formName="contact" initialValues={{firstName: "", lastName: "", telephone: "", email: "", enquiry: ""}} setRules={['firstName', 'lastName', 'enquiry']}>
+        <FormProvider url="/contact/thanks" formName="contact" initialValues={{firstName: "", lastName: "", telephone: "", email: "", enquiry: ""}} setRules={['firstName', 'lastName', 'enquiry']}>
           <ContactForm  />
         </FormProvider>
       </Box>
