@@ -82,7 +82,7 @@ const CarouselWhatWeDo = () => {
                 <ProductSlide
                 heading="Control Panels"
                 text="Control Panels assembled in low and high volume by skilled and experienced panel wiring builders."
-                btnLink="/control-panel"
+                btnLink="/control-panels"
                 imgSrc={control}/>
             </Carousel>
         </Fragment>
