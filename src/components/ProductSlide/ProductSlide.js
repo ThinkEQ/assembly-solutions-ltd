@@ -16,8 +16,8 @@ const ProductSlide = ({ heading, text, btnLink, imgSrc, imgAlt }) => {
                 </Text>
                 <Button onClick={() => navigate(btnLink)}>Learn More</Button> 
             </Box>
-            <Box display="flex" justifyContent="center" alignItems="flex-start" width={{base:"100%", lg:"40%"}}>
-                <Image src={imgSrc} alt={imgAlt} draggable={false} borderRadius="8px" />
+            <Box display="flex" justifyContent="center" alignItems="flex-start" maxHeight="450px" width={{base:"100%", lg:"50%"}} maxW={{base: "100%", lg: "553px"}}>
+                <Image src={imgSrc} alt={imgAlt} draggable={false} height={{base: "250px", md:"450px"}} width="100%" objectFit="cover"  borderRadius="8px" />
             </Box>
         </Box>
     )

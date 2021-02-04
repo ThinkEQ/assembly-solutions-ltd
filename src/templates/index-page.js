@@ -43,10 +43,10 @@ export const IndexPageTemplate = ({
  
 return (
     <Fragment>
-      <Box as="header" minHeight={{base: "100vh", md:"700px"}} height="100%" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
-        <Box position="absolute" top="0" left="0" width="100%" height="100%" zIndex="-1" >
+      <Box as="header" minHeight={{base: "100vh", md:"700px", xl: "900px"}} maxHeight="900px" height="100%" overflow="hidden" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
+        <Box position="absolute" top="0" left="0" width="100%" height="100%" overflow="hidden" zIndex="-1">
           <AspectRatio ratio={{base: 9 / 16, lg: 4 / 3}} >
-            <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" objectFit="cover">
+            <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" overflow="hidden" maxHeight="900px" objectFit="cover">
               <source src={homvidwm} type="video/webm"></source>
               <source src={homvidmp} type="video/mp4"></source>
             </Box>
@@ -65,7 +65,7 @@ return (
                 <Box display="flex" justifyContent="space-between" width="100%">
                   <Button variant="solid">Watch Full Video</Button>
                 </Box>
-                <Box position="absolute" bottom={{base: "90px", md: "50px"}} right={{base: "15px", md: "50px"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
+                <Box position="absolute" bottom={{base: "90px", md: "50px"}} right={{base: "15px", md: "10%"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
                   <ReactScroll>
                     <Icon name="downArrow" />
                   </ReactScroll>  
