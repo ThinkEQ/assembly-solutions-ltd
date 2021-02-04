@@ -30,7 +30,7 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
       </Box>
       <Box as="section" textStyle="section">
         <Box textStyle="container" >
-          <SimpleGrid minChildWidth={{base: "220px",  xl: "290px"}}  position="relative" spacing="20px" >
+          <SimpleGrid minChildWidth={{base: "220px",  xl: "23%"}}  position="relative" spacing="20px" >
               {teamMembers.length > 0 && 
                 teamMembers.map((team) => {
                   return (
