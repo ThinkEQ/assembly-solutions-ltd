@@ -32,7 +32,7 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, url 
             errors.enquiry= 'Required'
         }
 
-        if(!values.telephone.match(numbers) && setRules.includes('telephone')) {
+        if(values.telephone.length > 0 && !values.telephone.match(numbers) && setRules.includes('telephone')) {
           errors.telephone = 'Numbers only'
         }
   
