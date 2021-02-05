@@ -48,6 +48,14 @@ export const ButtonStyles = {
             _active: {
                 bg: "gradient.500",
                 borderColor: "green.900",
+            },
+            disabled: {
+                _hover: {
+                    bg: "gradient.900",
+                    borderColor: "green.900",
+                    backgroundSize: "600% 600%",
+                    animation: `${flow} infinite 10s ease`
+                }
             }
         },
         gradient: {

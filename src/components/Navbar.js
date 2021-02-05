@@ -1,16 +1,18 @@
 import React from 'react'
 import { Link as ReachLink } from 'gatsby'
+import { Field } from 'formik'
 
 // Load assets
 import Logo from '../img/logo.svg'
 
 // Load components
-import { keyframes, Heading, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormLabel, Input, Textarea } from '@chakra-ui/react'
+import { keyframes, Heading, Button, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from '@chakra-ui/react'
 import Hamburger from './UI/Hamburger/Hamburger'
-import Button from '../theme/button'
+//import Button from '../theme/button'
 import SVG from '../components/UI/SVG/index'
 import Chat from '../img/svg/chat.svg'
 import GMap from '../components/Map/Map'
+import FormProvider from './Form/Form'
 
 const navText = {
   fontSize: "16px",
@@ -33,6 +35,61 @@ const flow = keyframes `
   50%{background-position: 100% 50%}
   100%{background-position: 0% 50%}
 `
+
+const ContactForm = ({ isSubmitting }) => {
+  return (
+    <Box spacing="4" display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}} flexWrap={{base: "nowrap", lg: "wrap" }}>
+    <Field name="firstName">
+      {({ field, form }) => (
+        <FormControl id="firstName" color="#fff" width={{base: "100%", lg:"48%"}} isInvalid={form.errors.firstName && form.touched.firstName} marginBottom="6">
+          <FormLabel fontSize="18px" htmlFor="firstName" fontWeight="bold">First name</FormLabel>
+          <Input {...field} id="firstName" name="firstName" type="text" focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
+          <FormErrorMessage>{form.errors.firstName}</FormErrorMessage>
+        </FormControl>
+      )}
+      </Field>
+      <Field name="lastName">
+      {({ field, form }) => (
+        <FormControl color="#fff" id="lastName" width={{base: "100%", lg:"48%"}} isInvalid={form.errors.lastName && form.touched.lastName} marginBottom="6">
+          <FormLabel htmlFor="lastName" fontSize="18px" fontWeight="bold">Last name</FormLabel>
+          <Input {...field} id="lastName" name="lastName" type="text" focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
+          <FormErrorMessage>{form.errors.lastName}</FormErrorMessage>
+        </FormControl>
+      )}
+    </Field>
+    <Field name="telephone">
+      {({ field, form }) => (
+        <FormControl id="telephone" color="#fff" width={{base: "100%", lg:"48%"}} marginBottom="6" isInvalid={form.errors.telephone && form.touched.telephone}>
+          <FormLabel htmlFor="telephone" fontSize="18px" fontWeight="bold">Telephone number</FormLabel>
+          <Input {...field} id="telephone" name="telephone" type="tel" pattern focusBorderColor="green.900" type="tel" size="lg" height="67px" display="inline-block" />
+          <FormErrorMessage>{form.errors.telephone}</FormErrorMessage>
+        </FormControl>
+      )}
+    </Field>
+    <Field name="email">
+      {({ field, form }) => (
+        <FormControl id="eamil" color="#fff" width={{base: "100%", lg:"48%"}} isInvalid={form.errors.email && form.touched.email} marginBottom="6">
+          <FormLabel htmlFor="email" fontSize="18px" fontWeight="bold">Email address</FormLabel>
+          <Input {...field} id="email" name="email" focusBorderColor="green.900" type="email" size="lg" height="67px" display="inline-block" />
+          <FormErrorMessage>{form.errors.email}</FormErrorMessage>
+        </FormControl>
+      )}
+    </Field>
+    <Field name="enquiry" >
+      {({ field, form }) => (
+        <FormControl id="enquiry" color="#fff" isInvalid={form.errors.enquiry && form.touched.enquiry}>
+          <FormLabel fontSize="18px" htmlFor="enquiry" fontWeight="bold">Enquiry</FormLabel>
+          <Textarea {...field} name="enquiry" focusBorderColor="green.900" size="lg" minH="250px" color="#fff" />
+          <FormErrorMessage>{form.errors.enquiry}</FormErrorMessage>
+        </FormControl>
+      )}
+    </Field>
+    <Box display="flex" justifyContent="flex-end" width="100%" padding="10px 0" paddingBottom={{base: "100px", md: "10px"}}>
+      <Button type="submit" variant="solid" isLoading={isSubmitting} loadingText="Submitting"  width={{base: "100%", lg: "300px"}}>Submit</Button>
+    </Box>
+  </Box>
+  )
+}
 
 
 const MainNav = () => (
@@ -103,6 +160,7 @@ const MainNav = () => (
 )
 
 const ContactUs = () => {
+  
   return (
     <Box>
       <Box display="flex" justifyContent="space-between" paddingLeft={{base: "0", lg: "20px"}} flexDirection={{base: "column", lg: "row"}}>
@@ -142,33 +200,11 @@ const ContactUs = () => {
         <Box display="flex" maxHeight="550px" height={{base: "auto", lg:"500px"}}  marginTop="20px" width={{base: "100%", lg:"60%"}} alignItems="center" >
           <GMap />
         </Box>
-      </Box>
+      </Box> 
       <Box marginTop="30px" paddingLeft={{base: "0", lg:"20px"}}>
-        <Box spacing="4" display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}} flexWrap={{base: "nowrap", lg: "wrap" }}>
-            <FormControl id="firstName" act color="#fff" width={{base: "100%", lg:"48%"}} marginBottom="6">
-            <FormLabel fontSize="18px" fontWeight="bold">First name</FormLabel>
-            <Input focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
-          </FormControl>
-          <FormControl color="#fff" width={{base: "100%", lg:"48%"}} marginBottom="6">
-            <FormLabel fontSize="18px" fontWeight="bold">Last name</FormLabel>
-            <Input focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
-          </FormControl>
-          <FormControl id="Telephone" color="#fff" width={{base: "100%", lg:"48%"}} marginBottom="6">
-            <FormLabel fontSize="18px" fontWeight="bold">Telephone number</FormLabel>
-            <Input focusBorderColor="green.900" type="tel" size="lg" height="67px" display="inline-block" />
-          </FormControl>
-          <FormControl id="eamil" color="#fff" width={{base: "100%", lg:"48%"}} marginBottom="6">
-            <FormLabel fontSize="18px" fontWeight="bold">Email address</FormLabel>
-            <Input focusBorderColor="green.900" type="email" size="lg" height="67px" display="inline-block" />
-          </FormControl>
-          <FormControl id="enquiry" color="#fff">
-            <FormLabel fontSize="18px" fontWeight="bold">Enquiry</FormLabel>
-            <Textarea focusBorderColor="green.900" size="lg" minH="250px" color="#fff" />
-          </FormControl>
-          <Box display="flex" justifyContent="flex-end" width="100%" padding="10px 0" paddingBottom={{base: "100px", md: "10px"}}>
-            <Button type="submit" variant="solid" width={{base: "100%", lg: "300px"}}>Submit</Button>
-          </Box>
-        </Box>
+        <FormProvider url="/contact/thanks" formName="contact" initialValues={{firstName: "", lastName: "", telephone: "", email: "", enquiry: ""}} setRules={['firstName', 'lastName', 'enquiry', 'telephone']}>
+          <ContactForm  />
+        </FormProvider>
       </Box>
   </Box>
   )
@@ -177,7 +213,7 @@ const ContactUs = () => {
 const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
   
   let menuDisplay = null
-
+  
   switch(menu) {
     case 'nav':
       menuDisplay = <MainNav />
