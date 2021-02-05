@@ -1,6 +1,6 @@
 import React from 'react'
 import { navigate } from 'gatsby'
-import { Formik, Form } from 'formik'
+import { Formik, Form, Field } from 'formik'
 
 const FormProvider = ({ formName = 'contact', initialValues = {}, children, url = '', setRules = [] }) => {
 
@@ -54,7 +54,7 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, url 
         const cloneChildren = React.Children.map(children, child => 
             React.cloneElement(child, { isSubmitting }))
         return (
-            <Form name={formName} method="POST" style={{width: "100%"}} data-netlify="true" data-netlify-honeypot="bot-field">
+            <Form name={formName} method="POST" style={{width: "100%"}} data-netlify={true} data-netlify-honeypot="bot-field">
                 <input type="hidden" name="form-name" value={formName} />
                 {cloneChildren}
             </Form>
