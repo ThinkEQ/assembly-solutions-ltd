@@ -43,7 +43,7 @@ const ContactForm = ({ isSubmitting }) => {
       {({ field, form }) => (
         <FormControl id="firstName" color="#fff" width={{base: "100%", lg:"48%"}} isInvalid={form.errors.firstName && form.touched.firstName} marginBottom="6">
           <FormLabel fontSize="18px" htmlFor="firstName" fontWeight="bold">First name</FormLabel>
-          <Input {...field} id="firstName" name="firstName" focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
+          <Input {...field} id="firstName" name="firstName" type="text" focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
           <FormErrorMessage>{form.errors.firstName}</FormErrorMessage>
         </FormControl>
       )}
@@ -52,17 +52,17 @@ const ContactForm = ({ isSubmitting }) => {
       {({ field, form }) => (
         <FormControl color="#fff" id="lastName" width={{base: "100%", lg:"48%"}} isInvalid={form.errors.lastName && form.touched.lastName} marginBottom="6">
           <FormLabel htmlFor="lastName" fontSize="18px" fontWeight="bold">Last name</FormLabel>
-          <Input {...field} id="lastName" name="lastName" focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
+          <Input {...field} id="lastName" name="lastName" type="text" focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
           <FormErrorMessage>{form.errors.lastName}</FormErrorMessage>
         </FormControl>
       )}
     </Field>
     <Field name="telephone">
-      {({ field }) => (
-        <FormControl id="telephone" color="#fff" width={{base: "100%", lg:"48%"}} marginBottom="6">
+      {({ field, form }) => (
+        <FormControl id="telephone" color="#fff" width={{base: "100%", lg:"48%"}} marginBottom="6" isInvalid={form.errors.telephone && form.touched.telephone}>
           <FormLabel htmlFor="telephone" fontSize="18px" fontWeight="bold">Telephone number</FormLabel>
-          <Input {...field} id="telephone" name="telephone" focusBorderColor="green.900" type="tel" size="lg" height="67px" display="inline-block" />
-
+          <Input {...field} id="telephone" name="telephone" type="tel" pattern focusBorderColor="green.900" type="tel" size="lg" height="67px" display="inline-block" />
+          <FormErrorMessage>{form.errors.telephone}</FormErrorMessage>
         </FormControl>
       )}
     </Field>
@@ -202,7 +202,7 @@ const ContactUs = () => {
         </Box>
       </Box> 
       <Box marginTop="30px" paddingLeft={{base: "0", lg:"20px"}}>
-        <FormProvider url="/contact/thanks" formName="contact" initialValues={{firstName: "", lastName: "", telephone: "", email: "", enquiry: ""}} setRules={['firstName', 'lastName', 'enquiry']}>
+        <FormProvider url="/contact/thanks" formName="contact" initialValues={{firstName: "", lastName: "", telephone: "", email: "", enquiry: ""}} setRules={['firstName', 'lastName', 'enquiry', 'telephone']}>
           <ContactForm  />
         </FormProvider>
       </Box>

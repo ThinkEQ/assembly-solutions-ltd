@@ -14,6 +14,7 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, url 
        initialValues={{...initialValues}}
        validate={values => {
          const errors = {};
+         const numbers = /^[0-9]+$/
          if (!values.email) {
            errors.email = 'Required';
          } else if (
@@ -29,6 +30,10 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, url 
         }
         if(!values.enquiry && setRules.includes('enquiry')) {
             errors.enquiry= 'Required'
+        }
+
+        if(!values.telephone.match(numbers) && setRules.includes('telephone')) {
+          errors.telephone = 'Numbers only'
         }
   
          return errors;
