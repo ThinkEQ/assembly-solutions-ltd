@@ -82,6 +82,27 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
         />
       </Helmet>
 
+      <form
+        hidden
+        name="contact"
+        data-netlify="true"
+        netlify-honeypot="bot-field"
+      >
+        <input type="text" name="firstName" />
+        <input type="text" name="lastName" />
+        <input type="email" name="email" />
+        <input type="tel" name="telephone" />
+        <input type="textarea" name="enquiry" />
+      </form>
+      <form
+      hidden
+      name="signup"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+    >
+      <input type="email" name="email" />
+    </form>
+
       <ChakraProvider theme={theme}>
             
             <nav>
