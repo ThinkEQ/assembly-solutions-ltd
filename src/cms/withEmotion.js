@@ -3,6 +3,7 @@ import { CacheProvider } from "@emotion/core";
 import createCache from "@emotion/cache";
 import weakMemoize from "@emotion/weak-memoize";
 import { ChakraProvider } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 import theme from '../theme/index'
 
 const memoizedCreateCacheWithContainer = weakMemoize(container => {
@@ -14,11 +15,14 @@ const memoizedCreateCacheWithContainer = weakMemoize(container => {
 const withEmotion =  Component => props => {
     const iframe = document.querySelector("#nc-root iframe");
     const iframeHeadElem = iframe && iframe.contentDocument.head;
+   
 
     if (!iframeHeadElem) {
         return null;
     }
 
+    const rootHeight = document.querySelector("#nc-root")
+    rootHeight.style.height = "100vh"
     const styles = document.querySelectorAll("html>head>style");
     let i;
     for (i = 0; i < styles.length; ++i) {
@@ -29,12 +33,9 @@ const withEmotion =  Component => props => {
     return (
          <ChakraProvider theme={theme}>
            <CacheProvider value={memoizedCreateCacheWithContainer(iframeHeadElem)}>
-           
                 <Component {...props} />
-           
             </CacheProvider>
          </ChakraProvider>
-      
     );
 };
 

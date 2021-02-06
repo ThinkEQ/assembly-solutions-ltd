@@ -11,5 +11,4 @@ CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
 //CMS.registerPreviewTemplate('index', withEmotion(IndexPagePreview))
 CMS.registerPreviewTemplate('about', withEmotion(AboutPagePreview))
-
   
