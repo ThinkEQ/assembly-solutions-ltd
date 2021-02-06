@@ -16,7 +16,7 @@ export const ProjectIndexTemplate = ({ data, pagination }) => {
                 Projects
               </Text>
 
-              <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
+              <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
                 Have a browse through the diverse range of Projects that we have recently enjoyed working on
               </Heading>
             </Box>

@@ -27,7 +27,7 @@ export const ProductPageTemplate = ({ title, mainContent, contentComponent, subt
                 {title}
               </Text>
               <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} marginBottom={{base: "20px", lg: "0"}}>
-                  <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
+                  <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"65%"}} marginBottom="40px">
                     {subtitle}
                   </Heading>
                   <List spacing="6">

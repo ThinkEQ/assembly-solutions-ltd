@@ -37,7 +37,7 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
                   <Text textStyle="p" marginBottom="20px" fontSize="22px">
                     Videos
                   </Text>
-                  <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
+                  <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
                     Watch our videos to see where the magic happens and to learn more about our processes and products
                   </Heading>
                 </Box>

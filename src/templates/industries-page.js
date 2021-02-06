@@ -48,7 +48,7 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
                 {title}
               </Text>
               <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>
-                <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
+                <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"62%"}} marginBottom="40px">
                     {subtitle}
                 </Heading>
                 <Text textStyle="p" width={{base: "100%", lg:"35%"}}>

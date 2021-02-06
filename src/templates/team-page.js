@@ -21,7 +21,7 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
               <Text textStyle="p" marginBottom="20px" fontSize="22px">
                 {title}
               </Text>
-              <Heading as="h1" textStyle="h1" maxWidth={{base: "100%", lg: "80%"}}>
+              <Heading as="h1" textStyle="h2" maxWidth={{base: "100%", lg: "80%"}}>
                 We have built a team on the foundation of family values and all share the passion of delivering a quality service
               </Heading>
           </Box>
