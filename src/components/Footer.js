@@ -11,7 +11,7 @@ const para = {
   fontSize: "18px",
   lineHeight: "20px",
   fontFamily: "inherit",
-  fontWeight: "400"
+  fontWeight: "600"
 }
 
 const SignUp = ({ isSubmitting }) => {
@@ -35,7 +35,7 @@ const Footer = ({ toggleDrawer }) => {
   return(
     <Box background="blue.900" color="#fff" textStyle="section">
       <Box textStyle="container">
-        <Heading fontFamily="30px" lineHeight="36px" fontWeight="400" marginBottom="20px">
+        <Heading fontSize="30px" lineHeight="36px" fontWeight="600" marginBottom="30px">
           Stay Connected
         </Heading>
 
@@ -120,7 +120,7 @@ const Footer = ({ toggleDrawer }) => {
           </Box>
         </Box>
 
-        <Box display="flex" flexDirection={{base: "column", lg: "row"}} alignItems={{base: "flex-start", lg:"center"}} justifyContent="space-between" marginTop="30px">
+        <Box display="flex" flexDirection={{base: "column", lg: "row"}} alignItems={{base: "flex-start", lg:"center"}} justifyContent="space-between" marginTop={{base: "50px", lg: "70px"}}>
           <Box display="flex" alignItems="flex-start" justifyContent="space-between" width="125px" marginBottom={{base: "30px", lg: "0"}}>
             <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
               <SVG name="youtube" />
@@ -147,7 +147,7 @@ const Footer = ({ toggleDrawer }) => {
             <Text fontSize="14px" lineHeight="17px" marginBottom={{base: "20px", lg: "0"}}>
               Assembly Solutions Ltd is registered in England  under registration number 3131352.
             </Text>
-            <Text {...para} textAlign={{base: "left", lg:"right"}}>
+            <Text {...para} textAlign={{base: "left", lg:"right"}} fontWeight="bold" marginTop="10px">
               ASL &copy;2020
             </Text>
           </Box>

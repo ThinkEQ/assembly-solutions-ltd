@@ -15,7 +15,6 @@ import './styles.scss'
 SwipeCore.use([Scrollbar, A11y])
 
 const SwipeContainer = ({ data, title }) => {
-    const [isLargerthan1600] = useMediaQuery("(min-width: 1600px)")
     const [isLargerThan767] = useMediaQuery("(min-width: 767px)")
     
     return (
