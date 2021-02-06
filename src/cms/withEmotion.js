@@ -3,7 +3,6 @@ import { CacheProvider } from "@emotion/core";
 import createCache from "@emotion/cache";
 import weakMemoize from "@emotion/weak-memoize";
 import { ChakraProvider } from '@chakra-ui/react'
-import { Box } from '@chakra-ui/react'
 import theme from '../theme/index'
 
 const memoizedCreateCacheWithContainer = weakMemoize(container => {
