@@ -49,7 +49,7 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
             </Box>
         </Box>
       </Box>
-      <Box textStyle="section" as="section" minHeight="700px" background="neutral.900">
+      <Box textStyle="section" as="section" minHeight={{base: "600px", lg:"800px"}} background="gradient.50">
         <Box textStyle="container" position="relative">
           <CarouselWhatWeDo />
         </Box>

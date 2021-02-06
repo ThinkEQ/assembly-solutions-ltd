@@ -89,7 +89,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
           </Button>
         </Box>
       </Box>
-      <Box textStyle="section" as="section" minHeight="700px" position="relative" background="neutral.900">
+      <Box textStyle="section" as="section" minHeight={{base: "600px", lg:"800px"}} position="relative" background="gradient.50">
         <Box textStyle="container" position="relative">
           <CarouselWhatWeDo />
         </Box>

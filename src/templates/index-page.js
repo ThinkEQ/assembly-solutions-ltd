@@ -65,7 +65,7 @@ return (
                 <Box display="flex" justifyContent="space-between" width="100%">
                   <Button variant="solid">Watch Full Video</Button>
                 </Box>
-                <Box position="absolute" bottom={{base: "90px", md: "50px"}} right={{base: "15px", md: "10%"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
+                <Box position="absolute" bottom={{base: "90px", md: "50px", lg: "-40px"}} right={{base: "15px", md: "10%"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
                   <ReactScroll>
                     <Icon name="downArrow" />
                   </ReactScroll>  
@@ -73,7 +73,7 @@ return (
               </Box>
             </Box>   
       </Box>
-      <Box textStyle="section" as="section" id="what-we-do-home" minHeight="700px" position="relative" background="neutral.900">
+      <Box textStyle="section" as="section" id="what-we-do-home" minHeight={{base: "600px", lg:"800px"}} position="relative" background="gradient.50">
         <Box textStyle="container" position="relative">
           <CarouselWhatWeDo />
         </Box>
@@ -90,7 +90,7 @@ return (
                 <Text textStyle="p" marginBottom={12} color={{base: "#fff", md: "inherit"}} maxW={{base: "100%", lg:"70%"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
-                <Button variant="outline" maxWidth="200px" onClick={() => navigate('/team')}>Learn more</Button> 
+                <Button variant="outline" maxWidth="151px" onClick={() => navigate('/team')}>Learn more</Button> 
             </Box>
           </Box>
       </Box>

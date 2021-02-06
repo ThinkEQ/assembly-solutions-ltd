@@ -68,6 +68,7 @@ export const ButtonStyles = {
             position: "relative",
             borderRadius: "2px",
             background: "none",
+            border: "2px solid",
             color: "#fff",
             transition: ".5s all ease",
             _before: {
