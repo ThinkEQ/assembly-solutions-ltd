@@ -79,7 +79,7 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
               </Text>
             </Box>
             <Text textStyle="p" marginTop="20px">
-              We open our arms and welcome any enquiry no matter what industry you’re in. If you would like to send an enquiry, simply email <Link href="mailto:enquiry@assembly-solutions.com" color="green.900" isExternal>enquiry@assembly-solutions.com</Link> and we will be right back to you.
+              We open our arms and welcome any enquiry no matter what industry you’re in. If you would like to send an enquiry, simply email <Link fontWeight="bold" href="mailto:enquiry@assembly-solutions.com" color="green.900" display="inline-block" isExternal>enquiry@assembly-solutions.com</Link> and we will be right back to you.
             </Text>
           </Box>
         </Box>
