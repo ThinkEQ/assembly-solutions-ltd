@@ -5,13 +5,14 @@ import { AboutPageTemplate } from '../../templates/about-page'
 const AboutPagePreview = ({ entry, widgetFor }) => {
 
   return (
-    <AboutPageTemplate
-    title={entry.getIn(['data', 'title'])}
-    content={widgetFor('body')}
-    subtitle={entry.getIn(['data', 'subtitle'])}
-    intro={entry.getIn(['data', 'intro'])}
-    imgSrc={{childImageSharp: { fluid: entry.getIn(['data', 'image'])}}}
-  />
+    
+      <AboutPageTemplate
+      title={entry.getIn(['data', 'title'])}
+      content={widgetFor('body')}
+      subtitle={entry.getIn(['data', 'subtitle'])}
+      intro={entry.getIn(['data', 'intro'])}
+      imgSrc={{childImageSharp: { fluid: entry.getIn(['data', 'image'])}}}
+      />
   )
 }
 
