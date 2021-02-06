@@ -96,6 +96,8 @@ export const ButtonStyles = {
             _hover: {
                 background: "transparent",
                 color: "green.900",
+                border: "2px",
+                borderColor: "#fff",
                 zIndex: "10",
                 '&::after': {
                     position: "absolute",

@@ -120,8 +120,8 @@ const overrides = {
         },
         section: {
             py: {base: "6", lg:"40px"},
-            paddingLeft: {base: "5%", lg: "120px"},
-            paddingRight: {base: "5%", lg: "120px"}
+            paddingLeft: {base: "5%", lg: "140px"},
+            paddingRight: {base: "5%", lg: "140px"}
         },
         container: {
             maxWidth: {base: "1000px", xl:"1600px"},
