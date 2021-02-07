@@ -57,9 +57,7 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
               </Box>
           </Box>
         </Box>
-        <Box position="relative">
-            <PreviewImage imageInfo={imgHeader} />
-        </Box>
+          <PreviewImage imageInfo={imgHeader} height="100%" />
       </Box>
 
       <Box as="section" textStyle="section">
@@ -125,7 +123,7 @@ const IndustryPage = ({ data }) => {
   const { seo } = post.frontmatter
   const title = seo ? seo.title : post.frontmatter.title
   const description = seo ? seo.description : undefined
-
+ 
   return (
     <Layout metaTitle={title} metaDescription={description}>
       <IndustryPageTemplate

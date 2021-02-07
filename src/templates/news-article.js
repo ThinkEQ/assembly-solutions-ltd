@@ -93,7 +93,6 @@ const NewsArticle = ({ data }) => {
   return (
     <Layout metaTitle={title} metaDescription={description}>
       <NewsArticleTemplate
-        content={post.html}
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         mainContent={post.frontmatter.layout}
@@ -116,7 +115,6 @@ export const pageQuery = graphql`
   query NewsArticleByID($id: String!) {
     markdownRemark(id: { eq: $id }, frontmatter: {templateKey: {eq: "news-article"}}) {
       id
-      html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title

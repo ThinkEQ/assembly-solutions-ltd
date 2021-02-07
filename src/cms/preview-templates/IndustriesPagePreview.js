@@ -5,28 +5,22 @@ import { IndustryPageTemplate } from '../../templates/industries-page'
 const IndustriesPagePreview = ({ entry, widgetFor, widgetsFor, getAsset }) => {
 
     const data = entry.getIn(['data']).toJS()
-
+    const image = entry.getIn(['data', 'image'])
     const industries = () => {
-        const source = data.industries
-
         const format = widgetsFor('industries').map((item) => {
-              const image = item.getIn(['data', 'image'])
-              console.log(item.getIn(['data', 'name']), 'name')
-              console.log(item.getIn(['data', 'image']), 'image')
-            
-              console.log(item, 'item')
-
+              const img = item.getIn(['data', 'image'])
+             
               return {
-                    alt: entry.getIn(['data', 'alt']),
+                    alt: item.getIn(['data', 'alt']),
                     featued: false,
-                    image: {childImageSharp: { fluid: image}},
-                    name: entry.getIn(['data', 'name'])
+                    image: {childImageSharp: { fluid: {src: getAsset(img).url, presentationHeight: 680, sizes: "(max-width: 1026px) 100vw, 1026px" }}},
+                    name: item.getIn(['data', 'name'])
                 }
         })
 
         return format
     }
-    console.log(industries())
+    
    
     if (data) {
         return (
@@ -37,7 +31,8 @@ const IndustriesPagePreview = ({ entry, widgetFor, widgetsFor, getAsset }) => {
             industries={industries()}
             testimonial={data.testimonial}
             content={widgetFor('body')}
-            imgHeader={{childImageSharp: { fluid: entry.getIn(['data', 'image'])}}}
+            imgHeader={{childImageSharp: { fluid: {src: getAsset(image).url, presentationHeight: 680, sizes: "(max-width: 1026px) 100vw, 1026px" }}}} 
+          
         />
     )
   } else {

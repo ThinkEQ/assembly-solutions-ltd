@@ -11,7 +11,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static/img`,
-        name: 'uploads',
+        name: 'img',
       },
     },
     {
@@ -25,7 +25,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/src/img`,
-        name: 'images',
+        name: 'img',
       },
     },
     'gatsby-plugin-sharp',
@@ -67,7 +67,7 @@ module.exports = {
           {
             resolve: 'gatsby-remark-relative-images',
             options: {
-              name: 'uploads',
+              staticFolderName: 'static',
             },
           },
           {
@@ -107,6 +107,6 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
-    'gatsby-plugin-netlify', // make sure to keep it last in the array
+    'gatsby-plugin-netlify-cms', // make sure to keep it last in the array
   ],
 }
