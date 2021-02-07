@@ -5,6 +5,7 @@ import { graphql, StaticQuery} from 'gatsby'
 import Swiper from '../Swiper/Swiper'
 
 const NewsArticles = ({ data }) => {
+
     return (
         <Swiper title="Latest News" data={data.edges} />
     )
@@ -44,5 +45,7 @@ export default () => (
       `}
       render={(data) => <NewsArticles data={data.allMarkdownRemark} />}
     />
-  )
+)
+
+
   
