@@ -2,34 +2,40 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { IndustryPageTemplate } from '../../templates/industries-page'
 
-const IndustriesPagePreview = ({ entry, widgetFor, widgetsFor }) => {
+const IndustriesPagePreview = ({ entry, widgetFor, widgetsFor, getAsset }) => {
 
     const data = entry.getIn(['data']).toJS()
-console.log(widgetFor('industries'), 'data')
 
     const industries = () => {
         const source = data.industries
 
         const format = widgetsFor('industries').map((item) => {
-                return {
-                    alt: item.getIn(['data', 'alt']),
+              const image = item.getIn(['data', 'image'])
+              console.log(item.getIn(['data', 'name']), 'name')
+              console.log(item.getIn(['data', 'image']), 'image')
+            
+              console.log(item, 'item')
+
+              return {
+                    alt: entry.getIn(['data', 'alt']),
                     featued: false,
-                    image: item.getIn(['widgets', 'image']),
-                    name: item.getIn(['data', 'name'])
+                    image: {childImageSharp: { fluid: image}},
+                    name: entry.getIn(['data', 'name'])
                 }
         })
 
         return format
     }
-    console.log(industries(), 'indurtieess')
+    console.log(industries())
+   
     if (data) {
         return (
         <IndustryPageTemplate
             title={data.title}
             subtitle={data.subtitle}
             intro={data.intro}
-           industries={data.industries}
-            testimonial={industries()}
+            industries={industries()}
+            testimonial={data.testimonial}
             content={widgetFor('body')}
             imgHeader={{childImageSharp: { fluid: entry.getIn(['data', 'image'])}}}
         />
