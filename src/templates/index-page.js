@@ -52,7 +52,7 @@ return (
             </Box>
           </AspectRatio>
         </Box>
-            <Box height="100%" textStyle="container" minHeight={{base: "100vh", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
+            <Box height="100%" maxWidth="1900px" margin="0 auto" minHeight={{base: "100vh", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
               <Box textStyle="section">
                 <Heading textStyle="h1" textTransform="uppercase" color="#fff">
                   Efficient manufacturing <br/>
@@ -87,7 +87,7 @@ return (
                 <Heading textStyle="h2" color={{base: "#fff", md: "inherit"}}>
                   Meet the ASL team
                 </Heading>
-                <Text textStyle="p" marginBottom={12} color={{base: "#fff", md: "inherit"}} maxW={{base: "100%", lg:"70%"}}>
+                <Text textStyle="p" marginBottom={12} color={{base: "#fff", md: "inherit"}} maxW={{base: "100%", md:"450px"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
                 <Button variant="outline" maxWidth="151px" onClick={() => navigate('/team')}>Learn more</Button> 
