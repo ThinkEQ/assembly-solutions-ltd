@@ -15,13 +15,12 @@ import './styles.scss'
 SwipeCore.use([Scrollbar, A11y])
 
 const SwipeContainer = ({ data, title }) => {
-    const [isLargerthan1600] = useMediaQuery("(min-width: 1600px)")
     const [isLargerThan767] = useMediaQuery("(min-width: 767px)")
     
     return (
-        <Box width="100%" padding={{base: "30px 0", lg: "0"}} minHeight={{base: "550px", md: "700px"}} overflow="hidden" background="gradient.400">
-            <Box marginTop={{base: "8px", lg: "-30px"}} textStyle="container" paddingRight={{base: "25px", lg: isLargerthan1600 ? "0px" : "120px"}} paddingLeft={{base: "25px", lg: isLargerthan1600 ? "0px" : "120px"}} marginRight="auto" marginLeft="auto">
-                <Box paddingTop="50px" marginBottom="25px" >
+        <Box width="100%" padding="35px 0" textStyle="section" minHeight={{base: "550px", md: "700px", lg: "800px"}} overflow="hidden" background="gradient.400">
+            <Box textStyle="container" paddingRight={{base: "25px", lg: "0px"}} paddingLeft={{base: "25px", lg: "0px"}}  marginRight="auto" marginLeft="auto">
+                <Box margin={{base:"25px 0", lg: "50px 0"}} >
                     <Heading textStyle="h2" color="#fff">
                         {title}
                     </Heading>
@@ -36,7 +35,7 @@ const SwipeContainer = ({ data, title }) => {
 
                     return (
                         <SwiperSlide>
-                            <Box width="100%" maxWidth={{base: "300px", md: "100%"}} height="100%">
+                            <Box width="100%" maxWidth={{base: "300px", md: "100%", lg: "700px"}} height="100%">
                                 <CardArticle title={frontmatter.title} slug={fields.slug} imgFluid={frontmatter.image} date={`${frontmatter.date} - ASL Team`} />
                             </Box>
                         </SwiperSlide> 
