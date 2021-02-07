@@ -1,27 +1,42 @@
 ---
 templateKey: project-article
-image: /img/stock.jpg
-title: Brompton Bicycle choose ASL for Wiring Looms and Cable Assemblies
-intro: >-
-  Brompton Bicycle are the famous UK manufacturer of the Brompton Folding Bike.
-
-
-  The unique Brompton bike was designed and built in London in 1975 and is still made in London today. Brompton is making over **48,000 bikes per year** and is the UK’s largest bike manufacturer.
-
-
-  Brompton have been a huge success all over the world and in recent years when their demands started to soar, they needed a wiring loom supplier who could meet their requirements. Keen to keep all manufacturing in the UK and many parts as possible on their bike British, they were looking for a UK wiring loom and cable assembly supplier who was set up to guarantee first class quality and on time deliveries.
-
-
-  When we were approached by Brompton to supply the cable assembly that powers the bikes dynamo lights, we were flattered and jumped at the chance of helping a UK manufacturer who was also on a journey of growth like ourselves.
+image: /img/cable-assemblies-brompon-bicycle.jpg
+title: Brompton Bicycle
+intro: Intro
 projectfeature:
-  image: /img/stockwire.jpg
+  image: /img/brompton-bicycle-project.png
   name: Brompton Bicycle
-  quote: ASL have supplied our wiring looms for over 5 years now and continue to
-    provide high quality products at a competitive price. We thank them for
-    their support and for meeting our expectations.
+  quote: We continue to buy from ASL because for 10 years we haven’t had any
+    reason to go elsewhere. Their quality is excellent, prices are competitive
+    and they are a friendly company to work with.
+seo:
+  title: Brompton Bicycle
+  description: Brompton Bicycle
 ---
-Being an award winning UK based company, specialising in wiring looms and cable assemblies, we were able to deliver Brompton with the perfect solution, and the journey began!
+* Celebrating 10 Years with Brompton 
+* Bike volumes reach record high throughout pandemic 
+* 45,000 Brompton Bicycles sold in 2020 
 
 
 
-After visiting their factory in London to fully understand their needs and capabilities, **we were delighted some weeks later, to be awarded with the contract for wiring looms and cable assemblies.**
+Brompton is the UK manufacturer of the famous folding bicycle, that you will have likely seen people riding on around the cities! ​This year we are proud to be celebrating 10 years of partnership with Brompton, after they chose us in 2011 as their new supplier for cable assemblies - which power the front and back bike lights. 
+
+
+Their bikes have been a huge success all over the world and especially during 2020 when demands began to soar. Last year saw many of us turning to cycling as a part of keeping fit and healthy though the pandemic. 
+
+During these busy times volumes have reached a record high, which made it vital to maintain our efficiency levels and deliver on time. To put volumes into perspective, 
+
+Brompton sold 45,000 bikes in 2020! 
+
+During our customer feedback survey in 2020, we were delighted to hear Brompton comment on our Strengths, which were; ​
+
+​
+
+**ASL Strengths​**
+
+* Meeting our everyday changing expectations 
+* Deliveries are always on time 
+* Prices are competitive 
+* Customer service is great 
+* Proactive attitude towards continuous improvement 
+* You are one of our top suppliers​
