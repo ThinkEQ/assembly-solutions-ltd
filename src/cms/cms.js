@@ -10,6 +10,7 @@ import TeamPagePreview from './preview-templates/TeamPreviewPage'
 import TermsPagePreview from './preview-templates/TermsPreviewPage'
 import PrivacyPagePreview from './preview-templates/PrivacyPolicyPreview'
 import NewsArticlePreview from './preview-templates/NewsArticlePagePreview'
+import ProductCatPreview from './preview-templates/ProductCatPagePreview'
 
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
@@ -20,4 +21,5 @@ CMS.registerPreviewTemplate('team', withEmotion(TeamPagePreview))
 CMS.registerPreviewTemplate('terms-and-conditions', withEmotion(TermsPagePreview))
 CMS.registerPreviewTemplate('privacy-policy', withEmotion(PrivacyPagePreview))
 CMS.registerPreviewTemplate('news', withEmotion(NewsArticlePreview))
+CMS.registerPreviewTemplate('product-category', withEmotion(ProductCatPreview))
   

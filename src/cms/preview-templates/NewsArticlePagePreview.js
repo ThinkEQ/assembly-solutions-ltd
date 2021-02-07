@@ -2,17 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { NewsArticleTemplate } from '../../templates/news-article'
 
-const NewsPagePreview = ({ entry, widgetFor, widgetsFor, getAsset }) => {
+const NewsPagePreview = ({ entry, getAsset }) => {
 
     const data = entry.getIn(['data']).toJS()
    
     const image = entry.getIn(['data', 'image'])
-    const layout = widgetsFor('layout').map((item) => {
-        console.log(item.getIn(['data', 'type']), 'item')
-    
-          return item
-    })
-    console.log(layout, 'la')
 
     const [month, date, year] = new Date(data.date).toLocaleDateString("en-US").split("/")
     let months = ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
