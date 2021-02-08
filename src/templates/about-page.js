@@ -25,7 +25,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
               {title}
             </Text>
             <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>
-              <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom={{base: "20px", lg: "0"}}>
+              <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"62%"}} marginBottom={{base: "20px", lg: "0"}}>
                   {subtitle}
               </Heading>
               <Text textStyle="p" width={{base: "100%", lg:"35%"}}>
@@ -89,7 +89,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
           </Button>
         </Box>
       </Box>
-      <Box textStyle="section" as="section" minHeight="700px" position="relative" background="neutral.900">
+      <Box textStyle="section" as="section" minHeight={{base: "600px", lg:"800px"}} position="relative" background="gradient.50">
         <Box textStyle="container" position="relative">
           <CarouselWhatWeDo />
         </Box>

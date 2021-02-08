@@ -120,8 +120,8 @@ const overrides = {
         },
         section: {
             py: {base: "6", lg:"40px"},
-            paddingLeft: {base: "5%", lg: "120px"},
-            paddingRight: {base: "5%", lg: "120px"}
+            paddingLeft: {base: "5%", lg: "140px"},
+            paddingRight: {base: "5%", lg: "140px"}
         },
         container: {
             maxWidth: {base: "1000px", xl:"1600px"},
@@ -152,9 +152,16 @@ const overrides = {
             700: 'linear-gradient(270deg, rgba(36,155,171,0.05) 0%, rgba(36,155,171,0.5) 31.24%, #249BAB 100%)',
             600: 'linear-gradient(151.59deg, #00ABAC 0%, #00AB69 100%);', // button gradient
             500: 'linear-gradient(-45deg, #00ABAC 0%, #00ABAC, #00ABAC, #00ABAC 100%)', // button gradient non hover
-            400: 'linear-gradient(0deg, #FAFAFA 50%, #091540 50%)' //  top / bottom split
+            400: 'linear-gradient(0deg, #FAFAFA 50%, #091540 50%)', //  top / bottom split
+            50: 'radial-gradient(circle, rgba(255,255,255,1) 60%, rgba(250,250,250,1) 42%);', // circle gradient
+            300: 'linear-gradient(-45deg, #091540 0%, #10225a, #152d71, #091540 50%)',
+            200: 'linear-gradient(-45deg, #091540 0%, #091540, #091540, #091540 100%)'
         }
     }
 }
+
+//
+//
+//
 
 export default extendTheme(overrides)

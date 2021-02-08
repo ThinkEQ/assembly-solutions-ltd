@@ -43,7 +43,7 @@ export const IndexPageTemplate = ({
  
 return (
     <Fragment>
-      <Box as="header" minHeight={{base: "100vh", md:"700px", xl: "900px"}} maxHeight="900px" height="100%" overflow="hidden" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
+      <Box as="header" minHeight={{base: "100vh", md:"750px", xl: "900px"}} maxHeight="900px" height="100%" overflow="hidden" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
         <Box position="absolute" top="0" left="0" width="100%" height="100%" overflow="hidden" zIndex="-1">
           <AspectRatio ratio={{base: 9 / 16, lg: 4 / 3}} >
             <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" overflow="hidden" maxHeight="900px" objectFit="cover">
@@ -52,7 +52,7 @@ return (
             </Box>
           </AspectRatio>
         </Box>
-            <Box height="100%" textStyle="container" minHeight={{base: "100vh", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
+            <Box height="100%" maxWidth="1900px" margin="0 auto" minHeight={{base: "100vh", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
               <Box textStyle="section">
                 <Heading textStyle="h1" textTransform="uppercase" color="#fff">
                   Efficient manufacturing <br/>
@@ -65,7 +65,7 @@ return (
                 <Box display="flex" justifyContent="space-between" width="100%">
                   <Button variant="solid">Watch Full Video</Button>
                 </Box>
-                <Box position="absolute" bottom={{base: "90px", md: "50px"}} right={{base: "15px", md: "10%"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
+                <Box position="absolute" bottom={{base: "90px", md: "50px", lg: "0px"}} right={{base: "15px", md: "10%"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
                   <ReactScroll>
                     <Icon name="downArrow" />
                   </ReactScroll>  
@@ -73,7 +73,7 @@ return (
               </Box>
             </Box>   
       </Box>
-      <Box textStyle="section" as="section" id="what-we-do-home" minHeight="700px" position="relative" background="neutral.900">
+      <Box textStyle="section" as="section" id="what-we-do-home" minHeight={{base: "600px", lg:"800px"}} position="relative" background="gradient.50">
         <Box textStyle="container" position="relative">
           <CarouselWhatWeDo />
         </Box>
@@ -87,10 +87,10 @@ return (
                 <Heading textStyle="h2" color={{base: "#fff", md: "inherit"}}>
                   Meet the ASL team
                 </Heading>
-                <Text textStyle="p" marginBottom={12} color={{base: "#fff", md: "inherit"}} maxW={{base: "100%", lg:"70%"}}>
+                <Text textStyle="p" marginBottom={12} color={{base: "#fff", md: "inherit"}} maxW={{base: "100%", md:"450px"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
-                <Button variant="outline" maxWidth="200px" onClick={() => navigate('/team')}>Learn more</Button> 
+                <Button variant="outline" maxWidth="151px" onClick={() => navigate('/team')}>Learn more</Button> 
             </Box>
           </Box>
       </Box>

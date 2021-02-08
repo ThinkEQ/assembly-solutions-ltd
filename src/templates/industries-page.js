@@ -23,8 +23,8 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
             <Text textStyle="p" marginBottom="20px" fontSize="22px">
                 {title}
               </Text>
-              <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>
-                <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="30px">
+              <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>             
+                <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"62%"}} marginBottom="40px">
                     {subtitle}
                 </Heading>
                 <Text textStyle="p" width={{base: "100%", lg:"35%"}}>
@@ -55,7 +55,7 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
               </Text>
             </Box>
             <Text textStyle="p" marginTop="20px">
-              We open our arms and welcome any enquiry no matter what industry you’re in. If you would like to send an enquiry, simply email <Link href="mailto:enquiry@assembly-solutions.com" color="green.900" isExternal>enquiry@assembly-solutions.com</Link> and we will be right back to you.
+              We open our arms and welcome any enquiry no matter what industry you’re in. If you would like to send an enquiry, simply email <Link fontWeight="bold" href="mailto:enquiry@assembly-solutions.com" color="green.900" display="inline-block" isExternal>enquiry@assembly-solutions.com</Link> and we will be right back to you.
             </Text>
           </Box>
         </Box>

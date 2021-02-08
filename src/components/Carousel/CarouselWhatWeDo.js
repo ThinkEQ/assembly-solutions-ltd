@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
 // Load components
-import { Box, Image, Heading, useMediaQuery } from '@chakra-ui/react'
+import { Box, Image, Heading, useMediaQuery, keyframes } from '@chakra-ui/react'
 import Carousel from './CustomCarousel'
 import ProductSlide from '../ProductSlide/ProductSlide'
 
@@ -12,12 +12,25 @@ import wirePrep from '../../img/wireprep.jpg'
 import wiring from '../../img/wiring-harnesses.png'
 import cable from '../../img/cable-assemblies.png'
 import control from '../../img//control-panels.png'
+//#152d71
+//#10225a
+//#091642
 
+const flow = keyframes `
+  0%{background-position: 0% 50%}
+  50%{background-position: 100% 50%}
+  100%{background-position: 0% 50%}
+`
 export const SlideLeft = ({ onClick }) => {
 
     return (
         <Box cursor="pointer" onClick={onClick} right={{base: "60px", md: "80px", lg: "initial"}} bottom={{base: "205px",  md: "165px", lg: "initial"}}  height={{base:"55px", md: "60px", lg: "90px"}} width={{base: "45px", md: "55px", lg: "90px"}}  position="absolute">
-            <Image src={LeftHandle} alt="left icon" />
+            <Box position="relative" animation={`${flow} infinite 10s ease`} transition="all .5s ease-in-out" height={{base: "45px", md: "50px", lg: "59px"}} borderRadius="50%" width={{base: "45px", md: "50px", lg: "59px"}} background="gradient.200" _hover={{bg: "gradient.300",
+            borderColor: "green.900",
+            backgroundSize: "600% 600%",
+            animation: `${flow} infinite 5s ease`}}>    
+                <Image src={LeftHandle} alt="left icon" />
+            </Box>
         </Box>  
     )
 }
@@ -25,7 +38,12 @@ export const SlideLeft = ({ onClick }) => {
 export const SlideRight = ({ onClick }) => {
     return (
         <Box cursor="pointer" onClick={onClick} right={{base: "0", lg: "-30px"}} bottom={{base: "205px", md: "165px", lg: "initial"}} height={{base:"55px", md: "60px", lg: "90px"}} width={{base: "45px", md: "55px", lg: "90px"}} position="absolute">
-            <Image src={RightHandle} alt="right icon" />
+            <Box position="relative" animation={`${flow} infinite 10s ease`} transition="all .5s ease-in-out" height={{base: "45px", md: "50px", lg: "59px"}} borderRadius="50%" width={{base: "45px", md: "50px", lg:"59px"}} background="gradient.200" _hover={{bg: "gradient.300",
+            borderColor: "green.900",
+            backgroundSize: "600% 600%",
+            animation: `${flow} infinite 5s ease`}}>
+                <Image src={RightHandle} alt="right icon" />
+            </Box>
         </Box>  
     )
 }
@@ -34,10 +52,20 @@ const ButtonGroup = ({ next, previous }) => {
     return (
       <Box display={{base: "none", lg: "flex"}} position="absolute" top="50%" left="0" transform="translateY(-50%)" justifyContent="space-between" width="100%">
         <Box cursor="pointer" position="absolute" top="0" left="-5%" onClick={previous}>
-            <Image src={LeftHandle} alt="left icon" />
+        <Box position="relative" animation={`${flow} infinite 10s ease`} transition="all .5s ease-in-out" height="59px" borderRadius="50%" width="59px" background="gradient.200" _hover={{bg: "gradient.300",
+            borderColor: "green.900",
+            backgroundSize: "600% 600%",
+            animation: `${flow} infinite 5s ease`}}>
+                <Image src={LeftHandle} alt="left icon" />
+            </Box>
         </Box>
         <Box cursor="pointer" position="absolute" top="0" right="-5%" onClick={next}>
-            <Image src={RightHandle} alt="right icon" />
+            <Box position="relative" animation={`${flow} infinite 10s ease`} transition="all .5s ease-in-out" height="59px" borderRadius="50%" width="59px" background="gradient.200" _hover={{bg: "gradient.300",
+            borderColor: "green.900",
+            backgroundSize: "600% 600%",
+            animation: `${flow} infinite 5s ease`}} >
+                <Image src={RightHandle} alt="right icon" />
+            </Box>
         </Box>
       </Box>
     );
@@ -68,9 +96,9 @@ const CarouselWhatWeDo = () => {
                 imgSrc={wirePrep}/>
                    
                 <ProductSlide
-                heading="Cable Assembly"
+                heading="UK Cable Assembly Manufacturer"
                 text="Cable assemblies manufactured through the most efficient operations and highest quality standards."
-                btnLink="/cable-assembly"
+                btnLink="/uk-cable-assembly-manufacturer"
                 imgSrc={cable}/>
 
                 <ProductSlide
@@ -80,9 +108,9 @@ const CarouselWhatWeDo = () => {
                 imgSrc={wiring}/>
         
                 <ProductSlide
-                heading="Control Panels"
+                heading="Control Panel Manufacturer"
                 text="Control Panels assembled in low and high volume by skilled and experienced panel wiring builders."
-                btnLink="/control-panels"
+                btnLink="/control-panel-manufacturer"
                 imgSrc={control}/>
             </Carousel>
         </Fragment>

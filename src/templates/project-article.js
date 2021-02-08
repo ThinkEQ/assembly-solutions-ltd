@@ -27,7 +27,7 @@ export const ProjectArticleTemplate = ({
           <Link as={ReachLink} to="/projects" display="inline-block" textStyle="p" marginBottom="20px" fontSize="22px">
             Back to all projects
           </Link>
-          <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} >
+          <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"80%"}} >
             {title}
           </Heading>
         </Box>

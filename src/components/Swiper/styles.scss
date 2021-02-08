@@ -9,6 +9,7 @@
 /*these values will make the container as big as the parent div*/
     overflow: visible;
 /*important parameter to not disrupt the container when slides increases in coverflow */
+
 }
  
 /* Scrollbar */
@@ -17,6 +18,7 @@
   border-radius: 10px;
   position: relative;
   -ms-touch-action: none;
+  touch-action: none;
   background: rgba(0, 0, 0, 0.1);
   position: relative;
  
