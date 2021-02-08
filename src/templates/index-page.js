@@ -13,14 +13,15 @@ import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import NewsArticles from '../components/StaticQueries/NewsArticles'
 import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerOurCustomers'
+import SVG from '../components/UI/SVG/index'
 
 // Load asset
 import Icon from '../components/UI/SVG/index'
 import teamTablet from '../img/about-bg.png'
-import teamDesktop from '../img/about-imageAlt.jpg'
 import teamMobile from '../img/mobile-team.png'
 import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
 import homvidmp from '../videos/HOMEPAGEMP4.mp4'
+import teamDesktop from '../img/meettheteam2.jpg'
 import '../components/UI/SVG/styles.css'
 
 const bounce = keyframes `
@@ -84,6 +85,9 @@ return (
       <Box as="section" textStyle="section" backgroundImage={{base: mobile, md: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height={{base: "400px", md: "700px"}} width="100%" position="relative">
           <Box textStyle="container" height="100%">
               <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
+                <Box marginBottom="25px">
+                  <SVG name="twentyEmblem" />
+                </Box>
                 <Heading textStyle="h2" color={{base: "#fff", md: "inherit"}}>
                   Meet the ASL team
                 </Heading>
