@@ -35,7 +35,7 @@ const tablet = `linear-gradient(270deg, rgba(36,155,171,0) 0%, rgba(36,155,171,0
 const dekstop = `url(${teamDesktop})`
 
 export const IndexPageTemplate = () => {
-const [isMoreThan464, isMoreThat1500] = useMediaQuery(["(min-width: 464px", "(min-width: 1450px)"])
+const [isMoreThan464, isMoreThat1500] = useMediaQuery(["(min-width: 480px", "(min-width: 1450px)"])
   
 return (
     <Fragment>
