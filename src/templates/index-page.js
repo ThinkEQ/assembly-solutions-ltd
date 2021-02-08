@@ -16,7 +16,6 @@ import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerO
 import SVG from '../components/UI/SVG/index'
 
 // Load asset
-import Icon from '../components/UI/SVG/index'
 import teamTablet from '../img/tablet-about.png'
 import teamMobile from '../img/mobile-team.png'
 import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
@@ -35,7 +34,7 @@ const tablet = `linear-gradient(270deg, rgba(36,155,171,0) 0%, rgba(36,155,171,0
 const dekstop = `url(${teamDesktop})`
 
 export const IndexPageTemplate = () => {
-const [isMoreThan464, isMoreThat1500] = useMediaQuery(["(min-width: 480px", "(min-width: 1450px)"])
+const [isMoreThat1500] = useMediaQuery(["(min-width: 1450px)"])
   
 return (
     <Fragment>
@@ -63,7 +62,7 @@ return (
                 </Box>
                 <Box position="absolute" bottom={{base: "90px", md: "50px", lg: "0px"}} right={{base: "15px", md: "10%"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
                   <ReactScroll>
-                    <Icon name="downArrow" />
+                    <SVG name="downArrow" />
                   </ReactScroll>  
                 </Box>
               </Box>
@@ -80,13 +79,14 @@ return (
       <Box as="section" textStyle="section" backgroundImage={{base: mobile,  sm: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height="auto" minHeight={{base: "auto", sm: "400px",  md: isMoreThat1500 ? "700px" :"auto"}} width="100%" position="relative">
           <Box textStyle="container" height="100%">
               <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
-                <Box marginBottom={{base: "10px", md:"25px"}} width={{base:"100px", md: "150px"}}>
-                  <SVG name="twentyEmblem" width="100%" height="100%" fill={isMoreThan464 ? undefined : "#fff"} />
+                <Box marginBottom={{base: "10px", md:"25px"}} fill="#fff" width={{base:"100px", md: "150px"}}>
+                  <Box display={{base: "none", sm: "block"}}><SVG name="twentyEmblem" width="100%" height="100%"  /></Box>
+                  <Box display={{base: "block", sm: "none"}}><SVG name="twentyEmblem" width="100%" height="100%" fill="#fff" /></Box>
                 </Box>
-                <Heading textStyle="h2" color={{base: "#fff", md: "inherit"}}>
+                <Heading textStyle="h2" color={{base: "#fff", sm: "inherit"}}>
                   Meet the ASL team
                 </Heading>
-                <Text textStyle="p" marginBottom={{base: 6, md: 12}} color={{base: "#fff", md: "inherit"}} maxW={{base: "100%", md:"450px"}}>
+                <Text textStyle="p" marginBottom={{base: 6, md: 12}} color={{base: "#fff", sm: "inherit"}} maxW={{base: "100%", md:"450px"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
                 <Button variant="outline" maxWidth="151px" onClick={() => navigate('/team')}>Learn more</Button> 
