@@ -33,7 +33,7 @@ const SignUp = ({ isSubmitting }) => {
 
 const Footer = ({ toggleDrawer }) => {
   return(
-    <Box background="blue.900" color="#fff" textStyle="section">
+    <Box background="blue.900" color="#fff" textStyle="section" py="80px">
       <Box textStyle="container">
         <Heading fontSize="30px" lineHeight="36px" fontWeight="600" marginBottom="30px">
           Stay Connected

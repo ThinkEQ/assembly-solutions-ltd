@@ -96,7 +96,7 @@ const BannerOurCustomers = () => {
                 <Carousel
                     autoPlay={true}
                     draggable={false}
-                    autoPlaySpeed={1000}
+                    autoPlaySpeed={2000}
                     centerMode={isLessThan464 ? false : true}
                     arrows={false}
                     desktopView={3}
