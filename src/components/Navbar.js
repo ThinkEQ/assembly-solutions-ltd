@@ -124,7 +124,7 @@ const MainNav = () => (
       <SVG name="linkedin" fill="#fff" />
     </Link>
       <Text color="#fff" fontSize="18px" marginRight="10px">
-        ASL &copy;2020
+        ASL &copy;2021
       </Text>
     </Box>
   </Box>
@@ -136,13 +136,13 @@ const MainNav = () => (
       <Link as={ReachLink} to="/wire-and-cable-preparation" size="lg" variant="nav">Wire and Cable Preparation</Link>
     </Box>
     <Box as="li" display="block">
-     <Link as={ReachLink} to="/cable-assembly" size="lg" variant="nav">Cable Assembly</Link>
+     <Link as={ReachLink} to="/uk-cable-assembly-manufacturer" size="lg" variant="nav">UK Cable Assembly Manufacturer</Link>
     </Box>
     <Box as="li" display="block">
-     <Link as={ReachLink} to="/wiring-harness" size="lg" variant="nav">Wiring Harness</Link>
+     <Link as={ReachLink} to="/wiring-harness-manufacturer" size="lg" variant="nav">Wiring Harness Manufacturer</Link>
     </Box>
     <Box as="li" display="block">
-    <Link as={ReachLink} to="/control-panels" size="lg" variant="nav">Control Panel</Link>
+    <Link as={ReachLink} to="/control-panel-manufacturer" size="lg" variant="nav">Control Panel Manufacturer</Link>
     </Box>
   </Box>
   <Box display={{base: "flex", lg: "none"}} alignItems="center" margin={{base: "20px 0", lg: "0"}}>
@@ -153,7 +153,7 @@ const MainNav = () => (
       <SVG name="linkedin" fill="#fff" />
     </Link>
     <Text color="#fff" fontSize="18px" marginRight="10px">
-      ASL &copy;2020
+      ASL &copy;2021
     </Text>
   </Box>
 </Box>
@@ -172,11 +172,11 @@ const ContactUs = () => {
             T: 01204 521999
           </Text>
           <Text as="a" href="mailto:enquiry@assembly-solutions.com" target="_blank" fontSize="26px" fontWeight="bold" lineHeight="31px">
-            E: Enquiries@
+            E: Enquiry@
           </Text>
 
           <Text  fontSize="26px" fontWeight="bold" lineHeight="31px" marginTop="50px" marginBottom="15px">
-            Where we are
+            Location
           </Text>
           <Text textStyle="p" fontSize="16px" lineHeight="28px">
             Assembly Solutions Ltd

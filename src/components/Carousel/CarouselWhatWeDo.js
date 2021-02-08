@@ -96,9 +96,9 @@ const CarouselWhatWeDo = () => {
                 imgSrc={wirePrep}/>
                    
                 <ProductSlide
-                heading="Cable Assembly"
+                heading="UK Cable Assembly Manufacturer"
                 text="Cable assemblies manufactured through the most efficient operations and highest quality standards."
-                btnLink="/cable-assembly"
+                btnLink="/uk-cable-assembly-manufacturer"
                 imgSrc={cable}/>
 
                 <ProductSlide
@@ -108,9 +108,9 @@ const CarouselWhatWeDo = () => {
                 imgSrc={wiring}/>
         
                 <ProductSlide
-                heading="Control Panels"
+                heading="Control Panel Manufacturer"
                 text="Control Panels assembled in low and high volume by skilled and experienced panel wiring builders."
-                btnLink="/control-panels"
+                btnLink="/control-panel-manufacturer"
                 imgSrc={control}/>
             </Carousel>
         </Fragment>

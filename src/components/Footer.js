@@ -57,8 +57,8 @@ const Footer = ({ toggleDrawer }) => {
           <Box width={{base: "100%", lg:"48%"}} display="flex" justifyContent="space-between" paddingTop="10px">
             <List spacing="4">
               <ListItem {...para}>
-                <Link as={ReachLink} to="/cable-assembly">
-                  Cable Assembly
+                <Link as={ReachLink} to="/uk-cable-assembly-manufacturer">
+                  UK Cable Assembly Manufacturer
                 </Link>
               </ListItem>
               <ListItem {...para}>
@@ -67,13 +67,13 @@ const Footer = ({ toggleDrawer }) => {
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/wiring-harness">
-                  Wiring Harnesses
+                <Link as={ReachLink} to="/wiring-harness-manufacturer">
+                  Wiring Harnesses Manufacturer
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/control-panels">
-                  Control Panels
+                <Link as={ReachLink} to="/control-panel-manufacturer">
+                  Control Panel Manufacturer
                 </Link>
               </ListItem>
             </List>
@@ -148,7 +148,7 @@ const Footer = ({ toggleDrawer }) => {
               Assembly Solutions Ltd is registered in England  under registration number 3131352.
             </Text>
             <Text {...para} textAlign={{base: "left", lg:"right"}} fontWeight="bold" marginTop="10px">
-              ASL &copy;2020
+              ASL &copy;2021
             </Text>
           </Box>
         </Box>
