@@ -1,6 +1,6 @@
 ---
 templateKey: product-category
-title: Wiring Harness
+title: Wiring Harness Manufacturer
 subtitle: Wiring Harness
 video: wiring-harness
 image: /img/chemex.jpg
