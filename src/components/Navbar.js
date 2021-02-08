@@ -136,13 +136,13 @@ const MainNav = () => (
       <Link as={ReachLink} to="/wire-and-cable-preparation" size="lg" variant="nav">Wire and Cable Preparation</Link>
     </Box>
     <Box as="li" display="block">
-     <Link as={ReachLink} to="/uk-cable-assembly-manufacturer" size="lg" variant="nav">UK Cable Assembly Manufacturer</Link>
+     <Link as={ReachLink} to="/cable-assembly" size="lg" variant="nav">Cable Assembly</Link>
     </Box>
     <Box as="li" display="block">
-     <Link as={ReachLink} to="/wiring-harness-manufacturer" size="lg" variant="nav">Wiring Harness Manufacturer</Link>
+     <Link as={ReachLink} to="/wiring-harness" size="lg" variant="nav">Wiring Harness</Link>
     </Box>
     <Box as="li" display="block">
-    <Link as={ReachLink} to="/control-panel-manufacturer" size="lg" variant="nav">Control Panel Manufacturer</Link>
+    <Link as={ReachLink} to="/control-panels" size="lg" variant="nav">Control Panels</Link>
     </Box>
   </Box>
   <Box display={{base: "flex", lg: "none"}} alignItems="center" margin={{base: "20px 0", lg: "0"}}>

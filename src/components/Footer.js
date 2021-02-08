@@ -57,23 +57,23 @@ const Footer = ({ toggleDrawer }) => {
           <Box width={{base: "100%", lg:"48%"}} display="flex" justifyContent="space-between" paddingTop="10px">
             <List spacing="4">
               <ListItem {...para}>
-                <Link as={ReachLink} to="/uk-cable-assembly-manufacturer">
-                  UK Cable Assembly Manufacturer
+                <Link as={ReachLink} to="/cable-assembly">
+                  Cable Assembly
                 </Link>
               </ListItem>
               <ListItem {...para}>
                 <Link as={ReachLink} to="/wire-and-cable-preparation">
-                  Wire Preperation
+                  Wire and Cable Preparation
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/wiring-harness-manufacturer">
-                  Wiring Harnesses Manufacturer
+                <Link as={ReachLink} to="/wiring-harness">
+                  Wiring Harness
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/control-panel-manufacturer">
-                  Control Panel Manufacturer
+                <Link as={ReachLink} to="/control-panels">
+                  Control Panels
                 </Link>
               </ListItem>
             </List>

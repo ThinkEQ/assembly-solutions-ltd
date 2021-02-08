@@ -1,7 +1,7 @@
 ---
 templateKey: product-category
-title: UK Cable Assembly Manufacturer
-subtitle: UK cable assembly manufacturers
+title: Cable Assembly
+subtitle: UK Cable Assembly Manufacturer
 video: cable-assembly
 image: /img/stockwire.jpg
 usps:
