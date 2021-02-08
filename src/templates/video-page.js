@@ -83,9 +83,10 @@ const VideosIndex =  ({data, pageContext}) => {
   const { seo } = posts[0].node.frontmatter
   const title = seo ? seo.title : posts[0].node.frontmatter.title
   const description = seo ? seo.description : undefined
+
   return (
     <Layout metaTitle={title} metaDescription={description}>
-      <VideoIndexTemplate videos={posts[0].node.frontmatter.video || []} pagination={pageContext} />
+      <VideoIndexTemplate videos={posts[0].node.frontmatter.youtube || []} pagination={pageContext} />
     </Layout>
   )
 }
