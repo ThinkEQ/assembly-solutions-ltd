@@ -35,7 +35,7 @@ const tablet = `linear-gradient(270deg, rgba(36,155,171,0) 0%, rgba(36,155,171,0
 const dekstop = `url(${teamDesktop})`
 
 export const IndexPageTemplate = () => {
-const [isLessThan464, isMoreThat1500] = useMediaQuery(["(max-width: 464px", "(min-width: 1450px)"])
+const [isMoreThan464, isMoreThat1500] = useMediaQuery(["(min-width: 464px", "(min-width: 1450px)"])
   
 return (
     <Fragment>
@@ -81,7 +81,7 @@ return (
           <Box textStyle="container" height="100%">
               <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
                 <Box marginBottom={{base: "10px", md:"25px"}} width={{base:"100px", md: "150px"}}>
-                  <SVG name="twentyEmblem" width="100%" height="100%" fill={isLessThan464 ? "#fff" : undefined} />
+                  <SVG name="twentyEmblem" width="100%" height="100%" fill={isMoreThan464 ? undefined : "#fff"} />
                 </Box>
                 <Heading textStyle="h2" color={{base: "#fff", md: "inherit"}}>
                   Meet the ASL team
