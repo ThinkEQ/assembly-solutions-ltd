@@ -256,7 +256,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
       setScrollPos(currentScrollPos)
   }
   return (
-     <Box animation={`${flow} infinite 15s ease`} position={isOpen ? "absolute" : "fixed"} width={{base:"100%", md: "auto", lg: "648px"}} transform={`translateY(${position})`} transition=".2s all ease-in-out" top="0" right="0" height="72px" background={isOpen ? "transparent" :"gradient.900"} backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="2000"  alignItems="center">
+     <Box animation={`${flow} infinite 15s ease`} position={isOpen ? "absolute" : "fixed"} width={{base:"100%", md: "auto", lg: "648px"}} transform={`translateY(${position})`} transition=".4s all ease-in-out" top="0" right="0" height="72px" background={isOpen ? "transparent" :"gradient.900"} backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="2000"  alignItems="center">
         <Box padding="4" display={(menu === 'contact') && isOpen ? 'none' : 'block'}>
           <Link as={ReachLink} to="/">
             <Image src={Logo} alt="asl logo" />
