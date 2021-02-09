@@ -38,7 +38,7 @@ const [isMoreThat1500] = useMediaQuery(["(min-width: 1450px)"])
   
 return (
     <Fragment>
-      <Box as="header" minHeight={{base: "100vh", md:"750px", xl: "900px"}} maxHeight="900px" height="100%" overflow="hidden" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
+      <Box as="header" minHeight={{base: "auto", md:"750px", xl: "900px"}} maxHeight="900px" height="100%" overflow="hidden" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
         <Box position="absolute" top="0" left="0" width="100%" height="100%" overflow="hidden" zIndex="-1">
           <AspectRatio ratio={{base: 9 / 16, lg: 4 / 3}} >
             <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" overflow="hidden" maxHeight="900px" objectFit="cover">
@@ -47,7 +47,7 @@ return (
             </Box>
           </AspectRatio>
         </Box>
-            <Box height="100%" maxWidth="1900px" margin="0 auto" minHeight={{base: "100vh", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
+            <Box height="100%" maxWidth="1900px" margin="0 auto" minHeight={{base: "600px", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
               <Box textStyle="section">
                 <Heading textStyle="h1" textTransform="uppercase" color="#fff">
                   Efficient manufacturing <br/>
@@ -60,7 +60,7 @@ return (
                 <Box display="flex" justifyContent="space-between" width="100%">
                   <Button variant="solid">Watch Full Video</Button>
                 </Box>
-                <Box position="absolute" bottom={{base: "90px", md: "50px", lg: "0px"}} right={{base: "15px", md: "10%"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
+                <Box position="absolute" bottom={{base: "0", md: "50px", lg: "0px"}} right={{base: "15px", md: "10%"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
                   <ReactScroll>
                     <SVG name="downArrow" />
                   </ReactScroll>  

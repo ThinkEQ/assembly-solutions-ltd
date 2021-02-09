@@ -104,10 +104,7 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
     </form>
 
       <ChakraProvider theme={theme}>
-            
-            <nav>
-              <Navbar menu={menu} toggleDrawer={toggleDrawer} isOpen={isOpen} onClose={onClose} />
-            </nav>
+            <Navbar menu={menu} toggleDrawer={toggleDrawer} isOpen={isOpen} onClose={onClose} />
             <Box as="main" minHeight="100vh">
               {children}
             </Box>
