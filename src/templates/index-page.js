@@ -83,7 +83,7 @@ return (
                   <Box display={{base: "block", sm: "none"}}><SVG name="twentyEmblem" width="100%" height="100%" fill="#fff" /></Box>
                 </Box>
                 <Heading textStyle="h2" color={{base: "#fff", sm: "inherit"}}>
-                  Meet the ASL team
+                  Meet the team
                 </Heading>
                 <Text textStyle="p" marginBottom={{base: 6, md: 12}} color={{base: "#fff", sm: "inherit"}} maxW={{base: "100%", md:"450px"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
