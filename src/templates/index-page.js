@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { navigate } from 'gatsby-link'
 
 // Load components
-import { Box, Heading, Text, Button, keyframes, AspectRatio } from '@chakra-ui/react'
+import { Box, Heading, Text, Button, keyframes, AspectRatio, useMediaQuery } from '@chakra-ui/react'
 import ReactScroll from '../components/ReactScroll/ReactScroll'
 
 //import Button from '../theme/button'
@@ -13,14 +13,14 @@ import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import NewsArticles from '../components/StaticQueries/NewsArticles'
 import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerOurCustomers'
+import SVG from '../components/UI/SVG/index'
 
 // Load asset
-import Icon from '../components/UI/SVG/index'
-import teamTablet from '../img/about-bg.png'
-import teamDesktop from '../img/about-imageAlt.jpg'
+import teamTablet from '../img/tablet-about.png'
 import teamMobile from '../img/mobile-team.png'
 import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
 import homvidmp from '../videos/HOMEPAGEMP4.mp4'
+import teamDesktop from '../img/meettheteam2.jpg'
 import '../components/UI/SVG/styles.css'
 
 const bounce = keyframes `
@@ -28,19 +28,14 @@ const bounce = keyframes `
   50%{transform: translateY(0px)}
   100%{transform: translateY(-25px)}
 `
-export const IndexPageTemplate = ({
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
-}) => {
+
+const mobile = `linear-gradient(184.08deg, rgba(9,21,64, 0.6), 100%, rgba(255,255,255,1), #091540 100%), url(${teamMobile})`
+const tablet = `linear-gradient(270deg, rgba(36,155,171,0) 0%, rgba(36,155,171,0) 31.24%, #249BAB 90%), url(${teamTablet})`
+const dekstop = `url(${teamDesktop})`
+
+export const IndexPageTemplate = () => {
+const [isMoreThat1500] = useMediaQuery(["(min-width: 1450px)"])
   
-  const mobile = `linear-gradient(184.08deg, rgba(9,21,64, 0.6), 100%, rgba(255,255,255,1), #091540 100%), url(${teamMobile})`
-  const tablet = `linear-gradient(270deg, rgba(36,155,171,0) 0%, rgba(36,155,171,0) 31.24%, #249BAB 90%), url(${teamTablet})`
-  const dekstop = `url(${teamDesktop})`
- 
 return (
     <Fragment>
       <Box as="header" minHeight={{base: "100vh", md:"750px", xl: "900px"}} maxHeight="900px" height="100%" overflow="hidden" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
@@ -67,7 +62,7 @@ return (
                 </Box>
                 <Box position="absolute" bottom={{base: "90px", md: "50px", lg: "0px"}} right={{base: "15px", md: "10%"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
                   <ReactScroll>
-                    <Icon name="downArrow" />
+                    <SVG name="downArrow" />
                   </ReactScroll>  
                 </Box>
               </Box>
@@ -81,13 +76,17 @@ return (
       <Box as="section" >
           <BannerOurCustomers />
       </Box>
-      <Box as="section" textStyle="section" backgroundImage={{base: mobile, md: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height={{base: "400px", md: "700px"}} width="100%" position="relative">
+      <Box as="section" textStyle="section" backgroundImage={{base: mobile,  sm: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height="auto" minHeight={{base: "auto", sm: "400px",  md: isMoreThat1500 ? "700px" :"auto"}} width="100%" position="relative">
           <Box textStyle="container" height="100%">
               <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
-                <Heading textStyle="h2" color={{base: "#fff", md: "inherit"}}>
+                <Box marginBottom={{base: "10px", md:"25px"}} fill="#fff" width={{base:"100px", md: "150px"}}>
+                  <Box display={{base: "none", sm: "block"}}><SVG name="twentyEmblem" width="100%" height="100%"  /></Box>
+                  <Box display={{base: "block", sm: "none"}}><SVG name="twentyEmblem" width="100%" height="100%" fill="#fff" /></Box>
+                </Box>
+                <Heading textStyle="h2" color={{base: "#fff", sm: "inherit"}}>
                   Meet the ASL team
                 </Heading>
-                <Text textStyle="p" marginBottom={12} color={{base: "#fff", md: "inherit"}} maxW={{base: "100%", md:"450px"}}>
+                <Text textStyle="p" marginBottom={{base: 6, md: 12}} color={{base: "#fff", sm: "inherit"}} maxW={{base: "100%", md:"450px"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
                 <Button variant="outline" maxWidth="151px" onClick={() => navigate('/team')}>Learn more</Button> 

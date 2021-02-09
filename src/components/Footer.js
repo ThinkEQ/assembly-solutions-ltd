@@ -3,7 +3,7 @@ import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
 
 // Load components
-import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl } from '@chakra-ui/react'
+import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl, Image } from '@chakra-ui/react'
 import SVG from './UI/SVG/index'
 import FormProvider from './Form/Form'
 
@@ -33,7 +33,7 @@ const SignUp = ({ isSubmitting }) => {
 
 const Footer = ({ toggleDrawer }) => {
   return(
-    <Box background="blue.900" color="#fff" textStyle="section">
+    <Box background="blue.900" color="#fff" textStyle="section" py="80px">
       <Box textStyle="container">
         <Heading fontSize="30px" lineHeight="36px" fontWeight="600" marginBottom="30px">
           Stay Connected
@@ -115,6 +115,9 @@ const Footer = ({ toggleDrawer }) => {
                 <Link as={ReachLink} to="/privacy-policy">
                   Privacy Policy
                 </Link>
+              </ListItem>
+              <ListItem display="flex" justifyContent="center">
+                <SVG name="twentyEmblem" fill="#fff" width="85px" height="90px" />
               </ListItem>
             </List>
           </Box>

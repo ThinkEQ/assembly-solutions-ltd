@@ -95,19 +95,20 @@ const BannerOurCustomers = () => {
             <Box width="100%" padding="50px 0">
                 <Carousel
                     autoPlay={true}
-                    autoPlaySpeed={3000}
+                    draggable={false}
+                    autoPlaySpeed={2000}
                     centerMode={isLessThan464 ? false : true}
                     arrows={false}
                     desktopView={3}
                     tabletView={2}
                     mobileView={2}
                 >
-                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Ford} width="100%" alt="Ford brand" /></Box>
-                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Stanley} width="100%" alt="Stanley brand" /></Box>
-                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Brompton} width="100%" alt="Brompton brand" /></Box>
-                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Vodafone} width="100%" alt="Vodafone brand" /></Box>
-                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Siemens} width="100%" alt="Siemans brand" /></Box>
-                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={AstonMartin} width="100%" alt="AstonMartin brand" /></Box>
+                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Ford} pointerEvents="none" width="100%" alt="Ford brand" /></Box>
+                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Stanley} pointerEvents="none" width="100%" alt="Stanley brand" /></Box>
+                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Brompton} pointerEvents="none" width="100%" alt="Brompton brand" /></Box>
+                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Vodafone} pointerEvents="none" width="100%" alt="Vodafone brand" /></Box>
+                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={Siemens} pointerEvents="none" width="100%" alt="Siemans brand" /></Box>
+                    <Box width={{base: "90%", md:"75%"}} height="100%" display="flex" alignItems="center" justifyContent="center"><Image src={AstonMartin} pointerEvents="none" width="100%" alt="AstonMartin brand" /></Box>
                 </Carousel>
                 </Box>
             </Box>
