@@ -179,7 +179,7 @@ const ContactUs = () => {
             T: 01204 521999
           </Text>
           <Link as="a" variant="nav" href="mailto:enquiry@assembly-solutions.com" target="_blank"  fontSize="26px" fontWeight="bold" lineHeight="31px">
-            E: Enquiry@
+            E: Enquiry@assembly-solutions.com
           </Link>
           <Text  fontSize="26px" fontWeight="bold" lineHeight="31px" marginTop="50px" marginBottom="15px">
             Where we are
