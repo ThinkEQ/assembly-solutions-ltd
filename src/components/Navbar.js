@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, { useRef, useEffect, useState } from 'react'
 import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
+
 
 // Load assets
 import Logo from '../img/logo.svg'
@@ -245,15 +246,17 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
   function handleScroll() {
       // Find scroll pos
       const currentScrollPos = window.pageYOffset
-
-      const navDisplay = prevScrollPos > currentScrollPos
+     
+      const navDisplay = currentScrollPos < 100 ? true : prevScrollPos > currentScrollPos
 
       // Set our display bool
       setVisible(navDisplay)
 
       // Set the current pos
       setScrollPos(currentScrollPos)
+
   }
+
   return (
      <Box animation={`${flow} infinite 15s ease`} position={isOpen ? "absolute" : "fixed"} width={{base:"100%", md: "auto", lg: "648px"}} {...slideNav} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex={!isOpen ?"1000" : ""}  alignItems="center">
         <Box padding="4" zIndex={menu === 'nav' ? "2000" : ""} >
