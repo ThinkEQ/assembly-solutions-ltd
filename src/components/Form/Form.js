@@ -1,6 +1,6 @@
 import React from 'react'
 import { navigate } from 'gatsby'
-import { Formik, Form, Field } from 'formik'
+import { Formik, Form } from 'formik'
 
 const FormProvider = ({ formName = 'contact', initialValues = {}, children, url = '', setRules = [] }) => {
 

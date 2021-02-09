@@ -1,6 +1,6 @@
 ---
 templateKey: product-category
-title: Control Panel Manufacturer
+title: Control Panels
 subtitle: Control Panel Manufacturer
 video: control-panel
 image: /img/flavor_wheel.jpg

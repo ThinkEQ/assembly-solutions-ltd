@@ -39,7 +39,7 @@ layout:
 
         \
 
-        “It’s been a privilege to work with my farther every day for 17 years! Many people can’t believe in all that time, we have never fallen out nor had a single argument. That’s just the respect we have for each other”. 
+        “It’s been a privilege to work with my father every day for 17 years! Many people can’t believe in all that time, we have never fallen out nor had a single argument. That’s just the respect we have for each other”. 
 
 
         My fondest memory with Graham was being taken to Hong Kong for my first business trip aged 22. We had 1 week there visiting exhibitions and meeting suppliers. It was a great trip and opened my eyes to how we could do a lot more international business. Since then we have developed strong partnerships in China and Eastern Europe. 

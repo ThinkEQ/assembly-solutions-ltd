@@ -3,7 +3,7 @@ import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
 
 // Load components
-import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl } from '@chakra-ui/react'
+import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl, Image } from '@chakra-ui/react'
 import SVG from './UI/SVG/index'
 import FormProvider from './Form/Form'
 
@@ -33,7 +33,7 @@ const SignUp = ({ isSubmitting }) => {
 
 const Footer = ({ toggleDrawer }) => {
   return(
-    <Box background="blue.900" color="#fff" textStyle="section">
+    <Box background="blue.900" color="#fff" textStyle="section" py="80px">
       <Box textStyle="container">
         <Heading fontSize="30px" lineHeight="36px" fontWeight="600" marginBottom="30px">
           Stay Connected
@@ -57,23 +57,23 @@ const Footer = ({ toggleDrawer }) => {
           <Box width={{base: "100%", lg:"48%"}} display="flex" justifyContent="space-between" paddingTop="10px">
             <List spacing="4">
               <ListItem {...para}>
-                <Link as={ReachLink} to="/uk-cable-assembly-manufacturer">
-                  UK Cable Assembly Manufacturer
+                <Link as={ReachLink} to="/cable-assembly">
+                  Cable Assembly
                 </Link>
               </ListItem>
               <ListItem {...para}>
                 <Link as={ReachLink} to="/wire-and-cable-preparation">
-                  Wire Preperation
+                  Wire and Cable Preparation
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/wiring-harness-manufacturer">
-                  Wiring Harnesses Manufacturer
+                <Link as={ReachLink} to="/wiring-harness">
+                  Wiring Harness
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/control-panel-manufacturer">
-                  Control Panel Manufacturer
+                <Link as={ReachLink} to="/control-panels">
+                  Control Panels
                 </Link>
               </ListItem>
             </List>
@@ -115,6 +115,9 @@ const Footer = ({ toggleDrawer }) => {
                 <Link as={ReachLink} to="/privacy-policy">
                   Privacy Policy
                 </Link>
+              </ListItem>
+              <ListItem display="flex" justifyContent="center">
+                <SVG name="twentyEmblem" fill="#fff" width="85px" height="90px" />
               </ListItem>
             </List>
           </Box>
