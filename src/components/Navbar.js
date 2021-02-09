@@ -23,14 +23,6 @@ const navText = {
   cursor: "pointer"
 }
 
-const menuLink = {
-  display: "block",
-  fontSize: "44px",
-  fontWeight: "bold",
-  fontFamily: "inherit",
-  color: "#fff"
-}
-
 const flow = keyframes `
   0%{background-position: 0% 50%}
   50%{background-position: 100% 50%}
@@ -264,7 +256,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
             <Image src={Logo} alt="asl logo" />
           </Link>
           </Box>
-          <Box padding="4" display="flex" zIndex="2000" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : ""} >
+          <Box padding="4" display="flex" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : ""} >
             <Text {...navText} minWidth="90px" display={{base: "none", lg: "block"}} onClick={() => toggleDrawer('nav')}>{(isOpen && menu === 'nav') ? 'Close menu' : 'View menu'}</Text>
             <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={() => toggleDrawer('nav')} />
           </Box>
