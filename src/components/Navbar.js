@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
 
