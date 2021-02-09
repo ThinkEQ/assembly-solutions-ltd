@@ -25,7 +25,7 @@ const TeamBody = ({ iconList, bio }) => {
                         <HTMLContent content={toHTML(bio)} />
                     </MDXWrapper>
                 </Box>
-                <Box width={{base: "100%", lg:"25%"}} minHeight="150px" background="neutral.900" height="auto"  display="flex" justifyContent="space-around" flexDirection={{base: "row", lg: "column"}} alignContent="center" flexWrap="wrap" alignItems="center">
+                <Box width={{base: "100%", lg:"25%"}} minHeight="150px" background="neutral.900" height="auto"  display="flex" justifyContent="space-between" padding="15px 0" flexDirection={{base: "row", lg: "column"}} alignContent="center" flexWrap="wrap" alignItems="center">
                 <Text textStyle="p" fontWeight="bold">Hobbies</Text>
                 {iconList.length > 0 &&
                     iconList.map((icon) => {
