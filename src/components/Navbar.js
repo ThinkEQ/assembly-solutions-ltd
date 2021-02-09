@@ -225,6 +225,9 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
   const [visible, setVisible] = useState(true)
   let menuDisplay = null
   const position = visible ? "0" : "-80px"
+
+  // Add smooth slide on scroll
+  const slideNav = isOpen ? {} : {transform: `translateY(${position})`, transition: ".4s all ease-in-out"}
   
   switch(menu) {
     case 'nav':
@@ -256,17 +259,17 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
       setScrollPos(currentScrollPos)
   }
   return (
-     <Box animation={`${flow} infinite 15s ease`} position={isOpen ? "absolute" : "fixed"} width={{base:"100%", md: "auto", lg: "648px"}} transform={`translateY(${position})`} transition=".4s all ease-in-out" top="0" right="0" height="72px" background={isOpen ? "transparent" :"gradient.900"} backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="2000"  alignItems="center">
-        <Box padding="4" display={(menu === 'contact') && isOpen ? 'none' : 'block'}>
+     <Box animation={`${flow} infinite 15s ease`} position={isOpen ? "absolute" : "fixed"} width={{base:"100%", md: "auto", lg: "648px"}} {...slideNav} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex={!isOpen ?"1000" : ""}  alignItems="center">
+        <Box padding="4" zIndex={menu === 'nav' ? "2000" : ""} >
           <Link as={ReachLink} to="/">
             <Image src={Logo} alt="asl logo" />
           </Link>
           </Box>
-          <Box padding="4" alignItems="center" justifyContent="center" display={(menu === 'contact' && isOpen)  ? 'none' : 'flex'} >
+          <Box padding="4" display="flex" zIndex="2000" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : ""} >
             <Text {...navText} minWidth="90px" display={{base: "none", lg: "block"}} onClick={() => toggleDrawer('nav')}>{(isOpen && menu === 'nav') ? 'Close menu' : 'View menu'}</Text>
             <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={() => toggleDrawer('nav')} />
           </Box>
-        <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" alignItems="center" height="100%" minWidth={{base: "40%", md:"222px"}} borderBottomLeftRadius="3.2px" justifyContent="center" display={(menu === 'contact' && isOpen) ? 'none' : 'flex'} zIndex={menu === 'nav' ? "2000" : "0"}>
+        <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" alignItems="center" height="100%" minWidth={{base: "40%", md:"222px"}} borderBottomLeftRadius="3.2px" justifyContent="center" display='flex' zIndex={menu === 'nav' ? "2000" : "0"}>
           <Image src={Chat} color="#fff" marginRight="5px"/>
           <Text {...navText}>get in touch</Text>
         </Box>
