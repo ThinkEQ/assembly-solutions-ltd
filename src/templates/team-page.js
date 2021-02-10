@@ -122,7 +122,7 @@ export const teamPageQuery = graphql`
           image {
             childImageSharp {
               fluid(maxHeight: 263, maxWidth: 292, quality: 60) {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_withWebp
                 presentationHeight
                 presentationWidth
               }

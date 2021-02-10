@@ -67,7 +67,7 @@ export const projectIndexQuery = graphql`
             image {
               childImageSharp {
                 fluid(maxHeight: 600, quality: 60) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp
                   presentationHeight
                 }
               }

@@ -161,7 +161,7 @@ query productPageQuery($id: String!) {
         image {
           childImageSharp {
             fluid(maxHeight: 680, quality: 60) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
               presentationHeight
             }
           }
@@ -171,7 +171,7 @@ query productPageQuery($id: String!) {
             image {
               childImageSharp {
                 fluid(maxHeight: 580, quality: 60) {
-                  ...GatsbyImageSharpFluid
+                  ...GatsbyImageSharpFluid_withWebp
                   presentationHeight
                 }
               }

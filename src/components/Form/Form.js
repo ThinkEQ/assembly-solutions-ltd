@@ -52,7 +52,7 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, url 
                   'form-name': formName,
                   ...values,
                 }),
-              }).then(() => navigate(url)).catch((error) => console.log(error, 'error'))
+              }).then(() => navigate(url)).catch((error) => alert(error))
            
               setSubmitting(false);
          }, 1000);
