@@ -118,8 +118,8 @@ export const pageQuery = graphql`
           quote
           image {
             childImageSharp {
-              fluid(maxHeight: 383, quality: 80) {
-                ...GatsbyImageSharpFluid
+              fluid(maxHeight: 383, quality: 60) {
+                ...GatsbyImageSharpFluid_withWebp
                 presentationHeight
               }
             }
@@ -127,8 +127,8 @@ export const pageQuery = graphql`
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 480, quality: 80) {
-              ...GatsbyImageSharpFluid
+            fluid(maxHeight: 480, quality: 60) {
+              ...GatsbyImageSharpFluid_withWebp
               presentationHeight
             }
           }
