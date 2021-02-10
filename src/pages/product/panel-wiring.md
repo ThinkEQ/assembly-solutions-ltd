@@ -2,6 +2,10 @@
 templateKey: product
 title: Panel Wiring
 subtitle: Wiring up the right solution for your business
+usps:
+  - usp: ISO9001 Quality Approved
+  - usp: Design Support
+  - usp: Low to high volume builds
 image: /img/blog-index.jpg
 layout:
   - type: full

@@ -2,6 +2,10 @@
 templateKey: product
 title: Nuclear Control Panels
 subtitle: Nuclear control panels
+usps:
+  - usp: ISO9001 Quality Approved
+  - usp: Design Support
+  - usp: Low to high volume builds
 image: /img/chemex.jpg
 layout:
   - type: full
