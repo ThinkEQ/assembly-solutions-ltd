@@ -72,7 +72,7 @@ export const newsIndexQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             image {
               childImageSharp {
-                fluid(maxHeight: 600, quality: 80) {
+                fluid(maxHeight: 600, quality: 60) {
                   ...GatsbyImageSharpFluid
                   presentationHeight
                 }

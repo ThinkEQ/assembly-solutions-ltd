@@ -4,10 +4,10 @@ import React from 'react'
 import { Box, Heading, Image, Text } from '@chakra-ui/react'
 
 // Load assets
-import Fast from '../../../img/fast.svg'
-import User from '../../../img/user-2.svg'
-import Hand from '../../../img/hand.svg'
-import Stars from '../../../img/stars.svg'
+import Fast from '../../../img/svg/fast.svg'
+import User from '../../../img/svg/user-2.svg'
+import Hand from '../../../img/svg/hand.svg'
+import Stars from '../../../img/svg/stars.svg'
 
 const Group = ({ text, icon, altText }) => {
     return (

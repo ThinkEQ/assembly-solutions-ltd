@@ -126,7 +126,7 @@ export const pageQuery = graphql`
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 480, quality: 80) {
+            fluid(maxHeight: 480, quality: 60) {
               ...GatsbyImageSharpFluid
               presentationHeight
             }

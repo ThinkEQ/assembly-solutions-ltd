@@ -16,11 +16,11 @@ import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerO
 import SVG from '../components/UI/SVG/index'
 
 // Load asset
-import teamTablet from '../img/tablet-about.png'
-import teamMobile from '../img/mobile-team.png'
+import teamTablet from '../img/default/tablet-about.png'
+import teamMobile from '../img/default/mobile-team.png'
 import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
 import homvidmp from '../videos/HOMEPAGEMP4.mp4'
-import teamDesktop from '../img/meettheteam2.jpg'
+import teamDesktop from '../img/default/meettheteam2.jpg'
 import '../components/UI/SVG/styles.css'
 
 const bounce = keyframes `
