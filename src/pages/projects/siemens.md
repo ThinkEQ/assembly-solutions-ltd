@@ -12,8 +12,9 @@ projectfeature:
   name: Siemens
   image: /img/siemens-project.png
 seo:
-  title: Siemens
-  description: Siemens
+  title: Project Siemens Cable Assemblies | ASL Customer Project
+  description: Cable Assemblies and Wire Preparation manufactured for world
+    leading technology company Siemens
 ---
 * ASL secure Siemens cable assembly business 
 * 50,000 wires produced per day on high speed machines 

@@ -12,8 +12,9 @@ projectfeature:
   name: Alexander Dennis
   image: /img/alexander-dennis-project.jpg
 seo:
-  title: Alexander Dennis
-  description: Test
+  title: Project Alexander Dennis Wiring Looms | ASL Customer Project
+  description: Wiring Looms and Cable Harness manufactured for UK leading Bus
+    Manufacturer Alexander Dennis
 ---
 * Celebrating 10 years with Alexander Dennis
 * Adapting to the green revolution of Electric and Hybrid technology

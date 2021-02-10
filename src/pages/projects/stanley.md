@@ -11,8 +11,9 @@ projectfeature:
     staff are a delight to deal with, always quick to quote and quick to help
     with any queries. We would highly recommend ASL!
 seo:
-  title: Stanley
-  description: Stanley
+  title: Project Stanley Cable Assemblies | ASL Customer Project
+  description: Cable Assemblies and Wiring Looms manufactured for world leading
+    security company Stanley Security Solutions
 ---
 * Celebrating a successful 20 Year Partnership 
 * Exploring opportunities creates expansion in product offering 
