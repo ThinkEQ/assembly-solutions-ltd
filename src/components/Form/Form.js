@@ -1,6 +1,6 @@
 import React from 'react'
 import { navigate } from 'gatsby'
-import { Formik, Form, Field } from 'formik'
+import { Formik, Form } from 'formik'
 
 const FormProvider = ({ formName = 'contact', initialValues = {}, children, url = '', setRules = [] }) => {
 
@@ -52,7 +52,7 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, url 
                   'form-name': formName,
                   ...values,
                 }),
-              }).then(() => navigate(url)).catch((error) => console.log(error, 'error'))
+              }).then(() => navigate(url)).catch((error) => alert(error))
            
               setSubmitting(false);
          }, 1000);

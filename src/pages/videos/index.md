@@ -19,6 +19,7 @@ youtube:
   - name: Outtakes
     id: a1WtEMgyijY
 seo:
-  title: Videos
-  description: Videos
+  title: Videos and Multimedia | Assembly Solutions Ltd
+  description: Videos and Multimedia by Assembly Solutions Ltd. Contact us on
+    01204 521999 for more information.
 ---

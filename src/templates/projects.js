@@ -16,7 +16,7 @@ export const ProjectIndexTemplate = ({ data, pagination }) => {
                 Projects
               </Text>
 
-              <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
+              <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
                 Have a browse through the diverse range of Projects that we have recently enjoyed working on
               </Heading>
             </Box>
@@ -40,7 +40,7 @@ const ProjectIndex =  ({data, pageContext}) => {
   const title = seo ? seo.title : posts[0].node.frontmatter.title
   const description = seo ? seo.description : undefined
   return (
-      <Layout metaTitle={title} metaDescription={description}>
+      <Layout  metaTitle="Customer Projects | Assembly Solutions Ltd" metaDescription="Project Case Studies from Assembly Solutions Ltd. Learn more about what we can do for your business today!">
         <ProjectIndexTemplate data={data} pagination={pageContext} />
       </Layout>
     )
@@ -66,8 +66,8 @@ export const projectIndexQuery = graphql`
             templateKey
             image {
               childImageSharp {
-                fluid(maxHeight: 600, quality: 80) {
-                  ...GatsbyImageSharpFluid
+                fluid(maxHeight: 600, quality: 60) {
+                  ...GatsbyImageSharpFluid_withWebp
                   presentationHeight
                 }
               }

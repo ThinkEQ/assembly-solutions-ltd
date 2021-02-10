@@ -74,14 +74,14 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
                 {title}
               </Text>
               <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} marginBottom={{base: "20px", lg: "0"}}>
-                  <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
+                  <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"65%"}} marginBottom="40px">
                     {subtitle}
                   </Heading>
                   <List spacing="6">
                   {usps.map((item) => {
                       return (
                           <ListItem display="flex" alignItems="center" fontSize="20px" lineHeight="28px">
-                              <ListIcon as={Check} fontSize="28px" />
+                              <ListIcon as={Check} fontSize="28px" marginRight="20px" />
                               {item.usp}
                           </ListItem>
                       )
@@ -254,8 +254,8 @@ query productCategoryPageQuery($id: String!) {
           }
           image {
             childImageSharp {
-              fluid(maxHeight: 680, quality: 80) {
-                ...GatsbyImageSharpFluid
+              fluid(maxHeight: 680, quality: 60) {
+                ...GatsbyImageSharpFluid_withWebp
                 presentationHeight
               }
             }
@@ -265,8 +265,8 @@ query productCategoryPageQuery($id: String!) {
               products
               image {
                 childImageSharp {
-                  fluid(maxHeight: 580, quality: 80) {
-                    ...GatsbyImageSharpFluid
+                  fluid(maxHeight: 580, quality: 60) {
+                    ...GatsbyImageSharpFluid_withWebp
                     presentationHeight
                   }
                 }

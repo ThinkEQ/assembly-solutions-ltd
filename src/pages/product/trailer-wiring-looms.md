@@ -65,4 +65,9 @@ layout:
         testing team. As well, with a sole factory in the North of England, we
         can guarantee fast turnaround times and we will be around when you need
         us.
+seo:
+  title: Trailer Wiring Loom | Wiring Loom Manufacturers | ASL
+  description: Trailer Wiring Loom and Wiring Harness manufacture by UK
+    Manufacturer Assembly Solutions. Contact us on 01204 521999 to discuss your
+    Trailer Wiring Loom.
 ---

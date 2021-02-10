@@ -27,7 +27,7 @@ export const ProjectArticleTemplate = ({
           <Link as={ReachLink} to="/projects" display="inline-block" textStyle="p" marginBottom="20px" fontSize="22px">
             Back to all projects
           </Link>
-          <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} >
+          <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"80%"}} >
             {title}
           </Heading>
         </Box>
@@ -118,8 +118,8 @@ export const pageQuery = graphql`
           quote
           image {
             childImageSharp {
-              fluid(maxHeight: 383, quality: 80) {
-                ...GatsbyImageSharpFluid
+              fluid(maxHeight: 383, quality: 60) {
+                ...GatsbyImageSharpFluid_withWebp
                 presentationHeight
               }
             }
@@ -127,8 +127,8 @@ export const pageQuery = graphql`
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 480, quality: 80) {
-              ...GatsbyImageSharpFluid
+            fluid(maxHeight: 480, quality: 60) {
+              ...GatsbyImageSharpFluid_withWebp
               presentationHeight
             }
           }

@@ -16,7 +16,7 @@ export const NewsIndexTemplate = ({ data, pagination }) => {
                 News
               </Text>
 
-              <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
+              <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
                 We are always up to something new, so keep yourself up to date on all our latest news stories
               </Heading>
             </Box>
@@ -41,7 +41,7 @@ const NewsIndex =  ({data, pageContext}) => {
   const description = seo ? seo.description : undefined
 
   return (
-    <Layout metaTitle={title} metaDescription={description}>
+    <Layout metaTitle="News and Articles | Assembly Solutions Ltd" metaDescription="News and articles from Assembly Solutions Ltd. Contact us on 01204 521999 for more information.">
       <NewsIndexTemplate data={data} pagination={pageContext} />
     </Layout>
   )
@@ -72,8 +72,8 @@ export const newsIndexQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             image {
               childImageSharp {
-                fluid(maxHeight: 600, quality: 80) {
-                  ...GatsbyImageSharpFluid
+                fluid(maxHeight: 600, quality: 60) {
+                  ...GatsbyImageSharpFluid_withWebp
                   presentationHeight
                 }
               }

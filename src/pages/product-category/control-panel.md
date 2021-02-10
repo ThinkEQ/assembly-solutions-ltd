@@ -1,7 +1,7 @@
 ---
 templateKey: product-category
 title: Control Panels
-subtitle: Control Panel Manufacture
+subtitle: Control Panel Manufacturer
 video: control-panel
 image: /img/flavor_wheel.jpg
 products:
@@ -11,8 +11,10 @@ products:
   - Automotive Control Panels
   - Nuclear Control Panels
 seo:
-  title: Control Panel
-  description: Control Panel
+  title: "Control Panels: Control Panel Manufacturers UK"
+  description: "Control Panel Manufacturers UK: Control Panel Solutions at Low
+    Costs and Quick Turnaround. Call ASL on 01204 521999 to discuss your Control
+    Panels."
 layout:
   - type: column
     column:

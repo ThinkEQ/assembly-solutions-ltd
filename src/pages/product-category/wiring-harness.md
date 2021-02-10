@@ -1,7 +1,7 @@
 ---
 templateKey: product-category
 title: Wiring Harness
-subtitle: Wiring Harness
+subtitle: Wiring Harness Manufacturer
 video: wiring-harness
 image: /img/chemex.jpg
 usps:
@@ -17,8 +17,10 @@ products:
   - Motorsport Harnesses
   - Trailer Wiring Looms
 seo:
-  title: Wiring Harness
-  description: Wiring Harness
+  title: Wiring Harness | Wire Harness - ASL Wiring Harness Manufacturer
+  description: Wiring Harness and Wire Harness Solutions from UK Manufacturer
+    Assembly Solutions. Call 01204 521999 for a low cost custom built wiring
+    loom quote.
 layout:
   - type: column
     column:
