@@ -5,9 +5,7 @@ import { Field } from 'formik'
 // Load components
 import { keyframes, Heading, Button, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from '@chakra-ui/react'
 import Hamburger from './UI/Hamburger/Hamburger'
-//import Button from '../theme/button'
 import SVG from '../components/UI/SVG/index'
-import Chat from '../img/svg/chat.svg'
 import GMap from '../components/Map/Map'
 import FormProvider from './Form/Form'
 
@@ -262,8 +260,8 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
             <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={openDrawer} />
           </Box>
           <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" alignItems="center" height="100%" minWidth={{base: "40%", md:"222px"}} borderBottomLeftRadius="3.2px" justifyContent="center" display='flex'>
-            <Image src={Chat} alt="chat bubble" color="#fff" marginRight="5px"/>
-            <Text {...navText}>get in touch</Text>
+            <SVG name="chat" color="#fff" />
+            <Text {...navText} marginLeft="5px">get in touch</Text>
           </Box>
         <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
         <DrawerOverlay />
@@ -282,8 +280,8 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
                 <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={openDrawer} />
               </Box>
               <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" margin="30px 0" alignItems="center" height="100%" minWidth={{base: "40%", md:"222px"}} borderBottomLeftRadius="3.2px" justifyContent="center" display='flex'>
-                <Image src={Chat} alt="chat bubble" color="#fff" marginRight="5px"/>
-                <Text {...navText}>get in touch</Text>
+                <SVG name="chat" color="#fff"/>
+                <Text {...navText} marginLeft="5px">get in touch</Text>
               </Box>
             </Box>
           }
