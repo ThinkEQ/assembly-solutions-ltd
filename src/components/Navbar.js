@@ -2,10 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
 
-
-// Load assets
-import Logo from '../img/svg/logo.svg'
-
 // Load components
 import { keyframes, Heading, Button, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from '@chakra-ui/react'
 import Hamburger from './UI/Hamburger/Hamburger'
@@ -258,7 +254,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
      <Box animation={`${flow} infinite 15s ease`} position="fixed" width={{base:"100%", md: "auto", lg: "648px"}} {...slideNav} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1000"  alignItems="center">
           <Box padding="4">
             <Link as={ReachLink} to="/">
-              <Image src={Logo} alt="asl logo" />
+              <SVG name="logo" />
             </Link>
           </Box>
           <Box padding="4" display="flex" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : ""} >
@@ -278,7 +274,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
             <Box display="flex" justifyContent="flex-end"  alignItems="center" height="72px" >
               <Box padding="4" >
               <Link as={ReachLink} to="/">
-                <Image src={Logo} alt="asl logo" />
+                <SVG name="logo" />
               </Link>
               </Box>
               <Box padding="4" display="flex" alignItems="center" justifyContent="center">

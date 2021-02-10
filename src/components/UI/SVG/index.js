@@ -26,9 +26,12 @@ import Knitting from './svgs/knitting'
 import Reading from './svgs/reading'
 import Xbox from './svgs/xbox'
 import TwentyEmblem from './svgs/twentyemblem'
+import Logo from './svgs/logo'
 
 const SvgIcon = (props) => {
     switch (props.name) {
+        case "logo":
+            return <Logo {...props} />
         case "linkedin": 
             return <LinkedIn {...props}/>
         case "youtube":
