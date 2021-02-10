@@ -78,4 +78,9 @@ layout:
         to a high level of quality, consistency and deliver on their promises
         which in turn allows confidence to commit to tight timescales and
         challenging schedules with our customers also.
+seo:
+  title: Panel Wiring | Panel Build Manufacturer | ASL
+  description: Electrical Panel Wiring and Control Panel Build from Assembly
+    Solutions. Guaranteed low costs and fast turnaround on all custom panel
+    build and assemblies.
 ---

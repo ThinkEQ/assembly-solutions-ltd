@@ -75,6 +75,8 @@ layout:
         challenging schedules with our customers also.
       name: ASL control panel client
 seo:
-  description: ""
-  title: ""
+  description: Panel Build and Panel Wiring from the electrical wiring experts,
+    Assembly Solutions. Call us on 01204 521999 to discuss all your electrical
+    panel build needs.
+  title: Panel Build | Assembly Solutions
 ---

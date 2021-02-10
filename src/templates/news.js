@@ -41,7 +41,7 @@ const NewsIndex =  ({data, pageContext}) => {
   const description = seo ? seo.description : undefined
 
   return (
-    <Layout metaTitle={title} metaDescription={description}>
+    <Layout metaTitle="News and Articles | Assembly Solutions Ltd" metaDescription="News and articles from Assembly Solutions Ltd. Contact us on 01204 521999 for more information.">
       <NewsIndexTemplate data={data} pagination={pageContext} />
     </Layout>
   )

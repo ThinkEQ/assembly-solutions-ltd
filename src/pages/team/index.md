@@ -171,6 +171,7 @@ team-members:
     interests:
       - xbox
 seo:
-  title: Our Team
-  description: Our Team
+  title: Meet the ASL Team | Get to know our People
+  description: Meet the Team at Assembly Solutions. Contact us on 01204 521999 for
+    more information.
 ---

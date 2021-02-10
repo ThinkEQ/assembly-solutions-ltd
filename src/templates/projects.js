@@ -40,7 +40,7 @@ const ProjectIndex =  ({data, pageContext}) => {
   const title = seo ? seo.title : posts[0].node.frontmatter.title
   const description = seo ? seo.description : undefined
   return (
-      <Layout metaTitle={title} metaDescription={description}>
+      <Layout  metaTitle="Customer Projects | Assembly Solutions Ltd" metaDescription="Project Case Studies from Assembly Solutions Ltd. Learn more about what we can do for your business today!">
         <ProjectIndexTemplate data={data} pagination={pageContext} />
       </Layout>
     )

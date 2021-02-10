@@ -81,4 +81,9 @@ layout:
         employees and their way of conducting business. But most importantly
         their dedication to innovation and working with us to improve our
         product yet reduce our cost base for now and the future.
+seo:
+  title: Electrical Panel Builders | Electrical Control Panel Manufacturers UK
+  description: "Electrical Control Panel Manufacturers UK: Assembly Solutions are
+    low cost electrical panel builders with multi-awards in design, manufacture
+    and installation."
 ---
