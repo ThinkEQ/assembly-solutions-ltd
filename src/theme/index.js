@@ -49,25 +49,29 @@ const overrides = {
                     letterSpacing: "0.71px",
                 },
                 ul: {
-                    listStyle: 'none'
+                    listStyle: 'none',
+                    "li::before": {
+                        position: 'absolute',
+                        top: '8px',
+                        left: '0px',
+                        content: "''",
+                        borderRadius: "50%",
+                        width: '15px',
+                        height: "15px",
+                        backgroundColor: mode("green.900")(props),
+                    },
+                    li: {
+                        display: "block",
+                        position: "relative",
+                        paddingLeft: "30px",
+                        paddingBottom: "10px",
+                        fontFamily: "inherit",
+                        fontSize: {base: "16px", md:"20px"},
+                    }
+                    
                 },
-                "li::before": {
-                    position: 'absolute',
-                    top: '8px',
-                    left: '0px',
-                    content: "''",
-                    borderRadius: "50%",
-                    width: '15px',
-                    height: "15px",
-                    backgroundColor: mode("green.900")(props),
-                },
-                li: {
-                    display: "block",
-                    position: "relative",
-                    paddingLeft: "30px",
-                    paddingBottom: "10px",
-                    fontFamily: "inherit",
-                    fontSize: {base: "16px", md:"20px"},
+                ol: {
+                    fontSize: "18px"
                 }
             }
         })
@@ -160,9 +164,5 @@ const overrides = {
         }
     }
 }
-
-//
-//
-//
 
 export default extendTheme(overrides)
