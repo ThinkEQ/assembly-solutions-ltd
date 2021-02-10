@@ -3,7 +3,7 @@ import React from 'react'
 // Load components
 import { Box, useMediaQuery, Image } from '@chakra-ui/react'
 import Carousel from './CustomCarousel'
-import LeftHandle from '../../img/leftHandle.svg'
+import LeftHandle from '../../img/svg/leftHandle.svg'
 import PreviewCompatibleImage from '../PreviewCompatibleImage'
 
 export const SlideLeft = ({ next }) => {

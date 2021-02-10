@@ -4,7 +4,7 @@ import { Field } from 'formik'
 
 
 // Load assets
-import Logo from '../img/logo.svg'
+import Logo from '../img/svg/logo.svg'
 
 // Load components
 import { keyframes, Heading, Button, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from '@chakra-ui/react'
@@ -266,7 +266,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
             <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={openDrawer} />
           </Box>
           <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" alignItems="center" height="100%" minWidth={{base: "40%", md:"222px"}} borderBottomLeftRadius="3.2px" justifyContent="center" display='flex'>
-            <Image src={Chat} color="#fff" marginRight="5px"/>
+            <Image src={Chat} alt="chat bubble" color="#fff" marginRight="5px"/>
             <Text {...navText}>get in touch</Text>
           </Box>
         <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
@@ -286,7 +286,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
                 <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={openDrawer} />
               </Box>
               <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" margin="30px 0" alignItems="center" height="100%" minWidth={{base: "40%", md:"222px"}} borderBottomLeftRadius="3.2px" justifyContent="center" display='flex'>
-                <Image src={Chat} color="#fff" marginRight="5px"/>
+                <Image src={Chat} alt="chat bubble" color="#fff" marginRight="5px"/>
                 <Text {...navText}>get in touch</Text>
               </Box>
             </Box>
