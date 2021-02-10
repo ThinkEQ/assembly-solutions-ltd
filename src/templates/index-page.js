@@ -111,7 +111,7 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout>
+    <Layout metaTitle="ASL - Cable Assembly, Panel Wiring & Control Panel Manufacturers" metaDescription="ASL are the UK leading Cable Assembly, Panel Wiring & Control Panel Manufacturers. Proud winners of Manufacturing Business of the Year Award.">
       <IndexPageTemplate
         title={frontmatter.title}
       />

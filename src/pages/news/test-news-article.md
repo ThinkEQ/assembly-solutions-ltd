@@ -13,8 +13,9 @@ testimonial:
     truly are amazing”.
 image: /img/img_8969.jpg
 seo:
-  title: Production Manager Damien reaches a record of 20 years service with ASL
-  description: Production Manager Damien reaches a record of 20 years service with ASL
+  title: Damien celebrates 20 years service at ASL | Service Award
+  description: ASL Team member Damien reaches 20 years service and celebrates the
+    great milestone.
 ---
 We are delighted to announce, our Production Manager Damien Walsh has reached a record of 20 years’ service with ASL. 
 

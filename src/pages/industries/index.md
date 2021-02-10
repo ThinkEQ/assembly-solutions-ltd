@@ -27,6 +27,11 @@ industries:
   - name: Nuclear
     image: /img/jumbotron.jpg
     alt: Nuclear
+seo:
+  title: Industries We Serve | Assembly Solutions
+  description: Industries we supply into include; Automotive, Nuclear, Security
+    and Utilities. Visit our website Assembly Solutions and discover our market
+    range in detail.
 ---
 We are definitely diverse when it comes to the Industries and different applications that we manufacture and supply into. 
 

@@ -19,6 +19,10 @@ projectfeature:
   quote: ASL have supplied our wiring looms for over 5 years now and continue to
     provide high quality products at a competitive price. We thank them for
     their support and for meeting our expectations.
+seo:
+  title: Project Brompton Bicycle Cable Assemblies | ASL Customer Project
+  description: "Cable Assemblies and Wiring Looms manufactured for British Bike
+    Manufacturer Brompton Bicycle. "
 ---
 Being an award winning UK based company, specialising in wiring looms and cable assemblies, we were able to deliver Brompton with the perfect solution, and the journey began!
 

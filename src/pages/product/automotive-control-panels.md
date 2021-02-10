@@ -1,6 +1,6 @@
 ---
 templateKey: product
-title: Automotive Control Panels
+title: Automotive Control Panel
 subtitle: Get back on the road with ASL
 image: /img/blog-index.jpg
 layout:
@@ -55,4 +55,9 @@ layout:
         availability, willingness to work with us and overall a first-class
         service.
       name: Geoff Barton, Purchasing Manager, Canberra
+seo:
+  title: Automotive Control Panel | Control Panel Manufacturers
+  description: Assembly Solutions manufacture Automotive Control Panel and
+    Instrumentation Panels. Call us on 01204 521999 to discuss your panel build
+    requirements.
 ---
