@@ -2,7 +2,7 @@
 templateKey: news-article
 title: Accounts Manager Amanda celebrates 10 Years with ASL
 date: 2021-02-11T09:06:09.822Z
-image: /img/20200623_152755.jpg
+image: /img/amandaimage.png
 seo:
   title: Accounts Manager Amanda celebrates 10 Years with ASL
   description: We are celebrating our Accounts Manager, Amanda Freeman after she

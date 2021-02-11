@@ -30,8 +30,8 @@ layout:
         * Earth strap 
         * Ultrasonic cables
       title: "We also offer:"
-  - type: full
-    full:
+  - type: column
+    column:
       title: Discover what sets ASL apart
       text: >-
         **Wire Preparation Cheaper than Overseas**
@@ -46,8 +46,8 @@ layout:
 
 
         As well, because our friendly family-run team are based in the UK, we’re running on the same time as you and there’s no language barrier to contend with – so we’re here when you need us. So, if you’re thinking about subcontracting your wire preparation overseas, why not get a quote from us first?
-  - type: full
-    full:
+  - type: column
+    column:
       title: China prices but better quality
       text: >-
         All our wire preparation jobs are done in our machines so we can our

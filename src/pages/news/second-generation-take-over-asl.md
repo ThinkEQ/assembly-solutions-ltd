@@ -9,16 +9,15 @@ seo:
 layout:
   - type: column
     column:
-      text: |-
-        * Founder Graham passes company down to second generation
-        * Gareth, Sophie and Oliver Balshaw take over ASL
-        * Record growth of 30% in 2020
-  - type: column
-    column:
       text: >-
-        ASL is celebrating new ownership, after Founder Graham Balshaw has
-        passed the company down to his three children; Gareth, Sophie and
-        Oliver.\
+        * Founder Graham passes company down to second generation
+
+        * Gareth, Sophie and Oliver Balshaw take over ASL
+
+        * Record growth of 30% in 2020
+
+
+        ASL is celebrating new ownership, after Founder Graham Balshaw has passed the company down to his three children; Gareth, Sophie and Oliver.\
 
         \
 
@@ -26,11 +25,31 @@ layout:
   - type: column
     column:
       text: >-
-        Speaking about passing his company down, Graham had this to say;\
+        “It has been a privilege to watch my children join the business one by
+        one, over the past 25 years and I couldn’t be more proud. Their work
+        ethic and dedication to growing the business made it a very easy
+        decision in passing the company down to them and I’m looking forward to
+        seeing them take ASL even further ”.
+
+
+
+
+
+
+        **Sophie is the creative Marketing Executive who is proud to share her passion and ambition with her two brothers.**\
 
         \
 
-        “It has been a privilege to watch my children join the business one by one, over the past 25 years and I couldn’t be more proud. Their work ethic and dedication to growing the business made it a very easy decision in passing the company down to them and I’m looking forward to seeing them take ASL even further ”.
+        “It’s quite an emotional milestone, especially when you look back and see how far we have all come. We started off as kids helping dad out in the school holidays, and here we are 20 years later taking over a £5million business!\
+
+        \
+
+        I joined ASL when I was 18, and the wealth of knowledge I have gained from my dad has been invaluable. He has given me so much time from mastering marketing techniques to teaching me the overall operations of running a business.\
+
+        \
+
+        I’m so excited for the future and whilst we will focus on the goals and push for further growth, we’ll most definitely enjoy the journey and look after one another. It’s a very fortunate position to be in, we’re extremely blessed”.
+      title: Speaking about passing his company down, Graham had this to say;
   - type: column
     column:
       text: >-
@@ -46,23 +65,6 @@ layout:
 
 
         We saw a record growth of 30% in 2020 and predicting further growth of 20% for 2021. Our plan for the next 5 years is to double the turnover to £10million by investing in more machinery and venturing into new markets. Whilst we appreciate such growth will come with challenges, we know with focus and hard work, it’s achievable”.
-  - type: column
-    column:
-      text: >-
-        Sophie is the creative Marketing Executive who is proud to share her
-        passion and ambition with her two brothers.\
-
-        \
-
-        “It’s quite an emotional milestone, especially when you look back and see how far we have all come. We started off as kids helping dad out in the school holidays, and here we are 20 years later taking over a £5million business!\
-
-        \
-
-        I joined ASL when I was 18, and the wealth of knowledge I have gained from my dad has been invaluable. He has given me so much time from mastering marketing techniques to teaching me the overall operations of running a business.\
-
-        \
-
-        I’m so excited for the future and whilst we will focus on the goals and push for further growth, we’ll most definitely enjoy the journey and look after one another. It’s a very fortunate position to be in, we’re extremely blessed”.
   - type: column
     column:
       text: >-
