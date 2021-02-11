@@ -45,6 +45,7 @@ team-members:
       Sophie loves being by the sea, so she spends most weekends wakesurfing down the welsh coast, or relaxing on deck with a glass of prosecco!
     interests:
       - surfing
+      - skiing
     image: /img/team3.png
   - name: Oliver Balshaw
     jobtitle: Purchasing Manager

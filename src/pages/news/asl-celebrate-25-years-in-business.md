@@ -7,8 +7,8 @@ seo:
   title: "ASL Celebrate 25 Years in Business "
   description: "ASL Celebrate 25 Years in Business "
 layout:
-  - type: column
-    column:
+  - type: full
+    full:
       text: >-
         We are celebrating 25 years in business, after our Founder Graham
         Balshaw had the passion to set up an electrical manufacturing company,

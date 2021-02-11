@@ -22,6 +22,7 @@ const overrides = {
                 h1: {
                     fontSize: {base: "42px", md:"60px"},
                     lineHeight: {base: "62px", md:"72px"},
+                    margin: "20px 0",
                     lettSpacing: "-2.12px",
                     fontWeight: 600
                 },
@@ -29,22 +30,26 @@ const overrides = {
                     fontSize: {base: "28px", md:"44px"},
                     lineHeight: {base: "34px", md: "53px"},
                     letterSpacing: "-1.55px",
+                    margin: "20px 0",
                     fontWeight: 600
                 },
                 h3: {
                     fontSize: "30px",
                     lineHeight: "36px",
                     letterSpacing: "-1.06px",
+                    margin: "20px 0",
                     fontWeight: 600
                 },
                 h4: {
                     fontSize: "24px",
                     lineHeight: "36px",
                     letterSpacing: "-1.06px",
+                    margin: "20px 0",
                     fontWeight: 600
                 },
                 p: {
                     fontSize: {base: "16px", md:"20px"},
+                    margin: "15px 0",
                     lineHeight: "38px",
                     letterSpacing: "0.71px",
                 },
@@ -96,6 +101,7 @@ const overrides = {
         h1: {
             fontSize: {base: "42px", md:"60px"},
             lineHeight: {base: "62px", md:"72px"},
+            margin: "20px 0",
             lettSpacing: "-2.12px",
             fontWeight: 600
         },
@@ -103,23 +109,27 @@ const overrides = {
             fontSize: {base: "28px", md:"44px"},
             lineHeight: {base: "34px", md: "53px"},
             letterSpacing: "-1.55px",
+            margin: "20px 0",
             fontWeight: 600
         },
         h3: {
             fontSize: "30px",
             lineHeight: "36px",
             letterSpacing: "-1.06px",
+            margin: "20px 0",
             fontWeight: 600
         },
         h4: {
             fontSize: "24px",
             lineHeight: "36px",
             letterSpacing: "-1.06px",
+            margin: "20px 0",
             fontWeight: 600
         },
         p: {
             fontSize: {base: "16px", md:"20px"},
             lineHeight: "38px",
+            margin: "15px 0",
             letterSpacing: "0.71px",
         },
         section: {
