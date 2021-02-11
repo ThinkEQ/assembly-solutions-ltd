@@ -28,16 +28,19 @@ layout:
 
         * Accounts Assistant to Accounts Manager
 
-        * Amanda reflects on personal growth]
-
-
-        ### Managing Director, Gareth is happy to see another team member reach 10 years
-
-
-        "Amanda has been a brilliant addition to the team and I am delighted to see her reach 10 years with the company. As our Accounts Manager, she has a very important role, and especially through recent years where the company has seen significant growth in a very short space of time.
+        * Amanda reflects on personal growth
+  - type: column
+    column:
+      text: >-
+        "Amanda has been a brilliant addition to the team and I am delighted to
+        see her reach 10 years with the company. As our Accounts Manager, she
+        has a very important role, and especially through recent years where the
+        company has seen significant growth in a very short space of time.
 
 
         Amanda does an incredible job and has built a brilliant team in the accounts department. I hope she continues on our journey and reaches another 10 years!"
+      title: Managing Director, Gareth is happy to see another team member reach 10
+        years
   - type: testimonial
     testimonial:
       quote: During my 10 years at ASL, I have been given great opportunities both in
