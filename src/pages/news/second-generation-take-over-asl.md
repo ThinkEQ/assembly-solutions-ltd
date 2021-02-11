@@ -2,7 +2,7 @@
 templateKey: news-article
 title: Second Generation take over ASL
 date: 2021-02-08T16:11:30.135Z
-image: /img/second-generation-take-over.png
+image: /img/news-img.png
 seo:
   title: Second Generation take over ASL
   description: Second Generation take over ASL
