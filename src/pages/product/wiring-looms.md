@@ -1,6 +1,6 @@
 ---
 templateKey: product
-title: Wiring Looms
+title: Wiring Loom
 subtitle: UK wiring loom manufacturers
 usps:
   - usp: UK Made in Bolton
@@ -107,4 +107,9 @@ layout:
       text: Call our friendly sales team today on 01204 521999, or send your loom
         enquiry by email to enquiry@assembly-solutions.com. We look forward to
         working with you.
+seo:
+  title: "Wiring Loom | Cable Harness: Wire Loom and Harness Manufacturers UK"
+  description: "Wiring Loom Manufacturers UK: Wiring Harness Solutions from UK
+    Manufacturer Assembly Solutions. Call 01204 521999 for a low cost custom
+    built quote."
 ---

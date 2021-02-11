@@ -2,6 +2,10 @@
 templateKey: product
 title: Panel Build
 subtitle: Electrical control panels built with you in mind
+usps:
+  - usp: ISO9001 Quality Approved
+  - usp: Design Support
+  - usp: Low to high volume builds
 image: /img/blog-index.jpg
 layout:
   - type: full
@@ -75,6 +79,8 @@ layout:
         challenging schedules with our customers also.
       name: ASL control panel client
 seo:
-  description: ""
-  title: ""
+  description: Panel Build and Panel Wiring from the electrical wiring experts,
+    Assembly Solutions. Call us on 01204 521999 to discuss all your electrical
+    panel build needs.
+  title: Panel Build | Assembly Solutions
 ---

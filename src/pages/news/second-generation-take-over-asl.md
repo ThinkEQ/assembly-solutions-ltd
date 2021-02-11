@@ -4,8 +4,9 @@ title: Second Generation take over ASL
 date: 2021-02-08T16:11:30.135Z
 image: /img/news-img.png
 seo:
-  title: Second Generation take over ASL
-  description: Second Generation take over ASL
+  title: Second Generation take over ASL | New Family Ownership
+  description: "ASL celebrates new ownership after company is passed down to
+    Second Generation from Father and Founder Graham Balshaw "
 layout:
   - type: column
     column:

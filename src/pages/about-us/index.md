@@ -10,10 +10,12 @@ intro: >-
 
 
   Family values are not just words, they're a real thing that you can see when walking around the factory. We work together as a team, sharing the same vision, values and goals.
-image: /img/chemex.jpg
+image: /img/about-us-cover.png
 seo:
-  title: About
-  description: Test about page
+  title: About ASL | Information on Assembly Solutions Ltd
+  description: About ASL, Assembly Solutions is a cable assembly and wiring
+    harness manufacturer based in Bolton. Call 01204 521999 for more information
+    on our products.
 ---
 We run a really efficient operation. Every production line is streamlined for fast manufacture, so that we can deliver products in the quickest possible time.
 

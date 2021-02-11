@@ -26,8 +26,10 @@ products:
   - Earth Straps
   - Ribbon Cables
 seo:
-  title: Cable Assembly
-  description: Cable Assembly
+  title: Cable Assembly | Cable Assembly Manufacturer | ASL
+  description: Assembly Solutions are the UK's leading Cable Assembly
+    Manufacturer. Call us on 01204 521999 to discuss your electrical cable
+    assembly needs.
 layout:
   - type: column
     column:

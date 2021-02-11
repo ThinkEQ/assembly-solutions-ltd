@@ -90,4 +90,8 @@ layout:
       title: Connect with Us
       text: We love sharing all our latest news and goings on, so follow us on
         Linkedin to see what we’ve been up to this week!
+seo:
+  title: Earth Strap | Earth Lead | Braided Cable | ASL
+  description: Earth Strap and Earth Leads from Assembly Solutions. Suppliers of
+    any Braided Cable Assembly. Call 01204 521999 for a quick low cost quote.
 ---

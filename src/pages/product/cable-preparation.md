@@ -1,7 +1,5 @@
 ---
 templateKey: product
-title: Cable Preparation
-subtitle: Wire and cable preparation rooted in quality
 usps: []
 related-products:
   - name: Cable Assemblies
@@ -18,6 +16,8 @@ related-products:
     slug: braded-cables
     image: /img/chemex.jpg
     alt: Braided Cables
+title: Cable Preparation
+subtitle: Wire and cable preparation rooted in quality
 image: /img/stock.jpg
 images:
   - image: /img/stock.jpg
@@ -97,4 +97,9 @@ layout:
         * Award-winning UK service
         * Available when you need us
       title: With ASL you can expect;
+seo:
+  title: Cable Preparation | Wire Preparation | ASL
+  description: Cable Preparation and Wire Preparation. Cut, Strip and Terminate
+    service on any wire or cable. High speed machinery for fast turnaround
+    Cable.
 ---

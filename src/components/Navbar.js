@@ -2,16 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
 
-
-// Load assets
-import Logo from '../img/logo.svg'
-
 // Load components
 import { keyframes, Heading, Button, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from '@chakra-ui/react'
 import Hamburger from './UI/Hamburger/Hamburger'
-//import Button from '../theme/button'
 import SVG from '../components/UI/SVG/index'
-import Chat from '../img/svg/chat.svg'
 import GMap from '../components/Map/Map'
 import FormProvider from './Form/Form'
 
@@ -258,7 +252,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
      <Box animation={`${flow} infinite 15s ease`} position="fixed" width={{base:"100%", md: "auto", lg: "648px"}} {...slideNav} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1000"  alignItems="center">
           <Box padding="4">
             <Link as={ReachLink} to="/">
-              <Image src={Logo} alt="asl logo" />
+              <SVG name="logo" />
             </Link>
           </Box>
           <Box padding="4" display="flex" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : ""} >
@@ -266,8 +260,8 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
             <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={openDrawer} />
           </Box>
           <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" alignItems="center" height="100%" minWidth={{base: "40%", md:"222px"}} borderBottomLeftRadius="3.2px" justifyContent="center" display='flex'>
-            <Image src={Chat} color="#fff" marginRight="5px"/>
-            <Text {...navText}>get in touch</Text>
+            <SVG name="chat" color="#fff" />
+            <Text {...navText} marginLeft="5px">get in touch</Text>
           </Box>
         <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
         <DrawerOverlay />
@@ -278,7 +272,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
             <Box display="flex" justifyContent="flex-end"  alignItems="center" height="72px" >
               <Box padding="4" >
               <Link as={ReachLink} to="/">
-                <Image src={Logo} alt="asl logo" />
+                <SVG name="logo" />
               </Link>
               </Box>
               <Box padding="4" display="flex" alignItems="center" justifyContent="center">
@@ -286,8 +280,8 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
                 <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={openDrawer} />
               </Box>
               <Box onClick={() => toggleDrawer('contact')} bg="blue.800" padding="4" margin="30px 0" alignItems="center" height="100%" minWidth={{base: "40%", md:"222px"}} borderBottomLeftRadius="3.2px" justifyContent="center" display='flex'>
-                <Image src={Chat} color="#fff" marginRight="5px"/>
-                <Text {...navText}>get in touch</Text>
+                <SVG name="chat" color="#fff"/>
+                <Text {...navText} marginLeft="5px">get in touch</Text>
               </Box>
             </Box>
           }
