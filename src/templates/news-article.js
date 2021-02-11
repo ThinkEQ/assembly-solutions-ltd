@@ -45,7 +45,7 @@ export const NewsArticleTemplate = ({
 
                 if (content.type === 'full') {
                     return (
-                        <GridItem colSpan={span}>
+                        <GridItem colSpan={span} maxWidth={{base: "100%", lg:"60%"}} margin="0 auto">
                             <Heading as="h4" textStyle="h4" marginBottom="20px">
                                 {content.full.title}
                             </Heading>
@@ -55,7 +55,7 @@ export const NewsArticleTemplate = ({
                 }
                 if (content.type === 'testimonial') {
                     return (
-                        <GridItem colSpan={{base: 2,  lg: span}}>
+                        <GridItem colSpan={{base: 2,  lg: 2}}>
                             <Testimonial author={content.testimonial.name}  quote={content.testimonial.quote} />
                         </GridItem>
                     )
