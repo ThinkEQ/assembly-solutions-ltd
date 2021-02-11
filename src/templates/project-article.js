@@ -56,7 +56,7 @@ export const ProjectArticleTemplate = ({
               
               {/**Main body content */}
               <MDXWrapper>
-                <CMSContent content={content} />
+                <CMSContent content={content} /> 
               </MDXWrapper>
             </Box>       
         </Box>
