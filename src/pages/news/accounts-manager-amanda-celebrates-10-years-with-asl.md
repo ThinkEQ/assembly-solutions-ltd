@@ -1,33 +1,31 @@
 ---
 templateKey: news-article
-title: Accounts Manager Amanda celebrates 10 Years with ASL
-date: 2021-02-10T21:32:00.781Z
+title: Accounts Manager Amanda celebrates 10 Years with ASL
+date: 2021-02-11T09:06:09.822Z
 image: /img/20200623_152755.jpg
 seo:
-  title: Accounts Manager Amanda celebrates 10 Years with ASL
+  title: Accounts Manager Amanda celebrates 10 Years with ASL
   description: We are celebrating our Accounts Manager, Amanda Freeman after she
     has reached the amazing anniversary of 10 Years’ Service!
 layout:
+  - type: column
+    column:
+      text: >-
+        We are celebrating our Accounts Manager, Amanda Freeman after she has
+        reached the amazing anniversary of 10 Years’ Service!
+
+
+        Amanda joined ASL back in June 2010 when she was looking for the right company to progress in her passion in Accounting.
+
+
+        Since being welcomed on board 10 years ago, Amanda has proved to be a very valuable member of the team after growing her Accounting portfolio of Qualifications. These include; Advanced Diploma in Accounting Level 3, and Professional Diploma in Accounting Level 4. This development and commitment to grow her knowledge landed her with a well-deserved promotion to Accounts Manager.
+      title: Celebrating 10 Years
   - type: column
     column:
       text: |-
         * Celebrating 10 Years at ASL
         * Accounts Assistant to Accounts Manager
         * Amanda reflects on personal growth
-  - type: column
-    column:
-      title: Celebrating 10 Years
-      text: >-
-        We are celebrating our Accounts Manager, Amanda Freeman after she has
-        reached the amazing anniversary of 10 Years’ Service!\
-
-        \
-
-        Amanda joined ASL back in June 2010 when she was looking for the right company to progress in her passion in Accounting.\
-
-        \
-
-        Since being welcomed on board 10 years ago, Amanda has proved to be a very valuable member of the team after growing her Accounting portfolio of Qualifications. These include; Advanced Diploma in Accounting Level 3, and Professional Diploma in Accounting Level 4. This development and commitment to grow her knowledge landed her with a well-deserved promotion to Accounts Manager.
   - type: testimonial
     testimonial:
       quote: During my 10 years at ASL, I have been given great opportunities both in
@@ -41,11 +39,18 @@ layout:
     column:
       title: Managing Director, Gareth is happy to see another team member reach 10
         years
-      text: '"Amanda has been a brilliant addition to the team and I am delighted to
+      text: |-
+        "Amanda has been a brilliant addition to the team and I am delighted to
+
         see her reach 10 years with the company. As our Accounts Manager, she
+
         has a very important role, and especially through recent years where the
+
         company has seen significant growth in a very short space of time.
+
         Amanda does an incredible job and has built a brilliant team in the
+
         accounts department. I hope she continues on our journey and reaches
-        another 10 years!”.'
+
+        another 10 years!"
 ---
