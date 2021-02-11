@@ -8,8 +8,8 @@ seo:
   description: "ASL celebrates new ownership after company is passed down to
     Second Generation from Father and Founder Graham Balshaw "
 layout:
-  - type: column
-    column:
+  - type: full
+    full:
       text: >-
         * Founder Graham passes company down to second generation
 
@@ -23,18 +23,12 @@ layout:
         \
 
         Since starting the business 25 years ago, Graham is delighted to keep the £5million business in the family.
-  - type: column
-    column:
-      text: >-
-        “It has been a privilege to watch my children join the business one by
-        one, over the past 25 years and I couldn’t be more proud. Their work
-        ethic and dedication to growing the business made it a very easy
-        decision in passing the company down to them and I’m looking forward to
-        seeing them take ASL even further ”.
 
 
+        Speaking about passing his company down, Graham had this to say;
 
 
+        “It has been a privilege to watch my children join the business one by one, over the past 25 years and I couldn’t be more proud. Their work ethic and dedication to growing the business made it a very easy decision in passing the company down to them and I’m looking forward to seeing them take ASL even further ”.
 
 
         **Sophie is the creative Marketing Executive who is proud to share her passion and ambition with her two brothers.**\
@@ -50,12 +44,9 @@ layout:
         \
 
         I’m so excited for the future and whilst we will focus on the goals and push for further growth, we’ll most definitely enjoy the journey and look after one another. It’s a very fortunate position to be in, we’re extremely blessed”.
-      title: Speaking about passing his company down, Graham had this to say;
-  - type: column
-    column:
-      text: >-
-        Gareth joined the business in 2002 aged 18 and has worked his way to the
-        top after being appointed Managing Director in 2019.\
+
+
+        Gareth joined the business in 2002 aged 18 and has worked his way to the top after being appointed Managing Director in 2019.\
 
         \
 
@@ -66,11 +57,9 @@ layout:
 
 
         We saw a record growth of 30% in 2020 and predicting further growth of 20% for 2021. Our plan for the next 5 years is to double the turnover to £10million by investing in more machinery and venturing into new markets. Whilst we appreciate such growth will come with challenges, we know with focus and hard work, it’s achievable”.
-  - type: column
-    column:
-      text: >-
-        Oliver is the Purchasing Manager and is really excited for this next
-        chapter in the business.\
+
+
+        Oliver is the Purchasing Manager and is really excited for this next chapter in the business.\
 
         \
 

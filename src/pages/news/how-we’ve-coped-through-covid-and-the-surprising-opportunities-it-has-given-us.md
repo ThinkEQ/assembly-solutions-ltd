@@ -8,9 +8,8 @@ seo:
   description: Worldwide pandemic gives ASL new Opportunities to support Medical
     Industry and suppy cable assemblies for hospital apparatus and equipment
 layout:
-  - type: column
-    column:
-      title: ""
+  - type: full
+    full:
       text: >-
         * Sales growth of 1 MILLION including supporting Medical Sector
 
@@ -22,29 +21,21 @@ layout:
         A pandemic that struck us all ​
 
 
-        ​
-
-
         When COVID-19 struck us all last year, it was without a doubt the most uncertain and worrying time for a lot of businesses.​
 
 
-        ​
-
-
         On Monday 16th March 2020, we were instructed to “Stay at Home” if you could work from home. The following morning we called all managers into an urgent meeting, to discuss what we needed to do, to follow this new government guideline.​
-
-
-        ​
 
 
         Probably like most businesses, we weren’t equipped or prepared for this change. We quickly recognised that we needed to invest £10,000 in new laptops for all those who would have to start working from home. 
 
 
         This was a cost we hadn’t budged for in the year, but we had no other option but to go ahead. Our IT support did a super job getting the laptops arranged and we’re thankful to our office staff, who all made the “work from home” transition very smooth and stress-free.​
-  - type: column
-    column:
-      title: Our biggest ever opportunity​
-      text: >-
+
+
+        ### Our biggest ever opportunity
+
+
         In April we received a huge opportunity which very much came to us as a surprise, and contributed towards a record growth in sales of £1Million. The enquiry came from a UK company who have a manufacturing plant in India but due to the pandemic, had to close their Indian factory.​
 
 
@@ -52,10 +43,11 @@ layout:
 
 
         We had to recruit 20 new members of staff and it’s with thanks to our local agency that supported us, by providing a team of skilled production operators that we had fully trained up in a matter of weeks. The contract lasted 6 months and apart from some long lead times on tooling, overall the project was a big success.  ​
-  - type: column
-    column:
-      title: Supporting the Medical Industry​
-      text: >-
+
+
+        ### Supporting the medical industry
+
+
         We have supplied the medical industry for over 20 years with various electrical cable assemblies for apparatus and equipment.​
 
 
@@ -78,10 +70,11 @@ layout:
 
 
         ​The effect on these industries has been pretty damaging for some, and so we are supporting them in the best ways we can.​
-  - type: column
-    column:
-      title: Team spirit and rising through the challenges​
-      text: >-
+
+
+        ### Team spirit and rising through the challenges
+
+
         Our team have been absolutely unbelievable throughout this very different year, and have pulled together in a way which is absolutely admirable. Every single person has supported all the changes we’ve made, and really risen to the challenges during this rapid growth.​
 
 

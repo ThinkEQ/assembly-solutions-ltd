@@ -16,21 +16,22 @@ seo:
   title: Production Manager Damien reaches a record of 20 years service with ASL
   description: Production Manager Damien reaches a record of 20 years service with ASL
 layout:
-  - type: column
-    column:
-      text: |-
-        * Celebrating 20 Years at ASL
-        * Record for longest serving employee
-        * Damien pays tribute to wonderful team
-  - type: column
-    column:
-      title: Celebrating 20 Years
+  - type: full
+    full:
       text: >-
-        Damien has been crowned with the record of 20 Years at ASL after joining
-        ASL in 1995 as a
+        * Celebrating 20 Years at ASL
+
+        * Record for longest serving employee
+
+        * Damien pays tribute to wonderful team
+
+
+        ### Celebrating 20 Years
+
+
+        Damien has been crowned with the record of 20 Years at ASL after joining ASL in 1995 as a
 
         wiring loom assembly operator!
-
 
 
         Since joining the company, Damien took to the day to day challenges like a duck to water. He
@@ -40,10 +41,18 @@ layout:
         operator, to production supervisor, to now a senior production manager for all wiring harnesses.
 
 
-
         Damien is the only person in the company who has reached 20 years’ service so he also holds
 
         the tremendous title of being ASL’s longest serving employee!
+
+
+        ### Founder, Graham is delighted to see Damien reach 20 years
+
+
+        "Damien has done an outstanding job for the company since I signed him up all those years ago.
+
+
+        He was only a young teenager when he joined, but I could instantly see that he was a bright and capable individual who I needed on my team. It has been great watching Damien develop into a successful senior manager, and he has grown great respect from myself, and everyone within the company”.
   - type: testimonial
     testimonial:
       quote: >-
@@ -58,16 +67,6 @@ layout:
 
         they have given me over the years. They truly are amazing.
       name: Damien
-  - type: column
-    column:
-      text: >-
-        "“Damien has done an outstanding job for the company since I signed him
-        up all those years ago.
-
-
-
-        He was only a young teenager when he joined, but I could instantly see that he was a bright and capable individual who I needed on my team. It has been great watching Damien develop into a successful senior manager, and he has grown great respect from myself, and everyone within the company”.
-      title: Founder, Graham is delighted to see Damien reach 20 years
 ---
 We are delighted to announce, our Production Manager Damien Walsh has reached a record of 20 years’ service with ASL. 
 
