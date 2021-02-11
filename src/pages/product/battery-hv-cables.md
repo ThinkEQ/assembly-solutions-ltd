@@ -88,4 +88,9 @@ layout:
       title: Want to talk technical?
       text: Our super sales engineers are here to do just that! Call 01204 521999 and
         let’s get started!
+seo:
+  title: Battery Cables | Cable Assembly | ASL
+  description: Battery Cables and Cable Assemblies from Assembly Solutions.
+    Experts in Low Cost Battery Cable Assemblies, Wire Harnesses and Cable
+    Preparation.
 ---

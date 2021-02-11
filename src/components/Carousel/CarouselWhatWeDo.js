@@ -6,12 +6,12 @@ import Carousel from './CustomCarousel'
 import ProductSlide from '../ProductSlide/ProductSlide'
 
 // Load assets
-import LeftHandle from '../../img/leftHandle.svg'
-import RightHandle from '../../img/rightHandle.svg'
-import wirePrep from '../../img/wireprep.jpg'
-import wiring from '../../img/wiring-harnesses.png'
-import cable from '../../img/cable-assemblies.png'
-import control from '../../img//control-panels.png'
+import LeftHandle from '../../img/svg/leftHandle.svg'
+import RightHandle from '../../img/svg/rightHandle.svg'
+import wirePrep from '../../img/default/wireprep.jpg'
+import wiring from '../../img/default/wiring-harnesses.png'
+import cable from '../../img/default/cable-assemblies.png'
+import control from '../../img/default/control-panels.png'
 //#152d71
 //#10225a
 //#091642

@@ -3,7 +3,7 @@ import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
 
 // Load components
-import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl, Image } from '@chakra-ui/react'
+import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl } from '@chakra-ui/react'
 import SVG from './UI/SVG/index'
 import FormProvider from './Form/Form'
 
@@ -20,7 +20,7 @@ const SignUp = ({ isSubmitting }) => {
     {({ field, form }) => (
       <FormControl id="email" isInvalid={form.errors.email && form.touched.email}>
         <InputGroup size="lg">
-          <Input {...field} borderRadius="3px" id="email" name="email" type="email" color="blue.900" placeholder="name@email.com" borderColor="blue.900" border="none" height={{base: "51px", md:"72px"}} background="#fff" />
+          <Input {...field} borderRadius="3px" id="email" name="email" type="email" aria-label="email" color="blue.900" placeholder="name@email.com" borderColor="blue.900" border="none" height={{base: "51px", md:"72px"}} background="#fff" />
           <InputRightElement width={{base: "110px", md:"175px"}} padding="0" children={<Button variant="solid" size="full" type="submit" isLoading={isSubmitting} loadingText="Submitting" paddingRight={{base: "0", md: "2.5rem"}} paddingLeft={{base: "0", md: "2.5rem"}} whiteSpace="nowrap">Subscribe</Button>} height={{base: "51px", md:"72px"}} background="green.900" fontWeight="bold" borderTopRightRadius="3px" borderBottomRightRadius="3px" />
         </InputGroup>
         <FormErrorMessage>{form.errors.email}</FormErrorMessage>

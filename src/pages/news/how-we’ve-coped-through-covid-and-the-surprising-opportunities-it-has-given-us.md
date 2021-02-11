@@ -4,10 +4,9 @@ title: How we’ve coped through COVID and the surprising opportunities it has g
 date: 2021-01-15T09:11:24.756Z
 image: /img/asl-47.png
 seo:
-  title: How we’ve coped through COVID and the surprising opportunities it has
-    given us
-  description: How we’ve coped through COVID and the surprising opportunities it
-    has given us
+  title: How we have coped through Covid and the surprising Opportunities
+  description: Worldwide pandemic gives ASL new Opportunities to support Medical
+    Industry and suppy cable assemblies for hospital apparatus and equipment
 layout:
   - type: column
     column:

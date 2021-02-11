@@ -1,17 +1,24 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { navigate } from 'gatsby-link'
 
 // Load components
-import { Box, Heading, Text, SimpleGrid, Button } from '@chakra-ui/react'
-import TeamCard from '../components/Cards/TeamCard/TeamCard'
+import { Box, Heading, Text, SimpleGrid, Button, Modal, ModalBody, ModalOverlay, useDisclosure, ModalContent, ModalHeader, ModalCloseButton } from '@chakra-ui/react'
+import TeamCard, { TeamBody, TeamHeader } from '../components/Cards/TeamCard/TeamCard'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 
 // Load layout
 import Layout from '../components/Layout'
 
 export const TeamPageTemplate = ({ title, teamMembers }) => {
+  const [teamMember, setTeamMember] = useState({})
+  const {isOpen, onOpen, onClose} = useDisclosure()
+
+  function loadMember(member) {
+      setTeamMember(member)
+      onOpen()
+  }
 
   return (
     <Fragment>
@@ -40,7 +47,9 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
                       jobTitle={team.jobtitle} 
                       bio={team.bio} 
                       linkedIn={team.linkedin} 
-                      iconList={team.interests}  />
+                      iconList={team.interests}  
+                      click={loadMember}
+                      />
                   )
                 })}
             </SimpleGrid>
@@ -54,6 +63,18 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
           <CarouselWhatWeDo />
         </Box>
       </Box>
+      <Modal isCentered isOpen={isOpen} autoFocus={false} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
+      <ModalOverlay />
+        <ModalContent padding="0" minWidth="70vw">
+          <ModalHeader padding="0">
+            <TeamHeader name={teamMember.name} />
+            <ModalCloseButton color="#fff" padding="20px" />
+          </ModalHeader>
+          <ModalBody padding="0" maxHeight="50vh" overflow="auto">
+            <TeamBody iconList={teamMember.interests} bio={teamMember.bio} />
+          </ModalBody>
+        </ModalContent>
+      </Modal>
     </Fragment>
   )
 }
@@ -100,8 +121,8 @@ export const teamPageQuery = graphql`
           name
           image {
             childImageSharp {
-              fluid(maxHeight: 263, maxWidth: 292, quality: 80) {
-                ...GatsbyImageSharpFluid
+              fluid(maxHeight: 263, maxWidth: 292, quality: 60) {
+                ...GatsbyImageSharpFluid_withWebp
                 presentationHeight
                 presentationWidth
               }

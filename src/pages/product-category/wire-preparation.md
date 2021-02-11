@@ -7,8 +7,10 @@ image: /img/chemex.jpg
 products:
   - Cable Preparation
 seo:
-  title: Wire and Cable Preparation
-  description: Wire and Cable Preparation
+  title: Wire Preparation | Cable Preparation | ASL
+  description: Wire Preparation and cable preparation at low cost and on fast
+    turnaround. Cut, Strip and Terminate Assembly from Wire Experts Assembly
+    Solutions.
 layout:
   - type: column
     column:
