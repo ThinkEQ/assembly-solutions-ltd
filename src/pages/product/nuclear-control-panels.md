@@ -2,6 +2,10 @@
 templateKey: product
 title: Nuclear Control Panels
 subtitle: Nuclear control panels
+usps:
+  - usp: ISO9001 Quality Approved
+  - usp: Design Support
+  - usp: Low to high volume builds
 image: /img/chemex.jpg
 layout:
   - type: full
@@ -53,4 +57,9 @@ layout:
       quote: ASL have supplied us with Nuclear control panels and cable assemblies for
         many years now and continue to provide instant availability, willingness
         to work with us and overall a first-class service.
+seo:
+  title: Nuclear Control Panels | Control Panel Manufacturers | ASL
+  description: Nuclear Control Panel and Panel Build from Control Panel Experts
+    Assembly Solutions. Contact us today on 01204 521999 to discuss your Nuclear
+    Panel needs.
 ---

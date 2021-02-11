@@ -75,4 +75,9 @@ layout:
       title: Connect with Us
       text: We love sharing all our latest news and goings on, so follow us on
         Linkedin to see what we’ve been up to this week!
+seo:
+  title: Agricultural Vehicle Wiring Loom | Wiring Looms | ASL
+  description: Agricultural Vehicle Wiring Loom and Wiring Harnesses manufactured
+    by Wiring Experts Assembly Solutions. Contact us on 01204 521999 for more
+    information.
 ---

@@ -17,7 +17,7 @@ export const PrivacyPageTemplate = ({ title, content, contentComponent }) => {
           <Text textStyle="p" marginBottom="20px" fontSize="22px">
               Legal
             </Text> 
-            <Heading as="h1" textStyle="h1">
+            <Heading as="h1" textStyle="h2">
                 {title}
             </Heading>
         </Box>

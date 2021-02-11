@@ -64,4 +64,8 @@ layout:
         and let us help you with a solution. If you’re more of an email person,
         that’s cool with us, send your enquiry to enquiry@assembly-solutions.com
         and we’ll be straight back to you.
+seo:
+  title: Braided Cable | Earth Straps | Earth Leads
+  description: Braided Cable range from Assembly Solutions includes Braided Earth
+    Leads, Braided Earth Straps in all sizes. Contact us on 01204 521999.
 ---

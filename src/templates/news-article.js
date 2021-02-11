@@ -25,7 +25,7 @@ export const NewsArticleTemplate = ({
           <Link as={ReachLink} to="/news" display="inline-block" textStyle="p" marginBottom="20px" fontSize="22px">
             Back to all articles
           </Link>
-          <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
+          <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
           {title}
           </Heading>
           <Text fontSize="18px" marginTop="20px" color="neutral.800">
@@ -126,8 +126,8 @@ export const pageQuery = graphql`
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 480, quality: 80) {
-              ...GatsbyImageSharpFluid
+            fluid(maxHeight: 480, quality: 60) {
+              ...GatsbyImageSharpFluid_withWebp
               presentationHeight
             }
           }

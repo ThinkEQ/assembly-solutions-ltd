@@ -109,4 +109,9 @@ layout:
         where processes can be more efficient. All of this analysis, experience
         and knowledge, is why ASL is so successful and now known as the
         preferred UK wiring harness supplier for most major manufacturers.
+seo:
+  title: Electric Vehicle Wiring Loom | Wiring Looms | ASL
+  description: Electric Vehicle Wiring Loom, Cable Assembly and Wiring Harness
+    manufactured by Wiring Harness Experts Assembly Solutions. Also experts in
+    Hybrid Wiring.
 ---

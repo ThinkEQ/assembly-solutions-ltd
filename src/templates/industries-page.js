@@ -2,8 +2,6 @@ import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-//import { useTransition, animated } from 'react-spring'
-
 
 // Load components
 import { Box, Heading, Text, Link, useMediaQuery } from '@chakra-ui/react'
@@ -11,28 +9,6 @@ import NewsArticle from '../components/StaticQueries/NewsArticles'
 import PreviewImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 import Carousel from '../components/Carousel/CustomCarousel'
-
-/**
- * @todo Animate scroll text
- *  
- */
-// const TextAnimate = () => {
-//   const [items, set] = useState(['Nuclear', 'Nuclear 1', 'Nuclear 2'])
-//   const transitions = useTransition(items, item => item.key, {
-//   from: { transform: 'translateX(0)', color: "#111" },
-//   enter: { transform: 'translateX(50%)', color: "#fff" },
-//   leave: { transform: 'translateX(100%)', color: "#111"},
-//   })
-
-//   console.log(transitions)
-//     return transitions.map(({ item, props, key }) =>
-//       <>
-//       {console.log(item.text)}
-//       <animated.div key={key} style={props}>{item}</animated.div>
-//       </>
-//     )
-// }
-
 
 export const IndustryPageTemplate = ({ title, content, contentComponent, subtitle, intro, imgHeader, testimonial, industries }) => {
   const PageContent = contentComponent || Content
@@ -47,23 +23,23 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
             <Text textStyle="p" marginBottom="20px" fontSize="22px">
                 {title}
               </Text>
-              <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>
-                <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
+              <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>             
+                <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"62%"}} marginBottom="40px">
                     {subtitle}
                 </Heading>
                 <Text textStyle="p" width={{base: "100%", lg:"35%"}}>
                     {intro}
                 </Text>
               </Box>
+              <Box  marginTop={{base: "30px", lg: "0"}}  position="relative">
+                <PreviewImage imageInfo={imgHeader} />
+              </Box>
           </Box>
-        </Box>
-        <Box position="relative">
-            <PreviewImage imageInfo={imgHeader} />
         </Box>
       </Box>
 
       <Box as="section" textStyle="section">
-        <Box display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}} alignContent="flex-start" textStyle="container"> 
+        <Box display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}} alignContent="flex-start" textStyle="container">
           <Box width={{base: "100%", lg:"48%"}} marginBottom={{base: "25px", lg: "0"}}>
             <MDXWrapper>
               <PageContent content={content} />
@@ -79,7 +55,7 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
               </Text>
             </Box>
             <Text textStyle="p" marginTop="20px">
-              We open our arms and welcome any enquiry no matter what industry you’re in. If you would like to send an enquiry, simply email <Link href="mailto:enquiry@assembly-solutions.com" color="green.900" isExternal>enquiry@assembly-solutions.com</Link> and we will be right back to you.
+              We open our arms and welcome any enquiry no matter what industry you’re in. If you would like to send an enquiry, simply email <Link fontWeight="bold" href="mailto:enquiry@assembly-solutions.com" color="green.900" display="inline-block" isExternal>enquiry@assembly-solutions.com</Link> and we will be right back to you.
             </Text>
           </Box>
         </Box>
@@ -91,21 +67,21 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
         centerMode={isLessThan464 ? false : true}
         partialVisible={isLessThan464 ? true : false}
         >
-          {industries.map((item, index) => {
+          {industries.map((item) => {
             return (
                 <Box padding="0 5px" height={{base: "400px", md: "600px"}} cursor="grab" _active={{cursor: "grabbing"}} position="relative">
                   <Box height="100%" layerStyle={isLargerThan760 ?"brightness" : "none"} >
                     <PreviewImage pointerEvents="none" imageInfo={item.image} borderRadius="3px" height="100%" width="100%"/>
                   </Box>
-                  <Text fontSize={{base: "24px", md: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
+                  <Text pointerEvents="none" fontSize={{base: "24px", md: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
                     {item.name}
                   </Text>
                 </Box>
             )
-          })}          
-        </Carousel> 
+          })}
+        </Carousel>
       </Box>
-   
+
 
       <Box as="section" position="relative" width="100%" overflow="hidden">
         <NewsArticle />
@@ -157,7 +133,7 @@ export const industryPageQuery = graphql`
         subtitle,
         intro,
         seo {
-          title 
+          title
           description
         }
         testimonial {
@@ -169,8 +145,8 @@ export const industryPageQuery = graphql`
           alt
           image {
             childImageSharp {
-              fluid(maxHeight: 680, quality: 80) {
-                ...GatsbyImageSharpFluid
+              fluid(maxHeight: 680, quality: 65) {
+                ...GatsbyImageSharpFluid_withWebp
                 presentationHeight
               }
             }
@@ -178,8 +154,8 @@ export const industryPageQuery = graphql`
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 680, quality: 80) {
-              ...GatsbyImageSharpFluid
+            fluid(maxHeight: 680, quality: 60) {
+              ...GatsbyImageSharpFluid_withWebp
               presentationHeight
             }
           }
