@@ -81,7 +81,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
                   {usps.map((item) => {
                       return (
                           <ListItem display="flex" alignItems="center" fontSize="20px" lineHeight="28px">
-                              <ListIcon as={Check} fontSize="28px" />
+                              <ListIcon as={Check} fontSize="28px" marginRight="20px" />
                               {item.usp}
                           </ListItem>
                       )
