@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: Accounts Manager Amanda celebrates 10 Years with ASL
-date: 2021-02-11T09:06:09.822Z
+date: 2020-06-15T09:06:09.822Z
 image: /img/amandaimage.png
 seo:
   title: Accounts Manager Amanda celebrates 10 Years with ASL

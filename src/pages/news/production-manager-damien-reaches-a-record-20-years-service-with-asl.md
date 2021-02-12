@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: Production Manager Damien reaches a record 20 years service with ASL
-date: 2020-11-29T20:02:46.139Z
+date: 2019-10-11T20:02:46.139Z
 testimonial:
   quote: >
     Proud of his achievement, Damien says “It has been a fantastic journey over
