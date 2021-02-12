@@ -6,11 +6,6 @@ video: wire-and-cable-preparation
 image: /img/chemex.jpg
 products:
   - Cable Preparation
-seo:
-  title: Wire Preparation | Cable Preparation | ASL
-  description: Wire Preparation and cable preparation at low cost and on fast
-    turnaround. Cut, Strip and Terminate Assembly from Wire Experts Assembly
-    Solutions.
 layout:
   - type: column
     column:
@@ -48,14 +43,14 @@ layout:
 
 
         As well, because our friendly family-run team are based in the UK, we’re running on the same time as you and there’s no language barrier to contend with – so we’re here when you need us. So, if you’re thinking about subcontracting your wire preparation overseas, why not get a quote from us first?
-  - type: full
-    full:
-      title: China prices but better quality
-      text: >-
-        All our wire preparation jobs are done in our machines so we can our
-        high speed cut, strip and terminate machine so there is very little
-        labour involved. This means we can offer exceptionally low prices and
-        due to the speed we can deliver in no time! 
+
+
+        **China prices but better quality**
+
+
+
+
+        All our wire preparation jobs are done in our machines so we can our high speed cut, strip and terminate machine so there is very little labour involved. This means we can offer exceptionally low prices and due to the speed we can deliver in no time! 
 
 
         When it comes to finding the right cable assembly manufacturer, you don’t need to look any further than us. While many businesses believe that outsourcing this type work abroad is cheaper than looking in the UK, this is often a misconception. We offer competitive prices and a fast turnaround, as well as operating in the same time zone as you without any tricky language barriers to content with.  
@@ -71,6 +66,11 @@ layout:
         * Improve the quality of your current wire preparation
 
         * Speed up the lead time for your orders
+seo:
+  title: Wire Preparation | Cable Preparation | ASL
+  description: Wire Preparation and cable preparation at low cost and on fast
+    turnaround. Cut, Strip and Terminate Assembly from Wire Experts Assembly
+    Solutions.
 ---
 **A variety of speedy and cost-effective preparations for wire and cable**
 
