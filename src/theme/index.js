@@ -52,6 +52,9 @@ const overrides = {
                     marginBottom: "15px",
                     lineHeight: "38px",
                     letterSpacing: "0.71px",
+                    '-webkit-hyphens': 'auto',
+                    '-moz-hyphens': 'auto',
+                    'hyphens': 'auto'
                 },
                 ul: {
                     listStyle: 'none',
