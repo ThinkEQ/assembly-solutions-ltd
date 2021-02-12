@@ -39,13 +39,14 @@ export const NewsArticleTemplate = ({
             <PreviewCompatibleImage imageInfo={img} />
           </Box>
           <MDXWrapper>
-            <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10}>
+            <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" justifyContent="center" gap={10}>
             {mainContent && mainContent.map((content) => {
                 const span = content.type === 'column' ? 1 : 2
 
+
                 if (content.type === 'full') {
                     return (
-                        <GridItem colSpan={span}>
+                        <GridItem colSpan={span} maxWidth={{base: "100%", lg:"60%"}} margin="0 auto">
                             <Heading as="h4" textStyle="h4" marginBottom="20px">
                                 {content.full.title}
                             </Heading>
@@ -54,8 +55,10 @@ export const NewsArticleTemplate = ({
                     )
                 }
                 if (content.type === 'testimonial') {
+                  const spanConfig = content.testimonial.alignment === 'centre' ? {maxW: "60%", margin: "0 auto", colSpan: {base: 2, lg: 2} } : {colSpan: { base: 2, lg: 1}}
+            
                     return (
-                        <GridItem colSpan={{base: 2,  lg: span}}>
+                        <GridItem {...spanConfig}>
                             <Testimonial author={content.testimonial.name}  quote={content.testimonial.quote} />
                         </GridItem>
                     )
@@ -145,6 +148,7 @@ export const pageQuery = graphql`
           testimonial {
               name
               quote
+              alignment
           }
         }
       }

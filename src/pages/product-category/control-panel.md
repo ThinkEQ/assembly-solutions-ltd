@@ -43,7 +43,7 @@ layout:
       text: Quality is critical for all the products we manufacture, especially
         control panels. We deliver into industries including Nuclear and
         Utilities, so we have to take extra care ensuring that the products we
-        produce will perform reliably under their conditions.As a trusted
+        produce will perform reliably under their conditions. As a trusted
         supplier of high reliability, high quality and technically advanced
         components and products, we are the supplier of choice for an impressive
         list of blue-chip companies including; Aston Martin, Siemens and
