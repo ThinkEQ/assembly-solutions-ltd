@@ -32,7 +32,7 @@ collections:
             name: "testimonial" 
             widget: object 
             fields: 
-              - {label: Testimonial Block, name: testimonial, widget: object, fields: [{ label: Name, name: name, widget: string, required: false}, { label: Quote, name: quote, widget: text}]}
+              - {label: Testimonial Block, name: testimonial, widget: object, fields: [{ label: Name, name: name, widget: string, required: false}, { label: Quote, name: quote, widget: text}, {label: Alignment, name: alignment, widget: select, required: false, multiple: false, default: "standard", options: [{ label: "standard", value: "standard"}, { label: "centre", value: "centre"}]}]}
           - label: "Column" 
             name: "column" 
             widget: object 
