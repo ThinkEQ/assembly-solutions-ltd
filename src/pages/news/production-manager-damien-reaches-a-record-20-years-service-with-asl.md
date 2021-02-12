@@ -67,6 +67,7 @@ layout:
 
         they have given me over the years. They truly are amazing.
       name: Damien
+      alignment: centre
 ---
 We are delighted to announce, our Production Manager Damien Walsh has reached a record of 20 years’ service with ASL. 
 
