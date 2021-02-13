@@ -13,7 +13,7 @@ const CardArticle = ({ title, date, imgSrc = false, imgAlt, imgFluid = false, sl
             <Box height="50%" width="100%" overflow="hidden" transform="scale(1.1)" filter="brightness(100%)" transition=".6s ease-in-out" _hover={{width: "96%", filter:"brightness(50%)"}}>
             <figure>
                 {imgSrc && <Image src={imgSrc} alt={imgAlt} draggable="false"  width="105%"  transform="scale(1.1)" filter="brightness(100%)" transition=".6s ease-in-out" _hover={{width: "95%", filter:"brightness(50%)"}} />}
-                {imgFluid && <PreviewImage imageInfo={imgFluid}  width="105%"  transform="scale(1.1)" filter="brightness(100%)" transition=".6s ease-in-out" hover={{width: "95%", filter:"brightness(50%)"}} />}
+                {imgFluid && <PreviewImage imageInfo={imgFluid}  minHeight="250px" width="105%"  transform="scale(1.1)" filter="brightness(100%)" transition=".6s ease-in-out" hover={{width: "95%", filter:"brightness(50%)"}} />}
             </figure>
             </Box>
             <Box position="relative" display="flex" flexDirection="column" justifyContent="space-between" padding="6" height="50%">
