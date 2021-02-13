@@ -1,2 +1,31 @@
 # Redirects from what the browser requests to what we serve
-/home              /
+/home                                                               /                                               301
+/wiring-products/wiring-loom/wiring-harness/	                    /wiring-harness                                 301
+/wiring-products/control-panels/	                                /control-panels                                 301
+/wiring-products/wiring-loom/	                                    /wiring-loom                                    301
+/about-asl/management-team/	                                        /team                                           301
+/wiring-products/cable-assembly/	                                /cable-assembly                                 301
+/case-studies/	                                                    /projects                                       301
+/wiring-products/control-panels/electrical-control-panel/	        /electrical-control-panels                      301
+/about-asl/	                                                        /about                                          301
+/videos/	                                                        /videos                                         301
+/wiring-products/wiring-loom/motorsport-wiring-loom/	            /motorsport-wiring-loom                         301
+/wiring-products/cable-assembly/cable-assemblies/	                /cable-assemblies                               301
+/wiring-products/control-panels/automotive-control-panel/	        /automotive-control-panel                       301
+/wiring-products/wire-preparation/earth-strap/	                    /earth-strap                                    301
+/wiring-products/control-panels/panel-wiring/	                    /panel-wiring                                   301
+/wiring-products/wire-preparation/	                                /wire-preparation                               301
+/wiring-products/cable-assembly/braided-cable/	                    /braided-cable                                  301
+/wiring-products/cable-assembly/battery-cables/	                    /battery-cables                                 301
+/wiring-products/wire-preparation/cable-preparation/	            /cable-preparation                              301
+/wiring-products/wiring-loom/electric-vehicle-wiring-loom/	        /electric-vehicle-wiring-loom                   301
+/wiring-products/control-panels/box-build-and-electromechanical/    /panel-build                                    301
+/wiring-products/wiring-loom/cable-looms/	                        /cable-looms                                    301
+/project/brompton-bicycle-wiring-loom/	                            /project-brompton-bicycle-cable-assemblies      301
+/markets/	                                                        /industries                                     301
+/wiring-products/wiring-loom/agricultural-vehicle-wiring-loom/	    /agricultural-wiring-loom                       301
+/wiring-products/control-panels/nuclear-control-panel/	            /nuclear-control-panel                          301
+/wiring-products/wiring-loom/trailer-wiring-loom/	                /trailer-wiring-loom                            301
+/wiring-products/cable-assembly/ribbon-cables/	                    /ribbon-cables                                  301
+/news-article/amanda-celebrates-10-years-at-asl/	                /news/amanda-celebrates-10-years-at-asl         301
+/news-article/damien-walsh-service-milestone/	                    /news/damien-celebrates-20-years-at-asl         301
