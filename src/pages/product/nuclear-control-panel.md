@@ -1,7 +1,7 @@
 ---
 templateKey: product
-title: Nuclear Control Panels
-subtitle: Nuclear control panels
+title: Nuclear Control Panel
+subtitle: Nuclear control panel
 usps:
   - usp: ISO9001 Quality Approved
   - usp: Design Support

@@ -1,7 +1,7 @@
 ---
 templateKey: product
-title: Earth Straps
-subtitle: Earth straps
+title: Earth Strap
+subtitle: Earth strap
 usps:
   - usp: UK Made in Bolton
   - usp: Fast 4 Week Delivery

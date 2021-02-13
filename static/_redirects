@@ -1,5 +1,12 @@
-# Redirects from what the browser requests to what we serve
-/wire-preparation                                                   /wire-and-cable-preparation                     200
+# rewrites
+# should be -> current 
+
+/motorsport-wiring-loom                                             /motorsport-harnesses                                   200
+/wire-preparation                                                   /wire-and-cable-preparation                             200
+/battery-cables                                                     /battery-and-hv-cables                                  200
+/electric-vehicle-wiring-loom                                       /electric-vehicle-and-hybrid-vehicle-wiring-harnesses   200
+/agricultural-wiring-loom                                           /agricultural-looms                                     200
+# redirects
 /home                                                               /                                               301
 /wiring-products/wiring-loom/wiring-harness/	                    /wiring-harness                                 301
 /wiring-products/control-panels/	                                /control-panels                                 301
@@ -9,7 +16,6 @@
 /case-studies/	                                                    /projects                                       301
 /wiring-products/control-panels/electrical-control-panel/	        /electrical-control-panels                      301
 /about-asl/	                                                        /about                                          301
-/videos/	                                                        /videos                                         301
 /wiring-products/wiring-loom/motorsport-wiring-loom/	            /motorsport-wiring-loom                         301
 /wiring-products/cable-assembly/cable-assemblies/	                /cable-assemblies                               301
 /wiring-products/control-panels/automotive-control-panel/	        /automotive-control-panel                       301
