@@ -95,6 +95,11 @@ const Footer = ({ toggleDrawer }) => {
                 </Link>
               </ListItem>
               <ListItem {...para}>
+                <Link as={ReachLink} to="/projects">
+                Projects
+                </Link>
+              </ListItem>
+              <ListItem {...para}>
                 <Link as={ReachLink} to="/videos">
                   Videos
                 </Link>
