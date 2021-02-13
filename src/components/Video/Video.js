@@ -1,13 +1,23 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 // Load components
 import { Box, Image, AspectRatio } from '@chakra-ui/react'
 
-const Video =({ vidweb, vidmp, imgThumb, ratioConfig = {base: 9 / 16, lg: 4 / 3 }}) => {
+const Video =({ id, vidweb, vidmp, imgThumb, ratioConfig = {base: 9 / 16, lg: 4 / 3 }}) => {
     const [isVideoLoaded, setIsVideoLoaded] = useState(false);
     const onLoadedData = () => {
         setIsVideoLoaded(true);
     };
+
+    useEffect(() => {
+        const element = document.getElementById(`homevid-${id}`)
+
+        if (element) {
+            element.addEventListener('loadeddata', onLoadedData)
+        }
+
+        return () => element.removeEventListener('loadeddata', onLoadedData)
+    })
 
     return (
         <Box position="relative" height="100%" width="100%" overflow="hidded">
@@ -25,7 +35,7 @@ const Video =({ vidweb, vidmp, imgThumb, ratioConfig = {base: 9 / 16, lg: 4 / 3 
             pointerEvents="none"
             opacity={isVideoLoaded ? 0 : 1} />
         <AspectRatio ratio={ratioConfig} >
-            <video as="video" playsInline autoPlay muted loop id="homevid" onLoadedData={onLoadedData} style={{opacity: isVideoLoaded ? 1 : 0, overflow: "hidden", maxHeight: "900px", objectFit: "cover"  }} >
+            <video as="video" playsInline autoPlay muted loop id={`homevid-${id}`} onLoadedData={onLoadedData} style={{opacity: isVideoLoaded ? 1 : 0, overflow: "hidden", maxHeight: "900px", objectFit: "cover"  }} >
                 <source src={vidweb} type="video/webm"></source>
                 <source src={vidmp} type="video/mp4"></source>
             </video>

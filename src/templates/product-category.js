@@ -42,25 +42,29 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
     case 'wire-and-cable-preparation':
       videoLoader = {
         mp: WireMP,
-        web: WireWEB
+        web: WireWEB,
+        id: 'wire'
       }
       break
     case 'cable-assembly':
       videoLoader = {
         mp: CableMP,
-        web: CableWEB
+        web: CableWEB,
+        id: 'cable'
       }
       break
     case 'wiring-harness':
       videoLoader = {
         mp: WiringMP,
-        web: WiringWEB
+        web: WiringWEB,
+        id: 'harness'
       }
       break
     case 'control-panel':
       videoLoader = {
         mp: ControlMP,
-        web: ControlWEB
+        web: ControlWEB,
+        id: 'panel'
       }
       break
     default:
@@ -95,7 +99,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
         {!videoLoader && <PreviewImage imageInfo={imgHeader} />}
         {videoLoader && 
           <Box width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}} overflow="hidden">
-            <Video vidmp={videoLoader.mp} vidweb={videoLoader.web} imgThumb={wire} ratioConfig={{base: 9 / 16, lg: 16 / 9}} />
+            <Video vidmp={videoLoader.mp} vidweb={videoLoader.web} imgThumb={wire} id={videoLoader.id} ratioConfig={{base: 9 / 16, lg: 16 / 9}} />
           </Box>
         }
       </Box>

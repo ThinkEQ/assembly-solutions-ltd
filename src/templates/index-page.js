@@ -42,7 +42,7 @@ return (
     <Fragment>
       <Box as="header" minHeight={{base: "auto", md:"750px", xl: "900px"}} maxHeight="900px" height="100%" overflow="hidden" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
         <Box position="absolute" top="0" left="0" width="100%" height="100%" overflow="hidden" zIndex="-1">
-         <Video vidweb={homvidwm} vidmp={homvidmp} imgThumb={cable} />
+         <Video vidweb={homvidwm} vidmp={homvidmp} imgThumb={cable} id="home" />
         </Box>
             <Box height="100%" maxWidth="1900px" margin="0 auto" minHeight={{base: "600px", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
               <Box textStyle="section">
