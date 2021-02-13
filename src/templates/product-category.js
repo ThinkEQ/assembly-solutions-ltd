@@ -24,7 +24,6 @@ import WiringMP from '../videos/WIRING_HARNESSES.mp4'
 import WiringWEB from '../videos/WIRING_HARNESSES.webm'
 import ControlMP from '../videos/CONTROL_PANEL.mp4'
 import ControlWEB from '../videos/CONTROL_PANEL.webm'
-import wire from '../img/default/wireprep.jpg'
 
 export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent, video }) => {
   const PageContent = contentComponent || Content
@@ -99,7 +98,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
         {!videoLoader && <PreviewImage imageInfo={imgHeader} />}
         {videoLoader && 
           <Box width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}} overflow="hidden">
-            <Video vidmp={videoLoader.mp} vidweb={videoLoader.web} imgThumb={wire} id={videoLoader.id} ratioConfig={{base: 9 / 16, lg: 16 / 9}} />
+            <Video vidmp={videoLoader.mp} vidweb={videoLoader.web} ratioConfig={{base: 9 / 16, lg: 16 / 9}} />
           </Box>
         }
       </Box>
