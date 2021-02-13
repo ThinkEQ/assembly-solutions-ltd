@@ -37,8 +37,6 @@ export const ProjectIndexTemplate = ({ data, pagination }) => {
 const ProjectIndex =  ({data, pageContext}) => {
   const { edges: posts } = data.allMarkdownRemark
   const { seo } = posts[0].node.frontmatter
-  const title = seo ? seo.title : posts[0].node.frontmatter.title
-  const description = seo ? seo.description : undefined
   return (
       <Layout  metaTitle="Customer Projects | Assembly Solutions Ltd" metaDescription="Project Case Studies from Assembly Solutions Ltd. Learn more about what we can do for your business today!">
         <ProjectIndexTemplate data={data} pagination={pageContext} />

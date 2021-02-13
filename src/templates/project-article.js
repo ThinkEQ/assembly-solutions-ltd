@@ -13,7 +13,6 @@ import { Box, Heading, Link } from '@chakra-ui/react'
 export const ProjectArticleTemplate = ({
   contentComponent,
   title,
-  intro,
   img,
   feature,
   content,
