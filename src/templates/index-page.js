@@ -14,6 +14,7 @@ import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import NewsArticles from '../components/StaticQueries/NewsArticles'
 import BannerOurCustomers from '../components/Banners/BannerOurCustomers/BannerOurCustomers'
 import SVG from '../components/UI/SVG/index'
+import Video from '../components/Video/Video'
 
 // Load asset
 import teamTablet from '../img/default/tablet-about.png'
@@ -21,6 +22,7 @@ import teamMobile from '../img/default/mobile-team.png'
 import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
 import homvidmp from '../videos/HOMEPAGEMP4.mp4'
 import teamDesktop from '../img/default/meettheteam2.jpg'
+import cable from '../img/default/cable-assemblies.png'
 import '../components/UI/SVG/styles.css'
 
 const bounce = keyframes `
@@ -40,12 +42,7 @@ return (
     <Fragment>
       <Box as="header" minHeight={{base: "auto", md:"750px", xl: "900px"}} maxHeight="900px" height="100%" overflow="hidden" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
         <Box position="absolute" top="0" left="0" width="100%" height="100%" overflow="hidden" zIndex="-1">
-          <AspectRatio ratio={{base: 9 / 16, lg: 4 / 3}} >
-            <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" overflow="hidden" maxHeight="900px" objectFit="cover">
-              <source src={homvidwm} type="video/webm"></source>
-              <source src={homvidmp} type="video/mp4"></source>
-            </Box>
-          </AspectRatio>
+         <Video vidweb={homvidwm} vidmp={homvidmp} imgThumb={cable} />
         </Box>
             <Box height="100%" maxWidth="1900px" margin="0 auto" minHeight={{base: "600px", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
               <Box textStyle="section">

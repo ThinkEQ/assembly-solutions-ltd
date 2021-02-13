@@ -12,6 +12,7 @@ import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMo
 import PreviewImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
 import TestimonialBlock from '../components/Testimonial/Testimonial'
+import Video from '../components/Video/Video'
 
 // Load asset
 import Check from '../components/UI/SVG/svgs/check'
@@ -23,6 +24,7 @@ import WiringMP from '../videos/WIRING_HARNESSES.mp4'
 import WiringWEB from '../videos/WIRING_HARNESSES.webm'
 import ControlMP from '../videos/CONTROL_PANEL.mp4'
 import ControlWEB from '../videos/CONTROL_PANEL.webm'
+import wire from '../img/default/wireprep.jpg'
 
 export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent, video }) => {
   const PageContent = contentComponent || Content
@@ -92,13 +94,8 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
         </Box>
         {!videoLoader && <PreviewImage imageInfo={imgHeader} />}
         {videoLoader && 
-          <Box width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}}>
-            <AspectRatio ratio={{base: 9 / 16, lg: 16 / 9}} >
-              <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}} objectFit="cover">
-                <source src={videoLoader.web} type="video/webm"></source>
-                <source src={videoLoader.mp} type="video/mp4"></source>
-              </Box>
-            </AspectRatio>
+          <Box width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}} overflow="hidden">
+            <Video vidmp={videoLoader.mp} vidweb={videoLoader.web} imgThumb={wire} ratioConfig={{base: 9 / 16, lg: 16 / 9}} />
           </Box>
         }
       </Box>

@@ -1,0 +1,38 @@
+import React, { useState } from 'react'
+
+// Load components
+import { Box, Image, AspectRatio } from '@chakra-ui/react'
+
+const Video =({ vidweb, vidmp, imgThumb, ratioConfig = {base: 9 / 16, lg: 4 / 3 }}) => {
+    const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+    const onLoadedData = () => {
+        setIsVideoLoaded(true);
+    };
+
+   
+    return (
+        <Box position="relative" height="100%" width="100%" overflow="hidded">
+            <Image
+            src={imgThumb}
+            position="absolute"
+            top="0"
+            left="0"
+            height="100%"
+            width="100%"
+            transition="all 400ms ease 0ms"
+            filter="blur(20px)"
+            transform="scale(1.1)"
+            alt="thumb"
+            pointerEvents="none"
+            opacity={isVideoLoaded ? 0 : 1} />
+        <AspectRatio ratio={ratioConfig} >
+            <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" onLoadedData={onLoadedData} opacity={isVideoLoaded ? 1 : 0} overflow="hidden" maxHeight="900px" objectFit="cover">
+                <source src={vidweb} type="video/webm"></source>
+                <source src={vidmp} type="video/mp4"></source>
+            </Box>
+        </AspectRatio>
+    </Box>
+    );
+  };
+
+  export default Video
