@@ -96,7 +96,7 @@ const MainNav = () => (
       <Link as={ReachLink} to="/" size="lg" variant="nav">Home</Link>
     </Box>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/about-us" size="lg" variant="nav" >About</Link>
+      <Link as={ReachLink} to="/about" size="lg" variant="nav" >About</Link>
     </Box>
     <Box as="li" display="block">
       <Link as={ReachLink} to="/industries" size="lg" variant="nav">Industries</Link>

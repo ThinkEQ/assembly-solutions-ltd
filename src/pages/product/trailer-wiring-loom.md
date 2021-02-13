@@ -1,7 +1,7 @@
 ---
 templateKey: product
-title: Trailer Wiring Looms
-subtitle: Trailer Wiring Looms
+title: Trailer Wiring Loom
+subtitle: Trailer Wiring Loom
 usps:
   - usp: 3-6 Week Delivery
   - usp: UK Made in Bolton

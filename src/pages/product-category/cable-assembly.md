@@ -22,8 +22,8 @@ images:
 products:
   - Cable Assemblies
   - Battery & HV Cables
-  - Braided Cables
-  - Earth Straps
+  - Braided Cable
+  - Earth Strap
   - Ribbon Cables
 seo:
   title: Cable Assembly | Cable Assembly Manufacturer | ASL

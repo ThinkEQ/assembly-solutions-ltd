@@ -15,7 +15,7 @@ products:
   - Agricultural Looms
   - Electric Vehicle & Hybrid Vehicle Wiring Harnesses
   - Motorsport Harnesses
-  - Trailer Wiring Looms
+  - Trailer Wiring Loom
 seo:
   title: Wiring Harness | Wire Harness - ASL Wiring Harness Manufacturer
   description: Wiring Harness and Wire Harness Solutions from UK Manufacturer

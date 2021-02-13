@@ -6,11 +6,6 @@ video: wire-and-cable-preparation
 image: /img/chemex.jpg
 products:
   - Cable Preparation
-seo:
-  title: Wire Preparation | Cable Preparation | ASL
-  description: Wire Preparation and cable preparation at low cost and on fast
-    turnaround. Cut, Strip and Terminate Assembly from Wire Experts Assembly
-    Solutions.
 layout:
   - type: column
     column:
@@ -71,6 +66,11 @@ layout:
         * Improve the quality of your current wire preparation
 
         * Speed up the lead time for your orders
+seo:
+  title: Wire Preparation | Cable Preparation | ASL
+  description: Wire Preparation and cable preparation at low cost and on fast
+    turnaround. Cut, Strip and Terminate Assembly from Wire Experts Assembly
+    Solutions.
 ---
 **A variety of speedy and cost-effective preparations for wire and cable**
 

@@ -9,7 +9,7 @@ products:
   - Panel Wiring
   - Panel Build
   - Automotive Control Panels
-  - Nuclear Control Panels
+  - Nuclear Control Panel
 seo:
   title: "Control Panels: Control Panel Manufacturers UK"
   description: "Control Panel Manufacturers UK: Control Panel Solutions at Low

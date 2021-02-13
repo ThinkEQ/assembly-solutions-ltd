@@ -1,6 +1,6 @@
 ---
 templateKey: product
-title: Braided Cables
+title: Braided Cable
 subtitle: Braided cable manufacturer
 usps:
   - usp: UK Made in Bolton
