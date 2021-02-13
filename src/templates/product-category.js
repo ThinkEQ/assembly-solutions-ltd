@@ -10,6 +10,7 @@ import CarouselReel from '../components/Carousel/CarouselReel'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMore'
 import PreviewImage from '../components/PreviewCompatibleImage'
+import Video from '../components/Video/Video'
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 import LayoutCMS from '../components/LayoutCMS/LayoutCMS'
 
@@ -40,25 +41,29 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
     case 'wire-and-cable-preparation':
       videoLoader = {
         mp: WireMP,
-        web: WireWEB
+        web: WireWEB,
+        id: 'wire'
       }
       break
     case 'cable-assembly':
       videoLoader = {
         mp: CableMP,
-        web: CableWEB
+        web: CableWEB,
+        id: 'cable'
       }
       break
     case 'wiring-harness':
       videoLoader = {
         mp: WiringMP,
-        web: WiringWEB
+        web: WiringWEB,
+        id: 'harness'
       }
       break
     case 'control-panel':
       videoLoader = {
         mp: ControlMP,
-        web: ControlWEB
+        web: ControlWEB,
+        id: 'panel'
       }
       break
     default:
@@ -92,13 +97,8 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
         </Box>
         {!videoLoader && <PreviewImage imageInfo={imgHeader} />}
         {videoLoader && 
-          <Box width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}}>
-            <AspectRatio ratio={{base: 9 / 16, lg: 16 / 9}} >
-              <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}} objectFit="cover">
-                <source src={videoLoader.web} type="video/webm"></source>
-                <source src={videoLoader.mp} type="video/mp4"></source>
-              </Box>
-            </AspectRatio>
+          <Box width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}} overflow="hidden">
+            <Video vidmp={videoLoader.mp} vidweb={videoLoader.web} ratioConfig={{base: 9 / 16, lg: 16 / 9}} />
           </Box>
         }
       </Box>

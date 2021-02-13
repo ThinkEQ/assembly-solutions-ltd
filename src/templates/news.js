@@ -34,12 +34,7 @@ export const NewsIndexTemplate = ({ data, pagination }) => {
   )
 }
 
-const NewsIndex =  ({data, pageContext}) => {
-  const { edges: posts } = data.allMarkdownRemark
-  const { seo } = posts[0].node.frontmatter
-  const title = seo ? seo.title : posts[0].node.frontmatter.title
-  const description = seo ? seo.description : undefined
-
+const NewsIndex =  ({data, pageContext}) => { 
   return (
     <Layout metaTitle="News and Articles | Assembly Solutions Ltd" metaDescription="News and articles from Assembly Solutions Ltd. Contact us on 01204 521999 for more information.">
       <NewsIndexTemplate data={data} pagination={pageContext} />
