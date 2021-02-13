@@ -4,14 +4,14 @@ import Layout from '../components/Layout'
 
 
 // Load components
-import { Box, Heading, Text, ListIcon, List, ListItem, useMediaQuery, Grid, GridItem, AspectRatio } from '@chakra-ui/react'
+import { Box, Heading, Text, ListIcon, List, ListItem, useMediaQuery, AspectRatio } from '@chakra-ui/react'
 import Carousel from '../components/Carousel/CustomCarousel'
 import CarouselReel from '../components/Carousel/CarouselReel'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMore'
 import PreviewImage from '../components/PreviewCompatibleImage'
-import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
-import TestimonialBlock from '../components/Testimonial/Testimonial'
+import Content, { HTMLContent, MDXWrapper } from '../components/Content'
+import LayoutCMS from '../components/LayoutCMS/LayoutCMS'
 
 // Load asset
 import Check from '../components/UI/SVG/svgs/check'
@@ -143,41 +143,8 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
     {/**Main content */}
     <Box as="section" textStyle="section">
       <Box textStyle="container">
-        <MDXWrapper>
-          <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10}>
-              {mainContent.map((content) => {
-                  const span = content.type === 'column' ? 1 : 2
-
-                  if (content.type === 'full') {
-                      return (
-                          <GridItem colSpan={span}>
-                              <Heading as="h4" textStyle="h4" marginBottom="20px">
-                                  {content.full.title}
-                              </Heading>
-                              <PageContent content={toHTML(content.full.text)} />
-                          </GridItem>
-                      )
-                  }
-                  if (content.type === 'testimonial') {
-                      return (
-                          <GridItem colSpan={{base: 2,  lg: 1}}>
-                              <TestimonialBlock author={content.testimonial.name}  quote={content.testimonial.quote} />
-                          </GridItem>
-                      )
-                  }
-                  return (
-                      <GridItem colSpan={{base: 2,  lg: span}} >
-                          <Heading as="h4" textStyle="h4" marginBottom="20px">
-                              {content.column.title}
-                          </Heading>
-                          <PageContent content={toHTML(content.column.text)} />
-                      </GridItem>
-                  )
-              })}
-          </Grid>
-          </MDXWrapper>
+        <LayoutCMS data={mainContent} />
       </Box>
-       
     </Box>
 
     {/** Reel */}
