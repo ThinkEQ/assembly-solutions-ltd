@@ -9,7 +9,6 @@ const Video =({ vidweb, vidmp, imgThumb, ratioConfig = {base: 9 / 16, lg: 4 / 3 
         setIsVideoLoaded(true);
     };
 
-   
     return (
         <Box position="relative" height="100%" width="100%" overflow="hidded">
             <Image
@@ -19,17 +18,17 @@ const Video =({ vidweb, vidmp, imgThumb, ratioConfig = {base: 9 / 16, lg: 4 / 3 
             left="0"
             height="100%"
             width="100%"
-            transition="all 400ms ease 0ms"
+            transition="opacity 400ms ease 0ms, visibility 0ms ease 400ms"
             filter="blur(20px)"
             transform="scale(1.1)"
             alt="thumb"
             pointerEvents="none"
             opacity={isVideoLoaded ? 0 : 1} />
         <AspectRatio ratio={ratioConfig} >
-            <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" onLoadedData={onLoadedData} opacity={isVideoLoaded ? 1 : 0} overflow="hidden" maxHeight="900px" objectFit="cover">
+            <video as="video" playsInline autoPlay muted loop id="homevid" onLoadedData={onLoadedData} style={{opacity: isVideoLoaded ? 1 : 0, overflow: "hidden", maxHeight: "900px", objectFit: "cover"  }} >
                 <source src={vidweb} type="video/webm"></source>
                 <source src={vidmp} type="video/mp4"></source>
-            </Box>
+            </video>
         </AspectRatio>
     </Box>
     );
