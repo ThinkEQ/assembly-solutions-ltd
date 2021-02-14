@@ -12,8 +12,8 @@ products:
   - Electrical Control Panels
   - Panel Wiring
   - Panel Build
-  - Automotive Control Panels
   - Nuclear Control Panel
+  - Automotive Control Panel
 layout:
   - type: column
     column:
