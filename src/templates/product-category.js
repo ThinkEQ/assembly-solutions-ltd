@@ -119,7 +119,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
           <Carousel
             arrows={false}
             centerMode={isLessThan464 ? false : true}
-            partialVisible={isLessThan464 ? true : false}
+            partialVisible={(isLessThan464 && relatedProducts.length > 1) ? true : false}
             beforeChange={() => setMoving(true)}
             afterChange={() => setMoving(false)}
             >
