@@ -34,13 +34,9 @@ Quality is absolutely critical for Siemens as these products are being
 
 ​Our wire and cable assemblies go into a range of Siemens applications, but the most common is their high performance Protection Relays. ​
 
-During our customer feedback survey in 2020, we were delighted to hear Siemens 
+During our customer feedback survey in 2020, we were delighted to hear Siemens comment on our Strengths, which were; ​
 
-comment on our Strengths, which were; ​
-
-​
-
-**ASL Strengths​**
+​**ASL Strengths​**
 
 * Quality Products 
 * Knowledgeable Staff 
