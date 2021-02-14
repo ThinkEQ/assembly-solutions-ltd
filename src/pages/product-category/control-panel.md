@@ -1,7 +1,7 @@
 ---
 templateKey: product-category
 title: Control Panels
-subtitle: Control Panel Manufacture
+subtitle: Control Panel Manufacturer
 video: control-panel
 image: /img/flavor_wheel.jpg
 products:
@@ -9,10 +9,12 @@ products:
   - Panel Wiring
   - Panel Build
   - Automotive Control Panels
-  - Nuclear Control Panels
+  - Nuclear Control Panel
 seo:
-  title: Control Panel
-  description: Control Panel
+  title: "Control Panels: Control Panel Manufacturers UK"
+  description: "Control Panel Manufacturers UK: Control Panel Solutions at Low
+    Costs and Quick Turnaround. Call ASL on 01204 521999 to discuss your Control
+    Panels."
 layout:
   - type: column
     column:
@@ -41,7 +43,7 @@ layout:
       text: Quality is critical for all the products we manufacture, especially
         control panels. We deliver into industries including Nuclear and
         Utilities, so we have to take extra care ensuring that the products we
-        produce will perform reliably under their conditions.As a trusted
+        produce will perform reliably under their conditions. As a trusted
         supplier of high reliability, high quality and technically advanced
         components and products, we are the supplier of choice for an impressive
         list of blue-chip companies including; Aston Martin, Siemens and

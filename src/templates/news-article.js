@@ -4,19 +4,17 @@ import { graphql, Link as ReachLink } from 'gatsby'
 
 // Load components
 import Layout from '../components/Layout'
-import Testimonial from '../components/Testimonial/Testimonial'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
-import { Box, Heading, Text, Link, Grid, GridItem } from '@chakra-ui/react'
+import { HTMLContent } from '../components/Content'
+import LayoutCMS from '../components/LayoutCMS/LayoutCMS'
+import { Box, Heading, Text, Link } from '@chakra-ui/react'
 
 export const NewsArticleTemplate = ({
-  contentComponent,
   title,
   date,
   img,
   mainContent
 }) => {
-  const CMSContent = contentComponent || Content
   
   return (
     <Fragment>
@@ -25,7 +23,7 @@ export const NewsArticleTemplate = ({
           <Link as={ReachLink} to="/news" display="inline-block" textStyle="p" marginBottom="20px" fontSize="22px">
             Back to all articles
           </Link>
-          <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
+          <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
           {title}
           </Heading>
           <Text fontSize="18px" marginTop="20px" color="neutral.800">
@@ -38,39 +36,7 @@ export const NewsArticleTemplate = ({
           <Box marginBottom="50px">
             <PreviewCompatibleImage imageInfo={img} />
           </Box>
-          <MDXWrapper>
-            <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10}>
-            {mainContent && mainContent.map((content) => {
-                const span = content.type === 'column' ? 1 : 2
-
-                if (content.type === 'full') {
-                    return (
-                        <GridItem colSpan={span}>
-                            <Heading as="h4" textStyle="h4" marginBottom="20px">
-                                {content.full.title}
-                            </Heading>
-                            <CMSContent content={toHTML(content.full.text)} />
-                        </GridItem>
-                    )
-                }
-                if (content.type === 'testimonial') {
-                    return (
-                        <GridItem colSpan={{base: 2,  lg: span}}>
-                            <Testimonial author={content.testimonial.name}  quote={content.testimonial.quote} />
-                        </GridItem>
-                    )
-                }
-                return (
-                    <GridItem colSpan={{base: 2,  lg: span}}>
-                        <Heading as="h4" textStyle="h4" marginBottom="20px">
-                            {content.column.title}
-                        </Heading>
-                        <CMSContent content={toHTML(content.column.text)} />
-                    </GridItem>
-                )
-            })}
-            </Grid>
-          </MDXWrapper>
+          <LayoutCMS data={mainContent} />
         </Box>
       </Box>
     </Fragment>
@@ -124,8 +90,8 @@ export const pageQuery = graphql`
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 480, quality: 80) {
-              ...GatsbyImageSharpFluid
+            fluid(maxHeight: 480, quality: 60) {
+              ...GatsbyImageSharpFluid_withWebp
               presentationHeight
             }
           }
@@ -143,6 +109,7 @@ export const pageQuery = graphql`
           testimonial {
               name
               quote
+              alignment
           }
         }
       }

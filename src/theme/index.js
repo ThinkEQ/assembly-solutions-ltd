@@ -22,6 +22,7 @@ const overrides = {
                 h1: {
                     fontSize: {base: "42px", md:"60px"},
                     lineHeight: {base: "62px", md:"72px"},
+                    marginBottom: "20px",
                     lettSpacing: "-2.12px",
                     fontWeight: 600
                 },
@@ -29,45 +30,56 @@ const overrides = {
                     fontSize: {base: "28px", md:"44px"},
                     lineHeight: {base: "34px", md: "53px"},
                     letterSpacing: "-1.55px",
+                    marginBottom: "20px",
                     fontWeight: 600
                 },
                 h3: {
                     fontSize: "30px",
                     lineHeight: "36px",
                     letterSpacing: "-1.06px",
+                    marginBottom: "20px",
                     fontWeight: 600
                 },
                 h4: {
                     fontSize: "24px",
                     lineHeight: "36px",
                     letterSpacing: "-1.06px",
+                    marginBottom: "20px",
                     fontWeight: 600
                 },
                 p: {
                     fontSize: {base: "16px", md:"20px"},
+                    marginBottom: "15px",
                     lineHeight: "38px",
                     letterSpacing: "0.71px",
+                    '-webkit-hyphens': 'auto',
+                    '-moz-hyphens': 'auto',
+                    'hyphens': 'auto'
                 },
                 ul: {
-                    listStyle: 'none'
+                    listStyle: 'none',
+                    "li::before": {
+                        position: 'absolute',
+                        top: '8px',
+                        left: '0px',
+                        content: "''",
+                        borderRadius: "50%",
+                        width: '15px',
+                        height: "15px",
+                        backgroundColor: mode("green.900")(props),
+                    },
+                    li: {
+                        display: "block",
+                        position: "relative",
+                        paddingLeft: "30px",
+                        paddingBottom: "10px",
+                        fontFamily: "inherit",
+                        fontSize: {base: "16px", md:"20px"},
+                    }
+                    
                 },
-                "li::before": {
-                    position: 'absolute',
-                    top: '8px',
-                    left: '0px',
-                    content: "''",
-                    borderRadius: "50%",
-                    width: '15px',
-                    height: "15px",
-                    backgroundColor: mode("green.900")(props),
-                },
-                li: {
-                    display: "block",
-                    position: "relative",
-                    paddingLeft: "30px",
-                    paddingBottom: "10px",
-                    fontFamily: "inherit",
-                    fontSize: {base: "16px", md:"20px"},
+                ol: {
+                    fontSize: "18px"
                 }
             }
         })
@@ -92,6 +104,7 @@ const overrides = {
         h1: {
             fontSize: {base: "42px", md:"60px"},
             lineHeight: {base: "62px", md:"72px"},
+            marginBottom: "20px",
             lettSpacing: "-2.12px",
             fontWeight: 600
         },
@@ -99,29 +112,33 @@ const overrides = {
             fontSize: {base: "28px", md:"44px"},
             lineHeight: {base: "34px", md: "53px"},
             letterSpacing: "-1.55px",
+            marginBottom: "20px",
             fontWeight: 600
         },
         h3: {
             fontSize: "30px",
             lineHeight: "36px",
             letterSpacing: "-1.06px",
+            marginBottom: "20px",
             fontWeight: 600
         },
         h4: {
             fontSize: "24px",
             lineHeight: "36px",
             letterSpacing: "-1.06px",
+            marginBottom: "20px",
             fontWeight: 600
         },
         p: {
             fontSize: {base: "16px", md:"20px"},
             lineHeight: "38px",
+            marginBottom: "15px",
             letterSpacing: "0.71px",
         },
         section: {
             py: {base: "6", lg:"40px"},
-            paddingLeft: {base: "5%", lg: "120px"},
-            paddingRight: {base: "5%", lg: "120px"}
+            paddingLeft: {base: "5%", lg: "140px"},
+            paddingRight: {base: "5%", lg: "140px"}
         },
         container: {
             maxWidth: {base: "1000px", xl:"1600px"},
@@ -148,11 +165,15 @@ const overrides = {
         },
         gradient: {
             900: 'linear-gradient(-45deg, #00ABAC 0%, #00AB69, #00ABAC, #00AB69 100%)',
+            950: 'linear-gradient(-45deg, #FFF0 100%, #FFF, #FFF, #FFF 0%))',
             800: 'linear-gradient(184.08deg, #1B2CC1 0%, #091540 100%)',
             700: 'linear-gradient(270deg, rgba(36,155,171,0.05) 0%, rgba(36,155,171,0.5) 31.24%, #249BAB 100%)',
             600: 'linear-gradient(151.59deg, #00ABAC 0%, #00AB69 100%);', // button gradient
             500: 'linear-gradient(-45deg, #00ABAC 0%, #00ABAC, #00ABAC, #00ABAC 100%)', // button gradient non hover
-            400: 'linear-gradient(0deg, #FAFAFA 50%, #091540 50%)' //  top / bottom split
+            400: 'linear-gradient(0deg, #FAFAFA 50%, #091540 50%)', //  top / bottom split
+            50: 'radial-gradient(circle, rgba(255,255,255,1) 60%, rgba(250,250,250,1) 42%);', // circle gradient
+            300: 'linear-gradient(-45deg, #091540 0%, #10225a, #152d71, #091540 50%)',
+            200: 'linear-gradient(-45deg, #091540 0%, #091540, #091540, #091540 100%)'
         }
     }
 }

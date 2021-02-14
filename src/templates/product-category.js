@@ -4,14 +4,15 @@ import Layout from '../components/Layout'
 
 
 // Load components
-import { Box, Heading, Text, ListIcon, List, ListItem, useMediaQuery, Grid, GridItem, AspectRatio } from '@chakra-ui/react'
+import { Box, Heading, Text, ListIcon, List, ListItem, useMediaQuery, AspectRatio } from '@chakra-ui/react'
 import Carousel from '../components/Carousel/CustomCarousel'
 import CarouselReel from '../components/Carousel/CarouselReel'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMore'
 import PreviewImage from '../components/PreviewCompatibleImage'
-import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
-import TestimonialBlock from '../components/Testimonial/Testimonial'
+import Video from '../components/Video/Video'
+import Content, { HTMLContent, MDXWrapper } from '../components/Content'
+import LayoutCMS from '../components/LayoutCMS/LayoutCMS'
 
 // Load asset
 import Check from '../components/UI/SVG/svgs/check'
@@ -40,25 +41,29 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
     case 'wire-and-cable-preparation':
       videoLoader = {
         mp: WireMP,
-        web: WireWEB
+        web: WireWEB,
+        id: 'wire'
       }
       break
     case 'cable-assembly':
       videoLoader = {
         mp: CableMP,
-        web: CableWEB
+        web: CableWEB,
+        id: 'cable'
       }
       break
     case 'wiring-harness':
       videoLoader = {
         mp: WiringMP,
-        web: WiringWEB
+        web: WiringWEB,
+        id: 'harness'
       }
       break
     case 'control-panel':
       videoLoader = {
         mp: ControlMP,
-        web: ControlWEB
+        web: ControlWEB,
+        id: 'panel'
       }
       break
     default:
@@ -74,14 +79,14 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
                 {title}
               </Text>
               <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} marginBottom={{base: "20px", lg: "0"}}>
-                  <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"65%"}} marginBottom="40px">
+                  <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"65%"}} marginBottom="40px">
                     {subtitle}
                   </Heading>
                   <List spacing="6">
                   {usps.map((item) => {
                       return (
                           <ListItem display="flex" alignItems="center" fontSize="20px" lineHeight="28px">
-                              <ListIcon as={Check} fontSize="28px" />
+                              <ListIcon as={Check} fontSize="28px" marginRight="20px" />
                               {item.usp}
                           </ListItem>
                       )
@@ -92,13 +97,8 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
         </Box>
         {!videoLoader && <PreviewImage imageInfo={imgHeader} />}
         {videoLoader && 
-          <Box width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}}>
-            <AspectRatio ratio={{base: 9 / 16, lg: 16 / 9}} >
-              <Box as="video" playsInline autoPlay muted loop id="homevid" width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}} objectFit="cover">
-                <source src={videoLoader.web} type="video/webm"></source>
-                <source src={videoLoader.mp} type="video/mp4"></source>
-              </Box>
-            </AspectRatio>
+          <Box width="100%" height="100%" maxHeight={{base: "480px", md: "680px"}} overflow="hidden">
+            <Video vidmp={videoLoader.mp} vidweb={videoLoader.web} ratioConfig={{base: 9 / 16, lg: 16 / 9}} />
           </Box>
         }
       </Box>
@@ -143,41 +143,8 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
     {/**Main content */}
     <Box as="section" textStyle="section">
       <Box textStyle="container">
-        <MDXWrapper>
-          <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10}>
-              {mainContent.map((content) => {
-                  const span = content.type === 'column' ? 1 : 2
-
-                  if (content.type === 'full') {
-                      return (
-                          <GridItem colSpan={span}>
-                              <Heading as="h4" textStyle="h4" marginBottom="20px">
-                                  {content.full.title}
-                              </Heading>
-                              <PageContent content={toHTML(content.full.text)} />
-                          </GridItem>
-                      )
-                  }
-                  if (content.type === 'testimonial') {
-                      return (
-                          <GridItem colSpan={{base: 2,  lg: 1}}>
-                              <TestimonialBlock author={content.testimonial.name}  quote={content.testimonial.quote} />
-                          </GridItem>
-                      )
-                  }
-                  return (
-                      <GridItem colSpan={{base: 2,  lg: span}} >
-                          <Heading as="h4" textStyle="h4" marginBottom="20px">
-                              {content.column.title}
-                          </Heading>
-                          <PageContent content={toHTML(content.column.text)} />
-                      </GridItem>
-                  )
-              })}
-          </Grid>
-          </MDXWrapper>
+        <LayoutCMS data={mainContent} />
       </Box>
-       
     </Box>
 
     {/** Reel */}
@@ -254,8 +221,8 @@ query productCategoryPageQuery($id: String!) {
           }
           image {
             childImageSharp {
-              fluid(maxHeight: 680, quality: 80) {
-                ...GatsbyImageSharpFluid
+              fluid(maxHeight: 680, quality: 60) {
+                ...GatsbyImageSharpFluid_withWebp
                 presentationHeight
               }
             }
@@ -265,8 +232,8 @@ query productCategoryPageQuery($id: String!) {
               products
               image {
                 childImageSharp {
-                  fluid(maxHeight: 580, quality: 80) {
-                    ...GatsbyImageSharpFluid
+                  fluid(maxHeight: 580, quality: 60) {
+                    ...GatsbyImageSharpFluid_withWebp
                     presentationHeight
                   }
                 }

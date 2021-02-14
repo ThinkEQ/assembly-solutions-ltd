@@ -6,7 +6,8 @@ import { withPrefix } from 'gatsby'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import useSiteMetadata from './SiteMetadata'
-import { ChakraProvider, useDisclosure, Box } from '@chakra-ui/react'
+import { ChakraProvider, useDisclosure, Box, Text } from '@chakra-ui/react'
+import CookieConsent from 'react-cookie-consent'
 
 // Load theme
 import theme from '../theme/index'
@@ -102,12 +103,28 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
     >
       <input type="email" name="email" />
     </form>
+    <CookieConsent
+      location="bottom"
+      enableDeclineButton
+      style={{
+        width: "100%",
+        padding: "20px 0"
+      }}
+      buttonStyle={{ fontWeight: "bold",  borderRadius: "6px", padding: "10px 15px"}}
+      declineButtonStyle={{ fontWeight: "bold", borderRadius: "6px", padding: "10px 15px"}}
+      buttonText="Accept"
+      declineButtonText="Decline"
+      cookieName="gatsby-gdpr-google-analytics"
+      expires={150}
+    >
+      <Text>
+        This website stores cookies on your computer. These cookies are used to collect information about how you interact with this website and allow us to remember you.
+        We use this information in order to improve and customize your browsing experience and for analytics and metrics about our visitors on this website.
+      </Text>
+    </CookieConsent>
 
       <ChakraProvider theme={theme}>
-            
-            <nav>
-              <Navbar menu={menu} toggleDrawer={toggleDrawer} isOpen={isOpen} onClose={onClose} />
-            </nav>
+            <Navbar menu={menu} toggleDrawer={toggleDrawer} isOpen={isOpen} onClose={onClose} />
             <Box as="main" minHeight="100vh">
               {children}
             </Box>

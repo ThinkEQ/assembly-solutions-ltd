@@ -80,4 +80,9 @@ layout:
         customer Brompton “ASL’s fast turnaround, excellent service, quality and
         customer focus is superb, and with them always looking to grow as a
         business, it makes my role as a buyer much easier.”
+seo:
+  title: Motorsport Wiring Loom | Wiring Loom Manufacturers | ASL
+  description: Motorsport Wiring Loom and Wiring Harness manufacture by Vehicle
+    Wiring Experts Assembly Solutions. Get your FREE Quote by contacting us on
+    01204 521999.
 ---

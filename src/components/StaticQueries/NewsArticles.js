@@ -32,8 +32,8 @@ export default () => (
                   date(formatString: "MMMM DD, YYYY")
                   image {
                     childImageSharp {
-                      fluid(maxWidth: 600, quality: 90) {
-                        ...GatsbyImageSharpFluid
+                      fluid(maxWidth: 600, quality: 70) {
+                        ...GatsbyImageSharpFluid_withWebp
                       }
                     }
                   }

@@ -101,4 +101,9 @@ layout:
 
 
         We would love to hear from you and understand you current situation with cable looms. It may be you are currently making these in-house or looking at moving them from an overseas supplier to a UK, either way we will be able to help. We have a team of sales engineers who are experts in any type of cable loom or cable harness.
+seo:
+  title: Cable Looms | Assembly Solutions
+  description: Cable Looms are a product that ASL are experts in. They have a
+    range of pin boards set up in their brand new 32,000 sq ft factory to ensure
+    they offer flexibility and a custom-made service.
 ---

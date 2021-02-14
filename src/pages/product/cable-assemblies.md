@@ -7,6 +7,7 @@ usps:
   - usp: 4 Week Delivery
   - usp: ISO 9001 Quality Approved
   - usp: 25 years of Cable Assembly
+image: /img/stock.jpg
 images:
   - image: /img/stock.jpg
     alt: Test 1
@@ -39,9 +40,15 @@ layout:
       quote: " “After being let down by previous subcontractors, I’m really pleased to
         have found ASL who are honest, professional and demonstrate not only the
         know-how, but also take pride in both their work and their business.”"
-image: /img/stock.jpg
+seo:
+  title: Cable Assemblies | Cable Assembly Manufactures | ASL
+  description: Cable Assemblies and Cable Assembly Manufacture from Assembly
+    Solutions. Visit our website to understand our wide range cable assembly
+    capability.
 testimonial:
   quote: >
-     After being let down by previous subcontractors, I’m really pleased to have found ASL who arehonest, professional and demonstrate not only the know-how, but also take pride in both their work and their business.
+    After being let down by previous subcontractors, I’m really pleased to have
+    found ASL who arehonest, professional and demonstrate not only the know-how,
+    but also take pride in both their work and their business.
   name: Buyer, Brompton Bicycle
 ---

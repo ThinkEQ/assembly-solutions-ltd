@@ -80,4 +80,9 @@ layout:
       title: Connect with Us
       text: We love sharing all our latest news and goings on, so follow us on
         Linkedin to see what we’ve been up to this week!
+seo:
+  title: Ribbon Cables | Ribbon Cable Assembly | ASL
+  description: Ribbon Cables and Cable Assemblies from Assembly Solutions.
+    Business of the Years winners have built up a strong reputation for the
+    supply of Cables.
 ---

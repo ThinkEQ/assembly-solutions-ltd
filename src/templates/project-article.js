@@ -13,7 +13,6 @@ import { Box, Heading, Link } from '@chakra-ui/react'
 export const ProjectArticleTemplate = ({
   contentComponent,
   title,
-  intro,
   img,
   feature,
   content,
@@ -27,7 +26,7 @@ export const ProjectArticleTemplate = ({
           <Link as={ReachLink} to="/projects" display="inline-block" textStyle="p" marginBottom="20px" fontSize="22px">
             Back to all projects
           </Link>
-          <Heading as="h1" textStyle="h1" width={{base: "100%", lg:"80%"}} >
+          <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"80%"}} >
             {title}
           </Heading>
         </Box>
@@ -38,9 +37,10 @@ export const ProjectArticleTemplate = ({
           </Box>
           <Box textStyle="section">
             <Box textStyle="container">
-              {/**Intro content */}
+              
+              {/**Main body content */}
               <MDXWrapper>
-                <CMSContent content={toHTML(intro)} />
+                <CMSContent content={content} /> 
               </MDXWrapper>
 
               {/**Feature image + testimonial */}
@@ -53,11 +53,6 @@ export const ProjectArticleTemplate = ({
                     <Testimonial author={feature.name} quote={feature.quote} />
                   </Box>
                 </Box>}
-              
-              {/**Main body content */}
-              <MDXWrapper>
-                <CMSContent content={content} />
-              </MDXWrapper>
             </Box>       
         </Box>
       </Box>
@@ -118,8 +113,8 @@ export const pageQuery = graphql`
           quote
           image {
             childImageSharp {
-              fluid(maxHeight: 383, quality: 80) {
-                ...GatsbyImageSharpFluid
+              fluid(maxHeight: 383, quality: 60) {
+                ...GatsbyImageSharpFluid_withWebp
                 presentationHeight
               }
             }
@@ -127,8 +122,8 @@ export const pageQuery = graphql`
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 480, quality: 80) {
-              ...GatsbyImageSharpFluid
+            fluid(maxHeight: 480, quality: 60) {
+              ...GatsbyImageSharpFluid_withWebp
               presentationHeight
             }
           }

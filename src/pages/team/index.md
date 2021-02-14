@@ -13,6 +13,7 @@ team-members:
       When Graham’s not checking through the companies P & L, he’s out winning national cycling championships!
     interests:
       - cycling
+      - gardening
     name: Graham Balshaw
     jobtitle: Founder & Chairman
     image: /img/team1.png
@@ -31,6 +32,7 @@ team-members:
     image: /img/team2.png
     interests:
       - cycling
+      - jiujitsu
   - name: Sophie Balshaw
     jobtitle: Marketing Executive
     bio: >-
@@ -45,6 +47,7 @@ team-members:
       Sophie loves being by the sea, so she spends most weekends wakesurfing down the welsh coast, or relaxing on deck with a glass of prosecco!
     interests:
       - surfing
+      - skiing
     image: /img/team3.png
   - name: Oliver Balshaw
     jobtitle: Purchasing Manager
@@ -59,8 +62,8 @@ team-members:
       Oliver loves to drink, but with all bars shut at the minute, he’s enjoying his new found sport in cycling and counting down the days until he can book a holiday and dust off his snowboard!
     image: /img/team4.png
     interests:
-      - cycling
       - snowboarding
+      - formula1
   - name: Damien Walsh
     jobtitle: Production Manager (Wiring Harnesses & Control Panels)
     image: /img/team5.png
@@ -89,6 +92,7 @@ team-members:
     image: /img/team6.png
     interests:
       - football
+      - formula1
   - name: Gareth Edwards
     jobtitle: Head of Sales & Commercial
     bio: >-
@@ -102,6 +106,7 @@ team-members:
     image: /img/team7.png
     interests:
       - hiking
+      - church
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
@@ -130,6 +135,7 @@ team-members:
     image: /img/team9.png
     interests:
       - hiking
+      - climbing-wall
   - name: John Waterworth
     jobtitle: Customer Accounts Manager
     bio: >-
@@ -143,6 +149,7 @@ team-members:
     image: /img/team10.png
     interests:
       - football
+      - golf
   - name: Michele Barnes
     jobtitle: Sales Administrator
     bio: >-
@@ -157,6 +164,7 @@ team-members:
     image: /img/team11.png
     interests:
       - reading
+      - knitting
   - name: Adam Tunnah
     jobtitle: Costing Engineer
     bio: >-
@@ -170,7 +178,9 @@ team-members:
     image: /img/2.png
     interests:
       - xbox
+      - football
 seo:
-  title: Our Team
-  description: Our Team
+  title: Meet the ASL Team | Get to know our People
+  description: Meet the Team at Assembly Solutions. Contact us on 01204 521999 for
+    more information.
 ---

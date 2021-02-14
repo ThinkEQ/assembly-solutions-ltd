@@ -32,7 +32,7 @@ collections:
             name: "testimonial" 
             widget: object 
             fields: 
-              - {label: Testimonial Block, name: testimonial, widget: object, fields: [{ label: Name, name: name, widget: string, required: false}, { label: Quote, name: quote, widget: text}]}
+              - {label: Testimonial Block, name: testimonial, widget: object, fields: [{ label: Name, name: name, widget: string, required: false}, { label: Quote, name: quote, widget: text}, {label: Alignment, name: alignment, widget: select, required: false, multiple: false, default: "standard", options: [{ label: "standard", value: "standard"}, { label: "centre", value: "centre"}]}]}
           - label: "Column" 
             name: "column" 
             widget: object 
@@ -59,7 +59,6 @@ collections:
       - {label: "Content Intro", name: "body", widget: "markdown"}
       - {label: "Image Gallery", name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
       - {label: "Products", name: products, widget: relation, collection: product, searchFields: [title], displayFields: [title], valueField: title, multiple: true, required: false}
-      - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
       - label: "Layout Content" 
         name: "layout" 
         widget: "list" 
@@ -79,6 +78,7 @@ collections:
             widget: object
             fields:
              - {label: "Full Width Block", name: full, widget: object, fields: [{label: Title, name: title, widget: string, required: false}, {label: Text, name: text, widget: markdown}]}
+      - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
 
   - name: "product"
     label: "Product"
