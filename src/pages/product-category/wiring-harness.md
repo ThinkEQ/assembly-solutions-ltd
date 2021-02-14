@@ -8,7 +8,6 @@ usps:
   - usp: UK Made in Bolton
   - usp: Fast 3-6 Week Delivery
   - usp: ISO 9001 Quality Approved
-  - usp: 25 Years of Wiring Harnesses
 products:
   - Wiring Looms
   - Cable Looms
@@ -16,11 +15,6 @@ products:
   - Electric Vehicle & Hybrid Vehicle Wiring Harnesses
   - Motorsport Harnesses
   - Trailer Wiring Loom
-seo:
-  title: Wiring Harness | Wire Harness - ASL Wiring Harness Manufacturer
-  description: Wiring Harness and Wire Harness Solutions from UK Manufacturer
-    Assembly Solutions. Call 01204 521999 for a low cost custom built wiring
-    loom quote.
 layout:
   - type: column
     column:
@@ -91,6 +85,11 @@ layout:
         withstand extreme temperature variations, vibrations, water and
         electromagnetic interference and other conditions. We ensure that our
         products can hold their own in these conditions.
+seo:
+  title: Wiring Harness | Wire Harness - ASL Wiring Harness Manufacturer
+  description: Wiring Harness and Wire Harness Solutions from UK Manufacturer
+    Assembly Solutions. Call 01204 521999 for a low cost custom built wiring
+    loom quote.
 ---
 **Wiring harnesses manufactured to your specification**
 
