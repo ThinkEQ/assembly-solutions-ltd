@@ -8,7 +8,6 @@ usps:
   - usp: UK Made in Bolton
   - usp: 4 Week Delivery
   - usp: ISO 9001 Quality Approved
-  - usp: 25 years of Cable Assembly
 images:
   - image: /img/jumbotron.jpg
     alt: Mock 2
@@ -25,11 +24,6 @@ products:
   - Braided Cable
   - Earth Strap
   - Ribbon Cables
-seo:
-  title: Cable Assembly | Cable Assembly Manufacturer | ASL
-  description: Assembly Solutions are the UK's leading Cable Assembly
-    Manufacturer. Call us on 01204 521999 to discuss your electrical cable
-    assembly needs.
 layout:
   - type: column
     column:
@@ -95,6 +89,11 @@ layout:
         Manufacturer Optare, our cable assembly solutions were a part of their
         contract for the Greater Manchester Transport Authority who required 66
         Hybrid Buses.
+seo:
+  title: Cable Assembly | Cable Assembly Manufacturer | ASL
+  description: Assembly Solutions are the UK's leading Cable Assembly
+    Manufacturer. Call us on 01204 521999 to discuss your electrical cable
+    assembly needs.
 ---
 #### **Custom made cable assemblies made for you**
 
