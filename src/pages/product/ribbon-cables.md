@@ -6,7 +6,7 @@ usps:
   - usp: UK Made in Bolton
   - usp: Fast 4 Week Delivery
   - usp: ISO 9001 Quality Approved
-image: /img/ribbon-cables-banner-1-.jpg
+image: /img/ribboncables.jpg
 layout:
   - type: full
     full:
