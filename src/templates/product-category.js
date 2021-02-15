@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 import { graphql, navigate } from 'gatsby'
 import Layout from '../components/Layout'
 
@@ -22,7 +22,7 @@ import CableMP from '../videos/CABLE_ASSEMBLY.mp4'
 import CableWEB from '../videos/CABLE_ASSEMBLY.webm'
 import WiringMP from '../videos/WIRING_HARNESSES.mp4'
 import WiringWEB from '../videos/WIRING_HARNESSES.webm'
-import ControlMP from '../videos/CONTROL_PANEL.mp4'
+import ControlMP from '../videos/CONTROL_PANELS.mp4'
 import ControlWEB from '../videos/CONTROL_PANEL.webm'
 
 export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent, video }) => {
@@ -30,6 +30,11 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
   const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
   const [isLessThan464] = useMediaQuery("(max-width: 464px")
   const [isMoving, setMoving] = useState(false)
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   function nav(slug) {
     navigate(slug)
@@ -114,12 +119,12 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
         </Box>
       </Box>
 
-      {relatedProducts.length > 0 &&
+      {(relatedProducts.length > 0 && mounted) &&
         <Box as="section" width="100%" maxHeight="600px" margin={{base:"30px 0", lg: "50px 0"}}>
           <Carousel
             arrows={false}
             centerMode={isLessThan464 ? false : true}
-            partialVisible={isLessThan464 ? true : false}
+            partialVisible={(isLessThan464 && relatedProducts.length > 1) ? true : false}
             beforeChange={() => setMoving(true)}
             afterChange={() => setMoving(false)}
             >
