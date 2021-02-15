@@ -13,7 +13,7 @@ team-members:
       When Graham’s not checking through the companies P & L, he’s out winning national cycling championships!
     interests:
       - cycling
-      - gardening
+      - golf
     name: Graham Balshaw
     jobtitle: Founder & Chairman
     image: /img/team1.png
@@ -32,7 +32,7 @@ team-members:
     image: /img/team2.png
     interests:
       - cycling
-      - jiujitsu
+      - weights
   - name: Sophie Balshaw
     jobtitle: Marketing Executive
     bio: >-
