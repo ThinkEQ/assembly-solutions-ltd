@@ -6,7 +6,6 @@ usps:
   - usp: UK Made in Bolton
   - usp: Fast 4 Week Delivery
   - usp: ISO 9001 Quality Approved
-  - usp: 25 Years of Earth Straps
 image: /img/earth-strap.jpg
 layout:
   - type: full

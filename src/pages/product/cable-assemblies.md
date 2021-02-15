@@ -6,7 +6,6 @@ usps:
   - usp: UK Made in Bolton
   - usp: 4 Week Delivery
   - usp: ISO 9001 Quality Approved
-  - usp: 25 years of Cable Assembly
 image: /img/cable-assemblies.jpg
 images:
   - image: /img/stock.jpg

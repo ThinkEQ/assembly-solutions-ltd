@@ -6,7 +6,6 @@ usps:
   - usp: UK Made in Bolton
   - usp: Fast 4 Week Delivery
   - usp: ISO 9001 Quality Approved
-  - usp: 25 Years of Battery Cables
 image: /img/battery-cable-assembly.jpg
 layout:
   - type: full

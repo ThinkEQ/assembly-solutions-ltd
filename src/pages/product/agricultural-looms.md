@@ -7,7 +7,6 @@ usps:
   - usp: 3-6 Week Delivery
   - usp: ISO 9001 Quality Approved
   - usp: Competitive Prices
-  - usp: High Speed Machinery
 image: /img/agriculture-min.jpg
 layout:
   - type: full

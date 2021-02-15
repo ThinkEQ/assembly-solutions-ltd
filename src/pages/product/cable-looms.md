@@ -6,7 +6,6 @@ usps:
   - usp: 3-6 Week Delivery
   - usp: ISO 9001 Quality Approved
   - usp: 25 Years of Wiring Looms
-  - usp: Technical Support
 image: /img/cable-looms.jpg
 layout:
   - type: full
