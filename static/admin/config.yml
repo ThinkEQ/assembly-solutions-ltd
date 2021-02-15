@@ -164,7 +164,6 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "industries-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Sub-title", name: "subtitle", widget: "string"}
-          - {label: "Intro", name: "intro", widget: "text"}
           - {label: "Image", name: "image", widget: image}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Testimonial", name: testimonial, widget: object, fields: [{label: Name, name: name, widget: string}, {label: Quote, name: quote, widget: text}]}
