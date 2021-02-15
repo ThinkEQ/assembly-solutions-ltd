@@ -28,14 +28,10 @@ layout:
         We can help your business to lower your costs and improve your quality, while ensuring that our fast delivery is consistent and reliable. 
 
 
-        **Watch the video below to visit our award-winning factory**
-  - type: column
-    column:
-      title: Braided cables
-      text: >-
-        Whether it’s an earth strap or earth lead, we can produce any type of
-        braided cable assembly. Our custom-made braided earth leads are used for
-        earthing and electrical bonding applications.
+        **Braided cables**
+
+
+        Whether it’s an earth strap or earth lead, we can produce any type of braided cable assembly. Our custom-made braided earth leads are used for earthing and electrical bonding applications.
 
 
         All our braided assemblies are made in our UK Bolton factory and our experienced staff work hard to ensure that every product reaches our extremely high standards of quality. 
@@ -52,18 +48,12 @@ layout:
         * Braided Earth Straps
 
         * Braided Earth Cables
-  - type: column
-    column:
-      title: Discover what sets ASL apart
-      text: At ASL we believe in establishing lasting relationships with our clients,
-        rather than simply making a sale then washing our hands of you. As a
-        multi-award winning and ISO 9001 approved UK earth cable manufacturer,
-        our dedicated team have the know-how and customer skills to help you get
-        the product you need and in solving any queries down the line. We’ve
-        worked with businesses across a wide range of industries for over 20
-        years and, in that time, our level of service and quality of our
-        products has been reflected in the lovely feedback we receive from our
-        clients.
+
+
+        **Discover what sets ASL apart**
+
+
+        At ASL we believe in establishing lasting relationships with our clients, rather than simply making a sale then washing our hands of you. As a multi-award winning and ISO 9001 approved UK earth cable manufacturer, our dedicated team have the know-how and customer skills to help you get the product you need and in solving any queries down the line. We’ve worked with businesses across a wide range of industries for over 20 years and, in that time, our level of service and quality of our products has been reflected in the lovely feedback we receive from our clients.
   - type: column
     column:
       title: What our customers think
