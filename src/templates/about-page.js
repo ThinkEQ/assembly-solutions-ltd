@@ -39,45 +39,10 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
       </Box>
       <Box as="section" textStyle="section">
         <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} textStyle="container">
-          <Box width={{base: "100%", lg:"48%"}} marginBottom={{base: "20px", lg: "0"}}>
+          <Box width={{base: "100%", lg:"100%"}} marginBottom={{base: "20px", lg: "0"}}>
             <MDXWrapper>
               <PageContent content={content} />
             </MDXWrapper>
-          </Box>
-          <Box width={{base: "100%", lg:"48%"}}>
-            <Text textStyle="p" fontSize="24px" fontWeight="600" marginBottom="20px">
-              With a wide product range, Assembly Solutions serve any market sector from Automotive, to Nuclear and Utilities.
-            </Text>
-            <List spacing="4">
-                <ListItem fontSize="20px" display="flex" alignItems="center">
-                  <ListIcon as={BsCircleFill} fontSize="10px" color="green.900"/>
-                  20 Years Excellence
-                </ListItem>
-                <ListItem fontSize="20px" display="flex" alignItems="center">
-                  <ListIcon as={BsCircleFill} fontSize="10px" color="green.900"/>
-                  Highly Qualified Experienced Staff
-                </ListItem>
-                <ListItem fontSize="20px" display="flex" alignItems="center">
-                  <ListIcon as={BsCircleFill} fontSize="10px" color="green.900"/>
-                  Family Run
-                </ListItem>
-                <ListItem fontSize="20px" display="flex" alignItems="center">
-                  <ListIcon as={BsCircleFill} fontSize="10px" color="green.900"/>
-                 Award Winning
-                </ListItem>
-                <ListItem fontSize="20px" display="flex" alignItems="center">
-                  <ListIcon as={BsCircleFill} fontSize="10px" color="green.900"/>
-                  Cable Assembly, Control Panel and Wiring Harness Manufacture
-              </ListItem>
-              <ListItem fontSize="20px" display="flex" alignItems="center">
-                <ListIcon as={BsCircleFill} fontSize="10px" color="green.900"/>
-                Uk, Bolton Based
-              </ListItem>   
-              <ListItem fontSize="20px" display="flex" alignItems="center">
-                <ListIcon as={BsCircleFill} fontSize="10px" color="green.900"/>
-                Brand New Company Owned 32,000sqft Factory
-              </ListItem>
-            </List>
           </Box>
         </Box>
 
