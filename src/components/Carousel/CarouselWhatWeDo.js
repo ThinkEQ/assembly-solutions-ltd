@@ -67,7 +67,9 @@ const ButtonGroup = ({ next, previous }) => {
 
 const CarouselWhatWeDo = () => {
     const [isLargerThan995] = useMediaQuery("(min-width: 990px)")
-    const data = useStaticQuery(graphql`
+
+    try {
+         const data = useStaticQuery(graphql`
         query Carousel {
             wireprep:  
             file(relativePath: {regex: "/wireprep/"}) {
@@ -108,7 +110,8 @@ const CarouselWhatWeDo = () => {
             }
         }
     `)
-    return (
+       
+    return data && (
         <Fragment>
             <Heading textStyle="h1" marginBottom={{base: "40px", lg:"60px"}}>
                 What we do?
@@ -150,6 +153,9 @@ const CarouselWhatWeDo = () => {
             </Carousel>
         </Fragment>
     )
+    } catch (error) {
+        return null
+    }
 }
 
 export default CarouselWhatWeDo
