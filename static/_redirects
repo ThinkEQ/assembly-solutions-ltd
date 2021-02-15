@@ -1,11 +1,11 @@
 # rewrites
 # should be -> current 
-
-/motorsport-wiring-loom                                             /motorsport-harnesses                                   200
-/wire-preparation                                                   /wire-and-cable-preparation                             200
-/battery-cables                                                     /battery-and-hv-cables                                  200
-/electric-vehicle-wiring-loom                                       /electric-vehicle-and-hybrid-vehicle-wiring-harnesses   200
-/agricultural-wiring-loom                                           /agricultural-looms                                     200
+/wire-and-cable-preparation                                         /wire-preparation                                       200!
+/motorsport-wiring-loom                                             /motorsport-harnesses                                   200!
+/wire-preparation                                                   /wire-and-cable-preparation                             200!
+/battery-cables                                                     /battery-and-hv-cables                                  200!
+/electric-vehicle-wiring-loom                                       /electric-vehicle-and-hybrid-vehicle-wiring-harnesses   200!
+/agricultural-wiring-loom                                           /agricultural-looms                                     200!
 # redirects
 /home                                                               /                                               301
 /wiring-products/wiring-loom/wiring-harness/	                    /wiring-harness                                 301

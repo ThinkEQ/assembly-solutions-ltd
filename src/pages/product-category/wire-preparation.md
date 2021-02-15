@@ -1,7 +1,7 @@
 ---
 templateKey: product-category
-title: Wire and Cable Preparation
-subtitle: Wire and Cable Preparation
+title: Wire Preparation
+subtitle: Wire Preparation
 video: wire-and-cable-preparation
 image: /img/chemex.jpg
 usps:
@@ -10,15 +10,15 @@ usps:
   - usp: Excellent Service
 images:
   - image: /img/img_4046.jpg
-    alt: Wire and Cable Preparation
+    alt: Wire Preparation
   - image: /img/img_4757.jpg
-    alt: Wire and Cable Preparation
+    alt: Wire Preparation
   - image: /img/img_4772.jpg
-    alt: Wire and Cable Preparation
+    alt: Wire Preparation
   - image: /img/img_4011.jpg
-    alt: Wire and Cable Preparation
+    alt: Wire Preparation
   - image: /img/image001.jpg
-    alt: Wire and Cable Preparation
+    alt: Wire Preparation
 products:
   - Cable Preparation
 layout:

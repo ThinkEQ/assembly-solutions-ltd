@@ -127,7 +127,7 @@ const MainNav = () => (
   </Box>
   <Box as="ul" textDecoration="none">
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/wire-and-cable-preparation" size="lg" variant="nav">Wire and Cable Preparation</Link>
+      <Link as={ReachLink} to="/wire-and-cable-preparation" size="lg" variant="nav">Wire Preparation</Link>
     </Box>
     <Box as="li" display="block">
      <Link as={ReachLink} to="/cable-assembly" size="lg" variant="nav">Cable Assembly</Link>
