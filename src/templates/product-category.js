@@ -22,7 +22,7 @@ import CableMP from '../videos/CABLE_ASSEMBLY.mp4'
 import CableWEB from '../videos/CABLE_ASSEMBLY.webm'
 import WiringMP from '../videos/WIRING_HARNESSES.mp4'
 import WiringWEB from '../videos/WIRING_HARNESSES.webm'
-import ControlMP from '../videos/CONTROL_PANEL.mp4'
+import ControlMP from '../videos/CONTROL_PANELS.mp4'
 import ControlWEB from '../videos/CONTROL_PANEL.webm'
 
 export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent, video }) => {

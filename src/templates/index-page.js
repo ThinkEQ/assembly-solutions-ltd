@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { navigate } from 'gatsby-link'
 
 // Load components
-import { Box, Heading, Text, Button, keyframes, AspectRatio, useMediaQuery } from '@chakra-ui/react'
+import { Box, Heading, Text, Button, keyframes, useDisclosure, useMediaQuery, Modal, ModalBody, ModalContent, ModalOverlay } from '@chakra-ui/react'
 import ReactScroll from '../components/ReactScroll/ReactScroll'
 
 //import Button from '../theme/button'
@@ -20,7 +20,7 @@ import Video from '../components/Video/Video'
 import teamTablet from '../img/default/tablet-about.png'
 import teamMobile from '../img/default/mobile-team.png'
 import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
-import homvidmp from '../videos/HOMEPAGEMP4.mp4'
+import homvidmp from '../videos/HOMEPAGE.mp4'
 import teamDesktop from '../img/default/meettheteam2.jpg'
 import '../components/UI/SVG/styles.css'
 
@@ -36,6 +36,7 @@ const dekstop = `url(${teamDesktop})`
 
 export const IndexPageTemplate = () => {
 const [isMoreThat1500] = useMediaQuery(["(min-width: 1450px)"])
+const {isOpen, onOpen, onClose } = useDisclosure()
   
 return (
     <Fragment>
@@ -53,7 +54,7 @@ return (
                 ASL is a sub-contract manufacturer of electrical wiring assemblies and control panels
                 </Text>
                 <Box display="flex" justifyContent="space-between" width="100%">
-                  <Button variant="solid">Watch Full Video</Button>
+                  <Button variant="solid" onClick={onOpen}>Watch Full Video</Button>
                 </Box>
                 <Box position="absolute" bottom={{base: "0", md: "50px", lg: "0px"}} right={{base: "15px", md: "10%"}} animation={`${bounce} infinite 5s ease-in-out`} cursor="pointer">
                   <ReactScroll>
@@ -95,6 +96,22 @@ return (
       <Box as="section" textStyle="section">
         <BannerUSP />
       </Box>
+      <Modal onClose={onClose} size="100%" motionPreset="scale" isOpen={isOpen} isCentered closeOnEsc>
+      <ModalOverlay />
+      <ModalContent width="80%">
+        <ModalBody padding="0">
+            <Box paddingBottom="50%" position="relative" height="0" overflow="hidden">
+              <iframe width="100%"
+                height="315"
+                src="https://www.youtube-nocookie.com/embed/wusos_tZNIQ"
+                frameborder="0"
+                title="youtube"
+                style={{border: 0, position: "absolute", top: 0, left: 0, width:"100%", height:"100%"}}
+                allowfullscreen />
+            </Box> 
+        </ModalBody>
+      </ModalContent>
+    </Modal>
     </Fragment>
   )
 }
