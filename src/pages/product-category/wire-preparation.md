@@ -8,6 +8,19 @@ usps:
   - usp: UK Made
   - usp: Short Lead Times
   - usp: Excellent Service
+images:
+  - image: /img/img_4054.jpg
+    alt: Wire and Cable Preparation
+  - image: /img/img_4045.jpg
+    alt: Wire and Cable Preparation
+  - image: /img/img_4030.jpg
+    alt: Wire and Cable Preparation
+  - image: /img/img_4022.jpg
+    alt: Wire and Cable Preparation
+  - image: /img/img_4011.jpg
+    alt: Wire and Cable Preparation
+  - image: /img/image0.jpg
+    alt: Wire and Cable Preparation
 products:
   - Cable Preparation
 layout:
