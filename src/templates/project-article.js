@@ -39,7 +39,7 @@ export const ProjectArticleTemplate = ({
             <Box textStyle="container">
               
               {/**Main body content */}
-              <Box maxWidth="60%" margin="0 auto">
+              <Box maxWidth={{base: "100%", lg:"60%"}} margin="0 auto">
                   <MDXWrapper>
                     <CMSContent content={content} /> 
                 </MDXWrapper>
