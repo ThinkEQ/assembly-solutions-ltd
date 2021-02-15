@@ -34,6 +34,11 @@ layout:
 
 
         Often when outsourcing work abroad, you cannot be fully confident that you will be getting the standard of quality that you need. At ASL, we’re committed to only manufacturing the best products, giving you the guarantee you need to proceed with confidence.
+  - type: testimonial
+    testimonial:
+      quote: ASL have supplied us with Nuclear control panels and cable assemblies for
+        many years now and continue to provide instant availability, willingness
+        to work with us and overall a first-class service.
   - type: column
     column:
       text: |-
@@ -46,11 +51,6 @@ layout:
         * Short Lead Times
         * Low Prices
       title: "We offer:"
-  - type: testimonial
-    testimonial:
-      quote: ASL have supplied us with Nuclear control panels and cable assemblies for
-        many years now and continue to provide instant availability, willingness
-        to work with us and overall a first-class service.
 seo:
   title: Nuclear Control Panels | Control Panel Manufacturers | ASL
   description: Nuclear Control Panel and Panel Build from Control Panel Experts
