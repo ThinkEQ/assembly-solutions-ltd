@@ -1,15 +1,27 @@
 import React from 'react'
 
 // Load components
-import { Box, useMediaQuery, Image } from '@chakra-ui/react'
+import { Box, useMediaQuery, Image, keyframes } from '@chakra-ui/react'
 import Carousel from './CustomCarousel'
 import LeftHandle from '../../img/svg/leftHandle.svg'
 import PreviewCompatibleImage from '../PreviewCompatibleImage'
 
+const flow = keyframes `
+  0%{background-position: 0% 50%}
+  50%{background-position: 100% 50%}
+  100%{background-position: 0% 50%}
+`
+
 export const SlideLeft = ({ next }) => {
+
     return (
-        <Box onClick={() => next()} cursor="pointer" top="50%" left={{base: "-50px", lg: "-80px"}}  height={{base:"45px", lg: "90px"}} width={{base: "45px", lg: "90px"}} transform="translateX(-50%)" position="absolute">
-            <Image src={LeftHandle} alt="left icon" />
+        <Box cursor="pointer" onClick={() => next()} top="50%" left={{base: "-50px", lg: "-80px"}}  height={{base:"45px", lg: "90px"}} width={{base: "45px", lg: "90px"}} transform="translateX(-50%)" position="absolute">
+            <Box position="relative" animation={`${flow} infinite 10s ease`} transition="all .5s ease-in-out" height={{base: "45px", md: "50px", lg: "59px"}} borderRadius="50%" width={{base: "45px", md: "50px", lg: "59px"}} background="gradient.200" _hover={{bg: "gradient.300",
+            borderColor: "green.900",
+            backgroundSize: "600% 600%",
+            animation: `${flow} infinite 5s ease`}}>    
+                <Image src={LeftHandle} alt="left icon" />
+            </Box>
         </Box>  
     )
 }
