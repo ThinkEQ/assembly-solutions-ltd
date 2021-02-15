@@ -3,7 +3,7 @@ const path = require('path')
 const slugify = require('slugify')
 const { paginate } = require('gatsby-awesome-pagination')
 const { createFilePath } = require('gatsby-source-filesystem')
-const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+// const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
 // Replacing '/' would result in empty string which is invalid
 // Remove trailing /
