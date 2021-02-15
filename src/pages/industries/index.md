@@ -6,7 +6,7 @@ subtitle: We supply into any industry and have built a wealth of knowledge and
 intro: These include; Agriculture, Automotive, Construction, Energy & Utilities,
   Engineering, Lighting, Medical, Nanotechnology, Nuclear and Test &
   Measurement.
-image: /img/blog-index.jpg
+image: /img/automotive-min.jpg
 testimonial:
   quote: "Excellent service, great quality and very few issues. We have been using
     ASL since 2013 and have been very satisfied with their work, delivery time
@@ -15,17 +15,17 @@ testimonial:
   name: A happy customer in the Automotive industry.
 industries:
   - name: Agriculture
-    image: /img/blog-index.jpg
+    image: /img/agriculture-min.jpg
     alt: Agriculture
     featured: false
   - name: Automotive
-    image: /img/home-jumbotron.jpg
+    image: /img/automotive-min.jpg
     alt: Automotive
   - name: Construction
     alt: Construction
-    image: /img/flavor_wheel.jpg
+    image: /img/construction-min.jpg
   - name: Nuclear
-    image: /img/jumbotron.jpg
+    image: /img/nuclear-min.jpg
     alt: Nuclear
 seo:
   title: Industries We Serve | Assembly Solutions
