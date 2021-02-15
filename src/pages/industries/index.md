@@ -1,8 +1,7 @@
 ---
 templateKey: industries-page
 title: Industries
-subtitle: We supply into any industry and have built a wealth of knowledge and
-  experience over our 25 years in business.
+subtitle: We supply into a range of industries and deliver products worldwide
 intro: These include; Agriculture, Automotive, Construction, Energy & Utilities,
   Engineering, Lighting, Medical, Nanotechnology, Nuclear and Test &
   Measurement.

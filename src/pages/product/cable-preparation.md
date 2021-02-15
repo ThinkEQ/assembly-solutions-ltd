@@ -20,14 +20,18 @@ related-products:
     alt: Braided Cables
 image: /img/cable-preparation.jpg
 images:
-  - image: /img/stock.jpg
-    alt: Test 1
-  - image: /img/stock.jpg
-    alt: Test 2
-  - alt: Test 3
-    image: /img/stock.jpg
-  - image: /img/stock.jpg
-    alt: Test 4
+  - image: /img/img_4054.jpg
+    alt: Cable Preparation
+  - image: /img/img_4045.jpg
+    alt: Cable Preparation
+  - image: /img/img_4030.jpg
+    alt: Cable Preparation
+  - image: /img/img_4022.jpg
+    alt: Cable Preparation
+  - image: /img/img_4011.jpg
+    alt: Cable Preparation
+  - image: /img/image0.jpg
+    alt: Cable Preparation
 layout:
   - type: full
     full:

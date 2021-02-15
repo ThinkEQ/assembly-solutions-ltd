@@ -5,21 +5,19 @@ subtitle: Wire and Cable Preparation
 video: wire-and-cable-preparation
 image: /img/chemex.jpg
 usps:
-  - usp: UK Made
+  - usp: UK Manufactured
   - usp: Short Lead Times
   - usp: Excellent Service
 images:
-  - image: /img/img_4054.jpg
+  - image: /img/img_4046.jpg
     alt: Wire and Cable Preparation
-  - image: /img/img_4045.jpg
+  - image: /img/img_4757.jpg
     alt: Wire and Cable Preparation
-  - image: /img/img_4030.jpg
-    alt: Wire and Cable Preparation
-  - image: /img/img_4022.jpg
+  - image: /img/img_4772.jpg
     alt: Wire and Cable Preparation
   - image: /img/img_4011.jpg
     alt: Wire and Cable Preparation
-  - image: /img/image0.jpg
+  - image: /img/image001.jpg
     alt: Wire and Cable Preparation
 products:
   - Cable Preparation
