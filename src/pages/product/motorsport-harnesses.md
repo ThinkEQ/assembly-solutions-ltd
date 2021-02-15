@@ -14,6 +14,18 @@ layout:
 
 
         In our UK-based factory, we can manufacture motorsport wiring loom and wiring harnesses to your exact specifications. Alternatively, we can utilise our experience and work with you to design a product that offers a cost-effective solution.
+
+
+        **We’re mad about racing**
+
+
+        We love sport here at ASL but we really love this feedback from our customer Brompton “ASL’s fast turnaround, excellent service, quality and customer focus is superb, and with them always looking to grow as a business, it makes my role as a buyer much easier.”
+
+
+        **Motorsport Wiring Harness Manufacturer**
+
+
+        Our team know that the requirements of an F1 racer will likely look very different from those of a club racer which is why we ensure to find out exactly what you need before we get going.
   - type: column
     column:
       text: |-
@@ -28,27 +40,14 @@ layout:
       title: We tick all the boxes
   - type: column
     column:
-      title: Motorsport Wiring Harness Manufacturer
-      text: >-
-        Our team know that the requirements of an F1 racer will likely look very
-        different from those of a club racer which is why we ensure to find out
-        exactly what you need before we get going.
-
-
-        **When working with ASL, you can expect:**
-
-
+      text: |-
         * Fast wiring harness delivery
-
         * Free wiring harness design 
-
         * Free wiring harness development support
-
         * Free technical support
-
         * ISO9001 quality approved
-
         * Competitive pricing
+      title: "When working with ASL, you can expect:"
   - type: column
     column:
       title: Discover what sets ASL apart
@@ -73,13 +72,6 @@ layout:
 
 
         With ASL, you can rest assured that you will only ever receive high-quality products that have been tested by our exceptional quality testing team. As well, with a sole factory in the North of England, we can guarantee fast turnaround times and we will be around when you need us.
-  - type: column
-    column:
-      title: We’re mad about racing
-      text: We love sport here at ASL but we really love this feedback from our
-        customer Brompton “ASL’s fast turnaround, excellent service, quality and
-        customer focus is superb, and with them always looking to grow as a
-        business, it makes my role as a buyer much easier.”
 seo:
   title: Motorsport Wiring Loom | Wiring Loom Manufacturers | ASL
   description: Motorsport Wiring Loom and Wiring Harness manufacture by Vehicle

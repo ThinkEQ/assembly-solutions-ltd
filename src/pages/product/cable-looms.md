@@ -32,26 +32,10 @@ layout:
         Convinced yet? Why not take a virtual tour of our award-winning factory to see where this all takes place: 
 
 
-        **Watch the video below to visit our award-winning factory**
-  - type: column
-    column:
-      title: UK Low-Cost Cable Looms and Wiring Looms
-      text: Unlike many other manufactures, we offer 100% free design and development
-        of cable loom to ensure they’re right for you. We can also arrange a
-        full equipment build service of control panels and box build as part of
-        our wiring harness packages to suit your business.
-  - type: column
-    column:
-      title: Cable Looms and Wire Loom Manufacturers UK 
-      text: |-
-        Our cable looms service includes:
+        **UK Low-Cost Cable Looms and Wiring Looms**
 
-        * Agricultural vehicle cable loom
-        * Bus wiring loom
-        * Industrial wiring loom
-        * Motorsport wiring loom
-        * Truck wiring loom
-        * And much more…
+
+        Unlike many other manufactures, we offer 100% free design and development of cable loom to ensure they’re right for you. We can also arrange a full equipment build service of control panels and box build as part of our wiring harness packages to suit your business.
   - type: column
     column:
       title: Discover what sets ASL apart
@@ -69,10 +53,30 @@ layout:
         Our dedicated cable loom division is led by fully qualified design engineers who not only assist with initial design and development but are also always on hand to help production with the manufacture and any niggly last-minute technical changes.
   - type: column
     column:
+      title: Cable Looms and Wire Loom Manufacturers UK 
+      text: |-
+        Our cable looms service includes:
+
+        * Agricultural vehicle cable loom
+        * Bus wiring loom
+        * Industrial wiring loom
+        * Motorsport wiring loom
+        * Truck wiring loom
+        * And much more…
+  - type: column
+    column:
       title: Electric Vehicle and Hybrid Cable Looms
       text: As the popularity of electric vehicles continues to skyrocket, we offer
         electrical cable looms for electric road and rail vehicles, including
         single-decker buses and train door electrical systems.
+  - type: testimonial
+    testimonial:
+      quote: “Highly professional and skilled manufacturer for our wiring needs. Their
+        communication is excellent from the drawing-up of a new loom to our
+        exact needs. Whether a short or high volume requested the prices have
+        been good and have helped save many man-hours for us with a fast
+        turn-around from order placement.”
+      name: Review from a very happy cable loom customer.
   - type: column
     column:
       title: Get to know us
@@ -82,14 +86,6 @@ layout:
         price, but on customer experience and making sure the service is so good
         you will never want to leave. On that note, here’s a quote from a
         customer we have supplied looms to for 10 years.
-  - type: testimonial
-    testimonial:
-      quote: “Highly professional and skilled manufacturer for our wiring needs. Their
-        communication is excellent from the drawing-up of a new loom to our
-        exact needs. Whether a short or high volume requested the prices have
-        been good and have helped save many man-hours for us with a fast
-        turn-around from order placement.”
-      name: Review from a very happy cable loom customer.
   - type: column
     column:
       title: Contact Us

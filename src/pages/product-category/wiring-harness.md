@@ -18,17 +18,6 @@ products:
 layout:
   - type: column
     column:
-      title: "Things you probably want to know "
-      text: |-
-        
-
-        * We manufacture any type of wiring loom
-        * Every wiring loom is 100% electrically tested before despatch
-        * All our staff are fully trained to IPC-A620 electrical standards
-        * We are UK based and certified to Quality Accreditation ISO9001
-        * You will get answers fast from our 5/5 rated customer service
-  - type: column
-    column:
       title: "We are good at being fast and flexible "
       text: >-
         A common question we get asked is, “How fast can you deliver?”, and over
@@ -44,6 +33,24 @@ layout:
         \
 
         We have special cell areas that we call “Projects” and we keep these cells free for when a quick job comes on that needs urgent attention and fast turnaround. Other cell areas are set up for routine and planned manufacture where customers will have a 6-12 month scheduled order.
+  - type: column
+    column:
+      title: "Things you probably want to know "
+      text: |-
+        * We manufacture any type of wiring loom
+        * Every wiring loom is 100% electrically tested before despatch
+        * All our staff are fully trained to IPC-A620 electrical standards
+        * We are UK based and certified to Quality Accreditation ISO9001
+        * You will get answers fast from our 5/5 rated customer service
+
+        **We offer:**
+
+        * Vehicle conversion wiring harnesses and cable looms
+        * Bus and truck wire harness systems
+        * Blue light service vehicle full electrical systems
+        * Commercial and domestic trailer plug and play cables
+        * Electric vehicle, hybrid and low emission vehicle wiring
+        * Motorsport wiring systems
   - type: column
     column:
       title: Out-sourcing your harnesses will save you money and time
@@ -64,18 +71,6 @@ layout:
         \
 
         With an IPC A-620 fully trained technical team, we guarantee low costs and high quality for all your wiring harness requirements. Our expertise and knowledge base in vehicle high voltage and battery technologies ensures we are market leaders within the electrical wiring industry.
-  - type: column
-    column:
-      title: "We offer: "
-      text: |-
-        
-
-        * Vehicle conversion wiring harnesses and cable looms
-        * Bus and truck wire harness systems
-        * Blue light service vehicle full electrical systems
-        * Commercial and domestic trailer plug and play cables
-        * Electric vehicle, hybrid and low emission vehicle wiring
-        * Motorsport wiring systems
   - type: column
     column:
       title: Harness Components

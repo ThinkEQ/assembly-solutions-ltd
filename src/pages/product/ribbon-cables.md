@@ -1,13 +1,13 @@
 ---
 templateKey: product
 title: Ribbon Cables
-subtitle: "Ribbon Cable Manufactures "
+subtitle: Ribbon Cable Manufacturer
 usps:
   - usp: UK Made in Bolton
   - usp: Fast 4 Week Delivery
   - usp: ISO 9001 Quality Approved
   - usp: "25 Years of Ribbon Cables "
-image: /img/chemex.jpg
+image: /img/ribbon-cables-banner-1-.jpg
 layout:
   - type: full
     full:
@@ -22,7 +22,16 @@ layout:
         Having recently invested £100k in our wire and cable preparation machinery, we are the UK leader when it comes to quality products on a fast turnaround. 
 
 
-        **Watch the video below to visit our award-winning factory**
+        **Discover what sets ASL apart**
+
+
+        Want to know why we’re one of the UK’s leading cable manufacturers? 
+
+
+        For a start, we really care about getting it right for the customer. That’s why we’re here, our founder started ASL with the aim of creating one of the best manufacturing businesses in the UK. Another thing that gives us that extra spark is that fact that we’re a family-run business. This means that we’re truly invested in our business and our people and want to maintain our 20-year-strong reputation of excellence in the industry. 
+
+
+        We want to help you. We want to reduce your costs and output while improving your quality. And we don’t want it to end at the point of sale. Our team will stick around, so that we’re available when you need us.
   - type: column
     column:
       title: Cable Assembly UK
@@ -36,29 +45,14 @@ layout:
 
 
         With our office based in the North of England, we can assure competitive prices, a fast turnaround and an exceptional level of service.
-
-
-        **We also offer:** 
-
-
-        * Battery cables 
-
-        * Braided cables 
-
-        * Cable Assemblies 
-
-        * Ventilator cables
   - type: column
     column:
-      title: Discover what sets ASL apart
-      text: >-
-        Want to know why we’re one of the UK’s leading cable manufacturers? 
-
-
-        For a start, we really care about getting it right for the customer. That’s why we’re here, our founder started ASL with the aim of creating one of the best manufacturing businesses in the UK. Another thing that gives us that extra spark is that fact that we’re a family-run business. This means that we’re truly invested in our business and our people and want to maintain our 20-year-strong reputation of excellence in the industry. 
-
-
-        We want to help you. We want to reduce your costs and output while improving your quality. And we don’t want it to end at the point of sale. Our team will stick around, so that we’re available when you need us.
+      text: |-
+        * Battery cables 
+        * Braided cables 
+        * Cable Assemblies 
+        * Ventilator cables
+      title: "We also offer:"
   - type: column
     column:
       title: What our customers think
@@ -72,14 +66,18 @@ layout:
   - type: column
     column:
       title: Get in touch
-      text: At ASL, we believe in establishing great relationships with our clients.
+      text: >-
+        At ASL, we believe in establishing great relationships with our clients.
         Want to kick-off your journey? Get in touch with our sales team on 01204
         521999.
-  - type: column
-    column:
-      title: Connect with Us
-      text: We love sharing all our latest news and goings on, so follow us on
-        Linkedin to see what we’ve been up to this week!
+
+
+        **Connect with Us**
+
+
+        \
+
+        We love sharing all our latest news and goings on, so follow us on Linkedin to see what we’ve been up to this week!
 seo:
   title: Ribbon Cables | Ribbon Cable Assembly | ASL
   description: Ribbon Cables and Cable Assemblies from Assembly Solutions.

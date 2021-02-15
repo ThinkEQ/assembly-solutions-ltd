@@ -26,25 +26,18 @@ layout:
 
 
         **Watch the video below to visit our award-winning factory**
-  - type: column
-    column:
-      title: Braided Cable Assembly
-      text: Braided cables are manufactured in a wide variety of volumes. Our flexible
-        set up allows us to help any customer who approaches us with a braided
-        cable enquiry, no matter the size of your order. We offer all our
-        clients a full consultation on your requirements, as well as ongoing
-        support after you’ve received your order.
-  - type: column
-    column:
-      title: Discover what sets ASL apart
-      text: >-
-        Operating from one factory in the North of England, we have complete
-        control over the quality and turnaround of our products. Unlike when you
-        outsource your manufacturer from abroad, with us you can rest assured
-        that you will receive your product when you need it, to the level of
-        quality that you expect. Having over 20 years’ experience in the
-        manufacturing industry, we serve a wide range of sectors, including
-        automotive, nuclear and utilities. 
+
+
+        **Braided Cable Assembly**
+
+
+        Braided cables are manufactured in a wide variety of volumes. Our flexible set up allows us to help any customer who approaches us with a braided cable enquiry, no matter the size of your order. We offer all our clients a full consultation on your requirements, as well as ongoing support after you’ve received your order.
+
+
+        **Discover what sets ASL apart**
+
+
+        Operating from one factory in the North of England, we have complete control over the quality and turnaround of our products. Unlike when you outsource your manufacturer from abroad, with us you can rest assured that you will receive your product when you need it, to the level of quality that you expect. Having over 20 years’ experience in the manufacturing industry, we serve a wide range of sectors, including automotive, nuclear and utilities. 
 
 
         Our staff all undertake annual training with the aim to reduce costs and lead times as well as retaining our high level of quality.

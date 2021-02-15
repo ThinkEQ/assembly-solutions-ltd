@@ -25,15 +25,6 @@ layout:
       title: Powering vehicles through the latest wiring technology
   - type: column
     column:
-      text: |-
-        * We manufacture any type of loom or harness
-        * Every wiring loom is 100% electrically tested before despatch
-        * All our staff are fully trained to IPC-A620 electrical standards
-        * We are UK based and certified to Quality Accreditation ISO9001
-        * You will receive an unbelievable customer service
-      title: We will help you from start to finish
-  - type: column
-    column:
       title: Hybrid Wire Harness Solutions
       text: >-
         If you need a hybrid electrical wiring solution, we offer a complete
@@ -43,6 +34,15 @@ layout:
 
 
         Having seen an increase in demand for hybrid vehicle wiring loom and other types of hybrid electrical assemblies, we understand that you need to know that we’re up to the job of providing the orders you need within a set timeframe. Why not explore our factory below to discover how we make it happen?
+  - type: column
+    column:
+      text: |-
+        * We manufacture any type of loom or harness
+        * Every wiring loom is 100% electrically tested before despatch
+        * All our staff are fully trained to IPC-A620 electrical standards
+        * We are UK based and certified to Quality Accreditation ISO9001
+        * You will receive an unbelievable customer service
+      title: We will help you from start to finish
   - type: column
     column:
       title: Electric Vehicle Wiring Harness Manufacturer
@@ -66,8 +66,15 @@ layout:
   - type: column
     column:
       title: What our customers think
-      text: We have been working with Optare Group for over 10 years as their UK
+      text: >-
+        We have been working with Optare Group for over 10 years as their UK
         supplier for wiring looms, harnesses and control panels.
+
+
+        **Send your drawings for quote**
+
+
+        Email your drawings to [enquiry@assembly-solutions.com](mailto:enquiry@assembly-solutions.com) and we’ll send you prices and lead times that will make you wish you had enquired sooner.
   - type: testimonial
     testimonial:
       quote: ASL’s fast turnaround, excellent service, quality and customer focus is
@@ -92,13 +99,6 @@ layout:
 
 
         As the popularity of electric vehicles continues to skyrocket, we offer electrical cable looms for electric road and rail vehicles, including single-decker buses and train door electrical systems.
-  - type: column
-    column:
-      title: Send your drawings for quote
-      text: Email your drawings to
-        [enquiry@assembly-solutions.com](mailto:enquiry@assembly-solutions.com)
-        and we’ll send you prices and lead times that will make you wish you had
-        enquired sooner.
   - type: column
     column:
       title: The real engineering behind lowering customer costs

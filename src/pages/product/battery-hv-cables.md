@@ -28,20 +28,26 @@ layout:
 
 
         **Visit our world-class manufacturing factory of Cable Assemblies.**
-      title: Bespoke and custom-made battery cables produced by dedicated UK
-        manufacturers
-  - type: column
-    column:
-      title: Discover what sets ASL apart
-      text: >-
-        At ASL, we make it all about you, our customer; feels pretty good right?
-        We believe in establishing strong long-term relationships with our
-        clients so you can be assured that you will get a quality product every
-        time and that we will be there when you need us. But back to battery
-        cables… 
+
+
+        **Discover what sets ASL apart**
+
+
+        At ASL, we make it all about you, our customer; feels pretty good right? We believe in establishing strong long-term relationships with our clients so you can be assured that you will get a quality product every time and that we will be there when you need us. But back to battery cables… 
 
 
         On all our battery cables we offer a lighting fast turnaround using automatic machines and our speedy in-house operators. All our cable assemblies are made to the finest quality and given a full inspection and test before they’re sent out to you.
+
+
+        **Battery Cable Assembly**
+
+
+        Our skilled technical team can help to custom design your battery cable to ensure you have a quality cable assembly using the most cost-effective solution**.**
+
+
+        Our service doesn’t end their either. Our battery cables are only a part of the wider picture. As part of our cable assembly range, we also offer Braided Cable, High Voltage Cables and Vehicle Cables.
+      title: Bespoke and custom-made battery cables produced by dedicated UK
+        manufacturers
   - type: column
     column:
       title: "With ASL, you can expect: "
@@ -60,16 +66,6 @@ layout:
 
 
         We don’t believe in leaving anything to chance, which is why our testing equipment has been designed and built by our in-house technical experts. The means that we can deliver your battery cables right the first time.
-  - type: column
-    column:
-      title: Battery Cable Assembly
-      text: >-
-        Our skilled technical team can help to custom design your battery cable
-        to ensure you have a quality cable assembly using the most
-        cost-effective solution**.**
-
-
-        Our service doesn’t end their either. Our battery cables are only a part of the wider picture. As part of our cable assembly range, we also offer Braided Cable, High Voltage Cables and Vehicle Cables.
   - type: testimonial
     testimonial:
       quote: After being let down by previous subcontractors, I’m really pleased to

@@ -24,24 +24,12 @@ layout:
 
 
         As UK manufacturers with our plant based in the North of England, unlike manufacturers operating from abroad, we can assure the level of quality and speed of turnaround that you’re looking for. Want to see where we do this? Take a virtual tour of our factory below.
-  - type: column
-    column:
-      title: "Wiring loom manufacturers "
-      text: Because we know the importance of getting your wiring harness products
-        right in order for you to undertake your day-to-day role, we offer free
-        technical support on all our agricultural wiring harness products. Our
-        friendly team will work with you to come up with wiring harness solution
-        ideas to facilitate continuous innovation in vehicle technology,
-        emissions control and safety systems.
-  - type: column
-    column:
-      title: "When working with ASL, you can expect: "
-      text: |-
-        * Free help with loom design 
-        * Free technical support
-        * ISO9001 Quality products
-        * Value for money
-        * Five star service
+
+
+        **Wiring loom manufacturers** 
+
+
+        Because we know the importance of getting your wiring harness products right in order for you to undertake your day-to-day role, we offer free technical support on all our agricultural wiring harness products. Our friendly team will work with you to come up with wiring harness solution ideas to facilitate continuous innovation in vehicle technology, emissions control and safety systems.
   - type: column
     column:
       title: Discover what sets ASL apart
@@ -51,6 +39,15 @@ layout:
         order to get you exactly what you want and to ensure we can continue to
         support you after any sales have been made, we aim to get to know your
         requirements inside and out.
+  - type: column
+    column:
+      title: "When working with ASL, you can expect: "
+      text: |-
+        * Free help with loom design 
+        * Free technical support
+        * ISO9001 Quality products
+        * Value for money
+        * Five star service
   - type: column
     column:
       title: What our customers think
@@ -68,14 +65,16 @@ layout:
   - type: column
     column:
       title: Get in touch
-      text: We’re really quick at quoting so send your loom drawings to
+      text: >-
+        We’re really quick at quoting so send your loom drawings to
         enquiry@assembly-solutions.com and we will be straight back to you. Or
         if you’d prefer to have a chat first, call us on 01204 521999.
-  - type: column
-    column:
-      title: Connect with Us
-      text: We love sharing all our latest news and goings on, so follow us on
-        Linkedin to see what we’ve been up to this week!
+
+
+        **Connect with Us**
+
+
+        We love sharing all our latest news and goings on, so follow us on Linkedin to see what we’ve been up to this week!
 seo:
   title: Agricultural Vehicle Wiring Loom | Wiring Looms | ASL
   description: Agricultural Vehicle Wiring Loom and Wiring Harnesses manufactured
