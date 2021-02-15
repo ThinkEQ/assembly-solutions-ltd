@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMore'
 import Testimonial from '../components/Testimonial/Testimonial'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
+import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 import { Box, Heading, Link } from '@chakra-ui/react'
 
 export const ProjectArticleTemplate = ({
