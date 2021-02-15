@@ -20,7 +20,7 @@ import Video from '../components/Video/Video'
 import teamTablet from '../img/default/tablet-about.png'
 import teamMobile from '../img/default/mobile-team.png'
 import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
-import homvidmp from '../videos/HOMEPAGEMP4.mp4'
+import homvidmp from '../videos/HOMEPAGE.mp4'
 import teamDesktop from '../img/default/meettheteam2.jpg'
 import '../components/UI/SVG/styles.css'
 
