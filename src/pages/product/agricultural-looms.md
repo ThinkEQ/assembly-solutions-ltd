@@ -8,7 +8,7 @@ usps:
   - usp: ISO 9001 Quality Approved
   - usp: Competitive Prices
   - usp: High Speed Machinery
-image: /img/products-grid2.jpg
+image: /img/agriculture-min.jpg
 layout:
   - type: full
     full:
