@@ -7,7 +7,7 @@ usps:
   - usp: UK Made in Bolton
   - usp: ISO 9001 Quality Approved
   - usp: 25 Years of Wiring Looms
-image: /img/chemex.jpg
+image: /img/trailer-wiring-looms.jpg
 layout:
   - type: full
     full:
