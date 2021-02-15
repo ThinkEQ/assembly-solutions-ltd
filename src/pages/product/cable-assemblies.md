@@ -7,7 +7,7 @@ usps:
   - usp: 4 Week Delivery
   - usp: ISO 9001 Quality Approved
   - usp: 25 years of Cable Assembly
-image: /img/stock.jpg
+image: /img/cable-assemblies.jpg
 images:
   - image: /img/stock.jpg
     alt: Test 1

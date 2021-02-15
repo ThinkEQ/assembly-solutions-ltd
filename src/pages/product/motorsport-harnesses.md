@@ -2,7 +2,7 @@
 templateKey: product
 title: Motorsport Harnesses
 subtitle: "Want to stay frontrunners in the race? "
-image: /img/blog-index.jpg
+image: /img/motorsport.jpg
 layout:
   - type: full
     full:

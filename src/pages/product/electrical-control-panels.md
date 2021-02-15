@@ -6,7 +6,7 @@ usps:
   - usp: ISO9001 Quality Approved
   - usp: Design Support
   - usp: Low to high volume builds
-image: /img/blog-index.jpg
+image: /img/electrical-control-panel.jpg
 layout:
   - type: full
     full:

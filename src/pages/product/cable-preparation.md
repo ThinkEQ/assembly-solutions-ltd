@@ -1,5 +1,7 @@
 ---
 templateKey: product
+title: Cable Preparation
+subtitle: Wire and cable preparation rooted in quality
 usps: []
 related-products:
   - name: Cable Assemblies
@@ -16,9 +18,7 @@ related-products:
     slug: braded-cables
     image: /img/chemex.jpg
     alt: Braided Cables
-title: Cable Preparation
-subtitle: Wire and cable preparation rooted in quality
-image: /img/stock.jpg
+image: /img/cable-preparation.jpg
 images:
   - image: /img/stock.jpg
     alt: Test 1

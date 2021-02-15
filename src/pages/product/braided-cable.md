@@ -7,7 +7,7 @@ usps:
   - usp: Fast 4 Week Delivery
   - usp: ISO 9001 Quality Approved
   - usp: "25 Years of Braided Cables  "
-image: /img/chemex.jpg
+image: /img/braided-cable-assembly.jpg
 layout:
   - type: full
     full:
