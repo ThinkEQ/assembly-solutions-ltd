@@ -26,26 +26,20 @@ layout:
         The magic takes place in our UK based factory in Bolton, which is set up as a full-service panel wiring manufacturer in order to save you money on your panels and sub-assemblies with a fast turnaround and competitively priced products.
 
 
-        **Watch the video below to visit our award-winning factory**
-  - type: column
-    column:
-      title: "We offer:"
-      text: |-
+        **We offer:**
+
+
         * Control Panels
+
         * Control Boxes
+
         * Box Build
-  - type: column
-    column:
-      title: Panel Build Manufacturers UK
-      text: >-
-        We know it’s a tall order, but we pride ourselves on providing a
-        ‘one-stop-shop’ panel wiring solution with a technical in-house
-        design/development team and exceptional manufacturing standards. Our
-        expert team can work from drawings and bills of materials or reverse
-        engineer from a prototype. All our panel wiring products are
-        electrically tested using our automatic testing facilities or with
-        bespoke test equipment designed specifically for the product in
-        question 
+
+
+        **Panel Build Manufacturers UK**
+
+
+        We know it’s a tall order, but we pride ourselves on providing a ‘one-stop-shop’ panel wiring solution with a technical in-house design/development team and exceptional manufacturing standards. Our expert team can work from drawings and bills of materials or reverse engineer from a prototype. All our panel wiring products are electrically tested using our automatic testing facilities or with bespoke test equipment designed specifically for the product in question 
 
 
         We do this to ensure that everything is perfectly engineered to your requirements and that it works how it should, each and every time.

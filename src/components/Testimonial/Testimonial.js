@@ -5,7 +5,7 @@ const TestimonialBlock = ({ quote, author }) => {
     return (
         <Box backgroundColor="blue.900" padding="8">
             <Text textStyle="p" color="#fff">
-                {quote}
+                "{quote}"
             </Text>
             {author &&
                 <Text fontSize="16px" marginTop="20px" color="#fff">

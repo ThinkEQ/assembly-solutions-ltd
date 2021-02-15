@@ -23,6 +23,12 @@ layout:
 
 
         As a family-run business, we truly value the benefits of exceptional customer service as well as being a local manufacturer to the UK. We go above and beyond to ensure that we offer support when you need it, and this doesn’t end once you’ve received your product. We aim to build relationships that stand the test of time with our clients; we’re not simply one-trick ponies.
+
+
+        **Electrical Control Panel Manufacturers UK**
+
+
+        We’ve been manufacturing electrical control panels for over 20 years and in this time, we’ve developed many longstanding client relationships. We consistently offer low-costs and a fast turnaround, without ever compromising on the quality of your product. To keep up these high standards, all our staff go through annual training with the aim to reduce costs and lead times.
   - type: column
     column:
       text: |-
@@ -53,15 +59,6 @@ layout:
       text: You might be wondering why you should choose ASL over other UK
         manufacturers, or even why it’s better than outsourcing this work
         abroad? We think we can give you a pretty good answer.
-  - type: column
-    column:
-      title: Electrical Control Panel Manufacturers UK
-      text: We’ve been manufacturing electrical control panels for over 20 years and
-        in this time, we’ve developed many longstanding client relationships. We
-        consistently offer low-costs and a fast turnaround, without ever
-        compromising on the quality of your product. To keep up these high
-        standards, all our staff go through annual training with the aim to
-        reduce costs and lead times.
   - type: column
     column:
       title: What our customers think

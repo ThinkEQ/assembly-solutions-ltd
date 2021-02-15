@@ -22,6 +22,12 @@ layout:
 
 
         Our 32,000sqft factory is based in the UK, which means that we can offer all our clients a fast turnaround, as well as giving you the reassurance that we will be there when you need us. As a family-run business, we pride ourselves on only offering the highest levels of customer service and our longstanding client relationships are testament to this.
+
+
+        **Why outsource your control panel manufacturing?**
+
+
+        From simple box build to large and highly technical bespoke panel build assembly, our dedicated team will work with you to create a control panel that suits your needs.  We relish a challenge, so whatever you throw at us, we have the skills and determination to help you complete your projects on time, every time. By working with ASL, you can ultimately reduce your costs, remove your bottlenecks and improve your quality.
   - type: column
     column:
       text: |-
@@ -36,16 +42,6 @@ layout:
         comes to choosing the right manufacturer and as a result, have perfected
         a process where every stage of our automotive control panel production
         is documented and controlled.
-  - type: column
-    column:
-      title: Why outsource your control panel manufacturing?
-      text: From simple box build to large and highly technical bespoke panel build
-        assembly, our dedicated team will work with you to create a control
-        panel that suits your needs.  We relish a challenge, so whatever you
-        throw at us, we have the skills and determination to help you complete
-        your projects on time, every time. By working with ASL, you can
-        ultimately reduce your costs, remove your bottlenecks and improve your
-        quality.
   - type: column
     column:
       title: "What our customers think "

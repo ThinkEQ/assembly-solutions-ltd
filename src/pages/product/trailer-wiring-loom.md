@@ -19,24 +19,15 @@ layout:
         \
 
         In our UK-based factory, we can manufacture trailer wiring loom and wiring harnesses to your exact specifications. Alternatively, you can utilise our experience and we’ll work with you to design a product that offers a cost-effective solution.
-
-
-
-
+  - type: column
+    column:
+      text: |-
         * We manufacture any type of loom or harness
-
         * Every wiring loom is 100% electrically tested before despatch
-
         * All our staff are fully trained to IPC-A620 electrical standards
-
         * We are UK based and certified to Quality Accreditation ISO9001
-
-        * You will receive an unbelievable customer service 
-
-
-        **\
-
-        Watch the video below to visit our award-winning factory**
+        * You will receive an unbelievable customer service
+      title: "At ASL:"
   - type: column
     column:
       text: |-

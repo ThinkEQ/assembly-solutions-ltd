@@ -23,12 +23,15 @@ layout:
 
 
         Once we’ve got to grips with what you want, we will then start the design and development of your product. The best part is this stage is 100% free. We also complete rigorous testing to ensure your product is fit for use before it gets sent out. This is done using our automatic testing facilities or with bespoke test equipment designed specifically for the individual product.
-  - type: column
-    column:
-      title: "At ASL, we offer:"
-      text: |-
+
+
+        **At ASL, we offer:**
+
+
         * Electrical Control Panels
+
         * Box Build
+
         * Panel Manufacture
   - type: column
     column:
@@ -50,6 +53,16 @@ layout:
         * Utility
   - type: column
     column:
+      title: Control Panel Build UK
+      text: >-
+        One of our long-standing customers for electrical control panels is the
+        nuclear giant, Canberra UK, who we supply with highly technical nuclear
+        instrumentation panels and assemblies.
+
+
+        When Canberra identified a problem with their offshore supplier for cable assemblies and control panels, their own quality began to quickly decline. That’s where we came in.
+  - type: column
+    column:
       title: Discover what sets ASL apart
       text: >-
         As ASL, we have been designing and developing control panels for over 20
@@ -61,16 +74,6 @@ layout:
 
 
         What our customers think
-  - type: column
-    column:
-      title: Control Panel Build UK
-      text: >-
-        One of our long-standing customers for electrical control panels is the
-        nuclear giant, Canberra UK, who we supply with highly technical nuclear
-        instrumentation panels and assemblies.
-
-
-        When Canberra identified a problem with their offshore supplier for cable assemblies and control panels, their own quality began to quickly decline. That’s where we came in.
   - type: testimonial
     testimonial:
       quote: I feel reassured that when they have our products, their team manufacture

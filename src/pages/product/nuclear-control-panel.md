@@ -27,16 +27,10 @@ layout:
         Why not check out our factory to see our immaculate work areas and seamless processes? 
 
 
-        **Watch the video below to visit our award-winning factory**
-  - type: column
-    column:
-      title: "Nuclear Control Panel Manufacturers UK "
-      text: >-
-        Our exceptional team of highly skilled nuclear operators can build even
-        the most complex of control panels to meet your unique specifications.
-        Whether you need a single control panel or a fully distributed control
-        system, we offer 100% free design, development and technical support to
-        get you where you need to be. 
+        **Nuclear Control Panel Manufacturers UK**
+
+
+        Our exceptional team of highly skilled nuclear operators can build even the most complex of control panels to meet your unique specifications. Whether you need a single control panel or a fully distributed control system, we offer 100% free design, development and technical support to get you where you need to be. 
 
 
         Often when outsourcing work abroad, you cannot be fully confident that you will be getting the standard of quality that you need. At ASL, we’re committed to only manufacturing the best products, giving you the guarantee you need to proceed with confidence.
