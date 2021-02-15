@@ -4,6 +4,10 @@ title: Wire and Cable Preparation
 subtitle: Wire and Cable Preparation
 video: wire-and-cable-preparation
 image: /img/chemex.jpg
+usps:
+  - usp: UK Made
+  - usp: Short Lead Times
+  - usp: Excellent Service
 products:
   - Cable Preparation
 layout:

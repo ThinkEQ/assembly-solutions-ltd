@@ -79,7 +79,7 @@ const BannerOurCustomers = () => {
                         Our customers
                     </Heading>
                     <Text textStyle="p">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper neque vel dolor ultrices, sit amet porta odio semper. Morbi lacus purus, faucibus eu dolor non, aliquam scelerisque nunc.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Our customers are a true reflection of the quality and service that we deliver. With a satisfaction score of 99% and partnerships with world class companies including Ford and Siemens, we are extremely proud but also motivated to maintain these high standards.
                     </Text>
                 </Box>
                 <Box display="flex" alignSelf="center" justifyContent="space-around" height="100%" width={{base: "100%", lg:"40%"}}>

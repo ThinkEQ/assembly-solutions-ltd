@@ -80,7 +80,7 @@ team-members:
       - archery
       - cooking
   - name: Rob Parkinson
-    jobtitle: Production Manager (Wire Preparation and Cable Assemblies)
+    jobtitle: Production Manager (Wire Prep and Cable Assemblies)
     bio: >-
       An incredible fact about Rob is that he holds the record of 17 years
       without taking a day off sick! He won’t tell us what the secret is - maybe
