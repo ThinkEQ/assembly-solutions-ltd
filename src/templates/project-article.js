@@ -13,7 +13,6 @@ import { Box, Heading, Link } from '@chakra-ui/react'
 export const ProjectArticleTemplate = ({
   contentComponent,
   title,
-  intro,
   img,
   feature,
   content,
@@ -38,9 +37,10 @@ export const ProjectArticleTemplate = ({
           </Box>
           <Box textStyle="section">
             <Box textStyle="container">
-              {/**Intro content */}
+              
+              {/**Main body content */}
               <MDXWrapper>
-                <CMSContent content={toHTML(intro)} />
+                <CMSContent content={content} /> 
               </MDXWrapper>
 
               {/**Feature image + testimonial */}
@@ -53,11 +53,6 @@ export const ProjectArticleTemplate = ({
                     <Testimonial author={feature.name} quote={feature.quote} />
                   </Box>
                 </Box>}
-              
-              {/**Main body content */}
-              <MDXWrapper>
-                <CMSContent content={content} />
-              </MDXWrapper>
             </Box>       
         </Box>
       </Box>

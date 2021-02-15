@@ -4,19 +4,17 @@ import { graphql, Link as ReachLink } from 'gatsby'
 
 // Load components
 import Layout from '../components/Layout'
-import Testimonial from '../components/Testimonial/Testimonial'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
-import { Box, Heading, Text, Link, Grid, GridItem } from '@chakra-ui/react'
+import { HTMLContent } from '../components/Content'
+import LayoutCMS from '../components/LayoutCMS/LayoutCMS'
+import { Box, Heading, Text, Link } from '@chakra-ui/react'
 
 export const NewsArticleTemplate = ({
-  contentComponent,
   title,
   date,
   img,
   mainContent
 }) => {
-  const CMSContent = contentComponent || Content
   
   return (
     <Fragment>
@@ -38,39 +36,7 @@ export const NewsArticleTemplate = ({
           <Box marginBottom="50px">
             <PreviewCompatibleImage imageInfo={img} />
           </Box>
-          <MDXWrapper>
-            <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10}>
-            {mainContent && mainContent.map((content) => {
-                const span = content.type === 'column' ? 1 : 2
-
-                if (content.type === 'full') {
-                    return (
-                        <GridItem colSpan={span}>
-                            <Heading as="h4" textStyle="h4" marginBottom="20px">
-                                {content.full.title}
-                            </Heading>
-                            <CMSContent content={toHTML(content.full.text)} />
-                        </GridItem>
-                    )
-                }
-                if (content.type === 'testimonial') {
-                    return (
-                        <GridItem colSpan={{base: 2,  lg: span}}>
-                            <Testimonial author={content.testimonial.name}  quote={content.testimonial.quote} />
-                        </GridItem>
-                    )
-                }
-                return (
-                    <GridItem colSpan={{base: 2,  lg: span}}>
-                        <Heading as="h4" textStyle="h4" marginBottom="20px">
-                            {content.column.title}
-                        </Heading>
-                        <CMSContent content={toHTML(content.column.text)} />
-                    </GridItem>
-                )
-            })}
-            </Grid>
-          </MDXWrapper>
+          <LayoutCMS data={mainContent} />
         </Box>
       </Box>
     </Fragment>
@@ -145,6 +111,7 @@ export const pageQuery = graphql`
           testimonial {
               name
               quote
+              alignment
           }
         }
       }

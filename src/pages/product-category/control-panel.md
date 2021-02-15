@@ -4,17 +4,16 @@ title: Control Panels
 subtitle: Control Panel Manufacturer
 video: control-panel
 image: /img/flavor_wheel.jpg
+usps:
+  - usp: Experienced Panel Builders
+  - usp: Fast Turnaround
+  - usp: ISO 9001 Quality Approved
 products:
   - Electrical Control Panels
   - Panel Wiring
   - Panel Build
-  - Automotive Control Panels
-  - Nuclear Control Panels
-seo:
-  title: "Control Panels: Control Panel Manufacturers UK"
-  description: "Control Panel Manufacturers UK: Control Panel Solutions at Low
-    Costs and Quick Turnaround. Call ASL on 01204 521999 to discuss your Control
-    Panels."
+  - Nuclear Control Panel
+  - Automotive Control Panel
 layout:
   - type: column
     column:
@@ -43,7 +42,7 @@ layout:
       text: Quality is critical for all the products we manufacture, especially
         control panels. We deliver into industries including Nuclear and
         Utilities, so we have to take extra care ensuring that the products we
-        produce will perform reliably under their conditions.As a trusted
+        produce will perform reliably under their conditions. As a trusted
         supplier of high reliability, high quality and technically advanced
         components and products, we are the supplier of choice for an impressive
         list of blue-chip companies including; Aston Martin, Siemens and
@@ -73,6 +72,11 @@ layout:
         * Competitive prices
 
         * Technical & knowledgeable engineers
+seo:
+  title: "Control Panels: Control Panel Manufacturers UK"
+  description: "Control Panel Manufacturers UK: Control Panel Solutions at Low
+    Costs and Quick Turnaround. Call ASL on 01204 521999 to discuss your Control
+    Panels."
 ---
 ASL is a build to print manufacturer of electrical control panels.\
 \

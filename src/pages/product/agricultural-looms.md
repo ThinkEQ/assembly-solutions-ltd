@@ -2,6 +2,7 @@
 templateKey: product
 title: Agricultural Looms
 subtitle: Agricultural Equipment Wiring Loom
+video: wiring-harness
 usps:
   - usp: 3-6 Week Delivery
   - usp: ISO 9001 Quality Approved

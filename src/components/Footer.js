@@ -80,7 +80,7 @@ const Footer = ({ toggleDrawer }) => {
 
             <List spacing="4">
               <ListItem {...para}>
-              <Link as={ReachLink} to="/about-us">
+              <Link as={ReachLink} to="/about">
               About
               </Link>
             </ListItem>
@@ -92,6 +92,11 @@ const Footer = ({ toggleDrawer }) => {
               <ListItem {...para}>
                 <Link as={ReachLink} to="/news">
                 News
+                </Link>
+              </ListItem>
+              <ListItem {...para}>
+                <Link as={ReachLink} to="/projects">
+                Projects
                 </Link>
               </ListItem>
               <ListItem {...para}>

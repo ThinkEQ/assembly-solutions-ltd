@@ -96,7 +96,7 @@ const MainNav = () => (
       <Link as={ReachLink} to="/" size="lg" variant="nav">Home</Link>
     </Box>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/about-us" size="lg" variant="nav" >About</Link>
+      <Link as={ReachLink} to="/about" size="lg" variant="nav" >About</Link>
     </Box>
     <Box as="li" display="block">
       <Link as={ReachLink} to="/industries" size="lg" variant="nav">Industries</Link>
@@ -104,9 +104,9 @@ const MainNav = () => (
     <Box as="li" display="block">
       <Link as={ReachLink} to="/news" size="lg" variant="nav">News</Link>
     </Box>
-    {/* <Box as="li" display="block">
+    <Box as="li" display="block">
       <Link as={ReachLink} to="/projects" size="lg" variant="nav">Projects</Link>
-    </Box> */}
+    </Box>
     <Box as="li" display="block">
       <Link as={ReachLink} to="/team" size="lg" variant="nav">Team</Link>
     </Box>

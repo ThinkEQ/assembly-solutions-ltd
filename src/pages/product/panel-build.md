@@ -2,6 +2,10 @@
 templateKey: product
 title: Panel Build
 subtitle: Electrical control panels built with you in mind
+usps:
+  - usp: ISO9001 Quality Approved
+  - usp: Design Support
+  - usp: Low to high volume builds
 image: /img/blog-index.jpg
 layout:
   - type: full

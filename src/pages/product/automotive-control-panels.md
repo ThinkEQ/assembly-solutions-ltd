@@ -2,6 +2,11 @@
 templateKey: product
 title: Automotive Control Panel
 subtitle: Get back on the road with ASL
+video: control-panel
+usps:
+  - usp: ISO9001 Quality Approved
+  - usp: Design Support
+  - usp: Low to high volume builds
 image: /img/blog-index.jpg
 layout:
   - type: full

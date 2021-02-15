@@ -8,7 +8,6 @@ usps:
   - usp: UK Made in Bolton
   - usp: 4 Week Delivery
   - usp: ISO 9001 Quality Approved
-  - usp: 25 years of Cable Assembly
 images:
   - image: /img/jumbotron.jpg
     alt: Mock 2
@@ -22,14 +21,9 @@ images:
 products:
   - Cable Assemblies
   - Battery & HV Cables
-  - Braided Cables
-  - Earth Straps
+  - Braided Cable
+  - Earth Strap
   - Ribbon Cables
-seo:
-  title: Cable Assembly | Cable Assembly Manufacturer | ASL
-  description: Assembly Solutions are the UK's leading Cable Assembly
-    Manufacturer. Call us on 01204 521999 to discuss your electrical cable
-    assembly needs.
 layout:
   - type: column
     column:
@@ -95,8 +89,13 @@ layout:
         Manufacturer Optare, our cable assembly solutions were a part of their
         contract for the Greater Manchester Transport Authority who required 66
         Hybrid Buses.
+seo:
+  title: Cable Assembly | Cable Assembly Manufacturer | ASL
+  description: Assembly Solutions are the UK's leading Cable Assembly
+    Manufacturer. Call us on 01204 521999 to discuss your electrical cable
+    assembly needs.
 ---
-#### **Custom made cable assemblies made for you**  
+#### **Custom made cable assemblies made for you**
 
 <br/>
 
@@ -107,11 +106,8 @@ To put it quite simple, we manufacture any type of cable assembly, so we should 
 Every cable assembly we make is manufactured right here at our family built factory in Bolton. We  don’t use overseas suppliers or partners as we need to ensure quality is excellent and we work 
 against a target lead time of 4 weeks. don’t feel the quality is as good and the lead times are longer. 
 
-With a strong workforce of 60 staff we have , we’re proud to  We have a workforce of 60 staff who are  fully trained to IPC A-620 and  
+With a strong workforce of 60 staff we have , we’re proud to  We have a workforce of 60 staff who are  fully trained to IPC A-620 and Cable assembly manufacture is in the heart of Bolton in our recently renovated factory, our staff with all our cable assembly operators fully qualified to IPC A-620.
 
-Cable assembly manufacture is in the heart of Bolton in our recently renovated factory, our staff with 
-all our cable assembly operators fully qualified to IPC A-620 
+
 This comes as standard but to emphasise our lead time is a promised 4 weeks UK manufacturers, we 
-guarantee our our clients a fast turnaround clients a fast-turnaround and high-quality quality 
-measurement to see products.  products as standard. We’re a family-run business. This is the 
-certification for the requirements and acceptance of cable assembly and wire loom assemblies.
+guarantee our our clients a fast turnaround clients a fast-turnaround and high-quality quality measurement to see products.  products as standard. We’re a family-run business. This is the certification for the requirements and acceptance of cable assembly and wire loom assemblies.

@@ -28,6 +28,7 @@ import Xbox from './svgs/xbox'
 import TwentyEmblem from './svgs/twentyemblem'
 import Logo from './svgs/logo'
 import Chat from './svgs/chat'
+import Weights from './svgs/weights'
 
 const SvgIcon = (props) => {
     switch (props.name) {
@@ -81,6 +82,8 @@ const SvgIcon = (props) => {
             return <Xbox {...props} />
         case "twentyEmblem":
             return <TwentyEmblem {...props} />
+        case "weights":
+            return <Weights {...props} />
         default:
             return '?'
     }
