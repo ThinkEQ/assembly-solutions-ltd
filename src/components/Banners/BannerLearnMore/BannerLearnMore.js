@@ -9,7 +9,7 @@ const BannerLearnMore = () => {
                     Ready to learn more?
                 </Heading>
                 <Text textStyle="p">
-                    At ASL, we believe in establishing great relationships with 
+                    We believe in establishing great relationships with 
                     our customers.<br/>
                     Want to kick-off your journey?<br/> 
                     Get in touch with us on 01204 521999.
