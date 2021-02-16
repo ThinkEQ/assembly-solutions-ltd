@@ -7,6 +7,15 @@ usps:
   - usp: Fast 4 Week Delivery
   - usp: ISO 9001 Quality Approved
 image: /img/earth-strap.jpg
+images:
+  - alt: Earth Strap
+    image: /img/1.jpg
+  - alt: Earth Strap
+    image: /img/3.jpg
+  - alt: Earth Strap
+    image: /img/7.jpg
+  - alt: Earth Strap
+    image: /img/8.jpg
 layout:
   - type: full
     full:

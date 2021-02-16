@@ -7,6 +7,15 @@ usps:
   - usp: Fast 4 Week Delivery
   - usp: ISO 9001 Quality Approved
 image: /img/braided-cable-assembly.jpg
+images:
+  - alt: Braided Cable
+    image: /img/1.jpg
+  - alt: Braided Cable
+    image: /img/3.jpg
+  - alt: Braided Cable
+    image: /img/7.jpg
+  - alt: Braided Cable
+    image: /img/8.jpg
 layout:
   - type: full
     full:
