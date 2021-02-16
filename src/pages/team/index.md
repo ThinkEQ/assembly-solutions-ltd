@@ -48,7 +48,7 @@ team-members:
     interests:
       - surfing
       - skiing
-    image: /img/team3.png
+    image: /img/sophie.png
   - name: Oliver Balshaw
     jobtitle: Purchasing Manager
     bio: >-
@@ -66,7 +66,7 @@ team-members:
       - formula1
   - name: Damien Walsh
     jobtitle: Production Manager (Wiring Harnesses & Control Panels)
-    image: /img/team5.png
+    image: /img/damien.png
     bio: >-
       After an impressive 20 years at ASL, Damien holds the record for “longest
       serving employee” – it’s no wonder he’s not much hair! Being technically
@@ -132,7 +132,7 @@ team-members:
       \
 
       Gary is a devoted grandfather and a real outdoors guy, so when we can’t get hold of him at the weekend, it’s because he’s either entertaining his grandchildren or climbing up Ben Nevis!
-    image: /img/team9.png
+    image: /img/gary.png
     interests:
       - hiking
       - climbing-wall
