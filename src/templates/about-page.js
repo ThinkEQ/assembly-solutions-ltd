@@ -4,8 +4,7 @@ import { graphql, Link as ReachLink } from 'gatsby'
 
 // Load components
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
-import { BsCircleFill } from 'react-icons/bs'
-import { Box, Text, Heading, List, ListItem, ListIcon, Link } from '@chakra-ui/react'
+import { Box, Text, Heading, Link } from '@chakra-ui/react'
 import NewsArticle from '../components/StaticQueries/NewsArticles'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import ImageComp from '../components/PreviewCompatibleImage'
@@ -111,7 +110,7 @@ export const aboutPageQuery = graphql`
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 600, quality: 60) {
+            fluid(maxHeight: 600, quality: 80) {
               ...GatsbyImageSharpFluid_withWebp
               presentationHeight
             }

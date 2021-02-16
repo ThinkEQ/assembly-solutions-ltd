@@ -142,7 +142,7 @@ export const industryPageQuery = graphql`
           alt
           image {
             childImageSharp {
-              fluid(maxHeight: 680, quality: 65) {
+              fluid(maxHeight: 680, quality: 85) {
                 ...GatsbyImageSharpFluid_withWebp
                 presentationHeight
               }
@@ -151,7 +151,7 @@ export const industryPageQuery = graphql`
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 680, quality: 60) {
+            fluid(maxHeight: 680, quality: 80) {
               ...GatsbyImageSharpFluid_withWebp
               presentationHeight
             }
