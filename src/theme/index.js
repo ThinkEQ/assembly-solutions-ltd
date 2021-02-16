@@ -24,6 +24,7 @@ const overrides = {
                     lineHeight: {base: "62px", md:"72px"},
                     marginBottom: "20px",
                     lettSpacing: "-2.12px",
+                    marginBottom: "20px",
                     fontWeight: 600
                 },
                 h2: {
@@ -44,12 +45,11 @@ const overrides = {
                     fontSize: "24px",
                     lineHeight: "36px",
                     letterSpacing: "-1.06px",
-                    marginBottom: "20px",
+                    marginBottom: "10px",
                     fontWeight: 600
                 },
                 p: {
                     fontSize: {base: "16px", md:"20px"},
-                    marginBottom: "15px",
                     lineHeight: "38px",
                     letterSpacing: "0.71px",
                 },
@@ -123,13 +123,12 @@ const overrides = {
             fontSize: "24px",
             lineHeight: "36px",
             letterSpacing: "-1.06px",
-            marginBottom: "20px",
+            marginBottom: "10px",
             fontWeight: 600
         },
         p: {
             fontSize: {base: "16px", md:"20px"},
             lineHeight: "38px",
-            marginBottom: "15px",
             letterSpacing: "0.71px",
         },
         section: {
