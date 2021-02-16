@@ -252,7 +252,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
      <Box animation={`${flow} infinite 15s ease`} position="fixed" width={{base:"100%", md: "auto", lg: "648px"}} {...slideNav} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1000"  alignItems="center">
           <Box padding="4">
             <Link as={ReachLink} to="/">
-              <SVG name="logo" />
+              <SVG name="logo" height="100%" width="100%" />
             </Link>
           </Box>
           <Box padding="4" display="flex" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : ""} >
