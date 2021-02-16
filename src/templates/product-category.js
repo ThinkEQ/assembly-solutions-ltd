@@ -11,7 +11,7 @@ import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
 import BannerLearnMore from '../components/Banners/BannerLearnMore/BannerLearnMore'
 import PreviewImage from '../components/PreviewCompatibleImage'
 import Video from '../components/Video/Video'
-import Content, { HTMLContent, MDXWrapper } from '../components/Content'
+import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
 import LayoutCMS from '../components/LayoutCMS/LayoutCMS'
 
 // Load asset
@@ -25,7 +25,7 @@ import WiringWEB from '../videos/WIRING_HARNESSES.webm'
 import ControlMP from '../videos/CONTROL_PANELS.mp4'
 import ControlWEB from '../videos/CONTROL_PANEL.webm'
 
-export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent, video }) => {
+export const ProductCategoryPageTemplate = ({ title, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent, video, intro }) => {
   const PageContent = contentComponent || Content
   const [isMoving, setMoving] = useState(false)
   const [mounted, setMounted] = useState(false)
@@ -107,18 +107,21 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
       </Box>
 
       {/** INTRO BODY CONTENT */}
-      <Box as="section" textStyle="section">
+      {intro &&
+        <Box as="section" textStyle="section">
         <Box textStyle="container">
           <MDXWrapper>
-              <Box display={{base: "none", lg: "block"}} style={{columnCount:  2, columnGap: "60px"}}>
-                  <PageContent content={content} />
+            <Box display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}}>
+              <Box width={{base: "100%", lg: "48%"}}>
+                <PageContent content={toHTML(intro.first)} />
               </Box>
-              <Box display={{base: "block", lg: "none"}} style={{columnCount: 1}} >
-                <PageContent content={content} />
-            </Box>
+              <Box width={{base: "100%", lg: "48%"}}>
+                <PageContent content={toHTML(intro.second)} />
+              </Box>
+            </Box>   
           </MDXWrapper>
         </Box>
-      </Box>
+      </Box>}
 
       {/** Carousel */}
       {relatedProducts.length > 1 && 
@@ -225,6 +228,7 @@ const ProductCategoryPage = ({ data, pageContext }) => {
   const { seo } = post.frontmatter
   const title = seo ? seo.title : post.frontmatter.title
   const description = seo ? seo.description : undefined
+  
   return (
     <Layout metaTitle={title} metaDescription={description}>
       <ProductCategoryPageTemplate
@@ -234,6 +238,7 @@ const ProductCategoryPage = ({ data, pageContext }) => {
         usps={post.frontmatter.usps || []}
         mainContent={post.frontmatter.layout || []}
         content={post.html}
+        intro={post.frontmatter.introcol}
         relatedProducts={pageContext.products}
         imgHeader={post.frontmatter.image}
         video={post.frontmatter.video}
@@ -252,6 +257,10 @@ query productCategoryPageQuery($id: String!) {
           title,
           subtitle
           video 
+          introcol {
+            first
+            second
+          }
           seo {
             title
             description
