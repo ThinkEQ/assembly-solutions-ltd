@@ -3,7 +3,7 @@ import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
 
 // Load components
-import { keyframes, Heading, Button, Box, Text, Link, Image, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from '@chakra-ui/react'
+import { keyframes, Heading, Button, Box, Text, Link, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from '@chakra-ui/react'
 import Hamburger from './UI/Hamburger/Hamburger'
 import SVG from '../components/UI/SVG/index'
 import GMap from '../components/Map/Map'
@@ -127,7 +127,7 @@ const MainNav = () => (
   </Box>
   <Box as="ul" textDecoration="none">
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/wire-and-cable-preparation" size="lg" variant="nav">Wire Preparation</Link>
+      <Link as={ReachLink} to="/wire-preparation" size="lg" variant="nav">Wire Preparation</Link>
     </Box>
     <Box as="li" display="block">
      <Link as={ReachLink} to="/cable-assembly" size="lg" variant="nav">Cable Assembly</Link>
