@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 
 
 // Load components
-import { Box, Heading, Text, ListIcon, List, ListItem, useMediaQuery, AspectRatio } from '@chakra-ui/react'
+import { Box, Heading, Text, ListIcon, List, ListItem } from '@chakra-ui/react'
 import Carousel from '../components/Carousel/CustomCarousel'
 import CarouselReel from '../components/Carousel/CarouselReel'
 import BannerUSP from '../components/Banners/BannerUSP/BannerUSP'
@@ -27,7 +27,6 @@ import ControlWEB from '../videos/CONTROL_PANEL.webm'
 
 export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent, video }) => {
   const PageContent = contentComponent || Content
-  const [isMoreThan464] = useMediaQuery("(min-width: 464px")
   const [isMoving, setMoving] = useState(false)
   const [mounted, setMounted] = useState(false)
 
@@ -122,12 +121,12 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
       </Box>
 
       {/** Carousel */}
-      {(relatedProducts.length > 1 && mounted) &&
-        <Box as="section" width="100%" maxHeight="600px" margin={{base:"30px 0", lg: "50px 0"}}>
+      {relatedProducts.length > 1 && 
+        <Box as="section" width="100%" maxHeight="600px" display={{base: "none", lg: "block"}} margin={{base:"30px 0", lg: "50px 0"}}>
           <Carousel
             arrows={false}
-            centerMode={isMoreThan464 ? true : false}
-            partialVisible={isMoreThan464 ? false : true}
+            centerMode={true}
+            partialVisible={false}
             beforeChange={() => setMoving(true)}
             afterChange={() => setMoving(false)}
             >
@@ -147,6 +146,33 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
               })}          
           </Carousel> 
       </Box>}
+
+        {/** Carousel */}
+        {relatedProducts.length > 1 &&
+          <Box as="section" width="100%" maxHeight="600px" display={{base: "block", lg: "none"}} margin={{base:"30px 0", lg: "50px 0"}}>
+            <Carousel
+              arrows={false}
+              centerMode={false}
+              partialVisible={true}
+              beforeChange={() => setMoving(true)}
+              afterChange={() => setMoving(false)}
+              >
+                {relatedProducts.map((item) => {
+                  return (
+                    <Box onClick={(e) => {
+                      if (isMoving) e.preventDefault()
+                      else { nav(`/${item.node.fields.slug}`) }}} 
+                      cursor="pointer" _active={{cursor: "grabbing"}} padding="0 5px" width="calc(100% - 10px)" height="457px" maxHeight="457px" position="relative">
+                      <Box position="absolute" pointerEvents="none" height="100%" width="calc(100% - 10px)" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="5px" background="rgba(9,21,64,0.5)" />
+                      <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
+                      <Text textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
+                      {item.node.frontmatter.title}
+                      </Text>
+                  </Box>
+                  )
+                })}          
+            </Carousel> 
+        </Box>}
 
 
       {/** Single item banner */}

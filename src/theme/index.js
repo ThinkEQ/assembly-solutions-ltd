@@ -24,7 +24,6 @@ const overrides = {
                     lineHeight: {base: "62px", md:"72px"},
                     marginBottom: "20px",
                     lettSpacing: "-2.12px",
-                    marginBottom: "20px",
                     fontWeight: 600
                 },
                 h2: {
@@ -52,6 +51,7 @@ const overrides = {
                     fontSize: {base: "16px", md:"20px"},
                     lineHeight: "38px",
                     letterSpacing: "0.71px",
+                    marginBottom: "20px"
                 },
                 ul: {
                     listStyle: 'none',
