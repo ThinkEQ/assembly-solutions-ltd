@@ -272,7 +272,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
             <Box display="flex" justifyContent="flex-end"  alignItems="center" height="72px" >
               <Box padding="4" >
               <Link as={ReachLink} to="/">
-                <SVG name="logo" />
+                <SVG name="logo" width="100%" />
               </Link>
               </Box>
               <Box padding="4" display="flex" alignItems="center" justifyContent="center">
