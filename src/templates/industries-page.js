@@ -27,9 +27,6 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
                 <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"62%"}} marginBottom="40px">
                     {subtitle}
                 </Heading>
-                {/* <Text textStyle="p" width={{base: "100%", lg:"35%"}}>
-                    {intro}
-                </Text> */}
               </Box>
               <Box  marginTop={{base: "30px", lg: "0"}}  position="relative">
                 <PreviewImage imageInfo={imgHeader} />

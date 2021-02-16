@@ -2,9 +2,6 @@
 templateKey: industries-page
 title: Industries
 subtitle: We supply into a range of industries and deliver products worldwide
-intro: These include; Agriculture, Automotive, Construction, Energy & Utilities,
-  Engineering, Lighting, Medical, Nanotechnology, Nuclear and Test &
-  Measurement.
 image: /img/automotive-min.jpg
 testimonial:
   quote: "Excellent service, great quality and very few issues. We have been using
