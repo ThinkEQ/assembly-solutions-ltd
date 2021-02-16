@@ -18,6 +18,8 @@ collections:
     folder: "src/pages/news"
     create: true
     slug: "{{slug}}"
+    editor:
+      preview: false
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "news-article"}
       - {label: "Title", name: "title", widget: "string"}
@@ -49,6 +51,8 @@ collections:
     folder: "src/pages/product-category"
     create: true
     slug: "{{slug}}"
+    editor:
+      preview: false
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-category"}
       - {label: "Title", name: "title", widget: "string"}
@@ -85,6 +89,8 @@ collections:
     folder: "src/pages/product"
     create: true
     slug: "{{slug}}"
+    editor:
+      preview: false
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product"}
       - {label: "Title", name: "title", widget: "string"}
@@ -118,6 +124,8 @@ collections:
     folder: "src/pages/projects"
     create: true
     slug: "{{slug}}"
+    editor:
+      preview: false
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-article"}
       - {label: "Image", name: "image", widget: image}
@@ -133,6 +141,8 @@ collections:
       - file: "src/pages/about-us/index.md"
         label: "About"
         name: "about"
+        editor:
+          preview: false
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -144,6 +154,8 @@ collections:
       - file: "src/pages/team/index.md"
         label: "Team"
         name: "team"
+        editor:
+          preview: false
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "team-page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -152,6 +164,8 @@ collections:
       - file: "src/pages/videos/index.md"
         label: "Videos"
         name: "video"
+        editor:
+          preview: false
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "video-page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -160,6 +174,8 @@ collections:
       - file: "src/pages/industries/index.md"
         label: "Industries"
         name: "industries"
+        editor:
+          preview: false
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "industries-page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -172,6 +188,8 @@ collections:
       - file: "src/pages/terms-and-conditions/index.md"
         label: "Terms & Conditions"
         name: "terms-and-conditions"
+        editor:
+          preview: false
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "terms-and-conditions-page"}
           - {label: "Title", name: "title", widget: "string"}
@@ -180,6 +198,8 @@ collections:
       - file: "src/pages/privacy-policy/index.md"
         label: "Privacy Policy"
         name: "privacy-policy"
+        editor:
+          preview: false
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "privacy-policy-page"}
           - {label: "Title", name: "title", widget: "string"}
