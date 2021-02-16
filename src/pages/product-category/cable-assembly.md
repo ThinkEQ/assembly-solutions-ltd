@@ -25,16 +25,17 @@ introcol:
 
     Every cable assembly we make is manufactured right here at our family built factory in Bolton. We  don’t use overseas suppliers or partners as we need to ensure quality is excellent and we work 
 
-    against a target lead time of 4 weeks. don’t feel the quality is as good and the lead times are longer. 
-
-
-    With a strong workforce of 60 staff we have , we’re proud to  We have a workforce of 60 staff who are  fully trained to IPC A-620 and Cable assembly manufacture is in the heart of Bolton in our recently renovated factory, our staff with all our cable assembly operators fully qualified to IPC A-620.
+    against a target lead time of 4 weeks. don’t feel the quality is as good and the lead times are longer.
+  second: >-
+    With a strong workforce of 60 staff we have , we’re proud to  We have a
+    workforce of 60 staff who are  fully trained to IPC A-620 and Cable assembly
+    manufacture is in the heart of Bolton in our recently renovated factory, our
+    staff with all our cable assembly operators fully qualified to IPC A-620.
 
 
     This comes as standard but to emphasise our lead time is a promised 4 weeks UK manufacturers, we 
 
     guarantee our our clients a fast turnaround clients a fast-turnaround and high-quality quality measurement to see products.  products as standard. We’re a family-run business. This is the certification for the requirements and acceptance of cable assembly and wire loom assemblies.
-  second: Vid to add
 images:
   - image: /img/cable-assembly-asl3rdnovember-74.jpg
     alt: Cable Assembly
