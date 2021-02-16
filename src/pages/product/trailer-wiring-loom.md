@@ -13,10 +13,8 @@ layout:
       text: >-
         ASL offer full trailer wiring looms and plug and play wiring harnesses
         for commercial trailers, domestic trailers, road recovery trailer
-        equipment, and many more.\
-
-        \
-
+        equipment, and many more.
+        
         In our UK-based factory, we can manufacture trailer wiring loom and wiring harnesses to your exact specifications. Alternatively, you can utilise our experience and we’ll work with you to design a product that offers a cost-effective solution.
   - type: column
     column:

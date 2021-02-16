@@ -127,7 +127,7 @@ const MainNav = () => (
   </Box>
   <Box as="ul" textDecoration="none">
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/wire-and-cable-preparation" size="lg" variant="nav">Wire Preparation</Link>
+      <Link as={ReachLink} to="/wire-preparation" size="lg" variant="nav">Wire Preparation</Link>
     </Box>
     <Box as="li" display="block">
      <Link as={ReachLink} to="/cable-assembly" size="lg" variant="nav">Cable Assembly</Link>
@@ -171,22 +171,22 @@ const ContactUs = () => {
           <Text  fontSize="26px" fontWeight="bold" lineHeight="31px" marginTop="50px" marginBottom="15px">
             Where we are
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
             Assembly Solutions Ltd
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
            Terence House
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
             Nile Street
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
             Bolton
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
             Greater Manchester
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px">
+          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
             BL3 6BW UK
           </Text>
         </Box>

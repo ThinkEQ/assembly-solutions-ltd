@@ -73,9 +73,7 @@ layout:
 
         **Connect with Us**
 
-
-        \
-
+        
         We love sharing all our latest news and goings on, so follow us on Linkedin to see what we’ve been up to this week!
 seo:
   title: Ribbon Cables | Ribbon Cable Assembly | ASL
