@@ -13,7 +13,7 @@ import Button from '../theme/button'
 // Load layout
 import Layout from '../components/Layout'
 
-export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, intro, imgSrc }) => {
+export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, imgSrc }) => {
   const PageContent = contentComponent || Content
 
   return (

@@ -51,7 +51,7 @@ const overrides = {
                     fontSize: {base: "16px", md:"20px"},
                     lineHeight: "38px",
                     letterSpacing: "0.71px",
-                    marginBottom: "10px"
+                    marginBottom: "20px"
                 },
                 ul: {
                     listStyle: 'none',

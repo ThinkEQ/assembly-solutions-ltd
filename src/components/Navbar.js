@@ -162,10 +162,10 @@ const ContactUs = () => {
           <Heading textStyle="h2" as="h2" color="#fff">
             Contact us
           </Heading>
-          <Link as="a" variant="nav" href="tel:01204521999" fontSize="26px" display="inline-block" fontWeight="bold" lineHeight="31px" margin="15px 0">
+          <Link as="a" href="tel:01204521999" fontSize="26px" display="inline-block" fontWeight="bold" lineHeight="31px" margin="15px 0">
             T: 01204 521999
           </Link>
-          <Link as="a" variant="nav" href="mailto:enquiry@assembly-solutions.com" target="_blank"  fontSize="26px" fontWeight="bold" lineHeight="31px">
+          <Link as="a" href="mailto:enquiry@assembly-solutions.com" target="_blank"  fontSize="26px" fontWeight="bold" lineHeight="31px">
             E: Enquiry@assembly-solutions.com
           </Link>
           <Text  fontSize="26px" fontWeight="bold" lineHeight="31px" marginTop="50px" marginBottom="15px">
