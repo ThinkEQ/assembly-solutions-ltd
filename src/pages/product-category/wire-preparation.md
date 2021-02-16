@@ -3,11 +3,30 @@ templateKey: product-category
 title: Wire Preparation
 subtitle: Wire Preparation
 video: wire-and-cable-preparation
-image: /img/chemex.jpg
+image: /img/img_4046.jpg
 usps:
   - usp: UK Manufactured
   - usp: Short Lead Times
   - usp: Excellent Service
+introcol:
+  first: >-
+    **A variety of speedy and cost-effective preparations for wire and cable**
+
+
+    We’ve invested so you don’t have to! Here at ASL, we’ve invested over £100k in our wire and cable preparation machinery allowing us to meet any wire or cable prep needs you may have. This investment ensures you get the best wire and cable prep whether it be cut, strip or crimp assemblies right the way through to ultrasonic cable welding.
+
+
+    They say good things come to those who wait, well here at ASL, we feel you deserve the best quality you can find, but we don’t want you waiting. That’s why we aim for a speedy turnaround which is made possible in our award-winning factory using our high tech machines. With an IPC A-620 fully trained workforce within a family-run business environment, we offer the perfect balance of technical expertise alongside a personal service. 
+
+
+    We take pride in only offering the best products and establishing lasting relationships with our clients.
+  second: "<style>.embed-container { position: relative; padding-bottom: 56.25%;
+    height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe,
+    .embed-container object, .embed-container embed { position: absolute; top:
+    0; left: 0; width: 100%; height: 100%; }</style><div
+    class='embed-container'><iframe
+    src='https://www.youtube.com/embed/Cp3lVNhtjrI' frameborder='0'
+    allowfullscreen></iframe></div>"
 images:
   - image: /img/img_4046.jpg
     alt: Wire Preparation
@@ -87,14 +106,3 @@ seo:
     turnaround. Cut, Strip and Terminate Assembly from Wire Experts Assembly
     Solutions.
 ---
-**A variety of speedy and cost-effective preparations for wire and cable**
-
-We’ve invested so you don’t have to! Here at ASL, we’ve invested over £100k in our wire and cable preparation machinery allowing us to meet any wire or cable prep needs you may have. This investment ensures you get the best wire and cable prep whether it be cut, strip or crimp assemblies right the way through to ultrasonic cable welding.
-
-They say good things come to those who wait, well here at ASL, we feel you deserve the best quality you can find, but we don’t want you waiting. That’s why we aim for a speedy turnaround which is made possible in our award-winning factory using our high tech machines. With an IPC A-620 fully trained workforce within a family-run business environment, we offer the perfect balance of technical expertise alongside a personal service. 
-
-We take pride in only offering the best products and establishing lasting relationships with our clients. 
-
-**Watch the video below to visit our award-winning factory**
-
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Cp3lVNhtjrI' frameborder='0' allowfullscreen></iframe></div>

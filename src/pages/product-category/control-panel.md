@@ -8,6 +8,31 @@ usps:
   - usp: Experienced Panel Builders
   - usp: Fast Turnaround
   - usp: ISO 9001 Quality Approved
+introcol:
+  first: >-
+    ASL is a build to print manufacturer of electrical control panels.\
+
+    \
+
+    Based in Bolton, we run an efficient manufacturing service that covers a range of control panel types, from small simple box build to highly complex panel build assembly.
+
+
+    * Electrical Control Panel Wiring
+
+    * CAD & Development 
+
+    * Testing & Approval
+
+    * ISO9001 Quality Approved
+
+    * Excellent Customer Service
+  second: "<style>.embed-container { position: relative; padding-bottom: 56.25%;
+    height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe,
+    .embed-container object, .embed-container embed { position: absolute; top:
+    0; left: 0; width: 100%; height: 100%; }</style><div
+    class='embed-container'><iframe
+    src='https://www.youtube.com/embed/BG1WAnAd6mI' frameborder='0'
+    allowfullscreen></iframe></div>"
 images:
   - image: /img/asl-control-panel-assembly.jpg
     alt: Control Panels
@@ -91,12 +116,3 @@ seo:
     Costs and Quick Turnaround. Call ASL on 01204 521999 to discuss your Control
     Panels."
 ---
-ASL is a build to print manufacturer of electrical control panels.\
-\
-Based in Bolton, we run an efficient manufacturing service that covers a range of control panel types, from small simple box build to highly complex panel build assembly.
-
-* Electrical Control Panel Wiring
-* CAD & Development 
-* Testing & Approval
-* ISO9001 Quality Approved
-* Excellent Customer Service

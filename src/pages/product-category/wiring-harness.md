@@ -8,6 +8,19 @@ usps:
   - usp: UK Made in Bolton
   - usp: Fast 3-6 Week Delivery
   - usp: ISO 9001 Quality Approved
+introcol:
+  first: >-
+    **Wiring harnesses manufactured to your specification**
+
+
+    If you’re looking for a wiring harness manufacturer, then you have come to the right place because this is exactly what we do. We are a build to print manufacturer, so we build to your custom drawing and specification. Our skilled and quality conscious team are fully trained and technically well experienced wiring harness builders. Every loom is made to perfection and turned around on an efficient 3-6 weeks.
+  second: "<style>.embed-container { position: relative; padding-bottom: 56.25%;
+    height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe,
+    .embed-container object, .embed-container embed { position: absolute; top:
+    0; left: 0; width: 100%; height: 100%; }</style><div
+    class='embed-container'><iframe
+    src='https://www.youtube.com/embed/TTebZ3qU9sQ' frameborder='0'
+    allowfullscreen></iframe></div>"
 images:
   - image: /img/wiring-harness-wiring-loom.jpg
     alt: Wiring Harness
@@ -99,6 +112,3 @@ seo:
     Assembly Solutions. Call 01204 521999 for a low cost custom built wiring
     loom quote.
 ---
-**Wiring harnesses manufactured to your specification**
-
-If you’re looking for a wiring harness manufacturer, then you have come to the right place because this is exactly what we do. We are a build to print manufacturer, so we build to your custom drawing and specification. Our skilled and quality conscious team are fully trained and technically well experienced wiring harness builders. Every loom is made to perfection and turned around on an efficient 3-6 weeks.

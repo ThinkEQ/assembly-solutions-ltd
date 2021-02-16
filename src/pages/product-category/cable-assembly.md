@@ -18,7 +18,6 @@ introcol:
 
     Welcome to ASL and our cable assembly division, where you should find everything you need to  know about the different types of cable assemblies we manufacture. 
 
-    ​
 
     To put it quite simple, we manufacture any type of cable assembly, so we should be able to help you.  From simple xx and xxx, through to xxx and xxx. 
 
@@ -26,16 +25,17 @@ introcol:
     Every cable assembly we make is manufactured right here at our family built factory in Bolton. We  don’t use overseas suppliers or partners as we need to ensure quality is excellent and we work 
 
     against a target lead time of 4 weeks. don’t feel the quality is as good and the lead times are longer.
+
+
+    With a strong workforce of 60 staff we have , we’re proud to  We have a workforce of 60 staff who are  fully trained to IPC A-620 and Cable assembly manufacture is in the heart of Bolton in our recently renovated factory, our staff with all our cable assembly operators fully qualified to IPC A-620.
   second: >-
-    With a strong workforce of 60 staff we have , we’re proud to  We have a
-    workforce of 60 staff who are  fully trained to IPC A-620 and Cable assembly
-    manufacture is in the heart of Bolton in our recently renovated factory, our
-    staff with all our cable assembly operators fully qualified to IPC A-620.
-
-
-    This comes as standard but to emphasise our lead time is a promised 4 weeks UK manufacturers, we 
+    This comes as standard but to emphasise our lead time is a promised 4 weeks
+    UK manufacturers, we 
 
     guarantee our our clients a fast turnaround clients a fast-turnaround and high-quality quality measurement to see products.  products as standard. We’re a family-run business. This is the certification for the requirements and acceptance of cable assembly and wire loom assemblies.
+
+
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/JM9UP2GiQ_M' frameborder='0' allowfullscreen></iframe></div>
 images:
   - image: /img/cable-assembly-asl3rdnovember-74.jpg
     alt: Cable Assembly
@@ -129,4 +129,3 @@ seo:
     Manufacturer. Call us on 01204 521999 to discuss your electrical cable
     assembly needs.
 ---
-**Widget being removed**
