@@ -155,7 +155,7 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
           <Box textStyle="container">
             {relatedProducts.map((item) => {
                   return (
-                    <Box padding="0 5px" width="100%" height="100%" maxHeight="457px" position="relative" >
+                    <Box onClick={() => nav(`/${item.node.fields.slug}`)} cursor="pointer" padding="0 5px" width="100%" height="100%" maxHeight="457px" position="relative" >
                       <Box position="relative" layerStyle="brightness">
                             <Box position="absolute" pointerEvents="none" height="100%" width="100%" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="0" background="rgba(9,21,64,0.5)" />
                             <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
