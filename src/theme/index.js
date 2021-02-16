@@ -52,6 +52,7 @@ const overrides = {
                     fontSize: {base: "16px", md:"20px"},
                     lineHeight: "38px",
                     letterSpacing: "0.71px",
+                    marginBottom: "20px"
                 },
                 ul: {
                     listStyle: 'none',
@@ -80,7 +81,10 @@ const overrides = {
                     marginLeft: {base: "5px", lg: "0" },
                     li: {
                         fontFamily: "inherit",
-                        fontSize: {base: "16px", md:"20px"}
+                        fontSize: {base: "16px", md:"20px"},
+                        _first: {
+                            marginBottom: "10px"
+                        }
                     }
                 }
             }
