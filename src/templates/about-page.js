@@ -4,8 +4,7 @@ import { graphql, Link as ReachLink } from 'gatsby'
 
 // Load components
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
-import { BsCircleFill } from 'react-icons/bs'
-import { Box, Text, Heading, List, ListItem, ListIcon, Link } from '@chakra-ui/react'
+import { Box, Text, Heading, Link } from '@chakra-ui/react'
 import NewsArticle from '../components/StaticQueries/NewsArticles'
 import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 import ImageComp from '../components/PreviewCompatibleImage'
@@ -14,7 +13,7 @@ import Button from '../theme/button'
 // Load layout
 import Layout from '../components/Layout'
 
-export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, intro, imgSrc }) => {
+export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, imgSrc }) => {
   const PageContent = contentComponent || Content
 
   return (

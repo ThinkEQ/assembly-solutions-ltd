@@ -24,7 +24,6 @@ const overrides = {
                     lineHeight: {base: "62px", md:"72px"},
                     marginBottom: "20px",
                     lettSpacing: "-2.12px",
-                    marginBottom: "20px",
                     fontWeight: 600
                 },
                 h2: {
