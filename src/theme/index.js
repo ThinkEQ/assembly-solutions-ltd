@@ -76,7 +76,12 @@ const overrides = {
                     
                 },
                 ol: {
-                    fontSize: "18px"
+                    fontSize: "18px",
+                    marginLeft: {base: "5px", lg: "0" },
+                    li: {
+                        fontFamily: "inherit",
+                        fontSize: {base: "16px", md:"20px"}
+                    }
                 }
             }
         })
