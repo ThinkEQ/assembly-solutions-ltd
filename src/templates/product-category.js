@@ -27,7 +27,6 @@ import ControlWEB from '../videos/CONTROL_PANEL.webm'
 
 export const ProductCategoryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent, video }) => {
   const PageContent = contentComponent || Content
-  const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
   const [isMoreThan464] = useMediaQuery("(min-width: 464px")
   const [isMoving, setMoving] = useState(false)
   const [mounted, setMounted] = useState(false)
@@ -112,14 +111,18 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
       <Box as="section" textStyle="section">
         <Box textStyle="container">
           <MDXWrapper>
-              <Box style={{columnCount: isLargerThan760 ? 2 : 1, columnGap: "60px"}}>
+              <Box display={{base: "none", lg: "block"}} style={{columnCount:  2, columnGap: "60px"}}>
                   <PageContent content={content} />
               </Box>
+              <Box display={{base: "block", lg: "none"}} style={{columnCount: 1}} >
+                <PageContent content={content} />
+            </Box>
           </MDXWrapper>
         </Box>
       </Box>
 
-      {(relatedProducts.length > 0 && mounted) &&
+      {/** Carousel */}
+      {(relatedProducts.length > 1 && mounted) &&
         <Box as="section" width="100%" maxHeight="600px" margin={{base:"30px 0", lg: "50px 0"}}>
           <Carousel
             arrows={false}
@@ -143,6 +146,27 @@ export const ProductCategoryPageTemplate = ({ title, content, contentComponent, 
                 )
               })}          
           </Carousel> 
+      </Box>}
+
+
+      {/** Single item banner */}
+      {(relatedProducts.length === 1 && mounted) &&
+        <Box as="section" textStyle="section" width="100%" maxHeight="600px">
+          <Box textStyle="container">
+            {relatedProducts.map((item) => {
+                  return (
+                    <Box padding="0 5px" width="100%" height="100%" maxHeight="457px" position="relative" >
+                      <Box position="relative" layerStyle="brightness">
+                            <Box position="absolute" pointerEvents="none" height="100%" width="100%" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="0" background="rgba(9,21,64,0.5)" />
+                            <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
+                      </Box>
+                      <Text textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" pointerEvents="none" position="absolute" zIndex="100" top="50%" left="50%" transform="translate(-50%, -50%)">
+                        {item.node.frontmatter.title}
+                      </Text>
+                  </Box>
+                  )
+                })}          
+          </Box>
       </Box>}
 
     {/**Main content */}
