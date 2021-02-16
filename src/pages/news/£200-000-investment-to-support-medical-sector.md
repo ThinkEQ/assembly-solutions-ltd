@@ -34,4 +34,16 @@ layout:
 
 
         It has been a challenging time but we are proud to be playing our part in supporting Medical manufacturers worldwide, and to have this investment in place to pave a way for future urgent demands.
+  - type: testimonial
+    testimonial:
+      alignment: centre
+      quote: This is one of our biggest investments to date and one that we had to
+        move very quick on as the demands were – and still are, critical. We
+        were extremely impressed with how fast the machinery manufacturers got
+        the equipment to us and this has drastically improved the volume of
+        products we are getting out of the door and into the medical
+        manufacturers. Whilst our commitment doesn’t compare to the level of
+        work carried out by NHS workers, it is very satisfying seeing our small
+        contribution to controlling this virus.
+      name: Gareth Balshaw, Managing Director
 ---
