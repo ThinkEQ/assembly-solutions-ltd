@@ -28,9 +28,9 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
               <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"62%"}} marginBottom={{base: "20px", lg: "0"}}>
                   {subtitle}
               </Heading>
-              <Text textStyle="p" width={{base: "100%", lg:"35%"}}>
+              {/* <Text textStyle="p" width={{base: "100%", lg:"35%"}}>
                   {intro}
-              </Text>
+              </Text> */}
             </Box>
         </Box>
       </Box>
