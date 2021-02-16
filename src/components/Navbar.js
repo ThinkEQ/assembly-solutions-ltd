@@ -86,7 +86,7 @@ const MainNav = () => (
     position: "absolute",
     content: "''",
     top:  "20px",
-    right: 0,
+    right: "-40px",
     opacity: "0.3",
     height: "70%",
     width: "1px",
@@ -127,7 +127,7 @@ const MainNav = () => (
   </Box>
   <Box as="ul" textDecoration="none">
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/wire-and-cable-preparation" size="lg" variant="nav">Wire and Cable Preparation</Link>
+      <Link as={ReachLink} to="/wire-and-cable-preparation" size="lg" variant="nav">Wire Preparation</Link>
     </Box>
     <Box as="li" display="block">
      <Link as={ReachLink} to="/cable-assembly" size="lg" variant="nav">Cable Assembly</Link>
@@ -250,9 +250,9 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
 
   return (
      <Box animation={`${flow} infinite 15s ease`} position="fixed" width={{base:"100%", md: "auto", lg: "648px"}} {...slideNav} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1000"  alignItems="center">
-          <Box padding="4">
+          <Box padding={4}>
             <Link as={ReachLink} to="/">
-              <SVG name="logo" height="100%" width="100%" />
+              <SVG name="logo" width="100%" />
             </Link>
           </Box>
           <Box padding="4" display="flex" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : ""} >
