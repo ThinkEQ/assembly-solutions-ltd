@@ -38,7 +38,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, 
       </Box>
       <Box as="section" textStyle="section">
         <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} textStyle="container">
-          <Box width={{base: "100%", lg:"100%"}} marginBottom={{base: "20px", lg: "0"}}>
+          <Box width={{base: "100%", lg:"60%"}} margin="0 auto" marginBottom={{base: "20px", lg: "0"}}>
             <MDXWrapper>
               <PageContent content={content} />
             </MDXWrapper>
