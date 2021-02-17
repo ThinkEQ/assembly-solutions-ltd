@@ -70,11 +70,11 @@ layout:
         single-decker buses and train door electrical systems.
   - type: testimonial
     testimonial:
-      quote: “Highly professional and skilled manufacturer for our wiring needs. Their
+      quote: Highly professional and skilled manufacturer for our wiring needs. Their
         communication is excellent from the drawing-up of a new loom to our
         exact needs. Whether a short or high volume requested the prices have
         been good and have helped save many man-hours for us with a fast
-        turn-around from order placement.”
+        turn-around from order placement.
       name: Review from a very happy cable loom customer.
   - type: column
     column:
@@ -90,9 +90,10 @@ layout:
       title: Contact Us
       text: >-
         If you have your cable loom drawings ready for a quick quote, email them
-        to enquiry@assembly-solutions.com and we’ll be back to you like
-        lightening! or if you want to chat with our engineers first, please call
-        01204 521999.
+        to
+        [enquiry@assembly-solutions.com](mailto:enquiry@assembly-solutions.com)
+        and we’ll be back to you like lightening! or if you want to chat with
+        our engineers first, please call 01204 521999.
 
 
         We would love to hear from you and understand you current situation with cable looms. It may be you are currently making these in-house or looking at moving them from an overseas supplier to a UK, either way we will be able to help. We have a team of sales engineers who are experts in any type of cable loom or cable harness.

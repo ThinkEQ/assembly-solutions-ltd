@@ -27,7 +27,7 @@ layout:
   - type: column
     column:
       title: Innovative solutions for cable assembly manufacture
-      text: >+
+      text: >-
         When it comes to sourcing cable assemblies, what’s the most important
         thing to you? Is it quality, cost or a fast turnaround? At ASL, we’ll
         make sure that you experience all three. We’re a multi- award-winning
@@ -38,8 +38,9 @@ layout:
 
         To make sure that we can provide you with the right product, we believe in establishing truly personal relationships with our clients, so you know that you have people you trust on your side.
 
-        To top it off, all our cable assembly operators are fully qualified to IPC A-620. This is the certification for the requirements and acceptance of cable assembly and wire loom assemblies.
 
+
+        To top it off, all our cable assembly operators are fully qualified to IPC A-620. This is the certification for the requirements and acceptance of cable assembly and wire loom assemblies.
   - type: testimonial
     testimonial:
       name: Buyer, Brompton Bicycle

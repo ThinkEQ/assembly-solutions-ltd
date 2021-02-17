@@ -26,9 +26,6 @@ layout:
         As all our cable assembly operators are fully qualified to IPC A-620, you can expect the highest level of quality, alongside the level of service you would expect from a family-run business. 
 
 
-        **Visit our world-class manufacturing factory of Cable Assemblies.**
-
-
         **Discover what sets ASL apart**
 
 

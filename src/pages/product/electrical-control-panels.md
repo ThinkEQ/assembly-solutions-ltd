@@ -34,9 +34,7 @@ layout:
       text: |-
         * Electrical Control Panels
         * Box Build
-        * Panel Manufacture
-
-        **Watch the video below to visit our award-winning factory**
+        * Panel Manufacturer
       title: "At ASL, we offer:"
   - type: column
     column:

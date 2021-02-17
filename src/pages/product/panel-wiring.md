@@ -66,10 +66,7 @@ layout:
         them with automotive wiring looms and vehicle control panels.
 
 
-        Optare Group is a UK leader in the manufacture of electric and hybrid buses and coaches. To learn more about how we continue to maintain our great relationship with Optare and help them with their range of electrical wiring assemblies. 
-
-
-        Click below to access our case study:
+        Optare Group is a UK leader in the manufacture of electric and hybrid buses and coaches. To learn more about how we continue to maintain our great relationship with Optare and help them with their range of electrical wiring assemblies.
   - type: testimonial
     testimonial:
       quote: I feel reassured that when they have our products, their team manufacture

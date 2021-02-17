@@ -33,9 +33,6 @@ layout:
         With our large stock holding, we can manufacture your braided cable assembly within days while still maintaining the level of quality we’ve worked hard at achieving and maintaining. Whether you’re looking for Braided Earth Cables, Braided Earth Leads or Braided Earth Straps, we can help. 
 
 
-        **Watch the video below to visit our award-winning factory**
-
-
         **Braided Cable Assembly**
 
 

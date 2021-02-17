@@ -48,8 +48,6 @@ layout:
         quantities. After all, great things come in small packages, right? 
 
 
-        \
-
         With wires produced from £0.02p each, we offer competitive quotes for all our customers on a wide variety of products. Our machines support a range of processing options so you can find exactly what you need, including wire marking with hot-stamp or inkjet markers.
   - type: column
     column:
@@ -65,8 +63,6 @@ layout:
       text: >-
         **Wire Preparation Cheaper than Overseas**
 
-
-        \
 
         Why import something when you can create it right here in the UK with very little labour input? While you might think you could get a better deal by taking it overseas, actually, we can guarantee we can compete in this area. 
 
@@ -88,9 +84,7 @@ layout:
         When it comes to finding the right cable assembly manufacturer, you don’t need to look any further than us. While many businesses believe that outsourcing this type work abroad is cheaper than looking in the UK, this is often a misconception. We offer competitive prices and a fast turnaround, as well as operating in the same time zone as you without any tricky language barriers to content with.  
 
 
-        **\
-
-        Just a few things we expect to help you with** 
+        **Just a few things we expect to help you with** 
 
 
         * Reduce your wire preparation spend

@@ -61,11 +61,6 @@ layout:
         * You will enjoy working with out 5/5 rated superstar staff
 
 
-
-
-        <br/>
-
-
         We know a thing or two about all things cables as we’ve been making electrical cable assemblies for  25 years!
   - type: testimonial
     testimonial:

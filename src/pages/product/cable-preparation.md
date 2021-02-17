@@ -44,10 +44,7 @@ layout:
         standards, we maintain best practice in every product we create. 
 
 
-        Want to know how we do it? Well, firstly we make sure that every one of our IPC A-620 trained manufacturing technicians has the know-how required to create and test these products, alongside the integrity to want to maintain our exceptionally high standards. Fancy taking a look around our award-winning factory to see where the magic happens? 
-
-
-        **Watch the video below to visit our award-winning factory**
+        Want to know how we do it? Well, firstly we make sure that every one of our IPC A-620 trained manufacturing technicians has the know-how required to create and test these products, alongside the integrity to want to maintain our exceptionally high standards. Fancy taking a look around our award-winning factory to see where the magic happens?
       title: null
   - type: column
     column:
