@@ -243,9 +243,16 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
 
   }
 
+  // Mediator to togggle drawer
   function openDrawer() {
     toggleDrawer('nav')
     setVisible(isOpen)
+  }
+
+  // Mediator to set nav menu visible on close
+  function callbackClose() {
+    setVisible(true)
+    onClose()
   }
 
   return (
@@ -255,7 +262,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
               <SVG name="logo" width="100%" />
             </Link>
           </Box>
-          <Box padding="4" display="flex" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : ""} >
+          <Box padding="4" display="flex" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : ""} marginRight="15px">
             <Text {...navText} minWidth="90px" display={{base: "none", lg: "block"}} onClick={openDrawer}>View menu</Text>
             <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={openDrawer} />
           </Box>
@@ -263,19 +270,19 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
             <SVG name="chat" color="#fff" />
             <Text {...navText} marginLeft="5px">get in touch</Text>
           </Box>
-        <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
+        <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={callbackClose} closeOnEsc closeOnOverlayClick size="xl">
         <DrawerOverlay />
         <DrawerContent animation={`${flow} infinite 15s ease`}  background={menu === 'nav' ? 'gradient.900' : 'gradient.800'}  zIndex="2000" backgroundSize="600% 600%" >
           <DrawerHeader minHeight="100px" padding="0" width="100%">
           {menu === 'contact' && <DrawerCloseButton color="#fff" padding="20px" />}
           {menu === 'nav' &&
-            <Box display="flex" justifyContent="flex-end"  alignItems="center" height="72px" >
+            <Box display="flex" justifyContent="flex-end"  alignItems="center" height="72px">
               <Box padding="4" >
               <Link as={ReachLink} to="/">
                 <SVG name="logo" width="100%" />
               </Link>
               </Box>
-              <Box padding="4" display="flex" alignItems="center" justifyContent="center">
+              <Box padding="4" display="flex" alignItems="center" justifyContent="center" marginRight="15px">
                 <Text {...navText} minWidth="90px" display={{base: "none", lg: "block"}} onClick={openDrawer}>Close menu</Text>
                 <Hamburger isOpen={(isOpen && menu === 'nav')} toggle={openDrawer} />
               </Box>
