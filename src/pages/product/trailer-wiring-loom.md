@@ -6,7 +6,7 @@ usps:
   - usp: 3-6 Week Delivery
   - usp: UK Made in Bolton
   - usp: ISO 9001 Quality Approved
-image: /img/trailer-wiring-looms.jpg
+image: /img/trailer-wiring-looms-update.jpg
 layout:
   - type: full
     full:
@@ -14,7 +14,7 @@ layout:
         ASL offer full trailer wiring looms and plug and play wiring harnesses
         for commercial trailers, domestic trailers, road recovery trailer
         equipment, and many more.
-        
+
         In our UK-based factory, we can manufacture trailer wiring loom and wiring harnesses to your exact specifications. Alternatively, you can utilise our experience and we’ll work with you to design a product that offers a cost-effective solution.
   - type: column
     column:
