@@ -1,6 +1,6 @@
 ---
 templateKey: product
-title: Agricultural Looms
+title: Agricultural Wiring Loom
 subtitle: Agricultural Equipment Wiring Loom
 video: wiring-harness
 usps:

@@ -35,7 +35,7 @@ images:
 products:
   - Wiring Looms
   - Cable Looms
-  - Agricultural Looms
+  - Agricultural Wiring Loom
   - Electric Vehicle & Hybrid Vehicle Wiring Harnesses
   - Motorsport Harnesses
   - Trailer Wiring Loom
