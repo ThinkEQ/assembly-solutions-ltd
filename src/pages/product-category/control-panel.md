@@ -3,7 +3,7 @@ templateKey: product-category
 title: Control Panels
 subtitle: Control Panel Manufacturer
 video: control-panel
-image: /img/control-panel.jpg
+image: /img/control-panels.jpg
 usps:
   - usp: Experienced Panel Builders
   - usp: Fast Turnaround
