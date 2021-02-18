@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { navigate } from 'gatsby-link'
 
 // Load components
-import { Box, Heading, Text, Button, keyframes, useDisclosure, useMediaQuery, Modal, ModalBody, ModalContent, ModalOverlay } from '@chakra-ui/react'
+import { Box, Heading, Text, Button, keyframes, useDisclosure, Modal, ModalBody, ModalContent, ModalOverlay } from '@chakra-ui/react'
 import ReactScroll from '../components/ReactScroll/ReactScroll'
 
 //import Button from '../theme/button'
@@ -35,7 +35,6 @@ const tablet = `linear-gradient(270deg, rgba(36,155,171,0) 0%, rgba(36,155,171,0
 const dekstop = `url(${teamDesktop})`
 
 export const IndexPageTemplate = () => {
-const [isMoreThat1500] = useMediaQuery(["(min-width: 1450px)"])
 const {isOpen, onOpen, onClose } = useDisclosure()
   
 return (
@@ -72,7 +71,7 @@ return (
       <Box as="section" >
           <BannerOurCustomers />
       </Box>
-      <Box as="section" textStyle="section" backgroundImage={{base: mobile,  sm: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height="auto" minHeight={{base: "auto", sm: "400px",  md: isMoreThat1500 ? "700px" :"auto"}} width="100%" position="relative">
+      <Box as="section" textStyle="section" backgroundImage={{base: mobile,  sm: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height="auto" minHeight={{base: "auto", sm: "400px",  md: "auto", xxl: "700px"}} width="100%" position="relative">
           <Box textStyle="container" height="100%">
               <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
                 <Box marginBottom={{base: "10px", md:"25px"}} fill="#fff" width={{base:"100px", md: "150px"}}>

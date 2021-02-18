@@ -1,9 +1,13 @@
 import { extendTheme } from '@chakra-ui/react'
-import { mode } from '@chakra-ui/theme-tools'
+import { mode, createBreakpoints } from '@chakra-ui/theme-tools'
 
 // Load custom components
 import { ButtonStyles as Button } from './button'
 import {LinkStyles as Link} from './link'
+
+const breakpoints = createBreakpoints({
+    xxl: "1500px"
+})
 
 // Custom theme overrides
 const overrides = {
@@ -93,6 +97,7 @@ const overrides = {
         Button,
         Link
     },
+    breakpoints,
     fonts: {
         heading: "Titillium Web"
     },
