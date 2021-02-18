@@ -1,7 +1,7 @@
 ---
 templateKey: product
 title: Cable Preparation
-subtitle: Wire and cable preparation rooted in quality
+subtitle: Wire & Cable Preparation
 usps: []
 related-products:
   - name: Cable Assemblies
@@ -33,71 +33,47 @@ images:
   - image: /img/image0.jpg
     alt: Cable Preparation
 layout:
-  - type: full
-    full:
+  - type: column
+    column:
+      title: Custom-made Cable Preparation
       text: >-
-        While wires and cables can be produced quickly, cheaply and in large
-        quantities, we needed to make sure that we got the grounding right
-        first. The cable manufacturing and preparation process has a strong
-        history where decades of really intelligent people have honed each stage
-        of the process and by doing everything that we can to maintain their
-        standards, we maintain best practice in every product we create. 
+          ASL is a UK manufacturer of custom-made cable preparation.  
 
 
-        Want to know how we do it? Well, firstly we make sure that every one of our IPC A-620 trained manufacturing technicians has the know-how required to create and test these products, alongside the integrity to want to maintain our exceptionally high standards. Fancy taking a look around our award-winning factory to see where the magic happens?
-      title: null
+        As the leading sub-contractor in our industry, we deliver a high quality and tailored cable preparation service that is cost effective for any application and industry.  Our cable assembly production lines are streamlined for efficient manufacture and all our production operators are accredited to IPC A-620 – the standards for cable assemblies.
+
+
+        Our cable assembly production lines are streamlined for efficient manufacture and all our production operators are accredited to IPC A-620 – the standards for cable assemblies.
   - type: column
     column:
-      text: With wires produced from £0.02p each, we offer competitive prices on all
-        custom made cable preparation. Our machines support a range of
-        processing options so you can find exactly what you need, including wire
-        marking with hot-stamp or inkjet markers.
-  - type: column
-    column:
-      text: |-
-        * Cable preparation 
-        * Consumer unit cables 
-        * Earth strap 
-        * Ultrasonic cables
-      title: "We also offer:"
-  - type: column
-    column:
-      title: Discover what sets ASL apart
+      title: Low Prices & Fast Turnaround 
       text: >-
-        With over 20 years’ experience in the industry, we’ve been in this
-        business for a long time and in that period, we have built and
-        maintained lasting relationships with many of our clients by
-        demonstrating that we can deliver time and time again. ASL was
-        established with the aim to become one of the best manufacturing
-        companies in the UK and over the past 20 years, our award-winning
-        service and commitment to excellence has been reflected in the wonderful
-        feedback we receive from our clients. 
+        With an extremely efficient team and strong relationships with our
+        supply chain, we offer low prices for a lot of value. Our high speed
+        machines run so fast that they enable us to produce high volume cable
+        assemblies at very low cost.
 
 
-        As a UK based manufacturing business, you will benefit from our personal service and high-quality standards, as well as a faster turnaround than if you outsource abroad. With a factory based in the North of England, we can deliver low-cost products at high volumes, as and when you need them. 
+
+        Our cable preparation work is generally turned around on a speedy and promised 4 week turn around. This includes quoting, engineering, production set-up, production manufacture, quality assurance and delivery.
+  - type: column
+    column:
+      title: Reverse Engineering from Samples
+      text: >-
+        As a manufacturer committed to supporting customers the best we can, we
+        usually assist with the initial design by bringing our engineering
+        expertise to every panel wiring project.   
 
 
-        Don’t just take out word for it though… 
-
-
-        **Want to hear if straight from the horse’s mouth?**
+        We generally work from drawings, specifications and bills of materials, but if required we can reverse engineer products from a sample or prototype. Our engineers can visit customer factories to discuss products in detail to come up with the best solution.
   - type: testimonial
     testimonial:
-      quote: ASL are a beacon of consistency of quality and service, a business who’s
-        enthusiastic, professional and caring culture resonates throughout the
-        employees and their way of conducting business. But most importantly
-        their dedication to innovation and working with us to improve our
-        product yet reduce our cost base for now and the future.
-      name: ""
-  - type: column
-    column:
-      text: |-
-        * Competitive costs
-        * Excellent quality
-        * Local low delivery costs
-        * Award-winning UK service
-        * Available when you need us
-      title: With ASL you can expect;
+      quote:  We continue to buy cable assemblies from ASL because their quality is
+        excellent, prices are competitive and they are a friendly company to
+        work with. They have been one of our top suppliers for 10 years because
+        they always deliver on time and we never have issues with quality. We
+        highly recommend ASL.
+      name: "Henry Moreta, Buyer - Brompton Bicycle "
 seo:
   title: Cable Preparation | Wire Preparation | ASL
   description: Cable Preparation and Wire Preparation. Cut, Strip and Terminate

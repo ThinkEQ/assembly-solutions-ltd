@@ -1,7 +1,7 @@
 ---
 templateKey: product
 title: Agricultural Wiring Loom
-subtitle: Agricultural Equipment Wiring Loom
+subtitle: Agricultural Wiring Looms and Harnesses
 video: wiring-harness
 usps:
   - usp: 3-6 Week Delivery
@@ -9,71 +9,57 @@ usps:
   - usp: Competitive Prices
 image: /img/agriculture-min.jpg
 layout:
-  - type: full
-    full:
-      title: Reduce your costs and man hours, sub-contract to ASL
+  - type: column
+    column:
+      title: UK Manufactured Wiring Looms for Agriculture
       text: >-
-        Working in the Agricultural trade is busy, fast-paced and there’s very
-        little room for error. That’s why you need a manufacturer you can rely
-        on to get you the wiring loom you need at the right price with a fast
-        turnaround.
+          ASL is a thriving manufacturer of wiring looms and harnesses for the
+        agriculture industry.  
 
 
-        At ASL, we’re proud to support the rural community, maintaining all agricultural equipment through high quality wiring loom solutions. As a family-run business, we’re committed to building long-term relationships with our customers in order to build the level of trust that you need to ensure you will get the product you need, when you need it. 
+        Our quality wiring looms support the rural community by maintaining all agricultural and harvesting equipment.   
 
 
-        As UK manufacturers with our plant based in the North of England, unlike manufacturers operating from abroad, we can assure the level of quality and speed of turnaround that you’re looking for. Want to see where we do this? Take a virtual tour of our factory below.
-
-
-        **Wiring loom manufacturers** 
-
-
-        Because we know the importance of getting your wiring harness products right in order for you to undertake your day-to-day role, we offer free technical support on all our agricultural wiring harness products. Our friendly team will work with you to come up with wiring harness solution ideas to facilitate continuous innovation in vehicle technology, emissions control and safety systems.
+        As a family-run business we enjoy building long-term relationships with customers and giving them the perfect wiring solution.
   - type: column
     column:
-      title: Discover what sets ASL apart
-      text: Whether you’re looking for a wiring loom for tractors, ATVs, telehandlers
-        or something else, with over 20 years’ experience in the industry, we
-        can develop, design and product a solution that fits your needs. In
-        order to get you exactly what you want and to ensure we can continue to
-        support you after any sales have been made, we aim to get to know your
-        requirements inside and out.
-  - type: column
-    column:
-      title: "When working with ASL, you can expect: "
-      text: |-
-        * Free help with loom design 
-        * Free technical support
-        * ISO9001 Quality products
-        * Value for money
-        * Five star service
-  - type: column
-    column:
-      title: What our customers think
+      title: Low Prices & Fast Turnaround  
       text: >-
-        While you can choose to outsource your manufacturing requirements
-        abroad, you’re much more likely to face difficulties in the form of
-        language barriers, differing time zones, lower quality products and
-        longer turnaround times. Having worked with some major clients,
-        including Canberra, Brompton Bicycle, United Utilities and Optare, we
-        have consistently demonstrated the value that we can add to our
-        clients. 
+        All our wiring looms are delivered on a lighting fast turnaround using
+        automatic machines and our speedy in-house operators. Each loom is made
+        to the highest quality and given a 100% electrical inspection and
+        test before being packaged and despatched.
 
 
-        With ASL, you can rest assured that you will only ever receive high- quality products that have been tested by our exceptional quality testing team. As well, with a sole factory in the North of England, we can guarantee fast turnaround times and we will be around when you need us.
+        * ISO 9001 Quality Assurance
+
+        * Staff fully trained to IPC A-620
+
+        * Fast 4 week delivery
+
+        * Excellent customer service
   - type: column
     column:
-      title: Get in touch
+      title: Technical & Engineering Support
       text: >-
-        We’re really quick at quoting so send your loom drawings to
-        enquiry@assembly-solutions.com and we will be straight back to you. Or
-        if you’d prefer to have a chat first, call us on 01204 521999.
+        To ensure we manufacture quality wiring looms that are fit for purpose
+        and cost-effective, we offer technical support from our knowledgeable
+        engineers on all wiring loom projects. Our engineers are committed to
+        understanding customer requirements before passing final drawing and
+        specification over to production, to commence with manufacture.   
 
 
-        **Connect with Us**
-
-
-        We love sharing all our latest news and goings on, so follow us on Linkedin to see what we’ve been up to this week!
+        Our friendly team enjoy working with customers to create a wiring harness solution that facilitates continuous innovation in vehicle technology, emissions control and safety systems.
+  - type: testimonial
+    testimonial:
+      quote: ASL is without a doubt the best UK manufacturer of wiring looms and
+        wiring harnesses. They have been our preferred supplier for 10 years
+        because their quality and attention to detail is none other than
+        excellent, and they deliver when they say they will (which is something
+        my other suppliers don’t do!). For us we find working with ASL extremely
+        easy, they are always quick to respond and support us with fast
+        turnaround deliveries when we have urgent demands.
+      name: Electrical Engineering Manager – Alexander Dennis
 seo:
   title: Agricultural Vehicle Wiring Loom | Wiring Looms | ASL
   description: Agricultural Vehicle Wiring Loom and Wiring Harnesses manufactured

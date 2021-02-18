@@ -1,7 +1,7 @@
 ---
 templateKey: product
 title: Cable Assemblies
-subtitle: UK assembly manufacturers
+subtitle: UK Cable Assemblies
 usps:
   - usp: UK Made in Bolton
   - usp: 4 Week Delivery
@@ -26,27 +26,49 @@ images:
 layout:
   - type: column
     column:
-      title: Innovative solutions for cable assembly manufacture
+      title: UK Manufactured Cable Assemblies
       text: >-
-        When it comes to sourcing cable assemblies, what’s the most important
-        thing to you? Is it quality, cost or a fast turnaround? At ASL, we’ll
-        make sure that you experience all three. We’re a multi- award-winning
-        manufacturer of cable assemblies, backed up by a highly technically
-        trained workforce. Not only that, but we’re also a friendly, family-run
-        business who are fiercely proud of our personal service and quality
-        products.
-
-        To make sure that we can provide you with the right product, we believe in establishing truly personal relationships with our clients, so you know that you have people you trust on your side.
+          ASL is an industry leading manufacturer of custom-made quality cable
+        assemblies.
 
 
+          We have been making cable assemblies for 25 years and over this time built a wealth of knowledge and experience from working with a range of different industries including; Automotive, Agriculture and Test & Measurement.  
 
-        To top it off, all our cable assembly operators are fully qualified to IPC A-620. This is the certification for the requirements and acceptance of cable assembly and wire loom assemblies.
+
+        Our services are tailored specific to your cable assembly requirements and our prices will be cost-effective for your application.
+  - type: column
+    column:
+      title: Range of Cable Assemblies 
+      text: |-
+        * Military cable assemblies
+        * Access control and security cables
+        * Over-moulded cable assemblies
+        * Waterproof cable assemblies
+        * Custom-made cables and harnesses
+        * Nuclear cable assemblies
+        * Automotive cables and looms
+        * Battery cable assemblies  
+        * Ribbon cable assemblies
+        * Braided cable assemblies
+  - type: column
+    column:
+      title: Want a quick quote?  
+      text: >-
+        We thrive off being a fast paced team and giving customers a service
+        that is quicker than Usain Bolt in an Olympic sprint. Email your
+        drawings to enquiry@assembly-solutions.com and we’ll be straight back to
+        you with prices. 
+
+
+        Our super sales engineers are here to help at any time so if would like to chat with us about your cable assemblies, call  01204 521999 and let’s get started!
   - type: testimonial
     testimonial:
-      name: Buyer, Brompton Bicycle
-      quote: " “After being let down by previous subcontractors, I’m really pleased to
-        have found ASL who are honest, professional and demonstrate not only the
-        know-how, but also take pride in both their work and their business.”"
+      quote:  We continue to buy cable assemblies from ASL because their quality is
+        excellent, prices are competitive and they are a friendly company to
+        work with. They have been one of our top suppliers for 10 years because
+        they always deliver on time and we never have issues with quality. We
+        highly recommend ASL.
+      name: Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Cable Assemblies | Cable Assembly Manufactures | ASL
   description: Cable Assemblies and Cable Assembly Manufacture from Assembly

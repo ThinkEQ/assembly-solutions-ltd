@@ -1,7 +1,7 @@
 ---
 templateKey: product
 title: Earth Strap
-subtitle: Earth strap
+subtitle: Earth Strap Assemblies
 usps:
   - usp: UK Made in Bolton
   - usp: Fast 4 Week Delivery
@@ -17,77 +17,52 @@ images:
   - alt: Earth Strap
     image: /img/8.jpg
 layout:
-  - type: full
-    full:
-      title: Stay grounded with the right earth strap manufacturer
-      text: >-
-        Finding the right manufacturer for your requirements is essential, but
-        that doesn’t mean that it’s always easy. While at a glance, it may seem
-        cheaper to outsource your order abroad, this is often not the case and
-        you may find that you fall victim to lower-quality products and a slow
-        turnaround.  And another thing…when you need to get through to someone
-        on the phone, if there’s a time difference this isn’t always feasible
-        and there could be language barriers to contend with once you do get
-        through. At ASL, we’re based in an award-winning factory in the UK, with
-        the staff and facilities handy to produce top-quality earth straps at a
-        competitive price and with a fast turnaround. 
-
-
-        We can help your business to lower your costs and improve your quality, while ensuring that our fast delivery is consistent and reliable. 
-
-
-        **Braided cables**
-
-
-        Whether it’s an earth strap or earth lead, we can produce any type of braided cable assembly. Our custom-made braided earth leads are used for earthing and electrical bonding applications.
-
-
-        All our braided assemblies are made in our UK Bolton factory and our experienced staff work hard to ensure that every product reaches our extremely high standards of quality. 
-
-
-        By selecting the correct braid, termination and insulation, our earthing straps are optimised for each application. No matter the size of your order, we ensure that every single strap reaches the required performance criteria with respect to temperature, flexibility, corrosion resistance, weight and electrical characteristics.
-
-
-        **We offer:** 
-
-
-        * Braided Earth Leads
-
-        * Braided Earth Straps
-
-        * Braided Earth Cables
-
-
-        **Discover what sets ASL apart**
-
-
-        At ASL we believe in establishing lasting relationships with our clients, rather than simply making a sale then washing our hands of you. As a multi-award winning and ISO 9001 approved UK earth cable manufacturer, our dedicated team have the know-how and customer skills to help you get the product you need and in solving any queries down the line. We’ve worked with businesses across a wide range of industries for over 20 years and, in that time, our level of service and quality of our products has been reflected in the lovely feedback we receive from our clients.
   - type: column
     column:
-      title: What our customers think
+      title: UK Manufactured Earth Straps
       text: >-
-        We think that customer feedback says a lot about a business. So, here’s
-        why Brompton Bicycle chose us as their preferred wiring supplier: 
+          ASL is an industry leading manufacturer of braided earth straps and
+        braided earth lead assemblies.  
 
 
-        **Want to hear if straight from the horse’s mouth?**
+        Earth straps have been a part of our manufacturing service since we began 25 years ago.   
+
+
+        We supply earth straps in a wide range of industries and interestingly recently supplied a range of braided earth straps into the Queen Elizabeth Aircraft Carrier!
+  - type: column
+    column:
+      title: Earth Straps & Braided Leads 
+      text: >-
+        We manufacture earth straps and also braided cable on reels. All our
+        products are custom made to customer specification on size and length of
+        cable, and we stock a range of terminations for single assemblies.
+
+
+        * Earth Straps
+
+        * Earth Leads
+
+        * Braided Cable on reels
+
+        * Braided Earth Strap Assemblies
+  - type: column
+    column:
+      title: Quality Earth Straps
+      text: >-
+        As an ISO 9001 Quality Approved manufacturer, we produce all earth
+        straps to the highest standard from our large and lively Bolton
+        factory.  
+
+
+        By selecting the correct braid, termination and insulation, our earth straps are optimised for each application. We are open to looking at any size and quantity, and ensure that every single strap reaches the required performance criteria with respect to; temperature, flexibility, corrosion resistance, weight and electrical characteristics.
   - type: testimonial
     testimonial:
-      name: Review from a happy customer who bought ASL Earth Straps
-      quote: As a family-run firm, ASL really give that personal touch and continue to
-        blow our expectations away. It’s no wonder they keep winning awards!
-  - type: column
-    column:
-      title: Want a quick quote?
-      text: We thrive off being the best at customer service so if you want it quick,
-        we can promise you that. Email your drawings to
-        enquiry@assembly-solutions.com and we’ll be straight back to you with a
-        quotation.
-  - type: column
-    column:
-      title: Connect with Us
-      text: We love sharing all our latest news and goings on, so follow us on
-        Linkedin to see what we’ve been up to this week!
+      quote:  We continue to buy cable assemblies from ASL because their quality is
+        excellent, prices are competitive and they are a friendly company to
+        work with. They have been one of our top suppliers for 10 years because
+        they always deliver on time and we never have issues with quality. We
+        highly recommend ASL.
+      name: Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Earth Strap | Earth Lead | Braided Cable | ASL
   description: Earth Strap and Earth Leads from Assembly Solutions. Suppliers of

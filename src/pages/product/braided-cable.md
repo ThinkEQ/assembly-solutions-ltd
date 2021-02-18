@@ -1,7 +1,7 @@
 ---
 templateKey: product
 title: Braided Cable
-subtitle: Braided cable manufacturer
+subtitle: Braided Cable Manufacturer
 usps:
   - usp: UK Made in Bolton
   - usp: Fast 4 Week Delivery
@@ -17,51 +17,56 @@ images:
   - alt: Braided Cable
     image: /img/8.jpg
 layout:
-  - type: full
-    full:
-      title: First-class braided cables with an ultra-fast turnaround
-      text: >-
-        When you buy your braided cables through ASL, you can be confident that
-        you are investing in a high-quality product. Why? Because as well as
-        being an award-winning manufacturer, we work hard to build relationships
-        with our clients in order to get to grips with exactly what you need,
-        the volume in which you need it and when you need it by. As a family-run
-        business, we’re proud of what we do and truly care that everything we
-        produce is up to the highest of standards. 
-
-
-        With our large stock holding, we can manufacture your braided cable assembly within days while still maintaining the level of quality we’ve worked hard at achieving and maintaining. Whether you’re looking for Braided Earth Cables, Braided Earth Leads or Braided Earth Straps, we can help. 
-
-
-        **Braided Cable Assembly**
-
-
-        Braided cables are manufactured in a wide variety of volumes. Our flexible set up allows us to help any customer who approaches us with a braided cable enquiry, no matter the size of your order. We offer all our clients a full consultation on your requirements, as well as ongoing support after you’ve received your order.
-
-
-        **Discover what sets ASL apart**
-
-
-        Operating from one factory in the North of England, we have complete control over the quality and turnaround of our products. Unlike when you outsource your manufacturer from abroad, with us you can rest assured that you will receive your product when you need it, to the level of quality that you expect. Having over 20 years’ experience in the manufacturing industry, we serve a wide range of sectors, including automotive, nuclear and utilities. 
-
-
-        Our staff all undertake annual training with the aim to reduce costs and lead times as well as retaining our high level of quality.
-
-
-        If your requirements are a little more complex, we have the means to fulfil both large and small orders.
-  - type: testimonial
-    testimonial:
-      quote: After being let down by previous subcontractors, I’m really pleased to
-        have found ASL who are honest, professional and demonstrate not only the
-        know-how, but also take pride in both their work and their business.
-      name: Review from a happy customer who bought ASL braided cables
   - type: column
     column:
-      title: "Contact Us "
-      text: Got a specific braided cable you want to chat to about? Call 01204 521999
-        and let us help you with a solution. If you’re more of an email person,
-        that’s cool with us, send your enquiry to enquiry@assembly-solutions.com
-        and we’ll be straight back to you.
+      title: UK Manufactured Braided Cable
+      text: >-
+        ASL is an industry leading manufacturer of braided cable and braided
+        earth lead assemblies.  
+
+
+        With 25 years of experience we understand how important cost and reliability is. To ensure every project is a success, we work closely with our customers from the costing stage right through to production, focusing on producing braided assemblies that are cost effective and fit for purpose.  
+
+
+        We supply braided cable in a wide range of industries and interestingly recently supplied braided earth leads into the QE2 Ship that is now a floating hotel in Dubai!
+  - type: column
+    column:
+      title: Braided Earth Leads 
+      text: >-
+        We manufacture braided cable on reels and we also supply braided earth
+        lead assemblies. All our products are custom made to customer
+        specification on size and length of cable, and we stock a range of
+        terminations if these are required.
+
+
+        * Braided Cable on reels
+
+        * Braided Earth Strap Assemblies
+
+        * Earth Leads
+
+        * Earth Straps
+
+        * Custom made Braid Leads
+  - type: column
+    column:
+      title: Large Stock Holding
+      text: >-
+        With our large stock holding, we can manufacture your braided cable
+        assembly within a very short lead time. Whether you are looking for
+        braided earth cable, braided earth leads or braided earth straps, we
+        will be able to help!   
+
+
+        If you have your drawings ready and want a quick quote, email your RFQ to enquiry@assembly-solutions.com or if you want to chat with our engineers, call 01204 521999.
+  - type: testimonial
+    testimonial:
+      quote:  We continue to buy cable assemblies from ASL because their quality is
+        excellent, prices are competitive and they are a friendly company to
+        work with. They have been one of our top suppliers for 10 years because
+        they always deliver on time and we never have issues with quality. We
+        highly recommend ASL.
+      name: Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Braided Cable | Earth Straps | Earth Leads
   description: Braided Cable range from Assembly Solutions includes Braided Earth
