@@ -1,78 +1,56 @@
 ---
 templateKey: product
 title: Panel Wiring
-subtitle: Wiring up the right solution for your business
+subtitle: Panel Wiring
 usps:
   - usp: ISO9001 Quality Approved
   - usp: Design Support
   - usp: Low to high volume builds
 image: /img/panel-wiring.jpg
 layout:
-  - type: full
-    full:
-      title: ""
+  - type: column
+    column:
+      title: Panel Wiring Manufacturers
       text: >-
-        When it comes to panel wiring, the process can vary wildly depending on
-        what you need. At ASL, our panel build production operators have
-        experience in wiring a huge range of panel assembly. Because we’re a
-        bendy bunch, we’re also incredibly flexible with the volume of orders
-        that we can fulfil, whether you’re looking for high volume or something
-        a little smaller; we will ensure you get your order when you need it. 
+        ASL is a leading supplier of panel wiring services.   With an
+        experienced and efficient production team, we are renowned for our panel
+        wiring services that we provide on a fast and flexible turnaround.  
 
 
-        OurIPC A-620 fully trained technical teamhave worked with a wide range of industries including, automotive, nuclear, security and utilities.
+        * Panel Wiring
 
+        * Project Design & Development 
 
-        The magic takes place in our UK based factory in Bolton, which is set up as a full-service panel wiring manufacturer in order to save you money on your panels and sub-assemblies with a fast turnaround and competitively priced products.
+        * ISO9001 Quality Assurance
 
-
-        **We offer:**
-
-
-        * Control Panels
-
-        * Control Boxes
-
-        * Box Build
-
-
-        **Panel Build Manufacturers UK**
-
-
-        We know it’s a tall order, but we pride ourselves on providing a ‘one-stop-shop’ panel wiring solution with a technical in-house design/development team and exceptional manufacturing standards. Our expert team can work from drawings and bills of materials or reverse engineer from a prototype. All our panel wiring products are electrically tested using our automatic testing facilities or with bespoke test equipment designed specifically for the product in question 
-
-
-        We do this to ensure that everything is perfectly engineered to your requirements and that it works how it should, each and every time.
+        * Fast & Flexible Delivery
   - type: column
     column:
-      title: Panel Wiring Manufacturing Facilities
-      text: We believe that attention to detail is key for capturing every aspect of
-        your control cabinet configuration and hardware, making our service
-        ideal for multiple identical cabinet installations. We can also
-        customise control cabinet enclosures with safety glass, mesh and steel
-        ventilated doors as well as cable access and power management.
-  - type: column
-    column:
-      title: "We can offer:"
-      text: |-
-        * Single or multiple panel build systems
-        * Full custom electrical control cabinets  
-        * Flexible volumes
-  - type: column
-    column:
-      title: What our customers think
+      title: Panel Wiring Team 
       text: >-
-        Since ASL was founded, we have worked with the Optare Group, supplying
-        them with automotive wiring looms and vehicle control panels.
+        Our panel wiring operators are fully trained to IPC A-620 and have
+        experience in producing a wide range of panel assemblies after working
+        on projects for industries including; Automotive, Nuclear and Security.
+          
 
 
-        Optare Group is a UK leader in the manufacture of electric and hybrid buses and coaches. To learn more about how we continue to maintain our great relationship with Optare and help them with their range of electrical wiring assemblies.
+        All our panel wiring products are electrically tested using our automatic testing facilities or bespoke test equipment designed specifically for the control panel.
+  - type: column
+    column:
+      title: Committed to customers
+      text: As a manufacturer who is committed to supporting customers as best we can,
+        we usually assist with the initial design by bringing our engineering
+        expertise to every panel wiring project. We generally work from drawings
+        and bills of materials, but if required we can reverse engineer products
+        from a sample or prototype.
   - type: testimonial
     testimonial:
-      quote: I feel reassured that when they have our products, their team manufacture
-        to a high level of quality, consistency and deliver on their promises
-        which in turn allows confidence to commit to tight timescales and
-        challenging schedules with our customers also.
+      quote:  We have a great relationship with ASL and have worked with them for many
+        years, simply because they continue to deliver quality products. Being a
+        well-established business, we have trusted them from start and
+        appreciate their knowledge staff, who have gone above and beyond to help
+        with technical design.
+      name: "Electrical Engineer – Siemens "
 seo:
   title: Panel Wiring | Panel Build Manufacturer | ASL
   description: Electrical Panel Wiring and Control Panel Build from Assembly

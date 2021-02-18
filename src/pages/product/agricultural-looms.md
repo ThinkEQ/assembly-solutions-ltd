@@ -7,7 +7,7 @@ usps:
   - usp: 3-6 Week Delivery
   - usp: ISO 9001 Quality Approved
   - usp: Competitive Prices
-image: /img/agriculture-min.jpg
+image: /img/agra-looms.png
 layout:
   - type: column
     column:
