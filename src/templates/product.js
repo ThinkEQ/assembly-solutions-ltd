@@ -42,7 +42,9 @@ export const ProductPageTemplate = ({ title, mainContent, subtitle, imgHeader, u
               </Box>             
             </Box>
         </Box>
-        <PreviewImage imageInfo={imgHeader} />
+        <Box height={{base: "200px", md: "480px", lg: "680px"}}>
+         <PreviewImage imageInfo={imgHeader} height="100%" />
+        </Box>
       </Box>
 
      {/**Main content */}
