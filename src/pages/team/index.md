@@ -16,7 +16,7 @@ team-members:
       - golf
     name: Graham Balshaw
     jobtitle: Founder & Chairman
-    image: /img/team1.png
+    image: /img/team1-1-.png
   - name: Gareth Balshaw
     jobtitle: Managing Director
     bio: >-
@@ -29,7 +29,7 @@ team-members:
       \
 
       In Gareth’s spare time he is either in the gym or competing in cycling races.
-    image: /img/team2.png
+    image: /img/team2-1-.png
     interests:
       - cycling
       - weights
@@ -48,7 +48,7 @@ team-members:
     interests:
       - surfing
       - skiing
-    image: /img/sophie.png
+    image: /img/team3-1-.png
   - name: Oliver Balshaw
     jobtitle: Purchasing Manager
     bio: >-
@@ -60,13 +60,13 @@ team-members:
 
 
       Oliver loves to drink, but with all bars shut at the minute, he’s enjoying his new found sport in cycling and counting down the days until he can book a holiday and dust off his snowboard!
-    image: /img/team4.png
+    image: /img/team4-1-.png
     interests:
       - snowboarding
       - formula1
   - name: Damien Walsh
     jobtitle: Production Manager (Wiring Harnesses & Control Panels)
-    image: /img/damien.png
+    image: /img/team5-1-.png
     bio: >-
       After an impressive 20 years at ASL, Damien holds the record for “longest
       serving employee” – it’s no wonder he’s not much hair! Being technically
@@ -89,7 +89,7 @@ team-members:
       \
 
       Rob’s daughter is a future star, after being signed for Manchester United Girls Football Team. When Rob isn’t organising production, he is cheering on the girls!
-    image: /img/team6.png
+    image: /img/team6-1-.png
     interests:
       - football
       - formula1
@@ -103,7 +103,7 @@ team-members:
       \
 
       A keen explorer in the outdoors, Gareth enjoys to travel around the UK countryside’s with his family and has even hiked up Ben Nevis in treacherous snow conditions!
-    image: /img/team7.png
+    image: /img/team7-1-.png
     interests:
       - hiking
       - church
@@ -117,7 +117,7 @@ team-members:
       \
 
       When she isn’t chasing payment from customers, Amanda usually has a paintbrush or trowel in hand, as she loves to decorate the house and she loves to keep the garden looking gorgeous!
-    image: /img/team8.png
+    image: /img/team8-1-.png
     interests:
       - decorating
       - gardening
@@ -132,7 +132,7 @@ team-members:
       \
 
       Gary is a devoted grandfather and a real outdoors guy, so when we can’t get hold of him at the weekend, it’s because he’s either entertaining his grandchildren or climbing up Ben Nevis!
-    image: /img/gary.png
+    image: /img/team9-1-.png
     interests:
       - hiking
       - climbing-wall
@@ -146,7 +146,7 @@ team-members:
       \
 
       When customers have kept him busy all week, John looks forward to relaxing with a cold pint of Guinness and watching Manchester City!
-    image: /img/team10.png
+    image: /img/team10-1-.png
     interests:
       - football
       - golf
@@ -161,7 +161,7 @@ team-members:
       \
 
       Michele is a devoted grandmother and a real bookworm, so in her free time she loves playing with her granddaughter or reading a good book.
-    image: /img/team11.png
+    image: /img/team11-1-.png
     interests:
       - reading
       - knitting
@@ -175,7 +175,7 @@ team-members:
       \
 
       After a busy day at the office, Adam’s way of relaxing is playing a competitive game of COD, and enjoying a KFC Boneless Banquet!
-    image: /img/2.png
+    image: /img/team12.png
     interests:
       - xbox
       - football
