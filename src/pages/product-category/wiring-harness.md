@@ -33,7 +33,7 @@ images:
   - image: /img/wiring-loom-harness.jpg
     alt: Wiring Harness
 products:
-  - Wiring Looms
+  - Wiring Loom
   - Cable Looms
   - Agricultural Wiring Loom
   - Electric Vehicle & Hybrid Vehicle Wiring Harnesses
