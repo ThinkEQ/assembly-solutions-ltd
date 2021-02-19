@@ -1,56 +1,62 @@
 ---
 templateKey: product
 title: Nuclear Control Panel
-subtitle: Nuclear control panel
+subtitle: Nuclear Control Panels
 usps:
   - usp: ISO9001 Quality Approved
   - usp: Design Support
   - usp: Low to high volume builds
 image: /img/nuclear-min.jpg
 layout:
-  - type: full
-    full:
-      text: >-
-        When it comes to nuclear power, safety is key and it’s paramount to pay
-        attention to every last detail to ensure things run how they should. In
-        this demanding environment, we know your product should work exactly how
-        you need it to, especially when it comes to vital safety processes such
-        as detecting nuclear leaks. We take this responsibility seriously, which
-        is why all our IPC A-620 fully trained technical team undergo strict
-        testing to ensure that every product is fit for purpose before it
-        reaches your business. 
-
-
-         At ASL, we have been manufacturing nuclear control panels for over 20 years and specialise in working closely with businesses to ensure we build your panel to your exact requirements. As a UK based manufacturer, we’ll be around when you need us and if you have any queries, we will be on hand to help you get these resolved. We pride ourselves on offering quotes on flexible volumes of orders, with a fast turnaround and at a competitive price. 
-
-
-        Why not check out our factory to see our immaculate work areas and seamless processes? 
-
-
-        **Nuclear Control Panel Manufacturers UK**
-
-
-        Our exceptional team of highly skilled nuclear operators can build even the most complex of control panels to meet your unique specifications. Whether you need a single control panel or a fully distributed control system, we offer 100% free design, development and technical support to get you where you need to be. 
-
-
-        Often when outsourcing work abroad, you cannot be fully confident that you will be getting the standard of quality that you need. At ASL, we’re committed to only manufacturing the best products, giving you the guarantee you need to proceed with confidence.
-  - type: testimonial
-    testimonial:
-      quote: ASL have supplied us with Nuclear control panels and cable assemblies for
-        many years now and continue to provide instant availability, willingness
-        to work with us and overall a first-class service.
   - type: column
     column:
-      text: |-
-        * Nuclear Control Panels
-        * Nuclear Equipment Panel Build
-        * Nuclear Measurement Equipment
-        * Precision Engineering
-        * Free Design Support
-        * Free Development Support
-        * Short Lead Times
-        * Low Prices
-      title: "We offer:"
+      title: UK Nuclear Control Panel Manufacture
+      text: >-
+        We have built specialist expertise in control panel manufacture after
+        partnering with companies in the Nuclear Industry.   
+
+
+        We started to work in the Nuclear industry 10 years ago and since then have built a wealth of knowledge and experience on more complex and technical control panels and cable assemblies.  
+
+
+        As an approved supplier to Sellafield, we consider ourselves the preferred and trusted UK manufacturer for nuclear electrical control panel equipment.
+  - type: column
+    column:
+      title: Nuclear Control Panels  
+      text: >-
+        The control panels we manufacture are used in Nuclear power stations and
+        as part of particle detection monitoring apparatus. Due to the nature of
+        such safety critical products, we have built special cells within our
+        factory where these panels are produced.
+
+
+        * Nuclear Control Panel Manufacture
+
+        * Nuclear Cable Assemblies
+
+        * Critical Quality Control 
+
+        * Sellafield Approved Supplier
+
+        * Excellent Customer Service
+  - type: column
+    column:
+      title: "Quality Critical Control Panels "
+      text: >-
+        By working with the Nuclear industry, we have proved to ourselves and
+        our customers that we can build to the most complex of control panels
+        and meet almost any unique specification.   
+
+
+        We understand quality is critical and because of this we take extra care to produce control panels that are 100% reliable under the conditions.
+  - type: testimonial
+    testimonial:
+      quote: We have a great relationship with ASL and have worked with them for many
+        years, simply because they continue to deliver quality products. Being a
+        well-established business, we have trusted them from start and
+        appreciate their knowledge staff, who have gone above and beyond to help
+        with technical design.
+      name:   Electrical Engineer – Siemens
 seo:
   title: Nuclear Control Panels | Control Panel Manufacturers | ASL
   description: Nuclear Control Panel and Panel Build from Control Panel Experts

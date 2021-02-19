@@ -1,86 +1,61 @@
 ---
 templateKey: product
 title: Panel Build
-subtitle: Electrical control panels built with you in mind
+subtitle: Panel Build
 usps:
   - usp: ISO9001 Quality Approved
   - usp: Design Support
   - usp: Low to high volume builds
 image: /img/panel-build.jpg
 layout:
-  - type: full
-    full:
-      text: >-
-        For us to build the right panel for you, our first priority is to
-        understand exactly what you need. By working together with our clients,
-        we first build up a picture of your requirements because without this
-        set in stone – the rest of the work is doomed to fail. That’s why we
-        champion working with a UK manufacturer when it comes to your panel
-        build. We will be right there when you need us from the beginning to the
-        end, with no issues of working in different time zones or language
-        barriers to contend with. We can also guarantee a fast turnaround and a
-        high-quality product each and every time. 
-
-
-        Once we’ve got to grips with what you want, we will then start the design and development of your product. The best part is this stage is 100% free. We also complete rigorous testing to ensure your product is fit for use before it gets sent out. This is done using our automatic testing facilities or with bespoke test equipment designed specifically for the individual product.
-
-
-        **At ASL, we offer:**
-
-
-        * Electrical Control Panels
-
-        * Box Build
-
-        * Panel Manufacture
   - type: column
     column:
-      title: Electrical Panel Manufacturers
+      title: Panel Build Manufacturers
       text: >-
-        As a leading UK manufacturer, we are proud to offer an extensive range
-        of leading market products and expertise in electric control panel
-        builds across many different industries, including:
+        ASL is a quality committed supplier of panel build services.
 
 
-        * Automotive
+        With a dedicated and technically brilliant team, we run a seamless manufacturing service right from prototype build, through to full volume production.
 
-        * Highways
 
-        * Industrial
+        * Electrical Panel Build
 
-        * Nuclear
+        * Panel Wiring
 
-        * Utility
+        * 25 Years of Experience
+
+        * Cost Effective Solutions
+
+        * Fit for Purpose Panel Build
   - type: column
     column:
-      title: Control Panel Build UK
+      title: Panel Build Experience 
       text: >-
-        One of our long-standing customers for electrical control panels is the
-        nuclear giant, Canberra UK, who we supply with highly technical nuclear
-        instrumentation panels and assemblies.
+        As a leading UK manufacturer, we are proud to have panel build expertise
+        in many different industries including; Automotive, Rail and
+        Utilities.  
 
 
-        When Canberra identified a problem with their offshore supplier for cable assemblies and control panels, their own quality began to quickly decline. That’s where we came in.
+        With 25 years of experience we understand how important cost and reliability is. To ensure every project is a success, we work closely with our customers from the costing stage right through to production, focusing on producing panels that are cost effective and fit for purpose.
   - type: column
     column:
-      title: Discover what sets ASL apart
+      title: 100% Electrical Testing
       text: >-
-        As ASL, we have been designing and developing control panels for over 20
-        years and in this time, we’ve developed many longstanding client
-        relationships across different industries. We consistently offer
-        low-costs and a fast turnaround, without ever compromising on the
-        quality of your product. To keep up these high standards, all our staff
-        go through annual training with the aim to reduce costs and lead times. 
+        All our panel build products are manufactured to customer specification
+        and 100% electrically tested using our automatic testing facilities or
+        bespoke test equipment designed specifically for the control panel.
 
 
-        What our customers think
+
+        We are committed to supporting customers as best we can and usually assist with the initial design by bringing our engineering expertise to every panel wiring project.
   - type: testimonial
     testimonial:
-      quote: I feel reassured that when they have our products, their team manufacture
-        to a high level of quality, consistency and deliver on their promises
-        which in turn allows confidence to commit to tight timescales and
-        challenging schedules with our customers also.
-      name: ASL control panel client
+      quote: We have a great relationship with ASL and have worked with them for many
+        years, simply because they continue to deliver quality products. Being a
+        well-established business, we have trusted them from start and
+        appreciate their knowledge staff, who have gone above and beyond to help
+        with technical design.
+      name: Electrical Engineer – Siemens
 seo:
   description: Panel Build and Panel Wiring from the electrical wiring experts,
     Assembly Solutions. Call us on 01204 521999 to discuss all your electrical

@@ -1,7 +1,7 @@
 ---
 templateKey: product
 title: Automotive Control Panel
-subtitle: Get back on the road with ASL
+subtitle: Automotive Control Panel
 video: control-panel
 usps:
   - usp: ISO9001 Quality Approved
@@ -9,53 +9,64 @@ usps:
   - usp: Low to high volume builds
 image: /img/automotive-control-panel.jpg
 layout:
-  - type: full
-    full:
+  - type: column
+    column:
+      title: UK Automotive Control Panel Manufacture
       text: >-
-        At ASL, we’ve been in the manufacturing game since 1995 and in that
-        time, we’ve worked with many clients within the automotive industry,
-        supplying control panels and wiring solutions to a range of vehicles
-        from buses and trucks to ambulances and fire engines.
+        ASL is a quality committed supplier of Automotive Control Panels.
 
 
-        We also specialise in automotive wiring loom and harnesses, including agricultural vehicles. ambulance, bus, fire engine and electric/hybrid vehicles.
+        Our experience expands from bus and coach to agricultural and electric & hybrid vehicles.
 
 
-        Our 32,000sqft factory is based in the UK, which means that we can offer all our clients a fast turnaround, as well as giving you the reassurance that we will be there when you need us. As a family-run business, we pride ourselves on only offering the highest levels of customer service and our longstanding client relationships are testament to this.
+        * Agricultural Equipment Control Panels
 
+        * Ambulance Full Wiring Systems
 
-        **Why outsource your control panel manufacturing?**
+        * Commercial Vehicles
 
+        * Bus & Coach Control Panels
 
-        From simple box build to large and highly technical bespoke panel build assembly, our dedicated team will work with you to create a control panel that suits your needs.  We relish a challenge, so whatever you throw at us, we have the skills and determination to help you complete your projects on time, every time. By working with ASL, you can ultimately reduce your costs, remove your bottlenecks and improve your quality.
+        * Electric & Hybrid Vehicles 
+
+        * Truck and Van Control Systems
   - type: column
     column:
-      text: |-
-        * Electrical Control Panels
-        * Box Build
-        * Panel Manufacture
-      title: "At ASL, we offer:"
+      title: Commitment to Quality Control Panels
+      text: >-
+        With 25 years of experience we understand how important cost and
+        reliability is. To ensure every project is a success, we work closely
+        with our customers from the costing stage right through to production,
+        focusing on producing panels that are cost effective and fit for
+        purpose.
+
+
+        * Quality Assurance
+
+        * Expert Engineering Support
+
+        * Excellent Customer Service
+
+        * 25 Years Manufacturing
   - type: column
     column:
-      title: Vehicle Control Panel Manufacture
-      text: Our team know the importance of cost, quality and delivery speed when it
-        comes to choosing the right manufacturer and as a result, have perfected
-        a process where every stage of our automotive control panel production
-        is documented and controlled.
-  - type: column
-    column:
-      title: "What our customers think "
-      text: While we can go on all day about our exceptional standard of customer
-        service, low prices and a fast turnaround… it doesn’t really mean
-        anything until we can prove that we put it into action. Which is why
-        we’re so proud of the feedback that we receive from our happy clients
-        and love to share it far and wide.
+      title: Vehicle Control Panels
+      text: >-
+        Boasting a high profile customer portfolio including Bus leading
+        manufacturers - Alexander Dennis and Optare, we are confident on our
+        knowledge and skillset when it comes to manufacturing for Automotive
+        applications.
+
+
+        Vehicles are the backbone of UK industry and we help keep them moving. Our fast paced production lines are set up to please the customer with control panels at low cost and quick turnaround.
   - type: testimonial
     testimonial:
-      quote: ASL have supplied us for many years now and continue to provide instant
-        availability, willingness to work with us and overall a first-class
-        service.
-      name: Geoff Barton, Purchasing Manager, Canberra
+      quote: We have a great relationship with ASL and have worked with them for many
+        years, simply because they continue to deliver quality products. Being a
+        well-established business, we have trusted them from start and
+        appreciate their knowledge staff, who have gone above and beyond to help
+        with technical design.
+      name: Electrical Engineer – Siemens
 seo:
   title: Automotive Control Panel | Control Panel Manufacturers
   description: Assembly Solutions manufacture Automotive Control Panel and
