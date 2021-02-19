@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Assembly Solutions ltd',
     description: 'Assembly Solutions ltd. Website description',
-    siteUrl: `https://www.assembly-solutions.com`,
+    siteUrl: 'https://www.assembly-solutions.com',
   },
   plugins: [
     'gatsby-plugin-sitemap',
