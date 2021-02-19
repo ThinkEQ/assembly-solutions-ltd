@@ -11,7 +11,6 @@ layout:
         ASL is a fast paced and forward thinking manufacturer of wiring looms
         and wiring harnesses for the Motorsport Industry.
 
-
         Based in Bolton, our harness production lines are streamlined for efficient manufacture, complete with 10m long wiring boards and side stock filled trolleys for all materials and tooling.
 
 
@@ -21,19 +20,16 @@ layout:
       title: Fast Turnaround
       text: >-
         All our harnesses are manufactured to the fastest possible lead times
-        and built from customer specification.  
-
+        and built from customer specification.  
 
         * Competitive Prices
-
-        * Fast Turnaround
 
         * Quality Assurance
 
         * 25 Years of Experience
 
         * Engineering Support
-
+        
         * World Class Customers
   - type: column
     column:
