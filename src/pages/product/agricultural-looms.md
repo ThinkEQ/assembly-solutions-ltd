@@ -7,23 +7,23 @@ usps:
   - usp: 3-6 Week Delivery
   - usp: ISO 9001 Quality Approved
   - usp: Competitive Prices
-image: /img/agra-looms.png
+image: /img/agriculture-min.jpg
 layout:
   - type: column
     column:
       title: UK Manufactured Wiring Looms for Agriculture
       text: >-
-          ASL is a thriving manufacturer of wiring looms and harnesses for the
-        agriculture industry.  
+        ASL is a thriving manufacturer of wiring looms and harnesses for the
+        agriculture industry.
 
 
-        Our quality wiring looms support the rural community by maintaining all agricultural and harvesting equipment.   
+        Our quality wiring looms support the rural community by maintaining all agricultural and harvesting equipment. 
 
 
         As a family-run business we enjoy building long-term relationships with customers and giving them the perfect wiring solution.
   - type: column
     column:
-      title: Low Prices & Fast Turnaround  
+      title: Low Prices & Fast Turnaround
       text: >-
         All our wiring looms are delivered on a lighting fast turnaround using
         automatic machines and our speedy in-house operators. Each loom is made
@@ -46,7 +46,7 @@ layout:
         and cost-effective, we offer technical support from our knowledgeable
         engineers on all wiring loom projects. Our engineers are committed to
         understanding customer requirements before passing final drawing and
-        specification over to production, to commence with manufacture.   
+        specification over to production, to commence with manufacture. 
 
 
         Our friendly team enjoy working with customers to create a wiring harness solution that facilitates continuous innovation in vehicle technology, emissions control and safety systems.
