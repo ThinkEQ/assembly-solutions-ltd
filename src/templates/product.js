@@ -42,7 +42,7 @@ export const ProductPageTemplate = ({ title, mainContent, subtitle, imgHeader, u
               </Box>             
             </Box>
         </Box>
-        <Box height={{base: "200px", md: "480px", lg: "680px"}}>
+        <Box height={{base: "200px", md: "480px", lg: "600px"}} overflow="hidden">
          <PreviewImage imageInfo={imgHeader} height="100%" />
         </Box>
       </Box>
@@ -124,7 +124,7 @@ query productPageQuery($id: String!) {
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 680, quality: 80) {
+            fluid(maxHeight: 600, quality: 80) {
               ...GatsbyImageSharpFluid_withWebp
               presentationHeight
             }
