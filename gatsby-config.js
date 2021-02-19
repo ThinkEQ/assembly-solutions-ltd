@@ -1,11 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Assembly Solutions ltd',
-    description: 'Assembly Solutions ltd. Website description',
-    siteUrl: 'https://www.assembly-solutions.com',
+    title: 'Assembly Solutions Ltd',
+    description: 'Assembly Solutions Ltd',
+    siteUrl: 'https://www.assembly-solutions.com'
   },
   plugins: [
-    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
@@ -118,6 +117,7 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     },
+    'gatsby-plugin-sitemap',
     // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
