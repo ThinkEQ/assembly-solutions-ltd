@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Assembly Solutions ltd',
-    description: 'Assembly Solutions ltd. Website description'
+    title: 'Assembly Solutions Ltd',
+    description: 'Assembly Solutions Ltd',
+    siteUrl: 'https://www.assembly-solutions.com'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -114,6 +115,13 @@ module.exports = {
       options: {
         develop: true, // Activates purging in npm run develop
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        // Exclude specific pages or groups of pages using glob parameters
+        exclude: ['/contact/thanks/', '/subscribed/'],
       },
     },
     // must be after other CSS plugins
