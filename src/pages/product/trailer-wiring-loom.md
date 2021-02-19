@@ -8,51 +8,49 @@ usps:
   - usp: ISO 9001 Quality Approved
 image: /img/trailer-wiring-looms-update.jpg
 layout:
-  - type: full
-    full:
+  - type: column
+    column:
+      title: UK Manufactured Trailer Wiring Looms
       text: >-
-        ASL offer full trailer wiring looms and plug and play wiring harnesses
-        for commercial trailers, domestic trailers, road recovery trailer
-        equipment, and many more.
+        ASL is a sub-contract manufacturer of wiring looms and harnesses for
+        commercial and domestic trailers.
 
-        In our UK-based factory, we can manufacture trailer wiring loom and wiring harnesses to your exact specifications. Alternatively, you can utilise our experience and we’ll work with you to design a product that offers a cost-effective solution.
+
+        Our wiring loom production lines are streamlined for efficient manufacture, complete with 10m long wiring boards and side stock filled trolleys for all materials and tooling.
+
+
+        As a leading UK manufacturer, we guarantee competitive prices, short lead times and exceptional customer service.
   - type: column
     column:
-      text: |-
-        * We manufacture any type of loom or harness
-        * Every wiring loom is 100% electrically tested before despatch
-        * All our staff are fully trained to IPC-A620 electrical standards
-        * We are UK based and certified to Quality Accreditation ISO9001
-        * You will receive an unbelievable customer service
-      title: "At ASL:"
+      title: Fast & Flexible Lead Times 
+      text: >-
+        In this fast paced world that we live in, we have adapted our processes
+        and set up our production lines so that we can offer a fast and
+        competitive lead time.  
+
+
+        Whilst we know it can be tempting to keep wiring looms ‘in-house’, we find many customers out-source these items to give their design and development engineers more time to spend on future projects and products.
   - type: column
     column:
-      text: |-
-        * Fast wiring harness delivery
-        * Free wiring harness development support
-        * Free technical support
-        * ISO9001 quality approved
-        * Competitive pricing
-      title: "When working with ASL, you can expect:"
-  - type: column
-    column:
-      title: Discover what sets ASL apart
-      text: With over 20 years’ experience in the industry, we know what we’re doing,
-        and we’re dedicated to manufacturing products that are fit for purpose.
-        In order to get you exactly what you need and to ensure we can continue
-        to support you after any sales have been made, we aim to get to know
-        your requirements inside and out and will work with you to ensure you’re
-        getting the type and quantity of product that you need. We’re not just
-        in this for the quick sale and that has been demonstrated by our
-        longstanding existing client relationships.
-  - type: column
-    column:
-      title: What our customers think
-      text: With ASL, you can rest assured that you will only ever receive
-        high-quality products that have been tested by our exceptional quality
-        testing team. As well, with a sole factory in the North of England, we
-        can guarantee fast turnaround times and we will be around when you need
-        us.
+      title: Quality Wiring Looms
+      text: >-
+        Quality is crucial for all our wiring looms. We deliver into industries
+        including Automotive and Agriculture so we have to take extra care
+        ensuring that the looms will be robust enough and perform reliably when
+        out on the roads.   
+
+
+        All our wiring looms are 100% electrically tested and all our production processes conform to Quality ISO 9001. Our technical experts have the knowledge and experience at hand to find flexible solutions for any wiring loom or harness requirement.
+  - type: testimonial
+    testimonial:
+      quote:  ASL is without a doubt the best UK manufacturer of wiring looms and
+        wiring harnesses. They have been our preferred supplier for 10 years
+        because their quality and attention to detail is none other than
+        excellent, and they deliver when they say they will (which is something
+        my other suppliers don’t do!). For us we find working with ASL extremely
+        easy, they are always quick to respond and support us with fast
+        turnaround deliveries when we have urgent demands.
+      name: " Electrical Engineering Manager – Alexander Dennis"
 seo:
   title: Trailer Wiring Loom | Wiring Loom Manufacturers | ASL
   description: Trailer Wiring Loom and Wiring Harness manufacture by UK
