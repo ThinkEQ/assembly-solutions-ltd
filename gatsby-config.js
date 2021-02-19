@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://www.assembly-solutions.com`,
   },
   plugins: [
-    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
