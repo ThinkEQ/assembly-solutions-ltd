@@ -121,7 +121,7 @@ module.exports = {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         // Exclude specific pages or groups of pages using glob parameters
-        exclude: ['/contact/thanks/', 'subscribed'],
+        exclude: ['/contact/thanks/', '/subscribed/'],
       },
     },
     // must be after other CSS plugins
