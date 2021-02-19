@@ -8,6 +8,19 @@ usps:
   - usp: Design Support
   - usp: Low to high volume builds
 image: /img/automotive-control-panel.jpg
+images:
+  - image: /img/asl-control-panel-assembly.jpg
+    alt: Control Panels
+  - image: /img/asl-control-panel-manufacture.jpg
+    alt: Control Panels
+  - image: /img/control-panel-assemblies.jpg
+    alt: Control Panels
+  - image: /img/control-panel-manufacturer.jpg
+    alt: Control Panels
+  - image: /img/control-panel.jpg
+    alt: Control Panels
+  - image: /img/img_4005.jpg
+    alt: Control Panels
 layout:
   - type: column
     column:

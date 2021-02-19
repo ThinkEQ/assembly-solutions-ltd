@@ -7,6 +7,19 @@ usps:
   - usp: ISO 9001 Quality Approved
   - usp: 25 Years of Wiring Looms
 image: /img/cable-looms.jpg
+images:
+  - image: /img/wiring-harness-wiring-loom.jpg
+    alt: Wiring Harness
+  - image: /img/asl-wiring-harness.jpg
+    alt: Wiring Harness
+  - image: /img/asl-wiring-loom.jpg
+    alt: Wiring Harness
+  - image: /img/asl3rdnovember-7.jpg
+    alt: Wiring Harness
+  - image: /img/cable-looms-3-.jpg
+    alt: Wiring Harness
+  - image: /img/wiring-loom-harness.jpg
+    alt: Wiring Harness
 layout:
   - type: column
     column:
