@@ -118,6 +118,14 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.assembly-solutions.com',
+        sitemap: 'https://www.assembly-solutions.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+    {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         // Exclude specific pages or groups of pages using glob parameters
