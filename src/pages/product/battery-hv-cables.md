@@ -7,6 +7,22 @@ usps:
   - usp: Fast 4 Week Delivery
   - usp: ISO 9001 Quality Approved
 image: /img/battery-cable-assembly.jpg
+images:
+  - image: /img/cable-assembly-asl3rdnovember-74.jpg
+    alt: Cable Assembly
+    products: Cable Preperation
+  - products: Cable Preperation
+    image: /img/cable-assembly-image0.jpg
+    alt: Cable Assembly
+  - image: /img/cable-assembly-img_4030.jpg
+    alt: Cable Assembly
+    products: Cable Preperation
+  - image: /img/cable-assembly-img_4032.jpg
+    alt: Cable Assembly
+  - image: /img/cable-assembly-img_4733.jpg
+    alt: Cable Assembly
+  - alt: Cable Assembly
+    image: /img/aslnew-16.jpg
 layout:
   - type: column
     column:
