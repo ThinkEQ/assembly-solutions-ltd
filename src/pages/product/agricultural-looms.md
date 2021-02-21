@@ -8,6 +8,19 @@ usps:
   - usp: ISO 9001 Quality Approved
   - usp: Competitive Prices
 image: /img/agriculture-min.jpg
+images:
+  - image: /img/wiring-harness-wiring-loom.jpg
+    alt: Wiring Harness
+  - image: /img/asl-wiring-harness.jpg
+    alt: Wiring Harness
+  - image: /img/asl-wiring-loom.jpg
+    alt: Wiring Harness
+  - image: /img/asl3rdnovember-7.jpg
+    alt: Wiring Harness
+  - image: /img/cable-looms-3-.jpg
+    alt: Wiring Harness
+  - image: /img/wiring-loom-harness.jpg
+    alt: Wiring Harness
 layout:
   - type: column
     column:
