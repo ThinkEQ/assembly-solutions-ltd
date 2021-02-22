@@ -7,6 +7,19 @@ usps:
   - usp: Design Support
   - usp: Low to high volume builds
 image: /img/nuclear-min.jpg
+images:
+  - alt: Control Panels
+    image: /img/asl-control-panel-assembly.jpg
+  - image: /img/asl-control-panel-manufacture.jpg
+    alt: Control Panels
+  - image: /img/control-panel-assemblies.jpg
+    alt: Control Panels
+  - alt: Control Panels
+    image: /img/control-panel-manufacturer.jpg
+  - alt: Control Panels
+    image: /img/control-panel.jpg
+  - image: /img/img_4005.jpg
+    alt: Control Panels
 layout:
   - type: column
     column:
