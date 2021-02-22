@@ -10,7 +10,6 @@ image: /img/battery-cable-assembly.jpg
 images:
   - image: /img/cable-assembly-asl3rdnovember-74.jpg
     alt: Cable Assembly
-    products: Cable Preperation
   - products: Cable Preperation
     image: /img/cable-assembly-image0.jpg
     alt: Cable Assembly
