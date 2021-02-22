@@ -3,6 +3,19 @@ templateKey: product
 title: Motorsport Harnesses
 subtitle: Motorsport Wiring Harnesses
 image: /img/motorsport.jpg
+images:
+  - alt: Cable Assembly
+    image: /img/wiring-harness-wiring-loom.jpg
+  - alt: Cable Assembly
+    image: /img/asl-wiring-harness.jpg
+  - alt: Cable Assembly
+    image: /img/asl-wiring-loom.jpg
+  - alt: Cable Assembly
+    image: /img/asl3rdnovember-7.jpg
+  - alt: Cable Assembly
+    image: /img/cable-looms-3-.jpg
+  - alt: Cable Assembly
+    image: /img/wiring-loom-harness.jpg
 layout:
   - type: column
     column:
@@ -29,7 +42,7 @@ layout:
         * 25 Years of Experience
 
         * Engineering Support
-        
+
         * World Class Customers
   - type: column
     column:
