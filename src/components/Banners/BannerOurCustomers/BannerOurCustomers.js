@@ -16,6 +16,8 @@ import Siemens from '../../../img/brands/siemans.png'
 import Stanley from '../../../img/brands/stanley.png'
 import Vodafone from '../../../img/brands/vodafone.png'
 
+import Google from '../../../img/reviews/rating.svg'
+
 // Progress style config
 const styles = {
     path: {
@@ -81,6 +83,7 @@ const BannerOurCustomers = () => {
                     <Text textStyle="p">
                     Our customers are a true reflection of the quality and service that we deliver. With a satisfaction score of 99% and partnerships with world class companies including Ford and Siemens, we are extremely proud but also motivated to maintain these high standards.
                     </Text>
+                    <Image src={Google} pointerEvents="none" alt="Google reviews" />
                 </Box>
                 <Box display="flex" alignSelf="center" justifyContent="space-around" height="100%" width={{base: "100%", lg:"40%"}}>
                     <Box width="45%" maxW="180px">
