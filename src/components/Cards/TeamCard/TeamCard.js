@@ -25,12 +25,12 @@ const TeamBody = ({ iconList, bio }) => {
                         <HTMLContent content={toHTML(bio)} />
                     </MDXWrapper>
                 </Box>
-                <Box width={{base: "100%", lg:"25%"}} minHeight="150px" background="neutral.900" height="auto"  display="flex"  padding={{base: "20px", lg:"15px 0"}} flexDirection={{base: "row", lg: "column"}} alignContent="center" alignItems="center">
-                <Text textStyle="p" flexGrow={{base: "1", lg: "initial"}}  fontWeight="bold">Hobbies</Text>
+                <Box width={{base: "100%", lg:"25%"}} minHeight="150px" background="neutral.900" height="auto"  display="flex" padding={{base: "20px", lg:"15px 0"}} flexDirection={{base: "row", lg: "column"}} alignContent="center" alignItems="center">
+                <Text textStyle="p" flexGrow={{base: "1", lg: "initial"}}  fontWeight="bold">Interests</Text>
                 {iconList.length > 0 &&
                     iconList.map((icon) => {
                        return (
-                        <Box width={{base: "80px", md: "80px", lg: "40%"}} margin={{base: "10px 15px", lg:"10px 0"}}  height={{base:"80px", md: "80px", lg: "40%"}}>
+                        <Box width={{base: "80px", md: "80px", lg: "100px"}} margin={{base: "10px 15px", lg:"10px 0"}}  height={{base:"80px", md: "80px", lg: "100px"}}>
                             <SVG name={icon} width="100%" height="100%" fill="#091540"/>
                         </Box>
                        )
