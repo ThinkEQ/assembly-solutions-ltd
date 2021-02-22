@@ -16,7 +16,7 @@ import Siemens from '../../../img/brands/siemans.png'
 import Stanley from '../../../img/brands/stanley.png'
 import Vodafone from '../../../img/brands/vodafone.png'
 
-import Google from '../../../img/reviews/rating.svg'
+import Google from '../../../img/reviews/google.svg'
 
 // Progress style config
 const styles = {
