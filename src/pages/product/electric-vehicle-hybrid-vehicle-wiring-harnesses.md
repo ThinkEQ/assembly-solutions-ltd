@@ -7,6 +7,19 @@ usps:
   - usp: UK Made in Bolton
   - usp: ISO 9001 Quality Approved
 image: /img/evharness.jpg
+images:
+  - image: /img/wiring-harness-wiring-loom.jpg
+    alt: Cable Assembly
+  - alt: Cable Assembly
+    image: /img/asl-wiring-harness.jpg
+  - alt: Cable Assembly
+    image: /img/asl-wiring-loom.jpg
+  - alt: Cable Assembly
+    image: /img/asl3rdnovember-7.jpg
+  - alt: Cable Assembly
+    image: /img/cable-looms-3-.jpg
+  - alt: Cable Assembly
+    image: /img/wiring-loom-harness.jpg
 layout:
   - type: column
     column:
