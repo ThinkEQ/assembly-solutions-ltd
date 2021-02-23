@@ -3,14 +3,14 @@ templateKey: team-page
 title: Our Team
 team-members:
   - bio: >-
-      Since wiring his first plug aged 4, Graham has been passionate about
-      everything electrical. He studied electrical engineering at Manchester
-      University and worked for electrical giants Phillips before creating what
-      is today a UK leading manufacturer, ASL.\
+      Graham created Assembly Solutions in 1995 aged 35 after he had a passion
+      of building a competitive electrical sub-contract manufacturer. Electrical
+      wiring came natural to Graham from a very early age after his father Terry
+      taught him how to wire his first plug aged just 4. Attending Manchester
+      University to qualify in Electrical Engineering, he went on to work for
+      electrical giants Phillips and Triscan before creating ASL. \
 
-      \
-
-      When Graham’s not checking through the companies P & L, he’s out winning national cycling championships!
+      Being extremely sporty and competitive Graham won the National cycling race in 2020.
     interests:
       - cycling
       - golf
