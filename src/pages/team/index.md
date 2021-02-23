@@ -32,7 +32,7 @@ team-members:
     image: /img/team2-2-.png
     interests:
       - cycling
-      - weights
+      - hiking
     linkedin: https://www.linkedin.com/in/gareth-balshaw-1b100018/
   - name: Sophie Balshaw
     jobtitle: Marketing Executive
@@ -141,9 +141,9 @@ team-members:
   - name: John Waterworth
     jobtitle: Customer Accounts Manager
     bio: >-
-      We all wish we could keep as cool as John when the pressure hits! Since he
-      was in school, John has had a passion for electronics and has been
-      involved in this throughout his whole career.\
+      John We all wish we could keep as cool as John when the pressure hits!
+      Since he was in school, John has had a passion for electronics and has
+      been involved in this throughout his whole career.\
 
       \
 
@@ -155,12 +155,11 @@ team-members:
   - name: Michele Barnes
     jobtitle: Sales Administrator
     bio: >-
-      She loves to type, so much so that she could probably type a 10 page
-      document faster than Usain Bolt could sprint 10 meters! Our customers
-      always speak to highly of Michele as she is prompt to help and her quality
-      of work is none other than excellent.\
-
-      \
+      Michele is our bubbly sales office administraShe loves to type, so much so
+      that she could probably type a 10 page document faster than Usain Bolt
+      could sprint 10 meters! Our customers always speak to highly of Michele as
+      she is prompt to help and her quality of work is none other than
+      excellent.\
 
       Michele is a devoted grandmother and a real bookworm, so in her free time she loves playing with her granddaughter or reading a good book.
     image: /img/team11-1-.png
@@ -171,11 +170,9 @@ team-members:
   - name: Adam Tunnah
     jobtitle: Costing Engineer
     bio: >-
-      He is our costing king, who although is fresh from completing his business
-      apprenticeship, has already played a big part in driving down costs to
-      secure new business. \
-
-      \
+      Adam is our costing king, who although is fresh from completing his
+      business apprenticeship, has already played a big part in driving down
+      costs to secure new business. \
 
       After a busy day at the office, Adam’s way of relaxing is playing a competitive game of COD, and enjoying a KFC Boneless Banquet!
     image: /img/team12.png
