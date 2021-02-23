@@ -47,13 +47,10 @@ layout:
         **Sophie is the creative Marketing Executive who is proud to share her passion and ambition with her two brothers.**
 
 
-        “It’s quite an emotional milestone, especially when you look back and see how far we have all come. We started off as kids helping dad out in the school holidays, and here we are 20 years later taking over a £5million business!
+        “This is by far the biggest highlight and achievement in my life to date. I am so happy and feel extremely humble to be taking over the business with Gareth and Oliver and can't wait to continue this incredible journey with them. It’s quite an emotional milestone when you look back and see how far we have all come. We started off as kids helping dad out in the school holidays, and here we are 20 years later taking over a £6million business!
 
 
-        I joined ASL when I was 18, and the wealth of knowledge I have gained from my dad has been invaluable. He has given me so much time from mastering marketing techniques to teaching me the overall operations of running a business.
-
-
-        I’m so excited for the future and whilst we will focus on the goals and push for further growth, we’ll most definitely enjoy the journey and look after one another. It’s a very fortunate position to be in, we’re extremely blessed”.
+        I will definitely miss dad not being around the factory every day, but I'm glad he is now enjoying retirement! He has taught me so much over the years from mastering marketing techniques to understanding the overall operations of running a business. I hope we make him proud”.
 
 
         **Oliver is the Purchasing Manager and is really excited for this next chapter in the business.**
