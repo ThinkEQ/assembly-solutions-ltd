@@ -89,13 +89,12 @@ team-members:
   - name: Gareth Edwards
     jobtitle: Head of Sales & Commercial
     bio: >-
-      Since joining ASL 15 years ago as a production operator, Gareth has
-      technical knowledge from hands on shopfloor experience, he is brilliant at
-      understanding customer needs and helping them with a solution.\
+      Gareth is a exceptional sales professional with an extensive technical
+      knowledge in electrical components and parts. He has a considerable amount
+      of experience from previously working as a production manager, so he has a
+      good understanding of the technical issues customers are challenged with.\
 
-      \
-
-      A keen explorer in the outdoors, Gareth enjoys to travel around the UK countryside’s with his family and has even hiked up Ben Nevis in treacherous snow conditions!
+      Gareth is a keen explorer and enjoys visiting UK countryside's with his family and has even hiked up Scotland's tallest mountain, Ben Nevis - in treacherous snow conditions!
     image: /img/team7-1-.png
     interests:
       - hiking
