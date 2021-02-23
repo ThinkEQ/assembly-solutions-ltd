@@ -80,13 +80,13 @@ const ContactForm = ({ isSubmitting }) => {
 
 
 const MainNav = () => (
-  <Box display="flex" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} justifyContent="space-around" >
+  <Box display="flex" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} justifyContent="space-around" paddingBottom={{base: "40px", lg: "0"}}>
   <Box as="ul" paddingBottom="20px" position="relative" _after={{ 
     display: {base: "none", lg: "block"},
     position: "absolute",
     content: "''",
     top:  "20px",
-    right: "-40px",
+    right: "-20px",
     opacity: "0.3",
     height: "70%",
     width: "1px",
@@ -120,6 +120,9 @@ const MainNav = () => (
     <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
       <SVG name="linkedin" fill="#fff" />
     </Link>
+    <Link href="https://www.instagram.com/assemblysolutionsltd" marginRight="15px" target="_blank" isExternal cursor="pointer">
+      <SVG name="instagram" fill="#fff" />
+    </Link>
       <Text color="#fff" fontSize="18px" marginRight="10px">
         ASL &copy;2021
       </Text>
@@ -145,6 +148,9 @@ const MainNav = () => (
     </Link>
     <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
       <SVG name="linkedin" fill="#fff" />
+    </Link>
+    <Link href="https://www.instagram.com/assemblysolutionsltd" marginRight="15px" target="_blank" isExternal cursor="pointer">
+      <SVG name="instagram" fill="#fff" />
     </Link>
     <Text color="#fff" fontSize="18px" marginRight="10px">
       ASL &copy;2021

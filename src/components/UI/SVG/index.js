@@ -4,6 +4,7 @@ import React from 'react'
 import LinkedIn from './svgs/linkedin' 
 import Youtube from './svgs/youtube'
 import Check from './svgs/check'
+import Instagram from './svgs/instagram'
 import Arrow from './svgs/dwnArrow'
 
 // Pure
@@ -34,6 +35,8 @@ const SvgIcon = (props) => {
     switch (props.name) {
         case "logo":
             return <Logo {...props} />
+        case 'instagram':
+            return <Instagram {...props} />
         case "chat":
             return <Chat {...props} />
         case "linkedin": 
