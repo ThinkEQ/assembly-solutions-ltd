@@ -24,7 +24,7 @@ team-members:
       his early years working on the production lines, he has taken on senior
       roles and responsibilities in purchasing and sales. During his time as
       Sales Director, Gareth understands the importance of building strong
-      customer relationships and he drives those values throughout the
+      customer relationships and he now drives those values throughout the
       organisation. In 2019 Gareth was appointed Managing Director and since
       then the company has seen a 20% growth in sales. \
 
@@ -82,13 +82,9 @@ team-members:
       served 18 years and holds the outstanding record of 17 years with 100%
       attendance! Since joining in 2003 as a production operator, Rob has been
       fiercely committed to improving our operations by lean manufacturing and
-      project managing machinery investments. Rob has supported the company and
-      helped grow his department Rob is an expert and our specialsit in wire
-      preparation and project manages all our machinery inve stments to support
-      the continuous growhth. Rob joined from school aged 17 as a shopfloor
-      operator and over the past 18 years has worked his way up reponsble for
-      rob oversees the engineernig department and is responsible for all
-      machinery services and tooling calibrations.\
+      project managing machinery investments. Rob also oversees our engineering
+      department and is responsible for all machinery services and tooling
+      calibrations.\
 
       Robs daughter is a future football star after being signed by Manchester United U9's Girls Football Team.
     image: /img/team6-1-.png
