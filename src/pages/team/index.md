@@ -8,7 +8,7 @@ team-members:
       wiring came natural to Graham from a very early age after his father Terry
       taught him how to wire his first plug aged just 4. Attending Manchester
       University to qualify in Electrical Engineering, he went on to work for
-      electrical giants Phillips and Triscan before creating ASL. \
+      electrical giants Phillips and Triscan before creating ASL.
 
       Being extremely sporty and competitive Graham won the National cycling race in 2020.
     interests:
@@ -26,7 +26,7 @@ team-members:
       Sales Director, Gareth understands the importance of building strong
       customer relationships and he now drives those values throughout the
       organisation. In 2019 Gareth was appointed Managing Director and since
-      then the company has seen a 20% growth in sales. \
+      then the company has seen a 20% growth in sales.
 
       Gareth is a keen cyclist and also has a black belt in Jujutsu.
     image: /img/team2-2-.png
@@ -41,7 +41,7 @@ team-members:
       advertising. After enjoying Art and Graphics from a young age she is happy
       to have carried this through into her profession. Her focus today is to
       drive traffic and new enquiries into the business to support the ambitious
-      growth goals.\
+      growth goals.
 
       Sophie is a watersports fanatic who enjoys wakeboarding and sailing around the welsh coast.
     interests:
@@ -66,13 +66,13 @@ team-members:
       - formula1
     linkedin: https://www.linkedin.com/in/oliver-balshaw-624a9ab4/
   - name: Damien Walsh
-    jobtitle: "Production Manager "
+    jobtitle: "Production Manager"
     image: /img/team5-1-.png
     bio: >-
       Damien is our longest serving employee holding the outstanding record of
       20 years' service. His specialism is in automotive plug and play wiring
       harness systems and he also holds an incredible wealth of knowledge and
-      experience in electrical control panels.\
+      experience in electrical control panels.
 
       Damien is a passionate vegan and enjoys firing his arrows in field archery!
     interests:
@@ -88,7 +88,7 @@ team-members:
       fiercely committed to improving our operations by lean manufacturing and
       project managing machinery investments. Rob also oversees our engineering
       department and is responsible for all machinery services and tooling
-      calibrations.\
+      calibrations.
 
       Robs daughter is a future football star after being signed by Manchester United U9's Girls Football Team.
     image: /img/team6-1-.png
@@ -102,7 +102,7 @@ team-members:
       Gareth is a exceptional sales professional with an extensive technical
       knowledge in electrical components and parts. He has a considerable amount
       of experience from previously working as a production manager, so he has a
-      good understanding of the technical issues customers are challenged with.\
+      good understanding of the technical issues customers are challenged with.
 
       Gareth is a keen explorer and enjoys visiting UK countryside's with his family and has even hiked up Scotland's tallest mountain, Ben Nevis - in treacherous snow conditions!
     image: /img/team7-1-.png
@@ -116,7 +116,7 @@ team-members:
       Amanda is a qualified and committed Accounts professional who has been a
       valuable member of our team since she joined 10 years ago. With a wealth
       of knowledge and experience in Accounting, Amanda is responsible for all
-      financial transactions and reporting on monthly P & L's.\
+      financial transactions and reporting on monthly P & L's.
 
       When Amanda isn't focusing on finance, she enjoys gardening and home decorating.
     image: /img/team8-1-.png
@@ -129,9 +129,7 @@ team-members:
       Gary joined ASL in has an impressive 40 years of experience in wire and
       cable assemblies, Gary knows a lot! Since joining ASL 5 years ago, he has
       transformed the way we win new business, ensuring that the transition is
-      seamless and that we have built strong partnerships with customers.\
-
-      \
+      seamless and that we have built strong partnerships with customers.
 
       Gary is a devoted grandfather and a real outdoors guy, so when we can’t get hold of him at the weekend, it’s because he’s either entertaining his grandchildren or climbing up Ben Nevis!
     image: /img/team9-1-.png
@@ -143,9 +141,7 @@ team-members:
     bio: >-
       John We all wish we could keep as cool as John when the pressure hits!
       Since he was in school, John has had a passion for electronics and has
-      been involved in this throughout his whole career.\
-
-      \
+      been involved in this throughout his whole career.
 
       When customers have kept him busy all week, John looks forward to relaxing with a cold pint of Guinness and watching Manchester City!
     image: /img/team10-1-.png
@@ -157,7 +153,7 @@ team-members:
     bio: >-
       Michele is our bubbly sales office administrator who covers a variety of
       roles including, processing customer orders and dealing with customer
-      queries.\
+      queries.
 
       Michele is a devoted grandmother and loves to read and knit.
     image: /img/team11-1-.png
@@ -170,7 +166,7 @@ team-members:
     bio: >-
       Adam is our costing king, who although is fresh from completing his
       business apprenticeship, has already played a big part in driving down
-      costs to secure new business. \
+      costs to secure new business.
 
       After a busy day at the office, Adam’s way of relaxing is playing a competitive game of COD, and enjoying a KFC Boneless Banquet!
     image: /img/team12.png
