@@ -26,23 +26,18 @@ team-members:
       from school and 15 years later was overjoyed to step into his fathers
       shoes becoming Managing Director. \
 
-      Gareth is a keen cyclist and and is also a black belt in Jujutsu.
+      Gareth is a keen cyclist and and also has a black belt in Jujutsu.
     image: /img/team2-2-.png
     interests:
       - cycling
       - weights
   - name: Sophie Balshaw
     jobtitle: Marketing Executive
-    bio: >-
-      Sophie is the creative one! After enjoying Art & Graphics from a young
-      age, she was pleased to bring this passion with her when she joined ASL in
-      2008.
-
-
-      In-line with the companies ambitious growth plans, Sophie is continuously improving the companies online presence.
-
-
-      Sophie loves being by the sea, so she spends most weekends wakesurfing down the welsh coast, or relaxing on deck with a glass of prosecco!
+    bio: Sophie is the creative one whos specialism is digital marketing and
+      advertising. After enjoying Art and Graphics from a young age she has
+      carried this through into her profession. Her focus today is to drive
+      traffic and new enquiries into the business to support the ambitious
+      growth goals.
     interests:
       - surfing
       - skiing
