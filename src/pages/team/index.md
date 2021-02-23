@@ -61,14 +61,12 @@ team-members:
     jobtitle: Production Manager (Wiring Harnesses & Control Panels)
     image: /img/team5-1-.png
     bio: >-
-      After an impressive 20 years at ASL, Damien holds the record for “longest
-      serving employee” – it’s no wonder he’s not much hair! Being technically
-      brilliant and a great leader, Damien makes a top class Production
-      Manager.\
+      Damien is our longest serving employee holding the outstanding record of
+      20 years' service. His specialism is in automotive plug and play wiring
+      harness systems and he also holds an incredible wealth of knowledge and
+      experience in electrical control panels.\
 
-      \
-
-      Damien likes to unwind at the weekends by creating tasty vegan recipes or firing his arrows in field archery – we better stay on his good side!
+      Damien is a passionate vegan and enjoys firing his arrows in field archery!
     interests:
       - archery
       - cooking
