@@ -20,15 +20,13 @@ team-members:
   - name: Gareth Balshaw
     jobtitle: Managing Director
     bio: >-
-      Gareth joined the family business aged 16 and has worked his way up from
-      the shop floor.
+      Gareth has extensive experience and knowledge in electrical cable assembly
+      and control panel manufacture after learning from his father Graham from a
+      very young age. Gareth joined the family owned company in 2002 straight
+      from school and 15 years later was overjoyed to step into his fathers
+      shoes becoming Managing Director. \
 
-
-      Since being appointed Managing Director in 2019, Gareth has made significant improvements to the factory and invested in more machinery which has led to a 20% increase in growth.\
-
-      \
-
-      In Gareth’s spare time he is either in the gym or competing in cycling races.
+      Gareth is a keen cyclist and and is also a black belt in Jujutsu.
     image: /img/team2-2-.png
     interests:
       - cycling
