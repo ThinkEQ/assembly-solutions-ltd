@@ -66,7 +66,7 @@ team-members:
       - formula1
     linkedin: https://www.linkedin.com/in/oliver-balshaw-624a9ab4/
   - name: Damien Walsh
-    jobtitle: Production Manager (Wiring Harnesses & Control Panels)
+    jobtitle: "Production Manager "
     image: /img/team5-1-.png
     bio: >-
       Damien is our longest serving employee holding the outstanding record of
@@ -80,7 +80,7 @@ team-members:
       - cooking
     linkedin: https://www.linkedin.com/in/damien-walsh-a99a333b/
   - name: Rob Parkinson
-    jobtitle: Production Manager (Wire Prep and Cable Assemblies)
+    jobtitle: Production Manager
     bio: >-
       Rob is a remarkable and incredibly loyal member of our team as he has
       served 18 years and holds the outstanding record of 17 years with 100%
@@ -155,13 +155,11 @@ team-members:
   - name: Michele Barnes
     jobtitle: Sales Administrator
     bio: >-
-      Michele is our bubbly sales office administraShe loves to type, so much so
-      that she could probably type a 10 page document faster than Usain Bolt
-      could sprint 10 meters! Our customers always speak to highly of Michele as
-      she is prompt to help and her quality of work is none other than
-      excellent.\
+      Michele is our bubbly sales office administrator who covers a variety of
+      roles including, processing customer orders and dealing with customer
+      queries.\
 
-      Michele is a devoted grandmother and a real bookworm, so in her free time she loves playing with her granddaughter or reading a good book.
+      Michele is a devoted grandmother and loves to read and knit.
     image: /img/team11-1-.png
     interests:
       - reading
