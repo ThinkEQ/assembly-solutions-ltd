@@ -29,7 +29,7 @@ team-members:
       \
 
       In Gareth’s spare time he is either in the gym or competing in cycling races.
-    image: /img/team2-1-.png
+    image: /img/team2-2-.png
     interests:
       - cycling
       - weights
@@ -60,7 +60,7 @@ team-members:
 
 
       Oliver loves to drink, but with all bars shut at the minute, he’s enjoying his new found sport in cycling and counting down the days until he can book a holiday and dust off his snowboard!
-    image: /img/team4-1-.png
+    image: /img/team4-2-.png
     interests:
       - snowboarding
       - formula1
