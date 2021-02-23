@@ -33,10 +33,10 @@ team-members:
       - weights
   - name: Sophie Balshaw
     jobtitle: Marketing Executive
-    bio: Sophie is the creative one whos specialism is digital marketing and
-      advertising. After enjoying Art and Graphics from a young age she has
-      carried this through into her profession. Her focus today is to drive
-      traffic and new enquiries into the business to support the ambitious
+    bio: Sophie is the creative one who's specialism is digital marketing and
+      advertising. After enjoying Art and Graphics from a young age she is happy
+      to have carried this through into her profession. Her focus today is to
+      drive traffic and new enquiries into the business to support the ambitious
       growth goals.
     interests:
       - surfing
