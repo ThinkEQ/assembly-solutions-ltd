@@ -20,13 +20,15 @@ team-members:
   - name: Gareth Balshaw
     jobtitle: Managing Director
     bio: >-
-      Gareth has extensive experience and knowledge in electrical cable assembly
-      and control panel manufacture after learning from his father Graham from a
-      very young age. Gareth joined the family owned company in 2002 straight
-      from school and 15 years later was overjoyed to step into his fathers
-      shoes becoming Managing Director. \
+      Gareth joined the business as a production operator in 2002 aged 18. Since
+      his early years working on the production lines, he has taken on senior
+      roles and responsibilities in purchasing and sales. During his time as
+      Sales Director, Gareth understands the importance of building strong
+      customer relationships and he drives those values throughout the
+      organisation. In 2019 Gareth was appointed Managing Director and since
+      then the company has seen a 20% growth in sales. \
 
-      Gareth is a keen cyclist and and also has a black belt in Jujutsu.
+      Gareth is a keen cyclist and also has a black belt in Jujutsu.
     image: /img/team2-2-.png
     interests:
       - cycling
@@ -78,9 +80,15 @@ team-members:
     bio: >-
       Rob is a remarkable and incredibly loyal member of our team as he has
       served 18 years and holds the outstanding record of 17 years with 100%
-      attendance! Since joining in 2003 as a production operator Rob has been
+      attendance! Since joining in 2003 as a production operator, Rob has been
       fiercely committed to improving our operations by lean manufacturing and
-      project managing machinery investments.\
+      project managing machinery investments. Rob has supported the company and
+      helped grow his department Rob is an expert and our specialsit in wire
+      preparation and project manages all our machinery inve stments to support
+      the continuous growhth. Rob joined from school aged 17 as a shopfloor
+      operator and over the past 18 years has worked his way up reponsble for
+      rob oversees the engineernig department and is responsible for all
+      machinery services and tooling calibrations.\
 
       Robs daughter is a future football star after being signed by Manchester United U9's Girls Football Team.
     image: /img/team6-1-.png
@@ -103,13 +111,12 @@ team-members:
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
-      She recently celebrated 10 years with ASL, and that included 100%
-      attendance every year! Amanda is the number cruncher who we can’t wait to
-      hear from when we eagerly await the P & L results!\
+      Amanda is a qualified and committed Accounts professional who has been a
+      valuable member of our team since she joined 10 years ago. With a wealth
+      of knowledge and experience in Accounting, Amanda is responsible for all
+      financial transactions and reporting on monthly P & L's.\
 
-      \
-
-      When she isn’t chasing payment from customers, Amanda usually has a paintbrush or trowel in hand, as she loves to decorate the house and she loves to keep the garden looking gorgeous!
+      When Amanda isn't focusing on finance, she enjoys gardening and home decorating.
     image: /img/team8-1-.png
     interests:
       - decorating
