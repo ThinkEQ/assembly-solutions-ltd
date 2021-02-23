@@ -33,6 +33,7 @@ team-members:
     interests:
       - cycling
       - weights
+    linkedin: https://www.linkedin.com/in/gareth-balshaw-1b100018/
   - name: Sophie Balshaw
     jobtitle: Marketing Executive
     bio: >-
@@ -47,6 +48,7 @@ team-members:
       - surfing
       - skiing
     image: /img/team3-1-.png
+    linkedin: https://www.linkedin.com/in/sophie-balshaw/
   - name: Oliver Balshaw
     jobtitle: Purchasing Manager
     bio: >-
@@ -62,6 +64,7 @@ team-members:
     interests:
       - snowboarding
       - formula1
+    linkedin: https://www.linkedin.com/in/oliver-balshaw-624a9ab4/
   - name: Damien Walsh
     jobtitle: Production Manager (Wiring Harnesses & Control Panels)
     image: /img/team5-1-.png
@@ -75,6 +78,7 @@ team-members:
     interests:
       - archery
       - cooking
+    linkedin: https://www.linkedin.com/in/damien-walsh-a99a333b/
   - name: Rob Parkinson
     jobtitle: Production Manager (Wire Prep and Cable Assemblies)
     bio: >-
@@ -91,6 +95,7 @@ team-members:
     interests:
       - football
       - formula1
+    linkedin: https://www.linkedin.com/in/robert-parkinson-43007b10b/
   - name: Gareth Edwards
     jobtitle: Head of Sales & Commercial
     bio: >-
@@ -104,6 +109,7 @@ team-members:
     interests:
       - hiking
       - church
+    linkedin: https://www.linkedin.com/in/gareth-edwards-370509119/
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
@@ -161,6 +167,7 @@ team-members:
     interests:
       - reading
       - knitting
+    linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
   - name: Adam Tunnah
     jobtitle: Costing Engineer
     bio: >-
@@ -175,6 +182,7 @@ team-members:
     interests:
       - xbox
       - football
+    linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
 seo:
   title: Meet the ASL Team | Get to know our People
   description: Meet the Team at Assembly Solutions. Contact us on 01204 521999 for
