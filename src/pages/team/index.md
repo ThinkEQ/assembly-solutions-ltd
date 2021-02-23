@@ -120,10 +120,10 @@ team-members:
   - name: Gary Scowcroft
     jobtitle: Technical Sales Engineer
     bio: >-
-      With an impressive 40 years of experience in wire and cable assemblies,
-      Gary knows a lot! Since joining ASL 5 years ago, he has transformed the
-      way we win new business, ensuring that the transition is seamless and that
-      we have built strong partnerships with customers.\
+      Gary joined ASL in has an impressive 40 years of experience in wire and
+      cable assemblies, Gary knows a lot! Since joining ASL 5 years ago, he has
+      transformed the way we win new business, ensuring that the transition is
+      seamless and that we have built strong partnerships with customers.\
 
       \
 
