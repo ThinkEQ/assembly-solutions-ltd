@@ -75,13 +75,13 @@ team-members:
   - name: Rob Parkinson
     jobtitle: Production Manager (Wire Prep and Cable Assemblies)
     bio: >-
-      An incredible fact about Rob is that he holds the record of 17 years
-      without taking a day off sick! He won’t tell us what the secret is - maybe
-      he just really enjoys working here!\
+      Rob is a remarkable and incredibly loyal member of our team as he has
+      served 18 years and holds the outstanding record of 17 years with 100%
+      attendance! Since joining in 2003 as a production operator Rob has been
+      fiercely committed to improving our operations by lean manufacturing and
+      project managing machinery investments.\
 
-      \
-
-      Rob’s daughter is a future star, after being signed for Manchester United Girls Football Team. When Rob isn’t organising production, he is cheering on the girls!
+      Robs daughter is a future football star after being signed by Manchester United U9's Girls Football Team.
     image: /img/team6-1-.png
     interests:
       - football
