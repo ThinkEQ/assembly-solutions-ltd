@@ -4,6 +4,7 @@ import React, { Fragment } from 'react'
 import { Box, Heading, Text, Image, useMediaQuery } from '@chakra-ui/react'
 import Carousel from '../../Carousel/CustomCarousel'
 import 'react-circular-progressbar/dist/styles.css';
+import SVG from '../../UI/SVG/index'
 
 // Load asset
 import AstonMartin from '../../../img/brands/astonmarton.png'
@@ -12,9 +13,6 @@ import Ford from '../../../img/brands/ford.png'
 import Siemens from '../../../img/brands/siemans.png'
 import Stanley from '../../../img/brands/stanley.png'
 import Vodafone from '../../../img/brands/vodafone.png'
-import CustomerRet from '../../../img/svg/Customer-Retention.svg'
-import CustomerSat from '../../../img/svg/customer-satisfaction.svg'
-
 import Google from '../../../img/reviews/google.svg'
 
 // Progress style config
@@ -75,10 +73,10 @@ const BannerOurCustomers = () => {
                 </Box>
                 <Box display="flex" alignSelf="center" justifyContent="space-around" height="100%" width={{base: "100%", lg:"40%"}}>
                     <Box width="45%" maxW="180px">
-                       <Image src={CustomerSat} alt="customer satisfaction 99%" />
+                       <SVG name="satisfaction" />
                     </Box>
                     <Box width="45%" maxW="180px">
-                       <Image src={CustomerRet} alt="customer retention 98%" />
+                        <SVG name="retention" />
                     </Box>
                 </Box>
             </Box>

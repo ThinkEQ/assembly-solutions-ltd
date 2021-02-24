@@ -6,6 +6,8 @@ import Youtube from './svgs/youtube'
 import Check from './svgs/check'
 import Instagram from './svgs/instagram'
 import Arrow from './svgs/dwnArrow'
+import Satisfaction from './svgs/satisfaction'
+import Retention from './svgs/retention'
 
 // Pure
 import Football from './svgs/football'
@@ -33,6 +35,10 @@ import Weights from './svgs/weights'
 
 const SvgIcon = (props) => {
     switch (props.name) {
+        case "retention":
+            return <Retention {...props} />
+        case "satisfaction":
+            return <Satisfaction {...props} />
         case "logo":
             return <Logo {...props} />
         case 'instagram':

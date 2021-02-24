@@ -1,5 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="181px" height="181px" viewBox="0 0 181 181" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+import React from 'react'
+
+const SVG = ({
+    style = {},
+    fill = "",
+    stroke = "",
+    width = "181px",
+    height = "181px",
+    className = "",
+    viewBox = "0 0 181 181"
+}) => (
+    <svg
+    width={width}
+    height={height}
+    viewBox={viewBox}
+    style={style}
+    className={className}
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    >
     <title>Group 13</title>
     <defs>
        <style>
@@ -18,9 +36,9 @@
                 <g id="Group-13" transform="translate(956.000000, 158.000000)">
                     <g id="Oval-41-+-Oval-41-Copy-Mask">
                         <mask id="mask-3" fill="white">
-                            <use xlink:href="#path-2"></use>
+                            <use xlinkHref="#path-2"></use>
                         </mask>
-                        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <use id="Mask" fill="url(#linearGradient-1)" xlinkHref="#path-2"></use>
                         <circle id="Oval-41" fill="#383838" mask="url(#mask-3)" cx="90.5" cy="9.5" r="9.5"></circle>
                         <circle id="Oval-41-Copy" fill="#505050" mask="url(#mask-3)" cx="83.5" cy="9.5" r="18.5"></circle>
                     </g>
@@ -35,4 +53,7 @@
             </g>
         </g>
     </g>
-</svg>
+    </svg>
+)
+
+export default SVG;
