@@ -13,14 +13,18 @@ layout:
     full:
       title: Celebrating a special milestone
       text: >-
-        We are proud to be celebrating our 25th Anniversary.
+        We are proud to be celebrating our 25th Anniversary.\
 
-        Since ASL was founded back in 1995 by our Chairman Graham Balshaw, it has been an incredible journey and we’re delighted to have reached this special milestone.
 
-        The last 25 years have seen us evolve into a leading manufacturer with 70 staff and world class customers including Ford, Rolls Royce and Siemens.
-        
-        We are so grateful to all our employees, customers and suppliers who have helped us reach this anniversary and we look forward to many more years ahead.
-        
+        Since ASL was founded back in 1995 by our Chairman Graham Balshaw, it has been an incredible journey and we’re delighted to have reached this special milestone.\
+
+
+        The last 25 years have seen us evolve into a leading manufacturer with 70 staff and world class customers including Ford, Rolls Royce and Siemens.\
+
+
+        We are so grateful to all our employees, customers and suppliers who have helped us reach this anniversary and we look forward to many more years ahead.\
+
+
         Starting from humble beginnings, Founder Graham reflects on the journey;
   - type: testimonial
     testimonial:
