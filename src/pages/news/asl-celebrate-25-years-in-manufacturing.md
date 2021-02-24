@@ -1,10 +1,10 @@
 ---
 templateKey: news-article
-title: Celebrating 25th Anniversary
+title: Celebrating 25 Years
 date: 2020-10-01T19:49:27.681Z
 image: /img/25yearbanner.png
 seo:
-  title: ASL Celebrate 25 Years in Manufacturing
+  title: Celebrating 25 Years
   description: Since ASL was founded back in 1995 by our Chairman Graham Balshaw,
     it has been an incredible journey and we’re delighted to have reached this
     special milestone.
