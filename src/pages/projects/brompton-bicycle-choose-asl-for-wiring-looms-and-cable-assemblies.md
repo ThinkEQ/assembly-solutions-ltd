@@ -5,7 +5,7 @@ title: Brompton Bicycle
 intro: Intro
 projectfeature:
   image: /img/brompton-bicycle-project.png
-  name: Brompton Bicycle
+  name: Henry Moreta, Buyer - Brompton Bicycle
   quote: We continue to buy from ASL because for 10 years we haven’t had any
     reason to go elsewhere. Their quality is excellent, prices are competitive
     and they are a friendly company to work with.
@@ -23,7 +23,7 @@ Their bikes have been a huge success all over the world and especial
 
 During these busy times volumes have reached a record high, which made it vital to maintain our efficiency levels and deliver on time. To put volumes into perspective, Brompton sold 45,000 bikes in 2020! 
 
-During our customer feedback survey in 2020, we were delighted to hear Brompton comment on our Strengths, which were; ​
+During our customer feedback survey in 2020, we were delighted to hear Brompton comment on our Strengths, which were; ​
 
 **ASL Strengths​**
 
