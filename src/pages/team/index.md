@@ -115,7 +115,7 @@ team-members:
       of knowledge and experience in Accounting, Amanda is responsible for all
       financial transactions and reporting on monthly P & L's.
 
-      When Amanda isn't focusing on finance, she enjoys gardening and home decorating.
+      When Amanda isn't focusing on finance, she enjoys gardening and decorating her beautiful home!
     image: /img/team8-1-.png
     interests:
       - decorating
