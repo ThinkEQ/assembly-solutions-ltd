@@ -17,9 +17,6 @@ layout:
 
         * Record growth of 30% in 2020
 
-
-        \
-
         ASL is celebrating new ownership, after Founder Graham Balshaw has passed the company down to his three children; Gareth, Sophie and Oliver.
 
 
@@ -29,7 +26,7 @@ layout:
         Speaking about passing his company down, Graham had this to say;
 
 
-        “It has been a privilege to watch my children join the business one by one, over the past 25 years and I couldn’t be more proud. Their work ethic and dedication to growing the business made it a very easy decision in passing the company down to them and I’m looking forward to seeing them take ASL even further ”.
+        "It has been a privilege to watch my children join the business one by one, over the past 25 years and I couldn’t be more proud. Their work ethic and dedication to growing the business made it a very easy decision in passing the company down to them and I’m looking forward to seeing them take ASL even further".
 
 
         **Gareth joined the business in 2002 aged 18 and has worked his way to the top after being appointed Managing Director in 2019.**
