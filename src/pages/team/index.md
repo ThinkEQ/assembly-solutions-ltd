@@ -85,9 +85,8 @@ team-members:
       fiercely committed to improving our operations by lean manufacturing and
       project managing machinery investments. Rob also oversees our engineering
       department and is responsible for all machinery services and tooling
-      calibrations. Rob is an F1 fanatic and is a proud father after his
-      daughter recently signed up with Manchester United U9's Girls Football
-      Club!
+      calibrations. Rob is an F1 fanatic and a proud father after his daughter
+      recently signed up with Manchester United U9's Girls Football Club!
     image: /img/team6-1-.png
     interests:
       - formula1
