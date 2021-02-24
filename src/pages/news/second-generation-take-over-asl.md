@@ -33,10 +33,10 @@ layout:
         **"It has been a privilege to watch my children join the business one by one, over the past 25 years and I couldn’t be more proud. Their work ethic and dedication to growing the business made it a very easy decision in passing the company down to them and I’m looking forward to seeing them take ASL even further".**
 
 
-        Gareth, Managing Director reflects on journey; 
+        Gareth, Managing Director, reflects on great memories; 
 
 
-        **“This is an incredibly special milestone for the family. Myself, Sophie and Oliver are extremely grateful for this platform that dad put so much hard work into creating. I worked alongside my dad for 17 years and have made so many great memories with him. My fondest memory with him was when we went to Hong Kong together for my first business trip and I was 22. We had 1 week there visiting exhibitions and meeting suppliers. It was a great trip and opened my eyes to how we could do a lot more international business. Since then we have developed strong partnerships in China and Eastern Europe.** Our plan for the next 5 years is to double the turnover to £10million and we'll do this by investing in more machinery and venturing into new markets. Whilst we appreciate such growth will come with challenges, we know with focus and hard work it’s achievable”.
+        **“This is an incredibly special milestone for the family. Myself, Sophie and Oliver are extremely grateful for this platform that dad put so much hard work into creating. I worked alongside my dad for 17 years and have made so many great memories with him. My fondest memory with him was when we went to Hong Kong together for my first business trip and I was 22. We had 1 week there visiting exhibitions and meeting suppliers. It was a great trip and opened my eyes to doing a lot more international business, which since then we have developed strong partnerships in China and Eastern Europe.** Our plan for the next 5 years is to double the turnover to £10million and we'll do this by investing in more machinery and venturing into new markets. Whilst we appreciate such growth will come with challenges, we know with focus and hard work it’s achievable”.
 
 
         Sophie, Marketing Executive, hopes to make father proud;
