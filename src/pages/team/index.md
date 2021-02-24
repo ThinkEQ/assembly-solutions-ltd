@@ -171,7 +171,7 @@ team-members:
       already hugely contributed towards winning new contracts and retaining
       existing customers.
 
-      Adam is a passionate Tottenham Hotspur fan and a competitive Xbox gamer!
+      Adam is a passionate Tottenham Hotspur fan and competitive Xbox gamer!
     image: /img/team12.png
     interests:
       - xbox
