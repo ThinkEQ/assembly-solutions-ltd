@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="181px" height="181px" viewBox="0 0 181 181" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 13</title>
+    <defs>
+        <linearGradient x1="12.7685237%" y1="6.15017361%" x2="91.7711704%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00ABAC" offset="0%"></stop>
+            <stop stop-color="#00AB7E" offset="68.4542762%"></stop>
+            <stop stop-color="#00AB69" offset="100%"></stop>
+        </linearGradient>
+        <path d="M90.5,0 C140.48177,0 181,40.5182301 181,90.5 C181,140.48177 140.48177,181 90.5,181 C40.5182301,181 0,140.48177 0,90.5 C0,40.5182301 40.5182301,0 90.5,0 Z M91.1753731,18.0099502 C50.7672259,18.0099502 18.0099502,50.7672259 18.0099502,91.1753731 C18.0099502,131.58352 50.7672259,164.340796 91.1753731,164.340796 C131.58352,164.340796 164.340796,131.58352 164.340796,91.1753731 C164.340796,50.7672259 131.58352,18.0099502 91.1753731,18.0099502 Z" id="path-2"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Homepage-UI" transform="translate(-902.000000, -1881.000000)">
+            <g id="Group-14" transform="translate(-54.000000, 1723.000000)">
+                <g id="Group-13" transform="translate(956.000000, 158.000000)">
+                    <g id="Oval-41-+-Oval-41-Copy-Mask">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                        <circle id="Oval-41" fill="#383838" mask="url(#mask-3)" cx="90.5" cy="9.5" r="9.5"></circle>
+                        <circle id="Oval-41-Copy" fill="#505050" mask="url(#mask-3)" cx="83.5" cy="9.5" r="18.5"></circle>
+                    </g>
+                    <text id="99%" font-family="Bahnschrift" font-size="30" font-weight="normal" letter-spacing="-1.05882353" fill="#171717">
+                        <tspan x="65" y="89">99%</tspan>
+                    </text>
+                    <text id="Customer-Satisfactio" font-family="Bahnschrift" font-size="14" font-weight="normal" letter-spacing="-0.494117647" fill="#171717">
+                        <tspan x="62.2899472" y="109">Customer </tspan>
+                        <tspan x="57.0643153" y="123">Satisfaction</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
