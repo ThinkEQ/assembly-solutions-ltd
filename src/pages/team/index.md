@@ -55,7 +55,8 @@ team-members:
       Oliver is a man of many hats but his core focus is managing our Supply
       Chain and purchasing materials. He is due to qualify in CIPS (Chartered
       Institute of Procurement & Supply) in summer 2021, after 4 lengthy years
-      of night classes and exams. \
+      of night classes and exams. Since joining in 2014 Oliver has contributed
+      to a ser\
 
       Oliver is a keen snowboarder and an F1 fanatic.
     image: /img/team4-2-.png
@@ -68,11 +69,11 @@ team-members:
     image: /img/team5-1-.png
     bio: >-
       Damien is our longest serving employee holding the outstanding record of
-      20 years' service. His specialism is in automotive plug and play wiring
+      20 years service. His specialism is in automotive plug and play wiring
       harness systems and he also holds an incredible wealth of knowledge and
       experience in electrical control panels.
 
-      Damien is a passionate vegan and enjoys firing his arrows in field archery!
+      Damien enjoys field archery and likes to cook tasty vegan dishes!
     interests:
       - archery
       - cooking
