@@ -13,6 +13,8 @@ layout:
     full:
       title: Celebrating a special milestone
       text: >-
+        \
+
         We are proud to be celebrating our 25th Anniversary.
 
 
