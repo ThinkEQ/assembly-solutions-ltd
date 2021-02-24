@@ -63,7 +63,7 @@ layout:
         Our super sales engineers are here to help at any time so if would like to chat with us about your cable assemblies, call  01204 521999 and let’s get started!
   - type: testimonial
     testimonial:
-      quote:  We continue to buy cable assemblies from ASL because their quality is
+      quote: We continue to buy cable assemblies from ASL because their quality is
         excellent, prices are competitive and they are a friendly company to
         work with. They have been one of our top suppliers for 10 years because
         they always deliver on time and we never have issues with quality. We
