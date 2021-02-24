@@ -94,13 +94,13 @@ team-members:
     linkedin: https://www.linkedin.com/in/robert-parkinson-43007b10b/
   - name: Gareth Edwards
     jobtitle: Head of Sales & Commercial
-    bio: >-
-      Gareth is a exceptional sales professional with an extensive technical
+    bio: Gareth is an exceptional sales professional with an extensive technical
       knowledge in electrical components and parts. He has a considerable amount
       of experience from previously working as a production manager, so he has a
       good understanding of the technical issues customers are challenged with.
-
-      Gareth is a keen explorer and enjoys visiting UK countryside's with his family and has even hiked up Scotland's tallest mountain, Ben Nevis - in treacherous snow conditions!
+      Gareth is a keen explorer and enjoys visiting UK countryside's with his
+      family and has even hiked up Scotland's tallest mountain, Ben Nevis - in
+      treacherous snow conditions!
     image: /img/team7-1-.png
     interests:
       - hiking
