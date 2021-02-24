@@ -13,9 +13,9 @@ layout:
       text: >-
         * Founder Graham passes company down to second generation
 
-        * Gareth, Sophie and Oliver Balshaw take over ASL
+        * From humble beginnings to £5million turnover 
 
-        * Record growth of 30% in 2020
+        * Gareth, Sophie and Oliver strive for £10million 
 
 
         \
