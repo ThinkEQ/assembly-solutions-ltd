@@ -36,15 +36,14 @@ team-members:
     linkedin: https://www.linkedin.com/in/gareth-balshaw-1b100018/
   - name: Sophie Balshaw
     jobtitle: Marketing Executive
-    bio: >-
-      Sophie is our creative marketing executive who specialises in digital
+    bio: Sophie is our creative marketing executive who specialises in digital
       marketing and advertising. Her work has led to generating some of our
       biggest customers and contracts that have contributed to the recent rapid
       growth. With over 10 years experience in sales and marketing, she is a
-      talented team player and focused today on marketing strategies, campaign
-      execution and customer experience.
-
-      Sophie is a watersports fanatic who enjoys wakeboarding and sailing around the welsh coast.
+      passionate and talented team player who is focused today on marketing
+      strategies, campaign execution and customer experience. Sophie is a
+      watersports fanatic who enjoys wakeboarding and sailing around the welsh
+      coast.
     interests:
       - surfing
       - skiing
