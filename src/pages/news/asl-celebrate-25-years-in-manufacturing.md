@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Celebrate 25 Years in Manufacturing
+title: Celebrating 25th Anniversary
 date: 2020-10-01T19:49:27.681Z
 image: /img/25yearbanner.png
 seo:
