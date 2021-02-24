@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
 
@@ -80,13 +80,13 @@ const ContactForm = ({ isSubmitting }) => {
 
 
 const MainNav = () => (
-  <Box display="flex" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} justifyContent="space-around" >
+  <Box display="flex" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} justifyContent="space-around" paddingBottom={{base: "40px", lg: "0"}}>
   <Box as="ul" paddingBottom="20px" position="relative" _after={{ 
     display: {base: "none", lg: "block"},
     position: "absolute",
     content: "''",
     top:  "20px",
-    right: "-40px",
+    right: "-20px",
     opacity: "0.3",
     height: "70%",
     width: "1px",
@@ -120,6 +120,9 @@ const MainNav = () => (
     <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
       <SVG name="linkedin" fill="#fff" />
     </Link>
+    <Link href="https://www.instagram.com/assemblysolutionsltd" marginRight="15px" target="_blank" isExternal cursor="pointer">
+      <SVG name="instagram" fill="#fff" />
+    </Link>
       <Text color="#fff" fontSize="18px" marginRight="10px">
         ASL &copy;2021
       </Text>
@@ -145,6 +148,9 @@ const MainNav = () => (
     </Link>
     <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
       <SVG name="linkedin" fill="#fff" />
+    </Link>
+    <Link href="https://www.instagram.com/assemblysolutionsltd" marginRight="15px" target="_blank" isExternal cursor="pointer">
+      <SVG name="instagram" fill="#fff" />
     </Link>
     <Text color="#fff" fontSize="18px" marginRight="10px">
       ASL &copy;2021
@@ -204,13 +210,8 @@ const ContactUs = () => {
 }
 
 const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
-  const [prevScrollPos,  setScrollPos] = useState(0)
-  const [visible, setVisible] = useState(true)
-  let menuDisplay = null
-  const position = visible ? "0" : "-80px"
  
-  // Add smooth slide on scroll
-  const slideNav = {transform: `translateY(${position})`, transition: ".4s all ease-in-out"}
+  let menuDisplay = null
   
   switch(menu) {
     case 'nav':
@@ -222,41 +223,14 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
     default:
       menuDisplay = null
   }
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll)
-
-    return () => window.removeEventListener("scroll", handleScroll)
-  })
-
-  function handleScroll() {
-      // Find scroll pos
-      const currentScrollPos = window.pageYOffset
-     
-      const navDisplay = currentScrollPos < 100 ? true : prevScrollPos > currentScrollPos
-
-      // Set our display bool
-      setVisible(navDisplay)
-
-      // Set the current pos
-      setScrollPos(currentScrollPos)
-
-  }
-
+ 
   // Mediator to togggle drawer
   function openDrawer() {
     toggleDrawer('nav')
-    setVisible(isOpen)
-  }
-
-  // Mediator to set nav menu visible on close
-  function callbackClose() {
-    setVisible(true)
-    onClose()
   }
 
   return (
-     <Box animation={`${flow} infinite 15s ease`} position="fixed" width={{base:"100%", md: "auto", lg: "648px"}} {...slideNav} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1000"  alignItems="center">
+     <Box animation={`${flow} infinite 15s ease`} position="fixed" width={{base:"100%", md: "auto", lg: "648px"}} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1000"  alignItems="center">
           <Box padding={4}>
             <Link as={ReachLink} to="/">
               <SVG name="logo" width="100%" />
@@ -270,7 +244,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
             <SVG name="chat" color="#fff" />
             <Text {...navText} marginLeft="5px">get in touch</Text>
           </Box>
-        <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={callbackClose} closeOnEsc closeOnOverlayClick size="xl">
+        <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
         <DrawerOverlay />
         <DrawerContent animation={`${flow} infinite 15s ease`}  background={menu === 'nav' ? 'gradient.900' : 'gradient.800'}  zIndex="2000" backgroundSize="600% 600%" >
           <DrawerHeader minHeight="100px" padding="0" width="100%">
