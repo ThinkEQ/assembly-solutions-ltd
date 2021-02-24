@@ -18,6 +18,8 @@ layout:
         * Moving fast for critical worldwide demand
 
 
+        \
+
         **ASL Machinery Investment to support Medical sector**
 
 
