@@ -162,11 +162,13 @@ team-members:
   - name: Adam Tunnah
     jobtitle: Costing Engineer
     bio: >-
-      Adam is our costing king, who although is fresh from completing his
-      business apprenticeship, has already played a big part in driving down
-      costs to secure new business.
+      Adam is our costing king who's expertise is driving down costs to secure
+      new business. His role is to carry out costings for parts by obtaining
+      prices from suppliers and studying customer drawings to understand labour
+      time. He joined in 2018 and has already hugely contributed to winning new
+      contracts.
 
-      After a busy day at the office, Adam’s way of relaxing is playing a competitive game of COD, and enjoying a KFC Boneless Banquet!
+      Adam is a passionate Tottenham Hotspur fan and Xbox.
     image: /img/team12.png
     interests:
       - xbox
