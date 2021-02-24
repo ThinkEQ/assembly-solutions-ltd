@@ -17,7 +17,12 @@ layout:
 
         * Record growth of 30% in 2020
 
-        ASL is celebrating new ownership, after Founder Graham Balshaw has passed the company down to his three children; Gareth, Sophie and Oliver.
+
+        **ASL Celebrate New Ownership**\
+
+        \
+
+        Founder Graham Balshaw has passed his company Assembly Solutions Ltd down to his three children; Gareth, Sophie and Oliver Balshaw.
 
 
         Since starting the business 25 years ago, Graham is delighted to keep the £5million business in the family.
