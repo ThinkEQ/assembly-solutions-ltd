@@ -11,9 +11,9 @@ layout:
   - type: full
     full:
       text: >-
-        * Founder Graham passes company down to second generation
+        * Founder & Father Graham passes ownership to second generation
 
-        * From humble beginnings to £5million turnover 
+        * From humble beginnings to £5million turnover success
 
         * Gareth, Sophie and Oliver strive for £10million turnover  
 
