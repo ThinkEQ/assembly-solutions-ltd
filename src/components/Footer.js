@@ -136,6 +136,9 @@ const Footer = ({ toggleDrawer }) => {
             <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
               <SVG name="linkedin" />
             </Link>
+            <Link href="https://www.instagram.com/assemblysolutionsltd" marginRight="15px" target="_blank" isExternal cursor="pointer">
+              <SVG name="instagram" fill="#00ABAC" />
+            </Link>
           </Box>
 
         <List justifyContent="space-around" alignItems="flex-start" width="100%" marginBottom="20px" display={{base: "flex", lg: "none"}}>

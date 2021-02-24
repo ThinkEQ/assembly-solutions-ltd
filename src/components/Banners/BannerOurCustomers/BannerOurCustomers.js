@@ -1,12 +1,10 @@
-import React, { useState } from 'react'
+import React, { Fragment } from 'react'
 
 // Load components
 import { Box, Heading, Text, Image, useMediaQuery } from '@chakra-ui/react'
 import Carousel from '../../Carousel/CustomCarousel'
-import { useSpring, animated, config } from 'react-spring'
-import { CircularProgressbarWithChildren } from 'react-circular-progressbar'
-import VisibilitySensor from 'react-visibility-sensor'
 import 'react-circular-progressbar/dist/styles.css';
+import SVG from '../../UI/SVG/index'
 
 // Load asset
 import AstonMartin from '../../../img/brands/astonmarton.png'
@@ -15,69 +13,57 @@ import Ford from '../../../img/brands/ford.png'
 import Siemens from '../../../img/brands/siemans.png'
 import Stanley from '../../../img/brands/stanley.png'
 import Vodafone from '../../../img/brands/vodafone.png'
-
 import Google from '../../../img/reviews/google.svg'
 
 // Progress style config
-const styles = {
-    path: {
-        // Path color
-        stroke: `url(#linearGradient)`,
-        // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
-        strokeLinecap: 'round',
-        // Customize transition animation
-        transition: 'stroke-dashoffset 3s ease 0s',
-        // Rotate the path
-        transform: 'rotate(0.95turn)',
-        transformOrigin: 'center center',
-      },
-    // Customize the circle behind the path, i.e. the "total progress"
-    trail: {
-        // Trail color
-        stroke: '#505050',
-        // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
-        strokeLinecap: 'round',
-        // Rotate the trail
-        transform: 'rotate(0.25turn)',
-        transformOrigin: 'center center',
-      }
-}
+// const styles = {
+//     path: {
+//         // Path color
+//         stroke: `url(#linearGradient)`,
+//         // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
+//         strokeLinecap: 'round',
+//         // Customize transition animation
+//         transition: 'stroke-dashoffset 3s ease 0s',
+//         // Rotate the path
+//         transform: 'rotate(0.95turn)',
+//         transformOrigin: 'center center',
+//       },
+//     // Customize the circle behind the path, i.e. the "total progress"
+//     trail: {
+//         // Trail color
+//         stroke: '#505050',
+//         // Whether to use rounded or flat corners on the ends - can use 'butt' or 'round'
+//         strokeLinecap: 'round',
+//         // Rotate the trail
+//         transform: 'rotate(0.25turn)',
+//         transformOrigin: 'center center',
+//       }
+// }
 
 // Progress bars circular
-const ProgressBar = ({text, value}) => {
-    const props = useSpring({ number: value, from: { number: 0 }, config: config.molasses })
-    return (
-    <CircularProgressbarWithChildren value={value} styles={styles} maxValue={105}>
-            <Box display="flex" flexDirection="column" justifyContent="center" alignContent="center" alignItems="center" marginTop="12px">
-                <Text  fontSize="25px" color="#171717" fontWeight="bold" position="relative">
-                    <animated.span>{props.number.interpolate(x => x.toFixed(0))}</animated.span>%
-                </Text>
-                <Text textAlign="center" lineHeight="20px" color="#171717" fontWeight="bold"  fontSize={{base: "15px", md:"20px"}}>Customer <br/>{text}</Text>
-            </Box>
-    </CircularProgressbarWithChildren>
-    )
-}
+// const ProgressBar = ({text, value}) => {
+//     const props = useSpring({ number: value, from: { number: 0 }, config: config.molasses })
+//     return (
+//     <CircularProgressbarWithChildren value={value} styles={styles} maxValue={105}>
+//             <Box display="flex" flexDirection="column" justifyContent="center" alignContent="center" alignItems="center" marginTop="12px">
+//                 <Text  fontSize="25px" color="#171717" fontWeight="bold" position="relative">
+//                     <animated.span>{props.number.interpolate(x => x.toFixed(0))}</animated.span>%
+//                 </Text>
+//                 <Text textAlign="center" lineHeight="20px" color="#171717" fontWeight="bold"  fontSize={{base: "15px", md:"20px"}}>Customer <br/>{text}</Text>
+//             </Box>
+//     </CircularProgressbarWithChildren>
+//     )
+// }
 
 const BannerOurCustomers = () => {
     const [isLessThan464] = useMediaQuery("(max-width: 464px")
-    const [vs, setVs] = useState(0)
-    const [vr, setVr] = useState(0)
-
-    function setValues(isVisible) {
-       
-        // Check we are in the viewport
-        if (isVisible) {
-            setVs(99)
-            setVr(98)
-        }
-    }
-
+   
     return (
-        <VisibilitySensor onChange={setValues}>
+        <Fragment>
             <Box padding="30px 0">
              <Box display="flex" textStyle="section" flexDirection={{base: "column", lg: "row"}} maxWidth="1600px" margin="0 auto" justifyContent="space-between" alignItems="flex-start">
                 <Box width={{base: "100%", lg:"50%"}} marginBottom={{base: "50px", lg: "0"}}>
-                    <Heading textStyle="h2" marginBottom="20px"> 
+                    <Heading textStyle="h2" marginBottom="20px">
                         Our customers
                     </Heading>
                     <Text textStyle="p">
@@ -87,10 +73,10 @@ const BannerOurCustomers = () => {
                 </Box>
                 <Box display="flex" alignSelf="center" justifyContent="space-around" height="100%" width={{base: "100%", lg:"40%"}}>
                     <Box width="45%" maxW="180px">
-                        <ProgressBar text="Satisfaction"  value={vs} />
+                       <SVG name="satisfaction" height="100%" width="100%" />
                     </Box>
                     <Box width="45%" maxW="180px">
-                        <ProgressBar text="Retention" value={vr} />
+                        <SVG name="retention" height="100%" width="100%" />
                     </Box>
                 </Box>
             </Box>
@@ -115,7 +101,7 @@ const BannerOurCustomers = () => {
                 </Carousel>
                 </Box>
             </Box>
-        </VisibilitySensor>
+        </Fragment>
     )
 }
 
