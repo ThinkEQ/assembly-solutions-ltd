@@ -73,10 +73,10 @@ const BannerOurCustomers = () => {
                 </Box>
                 <Box display="flex" alignSelf="center" justifyContent="space-around" height="100%" width={{base: "100%", lg:"40%"}}>
                     <Box width="45%" maxW="180px">
-                       <SVG name="satisfaction" />
+                       <SVG name="satisfaction" height="100%" width="100%" />
                     </Box>
                     <Box width="45%" maxW="180px">
-                        <SVG name="retention" />
+                        <SVG name="retention" height="100%" width="100%" />
                     </Box>
                 </Box>
             </Box>
