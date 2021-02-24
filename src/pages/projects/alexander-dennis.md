@@ -6,7 +6,7 @@ intro: Intro here
 projectfeature:
   quote: "ASL are a brilliant supplier who are always 100% committed to being
     flexible and helping as much as they can. "
-  name: Alexander Dennis
+  name: Electrical Engineering Manager, Alexander Dennis
   image: /img/alexander-dennis-project.jpg
 seo:
   title: Project Alexander Dennis Wiring Looms | ASL Customer Project
