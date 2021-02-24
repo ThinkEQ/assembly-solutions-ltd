@@ -165,8 +165,9 @@ team-members:
       Adam is our costing king who's expertise is driving down costs to secure
       new business. His role is to carry out costings for parts by obtaining
       prices from suppliers and studying customer drawings to understand labour
-      time. He joined in 2018 and has already hugely contributed to winning new
-      contracts.
+      time. After joining in 2018 through an Apprenticeship scheme, Adam has
+      already hugely contributed towards winning new contracts and retaining
+      existing customers.
 
       Adam is a passionate Tottenham Hotspur fan and a competitive Xbox gamer!
     image: /img/team12.png
