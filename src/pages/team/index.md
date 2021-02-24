@@ -55,7 +55,7 @@ team-members:
       Oliver is a man of many hats but his core focus is managing our Supply
       Chain and purchasing materials. He is due to qualify in CIPS (Chartered
       Institute of Procurement & Supply) in summer 2021, after 4 lengthy years
-      of night classes and exams.
+      of night classes and exams. \
 
       Oliver is a keen snowboarder and an F1 fanatic.
     image: /img/team4-2-.png
@@ -137,11 +137,13 @@ team-members:
   - name: John Waterworth
     jobtitle: Customer Accounts Manager
     bio: >-
-      John We all wish we could keep as cool as John when the pressure hits!
-      Since he was in school, John has had a passion for electronics and has
-      been involved in this throughout his whole career.
+      John has worked in the electrical industry for 40 years and is extremely
+      knowledgeable on cable assembly and components. With his wealth of
+      expertise after having his own electrical component distributer, we were
+      delighted to welcome John on board in 2020 to support with customer
+      account management. 
 
-      When customers have kept him busy all week, John looks forward to relaxing with a cold pint of Guinness and watching Manchester City!
+      John is a passionate Manchester City fan and enjoys to watch them with cold pint of Guinness!
     image: /img/team10-1-.png
     interests:
       - football
