@@ -29,13 +29,15 @@ layout:
   - type: testimonial
     testimonial:
       alignment: centre
-      quote: >-
-        It has been an incredible 25 years and has been a journey that I look
+      quote: It has been an incredible 25 years and has been a journey that I look
         back on with great pride. The early years were hard – a lot of long days
         and late nights. I couldn’t have done it without the support of my wife
-        Anne who raised our children and helped me get ASL off the ground.
-
-
-        The team have been fantastic and it’s really down to them and their loyalty that ASL has made it this far. This year has been extremely rewarding for me as not only have we reached 25 years, but I also recently passed the ownership of ASL down to my three children, Gareth, Sophie and Oliver. I’m so pleased to keep the company in the family and look forward to hopefully seeing ASL continue on a journey of growth and success
+        Anne who raised our children and helped me get ASL off the ground. The
+        team have been fantastic and their loyalty helped ASL make it this far.
+        I am also delighted that as we celebrate 25 years in business, we also
+        celebrate new ownership after I recently passed the company down to my
+        three children, Gareth, Sophie and Oliver. I’m beyond proud to be in a
+        position to hand this over to the three of them and look forward to
+        seeing them achieve their dreams".
       name: " Graham Balshaw, Founder and Chairman"
 ---
