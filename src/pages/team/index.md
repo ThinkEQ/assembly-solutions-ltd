@@ -138,7 +138,7 @@ team-members:
     jobtitle: Customer Accounts Manager
     bio: >-
       John has worked in the electrical industry for 40 years and is extremely
-      knowledgeable on cable assembly and components. With his wealth of
+      knowledgeable on cable assemblies and components. With his wealth of
       expertise after having his own electrical component distributer, we were
       delighted to welcome John on board in 2020 to support with customer
       account management. 
