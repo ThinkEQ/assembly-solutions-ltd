@@ -168,7 +168,7 @@ team-members:
       time. He joined in 2018 and has already hugely contributed to winning new
       contracts.
 
-      Adam is a passionate Tottenham Hotspur fan and Xbox.
+      Adam is a passionate Tottenham Hotspur fan and a competitive Xbox gamer!
     image: /img/team12.png
     interests:
       - xbox
