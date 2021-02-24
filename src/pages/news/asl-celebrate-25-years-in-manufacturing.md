@@ -40,6 +40,6 @@ layout:
         celebrate new ownership after I recently passed the company down to my
         three children, Gareth, Sophie and Oliver. I’m beyond proud to be in a
         position to hand this over to the three of them and look forward to
-        seeing them achieve their dreams".
+        seeing them achieve their dreams
       name: " Graham Balshaw, Founder and Chairman"
 ---
