@@ -19,7 +19,7 @@ seo:
 
 Brompton is the UK manufacturer of the famous folding bicycle, that you will have likely seen people riding on around the cities! ​This year we are proud to be celebrating 10 years of partnership with Brompton, after they chose us in 2011 as their new supplier for cable assemblies - which power the front and back bike lights. 
 
-Their bikes have been a huge success all over the world and especially during 2020 when demands began to soar. Last year saw many of us turning to cycling as a part of keeping fit and healthy though the pandemic. 
+Their bikes have been a huge success all over the world and especially during 2020 when demands began to soar Last year saw many of us turning to cycling as a part of keeping fit and healthy though the pandemic. 
 
 During these busy times volumes have reached a record high, which made it vital to maintain our efficiency levels and deliver on time. To put volumes into perspective, Brompton sold 45,000 bikes in 2020! 
 

@@ -63,7 +63,7 @@ layout:
         excellent, and they deliver when they say they will (which is something
         my other suppliers don’t do!). For us we find working with ASL extremely
         easy, they are always quick to respond and support us with fast
-        turnaround deliveries when we have urgent demands. "
+        turnaround deliveries when we have urgent demands."
       name: Electrical Engineering Manager – Alexander Dennis
 seo:
   title: Motorsport Wiring Loom | Wiring Loom Manufacturers | ASL

@@ -37,7 +37,7 @@ layout:
     column:
       title: Custom-made Cable Preparation
       text: >-
-          ASL is a UK manufacturer of custom-made cable preparation.  
+          ASL is a UK manufacturer of custom-made cable preparation.
 
 
         As the leading sub-contractor in our industry, we deliver a high quality and tailored cable preparation service that is cost effective for any application and industry.  Our cable assembly production lines are streamlined for efficient manufacture and all our production operators are accredited to IPC A-620 – the standards for cable assemblies.
@@ -46,7 +46,7 @@ layout:
         Our cable assembly production lines are streamlined for efficient manufacture and all our production operators are accredited to IPC A-620 – the standards for cable assemblies.
   - type: column
     column:
-      title: Low Prices & Fast Turnaround 
+      title: Low Prices & Fast Turnaround
       text: >-
         With an extremely efficient team and strong relationships with our
         supply chain, we offer low prices for a lot of value. Our high speed
@@ -62,7 +62,7 @@ layout:
       text: >-
         As a manufacturer committed to supporting customers the best we can, we
         usually assist with the initial design by bringing our engineering
-        expertise to every panel wiring project.   
+        expertise to every panel wiring project.
 
 
         We generally work from drawings, specifications and bills of materials, but if required we can reverse engineer products from a sample or prototype. Our engineers can visit customer factories to discuss products in detail to come up with the best solution.

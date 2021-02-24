@@ -22,16 +22,16 @@ layout:
       title: UK Manufactured Braided Cable
       text: >-
         ASL is an industry leading manufacturer of braided cable and braided
-        earth lead assemblies.  
+        earth lead assemblies.
 
 
-        With 25 years of experience we understand how important cost and reliability is. To ensure every project is a success, we work closely with our customers from the costing stage right through to production, focusing on producing braided assemblies that are cost effective and fit for purpose.  
+        With 25 years of experience we understand how important cost and reliability is. To ensure every project is a success, we work closely with our customers from the costing stage right through to production, focusing on producing braided assemblies that are cost effective and fit for purpose.
 
 
         We supply braided cable in a wide range of industries and interestingly recently supplied braided earth leads into the QE2 Ship that is now a floating hotel in Dubai!
   - type: column
     column:
-      title: Braided Earth Leads 
+      title: Braided Earth Leads
       text: >-
         We manufacture braided cable on reels and we also supply braided earth
         lead assemblies. All our products are custom made to customer
@@ -55,13 +55,13 @@ layout:
         With our large stock holding, we can manufacture your braided cable
         assembly within a very short lead time. Whether you are looking for
         braided earth cable, braided earth leads or braided earth straps, we
-        will be able to help!   
+        will be able to help!
 
 
         If you have your drawings ready and want a quick quote, email your RFQ to enquiry@assembly-solutions.com or if you want to chat with our engineers, call 01204 521999.
   - type: testimonial
     testimonial:
-      quote:  We continue to buy cable assemblies from ASL because their quality is
+      quote: We continue to buy cable assemblies from ASL because their quality is
         excellent, prices are competitive and they are a friendly company to
         work with. They have been one of our top suppliers for 10 years because
         they always deliver on time and we never have issues with quality. We

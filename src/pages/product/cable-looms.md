@@ -26,16 +26,16 @@ layout:
       title: UK Manufactured Cable Looms
       text: >-
         ASL is an award winning manufacturer of wiring looms and wiring
-        harnesses.  
+        harnesses.
 
 
-        As the leading sub-contractor in our industry, we deliver a high quality and fast turnaround cable loom service that is cost effective and delivered on time.  
+        As the leading sub-contractor in our industry, we deliver a high quality and fast turnaround cable loom service that is cost effective and delivered on time.
 
 
         Our cable loom production lines are streamlined for efficient manufacture, complete with 10m long wiring boards and side stock filled trolleys for all materials and tooling.
   - type: column
     column:
-      title: Low Cost Cable Looms 
+      title: Low Cost Cable Looms
       text: >-
         We have become a UK preferred supplier of cable looms to many world
         class companies including; Aston Martin, Ford and Rolls Royce because we
@@ -68,7 +68,7 @@ layout:
         Our cable loom division is led by fully qualified design engineers who not only assist with initial design and development but are always on hand to help with any last-minute technical changes.
   - type: testimonial
     testimonial:
-      quote:  ASL is without a doubt the best UK manufacturer of wiring looms and
+      quote: ASL is without a doubt the best UK manufacturer of wiring looms and
         wiring harnesses. They have been our preferred supplier for 10 years
         because their quality and attention to detail is none other than
         excellent, and they deliver when they say they will (which is something

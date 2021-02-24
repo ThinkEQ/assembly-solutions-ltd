@@ -42,11 +42,11 @@ layout:
         * Fit for Purpose Panel Build
   - type: column
     column:
-      title: Panel Build Experience 
+      title: Panel Build Experience
       text: >-
         As a leading UK manufacturer, we are proud to have panel build expertise
         in many different industries including; Automotive, Rail and
-        Utilities.  
+        Utilities.
 
 
         With 25 years of experience we understand how important cost and reliability is. To ensure every project is a success, we work closely with our customers from the costing stage right through to production, focusing on producing panels that are cost effective and fit for purpose.

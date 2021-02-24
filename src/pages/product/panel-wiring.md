@@ -25,9 +25,9 @@ layout:
     column:
       title: Panel Wiring Manufacturers
       text: >-
-        ASL is a leading supplier of panel wiring services.   With an
+        ASL is a leading supplier of panel wiring services. With an
         experienced and efficient production team, we are renowned for our panel
-        wiring services that we provide on a fast and flexible turnaround.  
+        wiring services that we provide on a fast and flexible turnaround.
 
 
         * Panel Wiring
@@ -39,12 +39,11 @@ layout:
         * Fast & Flexible Delivery
   - type: column
     column:
-      title: Panel Wiring Team 
+      title: Panel Wiring Team
       text: >-
         Our panel wiring operators are fully trained to IPC A-620 and have
         experience in producing a wide range of panel assemblies after working
         on projects for industries including; Automotive, Nuclear and Security.
-          
 
 
         All our panel wiring products are electrically tested using our automatic testing facilities or bespoke test equipment designed specifically for the control panel.
@@ -58,12 +57,12 @@ layout:
         from a sample or prototype.
   - type: testimonial
     testimonial:
-      quote:  We have a great relationship with ASL and have worked with them for many
+      quote: We have a great relationship with ASL and have worked with them for many
         years, simply because they continue to deliver quality products. Being a
         well-established business, we have trusted them from start and
         appreciate their knowledge staff, who have gone above and beyond to help
         with technical design.
-      name: "Electrical Engineer – Siemens "
+      name: Electrical Engineer – Siemens
 seo:
   title: Panel Wiring | Panel Build Manufacturer | ASL
   description: Electrical Panel Wiring and Control Panel Build from Assembly

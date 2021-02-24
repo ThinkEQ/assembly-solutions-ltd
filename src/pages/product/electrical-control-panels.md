@@ -25,10 +25,10 @@ layout:
     column:
       title: Electrical Control Panel Manufacturers
       text: >-
-        ASL is a build to print manufacturer of electrical control panels.   
+        ASL is a build to print manufacturer of electrical control panels.
 
 
-        Based in Bolton, we run an efficient manufacturing service that covers a range of control panel types, from small simple box build to highly complex panel build assembly. 
+        Based in Bolton, we run an efficient manufacturing service that covers a range of control panel types, from small simple box build to highly complex panel build assembly.
 
 
         * Electrical Control Panel Wiring
@@ -42,9 +42,9 @@ layout:
         * Excellent Customer Service
   - type: column
     column:
-      title: Industry Electrical Control Panels 
+      title: Industry Electrical Control Panels
       text: |-
-        Here is a range of control panels that we manufacture; 
+        Here is a range of control panels that we manufacture;
 
         * Mains Distribution Control Boxes
         * Leak Detection Panels
@@ -54,7 +54,7 @@ layout:
         * Custodial Vehicle Panel Boxes
   - type: column
     column:
-      title: Quality & Family Values  
+      title: Quality & Family Values
       text: >-
         Quality is critical for all the products we manufacture, especially
         control panels. Delivering into industries including Nuclear and
@@ -65,12 +65,12 @@ layout:
         One of our strengths that we highly pride ourselves on is our family values. As a family-run business owned by the second generation, we are passionate about maintaining a happy and healthy workforce, and also building close partnerships with our customers.
   - type: testimonial
     testimonial:
-      quote:  We have a great relationship with ASL and have worked with them for many
+      quote: We have a great relationship with ASL and have worked with them for many
         years, simply because they continue to deliver quality products. Being a
         well-established business, we have trusted them from start and
         appreciate their knowledge staff, who have gone above and beyond to help
         with technical design.
-      name: "  Electrical Engineer – Siemens "
+      name: Electrical Engineer – Siemens
 seo:
   title: Electrical Panel Builders | Electrical Control Panel Manufacturers UK
   description: "Electrical Control Panel Manufacturers UK: Assembly Solutions are

@@ -26,16 +26,16 @@ layout:
       title: UK Manufactured Ribbon Cables
       text: >-
         ASL is a family run sub-contract manufacturer of custom-made ribbon
-        cable assemblies.  
+        cable assemblies.
 
 
-        We have manufactured ribbon cable assemblies for 25 years and over this time built a wealth of knowledge and experience from working with a range of different industries including; Automotive, Security and Test & Measurement.  
+        We have manufactured ribbon cable assemblies for 25 years and over this time built a wealth of knowledge and experience from working with a range of different industries including; Automotive, Security and Test & Measurement.
 
 
         We are passionate about giving a quality and personable service that gives customers a cost-effective solution for all their ribbon cable requirements.
   - type: column
     column:
-      title: Fast Turnaround & Testing 
+      title: Fast Turnaround & Testing
       text: >-
         All our ribbon cables are delivered on a lighting fast turnaround by our
         speedy in-house operators. Each assembly is made to the highest quality

@@ -28,17 +28,17 @@ layout:
     column:
       title: UK Manufactured Cable Assemblies
       text: >-
-          ASL is an industry leading manufacturer of custom-made quality cable
+        ASL is an industry leading manufacturer of custom-made quality cable
         assemblies.
 
 
-          We have been making cable assemblies for 25 years and over this time built a wealth of knowledge and experience from working with a range of different industries including; Automotive, Agriculture and Test & Measurement.  
+        We have been making cable assemblies for 25 years and over this time built a wealth of knowledge and experience from working with a range of different industries including; Automotive, Agriculture and Test & Measurement.
 
 
         Our services are tailored specific to your cable assembly requirements and our prices will be cost-effective for your application.
   - type: column
     column:
-      title: Range of Cable Assemblies 
+      title: Range of Cable Assemblies
       text: |-
         * Military cable assemblies
         * Access control and security cables
@@ -52,7 +52,7 @@ layout:
         * Braided cable assemblies
   - type: column
     column:
-      title: Want a quick quote?  
+      title: Want a quick quote?
       text: >-
         We thrive off being a fast paced team and giving customers a service
         that is quicker than Usain Bolt in an Olympic sprint. Email your

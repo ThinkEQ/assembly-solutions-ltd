@@ -52,9 +52,8 @@ layout:
         question, this is hard as it totally depends on the spec so send your
         drawing to enquiry@assembly-solutions.com and we’ll give you a
         turn-around time. It will be between 3-6 weeks from receipt to enquiry
-        to delivery of goods.\
+        to delivery of goods.
 
-        \
 
         We have special cell areas that we call “Projects” and we keep these cells free for when a quick job comes on that needs urgent attention and fast turnaround. Other cell areas are set up for routine and planned manufacture where customers will have a 6-12 month scheduled order.
   - type: column
@@ -79,34 +78,17 @@ layout:
     column:
       title: Out-sourcing your harnesses will save you money and time
       text: >-
-        Whilst we know it can be tempting to keep as much as you can ‘in-house’,
-        we find that even if our clients have a robust in-house electrical team,
-        many decide to outsource some products when full capacity is reached.
-        This choice gives their design and development engineers more time to
-        spend concentrating on future products and projects, rather than simply
-        manufacturing components. Our technical experts have the knowledge and
-        experience at hand to find flexible solutions for our clients to help
-        with any wiring harness or wiring loom requirements.\
+        Whilst we know it can be tempting to keep as much as you can ‘in-house’, we find that even if our clients have a robust in-house electrical team,
+        many decide to outsource some products when full capacity is reached. This choice gives their design and development engineers more time to spend concentrating on future products and projects, rather than simply manufacturing components. Our technical experts have the knowledge and experience at hand to find flexible solutions for our clients to help with any wiring harness or wiring loom requirements.
 
-        \
-
-        We can help you to reduce your wire harness output, improve your wire harness quality and remove your wire harness bottlenecks. As well as working from drawings and bills of materials, we can also reverse engineer from a prototype and work with you to ensure we’re giving you the most competitively priced solution.\
-
-        \
+        We can help you to reduce your wire harness output, improve your wire harness quality and remove your wire harness bottlenecks. As well as working from drawings and bills of materials, we can also reverse engineer from a prototype and work with you to ensure we’re giving you the most competitively priced solution.
 
         With an IPC A-620 fully trained technical team, we guarantee low costs and high quality for all your wiring harness requirements. Our expertise and knowledge base in vehicle high voltage and battery technologies ensures we are market leaders within the electrical wiring industry.
   - type: column
     column:
       title: Harness Components
-      text: Harness components play a vital role when connecting wires and cables. The
-        connectors must be good quality and durable enough to function in even
-        the harshest of vehicle environments. They also must be able to
-        withstand extreme temperature variations, vibrations, water and
-        electromagnetic interference and other conditions. We ensure that our
-        products can hold their own in these conditions.
+      text: Harness components play a vital role when connecting wires and cables. The connectors must be good quality and durable enough to function in even the harshest of vehicle environments. They also must be able to withstand extreme temperature variations, vibrations, water and electromagnetic interference and other conditions. We ensure that our products can hold their own in these conditions.
 seo:
   title: Wiring Harness | Wire Harness - ASL Wiring Harness Manufacturer
-  description: Wiring Harness and Wire Harness Solutions from UK Manufacturer
-    Assembly Solutions. Call 01204 521999 for a low cost custom built wiring
-    loom quote.
+  description: Wiring Harness and Wire Harness Solutions from UK Manufacturer Assembly Solutions. Call 01204 521999 for a low cost custom built wiring loom quote.
 ---
