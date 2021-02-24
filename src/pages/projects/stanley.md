@@ -5,7 +5,7 @@ title: Stanley
 intro: Intro
 projectfeature:
   image: /img/stanley-security-project.jpg
-  name: Stanley
+  name: Buyer, Stanley
   quote: The fact we have bought from ASL for 20 years pretty much says it all.
     They consistently deliver on time and act flexibly with urgent demands. The
     staff are a delight to deal with, always quick to quote and quick to help
