@@ -15,7 +15,7 @@ layout:
 
         * From humble beginnings to £5million turnover success
 
-        * Gareth, Sophie and Oliver strive for £10million turnover  
+        * Gareth, Sophie and Oliver strive for £10million growth
 
 
         \
