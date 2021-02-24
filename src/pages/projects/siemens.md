@@ -9,7 +9,7 @@ projectfeature:
     well-established business, we have trusted them from start and appreciate
     their knowledge staff, who have gone above and beyond to help with technical
     design.
-  name: Siemens
+  name: Electrical Engineer, Siemens
   image: /img/siemens-project.png
 seo:
   title: Project Siemens Cable Assemblies | ASL Customer Project
