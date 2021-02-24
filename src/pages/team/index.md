@@ -55,8 +55,7 @@ team-members:
       Oliver is a man of many hats but his core focus is managing our Supply
       Chain and purchasing materials. He is due to qualify in CIPS (Chartered
       Institute of Procurement & Supply) in summer 2021, after 4 lengthy years
-      of night classes and exams. Since joining in 2014 Oliver has contributed
-      to a ser\
+      of night classes and exams. \
 
       Oliver is a keen snowboarder and an F1 fanatic.
     image: /img/team4-2-.png
