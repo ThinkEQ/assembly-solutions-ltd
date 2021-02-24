@@ -15,7 +15,7 @@ layout:
 
         * From humble beginnings to £5million turnover 
 
-        * Gareth, Sophie and Oliver strive for £10million 
+        * Gareth, Sophie and Oliver strive for £10million turnover  
 
 
         \
@@ -42,7 +42,7 @@ layout:
         **My fondest memory with Graham was being taken to Hong Kong for my first business trip aged 22. We had 1 week there visiting exhibitions and meeting suppliers. It was a great trip and opened my eyes to how we could do a lot more international business. Since then we have developed strong partnerships in China and Eastern Europe.**
 
 
-        We saw a record growth of 30% in 2020 and predicting further growth of 20% for 2021. Our plan for the next 5 years is to double the turnover to £10million by investing in more machinery and venturing into new markets. Whilst we appreciate such growth will come with challenges, we know with focus and hard work, it’s achievable”.
+        We saw a record growth of 30% in 2020 and predicting further growth of 20% for 2021. Our plan for the next 5 years is to double the turnover to £10million by investing in more machinery and venturing into new markets. Whilst we appreciate such growth will come with challenges, we know with focus and hard work it’s achievable”.
 
 
         Sophie is the creative Marketing Executive who is proud to share her passion and ambition with her two brothers.
