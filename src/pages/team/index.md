@@ -3,12 +3,12 @@ templateKey: team-page
 title: Our Team
 team-members:
   - bio: >-
-      Graham created Assembly Solutions in 1995 aged 35 after he had a passion
-      of building a competitive electrical sub-contract manufacturer. Electrical
-      wiring came natural to Graham from a very early age after his father Terry
-      taught him how to wire his first plug aged just 4. Attending Manchester
-      University to qualify in Electrical Engineering, he went on to work for
-      electrical giants Phillips and Triscan before creating ASL.
+      Graham created Assembly Solutions in 1995 aged 35 after always having a
+      passion to building a leading electrical sub-contract manufacturer.
+      Electrical wiring came natural to Graham from a very early age after his
+      father Terry taught him how to wire his first plug aged just 4. Attending
+      Manchester University to qualify in Electrical Engineering, he went on to
+      work for electrical giants Phillips and Triscan before creating ASL.
 
       Being extremely sporty and competitive Graham won the National cycling race in 2020.
     interests:
@@ -52,21 +52,19 @@ team-members:
   - name: Oliver Balshaw
     jobtitle: Purchasing Manager
     bio: >-
-      Oliver joined the business in 2014 and is responsible for managing the
-      supply chain and developing strong relationships with suppliers.
+      Oliver is a man of many hats but his core focus is managing our Supply
+      Chain and purchasing materials. He is due to qualify in CIPS (Chartered
+      Institute of Procurement & Supply) in summer 2021, after 4 lengthy years
+      of night classes and exams. \
 
-
-      After 4 years of studying, Oliver is due to complete his CIPS course in 2021. 
-
-
-      Oliver loves to drink, but with all bars shut at the minute, he’s enjoying his new found sport in cycling and counting down the days until he can book a holiday and dust off his snowboard!
+      Oliver is a keen snowboarder and an F1 fanatic.
     image: /img/team4-2-.png
     interests:
       - snowboarding
       - formula1
     linkedin: https://www.linkedin.com/in/oliver-balshaw-624a9ab4/
   - name: Damien Walsh
-    jobtitle: "Production Manager"
+    jobtitle: Production Manager
     image: /img/team5-1-.png
     bio: >-
       Damien is our longest serving employee holding the outstanding record of
