@@ -122,13 +122,11 @@ team-members:
       - gardening
   - name: Gary Scowcroft
     jobtitle: Technical Sales Engineer
-    bio: >-
-      Gary joined ASL in has an impressive 40 years of experience in wire and
-      cable assemblies, Gary knows a lot! Since joining ASL 5 years ago, he has
-      transformed the way we win new business, ensuring that the transition is
-      seamless and that we have built strong partnerships with customers.
-
-      Gary is a devoted grandfather and a real outdoors guy, so when we can’t get hold of him at the weekend, it’s because he’s either entertaining his grandchildren or climbing up Ben Nevis!
+    bio: Gary has an impressive 40 years of experience in wire and cable assemblies!
+      Since joining 5 years ago, he has transformed the way we win new business,
+      ensuring that the transition is seamless and that we have built strong
+      partnerships with customers. Gary is a devoted grandfather and enjoys
+      hiking and rock climbing - he also loves a bit of rock music!
     image: /img/team9-1-.png
     interests:
       - hiking
