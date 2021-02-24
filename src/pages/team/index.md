@@ -145,11 +145,11 @@ team-members:
   - name: Michele Barnes
     jobtitle: Sales Administrator
     bio: Michele is our bubbly sales office administrator who is the backbone of our
-      covers a variety of responsible roles including processing customer orders
-      and dealing with customer queries. Our customers always speak so highly of
-      Michele because she helps promptly and professionally. She is committed to
-      giving customers a quality service With over is a devoted grandma and a
-      real bookworm.
+      sales department. She is committed to giving customers the best possible
+      service and the work she carries out is always to the highest quality. Her
+      role covers a range of responsibilities including processing customer
+      orders and dealing with customer queries. Michele is a devoted grandma and
+      a real bookworm.
     image: /img/team11-1-.png
     interests:
       - reading
