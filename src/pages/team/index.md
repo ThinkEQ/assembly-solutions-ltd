@@ -37,11 +37,12 @@ team-members:
   - name: Sophie Balshaw
     jobtitle: Marketing Executive
     bio: >-
-      Sophie is the creative one who's specialism is digital marketing and
-      advertising. After enjoying Art and Graphics from a young age she is happy
-      to have carried this through into her profession. Her focus today is to
-      drive traffic and new enquiries into the business to support the ambitious
-      growth goals.
+      Sophie is our creative marketing executive who specialises in digital
+      marketing and advertising. Her work has led to generating some of our
+      biggest customers and contracts that have contributed to the recent rapid
+      growth. With over 10 years experience in sales and marketing, she is a
+      talented team player and focused today on marketing strategies, campaign
+      execution and customer experience.
 
       Sophie is a watersports fanatic who enjoys wakeboarding and sailing around the welsh coast.
     interests:
@@ -51,13 +52,11 @@ team-members:
     linkedin: https://www.linkedin.com/in/sophie-balshaw/
   - name: Oliver Balshaw
     jobtitle: Purchasing Manager
-    bio: >-
-      Oliver is a man of many hats but his core focus is managing our Supply
+    bio: Oliver is a man of many hats but his core focus is managing our Supply
       Chain and purchasing materials. He is due to qualify in CIPS (Chartered
       Institute of Procurement & Supply) in summer 2021, after 4 lengthy years
-      of night classes and exams. \
-
-      Oliver is a keen snowboarder and an F1 fanatic.
+      of night classes and exams. Oliver is a keen snowboarder and an F1
+      fanatic.
     image: /img/team4-2-.png
     interests:
       - snowboarding
@@ -146,12 +145,9 @@ team-members:
       - golf
   - name: Michele Barnes
     jobtitle: Sales Administrator
-    bio: >-
-      Michele is our bubbly sales office administrator who covers a variety of
-      roles including, processing customer orders and dealing with customer
-      queries.
-
-      Michele is a devoted grandmother and loves to read and knit.
+    bio: Michele is our bubbly sales office administrator who covers a variety of
+      responsible roles including, processing customer orders and dealing with
+      customer queries. She is a devoted grandma and a real bookworm.
     image: /img/team11-1-.png
     interests:
       - reading
