@@ -2,15 +2,14 @@
 templateKey: team-page
 title: Our Team
 team-members:
-  - bio: >-
-      Graham created Assembly Solutions in 1995 aged 35 after always having a
+  - bio: Graham created Assembly Solutions in 1995 aged 35 after always having a
       passion to building a leading electrical sub-contract manufacturer.
       Electrical wiring came natural to Graham from a very early age after his
-      father Terry taught him how to wire his first plug aged only  4! Attending
+      father Terry taught him how to wire his first plug aged 4! Attending
       Manchester University to qualify in Electrical Engineering, Graham went on
       to work for electrical giants Phillips and Triscan before creating ASL.
-
-      Being extremely sporty and competitive Graham won the National cycling race in 2020.
+      Graham is the current UK's Cycling Champion after winning the title in
+      2020!
     interests:
       - cycling
       - golf
@@ -19,16 +18,14 @@ team-members:
     image: /img/team1-1-.png
   - name: Gareth Balshaw
     jobtitle: Managing Director
-    bio: >-
-      Gareth joined the business as a production operator in 2002 aged 18. Since
+    bio: Gareth joined the business as a production operator in 2002 aged 18. Since
       his early years working on the production lines, he has taken on senior
       roles and responsibilities in purchasing and sales. During his time as
       Sales Director, Gareth understands the importance of building strong
       customer relationships and he now drives those values throughout the
       organisation. In 2019 Gareth was appointed Managing Director and since
-      then the company has seen a 20% growth in sales.
-
-      Gareth is a keen cyclist and also has a black belt in Jujutsu.
+      then the company has seen a 20% growth in sales. Gareth is extremely
+      sporty, he is a cycling fanatic and also has a black belt in Jujutsu!
     image: /img/team2-2-.png
     interests:
       - cycling
@@ -42,7 +39,8 @@ team-members:
       growth. With over 10 years experience in sales and marketing, she is a
       passionate and talented team player who is focused today on marketing
       strategies, campaign execution and customer experience. Sophie is a lover
-      of watersports and sailing around the welsh coast.
+      of watersports and enjoys sailing around the welsh coast, usually with a
+      prosecco in hand!
     interests:
       - surfing
       - skiing
@@ -53,23 +51,27 @@ team-members:
     bio: Oliver is a man of many hats but his core focus is managing our Supply
       Chain and purchasing materials. He is due to qualify in CIPS (Chartered
       Institute of Procurement & Supply) in summer 2021, after 4 lengthy years
-      of night classes and exams. Oliver is an awesome snowboarder and an F1
-      fanatic.
+      of night classes and exams. Oliver has over 10 years of production
+      manufacturing experience after working hands on and learning from his
+      father from a very young age. His skills have recently been utilised to
+      support our production team with project management for an urgent order.
+      Oliver is an F1 fanatic and an awesome snowboarder!
     image: /img/team4-2-.png
     interests:
-      - snowboarding
       - formula1
+      - snowboarding
     linkedin: https://www.linkedin.com/in/oliver-balshaw-624a9ab4/
   - name: Damien Walsh
     jobtitle: Production Manager
     image: /img/team5-1-.png
-    bio: >-
-      Damien is our longest serving employee holding the outstanding record of
-      20 years service. His specialism is in automotive plug and play wiring
-      harness systems and he also holds an incredible wealth of knowledge and
-      experience in electrical control panels.
-
-      Damien enjoys field archery and likes to cook tasty vegan dishes!
+    bio: Damien holds the incredible title of being our longest serving employee! He
+      has served an outstanding 20 Years, after joining as a production operator
+      in 1999! Throughout the years, Damien has shown a quality and commitment
+      to his work that has led him to his role today as Production Manager for
+      Harnesses and Control Panels. Damien is an expert in Automotive Wiring and
+      his technical & leadership skills have contributed to some of our most
+      challenging but successful contracts to date. Damien enjoys field archery
+      and likes to cook tasty vegan dishes!
     interests:
       - archery
       - cooking
