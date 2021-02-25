@@ -41,9 +41,8 @@ team-members:
       biggest customers and contracts that have contributed to the recent rapid
       growth. With over 10 years experience in sales and marketing, she is a
       passionate and talented team player who is focused today on marketing
-      strategies, campaign execution and customer experience. Sophie is a
-      watersports fanatic who enjoys wakeboarding and sailing around the welsh
-      coast.
+      strategies, campaign execution and customer experience. Sophie is a lover
+      of watersports and sailing around the welsh coast.
     interests:
       - surfing
       - skiing
@@ -54,8 +53,8 @@ team-members:
     bio: Oliver is a man of many hats but his core focus is managing our Supply
       Chain and purchasing materials. He is due to qualify in CIPS (Chartered
       Institute of Procurement & Supply) in summer 2021, after 4 lengthy years
-      of night classes and exams. (Additional content pending). Oliver is a keen
-      snowboarder and an F1 fanatic.
+      of night classes and exams. Oliver is an awesome snowboarder and an F1
+      fanatic.
     image: /img/team4-2-.png
     interests:
       - snowboarding
@@ -119,25 +118,26 @@ team-members:
       - gardening
   - name: Gary Scowcroft
     jobtitle: Technical Sales Engineer
-    bio: Gary has an impressive 40 years of experience in wire and cable assemblies!
-      Since joining 5 years ago, he has transformed the way we win new business,
-      ensuring that the transition is seamless and that we have built strong
-      partnerships with customers. Gary is a devoted grandfather and enjoys
-      hiking and rock climbing - he also loves a bit of rock music!
+    bio: Gary has an impressive 40 years of experience and is our technical wizard
+      with his wealth of knowledge in wire and cable assemblies. Since joining 5
+      years ago, he has transformed the way we win new business, by working with
+      customers and supporting them with project design development. He also
+      ensures that the transition from engineering out to production runs
+      absolutely seamless and that we built a solid relationship with the
+      customer. Gary is a devoted grandfather and enjoys hiking and rock
+      climbing - he also loves a bit of rock music!
     image: /img/team9-1-.png
     interests:
       - hiking
       - climbing-wall
   - name: John Waterworth
     jobtitle: Customer Accounts Manager
-    bio: >-
-      John has worked in the electrical industry for 40 years and is extremely
+    bio: John has worked in the electrical industry for 40 years and is extremely
       knowledgeable on cable assemblies and components. With his wealth of
       expertise after having his own electrical component distributer, we were
       delighted to welcome John on board in 2020 to support with customer
-      account management. 
-
-      John is a passionate Manchester City fan and enjoys to watch them with cold pint of Guinness!
+      account management. John is a passionate Manchester City fan and enjoys to
+      watch them with cold pint of Guinness!
     image: /img/team10-1-.png
     interests:
       - football
