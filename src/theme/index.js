@@ -141,7 +141,7 @@ const overrides = {
         },
         p: {
             fontSize: {base: "16px", md:"20px"},
-            lineHeight: "38px",
+            lineHeight: {base: "28px", md:"38px"},
             letterSpacing: "0.71px",
             marginBottom: "10px"
         },
