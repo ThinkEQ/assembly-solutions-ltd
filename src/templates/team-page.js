@@ -63,15 +63,15 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
           <CarouselWhatWeDo />
         </Box>
       </Box>
-      <Modal isCentered isOpen={isOpen} autoFocus={false} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
+      <Modal scrollBehavior="outside"  isOpen={isOpen} autoFocus={false} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
       <ModalOverlay />
-        <ModalContent padding="0" minWidth="70vw">
+        <ModalContent padding="0" marginTop="0rem" top={{base: "0", md:"50%"}} transform={{base: "none", md:"translateY(-50%) !important"}} minWidth="70vw">
           <ModalHeader padding="0">
             <TeamHeader name={teamMember.name} />
             <ModalCloseButton color="#fff" padding="20px" />
           </ModalHeader>
-          <ModalBody padding="0" maxHeight="50vh" overflow="auto">
-            <TeamBody iconList={teamMember.interests} bio={teamMember.bio} />
+          <ModalBody padding="0">
+            <TeamBody iconList={teamMember.interests} bio={teamMember.bio} linkedIn={teamMember.linkedIn} />
           </ModalBody>
         </ModalContent>
       </Modal>
@@ -118,6 +118,7 @@ export const teamPageQuery = graphql`
           bio
           interests
           jobtitle
+          linkedin
           name
           image {
             childImageSharp {
