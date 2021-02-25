@@ -19,7 +19,7 @@ seo:
 
 Alexander Dennis is a global leader in the design and manufacture of double deck buses and is the UK’s largest bus and coach manufacturer.
 
-This year we celebrate 10 years since becoming their supplier and what an interesting journey it has been, adapting to the green revolution of electric and hybrid technology!
+This year we celebrate 10 years since becoming their supplier and what an interesting journey it has been, adapting to the green revolution of electric and hybrid technology!
 
 Over the years we have built a portfolio of products that we manufacture for Alexander Dennis including;
 
