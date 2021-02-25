@@ -97,7 +97,7 @@ team-members:
       knowledge in electrical components and parts. He has a considerable amount
       of experience from previously working as a production manager, so he has a
       good understanding of the technical issues customers are challenged with.
-      Gareth is a keen explorer and enjoys visiting UK countryside's with his
+      Gareth is a keen explorer and enjoys visiting UK countrysides with his
       family and has even hiked up Scotland's tallest mountain, Ben Nevis - in
       treacherous snow conditions!
     image: /img/team7-1-.png
