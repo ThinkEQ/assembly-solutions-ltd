@@ -52,7 +52,8 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
                     return (
                       <CardVideo 
                         key={index}
-                        imgSrc={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`} 
+                        imgSrc={video.id}
+                        imglocal={video.image} 
                         title={video.name}
                         click={() => triggerModal(video.id)}
                       />
@@ -117,6 +118,14 @@ query VideosIndexQuery($skip: Int!, $limit: Int!) {
           youtube {
             name
             id
+            image {
+              childImageSharp {
+                fluid(maxHeight: 600, quality: 80) {
+                  ...GatsbyImageSharpFluid_withWebp
+                  presentationHeight
+                }
+              }
+            }
           }
         }
       }

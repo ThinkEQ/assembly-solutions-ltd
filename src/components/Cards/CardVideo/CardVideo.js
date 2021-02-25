@@ -1,16 +1,20 @@
 import React from 'react'
 import { Box, Text, Img, Icon, AspectRatio } from '@chakra-ui/react'
+import PreviewCompatibleImage from '../../PreviewCompatibleImage'
 import { FaPlayCircle } from 'react-icons/fa'
 
-const CardVideo = ({ title, imgSrc, click}) => {
+const CardVideo = ({ title, imgSrc, click, imglocal }) => {
     return (
-        <Box borderRadius="4px" onClick={click} display="flex" cursor="pointer" flexDirection="column" background="#fff" height={{base: "370px", md:"420px"}} width="100%" overflow="hidden">
+        <Box borderRadius="4px" onClick={click} display="flex" cursor="pointer" flexDirection="column" background="#fff" height={{base: "370px", md:"420px", lg: "470px"}} width="100%" overflow="hidden">
             <Box height="50%" width="100%" position="relative" overflow="hidden">
                 <figure>
+                    {!imglocal ?
                     <AspectRatio ratio={16 / 9}>
-                        <Img src={imgSrc} alt="youtube thumbnail" height="230px"  width="105%" transform="scale(1.1)" filter="brightness(100%)"  transition=".6s ease-in-out" _hover={{width: "95%", filter:"brightness(50%)"}} />
-                    </AspectRatio>
-                    
+                        <Img src={`https://img.youtube.com/vi/${imgSrc}/hqdefault.jpg`} alt="youtube thumbnail"  height="230px"  width="105%" transform="scale(1.1)" filter="brightness(100%)"  transition=".6s ease-in-out" _hover={{width: "95%", filter:"brightness(50%)"}} />
+                    </AspectRatio> :
+                    <Box height="100%"  width="105%" transform="scale(1.1)" filter="brightness(100%)"  transition=".6s ease-in-out" _hover={{width: "95%", filter:"brightness(50%)"}}>
+                        <PreviewCompatibleImage imageInfo={imglocal} height="100%" width="100%" />
+                    </Box>}
                 </figure>
                 <Box position="absolute" top="50%" left="50%" pointerEvents="none"  transform="translate(-50%, -50%)">
                     <Icon as={FaPlayCircle} color="green.900" fontSize="50px" />
