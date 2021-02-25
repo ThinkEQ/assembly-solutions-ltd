@@ -19,7 +19,7 @@ const SwipeContainer = ({ data, title }) => {
     
     return (
         <Box width="100%" padding="35px 0" textStyle="section" minHeight={{base: "550px", md: "700px", lg: "800px"}} overflow="hidden" background="gradient.400">
-            <Box textStyle="container" paddingRight={{base: "25px", lg: "0px"}} paddingLeft={{base: "25px", lg: "0px"}}  marginRight="auto" marginLeft="auto">
+            <Box textStyle="container" paddingRight={{base: "25px", lg: "6.25rem"}} paddingLeft={{base: "25px", lg: "0rem"}}  marginRight="auto" marginLeft="auto">
                 <Box margin={{base:"25px 0", lg: "50px 0"}} >
                     <Heading textStyle="h2" color="#fff">
                         {title}
@@ -35,7 +35,7 @@ const SwipeContainer = ({ data, title }) => {
 
                         return (
                             <SwiperSlide>
-                                <Box width="100%" maxWidth={{base: "300px", md: "100%", lg: "580px"}} height="100%">
+                                <Box width="100%"  height="100%">
                                     <CardArticle title={frontmatter.title} slug={fields.slug} imgFluid={frontmatter.image} date={`${frontmatter.date} - ASL Team`} />
                                 </Box>
                             </SwiperSlide> 
