@@ -151,7 +151,7 @@ team-members:
       service and the work she carries out is always to the highest quality. Her
       role covers a range of responsibilities including processing customer
       orders and dealing with customer queries. Michele is a devoted grandma and
-      a real bookworm.
+      a real bookworm!
     image: /img/team11-1-.png
     interests:
       - reading
