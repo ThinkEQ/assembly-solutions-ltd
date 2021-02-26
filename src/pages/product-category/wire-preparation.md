@@ -1,7 +1,7 @@
 ---
 templateKey: product-category
 title: Wire Preparation
-subtitle: Wire Preparation
+subtitle: Wire & Cable Preparation
 video: wire-and-cable-preparation
 image: /img/img_4046.jpg
 usps:
@@ -10,16 +10,17 @@ usps:
   - usp: Excellent Service
 introcol:
   first: >-
-    **A variety of speedy and cost-effective preparations for wire and cable**
+    **High Speed Wire & Cable Preparation**
 
 
-    We’ve invested so you don’t have to! Here at ASL, we’ve invested over £100k in our wire and cable preparation machinery allowing us to meet any wire or cable prep needs you may have. This investment ensures you get the best wire and cable prep whether it be cut, strip or crimp assemblies right the way through to ultrasonic cable welding.
+    ASL is a leading manufacturer of high volume custom-made wire assemblies. 
 
 
-    They say good things come to those who wait, well here at ASL, we feel you deserve the best quality you can find, but we don’t want you waiting. That’s why we aim for a speedy turnaround which is made possible in our award-winning factory using our high tech machines. With an IPC A-620 fully trained workforce within a family-run business environment, we offer the perfect balance of technical expertise alongside a personal service. 
+    Equipped with the latest technology in automatic high speed machinery, we offer wire preparation services on an incredibly fast turnaround.  \
 
+    \
 
-    We take pride in only offering the best products and establishing lasting relationships with our clients.
+    Our services include cutting, stripping, terminating and tinning.
   second: >-
     **Watch our wire preparation video**
 
