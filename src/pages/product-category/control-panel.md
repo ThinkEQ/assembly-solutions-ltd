@@ -10,7 +10,10 @@ usps:
   - usp: ISO 9001 Quality Approved
 introcol:
   first: >-
-    **ASL is a build to print manufacturer of electrical control panels.**
+    **UK Manufactured Control Panels**
+
+
+    ASL is a build to print manufacturer of Control Panels.
 
 
     Based in Bolton, we run an efficient manufacturing service that covers a range of control panel types, from small simple box build to highly complex panel build assembly.
