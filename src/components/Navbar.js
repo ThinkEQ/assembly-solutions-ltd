@@ -177,22 +177,22 @@ const ContactUs = () => {
           <Text  fontSize="26px" fontWeight="bold" lineHeight="31px" marginTop="50px" marginBottom="15px">
             Where we are
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
+          <Text textStyle="p" fontSize="16px !important" lineHeight="28px !important" marginBottom="0">
             Assembly Solutions Ltd
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
+          <Text textStyle="p" fontSize="16px !important" lineHeight="28px !important" marginBottom="0">
            Terence House
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
+          <Text textStyle="p" fontSize="16px !important" lineHeight="28px !important" marginBottom="0">
             Nile Street
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
+          <Text textStyle="p" fontSize="16px !important" lineHeight="28px !important" marginBottom="0">
             Bolton
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
+          <Text textStyle="p" fontSize="16px !important" lineHeight="28px !important" marginBottom="0">
             Greater Manchester
           </Text>
-          <Text textStyle="p" fontSize="16px" lineHeight="28px" marginBottom="0">
+          <Text textStyle="p" fontSize="16px !important" lineHeight="28px !important" marginBottom="0">
             BL3 6BW UK
           </Text>
         </Box>
