@@ -8,6 +8,8 @@ usps:
   - usp: Low to high volume builds
 image: /img/panel-wiring.jpg
 images:
+  - image: /img/control-panel-manufacturing.jpg
+    alt: Control Panels
   - alt: Control Panels
     image: /img/asl-control-panel-assembly.jpg
   - alt: Control Panels
@@ -25,9 +27,9 @@ layout:
     column:
       title: Panel Wiring Manufacturers
       text: >-
-        ASL is a leading supplier of panel wiring services. With an
-        experienced and efficient production team, we are renowned for our panel
-        wiring services that we provide on a fast and flexible turnaround.
+        ASL is a leading supplier of panel wiring services. With an experienced
+        and efficient production team, we are renowned for our panel wiring
+        services that we provide on a fast and flexible turnaround.
 
 
         * Panel Wiring
