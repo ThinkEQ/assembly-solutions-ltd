@@ -13,16 +13,16 @@ introcol:
     **High Speed Wire & Cable Preparation**
 
 
-    ASL is a leading manufacturer of high volume custom-made wire assemblies. 
+    ASL is an established and efficient manufacturer of high volume custom-made wire assemblies. 
 
 
-    Equipped with the latest technology in automatic high speed machinery, we offer wire preparation services on an incredibly fast turnaround.  \
+    Equipped with the latest technology and automatic high speed machinery, our wire preparation services are produced to the highest standards and delivered on an fast turnaround.\
 
     \
 
-    Our services include cutting, stripping, terminating and tinning.
+    We manufacture wire and cable assemblies to customer specification and our full service includes; cutting, stripping, terminating and tinning.
   second: >-
-    **Watch our wire preparation video**
+    **Watch our Wire Preparation Video**
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Cp3lVNhtjrI?loop=1&playlist=Cp3lVNhtjrI' frameborder='0' allowfullscreen></iframe></div>
