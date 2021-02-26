@@ -47,18 +47,22 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
               <Heading textStyle="h1" fontSize="40px" marginBottom="20px">
                 All videos <sup>{videos && videos.length}</sup>
               </Heading>
-                <SimpleGrid minChildWidth={{base: "100%", md: "45%"}} padding={{base: "2", md:"8"}} spacing="40px">
+              <Box maxWidth="1300px" margin="0 auto">
+                  <SimpleGrid minChildWidth={{base: "100%", md: "45%"}} padding={{base: "2", md:"8"}} spacing="40px">
                   {videos.map((video, index) => {
                     return (
                       <CardVideo 
                         key={index}
-                        imgSrc={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`} 
+                        imgSrc={video.id}
+                        imglocal={video.image} 
                         title={video.name}
                         click={() => triggerModal(video.id)}
                       />
                     )
                   })} 
                 </SimpleGrid>
+              </Box>
+     
               
                 {pagination.numberOfPages > 1 &&
                   <Box display="flex" justifyContent="flex-end" padding={{base: "0 10px", md: "0 30px"}}>
@@ -117,6 +121,14 @@ query VideosIndexQuery($skip: Int!, $limit: Int!) {
           youtube {
             name
             id
+            image {
+              childImageSharp {
+                fluid(maxHeight: 600, quality: 80) {
+                  ...GatsbyImageSharpFluid_withWebp
+                  presentationHeight
+                }
+              }
+            }
           }
         }
       }
