@@ -13,10 +13,10 @@ introcol:
     **UK Manufactured Control Panels**
 
 
-    ASL is a build to print manufacturer of Control Panels.
+    ASL is an industry leading manufacture of electrical Control Panels.
 
 
-    Based in Bolton, we run an efficient manufacturing service that covers a range of control panel types, from small simple box build to highly complex panel build assembly.
+    We build panels from small simple box build up to highly complex nuclear control boxes. We supply into a range of industries including; Automotive, Utilities and Test & Measurement.
 
 
     * Electrical Control Panel Wiring
@@ -26,8 +26,6 @@ introcol:
     * Testing & Approval
 
     * ISO9001 Quality Approved
-
-    * Excellent Customer Service
   second: >-
     **Watch our control panel video**
 
