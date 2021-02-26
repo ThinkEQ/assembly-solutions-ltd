@@ -43,6 +43,8 @@ images:
     alt: Control Panels
   - image: /img/img_4005.jpg
     alt: Control Panels
+  - image: /img/control-panel-manufacturing.jpg
+    alt: Control Panels
 products:
   - Electrical Control Panels
   - Panel Wiring
