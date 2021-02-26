@@ -16,9 +16,8 @@ introcol:
     ASL is an established and efficient manufacturer of high volume custom-made wire assemblies. 
 
 
-    Equipped with the latest technology and automatic high speed machinery, our wire preparation services are produced to the highest standards and delivered on an fast turnaround.\
+    Equipped with the latest technology and automatic high speed machinery, our wire preparation services are produced to the highest standards and delivered on an fast turnaround.
 
-    \
 
     We manufacture wire and cable assemblies to customer specification and our full service includes; cutting, stripping, terminating and tinning.
   second: >-
@@ -46,57 +45,36 @@ products:
 layout:
   - type: column
     column:
-      title: Flexible quotes
+      title: ""
       text: >-
-        Everyone’s requirements are different and while we usually produce wires
-        and cables in high quantities, we’re more than happy to quote on lower
-        quantities. After all, great things come in small packages, right? 
+        **Industry leaders in Wire Preparation**
 
 
-        With wires produced from £0.02p each, we offer competitive quotes for all our customers on a wide variety of products. Our machines support a range of processing options so you can find exactly what you need, including wire marking with hot-stamp or inkjet markers.
+        With 25 years experience in wire preparation we are proud to be the preferred supplier to some of the worlds leading companies including Siemens and Stanley.
   - type: column
     column:
-      text: |-
-        * Cable preparation 
-        * Consumer unit cables 
-        * Earth strap 
-        * Ultrasonic cables
-      title: "We also offer:"
+      text: >-
+        **Quality Assurance**
+
+
+        An a ISO 9001 Quality accredited manufacturer, all our wire and cable preparation assemblies are made to the highest standard and given full electrical testing.
+      title: ""
   - type: column
     column:
-      title: Discover what sets ASL apart
+      title: ""
       text: >-
-        **Wire Preparation Cheaper than Overseas**
+        **Lean Manufacturing** 
 
 
-        Why import something when you can create it right here in the UK with very little labour input? While you might think you could get a better deal by taking it overseas, actually, we can guarantee we can compete in this area. 
-
-
-        With our high-quality machines churning out thousands of wires every day, we can keep our prices extremely low as well as guaranteeing you a fast turnaround. When you outsource abroad, you can also expect higher delivery costs and you aren’t always guaranteed the same quality that you can expect from a local manufacturer. Plus, if you have any problems, it’s much more difficult to resolve these when they’re thousands of miles away in a different time zone. 
-
-
-        As well, because our friendly family-run team are based in the UK, we’re running on the same time as you and there’s no language barrier to contend with – so we’re here when you need us. So, if you’re thinking about subcontracting your wire preparation overseas, why not get a quote from us first?
+        We pride ourselves on our efficient set up and a strong supply chain support being able to offer low prices.
   - type: column
     column:
-      title: China prices but better quality
+      title: ""
       text: >-
-        All our wire preparation jobs are done in our machines so we can our
-        high speed cut, strip and terminate machine so there is very little
-        labour involved. This means we can offer exceptionally low prices and
-        due to the speed we can deliver in no time! 
+        **Machinery Capability**
 
 
-        When it comes to finding the right cable assembly manufacturer, you don’t need to look any further than us. While many businesses believe that outsourcing this type work abroad is cheaper than looking in the UK, this is often a misconception. We offer competitive prices and a fast turnaround, as well as operating in the same time zone as you without any tricky language barriers to content with.  
-
-
-        **Just a few things we expect to help you with** 
-
-
-        * Reduce your wire preparation spend
-
-        * Improve the quality of your current wire preparation
-
-        * Speed up the lead time for your orders
+        Our machines are programmed for each job and monitored by our technical experts. Our machines guarantee consistent quality and reduce labour.
 seo:
   title: Wire Preparation | Cable Preparation | ASL
   description: Wire Preparation and cable preparation at low cost and on fast
