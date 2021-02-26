@@ -20,6 +20,8 @@ images:
     image: /img/control-panel.jpg
   - image: /img/img_4005.jpg
     alt: Control Panels
+  - image: /img/control-panel-manufacturing.jpg
+    alt: Control Panels
 layout:
   - type: column
     column:
