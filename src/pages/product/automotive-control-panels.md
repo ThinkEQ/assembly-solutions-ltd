@@ -9,6 +9,8 @@ usps:
   - usp: Low to high volume builds
 image: /img/automotive-control-panel.jpg
 images:
+  - image: /img/control-panel-manufacturing.jpg
+    alt: Control Panels
   - image: /img/asl-control-panel-assembly.jpg
     alt: Control Panels
   - image: /img/asl-control-panel-manufacture.jpg
