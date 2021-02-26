@@ -2,7 +2,7 @@
 templateKey: video-page
 title: Videos
 youtube:
-  - name: Who We Are
+  - name: Full Video
     id: wusos_tZNIQ
     image: /img/who-we-are-012.jpg
   - name: Cable & Wire Preparation
@@ -25,7 +25,7 @@ youtube:
     image: /img/our-people2.jpg
   - name: Outtakes
     id: a1WtEMgyijY
-    image: /img/outtakes2.jpg
+    image: /img/heavy-duty-cables2.jpg
 seo:
   title: Videos and Multimedia | Assembly Solutions Ltd
   description: Videos and Multimedia by Assembly Solutions Ltd. Contact us on
