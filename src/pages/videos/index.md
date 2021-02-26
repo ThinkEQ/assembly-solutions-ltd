@@ -5,7 +5,7 @@ youtube:
   - name: Full Video
     id: wusos_tZNIQ
     image: /img/who-we-are-012.jpg
-  - name: Cable & Wire Preparation
+  - name: Wire & Cable Preparation
     id: Cp3lVNhtjrI
     image: /img/wire-and-cable-preparation2.jpg
   - name: Cable Assembly
@@ -16,7 +16,7 @@ youtube:
     image: /img/wiring-harness2.jpg
   - name: Control Panels
     id: BG1WAnAd6mI
-    image: /img/control-panels2.jpg
+    image: /img/control-panels.jpg
   - name: Heavy Duty Cables
     id: jG3VVdSHQ3A
     image: /img/heavy-duty-cables2.jpg
