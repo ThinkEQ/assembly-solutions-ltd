@@ -13,7 +13,7 @@ introcol:
     **UK Manufactured Control Panels**
 
 
-    ASL is an industry leading manufacture of electrical Control Panels.
+    ASL is an industry leading manufacturer of custom-designed Control Panels.
 
 
     We build panels from small simple box build up to highly complex nuclear control boxes. We supply into a range of industries including; Automotive, Utilities and Test & Measurement.
