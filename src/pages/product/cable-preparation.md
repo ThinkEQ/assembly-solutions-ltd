@@ -1,7 +1,5 @@
 ---
 templateKey: product
-title: Cable Preparation
-subtitle: Wire & Cable Preparation
 usps: []
 related-products:
   - name: Cable Assemblies
@@ -18,9 +16,13 @@ related-products:
     slug: braded-cables
     image: /img/chemex.jpg
     alt: Braided Cables
+title: Cable Preparation
+subtitle: Wire & Cable Preparation
 image: /img/cable-preparation.jpg
 images:
   - image: /img/img_4054.jpg
+    alt: Cable Preparation
+  - image: /img/wire-cable-machinery.jpg
     alt: Cable Preparation
   - image: /img/img_4045.jpg
     alt: Cable Preparation
