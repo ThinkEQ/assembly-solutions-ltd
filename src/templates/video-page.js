@@ -47,7 +47,8 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
               <Heading textStyle="h1" fontSize="40px" marginBottom="20px">
                 All videos <sup>{videos && videos.length}</sup>
               </Heading>
-                <SimpleGrid minChildWidth={{base: "100%", md: "45%"}} padding={{base: "2", md:"8"}} spacing="40px">
+              <Box maxWidth="1300px" margin="0 auto">
+                  <SimpleGrid minChildWidth={{base: "100%", md: "45%"}} padding={{base: "2", md:"8"}} spacing="40px">
                   {videos.map((video, index) => {
                     return (
                       <CardVideo 
@@ -60,6 +61,8 @@ export const VideoIndexTemplate = ({ videos, pagination }) => {
                     )
                   })} 
                 </SimpleGrid>
+              </Box>
+     
               
                 {pagination.numberOfPages > 1 &&
                   <Box display="flex" justifyContent="flex-end" padding={{base: "0 10px", md: "0 30px"}}>

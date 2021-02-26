@@ -4,28 +4,28 @@ title: Videos
 youtube:
   - name: Who We Are
     id: wusos_tZNIQ
-    image: /img/asl-47.png
+    image: /img/who-we-are-012.jpg
   - name: Cable & Wire Preparation
     id: Cp3lVNhtjrI
-    image: /img/aslnew-16.jpg
+    image: /img/wire-and-cable-preparation2.jpg
   - name: Cable Assembly
     id: JM9UP2GiQ_M
-    image: /img/3.jpg
+    image: /img/cable-assembly2.jpg
   - name: Wiring Harnesses
     id: TTebZ3qU9sQ
-    image: /img/20200623_152755.jpg
+    image: /img/wiring-harness2.jpg
   - name: Control Panels
     id: BG1WAnAd6mI
-    image: /img/asl-control-panel-assembly.jpg
+    image: /img/control-panels2.jpg
   - name: Heavy Duty Cables
     id: jG3VVdSHQ3A
-    image: /img/7.jpg
+    image: /img/heavy-duty-cables2.jpg
   - name: Our People
     id: TIdtUZEsQxA
-    image: /img/asl-47.png
+    image: /img/our-people2.jpg
   - name: Outtakes
     id: a1WtEMgyijY
-    image: /img/amandaimage.png
+    image: /img/outtakes2.jpg
 seo:
   title: Videos and Multimedia | Assembly Solutions Ltd
   description: Videos and Multimedia by Assembly Solutions Ltd. Contact us on
