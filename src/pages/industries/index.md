@@ -2,7 +2,7 @@
 templateKey: industries-page
 title: Industries
 subtitle: We supply into a range of industries and deliver products worldwide
-image: /img/automotive-min.jpg
+image: /img/alexander-dennis-project.jpg
 testimonial:
   quote: "Excellent service, great quality and very few issues. We have been using
     ASL since 2013 and have been very satisfied with their work, delivery time
