@@ -37,6 +37,8 @@ images:
     alt: Cable Preparation
   - image: /img/img_4011.jpg
     alt: Cable Preparation
+  - image: /img/wire-preparation-01.png
+    alt: Cable Preparation
 layout:
   - type: column
     column:
