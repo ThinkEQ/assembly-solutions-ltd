@@ -41,6 +41,8 @@ images:
     alt: Cable Assembly
   - alt: Cable Assembly
     image: /img/aslnew-16.jpg
+  - image: /img/cable-assembly-01.png
+    alt: Cable Assembly
 products:
   - Cable Assemblies
   - Battery & HV Cables
