@@ -1,6 +1,9 @@
 ---
 templateKey: product
-usps: []
+usps:
+  - usp: UK Manufactured
+  - usp: Fast Turnaround
+  - usp: Excellent Service
 related-products:
   - name: Cable Assemblies
     slug: cable-assemblies
