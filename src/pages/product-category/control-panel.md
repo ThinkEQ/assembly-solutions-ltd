@@ -27,16 +27,16 @@ introcol:
 
     * ISO9001 Quality Approved
   second: >-
-    **Watch our control panel video**
+    **Watch our Control Panel Video**
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/BG1WAnAd6mI?loop=1&playlist=BG1WAnAd6mI' frameborder='0' allowfullscreen></iframe></div>
 images:
   - image: /img/control-panel-manufacturing.jpg
     alt: Control Panels
-  - image: /img/asl-control-panel-assembly.jpg
-    alt: Control Panels
   - image: /img/asl-control-panel-manufacture.jpg
+    alt: Control Panels
+  - image: /img/asl-control-panel-assembly.jpg
     alt: Control Panels
   - image: /img/control-panel-assemblies.jpg
     alt: Control Panels
@@ -56,9 +56,10 @@ layout:
   - type: column
     column:
       text: >-
-        We manufacture a wide range control panels for different industries and
-        applications from electrical power stations, to criminal secure vehicles
-        and swimming pools!
+        **Quality Control Panel Manufacture**
+
+
+        We manufacture a wide range control panels for different industries and applications from electrical power stations, to criminal secure vehicles and swimming pools!
 
 
         * Custodial Vehicle Panel Boxes
@@ -70,21 +71,14 @@ layout:
         * Winch mounted Vehicle Control Panels
 
         * Ultra-violet water treatment Control Panels
-
-        * Motor & Pump Drivers
-
-        * Drivers & Controllers
   - type: column
     column:
-      title: Quality Control
-      text: Quality is critical for all the products we manufacture, especially
-        control panels. We deliver into industries including Nuclear and
-        Utilities, so we have to take extra care ensuring that the products we
-        produce will perform reliably under their conditions. As a trusted
-        supplier of high reliability, high quality and technically advanced
-        components and products, we are the supplier of choice for an impressive
-        list of blue-chip companies including; Aston Martin, Siemens and
-        Vodafone.
+      title: ""
+      text: >-
+        **Quality Approved Panels**
+
+
+        Quality is critical for all the products we manufacture, especially control panels. We deliver into industries including Nuclear and Utilities, so we have to take extra care ensuring that the products we produce will perform reliably under their conditions. As a trusted manufacturer of high reliability control panels, we are preferred supplier to an impressive list of blue-chip companies including; Aston Martin, Siemens and Vodafone.
   - type: column
     column:
       title: Family Values
