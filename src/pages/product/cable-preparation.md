@@ -20,15 +20,13 @@ title: Cable Preparation
 subtitle: Wire & Cable Preparation
 image: /img/cable-preparation.jpg
 images:
-  - image: /img/img_4054.jpg
-    alt: Cable Preparation
   - image: /img/wire-cable-machinery-01.jpg
-    alt: Cable Preparation
-  - image: /img/wire-cable-machinery.jpg
     alt: Cable Preparation
   - image: /img/img_4045.jpg
     alt: Cable Preparation
   - image: /img/img_4030.jpg
+    alt: Cable Preparation
+  - image: /img/img_4054.jpg
     alt: Cable Preparation
   - image: /img/image0.jpg
     alt: Cable Preparation
