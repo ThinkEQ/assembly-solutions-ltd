@@ -38,8 +38,6 @@ images:
     alt: Wire Preparation
   - image: /img/img_4011.jpg
     alt: Wire Preparation
-  - image: /img/wire-cable-machinery.jpg
-    alt: Wire Preparation
 products:
   - Cable Preparation
 layout:
