@@ -69,8 +69,6 @@ layout:
         * Leak Detection Panels
 
         * Winch mounted Vehicle Control Panels
-
-        * Ultra-violet water treatment Control Panels
   - type: column
     column:
       title: ""
