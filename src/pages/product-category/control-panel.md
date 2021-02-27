@@ -56,7 +56,7 @@ layout:
   - type: column
     column:
       text: >-
-        **Quality Control Panel Manufacture**
+        **Control Panels for all Industries**
 
 
         We manufacture a wide range control panels for different industries and applications from electrical power stations, to criminal secure vehicles and swimming pools!
@@ -81,29 +81,21 @@ layout:
         Quality is critical for all the products we manufacture, especially control panels. We deliver into industries including Nuclear and Utilities, so we have to take extra care ensuring that the products we produce will perform reliably under their conditions. As a trusted manufacturer of high reliability control panels, we are preferred supplier to an impressive list of blue-chip companies including; Aston Martin, Siemens and Vodafone.
   - type: column
     column:
-      title: Family Values
-      text: As a family-run business we are passionate about building long lasting
-        relationships with customers. We don’t look for one-off orders, we look
-        for project partnerships that turn into repeat work. From point of
-        enquiry, right through to delivery, we give customers an experience
-        which is enjoyable and provides them with the best solution.
+      title: ""
+      text: >-
+        **Design & Development Support**
+
+
+        With 25 years of experience in control panel manufacture, we understand that customers often need our expertise to support with design and development. Our technical engineers can visit on-site to discuss projects and help engineer the most cost-effective solution.
   - type: column
     column:
-      title: Why ASL?
+      title: ""
       text: >-
-        We have been manufacturing electrical control panels for over 20 years
-        and in this time, we’ve developed many long lasting relationships.
+        **Get in touch**\
 
+        \
 
-        * Fast quote turnaround
-
-        * Support on any technical design challenges
-
-        * Instant meeting over zoom or factory visit
-
-        * Competitive prices
-
-        * Technical & knowledgeable engineers
+        Contact our team today to discuss your control panel requirements. Email enquiry@assembly-solutions.com with your enquiry or call 01204 51999 and speak to an electrical engineer.
 seo:
   title: "Control Panels: Control Panel Manufacturers UK"
   description: "Control Panel Manufacturers UK: Control Panel Solutions at Low
