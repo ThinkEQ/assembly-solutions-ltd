@@ -74,7 +74,7 @@ layout:
         **World Class Products**
 
 
-        Our wire preparation services are delivered into applications made by world leading manufacturer Siemens.
+        Our wire preparation services are delivered into applications made by world leading manufacturer Siemens. Read the full project case study [here](https://www.assembly-solutions.com/projects/siemens/).
 seo:
   title: Wire Preparation | Cable Preparation | ASL
   description: Wire Preparation and cable preparation at low cost and on fast
