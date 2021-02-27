@@ -28,6 +28,8 @@ introcol:
 images:
   - image: /img/wire-preparation-01.png
     alt: Wire Preparation
+  - image: /img/wire-preparation-02.png
+    alt: Wire Preparation
   - image: /img/img_4046.jpg
     alt: Wire Preparation
   - image: /img/wire-cable-machinery-01.jpg
@@ -39,8 +41,6 @@ images:
   - image: /img/image001.jpg
     alt: Wire Preparation
   - image: /img/img_4011.jpg
-    alt: Wire Preparation
-  - image: /img/wire-preparation-02.png
     alt: Wire Preparation
 products:
   - Cable Preparation
