@@ -1,10 +1,10 @@
 ---
 templateKey: project-article
-image: /img/cable-assemblies-stanley.png
+image: /img/stanley-security-project.jpg
 title: Stanley
 intro: Intro
 projectfeature:
-  image: /img/stanley-security-project.jpg
+  image: /img/aslnew-16.jpg
   name: Buyer, Stanley
   quote: The fact we have bought from ASL for 20 years pretty much says it all.
     They consistently deliver on time and act flexibly with urgent demands. The
