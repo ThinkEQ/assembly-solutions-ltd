@@ -71,10 +71,10 @@ layout:
     column:
       title: ""
       text: >-
-        **Machinery Capability**
+        **World Class Products**
 
 
-        Our machines are programmed for each job and monitored by our technical experts. Our machines guarantee consistent quality and reduce labour.
+        Our wire preparation services are delivered into applications made by world leading manufacturer Siemens.
 seo:
   title: Wire Preparation | Cable Preparation | ASL
   description: Wire Preparation and cable preparation at low cost and on fast
