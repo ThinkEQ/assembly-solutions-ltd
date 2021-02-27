@@ -6,10 +6,11 @@ intro: Intro here
 projectfeature:
   quote: ASL is without a doubt the best UK manufacturer of wiring looms and
     wiring harnesses. They have been our preferred supplier for 10 years because
-    the quality of products is excellent and they deliver when they say they
-    will (which is something my other suppliers don't do!). For us we find
-    working with ASL extremely easy, they are always quick to respond and
-    support with fast turnaround deliveries when we have urgent demands
+    their quality and attention to detail is none other than excellent and they
+    deliver when they say they will (which is something my other suppliers don't
+    do!). For us we find working with ASL extremely easy, they are always quick
+    to respond and support with fast turnaround deliveries when we have urgent
+    demands
   name: Electrical Engineering Manager, Alexander Dennis
   image: /img/asl-wiring-loom.jpg
 seo:
