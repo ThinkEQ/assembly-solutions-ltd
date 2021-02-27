@@ -23,7 +23,7 @@ youtube:
   - name: Our People
     id: TIdtUZEsQxA
     image: /img/our-people2.jpg
-  - name: Outtakes
+  - name: Funny Outtakes
     id: a1WtEMgyijY
     image: /img/heavy-duty-cables2.jpg
 seo:
