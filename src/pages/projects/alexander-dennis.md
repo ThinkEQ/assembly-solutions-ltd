@@ -22,7 +22,10 @@ seo:
 * Adapting to the green revolution of Electric and Hybrid technology
 * Fast production harnesses secures ASL future orders 
 
-Alexander Dennis is a global leader in the design and manufacture of double deck buses and is the UK’s largest bus and coach manufacturer.
+**Celebrating 10 productive years with Alexander Dennis**
+
+Alexander Dennis is a global leader in the design and manufacture of double deck buses and is the UK’s largest\
+bus and coach manufacturer.
 
 This year we celebrate 10 years since becoming their supplier and what an interesting journey it has been, adapting to the green revolution of electric and hybrid technology!
 
