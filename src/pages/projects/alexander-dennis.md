@@ -1,13 +1,13 @@
 ---
 templateKey: project-article
-image: /img/wiring-looms-alexander-dennis.png
+image: /img/alexander-dennis-project.jpg
 title: Alexander Dennis
 intro: Intro here
 projectfeature:
   quote: "ASL are a brilliant supplier who are always 100% committed to being
     flexible and helping as much as they can. "
   name: Electrical Engineering Manager, Alexander Dennis
-  image: /img/alexander-dennis-project.jpg
+  image: /img/asl-wiring-loom.jpg
 seo:
   title: Project Alexander Dennis Wiring Looms | ASL Customer Project
   description: Wiring Looms and Cable Harness manufactured for UK leading Bus
