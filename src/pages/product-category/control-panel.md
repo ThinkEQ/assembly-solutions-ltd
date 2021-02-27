@@ -91,11 +91,10 @@ layout:
     column:
       title: ""
       text: >-
-        **Get in touch**\
+        **Get in touch**
 
-        \
 
-        Contact our team today to discuss your control panel requirements. Email enquiry@assembly-solutions.com with your enquiry or call 01204 51999 and speak to an electrical engineer.
+        Contact our friendly team today to discuss your control panel requirements. Email enquiry@assembly-solutions.com or call 01204 51999.
 seo:
   title: "Control Panels: Control Panel Manufacturers UK"
   description: "Control Panel Manufacturers UK: Control Panel Solutions at Low
