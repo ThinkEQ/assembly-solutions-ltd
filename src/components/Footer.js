@@ -21,7 +21,7 @@ const SignUp = ({ isSubmitting }) => {
       <FormControl id="email" isInvalid={form.errors.email && form.touched.email}>
         <InputGroup size="lg">
           <Input {...field} borderRadius="3px" id="email" name="email" type="email" aria-label="email" color="blue.900" placeholder="name@email.com" borderColor="blue.900" border="none" height={{base: "51px", md:"72px"}} background="#fff" />
-          <InputRightElement width={{base: "110px", md:"175px"}} padding="0" children={<Button variant="solid" size="full" type="submit" isLoading={isSubmitting} loadingText="Submitting" paddingRight={{base: "0", md: "2.5rem"}} paddingLeft={{base: "0", md: "2.5rem"}} whiteSpace="nowrap">Subscribe</Button>} height={{base: "51px", md:"72px"}} background="green.900" fontWeight="bold" borderTopRightRadius="3px" borderBottomRightRadius="3px" />
+          <InputRightElement width={{base: "110px", md:"175px"}} padding="0" children={<Button variant="solid" size="full" type="submit" isLoading={isSubmitting} loadingText="Submitting" paddingRight={{base: "0", md: "2.5rem"}} paddingLeft={{base: "0", md: "2.5rem"}} whiteSpace="nowrap">Sign up</Button>} height={{base: "51px", md:"72px"}} background="green.900" fontWeight="bold" borderTopRightRadius="3px" borderBottomRightRadius="3px" />
         </InputGroup>
         <FormErrorMessage>{form.errors.email}</FormErrorMessage>
       </FormControl>
@@ -49,7 +49,7 @@ const Footer = ({ toggleDrawer }) => {
                 ASL <br/> Newsletter
               </Text>
               <Text {...para} fontSize={{base: "14px", lg: "18px"}}>
-                Subscribe to our newsletter <br/> for all the ASL news.
+                Sign up to our newsletter <br/> for the latest news.
               </Text>
             </Box>
           </Box>
@@ -84,9 +84,14 @@ const Footer = ({ toggleDrawer }) => {
               About
               </Link>
             </ListItem>
+            <ListItem {...para}>
+                <Link as={ReachLink} to="/team">
+                  Team
+                </Link>
+              </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/industries">
-                  Industries
+                <Link as={ReachLink} to="/videos">
+                  Videos
                 </Link>
               </ListItem>
               <ListItem {...para}>
@@ -100,8 +105,8 @@ const Footer = ({ toggleDrawer }) => {
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link as={ReachLink} to="/videos">
-                  Videos
+                <Link as={ReachLink} to="/industries">
+                  Industries
                 </Link>
               </ListItem>
               <ListItem {...para}>

@@ -84,7 +84,7 @@ return (
                 <Text textStyle="p" marginBottom={{base: 6, md: 12}} color={{base: "#fff", sm: "inherit"}} maxW={{base: "100%", md:"450px"}}>
                   Come and meet the friendly faces who strive for excellence in everything they do
                 </Text>
-                <Button variant="outline" maxWidth="151px" onClick={() => navigate('/team')}>Learn more</Button> 
+                <Button variant="outline" maxWidth="151px" onClick={() => navigate('/team')}>Meet team</Button> 
             </Box>
           </Box>
       </Box>

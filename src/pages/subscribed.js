@@ -8,7 +8,7 @@ export default () => (
       <Box textStyle="section">
           <Box textStyle="container">
               <Heading as="h1" textStyle="h2" maxWidth={{base: "100%", xl:"90%"}}  marginBottom="40px">
-                Thank you for subscribing to our newsletter. To unsubscribe please email <Link textStyle="h2" href="mailto:enquiries@assembly-solutions.com" target="_blank" isExternal>enquiries@assembly-solutions.com</Link>
+                Thanks, you're all signed up! <br /><br />You will be the first to hear our latest news.
             </Heading>
           </Box>
       </Box>

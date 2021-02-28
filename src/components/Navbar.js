@@ -99,7 +99,10 @@ const MainNav = () => (
       <Link as={ReachLink} to="/about" size="lg" variant="nav" >About</Link>
     </Box>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/industries" size="lg" variant="nav">Industries</Link>
+      <Link as={ReachLink} to="/team" size="lg" variant="nav">Team</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/videos" size="lg" variant="nav">Videos</Link>
     </Box>
     <Box as="li" display="block">
       <Link as={ReachLink} to="/news" size="lg" variant="nav">News</Link>
@@ -108,11 +111,10 @@ const MainNav = () => (
       <Link as={ReachLink} to="/projects" size="lg" variant="nav">Projects</Link>
     </Box>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/team" size="lg" variant="nav">Team</Link>
+      <Link as={ReachLink} to="/industries" size="lg" variant="nav">Industries</Link>
     </Box>
-    <Box as="li" display="block">
-      <Link as={ReachLink} to="/videos" size="lg" variant="nav">Videos</Link>
-    </Box>
+    
+    
     <Box display={{base: "none", lg: "flex"}} alignItems="center" margin="20px 0">
     <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
       <SVG name="youtube" fill="#fff" />

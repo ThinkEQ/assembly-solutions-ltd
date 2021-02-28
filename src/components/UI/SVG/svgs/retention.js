@@ -18,6 +18,7 @@ const SVG = ({
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     >
+    <title>Customer Retention</title>
     <defs>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
