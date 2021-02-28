@@ -26,14 +26,14 @@ introcol:
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/JM9UP2GiQ_M?loop=1&playlist=JM9UP2GiQ_M' frameborder='0' allowfullscreen></iframe></div>
 images:
+  - image: /img/cable-assembly-01.png
+    alt: Cable Assembly
   - image: /img/cable-assembly-asl3rdnovember-74.jpg
     alt: Cable Assembly
     products: Cable Preperation
   - image: /img/cable-assembly-img_4030.jpg
     alt: Cable Assembly
     products: Cable Preperation
-  - image: /img/cable-assembly-01.png
-    alt: Cable Assembly
   - products: Cable Preperation
     image: /img/cable-assembly-image0.jpg
     alt: Cable Assembly
