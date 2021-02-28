@@ -13,13 +13,13 @@ introcol:
     **UK Manufactured Wiring Harnesses**
 
 
-    ASL is a trusted and leading manufacturer of custom-made wiring harnesses.
+    ASL is a fast paced and forward thinking manufacturer of quality custom-made wiring harnesses.
 
 
-    With 25 years of experience in wiring harnesses, we supply to world class companies including; Aston Martin, Ford and Rolls Royce.
+    Our harness production lines are streamlined for efficient manufacture, complete with 10m long wiring boards and side stock filled trolleys for all materials and tooling.
 
 
-    All our harnesses are built against customer drawing, and our skilled and quality conscious team are fully trained and technically well experienced harness builders. Every loom is made to perfection and turned around on an efficient 3-6 weeks.
+    As a leading UK manufacturer we supply into a range of Industries including; Automotive, Agriculture and Utilities.
   second: >-
     **Watch our Wiring Harness Video**
 
@@ -53,7 +53,7 @@ layout:
         **Quality Wiring Harness** 
 
 
-        As an ISO 9001 approved manufacturer we produce wiring harnesses to the highest quality and carry out a full electrical test on every product before despatch. Our harness team are trained to IPC A-620 standards and understand the importance of reliability.
+        As an ISO 9001 approved manufacturer we produce wiring harnesses to the highest quality and carry out a full electrical test on every product before despatch. Our harness team are trained to IPC A-620 standards and understand the importance of reliability. All our harnesses are built against customer drawing, and our skilled and quality conscious team are fully trained and technically well experienced harness builders. Every loom is made to perfection and turned around on an efficient 3-6 weeks.
   - type: column
     column:
       title: ""
