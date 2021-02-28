@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: £200,000 Investment to support Medical sector
+title: £200,000 Machinery Investment to support Medical sector
 date: 2020-08-18T20:01:54.638Z
 image: /img/asl3rdnovember-54.jpg
 seo:
