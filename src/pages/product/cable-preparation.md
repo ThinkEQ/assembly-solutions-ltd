@@ -46,10 +46,10 @@ layout:
     column:
       title: Custom-made Cable Preparation
       text: >-
-          ASL is a UK manufacturer of custom-made cable preparation.
+        ASL is a UK manufacturer of custom-made cable preparation.
 
 
-        As the leading sub-contractor in our industry, we deliver a high quality and tailored cable preparation service that is cost effective for any application and industry.  Our cable assembly production lines are streamlined for efficient manufacture and all our production operators are accredited to IPC A-620 – the standards for cable assemblies.
+        As the leading sub-contractor in our industry, we deliver a high quality and tailored cable preparation service that is cost effective for any application and industry. Our cable assembly production lines are streamlined for efficient manufacture and all our production operators are accredited to IPC A-620 – the standards for cable assemblies.
 
 
         Our cable assembly production lines are streamlined for efficient manufacture and all our production operators are accredited to IPC A-620 – the standards for cable assemblies.
@@ -77,12 +77,12 @@ layout:
         We generally work from drawings, specifications and bills of materials, but if required we can reverse engineer products from a sample or prototype. Our engineers can visit customer factories to discuss products in detail to come up with the best solution.
   - type: testimonial
     testimonial:
-      quote:  We continue to buy cable assemblies from ASL because their quality is
+      quote: We continue to buy cable assemblies from ASL because their quality is
         excellent, prices are competitive and they are a friendly company to
         work with. They have been one of our top suppliers for 10 years because
         they always deliver on time and we never have issues with quality. We
         highly recommend ASL.
-      name: "Henry Moreta, Buyer - Brompton Bicycle "
+      name: Henry Moreta, Buyer - Brompton Bicycle
 seo:
   title: Cable Preparation | Wire Preparation | ASL
   description: Cable Preparation and Wire Preparation. Cut, Strip and Terminate
