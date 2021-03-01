@@ -1,7 +1,7 @@
 ---
 templateKey: industries-page
 title: Industries
-subtitle: We supply into a range of industries and deliver products worldwide
+subtitle: We supply into a range of demanding Industries including Medical & Nuclear
 image: /img/alexander-dennis-project.jpg
 testimonial:
   quote: '"Excellent service, great quality and very few issues. We have been
@@ -33,14 +33,18 @@ seo:
 
 We supply into a range of demanding and safety critical industries that depend on our high quality and reliable cable assemblies and control panels.
 
-From small wire preparation assemblies for Security alarms, to large Bus wiring looms, and control panels for Nuclear power stations, there really is quite a contrast!
+**Supporting the NHS**
+
+We have supplied the Medical Industry for 20 years with electrical cables to power medical equipment, and most recently seen demand soar in this sector. Our cables have been installed into medical equipment including; Covid testing apparatus, hospital beds and ventilation equipment. 
+
+**Automotive and Agriculture**
+
+The Automotive and Agriculture Industries are two industries that we supply wiring harnesses into. 
 
 Our wealth of knowledge and experience in all these areas has grown naturally and happened because we enjoy the new challenges that every project brings. 
 
-* Agriculture
-* Automotive
+* Agriculture & Automotive
 * Medical
-* Nuclear
 * Security
 * Test & Measurement
-* Utilities
+* Nuclear & Utilities
