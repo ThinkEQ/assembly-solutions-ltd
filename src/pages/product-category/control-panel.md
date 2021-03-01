@@ -34,9 +34,9 @@ introcol:
 images:
   - image: /img/control-panel-manufacturing.jpg
     alt: Control Panels
-  - image: /img/control-panel.jpg
-    alt: Control Panels
   - image: /img/asl-control-panel-manufacture.jpg
+    alt: Control Panels
+  - image: /img/control-panel.jpg
     alt: Control Panels
   - image: /img/asl-control-panel-assembly.jpg
     alt: Control Panels
