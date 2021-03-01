@@ -26,6 +26,10 @@ introcol:
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/TTebZ3qU9sQ?loop=1&playlist=TTebZ3qU9sQ' frameborder='0' allowfullscreen></iframe></div>
 images:
+  - image: /img/wiring-loom-harness.jpg
+    alt: Wiring Harness
+  - image: /img/cable-assembly-01.png
+    alt: Wiring Harness
   - image: /img/wiring-harness-wiring-loom.jpg
     alt: Wiring Harness
   - image: /img/asl-wiring-harness.jpg
@@ -35,8 +39,6 @@ images:
   - image: /img/asl3rdnovember-7.jpg
     alt: Wiring Harness
   - image: /img/cable-looms-3-.jpg
-    alt: Wiring Harness
-  - image: /img/wiring-loom-harness.jpg
     alt: Wiring Harness
 products:
   - Wiring Loom
