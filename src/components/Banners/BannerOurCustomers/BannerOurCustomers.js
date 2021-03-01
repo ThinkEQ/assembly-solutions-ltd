@@ -61,7 +61,7 @@ const BannerOurCustomers = () => {
     return (
         <Fragment>
             <Box padding="30px 0">
-             <Box display="flex" textStyle="section" flexDirection={{base: "column", lg: "row"}} maxWidth="1600px" margin="0 auto" justifyContent="space-between" alignItems="flex-start">
+             <Box display="flex" textStyle="section" flexDirection={{base: "column", lg: "row"}} maxWidth="1600px" margin="0 auto"  justifyContent="space-between" alignItems="flex-start">
                 <Box width={{base: "100%", lg:"50%"}} marginBottom={{base: "50px", lg: "0"}}>
                     <Heading textStyle="h2" marginBottom="20px">
                         Our customers

@@ -63,12 +63,10 @@ return (
               </Box>
             </Box>   
       </Box>
-      <Box textStyle="section" as="section" id="what-we-do-home" minHeight={{base: "600px", lg:"800px"}} position="relative" background="gradient.50">
-        <Box textStyle="container" position="relative">
+      <Box as="section" id="what-we-do-home">
           <CarouselWhatWeDo />
-        </Box>
       </Box>
-      <Box as="section" >
+      <Box as="section" background="#fff" >
           <BannerOurCustomers />
       </Box>
       <Box as="section" textStyle="section" backgroundImage={{base: mobile,  sm: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height="auto" minHeight={{base: "auto", sm: "400px",  md: "auto", xxl: "700px"}} width="100%" position="relative">
