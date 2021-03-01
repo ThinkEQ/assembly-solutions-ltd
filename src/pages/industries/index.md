@@ -29,9 +29,9 @@ seo:
     and Utilities. Visit our website Assembly Solutions and discover our market
     range in detail.
 ---
-**Supplying into a range of interesting Industries**
+**Supplying Demanding & Critical Industries**
 
-We are definitely diverse when it comes to the Industries and different applications that we manufacture and supply into.
+We supply into a range of demanding and safety critical industries that depend on our high quality and reliable cable assemblies and control panels.
 
 From small wire preparation assemblies for Security alarms, to large Bus wiring looms, and control panels for Nuclear power stations, there really is quite a contrast!
 
