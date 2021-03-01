@@ -8,15 +8,17 @@ usps:
   - usp: ISO 9001 Quality Approved
 image: /img/cable-assemblies.jpg
 images:
+  - image: /img/cable-assembly-01.png
+    alt: Cable Assemblies
   - image: /img/cable-assembly-asl3rdnovember-74.jpg
+    alt: Cable Assembly
+    products: Cable Preperation
+  - image: /img/cable-assembly-img_4030.jpg
     alt: Cable Assembly
     products: Cable Preperation
   - products: Cable Preperation
     image: /img/cable-assembly-image0.jpg
     alt: Cable Assembly
-  - image: /img/cable-assembly-img_4030.jpg
-    alt: Cable Assembly
-    products: Cable Preperation
   - image: /img/cable-assembly-img_4032.jpg
     alt: Cable Assembly
   - image: /img/cable-assembly-img_4733.jpg
