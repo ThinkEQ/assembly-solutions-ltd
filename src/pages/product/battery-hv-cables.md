@@ -1,7 +1,7 @@
 ---
 templateKey: product
 title: Battery & HV Cables
-subtitle: Battery & High Voltage Cables 
+subtitle: Battery & High Voltage Cables
 usps:
   - usp: UK Made in Bolton
   - usp: Fast 4 Week Delivery
