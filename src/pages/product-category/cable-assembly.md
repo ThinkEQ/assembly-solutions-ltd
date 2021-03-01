@@ -104,11 +104,9 @@ layout:
         our cable assemblies are built to be durable.
   - type: column
     column:
-      title: What our customers think
-      text: As well as having recently been awarded a contract from UK Bus
-        Manufacturer Optare, our cable assembly solutions were a part of their
-        contract for the Greater Manchester Transport Authority who required 66
-        Hybrid Buses.
+      title: Get in touch
+      text: Contact us on 01204 521999 or email enquiry@assembly-solutions.com and
+        we'll be straight back to you.
 seo:
   title: Cable Assembly | Cable Assembly Manufacturer | ASL
   description: Assembly Solutions are the UK's leading Cable Assembly
