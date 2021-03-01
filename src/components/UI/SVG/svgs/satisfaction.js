@@ -42,10 +42,10 @@ const SVG = ({
                         <circle id="Oval-41" fill="#383838" mask="url(#mask-3)" cx="90.5" cy="9.5" r="9.5"></circle>
                         <circle id="Oval-41-Copy" fill="#505050" mask="url(#mask-3)" cx="83.5" cy="9.5" r="18.5"></circle>
                     </g>
-                    <text id="99%" font-family="Titillium Web" font-size="30" font-weight="normal" letter-spacing="-1.05882353" fill="#171717">
+                    <text id="99%" font-family="Titillium Web" font-size="32" font-weight="normal" letter-spacing="-1.05882353" fill="#171717">
                         <tspan x="65" y="89">99%</tspan>
                     </text>
-                    <text id="Customer-Satisfactio" font-family="Titillium Web" font-size="14" font-weight="normal" letter-spacing="-0.494117647" fill="#171717">
+                    <text id="Customer-Satisfactio" font-family="Titillium Web" font-size="16" font-weight="normal" letter-spacing="-0.494117647" fill="#171717">
                         <tspan x="62.2899472" y="109">Customer </tspan>
                         <tspan x="57.0643153" y="123">Satisfaction</tspan>
                     </text>
