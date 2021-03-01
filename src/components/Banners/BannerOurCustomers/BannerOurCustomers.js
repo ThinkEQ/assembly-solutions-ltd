@@ -72,10 +72,10 @@ const BannerOurCustomers = () => {
                     <Image src={Google} pointerEvents="none" alt="Google reviews" />
                 </Box>
                 <Box display="flex" alignSelf="center" justifyContent="space-around" height="100%" width={{base: "100%", lg:"40%"}}>
-                    <Box width="45%" maxW="180px">
+                    <Box width="48%" maxW="200px">
                        <SVG name="satisfaction" height="100%" width="100%" />
                     </Box>
-                    <Box width="45%" maxW="180px">
+                    <Box width="48%" maxW="200px">
                         <SVG name="retention" height="100%" width="100%" />
                     </Box>
                 </Box>

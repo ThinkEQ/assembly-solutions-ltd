@@ -70,7 +70,7 @@ return (
           <BannerOurCustomers />
       </Box>
       <Box as="section" textStyle="section" backgroundImage={{base: mobile,  sm: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height="auto" minHeight={{base: "auto", sm: "400px",  md: "auto", xxl: "700px"}} width="100%" position="relative">
-          <Box textStyle="container" height="100%">
+          <Box textStyle="container" height="100%" paddingY={{base: 6, md:12}}>
               <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
                 <Box marginBottom={{base: "10px", md:"25px"}} fill="#fff" width={{base:"100px", md: "150px"}}>
                   <Box display={{base: "none", sm: "block"}}><SVG name="twentyEmblem" width="100%" height="100%"  /></Box>
@@ -79,10 +79,7 @@ return (
                 <Heading textStyle="h2" color={{base: "#fff", sm: "inherit"}}>
                   Meet the team
                 </Heading>
-                <Text textStyle="p" marginBottom={{base: 6, md: 12}} color={{base: "#fff", sm: "inherit"}} maxW={{base: "100%", md:"450px"}}>
-                  Come and meet the friendly faces who strive for excellence in everything they do
-                </Text>
-                <Button variant="outline" maxWidth="151px" onClick={() => navigate('/team')}>Meet team</Button> 
+                <Button variant="solid" maxWidth="151px" onClick={() => navigate('/team')}>Meet team</Button> 
             </Box>
           </Box>
       </Box>
