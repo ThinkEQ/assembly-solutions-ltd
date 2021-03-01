@@ -52,7 +52,7 @@ products:
 layout:
   - type: column
     column:
-      title: Things we think you probably want to know
+      title: Cost-Effective Cable Assembly
       text: >-
         * We manufacture any type of cable assembly
 
