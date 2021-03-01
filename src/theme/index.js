@@ -174,7 +174,8 @@ const overrides = {
             700: '#D9D9D9'
         },
         gradient: {
-            900: 'linear-gradient(-45deg, #00AB69 0%, #00ABAC, #00AB69, #00ABAC 100%)',
+            900: 'linear-gradient(-45deg, #00ABAC 0%, #00ABAC, #00AB69, #00ABAC, #00ABAC 100%)',
+            //900: 'linear-gradient(-45deg, #00AB69 0%, #00ABAC, #00AB69, #00ABAC 100%)',
             950: 'linear-gradient(-45deg, #FFF0 100%, #FFF, #FFF, #FFF 0%))',
             800: 'linear-gradient(184.08deg, #1B2CC1 0%, #091540 100%)',
             700: 'linear-gradient(270deg, rgba(36,155,171,0.05) 0%, rgba(36,155,171,0.5) 31.24%, #249BAB 100%)',
