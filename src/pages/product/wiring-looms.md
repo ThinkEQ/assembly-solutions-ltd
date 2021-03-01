@@ -9,6 +9,10 @@ usps:
 image: /img/wiring-loom.jpg
 images:
   - alt: Wiring Harness
+    image: /img/wiring-loom-harness.jpg
+  - image: /img/cable-assembly-01.png
+    alt: Wiring Loom
+  - alt: Wiring Harness
     image: /img/wiring-harness-wiring-loom.jpg
   - alt: Wiring Harness
     image: /img/asl-wiring-harness.jpg
@@ -18,8 +22,6 @@ images:
     image: /img/asl3rdnovember-7.jpg
   - alt: Wiring Harness
     image: /img/cable-looms-3-.jpg
-  - alt: Wiring Harness
-    image: /img/wiring-loom-harness.jpg
 layout:
   - type: column
     column:
