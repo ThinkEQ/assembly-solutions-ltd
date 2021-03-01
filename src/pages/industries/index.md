@@ -4,11 +4,11 @@ title: Industries
 subtitle: We supply into a range of industries and deliver products worldwide
 image: /img/alexander-dennis-project.jpg
 testimonial:
-  quote: "Excellent service, great quality and very few issues. We have been using
-    ASL since 2013 and have been very satisfied with their work, delivery time
-    scales, responsiveness to issues, and staff attitude towards customers has
-    been great. "
-  name: A happy customer in the Automotive industry.
+  quote: '"Excellent service, great quality and very few issues. We have been
+    using ASL since 2013 and have been very satisfied with their work, delivery
+    time scales, responsiveness to issues, and staff attitude towards customers
+    has been great"'
+  name: Customer, Automotive Industry
 industries:
   - name: Agriculture
     image: /img/agriculture-min.jpg
@@ -29,19 +29,15 @@ seo:
     and Utilities. Visit our website Assembly Solutions and discover our market
     range in detail.
 ---
-We are definitely diverse when it comes to the Industries and different applications that we manufacture and supply into. 
+**Supplying into a range of interesting Industries**
 
-</br>
+We are definitely diverse when it comes to the Industries and different applications that we manufacture and supply into.
 
-From small wire preparation assemblies for Security alarms, to large Bus wiring looms, and control panels for Nuclear power stations, there really is quite a contrast! 
-
-<br/>
+From small wire preparation assemblies for Security alarms, to large Bus wiring looms, and control panels for Nuclear power stations, there really is quite a contrast!
 
 Our wealth of knowledge and experience in all these areas has grown naturally and happened because we enjoy the new challenges that every project brings. 
 
-<br/>
-
-*  Agriculture
+* Agriculture
 * Automotive
 * Medical
 * Nuclear
