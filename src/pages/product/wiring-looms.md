@@ -6,7 +6,6 @@ usps:
   - usp: UK Made in Bolton
   - usp: 3-6 Week Delivery
   - usp: ISO 9001 Quality Approved
-  - usp: 25 Years of Wiring Looms
 image: /img/wiring-loom.jpg
 images:
   - alt: Wiring Harness
