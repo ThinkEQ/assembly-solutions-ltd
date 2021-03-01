@@ -1,7 +1,7 @@
 ---
 templateKey: project-article
 image: /img/stanley-security-project.jpg
-title: Stanley
+title: Stanley Security
 intro: Intro
 projectfeature:
   image: /img/aslnew-16.jpg
@@ -15,11 +15,13 @@ seo:
   description: Cable Assemblies and Wiring Looms manufactured for world leading
     security company Stanley Security Solutions
 ---
-* Celebrating a successful 20 Year Partnership 
+**Celebrating a Successful 20 Year Partnership**
+
+* Celebrating a 20 Year Partnership 
 * Exploring opportunities creates expansion in product offering 
 * Stanley praise ASL for Superb Staff
 
-Stanley Security is a manufacturer of CCTV and Access Control systems. 
+Stanley is a Security is a manufacturer of CCTV and Access Control systems. 
 
 Stanley is a special customer of ours we we have built a strong and successful 20 year partnership, after first meeting them back in 1997!
 
@@ -33,7 +35,7 @@ In the early days we only supplied Stanley with Electromagnetic Coils for their 
 
 During our customer feedback survey in 2020, we were delighted to hear Stanley comment on our Strengths, which were;
 
-​**ASL Strengths​**
+**Why Stanley choose us;**
 
 * Reliable delivery dates 
 * Flexible to help with urgent demands 
