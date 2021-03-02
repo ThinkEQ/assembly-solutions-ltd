@@ -48,13 +48,13 @@ team-members:
   - name: Oliver Balshaw
     jobtitle: Purchasing Manager
     bio: Oliver is a man of many hats but his core focus is managing our Supply
-      Chain and purchasing materials. He is due to qualify in CIPS (Chartered
-      Institute of Procurement & Supply) in summer 2021, after 4 lengthy years
-      of night classes and exams. Oliver has over 10 years of production
-      manufacturing experience after working hands on and learning from his
-      father from a very young age. His skills have recently been utilised to
-      support our production team with project management for an urgent order.
-      Oliver is an F1 fanatic and an awesome snowboarder!
+      Chain. He is due to qualify in CIPS (Chartered Institute of Procurement &
+      Supply) in summer 2021, after 4 lengthy years of night classes and exams.
+      Oliver has over 10 years of production manufacturing experience after
+      working hands on and learning from his father from a very young age. His
+      skills have recently been utilised to support our production team with
+      project management for an urgent order. Oliver is an F1 fanatic and an
+      awesome snowboarder!
     image: /img/team4-2-.png
     interests:
       - formula1
