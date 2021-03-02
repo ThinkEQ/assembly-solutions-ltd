@@ -22,7 +22,7 @@ youtube:
     image: /img/outtakes2.jpg
   - name: Our People
     id: TIdtUZEsQxA
-    image: /img/our-people2.jpg
+    image: /img/aslnew-16.jpg
   - name: Funny Outtakes
     id: a1WtEMgyijY
     image: /img/heavy-duty-cables2.jpg
