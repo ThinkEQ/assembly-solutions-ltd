@@ -123,8 +123,22 @@ export const ProductCategoryPageTemplate = ({ title, contentComponent, subtitle,
         </Box>
       </Box>}
 
-      {/** Carousel */}
-      {relatedProducts.length > 1 && 
+      {/** Reel */}
+    {imgCarousel.length > 0 &&
+      <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "300px", md: "450px", lg: "600px"}} width="100%" overflow="hidden">
+          <CarouselReel data={imgCarousel} />
+      </Box>
+    }
+
+    {/**Main content */}
+    <Box as="section" textStyle="section">
+      <Box textStyle="container">
+        <LayoutCMS data={mainContent} />
+      </Box>
+    </Box>
+
+    {/** Carousel */}
+    {relatedProducts.length > 1 && 
         <Box as="section" width="100%" maxHeight="600px" display={{base: "none", lg: "block"}} margin={{base:"30px 0", lg: "50px 0"}}>
           <Carousel
             arrows={false}
@@ -198,19 +212,7 @@ export const ProductCategoryPageTemplate = ({ title, contentComponent, subtitle,
           </Box>
       </Box>}
 
-    {/**Main content */}
-    <Box as="section" textStyle="section">
-      <Box textStyle="container">
-        <LayoutCMS data={mainContent} />
-      </Box>
-    </Box>
-
-    {/** Reel */}
-    {imgCarousel.length > 0 &&
-      <Box as="section" backgroundColor="neutral.900" position="relative" height={{base: "300px", md: "450px", lg: "600px"}} width="100%" overflow="hidden">
-          <CarouselReel data={imgCarousel} />
-      </Box>
-    }
+    
 
       <Box as="section" textStyle="section">
         <BannerUSP />
