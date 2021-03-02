@@ -28,6 +28,8 @@ introcol:
 images:
   - image: /img/wire-preparation-02.png
     alt: Wire Preparation
+  - image: /img/wire-preparation-03.jpg
+    alt: Wire Preparation
   - image: /img/img_4046.jpg
     alt: Wire Preparation
   - image: /img/wire-preparation-01.png
