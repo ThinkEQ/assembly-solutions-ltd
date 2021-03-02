@@ -13,13 +13,13 @@ introcol:
     **Cable Assembly Manufacturer**
 
 
-    ASL is a build to print manufacturer of Cable Assemblies.
+    ASL is an experienced and established manufacturer of quality custom-made Cable Assembly products.
 
 
-    Based in our Bolton factory, every cable assembly is carefully manufactured by our experienced and efficient team.
+    Producing over 1,000 cable assemblies per week, our friendly and focused team of 70 are fully trained on all cable assembly production processes including soldering and tinning.
 
 
-    We are ISO 9001 Quality approved and all our production team are fully trained to IPC A-620 – the quality certification for the requirements and acceptance of cable assembly and wiring loom assemblies.
+    We have been manufacturing cable assemblies for 25 years and proud to supply some the worlds leading companies including Aston Martin, Ford and Siemens.
   second: >-
     **Watch our Cable Assembly Video**
 
