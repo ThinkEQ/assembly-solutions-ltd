@@ -19,7 +19,7 @@ youtube:
     image: /img/control-panels.jpg
   - name: Heavy Duty Cables
     id: jG3VVdSHQ3A
-    image: /img/outtakes2.jpg
+    image: /img/heavy-duty-cable-assembly.png
   - name: Our People
     id: TIdtUZEsQxA
     image: /img/aslnew-16.jpg
