@@ -138,7 +138,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/about-us/index.md"
+      - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
         editor:
