@@ -41,6 +41,8 @@ images:
     alt: Cable Preparation
   - image: /img/wire-preparation-01.png
     alt: Cable Preparation
+  - image: /img/heavy-duty-cable-assembly.png
+    alt: Cable Preparation
 layout:
   - type: column
     column:
