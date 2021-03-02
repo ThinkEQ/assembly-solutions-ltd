@@ -17,11 +17,7 @@ seo:
 ---
 **Celebrating a Successful 20 Year Partnership**
 
-* Celebrating a 20 Year Partnership 
-* Exploring opportunities creates expansion in product offering 
-* Stanley praise ASL for Superb Staff
-
-Stanley is a Security is a manufacturer of CCTV and Access Control systems. 
+Stanley Security is a manufacturer of CCTV and Access Control systems. 
 
 Stanley is a special customer of ours we we have built a strong and successful 20 year partnership, after first meeting them back in 1997!
 
