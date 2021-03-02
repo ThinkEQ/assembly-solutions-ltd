@@ -18,11 +18,6 @@ seo:
   description: Wiring Looms and Cable Harness manufactured for UK leading Bus
     Manufacturer Alexander Dennis
 ---
-* Celebrating 10 years with Alexander Dennis
-* Adapting to the green revolution of Electric and Hybrid technology
-* Fast production harnesses secures ASL future orders 
-
-\
 **Celebrating 10 productive years with Alexander Dennis**
 
 Alexander Dennis is a global leader in the design and manufacture of double deck buses and is the UK’s largest bus and coach manufacturer.
