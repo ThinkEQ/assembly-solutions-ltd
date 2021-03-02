@@ -8,8 +8,7 @@ team-members:
       father Terry taught him how to wire his first plug aged 4! Attending
       Manchester University to qualify in Electrical Engineering, Graham went on
       to work for electrical giants Phillips and Triscan before creating ASL.
-      Graham is the current UK's Cycling Champion after winning the title in
-      2020!
+      Graham is the UK Cycling Champion after winning the title in 2020!
     interests:
       - cycling
       - golf
@@ -160,7 +159,7 @@ team-members:
   - name: Adam Tunnah
     jobtitle: Costing Engineer
     bio: >-
-      Adam is our costing king who's expertise is driving down costs to secure
+      Adam is our costing king whos expertise is driving down costs to secure
       new business. His role is to carry out costings for parts by obtaining
       prices from suppliers and studying customer drawings to understand labour
       time. After joining in 2018 through an Apprenticeship scheme, Adam has
