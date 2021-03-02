@@ -1,8 +1,7 @@
 ---
 templateKey: industries-page
 title: Industries
-subtitle: "We supply into a range of demanding Industries including Automotive
-  and Medical "
+subtitle: "Powering Industries including Automotive and Medical "
 image: /img/alexander-dennis-project.jpg
 testimonial:
   quote: '"Excellent service, great quality and very few issues. We have been
