@@ -13,7 +13,7 @@ youtube:
     image: /img/cable-assembly2.jpg
   - name: Wiring Harnesses
     id: TTebZ3qU9sQ
-    image: /img/wiring-harness2.jpg
+    image: /img/wiring-loom-harness.jpg
   - name: Control Panels
     id: BG1WAnAd6mI
     image: /img/control-panels.jpg
