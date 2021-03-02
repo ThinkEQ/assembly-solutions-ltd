@@ -16,13 +16,8 @@ seo:
   description: Cable Assemblies and Wire Preparation manufactured for world
     leading technology company Siemens
 ---
-**Supplying Wire Prep to World Leader Siemens** 
+**Supplying Wire Prep to World Leader Siemens**
 
-* ASL secure Siemens cable assembly business 
-* 50,000 wires produced per day on high speed machines 
-* Quality is critical for worldwide distribution 
-
-\
 Siemens is a world leading engineering & technology company, and is the largest industrial manufacturing company in Europe.
 
 We supply a range of products to Siemens including;
