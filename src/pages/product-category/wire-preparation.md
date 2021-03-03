@@ -15,7 +15,7 @@ introcol:
 
     \
 
-    ASL is an established and efficient manufacturer of high volume custom-made wire assemblies. 
+    ASL is an established and efficient specialist of high volume custom-made wire and cable preparation. 
 
 
     Equipped with the latest technology and automatic high speed machinery, our wire preparation services are produced to the highest standards and delivered on an fast turnaround.
