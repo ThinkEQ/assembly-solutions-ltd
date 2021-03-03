@@ -10,22 +10,13 @@ usps:
   - usp: ISO 9001 Quality Approved
 introcol:
   first: >-
-    **UK Manufactured Control Panels**
+    ### **Control Panel Manufacturer**
 
 
-    ASL is an industry leading manufacturer of custom-designed Control Panels.
+    ASL is a reliable industry leading manufacturer of quality custom-designed Control Panels.
 
 
-    We build panels from small simple box build up to highly complex nuclear control boxes. We supply into a range of industries including; Automotive, Utilities and Test & Measurement.
-
-
-    * Electrical Control Panel Wiring
-
-    * CAD & Development 
-
-    * Testing & Approval
-
-    * ISO9001 Quality Approved
+    We have been building electrical control panels for 25 years and supply into some of the worlds most demanding and safety critical industries including Nuclear and Medical.
   second: >-
     **Watch our Control Panel Video**
 
