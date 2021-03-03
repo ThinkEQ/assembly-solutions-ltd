@@ -17,6 +17,9 @@ introcol:
 
 
     We have been building electrical control panels for 25 years and supply into some of the worlds most demanding and safety critical industries including Nuclear and Medical.
+
+
+    We provide a personable service which is tailored to your specific requirements. Our technical control panel engineers are dedicated to work with customers from supporting the initial design, right through to prototype and full volume production.
   second: >-
     **Watch our Control Panel Video**
 
