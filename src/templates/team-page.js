@@ -54,14 +54,12 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
                 })}
             </SimpleGrid>
             <Box marginTop="30px" textAlign="center">
-            <Button variant="solid" onClick={() => navigate('/about')}>Find out more about us</Button> 
+            <Button variant="solid" onClick={() => navigate('/about')}>Our People Video</Button> 
             </Box>
         </Box>
       </Box>
-      <Box textStyle="section" as="section" minHeight={{base: "600px", lg:"800px"}} background="gradient.50">
-        <Box textStyle="container" position="relative">
+      <Box as="section">
           <CarouselWhatWeDo />
-        </Box>
       </Box>
       <Modal scrollBehavior="outside"  isOpen={isOpen} autoFocus={false} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
       <ModalOverlay />
