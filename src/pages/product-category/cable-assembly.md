@@ -10,7 +10,7 @@ usps:
   - usp: ISO 9001 Quality Approved
 introcol:
   first: >-
-    **Cable Assembly Manufacturer**
+    ### **Cable Assembly Manufacturer**
 
 
     ASL is an experienced and established manufacturer of quality custom-made Cable Assembly products.
