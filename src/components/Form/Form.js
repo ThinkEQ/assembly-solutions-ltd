@@ -22,13 +22,13 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, url 
          ) {
            errors.email = 'Invalid email address';
          } 
-         if(!values.firstName && setRules.includes('firstName')) {
+         if(!values.firstName.trim() && setRules.includes('firstName')) {
              errors.firstName = 'Required'
          }
-         if(!values.lastName && setRules.includes('lastName')) {
+         if(!values.lastName.trim() && setRules.includes('lastName')) {
             errors.lastName = 'Required'
         }
-        if(!values.enquiry && setRules.includes('enquiry')) {
+        if(!values.enquiry.trim() && setRules.includes('enquiry')) {
             errors.enquiry= 'Required'
         }
 
