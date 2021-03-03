@@ -17,26 +17,16 @@ seo:
     harness manufacturer based in Bolton. Call 01204 521999 for more information
     on our products.
 ---
-### A friendly family run company
+### A leading manufacturer in electrical wiring assemblies
 
-ASL is an industry leading sub-contract manufacturer of electrical wiring assemblies and control panels.
+Assembly Solutions is a thriving Bolton based sub-contract manufacturer of electrical wiring assemblies.
 
-Based in Bolton, we manufacture every product to customer specification, and deliver into a wide range of demanding Industries including; Automotive, Agricultural, Medical and Security.
+Created in 1995 by our Founder & Chairman Graham Balshaw, we have recently celebrated our 25th Anniversary.
 
-In October 2020 we celebrated our 25th Anniversary which was a milestone we are delighted to have reached.
+Today the company is passionately run by the second generation after Graham passed the ownership down to his three children; Gareth, Sophie and Oliver.
 
-We also saw a second celebration in 2020 when Founder Graham Balshaw passed down ownership of the company, to his three children; Gareth, Sophie and Oliver.
+As a family run business we drive the values of respect, loyalty and teamwork through-out all departments and we're proud to have a team that work together and deliver outstanding quality every day.
 
-### Dedicated to efficient manufacturing.
-
-We are absolutely dedicated to efficient manufacturing, delivering with Quality and Speed. 
+We are on an exciting journey of growth after seeing sales increase by 20% in 2020 and forecast further growth throughout 2021 and 2022.
 
 As an ISO 9001 Quality Approved manufacturer, we are the trusted supplier to an impressive list of world leading companies including; Aston Martin, Ford, Siemens and Vodafone.
-
-Every production line is streamlined for fast manufacture, so that we can deliver products in the quickest possible time.
-- ISO 9001 Quality Approved
-- Equipped with latest wire and cable prep machinery
-- Streamlined manufacture to offer short lead times
-- 100% Quality Control on all assemblies
-
-We are a thriving company on a journey of growth and continually investing in our people and equipment. Please get in touch if you would like to work with us.
