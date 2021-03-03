@@ -10,16 +10,16 @@ usps:
   - usp: ISO 9001 Quality Approved
 introcol:
   first: >-
-    ### **Cable Assembly Manufacturer**
+    ### **UK Cable Assembly Manufacturer**
 
 
-    ASL is an experienced and established manufacturer of quality custom-made Cable Assembly products.
+    We are the preferred supplier of Cable Assembly products to some of the Worlds leading companies including Aston Martin, Siemens and Vodafone.
 
 
     Producing over 1,000 cable assemblies per week, our friendly and focused team of 70 are fully trained on all cable assembly production processes including soldering and tinning.
 
 
-    We have been manufacturing cable assemblies for 25 years and proud to supply some the worlds leading companies including Aston Martin, Ford and Siemens.
+    With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
   second: >-
     **Watch our Cable Assembly Video**
 
