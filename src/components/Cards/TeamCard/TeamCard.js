@@ -8,7 +8,7 @@ import { HTMLContent, MDXWrapper, toHTML } from '../../Content'
 
 const TeamHeader = ({name}) => {
     return (
-        <Box display="flex" padding="20px" justifyContent="space-between" alignItems="center" border="none" borderColor="blue.900" backgroundColor="blue.900">
+        <Box display="flex" padding="20px 30px" justifyContent="space-between" alignItems="center" border="none" borderColor="blue.900" backgroundColor="blue.900">
             <Heading as="h2" fontSize={{base: "20px", md:"35px"}} lineHeight="42px" color="#fff">
                 About {name}
             </Heading>
