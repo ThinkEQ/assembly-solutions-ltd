@@ -21,7 +21,7 @@ seo:
 
 Assembly Solutions is a thriving Bolton based sub-contract manufacturer of electrical wiring assemblies.
 
-Created in 1995 by our Founder & Chairman Graham Balshaw, we have recently celebrated our 25th Anniversary.
+Created in 1995 by our Founder & Chairman Graham Balshaw, ASL is well established and recently celebrated its 25th Anniversary.
 
 Today the company is passionately run by the second generation after Graham passed the ownership down to his three children; Gareth, Sophie and Oliver.
 
