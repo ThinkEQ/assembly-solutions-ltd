@@ -2,7 +2,7 @@
 templateKey: about-page
 path: /about
 title: About us
-subtitle: ASL is a thriving manufacturer of cable assemblies, wiring harnesses and control panels
+subtitle: About Assembly Solutions
 intro: >-
   In October 2020 we celebrated 25 years in business. This anniversary followed
   another big milestone where Founder Graham Balshaw passed ASL down to his
