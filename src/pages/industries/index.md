@@ -42,7 +42,7 @@ We enjoy and thrive off being involved in some of the most innovative and ground
 
 **Medical and Supporting the NHS**
 
-We have supplied the Medical Industry for 20 years with electrical cables to power medical equipment, and most recently seen demand soar in this sector. Our cables have been installed into medical equipment including; Covid testing apparatus, hospital beds and ventilation equipment. \
+The Medical Industry has seen extreme pressure these last 12 months and we've been challenged to meet some demanding lead times from medical equipment manufacturers. Passionate to support the industry with a fast turnaround and immediate changes to production, we're extremely proud of our flexible team who have worked an extensive amount of over-time to support in a time of crisis. Our cable assemblies and wiring looms have been delivered worldwide and installed into medical equipment including; covid testing apparatus, hospital beds and ventilation equipment. \
 \
 **Industries we supply;**
 
