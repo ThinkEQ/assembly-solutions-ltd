@@ -19,7 +19,7 @@ seo:
 ---
 ### A leading manufacturer in electrical wiring assemblies
 
-Assembly Solutions is a thriving Bolton based sub-contract manufacturer of electrical wiring assemblies.
+Assembly Solutions is a thriving Bolton based sub-contract manufacturer of electrical wiring assemblies and control panels.
 
 Created in 1995 by our Founder & Chairman Graham Balshaw, ASL is well established and recently celebrated its 25th Anniversary.
 
