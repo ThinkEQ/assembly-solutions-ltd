@@ -34,7 +34,7 @@ seo:
 ---
 ### **Supplying Industries Worldwide**
 
-It is exciting to supply and be involved with projects carried out in some of the worlds most fast moving and innovative Industries including; Automotive, Medical, Nuclear and Energy.
+It is exciting to manufacture and supply into some of the worlds most innovative Industries including; Automotive, Medical, Nuclear and Energy.
 
 **Automotive** 
 
