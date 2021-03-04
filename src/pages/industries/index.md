@@ -1,7 +1,7 @@
 ---
 templateKey: industries-page
 title: Industries
-subtitle: Industries we Supply
+subtitle: Supplying Industries Worldwide
 image: /img/alexander-dennis-project.jpg
 testimonial:
   quote: "\"ASL is without a doubt the best UK manufacturer of wiring looms and
@@ -32,7 +32,7 @@ seo:
     and Utilities. Visit our website Assembly Solutions and discover our market
     range in detail.
 ---
-**Supplying Demanding & Critical Industries**
+### **Supplying Industries Worldwide**
 
 We supply into a range of demanding and safety critical industries that depend on our high quality and reliable cable assemblies and control panels.
 
