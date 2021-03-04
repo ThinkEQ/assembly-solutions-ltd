@@ -1,6 +1,6 @@
 ---
 templateKey: team-page
-title: Our Team
+title: Meet the team
 team-members:
   - bio: Graham created Assembly Solutions in 1995 aged 35 after always having a
       passion to building a leading electrical sub-contract manufacturer.

@@ -54,21 +54,19 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
                 })}
             </SimpleGrid>
             <Box marginTop="30px" textAlign="center">
-            <Button variant="solid" onClick={() => navigate('/about')}>Find out more about us</Button> 
+            <Button variant="solid" onClick={() => navigate('/about')}>Our People Video</Button> 
             </Box>
         </Box>
       </Box>
-      <Box textStyle="section" as="section" minHeight={{base: "600px", lg:"800px"}} background="gradient.50">
-        <Box textStyle="container" position="relative">
+      <Box as="section">
           <CarouselWhatWeDo />
-        </Box>
       </Box>
       <Modal scrollBehavior="outside"  isOpen={isOpen} autoFocus={false} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
       <ModalOverlay />
         <ModalContent padding="0" marginTop="0rem" top={{base: "0", md:"50%"}} transform={{base: "none", md:"translateY(-50%) !important"}} minWidth="70vw">
           <ModalHeader padding="0">
             <TeamHeader name={teamMember.name} />
-            <ModalCloseButton color="#fff" padding="20px" />
+            <ModalCloseButton color="#fff" padding="20px" borderRadius="50%" _hover={{ backgroundColor: "neutral.900", borderRadius: "50%", color: "blue.900"}} />
           </ModalHeader>
           <ModalBody padding="0">
             <TeamBody iconList={teamMember.interests} bio={teamMember.bio} linkedIn={teamMember.linkedIn} />
