@@ -1,7 +1,7 @@
 ---
 templateKey: industries-page
 title: Industries
-subtitle: Industries we supply
+subtitle: Industries we Supply
 image: /img/alexander-dennis-project.jpg
 testimonial:
   quote: "\"ASL is without a doubt the best UK manufacturer of wiring looms and
