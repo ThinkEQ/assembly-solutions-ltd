@@ -36,11 +36,9 @@ seo:
 
 It is exciting to supply and be involved with projects carried out in some of the worlds most fast moving and innovative Industries including; Automotive, Medical, Nuclear and Energy.
 
-**Automotive & Agriculture**
+**Automotive** 
 
-We enjoy and thrive off being involved in some of the most innovative and ground-breaking Automotive projects that are changing the future of vehicles. 
-
- 
+We enjoy and thrive off being involved in some of the most innovative and ground-breaking Automotive projects ever, that are changing the future of vehicles. With electric and hybrid vehicles increasing in demand we have adapted to this ever-growing revolution and work with world leading Automotive manufacturers including; Aston Martin, Ford and Vodafone Automotive. 
 
 **Medical and Supporting the NHS**
 
@@ -48,7 +46,8 @@ We have supplied the Medical Industry for 20 years with electrical cables to pow
 \
 **Industries we supply;**
 
-* Agriculture & Automotive
+* Agriculture
+* Automotive
 * Medical
 * Security
 * Test & Measurement
