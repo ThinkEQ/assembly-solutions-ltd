@@ -27,14 +27,14 @@ industries:
     image: /img/nuclear-min.jpg
     alt: Nuclear
 seo:
-  title: Industries We Serve | Assembly Solutions
+  title: Industries We Supply | Assembly Solutions
   description: Industries we supply into include; Automotive, Nuclear, Security
     and Utilities. Visit our website Assembly Solutions and discover our market
     range in detail.
 ---
 ### **Supplying Industries Worldwide**
 
-We supply into a range of demanding and safety critical industries that depend on our high quality and reliable cable assemblies and control panels.
+It is exciting to supply and be involved with projects carried out in some of the worlds most fast moving and innovative Industries including; Automotive, Medical, Nuclear and Energy.
 
 **Supporting the NHS**
 
