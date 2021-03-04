@@ -36,15 +36,17 @@ seo:
 
 It is exciting to supply and be involved with projects carried out in some of the worlds most fast moving and innovative Industries including; Automotive, Medical, Nuclear and Energy.
 
-**Supporting the NHS**
+**Automotive & Agriculture**
 
-We have supplied the Medical Industry for 20 years with electrical cables to power medical equipment, and most recently seen demand soar in this sector. Our cables have been installed into medical equipment including; Covid testing apparatus, hospital beds and ventilation equipment. 
+We enjoy and thrive off being involved in some of the most innovative and ground-breaking Automotive projects that are changing the future of vehicles. 
 
-**Automotive and Agriculture**
+ 
 
-The Automotive and Agriculture Industries are two industries that we supply wiring harnesses into. 
+**Medical and Supporting the NHS**
 
-Our wealth of knowledge and experience in all these areas has grown naturally and happened because we enjoy the new challenges that every project brings. 
+We have supplied the Medical Industry for 20 years with electrical cables to power medical equipment, and most recently seen demand soar in this sector. Our cables have been installed into medical equipment including; Covid testing apparatus, hospital beds and ventilation equipment. \
+\
+**Industries we supply;**
 
 * Agriculture & Automotive
 * Medical
