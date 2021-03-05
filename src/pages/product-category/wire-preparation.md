@@ -13,8 +13,6 @@ introcol:
     #### **High Volume Wire & Cable Preparation**
 
 
-    \
-
     ASL is an established and efficient specialist of high volume custom-made wire and cable preparation. 
 
 
