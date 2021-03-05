@@ -1,6 +1,6 @@
 ---
 templateKey: team-page
-title: Meet the team
+title: Team
 team-members:
   - bio: Graham created Assembly Solutions in 1995 aged 35 after always having a
       passion to building a leading electrical sub-contract manufacturer.
@@ -173,7 +173,7 @@ team-members:
       - football
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
 seo:
-  title: Meet the ASL Team | Get to know our People
-  description: Meet the Team at Assembly Solutions. Contact us on 01204 521999 for
-    more information.
+  title: Meet the Assembly Solutions Team | Get to know our People
+  description: Meet our experienced and qualified team who are customer focused
+    and committed to delivering a quality service.
 ---
