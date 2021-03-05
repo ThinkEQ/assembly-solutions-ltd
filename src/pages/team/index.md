@@ -104,7 +104,7 @@ team-members:
       - hiking
       - church
     linkedin: https://www.linkedin.com/in/gareth-edwards-370509119/
-  - name: Amanda Freeman
+  - name: Amanda Freeman ATT
     jobtitle: Accounts Manager
     bio: >-
       Amanda is a qualified and committed Accounts professional who has been a
