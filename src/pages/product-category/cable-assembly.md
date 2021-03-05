@@ -10,7 +10,7 @@ usps:
   - usp: ISO 9001 Quality Approved
 introcol:
   first: >-
-    #### **UK Cable Assembly Manufacturer**
+    ### **UK Cable Assembly Manufacturer**
 
 
     We are the preferred supplier of Cable Assembly products to some of the worlds leading companies including Aston Martin, Siemens and Vodafone.
