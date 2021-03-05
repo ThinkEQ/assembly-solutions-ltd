@@ -13,7 +13,7 @@ team-members:
       - cycling
       - golf
     name: Graham Balshaw
-    jobtitle: Founder & Chairman
+    jobtitle: Founder & Chairman BSc
     image: /img/team1-1-.png
   - name: Gareth Balshaw
     jobtitle: Managing Director
@@ -30,11 +30,11 @@ team-members:
       - cycling
       - hiking
     linkedin: https://www.linkedin.com/in/gareth-balshaw-1b100018/
-  - name: Sophie Balshaw
+  - name: Sophie Balshaw DipM
     jobtitle: Marketing Executive
     bio: Sophie is our creative marketing executive who specialises in digital
       marketing and advertising. Her work has led to generating some of our
-      biggest customers and contracts that have contributed to the recent rapid
+      biggest customers and contracts that have contributed to the companies
       growth. With over 10 years experience in sales and marketing, she is a
       passionate and talented team player who is focused today on marketing
       strategies, campaign execution and customer experience. Sophie is a lover
