@@ -19,7 +19,6 @@ const SVG = ({
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-    <title>549916A6-7537-4798-A7CB-7A55DF15CAEB</title>
     <g id="Desktop" stroke={stroke} strokeWidth="1" fill="none" fillRule="evenodd">
         <g id="Artboard" transform="translate(-150.000000, -1422.000000)" fill={fill} fillRule="nonzero">
             <g id="linkedin" transform="translate(150.000000, 1422.000000)">
