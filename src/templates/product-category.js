@@ -152,11 +152,16 @@ export const ProductCategoryPageTemplate = ({ title, contentComponent, subtitle,
                   <Box onClick={(e) => {
                     if (isMoving) e.preventDefault()
                     else { nav(`/${item.node.fields.slug}`) }}} 
+                    margin="0 10px"
+                    overflow="hidden"
+                    borderRadius="3px"
                     cursor="pointer" _active={{cursor: "grabbing"}} padding="0 5px" width="calc(100% - 10px)" height="457px" maxHeight="457px" position="relative">
-                    <Box position="absolute" pointerEvents="none" height="100%" width="calc(100% - 10px)" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="5px" background="rgba(9,21,64,0.5)" />
-                    <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
-                    <Text textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
-                    {item.node.frontmatter.title}
+                    <Box position="absolute" pointerEvents="none" height="100%" width="100%" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="0px" background="rgba(9,21,64,0.5)" />
+                    <Box overflow="hidden" borderRadius="3px" height="100%" width="105%" transform="scale(1.1)" filter="brightness(100%)" background="rgba(9,21,64,0.5)" transition=".6s ease-in-out" _hover={{width: "97%", filter:"brightness(50%)"}}>
+                      <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
+                    </Box>
+                    <Text textAlign="center" zIndex="75" pointerEvents="none" fontSize={{base: "34px", lg:"44px"}} color="#fff" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
+                      {item.node.frontmatter.title}
                     </Text>
                 </Box>
                 )
