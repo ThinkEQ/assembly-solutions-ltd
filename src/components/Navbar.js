@@ -79,72 +79,60 @@ const ContactForm = ({ isSubmitting }) => {
 }
 
 
-const MainNav = () => (
-  <Box display="flex" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} justifyContent="space-around" paddingBottom={{base: "40px", lg: "0"}}>
-  <Box as="ul" paddingBottom="20px" position="relative" _after={{ 
+const MainNav = ({ onClose}) => (
+  <Box paddingBottom={{base: "40px", lg: "0"}}>
+  <Box display="flex" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} justifyContent="space-around">
+   <Box as="ul" paddingBottom="20px" position="relative" _after={{ 
     display: {base: "none", lg: "block"},
     position: "absolute",
     content: "''",
     top:  "20px",
-    right: "-20px",
+    right: "-40px",
     opacity: "0.3",
     height: "70%",
     width: "1px",
     background: "#fff"
   }}>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/" size="lg" variant="nav">Home</Link>
+      <Link as={ReachLink} to="/" onClick={onClose} size="lg" variant="nav">Home</Link>
     </Box>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/about" size="lg" variant="nav" >About</Link>
+      <Link as={ReachLink} to="/about" onClick={onClose} size="lg" variant="nav" >About</Link>
     </Box>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/team" size="lg" variant="nav">Team</Link>
+      <Link as={ReachLink} to="/team" onClick={onClose} size="lg" variant="nav">Team</Link>
     </Box>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/videos" size="lg" variant="nav">Videos</Link>
+      <Link as={ReachLink} to="/videos" onClick={onClose} size="lg" variant="nav">Videos</Link>
     </Box>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/news" size="lg" variant="nav">News</Link>
+      <Link as={ReachLink} to="/news" onClick={onClose} size="lg" variant="nav">News</Link>
     </Box>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/projects" size="lg" variant="nav">Projects</Link>
+      <Link as={ReachLink} to="/projects" onClick={onClose} size="lg" variant="nav">Projects</Link>
     </Box>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/industries" size="lg" variant="nav">Industries</Link>
-    </Box>
-    
-    
-    <Box display={{base: "none", lg: "flex"}} alignItems="center" margin="20px 0">
-    <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
-      <SVG name="youtube" fill="#fff" />
-    </Link>
-    <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
-      <SVG name="linkedin" fill="#fff" />
-    </Link>
-    <Link href="https://www.instagram.com/assemblysolutionsltd" marginRight="15px" target="_blank" isExternal cursor="pointer">
-      <SVG name="instagram" fill="#fff" />
-    </Link>
-      <Text color="#fff" fontSize="18px" marginRight="10px">
-        ASL &copy;2021
-      </Text>
+      <Link as={ReachLink} to="/industries" onClick={onClose} size="lg" variant="nav">Industries</Link>
     </Box>
   </Box>
   <Box as="ul" textDecoration="none">
-    <Box as="li" display="block">
-      <Link as={ReachLink} to="/wire-preparation" size="lg" variant="nav">Wire Preparation</Link>
-    </Box>
-    <Box as="li" display="block">
-     <Link as={ReachLink} to="/cable-assembly" size="lg" variant="nav">Cable Assembly</Link>
-    </Box>
-    <Box as="li" display="block">
-     <Link as={ReachLink} to="/wiring-harness" size="lg" variant="nav">Wiring Harness</Link>
-    </Box>
-    <Box as="li" display="block">
-    <Link as={ReachLink} to="/control-panels" size="lg" variant="nav">Control Panels</Link>
+      <Box as="li" display="block">
+        <Link as={ReachLink} to="/wire-preparation" onClick={onClose} size="lg" variant="nav">Wire Preparation</Link>
+      </Box>
+      <Box as="li" display="block">
+      <Link as={ReachLink} to="/cable-assembly" onClick={onClose} size="lg" variant="nav">Cable Assembly</Link>
+      </Box>
+      <Box as="li" display="block">
+      <Link as={ReachLink} to="/wiring-harness" onClick={onClose} size="lg" variant="nav">Wiring Harness</Link>
+      </Box>
+      <Box as="li" display="block">
+      <Link as={ReachLink} to="/control-panels" onClick={onClose} size="lg" variant="nav">Control Panels</Link>
+      </Box>
     </Box>
   </Box>
-  <Box display={{base: "flex", lg: "none"}} alignItems="center" margin={{base: "20px 0", lg: "0"}}>
+ 
+ 
+  <Box display="flex" alignItems="center" margin={{base: "20px 0px", lg: "0 70px"}} paddingBottom="20px">
     <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
       <SVG name="youtube" fill="#fff" />
     </Link>
@@ -217,7 +205,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
   
   switch(menu) {
     case 'nav':
-      menuDisplay = <MainNav />
+      menuDisplay = <MainNav onClose={onClose} />
       break
     case 'contact':
       menuDisplay = <ContactUs />
