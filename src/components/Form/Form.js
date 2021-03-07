@@ -15,7 +15,7 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, url 
        validate={values => {
          const errors = {};
          const numbers = /^[0-9]+$/
-         if (!values.email) {
+         if (!values.email.trim()) {
            errors.email = 'Required';
          } else if (
            !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(values.email)
