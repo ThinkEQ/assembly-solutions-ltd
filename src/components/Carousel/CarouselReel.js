@@ -44,8 +44,10 @@ const CarouselReel = ({ data }) => {
             >
             {data.map((img, index) => {
                 return (
-                  <Box width={{base: "80%", md: "100%"}} cursor="grab" _active={{cursor: "grabbing"}} maxHeight="400px" layerStyle={isLargerThan900 ? "brightness" : ""} height="100%">
+                  <Box width={{base: "75%", md: "98%"}} borderRadius="3px" overflow="hidden" cursor="grab" _active={{cursor: "grabbing"}} maxHeight="400px" height="100%">
+                    <Box overflow="hidden" borderRadius="3px" height="100%" width={{base: "100%", md:"105%"}} transform="scale(1.1)" filter="brightness(100%)" background="rgba(9,21,64,0.5)" transition=".6s ease-in-out" _hover={{width: "98%", filter:"brightness(50%)"}}>
                       <PreviewCompatibleImage imageInfo={img.image} borderRadius="3px" height="100%" width="98%" />
+                    </Box>
                   </Box>
                   )
             })}
