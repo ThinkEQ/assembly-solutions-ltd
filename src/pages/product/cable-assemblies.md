@@ -37,7 +37,7 @@ layout:
         We have been making cable assemblies for 25 years and over this time built a wealth of knowledge and experience from working with a range of different industries including; Automotive, Agriculture and Test & Measurement.
 
 
-        Our services are tailored specific to your cable assembly requirements and our prices will be cost-effective for your application.
+        Our services are tailored specific to your [cable assembly](www.assembly-solutions.com/cable-assembly) requirements and our prices will be cost-effective for your application.
   - type: column
     column:
       title: Range of Cable Assemblies
@@ -56,10 +56,11 @@ layout:
     column:
       title: Want a quick quote?
       text: >-
-        We thrive off being a fast paced team and giving customers a service
-        that is quicker than Usain Bolt in an Olympic sprint. Email your
-        drawings to enquiry@assembly-solutions.com and we’ll be straight back to
-        you with prices. 
+        We thrive off being a fast paced team and giving customers a speedy
+        service. Email your [custom cable
+        assembly](www.assembly-solutions.com/cable-assembly) drawings to
+        enquiry@assembly-solutions.com and we’ll be straight back to you with
+        prices. 
 
 
         Our super sales engineers are here to help at any time so if would like to chat with us about your cable assemblies, call  01204 521999 and let’s get started!
