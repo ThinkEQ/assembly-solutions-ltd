@@ -26,12 +26,12 @@ This year we celebrate 10 years since becoming their supplier and what an intere
 
 Over the years we have built a portfolio of products that we manufacture for Alexander Dennis including;
 
-* Electric Bus Wiring Harnesses 
-* Hybrid Bus Wiring Harnesses 
-* High Voltage Battery Cables 
-* Control Panels
+* [Electric Bus Wiring Harnesses](https://www.assembly-solutions.com/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) 
+* [Hybrid Bus Wiring Harnesses](https://www.assembly-solutions.com/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) 
+* [High Voltage Battery Cables](https://www.assembly-solutions.com/battery-and-hv-cables) 
+* [Control Panels](https://www.assembly-solutions.com/control-panels)
 
-In our spacious and bright factory, we manufacture these wiring harnesses over a built up to 10 meter long technical CAD drawing. Every drawing includes cable lengths and all connectors to ensure nothing is missed. Upon completion every harness is passed through our QA area to be electrically tested, ensure that there are no faults. 
+In our spacious and bright factory, we manufacture these [wiring harnesses](www.assembly-solutions.com/wiring-harness) over a built up to 10 meter long technical CAD drawing. Every drawing includes cable lengths and all connectors to ensure nothing is missed. Upon completion every harness is passed through our QA area to be electrically tested, ensure that there are no faults. 
 
 Being in a demanding industry where lead time is vital, especially for VOR's, we have proven to Alexander Dennis that we can deliver a fast and flexible turnaround - which is probably why they continue to buy from us!
 
