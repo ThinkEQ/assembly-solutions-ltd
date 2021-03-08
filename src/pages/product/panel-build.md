@@ -50,7 +50,7 @@ layout:
         in many different industries including; Automotive, Rail and Utilities.
 
 
-        With 25 years of experience we understand how important cost and reliability is. To ensure every project is a success, we work closely with our customers from the costing stage right through to production, focusing on producing panels that are cost effective and fit for purpose.
+        With 25 years of experience we understand how important cost and reliability is. To ensure every [control panel](www.assembly-solutions.com/control-panels) project is a success, we work closely with our customers from the costing stage right through to production, focusing on producing panels that are cost effective and fit for purpose.
   - type: column
     column:
       title: 100% Electrical Testing
@@ -60,8 +60,7 @@ layout:
         bespoke test equipment designed specifically for the control panel.
 
 
-
-        We are committed to supporting customers as best we can and usually assist with the initial design by bringing our engineering expertise to every panel wiring project.
+        We are committed to supporting customers as best we can and usually assist with the initial design by bringing our engineering expertise to every [control panel](www.assembly-solutions.com/control-panels) wiring project.
   - type: testimonial
     testimonial:
       quote: We have a great relationship with ASL and have worked with them for many
