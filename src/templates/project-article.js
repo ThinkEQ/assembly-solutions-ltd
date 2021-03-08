@@ -31,33 +31,31 @@ export const ProjectArticleTemplate = ({
           </Heading>
         </Box>
       </Box>
-      <Box as="section" paddingTop="0 !important" backgroundColor="neutral.900">
+      <Box as="section" textStyle="section" paddingTop="0 !important" backgroundColor="neutral.900">
+        <Box textStyle="container">
           <Box marginBottom="50px">
             <PreviewCompatibleImage imageInfo={img} />
           </Box>
-          <Box textStyle="section">
-            <Box textStyle="container">
-              
-              {/**Main body content */}
-              <Box maxWidth={{base: "100%", lg:"60%"}} margin="0 auto">
-                  <MDXWrapper>
-                    <CMSContent content={content} /> 
-                </MDXWrapper>
-              </Box>
+         
+          {/**Main body content */}
+          <Box maxW={{base: "100%", lg: "60%"}} margin="0 auto">
+            <MDXWrapper>
+                <CMSContent content={content} /> 
+            </MDXWrapper>
             
-
-              {/**Feature image + testimonial */}
-              {feature && 
-                <Box display="flex" flexDirection={{base: "column", lg: "row"}} justifyContent="space-between" margin="20px 0" padding="30px 0">
-                  <Box width={{base: "100%", lg: "48%"}}>
-                    <PreviewCompatibleImage imageInfo={feature.image} />
-                  </Box>
-                  <Box width={{base: "100%", lg: "48%"}} display="flex" marginTop={{base: "20px", lg: "0"}}>
-                    <Testimonial author={feature.name} quote={feature.quote} />
-                  </Box>
-                </Box>}
-            </Box>       
-        </Box>
+        
+            {/**Feature image + testimonial */}
+            {feature && 
+              <Box display="flex" flexDirection={{base: "column", lg: "row"}} justifyContent="space-between" margin="20px 0" padding="30px 0">
+                <Box width={{base: "100%", lg: "48%"}}>
+                  <PreviewCompatibleImage imageInfo={feature.image} />
+                </Box>
+                <Box width={{base: "100%", lg: "48%"}} display="flex" marginTop={{base: "20px", lg: "0"}}>
+                  <Testimonial author={feature.name} quote={feature.quote} />
+                </Box>
+              </Box>}
+            </Box>
+          </Box>
       </Box>
       <BannerLearnMore />
     </Fragment>
