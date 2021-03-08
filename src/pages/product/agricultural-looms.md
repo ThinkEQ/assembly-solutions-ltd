@@ -38,10 +38,11 @@ layout:
     column:
       title: Low Prices & Fast Turnaround
       text: >-
-        All our wiring looms are delivered on a lighting fast turnaround using
-        automatic machines and our speedy in-house operators. Each loom is made
-        to the highest quality and given a 100% electrical inspection and
-        test before being packaged and despatched.
+        All our [wiring looms](www.assembly-solutions.com/wiring-loom) are
+        delivered on a lighting fast turnaround using automatic machines and our
+        speedy in-house operators. Each loom is made to the highest quality and
+        given a 100% electrical inspection and test before being packaged and
+        despatched.
 
 
         * ISO 9001 Quality Assurance
@@ -57,9 +58,11 @@ layout:
       text: >-
         To ensure we manufacture quality wiring looms that are fit for purpose
         and cost-effective, we offer technical support from our knowledgeable
-        engineers on all wiring loom projects. Our engineers are committed to
-        understanding customer requirements before passing final drawing and
-        specification over to production, to commence with manufacture. 
+        engineers on all wiring loom and [wiring
+        harness](www.assembly-solutions.com/wiring-harness) projects. Our
+        engineers are committed to understanding customer requirements before
+        passing final drawing and specification over to production, to commence
+        with manufacture. 
 
 
         Our friendly team enjoy working with customers to create a wiring harness solution that facilitates continuous innovation in vehicle technology, emissions control and safety systems.
