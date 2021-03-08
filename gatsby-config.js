@@ -37,7 +37,7 @@ module.exports = {
         fonts: {
           google: [
               {
-                family: `Titillium Web`,
+                family: `Montserrat`,
                 variants: [`300`, `400`, `600`],
               },
             ],
