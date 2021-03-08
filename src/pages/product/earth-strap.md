@@ -33,7 +33,8 @@ layout:
     column:
       title: Earth Straps & Braided Leads
       text: >-
-        We manufacture earth straps and also braided cable on reels. All our
+        We manufacture earth straps and also [braided
+        cable](www.assembly-solutions.com/braided-cable) on reels. All our
         products are custom made to customer specification on size and length of
         cable, and we stock a range of terminations for single assemblies.
 
@@ -49,8 +50,9 @@ layout:
     column:
       title: Quality Earth Straps
       text: >-
-        As an ISO 9001 Quality Approved manufacturer, we produce all earth
-        straps to the highest standard from our large and lively Bolton
+        As an ISO 9001 Quality Approved [cable assembly
+        manufacturer](www.assembly-solutions.com/cable-assembly), we produce all
+        earth straps to the highest standard from our large and lively Bolton
         factory.
 
 
