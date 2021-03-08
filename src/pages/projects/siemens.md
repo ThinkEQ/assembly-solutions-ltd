@@ -28,9 +28,9 @@ We supply a range of products to Siemens including;
 
 We use automatic machines to produce most of the product range as they keep quality consistent and reduce labour. On a typical run, our machine will cut, strip and terminate 50,000 wires a day!
 
-Quality is absolutely critical for Siemens as these products are being distributed all around the world. With some countries having a much warmer climate, we need to ensure that our wire assemblies are made to withstand the humidity.\
+Quality is absolutely critical for Siemens as these products are being distributed all around the world. With some countries having a much warmer climate, we need to ensure that our [wire preparation](www.assembly-solutions.com/wire-preparation) assemblies are made to withstand the humidity.\
 \
-Our wire and cable assemblies go into a range of Siemens applications, but the most common is their high performance Protection Relays.\
+Our wire and [cable assemblies](www.assembly-solutions.com/cable-assemblies) go into a range of Siemens applications, but the most common is their high performance Protection Relays.\
 \
 During our customer feedback survey in 2020, we were delighted to hear Siemens comment on our strengths, which were;
 
