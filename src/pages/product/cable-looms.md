@@ -60,9 +60,11 @@ layout:
       text: >-
         As a company committed to high quality and approved to industry standard
         ISO 9001, every cable loom we produce is manufactured to exact
-        specification. All our cable looms and harnesses are 100% electrically
-        tested and only if they pass, will they go through to packing and
-        despatch. 
+        specification. All our [wiring
+        looms](www.assembly-solutions.com/wiring-loom) and [wiring
+        harnesses](www.assembly-solutions.com/wiring-harness) are 100%
+        electrically tested and only if they pass, will they go through to
+        packing and despatch. 
 
 
         Our cable loom division is led by fully qualified design engineers who not only assist with initial design and development but are always on hand to help with any last-minute technical changes.
