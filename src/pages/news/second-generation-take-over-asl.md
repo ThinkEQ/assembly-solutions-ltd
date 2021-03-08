@@ -30,7 +30,7 @@ layout:
         Since creating the cable assembly business 25 years ago, Graham is proud to keep ASL in the family.
 
 
-        **"When I created the business 25 years ago, Gareth, Sophie and Oliver were only very young. I didn't imagine or expect that they would eventually join me one day, but I am so delighted that they did. It has been a blessing to see all my children join Assembly Solutions and watch them grown into knowledgeable and respectful professionals. It comes with great pride to pass down what I have built to the children, and I look forward to watching their journey ahead".**
+        **"When I created the business 25 years ago, Gareth, Sophie and Oliver were only very young so I didn't imagine or expect that they would eventually join me one day. It has been a blessing to see all my children join Assembly Solutions and watch them grown into knowledgeable and respectful professionals. It comes with great pride to pass down what I have built to the children, and I look forward to watching their journey ahead".**
 
 
         Gareth, Managing Director, reflects on great memories; 
