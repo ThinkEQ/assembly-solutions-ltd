@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { Helmet } from 'react-helmet'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { navigate } from 'gatsby-link'
@@ -23,6 +24,7 @@ import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
 import homvidmp from '../videos/HOMEPAGE.mp4'
 import teamDesktop from '../img/default/meettheteam2.jpg'
 import '../components/UI/SVG/styles.css'
+import { Helmet } from 'react-helmet'
 
 const bounce = keyframes `
   0%{transform: translateY(-25px)}
@@ -39,6 +41,10 @@ const {isOpen, onOpen, onClose } = useDisclosure()
   
 return (
     <Fragment>
+      <Helmet>
+        <script type="text/javascript" src="https://secure.iron0walk.com/js/207700.js" ></script>
+        <noscript>{`<img alt="" src="https://secure.iron0walk.com/207700.png" style="display:none;" />`}</noscript>
+      </Helmet>
       <Box as="header" minHeight={{base: "auto", md:"750px", xl: "900px"}} maxHeight="900px" height="100%" overflow="hidden" background="linear-gradient(0deg, rgba(9,21,64,0.682492980102197) 0%, rgba(9,21,64,0.6852941005503764) 100%)"  zIndex="9" positiom="relative">
         <Box position="absolute" top="0" left="0" width="100%" height="100%" overflow="hidden" zIndex="-1">
          <Video vidweb={homvidwm} vidmp={homvidmp} id="home" />
