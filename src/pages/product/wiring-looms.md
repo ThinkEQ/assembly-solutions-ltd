@@ -46,7 +46,7 @@ layout:
         quoting stage.
 
 
-        Whilst we know it can be tempting to keep wiring looms ‘in-house’, we find many customers out-source these items to give their design and development engineers more time to spend on future projects and products.
+        Whilst we know it can be tempting to keep [wiring harness](www.assembly-solutions.com/wiring-harness) build ‘in-house’, we find many customers out-source these items to give their design and development engineers more time to spend on future projects and products.
   - type: column
     column:
       title: Quality Wiring Looms
@@ -57,7 +57,7 @@ layout:
         out on the roads and farm land.
 
 
-        All our wiring looms are 100% electrically tested and all our production processes conform to Quality ISO 9001. Our technical experts have the knowledge and experience at hand to find flexible solutions for any wiring loom or harness requirement.
+        All our [wiring looms and harnesses](www.assembly-solutions.com/wiring-harness) are 100% electrically tested and all our production processes conform to Quality ISO 9001. Our technical experts have the knowledge and experience at hand to find flexible solutions for any wiring loom or harness requirement.
   - type: testimonial
     testimonial:
       quote: ASL is without a doubt the best UK manufacturer of wiring looms and
