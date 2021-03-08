@@ -32,15 +32,16 @@ layout:
         We have manufactured ribbon cable assemblies for 25 years and over this time built a wealth of knowledge and experience from working with a range of different industries including; Automotive, Security and Test & Measurement.
 
 
-        We are passionate about giving a quality and personable service that gives customers a cost-effective solution for all their ribbon cable requirements.
+        We are passionate about giving a quality and personable service that gives customers a cost-effective solution for all their ribbon [cable assembly](www.assembly-solutions.com/cable-assembly) requirements.
   - type: column
     column:
       title: Fast Turnaround & Testing
       text: >-
         All our ribbon cables are delivered on a lighting fast turnaround by our
-        speedy in-house operators. Each assembly is made to the highest quality
-        and given a 100% electrical inspection and test before being packaged
-        and despatched.
+        speedy in-house operators. Each [cable
+        assembly](www.assembly-solutions.com/cable-assembly) is made to the
+        highest quality and given a 100% electrical inspection and
+        test before being packaged and despatched.
 
 
         * ISO 9001 Quality Assurance
@@ -60,7 +61,7 @@ layout:
         you with prices and lead times. 
 
 
-        Our super sales engineers are here to help at any time so if would like to chat with them about your ribbon cables, call us on 01204 521999 and let’s get started!
+        Our super sales engineers are here to help with your ribbon cable assemblies so if would like to chat with them, call us on 01204 521999 and let’s get started!
   - type: testimonial
     testimonial:
       quote: We continue to buy cable assemblies from ASL because their quality is
