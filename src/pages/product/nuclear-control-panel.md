@@ -39,10 +39,11 @@ layout:
     column:
       title: Nuclear Control Panels
       text: >-
-        The control panels we manufacture are used in Nuclear power stations and
-        as part of particle detection monitoring apparatus. Due to the nature of
-        such safety critical products, we have built special cells within our
-        factory where these panels are produced.
+        The [control panels](www.assembly-solutions.com/control-panels) we
+        manufacture are used in Nuclear power stations and as part of particle
+        detection monitoring apparatus. Due to the nature of such safety
+        critical products, we have built special cells within our factory where
+        these panels are produced.
 
 
         * Nuclear Control Panel Manufacture
@@ -59,8 +60,9 @@ layout:
       title: "Quality Critical Control Panels "
       text: >-
         By working with the Nuclear industry, we have proved to ourselves and
-        our customers that we can build to the most complex of control panels
-        and meet almost any unique specification.
+        our customers that we can build to the most complex of [control
+        panels](www.assembly-solutions.com/control-panels) and meet almost any
+        unique specification.
 
 
         We understand quality is critical and because of this we take extra care to produce control panels that are 100% reliable under the conditions.
