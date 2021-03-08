@@ -48,7 +48,7 @@ layout:
         **Supporting the medical industry**
 
 
-        We have supplied the medical industry for over 20 years with various electrical cable assemblies for apparatus and equipment. 
+        We have supplied the medical industry for over 20 years with various electrical [cable assemblies](www.assembly-solutions.com/cable-assemblies) and [wiring looms](www.assembly-solutions.com/wiring-loom) for apparatus and equipment. 
 
 
         Since the outbreak of Coronavirus, we have been proud to support Medical manufacturers with urgent orders after they saw a rapid increase in demand. 
