@@ -34,8 +34,9 @@ layout:
     column:
       title: Powering a great manufacturing service
       text: >-
-        As a family-run business we are passionate about building long lasting
-        relationships with customers. 
+        As a family-run business we are passionate about building custom [wiring
+        looms](www.assembly-solutions.com/wiring-loom) to the highest standard
+        and providing the best possible service. 
 
 
         * We manufacture any type of loom or harness
@@ -51,12 +52,14 @@ layout:
     column:
       title: Driving down costs for customers
       text: Our team of costing engineers have spent years building relationships with
-        suppliers and working on our production lines, so they know the whole
-        process better than anyone. It is their routine to study batch cards,
-        analyse where improvements can be made, where costs can be reduced and
-        where processes can be more efficient. All of this analysis, experience
-        and knowledge, is why ASL is so successful and now known as the
-        preferred UK wiring harness supplier for most major manufacturers.
+        suppliers and working on [wiring
+        harness](www.assembly-solutions.com/wiring-harness) production lines, so
+        they know the whole process better than anyone. It is their routine to
+        study batch cards, analyse where improvements can be made, where costs
+        can be reduced and where processes can be more efficient. All of this
+        analysis, experience and knowledge, is why ASL is so successful and now
+        known as the preferred UK wiring harness supplier for most major
+        manufacturers.
   - type: testimonial
     testimonial:
       quote: ASL is without a doubt the best UK manufacturer of wiring looms and
