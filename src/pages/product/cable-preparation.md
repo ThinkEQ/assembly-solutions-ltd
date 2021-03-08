@@ -50,7 +50,7 @@ layout:
         As the leading sub-contractor in our industry, we deliver a high quality and tailored cable preparation service that is cost effective for any application and industry. Our cable assembly production lines are streamlined for efficient manufacture and all our production operators are accredited to IPC A-620 – the standards for cable assemblies.
 
 
-        Our cable assembly production lines are streamlined for efficient manufacture and all our production operators are accredited to IPC A-620 – the standards for cable assemblies.
+        Our [cable assembly](www.assembly-solutions.com/cable-assembly) production lines are streamlined for efficient manufacture and all our production operators are accredited to IPC A-620 – the standards for cable assemblies.
   - type: column
     column:
       title: Low Prices & Fast Turnaround
@@ -61,8 +61,7 @@ layout:
         assemblies at very low cost.
 
 
-
-        Our cable preparation work is generally turned around on a speedy and promised 4 week turn around. This includes quoting, engineering, production set-up, production manufacture, quality assurance and delivery.
+        Our [wire and cable preparation](www.assembly-solutions.com/wire-preparation) work is generally turned around on a speedy and promised 4 week turn around. This includes quoting, engineering, production set-up, production manufacture, quality assurance and delivery.
   - type: column
     column:
       title: Reverse Engineering from Samples
