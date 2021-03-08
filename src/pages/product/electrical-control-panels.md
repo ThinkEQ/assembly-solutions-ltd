@@ -45,23 +45,31 @@ layout:
   - type: column
     column:
       title: Industry Electrical Control Panels
-      text: |-
-        Here is a range of control panels that we manufacture;
+      text: >-
+        Here is a range of [control
+        panels](www.assembly-solutions.com/control-panels) that we manufacture;
+
 
         * Mains Distribution Control Boxes
+
         * Leak Detection Panels
+
         * Winch mounted Vehicle Control Panels
+
         * Ultra-violet water treatment Control Panels
+
         * Swimming Pool Control Systems
+
         * Custodial Vehicle Panel Boxes
   - type: column
     column:
       title: Quality & Family Values
       text: >-
         Quality is critical for all the products we manufacture, especially
-        control panels. Delivering into industries including Nuclear and
-        Utilities means that we have to take extra care to produce quality
-        products that are 100% reliable under their conditions.  
+        [control panels](www.assembly-solutions.com/control-panels). Delivering
+        into industries including Nuclear and Utilities means that we have to
+        take extra care to produce quality products that are 100% reliable under
+        their conditions.  
 
 
         One of our strengths that we highly pride ourselves on is our family values. As a family-run business owned by the second generation, we are passionate about maintaining a happy and healthy workforce, and also building close partnerships with our customers.
