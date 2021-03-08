@@ -44,8 +44,10 @@ layout:
       title: Panel Wiring Team
       text: >-
         Our panel wiring operators are fully trained to IPC A-620 and have
-        experience in producing a wide range of panel assemblies after working
-        on projects for industries including; Automotive, Nuclear and Security.
+        experience in producing a wide range of [control
+        panel](www.assembly-solutions.com/control-panels) assemblies after
+        working on projects for industries including; Automotive, Nuclear and
+        Security.
 
 
         All our panel wiring products are electrically tested using our automatic testing facilities or bespoke test equipment designed specifically for the control panel.
@@ -55,8 +57,9 @@ layout:
       text: As a manufacturer who is committed to supporting customers as best we can,
         we usually assist with the initial design by bringing our engineering
         expertise to every panel wiring project. We generally work from drawings
-        and bills of materials, but if required we can reverse engineer products
-        from a sample or prototype.
+        and bills of materials, but if required we can reverse engineer [control
+        panels](www.assembly-solutions.com/control-panels) from a sample or
+        prototype.
   - type: testimonial
     testimonial:
       quote: We have a great relationship with ASL and have worked with them for many
