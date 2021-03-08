@@ -52,8 +52,9 @@ layout:
         With 25 years of experience we understand how important cost and
         reliability is. To ensure every project is a success, we work closely
         with our customers from the costing stage right through to production,
-        focusing on producing panels that are cost effective and fit for
-        purpose.
+        focusing on producing [control
+        panels](www.assembly-solutions.com/control-panels) that are cost
+        effective and fit for purpose.
 
 
         * Quality Assurance
@@ -73,7 +74,7 @@ layout:
         applications.
 
 
-        Vehicles are the backbone of UK industry and we help keep them moving. Our fast paced production lines are set up to please the customer with control panels at low cost and quick turnaround.
+        Vehicles are the backbone of UK industry and we help keep them moving. Our fast paced production lines are set up to please the customer with [control panels](www.assembly-solutions.com/control-panels) at low cost and quick turnaround.
   - type: testimonial
     testimonial:
       quote: We have a great relationship with ASL and have worked with them for many
