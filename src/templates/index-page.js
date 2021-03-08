@@ -24,7 +24,6 @@ import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
 import homvidmp from '../videos/HOMEPAGE.mp4'
 import teamDesktop from '../img/default/meettheteam2.jpg'
 import '../components/UI/SVG/styles.css'
-import { Helmet } from 'react-helmet'
 
 const bounce = keyframes `
   0%{transform: translateY(-25px)}
