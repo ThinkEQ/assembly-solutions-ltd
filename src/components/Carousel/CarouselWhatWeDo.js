@@ -73,7 +73,7 @@ const CarouselWhatWeDo = () => {
             file(relativePath: {regex: "/wireprep/"}) {
                 image: childImageSharp {
                   fluid(maxWidth: 553, quality: 80) {
-                    ...GatsbyImageSharpFluid_withWebp
+                    ...GatsbyImageSharpFluid_withWebp_noBase64
                     presentationWidth
                   }
                 }
@@ -83,7 +83,7 @@ const CarouselWhatWeDo = () => {
             file(relativePath: {regex: "/cable-assemblies-soldering/"}) {
                 image: childImageSharp {
                     fluid(maxWidth: 553, quality: 80) {
-                        ...GatsbyImageSharpFluid_withWebp
+                        ...GatsbyImageSharpFluid_withWebp_noBase64
                         presentationWidth
                     }
                 }
@@ -92,7 +92,7 @@ const CarouselWhatWeDo = () => {
             file(relativePath: {regex: "/wiring-harnesses/"}) {
                 image: childImageSharp {
                     fluid(maxWidth: 553, quality: 80) {
-                        ...GatsbyImageSharpFluid_withWebp
+                        ...GatsbyImageSharpFluid_withWebp_noBase64
                         presentationWidth
                     }
                 }
@@ -101,7 +101,7 @@ const CarouselWhatWeDo = () => {
             file(relativePath: {regex: "/control-panels/"}) {
                 image: childImageSharp {
                     fluid(maxWidth: 553, quality: 80) {
-                        ...GatsbyImageSharpFluid_withWebp
+                        ...GatsbyImageSharpFluid_withWebp_noBase64
                         presentationWidth
                     }
                 }
