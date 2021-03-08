@@ -37,9 +37,9 @@ layout:
     column:
       title: Fast & Flexible Lead Times
       text: >-
-        In this fast paced world that we live in, we have adapted our processes
-        and set up our production lines so that we can offer a fast and
-        competitive lead time.
+        In this fast paced world that we live in, we have adapted our [wiring
+        loom](www.assembly-solutions.com/wiring-loom) processes and set up our
+        production lines so that we can offer a fast and competitive lead time.
 
 
         Whilst we know it can be tempting to keep wiring looms ‘in-house’, we find many customers out-source these items to give their design and development engineers more time to spend on future projects and products.
@@ -53,7 +53,7 @@ layout:
         out on the roads.
 
 
-        All our wiring looms are 100% electrically tested and all our production processes conform to Quality ISO 9001. Our technical experts have the knowledge and experience at hand to find flexible solutions for any wiring loom or harness requirement.
+        All our [wiring looms](www.assembly-solutions.com/wiring-loom) are 100% electrically tested and all our production processes conform to Quality ISO 9001. Our technical experts have the knowledge and experience at hand to find flexible solutions for any wiring loom or harness requirement.
   - type: testimonial
     testimonial:
       quote: ASL is without a doubt the best UK manufacturer of wiring looms and
