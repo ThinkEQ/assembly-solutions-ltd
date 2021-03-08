@@ -26,7 +26,7 @@ layout:
         The Medical sector has without a doubt never been under this much pressure.
 
 
-        We have been supplying cable assemblies and wiring looms for medical equipment for over 20 years and have never seen such growth in demand since early this year.
+        We have been supplying [cable assemblies](www.assembly-solutions.com/cable-assemblies) and [wiring looms](www.assembly-solutions.com/wiring-loom) for medical equipment for over 20 years and have never seen such growth in demand since early this year.
 
 
         After coronavirus spread worldwide, we have been pushed by medical equipment manufacturers to improve lead time and drastically increase volumes – something we were not set up for.
