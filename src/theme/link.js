@@ -25,6 +25,7 @@ export const LinkStyles = {
             display: "inline-block",
             position: "relative",
             transition: "transform .5s ease",
+            textDecoration: "none",
             _before: {
                 position: "absolute",
                 content: "''",
@@ -34,6 +35,15 @@ export const LinkStyles = {
                 height: "2px",
                 background: "#fff",
                 transition: "width .5s ease",
+            },
+            _visited: {
+                outline: 'none',
+                border: "none",
+            },
+            _focus: {
+                outline: 'none',
+                border: "none",
+                boxShadow: 'none'
             },
             _hover: {
                 textDecoration: "none",
