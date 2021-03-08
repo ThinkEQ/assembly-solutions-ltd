@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
+import { } from 'gatsby-plugin-google-gtag'
 
 // Load components
 import { keyframes, Heading, Button, Box, Text, Link, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from '@chakra-ui/react'
@@ -162,6 +163,16 @@ const MainNav = () => (
 )
 
 const ContactUs = () => {
+
+  function ga() {
+
+    if (typeof window === 'undefined') {
+      return
+    }
+
+
+   return window.gtag("event", "click", { eventCategory: 'Email', eventLabel: "mailto"})
+  }
   
   return (
     <Box>
@@ -173,7 +184,7 @@ const ContactUs = () => {
           <Link as="a" href="tel:01204521999" fontSize="26px" display="inline-block" fontWeight="bold" lineHeight="31px" margin="15px 0">
             T: 01204 521999
           </Link>
-          <Link as="a" href="mailto:enquiry@assembly-solutions.com" onClick="ga('send', 'event', { eventCategory: 'Email', eventAction: 'Click', eventLabel: 'mailto'});" target="_blank" fontSize="26px" fontWeight="bold" lineHeight="31px">
+          <Link as="a" href="mailto:enquiry@assembly-solutions.com" onClick={ga} target="_blank" fontSize="26px" fontWeight="bold" lineHeight="31px">
             E: Enquiry@assembly-solutions.com
           </Link>
           <Text  fontSize="26px" fontWeight="bold" lineHeight="31px" marginTop="50px" marginBottom="15px">
@@ -230,7 +241,6 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
   function openDrawer() {
     toggleDrawer('nav')
   }
-
   return (
      <Box animation={`${flow} infinite 15s ease`} position="fixed" width={{base:"100%", md: "auto", lg: "648px"}} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1000"  alignItems="center">
           <Box padding={4}>
