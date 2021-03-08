@@ -30,19 +30,19 @@ layout:
         Since creating the cable assembly business 25 years ago, Graham is proud to keep ASL in the family.
 
 
-        **"It has been a privilege to watch my children join the business one by one, over the past 25 years and I couldn’t be more proud. Their work ethic and dedication to growing the business made it a very easy decision in passing the company down to them and I’m looking forward to seeing them take ASL even further".**
+        **"It has been a special privilege to watch my children join the business one by one, over the past 25 years and I couldn’t be more proud. Their work ethic and dedication to growing the business made it a very easy decision in passing the company down to them and I’m looking forward to seeing them take ASL even further".**
 
 
         Gareth, Managing Director, reflects on great memories; 
 
 
-        “This is an incredibly special milestone for the family. Myself, Sophie and Oliver are extremely grateful for this platform that dad put so much hard work into creating. I worked alongside my dad for 17 years and have made so many great memories with him. My fondest memory with him was when we went to Hong Kong together for my first business trip and I was 22. We had 1 week there visiting exhibitions and meeting suppliers. It was a great trip and opened my eyes to doing a lot more international business, which since then we have developed strong partnerships in China and Eastern Europe. Our plan for the next 5 years is to double the turnover to £10million and we'll do this by investing in more machinery and venturing into new markets. Whilst we appreciate such growth will come with challenges, we know with focus and hard work it’s achievable”.
+        “This is an incredibly special milestone for the family. Myself, Sophie and Oliver are extremely grateful for this platform that dad put so much hard work into creating. I've worked alongside my dad for 17 years and made so many great memories with him. My fondest memory is when he took me to Hong Kong for a week visiting exhibitions and suppliers. It was a great trip and really opened my eyes to the opportunities in international business, which since we have developed partnerships in China and Eastern Europe. I'm excited for this new chapter where we plan to double turnover to £10million".
 
 
         Sophie, Marketing Executive, hopes to make father proud;
 
 
-        “This is by far the biggest highlight and achievement in our lives to date. I am so happy and feel extremely humbled to be taking over the business with Gareth and Oliver and can't wait to continue this incredible journey with them. It’s quite an emotional milestone when you look back and see how far we have all come. We started off as kids helping dad out in the school holidays, and here we are 20 years later taking over a £5million business! I will definitely miss dad not being around the factory every day, but I'm glad he's now enjoying retirement. He has taught me so much over the years from mastering marketing techniques to understanding the overall operations of running a business. I hope we make him proud”.
+        “This is by far our biggest achievement and it feels such a privilege to take on the role of ownership. It is quite an emotional milestone when you look back and see how far we have all come. We started off as kids helping dad out in the school holidays learning all about cables and wires, and here we are 20 years later taking over a £5million business! My dad has taught me so much over the years from mastering marketing techniques to understanding the overall operations of running a business. We plan to make him the proudest father alive”.
 
 
         Oliver, Purchasing Manager, looks forward to next chapter in the business;
