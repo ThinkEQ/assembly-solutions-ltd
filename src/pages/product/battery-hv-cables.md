@@ -38,8 +38,9 @@ layout:
       title: Battery & High Voltage Cables
       text: >-
         All our battery cables are delivered on a lighting fast turnaround using
-        automatic machines and our speedy in-house operators. Each assembly is
-        made to the highest quality and given a 100% electrical inspection and
+        automatic machines and our speedy in-house operators. Each [cable
+        assembly](www.assembly-solutions.com/cable-assembly) is made to the
+        highest quality and given a 100% electrical inspection and
         test before being packaged and despatched.
 
 
@@ -54,10 +55,11 @@ layout:
     column:
       title: Quality Assurance
       text: >-
-        We are quality approved to ISO 9001 and electrically test all battery
-        cables upon completion of production. We also propose that a first-off
-        sample is made before volume manufacture commences, so that the customer
-        can approve the quality checking that it meets their standards.
+        We are quality approved to ISO 9001 and electrically test all [battery
+        cable assemblies](www.assembly-solutions.com/cable-assemblies) upon
+        completion of production. We also propose that a first-off sample is
+        made before volume manufacture commences, so that the customer can
+        approve the quality checking that it meets their standards.
 
 
         Being a trusted supplier of high reliability, high quality and technically advanced components and products, we are proud to be the supplier of choice to an impressive list of blue-chip companies including; Aston Martin, Siemens and Vodafone.
