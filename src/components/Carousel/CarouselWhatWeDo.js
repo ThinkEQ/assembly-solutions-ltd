@@ -70,7 +70,7 @@ const CarouselWhatWeDo = () => {
     const data = useStaticQuery(graphql`
         query Carousel {
             wireprep:  
-            file(relativePath: {regex: "/wireprep/"}) {
+            file(relativePath: {regex: "/wire-preparation-03/"}) {
                 image: childImageSharp {
                   fluid(maxWidth: 553, quality: 80) {
                     ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -89,7 +89,7 @@ const CarouselWhatWeDo = () => {
                 }
             }
             wiring:  
-            file(relativePath: {regex: "/wiring-harnesses/"}) {
+            file(relativePath: {regex: "/wiring-harness-home/"}) {
                 image: childImageSharp {
                     fluid(maxWidth: 553, quality: 80) {
                         ...GatsbyImageSharpFluid_withWebp_noBase64
@@ -98,7 +98,7 @@ const CarouselWhatWeDo = () => {
                 }
             }
             control:  
-            file(relativePath: {regex: "/control-panels/"}) {
+            file(relativePath: {regex: "/control-panel-home/"}) {
                 image: childImageSharp {
                     fluid(maxWidth: 553, quality: 80) {
                         ...GatsbyImageSharpFluid_withWebp_noBase64
