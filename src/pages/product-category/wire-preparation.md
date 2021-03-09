@@ -10,7 +10,7 @@ usps:
   - usp: Excellent Service
 introcol:
   first: >-
-    ### **High Volume Wire & Cable Preparation**
+    ### **High Volume Wire Preparation**
 
 
     ASL is an established and efficient specialist of high volume custom-made wire and cable preparation. 
