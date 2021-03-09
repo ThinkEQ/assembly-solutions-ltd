@@ -54,7 +54,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### **Quality Wiring Harness** 
+        #### **Custom Made Quality Wiring Harnesses** 
 
 
         As an ISO 9001 approved manufacturer we produce wiring harnesses to the highest quality and carry out a full electrical test on every product before despatch. Our harness team are trained to IPC A-620 standards and understand the importance of reliability. All our harnesses are built against customer drawing, and our skilled and quality conscious team are fully trained and technically well experienced harness builders. Every loom is made to perfection and turned around on an efficient 3-6 weeks.
@@ -64,6 +64,7 @@ layout:
       text: |-
         #### **Wiring Harness Range**
 
+        * Ambulance and Special Conversion Wiring Harness
         * Vehicle conversion wiring harnesses and cable looms
         * Bus and truck wire harness systems
         * Blue light service vehicle full electrical systems
@@ -74,10 +75,13 @@ layout:
     column:
       title: ""
       text: >-
-        #### **Low Cost Wiring Looms & Harnesses**
+        #### **Wiring Harness Production Builds**
 
 
-        We offer a wiring harness service that delivers a cost-effective solution with added value. As well as working from drawings and bills of materials, we can reverse engineer from a prototype and work with you to ensure we’re providing the most competitively priced solution.
+        In our bright and spacious Bolton factory we have an efficient production set-up including 10m long wiring build boards and cable reels and connectors on stock trolleys. Due to the complexity and size of the wiring harnesses, our production team find that the fastest and most efficient way to build is by working off floor standing harness boards. 
+
+
+        All boards are custom made for each wiring harness part number with a CAD drawing made to scale and placed on the board prior to build. Our technical engineers ensure that the CAD drawing is printed with correct cable specifications and lengths, connectors and note any special processes that may need to be carried out ie. heat shrinking to protect particular areas of the harnesses.
   - type: column
     column:
       title: ""
@@ -88,7 +92,7 @@ layout:
         We have supplied wiring harness products to the Automotive Industry for over 25 years. Our expertise has grown tremendously, where we now boast an extensive range of experience in commercial vehicles. These include; Ambulances, Buses, Cars, Trucks, Trailers and Vans. Working with the latest models in vehicle technology, our technical team also have the knowledge and skills to support wiring harnesses for any electric and hybrid system.
 
 
-        We also supply wiring harnesses to Agricultural equipment including Crop Spraying tractors, Flail Mowers and Harvesters. All our wiring assemblies are built to a robust and high quality standard that ensures products will withstand any environmental condition.
+        We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters. All our wiring assemblies are built to a robust and high quality standard that ensures products will withstand any environmental condition.
 seo:
   title: Wiring Harness Manufacturer | Wire Harness Production
   description: Custom quality wiring harness and wire harness products
