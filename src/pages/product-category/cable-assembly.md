@@ -21,7 +21,7 @@ introcol:
 
     With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
   second: >-
-    ### **Watch Full Cable Assembly Video**
+    ### **Cable Assembly Video**
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/JM9UP2GiQ_M?loop=1&playlist=JM9UP2GiQ_M' frameborder='0' allowfullscreen></iframe></div>
