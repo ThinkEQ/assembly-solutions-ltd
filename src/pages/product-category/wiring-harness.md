@@ -64,16 +64,24 @@ layout:
   - type: column
     column:
       title: ""
-      text: |-
-        #### **Wiring Harness Range**
+      text: >-
+        #### **Supplying Industry Wiring Harness** 
 
-        * Ambulance and Special Conversion Wiring Harness
-        * Vehicle conversion wiring harnesses and cable looms
-        * Bus and truck wire harness systems
-        * Blue light service vehicle full electrical systems
-        * Commercial and domestic trailer plug and play cables
-        * Electric vehicle, hybrid and low emission vehicle wiring
-        * Motorsport wiring systems
+
+        We manufacture wiring harnesses into a wide range of Industries and applications;
+
+
+        * Ambulance and Special Conversion wiring harness
+
+        * Bus and Truck wire harness solutions
+
+        * Car and Commercial Vehicles including Trailers
+
+        * Electric & Hybrid Vehicle electrical wiring looms
+
+        * Harvesting Equipment and Application harnesses
+
+        * Medical Equipment wire harness assemblies
   - type: column
     column:
       title: ""
