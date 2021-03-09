@@ -86,7 +86,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### **25 Years Experience** 
+        #### **25 Years Wiring Experience** 
 
 
         In our bright and spacious Bolton factory we have an efficient production set-up including 10m long wiring build boards and cable reels and connectors on stock trolleys. Due to the complexity and size of wiring harnesses and [wiring looms](www.assembly-solutions.com/wiring-loom), our production team find that the fastest and most efficient way to build is by working off floor standing harness boards. 
