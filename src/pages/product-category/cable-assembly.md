@@ -110,8 +110,8 @@ layout:
       text: Contact us on 01204 521999 or email enquiry@assembly-solutions.com and
         we'll be straight back to you.
 seo:
-  title: Cable Assembly | Cable Assembly Manufacturer | ASL
-  description: Assembly Solutions are the UK's leading Cable Assembly
-    Manufacturer. Call us on 01204 521999 to discuss your electrical cable
-    assembly needs.
+  title: Cable Assembly Manufacturer | Quality Custom Made Cables
+  description: Quality custom made cable assembly products manufactured in the UK
+    on a fast 4 week turnaround. Contact us today for an instant quote on your
+    cable assembly drawings and specification.
 ---
