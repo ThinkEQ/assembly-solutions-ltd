@@ -10,7 +10,7 @@ usps:
   - usp: Excellent Service
 introcol:
   first: >-
-    ### **High Volume Wire Preparation**
+    ### **Wire & Cable Preparation**
 
 
     ASL is an established and efficient specialist of high volume custom-made wire and cable preparation. 
@@ -47,37 +47,37 @@ layout:
     column:
       title: ""
       text: >-
-        **Industry leaders in Wire Preparation**
+        #### **High Volume Wire & Cable Preparation**
 
 
-        With 25 years experience in wire preparation we are proud to be the preferred supplier to some of the worlds leading companies including Siemens and Stanley.
+        We manufacture an incredible 5,000 wire assemblies a minute using our high speed automatic machines. With very little labour involved, we are as competitive as china and eastern european countries, and is a reason why we are the preferred supplier to some of the worlds leading companies including Siemens, Stanley and Vodafone.
   - type: column
     column:
       text: >-
-        **Quality Assurance**
+        #### **Custom Wire Preparation**
 
 
-        An a ISO 9001 Quality accredited manufacturer, all our wire and cable preparation assemblies are made to the highest standard and given full electrical testing.
+        An a ISO 9001 Quality accredited manufacturer, all our wire and cable preparation assemblies are made to the highest standard and given full electrical testing. Stanley.
       title: ""
   - type: column
     column:
       title: ""
       text: >-
-        **Lean Manufacturing** 
+        #### **Wire Preparation Expertise**
 
 
-        We pride ourselves on our efficient set up and a strong supply chain support being able to offer low prices.
+        As an established and experienced wiring sub-contract manufacturer, we have the equipment ad skilled workforce to supply any type of wire preparation and [cable preparation](www.assembly-solutions.com/cable-preparation). We boast an extensive range of high speed wire cutting machinery which also strips, tins and terminates. These machines are run by our technical wire preparation experts who ensure that the machines are running at maximum efficiency and producing to the correct accuracy.
   - type: column
     column:
       title: ""
       text: >-
-        **World Class Products**
+        #### **Wire Preparation for Siemens**
 
 
-        Our wire preparation services are delivered into applications made by world leading manufacturer Siemens. Read the full project case study [here](https://www.assembly-solutions.com/projects/siemens/).
+        We are very proud to produce wire preparation and other small [cable assemblies](www.assembly-solutions.com/cable-assemblies) for world leading technology company Siemens. All the assemblies we manufacture for Siemens are produced on our high speed fully automotive wire preparation machine which has the capability to cut, strip, tin and terminate wires. You can read the full Siemens project case study [here](https://www.assembly-solutions.com/projects/siemens/).
 seo:
-  title: Wire Preparation | Cable Preparation | ASL
-  description: Wire Preparation and cable preparation at low cost and on fast
-    turnaround. Cut, Strip and Terminate Assembly from Wire Experts Assembly
-    Solutions.
+  title: Wire Preparation | Wire & Cable Capabilities
+  description: Custom made wire preparation and cable preparation delivered on
+    fast turnaround and highest quality. Contact us today to discuss your wire
+    preparation and cable assembly requirements.
 ---
