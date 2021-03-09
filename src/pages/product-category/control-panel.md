@@ -10,7 +10,7 @@ usps:
   - usp: ISO 9001 Quality Approved
 introcol:
   first: >-
-    #### **UK Control Panel Manufacturer**
+    ### **UK Control Panel Manufacturer**
 
 
     ASL is an established and experienced manufacturer of quality custom-designed Control Panels.
@@ -21,7 +21,7 @@ introcol:
 
     We provide a personable service which is tailored to your specific requirements. Our technical control panel engineers are dedicated to work with customers from supporting the initial design, right through to prototype and volume production.
   second: >-
-    #### **Control Panel Video**
+    ### **Control Panel Video**
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/BG1WAnAd6mI?loop=1&playlist=BG1WAnAd6mI' frameborder='0' allowfullscreen></iframe></div>
