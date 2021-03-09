@@ -54,18 +54,12 @@ products:
 layout:
   - type: column
     column:
-      title: Cost-Effective Cable Assembly
+      title: ""
       text: >-
-        * We manufacture any type of cable assembly
-
-        * Every cable assembly made passes through quality control
-
-        * All staff are UK based and certified to Quality Accreditation ISO9001
-
-        * You will enjoy working with out 5/5 rated superstar staff
+        #### Custom Made Cable Assembly
 
 
-        We know a thing or two about all things cables as we’ve been making electrical cable assemblies for  25 years!
+        We build custom made cable assembly products for two world renowned manufacturers, Aston Martin and Brompton Bicycle. Their supply chain required our technical expertise to create the most cost-effective solution for their application. Working with leading brands for over 25 years has broadened our knowledge and expertise opening opportunities in other Industries across the globe.
   - type: testimonial
     testimonial:
       quote: "ASL are different to other cable manufacturers I have used. I’m probably
