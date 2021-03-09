@@ -69,8 +69,8 @@ layout:
         turnaround deliveries when we have urgent demands.
       name: Electrical Engineering Manager – Alexander Dennis
 seo:
-  title: "Wiring Loom | Cable Harness: Wire Loom and Harness Manufacturers UK"
-  description: "Wiring Loom Manufacturers UK: Wiring Harness Solutions from UK
-    Manufacturer Assembly Solutions. Call 01204 521999 for a low cost custom
-    built quote."
+  title: Wiring Loom Manufacturer | Quality Custom Made Looms
+  description: Custom quality wiring looms and wiring harnesses manufactured on a
+    fast turnaround with over 25 years experience. Contact us today to discuss
+    how we can reduce your wiring loom costs and improve your quality.
 ---
