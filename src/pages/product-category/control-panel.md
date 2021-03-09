@@ -88,8 +88,8 @@ layout:
 
         Contact our friendly team today to discuss your control panel requirements. Email enquiry@assembly-solutions.com or call 01204 51999.
 seo:
-  title: "Control Panels: Control Panel Manufacturers UK"
-  description: "Control Panel Manufacturers UK: Control Panel Solutions at Low
-    Costs and Quick Turnaround. Call ASL on 01204 521999 to discuss your Control
-    Panels."
+  title: Control Panel Manufacturer | Electrical Panel Production Build
+  description: Quality custom made control panels manufactured in UK and built to
+    customer drawing and specification. Contact our technical experienced team
+    today to discuss you panel build requirements.
 ---
