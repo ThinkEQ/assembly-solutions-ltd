@@ -60,37 +60,6 @@ layout:
 
 
         We build custom made cable assembly products for two world renowned manufacturers, Aston Martin and Brompton Bicycle. Their supply chain required our technical expertise to create the most cost-effective solution for their application. Working with leading brands for over 25 years has broadened our knowledge and expertise opening opportunities in other Industries across the globe.
-  - type: testimonial
-    testimonial:
-      quote: "ASL are different to other cable manufacturers I have used. I’m probably
-        not their most important  customer but somehow they treat me like I am.
-        Right from sending the enquiry, I got a really fast and quick reply from
-        Sophie to say thank you, and then the sales engineer Gary called me
-        discussing  prompt Award-winning cable assembly manufacturers  "
-      name: ""
-  - type: column
-    column:
-      title: "We do things different here "
-      text: >-
-        Here at ASL, we’ve been creating cost-effective custom cable assembly
-        solutions for over 20 years  and in that time, we’ve worked across a
-        range of different industries including automotive, nuclear  and
-        industrial.  
-
-
-        We’ll work closely with you to ensure that we create a product that matches your unique needs, no  matter the level of complexity. We can also cater to a mix of high and low volume requirements. 
-  - type: column
-    column:
-      title: "Our range of custom cable assembly options include: "
-      text: |-
-        * Military cable assembly
-        * Access control and security cables
-        * Waterproof cable assembly
-        * Custom-made cables and harnesses
-        * Nuclear cable assembly
-        * Automotive cables and looms
-        * Battery cable assembly
-        * Ribbon cable assembly
   - type: column
     column:
       title: Waterproof cable assembly
