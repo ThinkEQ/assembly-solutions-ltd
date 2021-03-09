@@ -63,6 +63,7 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, url 
             React.cloneElement(child, { isSubmitting }))
         return (
             <Form name={formName} method="POST" style={{width: "100%"}} data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="hidden" name="bot-field" />    
                 <input type="hidden" name="form-name" value={formName} />
                 {cloneChildren}
             </Form>
