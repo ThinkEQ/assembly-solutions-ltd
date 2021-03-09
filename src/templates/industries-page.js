@@ -10,9 +10,8 @@ import PreviewImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 import Carousel from '../components/Carousel/CustomCarousel'
 
-export const IndustryPageTemplate = ({ title, content, contentComponent, subtitle, intro, imgHeader, testimonial, industries }) => {
+export const IndustryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, testimonial, industries }) => {
   const PageContent = contentComponent || Content
-  const [isLargerThan760] = useMediaQuery("(min-width: 760px)")
   const [isLessThan464] = useMediaQuery("(max-width: 474px")
 
   return (
@@ -66,7 +65,7 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
         >
           {industries.map((item) => {
             return (
-                <Box padding="0 5px" margin="0 10px" overflow="hidden" height={{base: "400px", md: "600px"}} cursor="grab" _active={{cursor: "grabbing"}} position="relative">
+                <Box padding="0 5px" margin="0 10px" overflow="hidden" height={{base: "300px", md: "400px"}} cursor="grab" _active={{cursor: "grabbing"}} position="relative">
                   <Box position="absolute" pointerEvents="none" height="100%" width="100%" zIndex="10" borderRadius="3px" top="0" left="0" background="rgba(9,21,64,0.5)" />
                   <Box overflow="hidden" height="100%" width="105%" transform="scale(1.1)" filter="brightness(100%)" background="rgba(9,21,64,0.5)" transition=".6s ease-in-out" _hover={{width: "97%", filter:"brightness(50%)"}}>
                     <PreviewImage pointerEvents="none" imageInfo={item.image} borderRadius="3px" height="100%" width="100%"/>
@@ -152,7 +151,7 @@ export const industryPageQuery = graphql`
         }
         image {
           childImageSharp {
-            fluid(maxHeight: 680, quality: 80) {
+            fluid(maxHeight: 480, quality: 80) {
               ...GatsbyImageSharpFluid_withWebp
               presentationHeight
             }

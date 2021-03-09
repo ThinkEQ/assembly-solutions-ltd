@@ -27,7 +27,6 @@ export const SlideLeft = ({ next }) => {
 }
 
 const CarouselReel = ({ data }) => {
-    const [isLargerThan900] = useMediaQuery("(min-width: 900px)")
     const [isLessThan464] = useMediaQuery("(max-width: 464px")
     return (
         <Box width="100%" position="absolute" top="50%" left={{base:"20%", md: "10%", lg:"15%"}} transform="translateY(-50%)">
