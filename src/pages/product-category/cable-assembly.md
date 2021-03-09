@@ -62,16 +62,20 @@ layout:
         We build custom made cable assembly products for two world renowned manufacturers, Aston Martin and Brompton Bicycle. Their supply chain required our technical expertise to create the most cost-effective solution for their application. Working with leading brands for over 25 years has broadened our knowledge and expertise opening opportunities in other Industries across the globe.
   - type: column
     column:
-      title: Waterproof cable assembly
-      text: As the current cable assembly and control panel build supplier to UK water
-        company, United Utilities, we know the importance of building a
-        protected cable assembly that works against the elements. That’s why all
-        our cable assemblies are built to be durable.
+      title: ""
+      text: >-
+        #### Cable Assembly Production Build
+
+
+        We deliver over 1,000 cable assembly products per week and these are shipped worldwide to Industries including; Automotive, Medical, Security and Test & Measurement. Based in our large and lively Bolton factory, our cable assembly production is set up for fast turnaround and accurate manufacture.
   - type: column
     column:
-      title: Get in touch
-      text: Contact us on 01204 521999 or email enquiry@assembly-solutions.com and
-        we'll be straight back to you.
+      title: ""
+      text: >-
+        #### NHS Medical Cable Assemblies
+
+
+        Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for covid testing apparatus, hospital bed cables, sterilisation cable assemblies and ventilation equipment cables. It has been an extremely challenging time and we're proud our of team that put in extra over time every week to show their support in helping hospitals all across the world.
 seo:
   title: Cable Assembly Manufacturer | Quality Custom Made Cables
   description: Quality custom made cable assembly products manufactured in the UK
