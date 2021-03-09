@@ -21,7 +21,7 @@ introcol:
 
     We manufacture wire and cable assemblies to customer specification and our full service includes; cutting, stripping, terminating and tinning.
   second: >-
-    #### **Watch Full Wire Preparation Video**
+    #### **Wire Preparation Video**
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Cp3lVNhtjrI?loop=1&playlist=Cp3lVNhtjrI' frameborder='0' allowfullscreen></iframe></div>
