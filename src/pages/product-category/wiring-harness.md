@@ -87,8 +87,9 @@ layout:
 
         Contact our team today to discuss your wiring harness requirements. Call 01204 521999 or email enquiry@assembly-solutions.com.
 seo:
-  title: Wiring Harness | Wire Harness - ASL Wiring Harness Manufacturer
-  description: Wiring Harness and Wire Harness Solutions from UK Manufacturer
-    Assembly Solutions. Call 01204 521999 for a low cost custom built wiring
-    loom quote.
+  title: Wiring Harness Manufacturer | Wire Harness Production
+  description: Custom quality wiring harness and wire harness products
+    manufactured by UK established and experienced wiring sub-contractor based
+    in Bolton. Contact 01204 521999 to discuss your wiring harness requirements
+    today.
 ---
