@@ -54,7 +54,7 @@ layout:
     column:
       title: ""
       text: >-
-        **Quality Wiring Harness** 
+        #### **Quality Wiring Harness** 
 
 
         As an ISO 9001 approved manufacturer we produce wiring harnesses to the highest quality and carry out a full electrical test on every product before despatch. Our harness team are trained to IPC A-620 standards and understand the importance of reliability. All our harnesses are built against customer drawing, and our skilled and quality conscious team are fully trained and technically well experienced harness builders. Every loom is made to perfection and turned around on an efficient 3-6 weeks.
@@ -62,7 +62,7 @@ layout:
     column:
       title: ""
       text: |-
-        **Wiring Harness Range**
+        #### **Wiring Harness Range**
 
         * Vehicle conversion wiring harnesses and cable looms
         * Bus and truck wire harness systems
@@ -74,7 +74,7 @@ layout:
     column:
       title: ""
       text: >-
-        **Low Cost Wiring Looms & Harnesses**
+        #### **Low Cost Wiring Looms & Harnesses**
 
 
         We offer a wiring harness service that delivers a cost-effective solution with added value. As well as working from drawings and bills of materials, we can reverse engineer from a prototype and work with you to ensure we’re providing the most competitively priced solution.
@@ -82,10 +82,13 @@ layout:
     column:
       title: ""
       text: >-
-        **Get in touch**
+        #### **Automotive Wiring Harness Manufacture**
 
 
-        Contact our team today to discuss your wiring harness requirements. Call 01204 521999 or email enquiry@assembly-solutions.com.
+        We have supplied wiring harness products to the Automotive Industry for over 25 years. Our expertise has grown tremendously, where we now boast an extensive range of experience in commercial vehicles. These include; Ambulances, Buses, Cars, Trucks, Trailers and Vans. Working with the latest models in vehicle technology, our technical team also have the knowledge and skills to support wiring harnesses for any electric and hybrid system.
+
+
+        We also supply wiring harnesses to Agricultural equipment including Crop Spraying tractors, Flail Mowers and Harvesters. All our wiring assemblies are built to a robust and high quality standard that ensures products will withstand any environmental condition.
 seo:
   title: Wiring Harness Manufacturer | Wire Harness Production
   description: Custom quality wiring harness and wire harness products
