@@ -18,7 +18,7 @@ const SVG = ({
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
     >
-    <title>630150EA-38B5-43D4-A5CF-B5C141CE06A0</title>
+    <title>Assembly Solutions Ltd</title>
     <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-Homepage-UI" transform="translate(-966.000000, -11.000000)" fill="#FFFFFF">
             <g id="Header-Block" transform="translate(952.000000, 0.000000)">
