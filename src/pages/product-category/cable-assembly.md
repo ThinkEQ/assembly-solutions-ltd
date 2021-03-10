@@ -70,20 +70,20 @@ layout:
         We deliver over 1,000 cable assembly products per week and these are shipped worldwide to Industries including; Automotive, Medical, Security and Test & Measurement. Based in our large and lively Bolton factory, our cable assembly production is set up for fast turnaround and accurate manufacture.
   - type: column
     column:
-      title: ""
-      text: >-
-        #### NHS Medical Cable Assemblies
-
-
-        Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for covid testing apparatus, hospital bed cables, sterilisation [cable assemblies](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. It has been an extremely challenging time and we're proud our of team that put in extra over time every week to show their support in helping hospitals all across the world.
-  - type: column
-    column:
       title: 25 Years of Cable Experience
       text: In 2020 we celebrated an incredible 25 years since Assembly Solutions was
         created by Founder Graham Balshaw. Our experience and knowledge has
         grown hugely over the years, leading us to become a UK trusted supplier
         of [cable assemblies](www.assembly-solutions.com/cable-assemblies) and
         other wiring products.
+  - type: column
+    column:
+      title: ""
+      text: >-
+        #### NHS Medical Cable Assemblies
+
+
+        Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for covid testing apparatus, hospital bed cables, sterilisation [cable assemblies](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. It has been an extremely challenging time and we're proud our of team that put in extra over time every week to show their support in helping hospitals all across the world.
 seo:
   title: Cable Assembly Manufacturer | Quality Custom Made Cables
   description: Quality custom made cable assembly products manufactured in the UK
