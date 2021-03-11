@@ -44,7 +44,7 @@ const CarouselReel = ({ data }) => {
             {data.map((img, index) => {
                 return (
                   <Box width={{base: "75%", md: "98%"}} borderRadius="3px" overflow="hidden" cursor="grab" _active={{cursor: "grabbing"}} maxHeight="400px" height="100%">
-                    <Box overflow="hidden" borderRadius="3px" height="100%" width={{base: "100%", md:"105%"}} transform="scale(1.1)" transition=".6s ease-in-out" _hover={{width: "98%"}}>
+                    <Box overflow="hidden" borderRadius="3px" height={{base: "210px", md: "100%"}} width={{base: "100%", md:"105%"}} transform="scale(1.1)" transition=".6s ease-in-out" _hover={{width: "98%"}}>
                       <PreviewCompatibleImage imageInfo={img.image} borderRadius="3px" height="100%" width="98%" />
                     </Box>
                   </Box>
