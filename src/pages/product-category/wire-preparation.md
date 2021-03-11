@@ -57,7 +57,7 @@ layout:
         #### **Custom Wire Preparation**
 
 
-        An a ISO 9001 Quality accredited manufacturer, all our wire and cable preparation assemblies are made to the highest standard and given full electrical testing. Stanley.
+        An a ISO 9001 Quality accredited manufacturer, all our wire and cable preparation assemblies are made to the highest standard and given full electrical testing.
       title: ""
   - type: column
     column:
