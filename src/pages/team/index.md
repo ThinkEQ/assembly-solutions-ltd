@@ -46,7 +46,7 @@ team-members:
     image: /img/team3-1-.png
     linkedin: https://www.linkedin.com/in/sophie-balshaw/
   - name: Oliver Balshaw
-    jobtitle: Purchasing Manager
+    jobtitle: Purchasing Director
     bio: Oliver is a man of many hats but his core focus is managing our Supply
       Chain. He is due to qualify in CIPS (Chartered Institute of Procurement &
       Supply) in summer 2021, after 4 lengthy years of night classes and exams.
