@@ -48,10 +48,10 @@ const TeamCard = ({ teamImg, name, jobTitle, click, bio, iconList, linkedIn }) =
     return (
         <Box width="100%" cursor="pointer" onClick={() => click({ name, bio, interests: iconList, linkedIn }) }>
             <PreviewCompatibleImage width="100%" height={isLargerThan480 ? "262px" : "293px"} maxHeight="293px" maxWidth={isLargerThan480 ? "292px" : "100%"} imageInfo={teamImg} />
-            <Text textStyle="p" fontWeight="bold" lineHeight="30px" marginTop="10px" marginBottom="0">
+            <Text textStyle="p" fontWeight="bold" lineHeight="28px !important" marginTop="10px" marginBottom="0">
                 {name}
             </Text>
-            <Text textStyle="p" lineHeight="30px" marginBottom="0">
+            <Text textStyle="p" lineHeight="28px !important" marginBottom="0">
                 {jobTitle}
             </Text>
         </Box>
