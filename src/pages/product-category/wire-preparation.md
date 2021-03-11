@@ -63,7 +63,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### **Wire Preparation Expertise**
+        #### **25 Years Wiring Experience**
 
 
         As an established and experienced wiring sub-contract manufacturer, we have the equipment ad skilled workforce to supply any type of wire preparation and [cable preparation](www.assembly-solutions.com/cable-preparation). We boast an extensive range of high speed wire cutting machinery which also strips, tins and terminates. These machines are run by our technical wire preparation experts who ensure that the machines are running at maximum efficiency and producing to the correct accuracy.
