@@ -50,7 +50,7 @@ return (
         </Box>
             <Box height="100%" maxWidth="1900px" margin="0 auto" minHeight={{base: "600px", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
               <Box textStyle="section">
-                <Heading textStyle="h1" textTransform="uppercase" color="#fff">
+                <Heading textStyle="h1" textTransform="uppercase"  fontFamily="Gidole Regular" color="#fff">
                   Efficient manufacturing <br/>
                   that delivers <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>Quality & Speed</Text>
                 </Heading>

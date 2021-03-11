@@ -1,7 +1,9 @@
 @font-face {
-    font-family: 'Gidole Regular';
-    src: url('Gidole-Regular.ttf') format('ttf');
+    font-family: 'Gidole';
+    src: url('../../static/fonts/Gidole-Regular.woff2') format('woff2'),
+        url('../../static/fonts/Gidole-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+

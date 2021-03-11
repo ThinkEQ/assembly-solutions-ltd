@@ -1,5 +1,6 @@
 import { extendTheme } from '@chakra-ui/react'
 import { mode, createBreakpoints } from '@chakra-ui/theme-tools'
+import '../font/stylesheet.css'
 
 // Load custom components
 import { ButtonStyles as Button } from './button'
@@ -14,7 +15,7 @@ const overrides = {
     styles: {
         global: (props) => ({
             body: {
-                fontFamily: "Gidole Regular",
+                fontFamily: "Gidole",
                 //fontWeight: 300,
                 color: "blue.900"
             },
@@ -26,6 +27,7 @@ const overrides = {
                 h1: {
                     fontSize: {base: "42px", md:"60px"},
                     lineHeight: {base: "62px", md:"72px"},
+                    fontFamily: "Gidole",
                     marginBottom: "20px",
                     lettSpacing: "-2.12px",
                     fontWeight: 600
@@ -34,6 +36,7 @@ const overrides = {
                     fontSize: {base: "28px", md:"44px"},
                     lineHeight: {base: "34px", md: "53px"},
                     letterSpacing: "-1.55px",
+                    fontFamily: "Gidole",
                     marginBottom: "20px",
                     fontWeight: 600
                 },
@@ -99,7 +102,8 @@ const overrides = {
     },
     breakpoints,
     fonts: {
-        heading: "Gidole Regular"
+        heading: "Gidole",
+        body: "Gidole"
     },
     layerStyles: {
         brightness: {
@@ -114,6 +118,7 @@ const overrides = {
         h1: {
             fontSize: {base: "42px", md:"60px"},
             lineHeight: {base: "62px", md:"72px"},
+            fontFamily: "Gidole",
             marginBottom: "20px",
             lettSpacing: "-2.12px",
             fontWeight: 600
@@ -122,6 +127,7 @@ const overrides = {
             fontSize: {base: "28px", md:"44px"},
             lineHeight: {base: "34px", md: "53px"},
             letterSpacing: "-1.55px",
+            fontFamily: "Gidole",
             marginBottom: "20px",
             fontWeight: 600
         },
@@ -129,6 +135,7 @@ const overrides = {
             fontSize: "30px",
             lineHeight: "36px",
             letterSpacing: "-1.06px",
+            fontFamily: "Gidole",
             marginBottom: "20px",
             fontWeight: 600
         },
@@ -136,6 +143,7 @@ const overrides = {
             fontSize: "24px",
             lineHeight: "36px",
             letterSpacing: "-1.06px",
+            fontFamily: "Gidole",
             marginBottom: "10px",
             fontWeight: 600
         },
@@ -143,6 +151,7 @@ const overrides = {
             fontSize: {base: "16px", md:"20px"},
             lineHeight: {base: "28px", md:"38px"},
             letterSpacing: "0.71px",
+            fontFamily: "Gidole",
             marginBottom: "10px"
         },
         section: {
