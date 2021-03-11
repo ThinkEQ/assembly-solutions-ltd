@@ -12,7 +12,7 @@ team-members:
     interests:
       - cycling
       - golf
-    name: Graham Balshaw BSc
+    name: Graham Balshaw
     jobtitle: Founder & Chairman
     image: /img/team1-1-.png
   - name: Gareth Balshaw
@@ -30,7 +30,7 @@ team-members:
       - cycling
       - hiking
     linkedin: https://www.linkedin.com/in/gareth-balshaw-1b100018/
-  - name: Sophie Balshaw DipM
+  - name: Sophie Balshaw
     jobtitle: Marketing Director
     bio: Sophie is our creative marketing executive who specialises in digital
       marketing and advertising. Her work has led to generating some of our
@@ -104,7 +104,7 @@ team-members:
       - hiking
       - church
     linkedin: https://www.linkedin.com/in/gareth-edwards-370509119/
-  - name: Amanda Freeman ATT
+  - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
       Amanda is a qualified and committed Accounts professional who has been a
