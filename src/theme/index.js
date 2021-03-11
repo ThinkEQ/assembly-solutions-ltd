@@ -14,8 +14,8 @@ const overrides = {
     styles: {
         global: (props) => ({
             body: {
-                fontFamily: "Titillium Web",
-                fontWeight: 300,
+                fontFamily: "Gidole Regular",
+                //fontWeight: 300,
                 color: "blue.900"
             },
             // Global element styles - non specific
@@ -99,7 +99,7 @@ const overrides = {
     },
     breakpoints,
     fonts: {
-        heading: "Titillium Web"
+        heading: "Gidole Regular"
     },
     layerStyles: {
         brightness: {

@@ -11,6 +11,7 @@ import CookieConsent from 'react-cookie-consent'
 
 // Load theme
 import theme from '../theme/index'
+import '../font/stylesheet.css'
 
 const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
   const { title, description } = useSiteMetadata()
