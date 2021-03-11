@@ -68,6 +68,12 @@ layout:
         easy, they are always quick to respond and support us with fast
         turnaround deliveries when we have urgent demands.
       name: Electrical Engineering Manager – Alexander Dennis
+  - type: column
+    column:
+      text: |-
+        #### Wiring Loom Video
+
+        https://youtu.be/TTebZ3qU9sQ
 seo:
   title: Wiring Loom Manufacturer | Quality Custom Made Looms
   description: Custom quality wiring looms and wiring harnesses manufactured on a
