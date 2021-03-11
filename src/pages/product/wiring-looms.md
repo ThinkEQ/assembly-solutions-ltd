@@ -54,6 +54,16 @@ layout:
 
 
         Whilst we know it can be tempting to keep [wiring harness](www.assembly-solutions.com/wiring-harness) build ‘in-house’, we find many customers out-source these items to give their design and development engineers more time to spend on future projects and products.
+  - type: testimonial
+    testimonial:
+      quote: ASL is without a doubt the best UK manufacturer of wiring looms and
+        wiring harnesses. They have been our preferred supplier for 10 years
+        because their quality and attention to detail is none other than
+        excellent, and they deliver when they say they will - which is something
+        my other suppliers don’t do! For us we find working with ASL extremely
+        easy, they are always quick to respond and support us with fast
+        turnaround deliveries when we have urgent demands.
+      name: Electrical Engineering Manager – Alexander Dennis
   - type: column
     column:
       title: Quality Wiring Looms
@@ -65,16 +75,6 @@ layout:
 
 
         All our [wiring looms and harnesses](www.assembly-solutions.com/wiring-harness) are 100% electrically tested and all our production processes conform to Quality ISO 9001. Our technical experts have the knowledge and experience at hand to find flexible solutions for any wiring loom or harness requirement.
-  - type: testimonial
-    testimonial:
-      quote: ASL is without a doubt the best UK manufacturer of wiring looms and
-        wiring harnesses. They have been our preferred supplier for 10 years
-        because their quality and attention to detail is none other than
-        excellent, and they deliver when they say they will - which is something
-        my other suppliers don’t do! For us we find working with ASL extremely
-        easy, they are always quick to respond and support us with fast
-        turnaround deliveries when we have urgent demands.
-      name: Electrical Engineering Manager – Alexander Dennis
 seo:
   title: Wiring Loom Manufacturer | Quality Custom Made Looms
   description: Custom quality wiring looms and wiring harnesses manufactured on a
