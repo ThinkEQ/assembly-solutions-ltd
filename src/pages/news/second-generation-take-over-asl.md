@@ -39,13 +39,13 @@ layout:
         “This is an incredibly special milestone for the family and one that myself, Sophie and Oliver are extremely grateful for. I've worked alongside my dad for 17 years and made so many great memories with him. My fondest memory is when he took me to Hong Kong for a week visiting exhibitions and suppliers. It was a great trip and really opened my eyes to the opportunities in international business, which since we have developed partnerships in China and Eastern Europe. I'm excited for this new chapter where we plan to double turnover to £10million".
 
 
-        Sophie, Marketing Executive, hopes to make father proud;
+        Sophie, Marketing Director, hopes to make father proud;
 
 
         “This is by far our biggest achievement and it feels such a privilege to take on the role of ownership. It is quite an emotional milestone when you look back and see how far we have all come. We started off as kids helping dad out in the school holidays learning all about cables and wires, and here we are 20 years later taking over a £5million business! My dad has taught me so much over the years from mastering marketing techniques to understanding the overall operations of running a business. We plan to make him the proudest father alive”.
 
 
-        Oliver, Purchasing Manager, looks forward to next chapter in the business;
+        Oliver, Purchasing Director, looks forward to next chapter in the business;
 
 
         “Electronics has been part of my life since I was young for as long as I can remember, from Dad teaching me how to wire my first plug, to wiring my first house! It’s really exciting to now be taking over the business that my Dad started from scratch. I can’t wait to see what the future holds and am looking forward to working with my family to make my old man proud!”
