@@ -122,11 +122,11 @@ team-members:
     bio: Gary has an impressive 40 years of experience and is our technical wizard
       with his wealth of knowledge in wire and cable assemblies. Since joining 5
       years ago, he has transformed the way we win new business, by working with
-      customers and supporting them with project design development. He also
-      ensures that the transition from engineering out to production runs
-      absolutely seamless and that we have built a solid relationship with the
-      customer. Gary is a devoted grandfather and enjoys hiking and rock
-      climbing - he also loves a bit of rock music!
+      customers and supporting them with project design development. He ensures
+      that the transition from engineering out to production runs absolutely
+      seamless and that we have built a solid relationship with the customer.
+      Gary is a devoted grandfather and enjoys hiking and rock climbing - he
+      also loves a bit of rock music!
     image: /img/team9-1-.png
     interests:
       - hiking
