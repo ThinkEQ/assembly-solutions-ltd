@@ -11,9 +11,12 @@ seo:
 layout:
   - type: full
     full:
-      title: Celebrating 25 Years in Business
+      title: ""
       text: >-
-        \
+        #### \
+
+        Celebrating 10 Years with Brompton
+
 
         We are proud to be celebrating our 25th Anniversary.
 
