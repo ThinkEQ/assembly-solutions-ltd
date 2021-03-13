@@ -3,7 +3,7 @@ templateKey: team-page
 title: Team
 team-members:
   - bio: Graham created Assembly Solutions in 1995 aged 35 after always having a
-      passion to building a leading electrical sub-contract manufacturer.
+      passion to build a leading electrical sub-contract manufacturer.
       Electrical wiring came natural to Graham from a very early age after his
       father Terry taught him how to wire his first plug aged 4! Attending
       Manchester University to qualify in Electrical Engineering, Graham went on
