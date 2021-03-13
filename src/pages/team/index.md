@@ -138,7 +138,7 @@ team-members:
       expertise after having his own electrical component distributer, we were
       delighted to welcome John on board in 2020 to support with customer
       account management. John is a passionate Manchester City supporter and
-      enjoys to watch them with cold pint of Guinness!
+      enjoys to watch them with a cold pint of Guinness!
     image: /img/team10-1-.png
     interests:
       - football
