@@ -17,7 +17,7 @@ seo:
     harness manufacturer based in Bolton. Call 01204 521999 for more information
     on our products.
 ---
-### A leading manufacturer in electrical wiring assemblies
+### A thriving manufacturer of electrical wiring assemblies
 
 Assembly Solutions is a thriving Bolton based sub-contract manufacturer of electrical wiring assemblies and control panels.
 
