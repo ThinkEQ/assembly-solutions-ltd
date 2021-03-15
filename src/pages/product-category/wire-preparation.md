@@ -57,7 +57,7 @@ layout:
         #### **Custom Wire Preparation**
 
 
-        An a ISO 9001 Quality accredited manufacturer, all our wire and cable preparation assemblies are made to the highest standard and given full electrical testing.
+        All our wire and cable preparation assemblies are custom made from drawing and specification. Accredited to ISO 9001 we are fully committed to quality and ensure that all products are made to the highest standard. Every batch of wire preparation is given a pull off force test to assess crimped connections and to ensure that terminals are properly attached.
       title: ""
   - type: column
     column:
@@ -66,7 +66,7 @@ layout:
         #### **25 Years Wiring Experience**
 
 
-        As an established and experienced wiring sub-contract manufacturer, we have the equipment ad skilled workforce to supply any type of wire preparation and [cable preparation](www.assembly-solutions.com/cable-preparation). We boast an extensive range of high speed wire cutting machinery which also strips, tins and terminates. These machines are run by our technical wire preparation experts who ensure that the machines are running at maximum efficiency and producing to the correct accuracy.
+        As an established manufacturer with 25 years of experience, we have the equipment and built a skilled team to supply any type of wire preparation and [cable preparation](www.assembly-solutions.com/cable-preparation). We boast an extensive range of high speed wire cutting machinery which also strips, tins and terminates. These machines are run by our technical wire preparation experts who ensure that the machines are running at maximum efficiency and producing to the correct accuracy.
   - type: column
     column:
       title: ""
