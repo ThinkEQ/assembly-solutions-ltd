@@ -19,6 +19,7 @@ seo:
 ---
 ### A thriving manufacturer of electrical wiring assemblies
 
+\
 Assembly Solutions is a UK Bolton based sub-contract manufacturer of wire preparation, cable assemblies, wiring harnesses and control panels.
 
 Created in 1995 by our Founder & Chairman Graham Balshaw, we have been established for 25 years and grown into a leading manufacturer, supplying to some of the worlds biggest organisations. 
