@@ -15,7 +15,7 @@ seo:
 ---
 #### **Celebrating 10 Years with Brompton**
 
-Brompton is the a UK manufacturer of the famous folding bicycle that you will have likely seen people riding on around the cities.\
+Brompton is a UK manufacturer of the famous folding bicycle that you will have likely seen people riding around on in cities.\
 \
 This year we are proud to be celebrating 10 years partnership with Brompton, after they chose us in 2011 as their new supplier for [cable assemblies](www.assembly-solutions.com/cable-assemblies) - which power the front and back bike lights.\
 \
