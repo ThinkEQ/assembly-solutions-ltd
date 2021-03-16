@@ -66,7 +66,7 @@ layout:
         #### **25 Years Wiring Experience**
 
 
-        As an established manufacturer with 25 years of experience, we have the equipment and built a skilled team to supply any type of wire preparation and [cable preparation](www.assembly-solutions.com/cable-preparation). We boast an extensive range of high speed wire cutting machinery which also strips, tins and terminates. These machines are run by our technical wire preparation experts who ensure that the machines are running at maximum efficiency and producing to the correct accuracy.
+        As an established manufacturer with 25 years of experience, we have the equipment and built a skilled team to supply any type of wire preparation and [cable preparation](/cable-preparation). We boast an extensive range of high speed wire cutting machinery which also strips, tins and terminates. These machines are run by our technical wire preparation experts who ensure that the machines are running at maximum efficiency and producing to the correct accuracy.
   - type: column
     column:
       title: ""
@@ -74,7 +74,7 @@ layout:
         #### **Wire Preparation for Siemens**
 
 
-        We are very proud to produce wire preparation and other small [cable assemblies](www.assembly-solutions.com/cable-assemblies) for world leading technology company Siemens. All the assemblies we manufacture for Siemens are produced on our high speed fully automotive wire preparation machine which has the capability to cut, strip, tin and terminate wires. You can read the full Siemens project case study [here](https://www.assembly-solutions.com/projects/siemens/).
+        We are very proud to produce wire preparation and other small [cable assemblies](/cable-assemblies) for world leading technology company Siemens. All the assemblies we manufacture for Siemens are produced on our high speed fully automotive wire preparation machine which has the capability to cut, strip, tin and terminate wires. You can read the full Siemens project case study [here](https://www.assembly-solutions.com/projects/siemens/).
 seo:
   title: Wire Preparation | Wire & Cable Capabilities
   description: Custom made wire preparation and cable preparation delivered on
