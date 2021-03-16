@@ -86,10 +86,10 @@ layout:
     column:
       title: ""
       text: >-
-        #### **25 Years Wiring Experience** 
+        #### **25 Years Wiring Experience**
 
 
-        In our bright and spacious Bolton factory we have an efficient production set-up including 10m long wiring build boards and cable reels and connectors on stock trolleys. Due to the complexity and size of wiring harnesses and [wiring looms](www.assembly-solutions.com/wiring-loom), our production team find that the fastest and most efficient way to build is by working off floor standing harness boards. 
+        In our bright and spacious Bolton factory we have an efficient production set-up including 10m long wiring build boards and cable reels and connectors on stock trolleys. Due to the complexity and size of wiring harnesses and [wiring looms](/wiring-loom), our production team find that the fastest and most efficient way to build is by working off floor standing harness boards. 
 
 
         All boards are custom made for each wiring harness part number with a CAD drawing made to scale and placed on the board prior to build. Our technical engineers ensure that the CAD drawing is printed with correct cable specifications and lengths, connectors and note any special processes that may need to be carried out ie. heat shrinking to protect particular areas of the harnesses.
@@ -100,10 +100,10 @@ layout:
         #### **Automotive Wiring Harness Manufacture**
 
 
-        We have supplied wiring harness products to the Automotive Industry for over 25 years and now proudly supply; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](www.assembly-solutions.com/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles. These include; Ambulances, Buses, Cars, Trucks, Trailers and Vans. 
+        We have supplied wiring harness products to the Automotive Industry for over 25 years and now proudly supply; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles. These include; Ambulances, Buses, Cars, Trucks, Trailers and Vans. 
 
 
-        Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](https://www.assembly-solutions.com/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters.
+        Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters.
 seo:
   title: Wiring Harness Manufacturer | Wire Harness Production
   description: Custom quality wiring harness and wire harness products
