@@ -24,13 +24,10 @@ layout:
         When COVID-19 struck us all last year, it was without a doubt the most uncertain and worrying time for a lot of businesses.
 
 
-        On Monday 16th March 2020, we were instructed to "Stay at Home" if you could work from home. The following morning we called all managers into an urgent meeting, to discuss what we needed to do, to follow this new government guideline.
+        On Monday 16th March 2020, we were instructed to "Stay at Home" if you could work from home. The following morning we called all managers into an urgent meeting and discussed what we needed to do to start following the new government guidelines.
 
 
-        Probably like most businesses, we weren't equipped or prepared for this change. We quickly recognised that we needed to invest £10,000 in new laptops for all those who would have to start working from home.
-
-
-        This was a cost we hadn't budgeted for in the year, but we had no other option but to go ahead. Our IT Support did a super job getting the laptops arranged and we're thankful to our office staff, who all made the "work from home" transition very smooth and stress-free. 
+        Probably like most businesses, we weren't equipped or prepared for this change. We quickly recognised that we needed to invest £10,000 in new laptops for all those who would have to start working from home. This was a cost we hadn't budgeted for in the year, but we had no other option but to go ahead. Our IT Support did a super job getting the laptops arranged and we're thankful to our office staff, who all made the "work from home" transition very smooth and stress-free. 
 
 
         **The Surprising Opportunity**
