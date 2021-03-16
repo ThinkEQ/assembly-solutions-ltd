@@ -59,7 +59,7 @@ layout:
         #### Custom Made Cable Assembly
 
 
-        We build custom made cable assembly products for two world renowned manufacturers, Aston Martin and Brompton Bicycle. Their supply chain required our technical expertise to create the most cost-effective solution for their application. Working with leading brands for over 25 years has broadened our knowledge and expertise on [cable assemblies](www.assembly-solutions.com-cable-assemblies) which has opening opportunities in other Industries across the globe.
+        We build custom made cable assembly products for two world renowned manufacturers, Aston Martin and Brompton Bicycle. Their supply chain required our technical expertise to create the most cost-effective solution for their application. Working with leading brands for over 25 years has broadened our knowledge and expertise on [cable assemblies](/cable-assemblies) which has opening opportunities in other Industries across the globe.
   - type: column
     column:
       title: ""
@@ -74,8 +74,7 @@ layout:
       text: In 2020 we celebrated an incredible 25 years since Assembly Solutions was
         created by Founder Graham Balshaw. Our experience and knowledge has
         grown hugely over the years, leading us to become a UK trusted supplier
-        of [cable assemblies](www.assembly-solutions.com/cable-assemblies) and
-        other wiring products.
+        of [cable assemblies](/cable-assemblies) and other wiring products.
   - type: column
     column:
       title: ""
@@ -83,7 +82,7 @@ layout:
         #### NHS Medical Cable Assemblies
 
 
-        Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for covid testing apparatus, hospital bed cables, sterilisation [cable assemblies](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. It has been an extremely challenging time and we're proud our of team that put in extra over time every week to show their support in helping hospitals all across the world.
+        Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for covid testing apparatus, hospital bed cables, sterilisation[](www.assembly-solutions.com/cable-assemblies) [cable assemblies](/cable-assemblies)[](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. It has been an extremely challenging time and we're proud our of team that put in extra over time every week to show their support in helping hospitals all across the world.
 seo:
   title: Cable Assembly Manufacturer | Quality Custom Made Cables
   description: Quality custom made cable assembly products manufactured in the UK
