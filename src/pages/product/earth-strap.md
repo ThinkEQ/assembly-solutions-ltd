@@ -21,7 +21,7 @@ layout:
     column:
       title: UK Manufactured Earth Straps
       text: >-
-          ASL is an industry leading manufacturer of braided earth straps and
+        ASL is an industry leading manufacturer of braided earth straps and
         braided earth lead assemblies.
 
 

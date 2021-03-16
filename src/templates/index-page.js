@@ -55,7 +55,7 @@ return (
                   that delivers <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>Quality & Speed</Text>
                 </Heading>
                 <Text fontSize={{base: "16px", lg:"24px"}} lineHeight={{base: "28px", lg:"38px"}} color="#fff" marginBottom="50px">
-                ASL is a sub-contract manufacturer of electrical wiring assemblies and control panels
+                ASL is a manufacturer of electrical wiring assemblies and control panels
                 </Text>
                 <Box display="flex" justifyContent="space-between" width="100%">
                   <Button variant="solid" onClick={onOpen}>Watch Full Video</Button>

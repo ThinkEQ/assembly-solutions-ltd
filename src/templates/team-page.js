@@ -54,7 +54,7 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
                 })}
             </SimpleGrid>
             <Box marginTop="30px" textAlign="center">
-            <Button variant="solid" onClick={() => navigate('/about')}>Our People Video</Button> 
+            <Button variant="solid" onClick={() => navigate('/videos')}>Our Videos</Button> 
             </Box>
         </Box>
       </Box>
