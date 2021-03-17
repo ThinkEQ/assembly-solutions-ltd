@@ -2,7 +2,6 @@ import React, { Fragment, useEffect, useState } from 'react'
 import { graphql, navigate } from 'gatsby'
 import Layout from '../components/Layout'
 
-
 // Load components
 import { Box, Heading, Text, ListIcon, List, ListItem } from '@chakra-ui/react'
 import Carousel from '../components/Carousel/CustomCarousel'
@@ -208,7 +207,7 @@ export const ProductCategoryPageTemplate = ({ title, contentComponent, subtitle,
                             <Box position="absolute" pointerEvents="none" height="100%" width="100%" maxHeight="457px" zIndex="50" borderRadius="3px" top="0" left="0" background="rgba(9,21,64,0.5)" />
                             <PreviewImage imageInfo={item.node.frontmatter.image} borderRadius="3px" height="100%" width="100%" />
                       </Box>
-                      <Text textAlign="center" zIndex="75" fontSize={{base: "34px", lg:"44px"}} color="#fff" pointerEvents="none" position="absolute" zIndex="100" top="50%" left="50%" transform="translate(-50%, -50%)">
+                      <Text textAlign="center" fontSize={{base: "34px", lg:"44px"}} color="#fff" pointerEvents="none" position="absolute" zIndex="100" top="50%" left="50%" transform="translate(-50%, -50%)">
                         {item.node.frontmatter.title}
                       </Text>
                   </Box>

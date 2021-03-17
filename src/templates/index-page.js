@@ -84,7 +84,7 @@ return (
                 <Heading textStyle="h2" color={{base: "#fff", sm: "inherit"}}>
                   Meet the team
                 </Heading>
-                <Button variant="solid" maxWidth="151px" onClick={() => navigate('/team')}>Meet team</Button> 
+                <Button variant="default" maxWidth="151px" onClick={() => navigate('/team')}>Meet team</Button> 
             </Box>
           </Box>
       </Box>
