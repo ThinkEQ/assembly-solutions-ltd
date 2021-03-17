@@ -66,8 +66,8 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
           {industries.map((item) => {
             return (
                 <Box padding="0 5px" margin="0 10px" overflow="hidden" height={{base: "300px", md: "400px"}} cursor="grab" _active={{cursor: "grabbing"}} position="relative">
-                  <Box position="absolute" pointerEvents="none" height="100%" width="100%" zIndex="10" borderRadius="3px" top="0" left="0" background="rgba(9,21,64,0.5)" />
-                  <Box overflow="hidden" height="100%" width="105%" transform="scale(1.1)" filter="brightness(100%)" background="rgba(9,21,64,0.5)" transition=".6s ease-in-out" _hover={{width: "97%", filter:"brightness(50%)"}}>
+                  <Box position="absolute" pointerEvents="none" height="100%" width="100%" zIndex="10" borderRadius="3px" top="0" left="5px" background="rgba(9,21,64,0.5)" />
+                  <Box overflow="hidden" height="100%" width="105%" transform="scale(1.1)" transformOrigin="0 0" filter="brightness(100%)" background="rgba(9,21,64,0.5)" transition=".6s ease-in-out" _hover={{transform: "scale(1)", filter:"brightness(50%)"}}>
                     <PreviewImage pointerEvents="none" imageInfo={item.image} borderRadius="3px" height="100%" width="100%"/>
                   </Box>
                   <Text pointerEvents="none" fontSize={{base: "24px", md: "34px", lg:"44px"}} color="#fff" zIndex="20" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)">
