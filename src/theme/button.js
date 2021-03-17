@@ -32,6 +32,13 @@ export const ButtonStyles = {
         }
     },
     variants: {
+        default: {
+                color: "#fff",
+                backgroundColor: "blue.900",
+                _hover: {
+                    backgroundColor: "blue.700"
+                }
+        },
         solid: {
             bg: "gradient.500",
             color: "#fff",
