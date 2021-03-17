@@ -8,7 +8,7 @@ team-members:
       father Terry taught him how to wire his first plug aged 4! Attending
       Manchester University to qualify in Electrical Engineering, Graham went on
       to work for electrical giants Phillips and Triscan before creating ASL.
-      Graham is the National Time Trial Cycling Champion (CAT E) after winning
+      Graham is the National Time Trials Cycling Champion (CAT E) after winning
       the title in 2020!
     interests:
       - cycling
