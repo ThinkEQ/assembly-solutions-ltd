@@ -38,7 +38,7 @@ layout:
         In April we received a huge opportunity which very much came to us as a surprise, and contributed towards a record growth in sales of £1million. The enquiry came from a UK company who have a manufacturing plant in India but due to the pandemic had to close their Indian factory.
 
 
-        We were approached with this very urgent demand, but with the size of our factory and the available floor space, we had the ability to set up a production cells in a very short space of time. Proving we had spare capacity, equipment and resource to utilise at such short notice, we won our biggest ever contract worth £700,000.
+        We were approached with this very urgent demand and with the size of our factory and the available floor space, we had the ability to set up a production cells in a very short space of time. Proving we had spare capacity, equipment and resource to utilise at such short notice, we won our biggest ever contract worth £700,000.
 
 
         We had to recruit 20 new members of staff and it's with thanks to our local agency that supported us, by providing a team of skilled production operators that we had fully trained up in a matter of weeks. The contract lasted 6 months and apart from some long lead times on tooling, overall the project was a big success.
