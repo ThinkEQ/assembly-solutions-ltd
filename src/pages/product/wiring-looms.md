@@ -75,6 +75,13 @@ layout:
 
 
         All our [wiring looms and harnesses](www.assembly-solutions.com/wiring-harness) are 100% electrically tested and all our production processes conform to Quality ISO 9001. Our technical experts have the knowledge and experience at hand to find flexible solutions for any wiring loom or harness requirement.
+  - type: column
+    column:
+      text: >-
+        #### 100% Electrical Loom Test
+
+
+        All our wiring looms come with a 100% electrical test to ensure that the harness is functioning exactly how it should be. Our quality assurance department will not allow any wiring looms to leave the factory unless they match 100% against the customers drawing & specification and that they are finished to the highest quality.
 seo:
   title: Wiring Loom Manufacturer | Quality Custom Made Looms
   description: Custom quality wiring looms and wiring harnesses manufactured on a
