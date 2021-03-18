@@ -61,6 +61,16 @@ layout:
       title: ""
   - type: column
     column:
+      text: |-
+        #### Our Wire Preparation Services include;
+
+        * Crimp Termination
+        * Soldering
+        * Tinning
+        * Wire Printing
+        * Ultrasonic Welding
+  - type: column
+    column:
       title: ""
       text: >-
         #### **25 Years Wiring Experience**
@@ -78,13 +88,13 @@ layout:
   - type: column
     column:
       text: |-
-        #### Our Wire Preparation Services include;
+        #### Made with Quality
 
-        * Crimp Termination
-        * Soldering
-        * Tinning
-        * Wire Printing
-        * Ultrasonic Welding
+        * Consistent Quality
+        * Accurate Assemblies
+        * Quick Turnaround
+        * Made in UK Factory
+        * Experienced Workforce
 seo:
   title: Wire Preparation | Wire & Cable Capabilities
   description: Custom made wire preparation and cable preparation delivered on
