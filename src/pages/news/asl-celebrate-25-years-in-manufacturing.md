@@ -22,7 +22,7 @@ layout:
         Since Assembly Solutions was founded back in 1995 by our Chairman Graham Balshaw, it has been an incredible journey and seen us grow into a leading manufacturer with 70 staff and world class customers including Ford, Rolls Royce and Siemens.
 
 
-        The last 25 years have seen us evolve from a small manufacturer of [wire preparation](www.assembly-solutions.com/wire-preparation) and [cable assemblies](www.assembly-solutions.com/cable-assemblies), into a wider portfolio of products and services including [wiring harnesses](www.assembly-solutions.com/wiring-harness) and [control panels](www.assembly-solutions.com/control-panels). 
+        The last 25 years have seen us evolve from a small manufacturer of [wire preparation](/wire-preparation) and [cable assemblies](cable-assemblies), into a wider portfolio of products and services including [wiring harnesses](/wiring-harness) and [control panels](/control-panels). 
 
 
         We are so grateful to all our employees, customers and suppliers who have helped us reach this anniversary and we look forward to many more years ahead.
