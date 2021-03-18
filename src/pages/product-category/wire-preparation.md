@@ -75,6 +75,16 @@ layout:
 
 
         We are very proud to produce wire preparation and other small [cable assemblies](/cable-assemblies) for world leading technology company Siemens. All the assemblies we manufacture for Siemens are produced on our high speed fully automotive wire preparation machine which has the capability to cut, strip, tin and terminate wires. You can read the full Siemens project case study [here](https://www.assembly-solutions.com/projects/siemens/).
+  - type: column
+    column:
+      text: |-
+        #### Our Wire Preparation Services include;
+
+        * Crimp Termination
+        * Soldering
+        * Tinning
+        * Wire Printing
+        * Ultrasonic Welding
 seo:
   title: Wire Preparation | Wire & Cable Capabilities
   description: Custom made wire preparation and cable preparation delivered on
