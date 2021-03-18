@@ -93,6 +93,16 @@ layout:
         * Ultrasonic Welding
         * Soldering & Tinning
         * Extensive Tooling
+  - type: column
+    column:
+      text: |-
+        #### Professional Cable Assembly Service
+
+        * Knowledgeable Engineers
+        * Competitive Prices
+        * Excellent Service
+        * Reliable & Flexible
+        * Experienced Team
 seo:
   title: Cable Assembly Manufacturer | Quality Custom Made Cables
   description: Quality custom made cable assembly products manufactured in the UK
