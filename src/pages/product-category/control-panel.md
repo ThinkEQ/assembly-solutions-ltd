@@ -50,7 +50,7 @@ layout:
   - type: column
     column:
       text: >-
-        **Control Panels for all Industries**
+        #### **Control Panels for all Industries**
 
 
         We manufacture a wide range control panels for different industries and applications from electrical power stations, to criminal secure vehicles and swimming pools!
@@ -67,7 +67,7 @@ layout:
     column:
       title: ""
       text: >-
-        **Quality Approved Panels**
+        #### **Quality Approved Panels**
 
 
         Quality is critical for all the products we manufacture, especially control panels. We deliver into industries including Nuclear and Utilities, so we have to take extra care ensuring that the products we produce will perform reliably under their conditions. As a trusted manufacturer of high reliability control panels, we are preferred supplier to an impressive list of blue-chip companies including; Aston Martin, Siemens and Vodafone.
@@ -75,7 +75,7 @@ layout:
     column:
       title: ""
       text: >-
-        **Design & Development Support**
+        #### **Design & Development Support**
 
 
         With 25 years of experience in control panel manufacture, we understand that customers often need our expertise to support with design and development. Our technical engineers can visit on-site to discuss projects and help engineer the most cost-effective solution.
@@ -83,7 +83,7 @@ layout:
     column:
       title: ""
       text: |-
-        **Control Panel Services**
+        #### **Control Panel Services**
 
         * Knowledgeable Workforce
         * Experienced Engineers
