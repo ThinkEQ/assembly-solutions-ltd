@@ -83,6 +83,16 @@ layout:
 
 
         Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for covid testing apparatus, hospital bed cables, sterilisation[](www.assembly-solutions.com/cable-assemblies) [cable assemblies](/cable-assemblies)[](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. It has been an extremely challenging time and we're proud our of team that put in extra over time every week to show their support in helping hospitals all across the world.
+  - type: column
+    column:
+      text: |-
+        #### Cable Assembly Services;
+
+        * Cable Printing
+        * Over Moulding
+        * Ultrasonic Welding
+        * Soldering & Tinning
+        * Extensive Tooling
 seo:
   title: Cable Assembly Manufacturer | Quality Custom Made Cables
   description: Quality custom made cable assembly products manufactured in the UK
