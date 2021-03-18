@@ -13,9 +13,7 @@ layout:
     full:
       title: ""
       text: >-
-        #### \
-
-        Celebrating 10 Years with Brompton
+        #### Celebrating 25 Years
 
 
         We are proud to be celebrating our 25th Anniversary.
