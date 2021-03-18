@@ -82,11 +82,14 @@ layout:
   - type: column
     column:
       title: ""
-      text: >-
-        **Get in touch**
+      text: |-
+        **Control Panel Services**
 
-
-        Contact our friendly team today to discuss your control panel requirements. Email enquiry@assembly-solutions.com or call 01204 51999.
+        * Knowledgeable Workforce
+        * Experienced Engineers
+        * Competitive Prices
+        * Fast Turnaround
+        * Quality Assurance
 seo:
   title: Control Panel Manufacturer | Electrical Panel Production Build
   description: Quality custom made control panels manufactured in UK and built to
