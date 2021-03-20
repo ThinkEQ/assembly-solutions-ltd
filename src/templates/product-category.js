@@ -12,6 +12,7 @@ import PreviewImage from '../components/PreviewCompatibleImage'
 import Video from '../components/Video/Video'
 import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
 import LayoutCMS from '../components/LayoutCMS/LayoutCMS'
+import Testimonial from '../components/Testimonial/Testimonial'
 
 // Load asset
 import Check from '../components/UI/SVG/svgs/check'
@@ -117,7 +118,17 @@ export const ProductCategoryPageTemplate = ({ title, contentComponent, subtitle,
               <Box width={{base: "100%", lg: "48%"}}>
                 <PageContent content={toHTML(intro.second)} />
               </Box>
-            </Box>   
+            </Box>
+            <Box display="flex" justifyContent="space-between" alignItems="flex-start" marginTop={{base: 4, md: 0}} flexDirection={{base: "column", lg: "row"}}>
+              <Box width={{base: "100%", lg: "48%"}}>
+                <PageContent content={toHTML(intro.third)} />
+              </Box>
+              {intro.testimonial &&
+                <Box width={{base: "100%", lg: "48%"}}>
+                  <Testimonial quote={intro.testimonial.quote} author={intro.testimonial.name} />
+                </Box>
+              }
+            </Box>      
           </MDXWrapper>
         </Box>
       </Box>}
@@ -249,6 +260,7 @@ const ProductCategoryPage = ({ data, pageContext }) => {
         imgHeader={post.frontmatter.image}
         video={post.frontmatter.video}
         imgCarousel={post.frontmatter.images || []}
+        testimonial={{}}
       />
     </Layout>
   )
@@ -266,6 +278,11 @@ query productCategoryPageQuery($id: String!) {
           introcol {
             first
             second
+            third 
+            testimonial {
+              name
+              quote
+            }
           }
           seo {
             title
