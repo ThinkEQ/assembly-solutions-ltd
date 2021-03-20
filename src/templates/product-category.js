@@ -119,7 +119,7 @@ export const ProductCategoryPageTemplate = ({ title, contentComponent, subtitle,
                 <PageContent content={toHTML(intro.second)} />
               </Box>
             </Box>
-            <Box display="flex" justifyContent="space-between" alignItems="flex-start" marginTop={{base: 4, md: 0}} flexDirection={{base: "column", lg: "row"}}>
+            <Box display="flex" justifyContent="space-between" alignItems="flex-start" marginTop={4} flexDirection={{base: "column", lg: "row"}}>
               <Box width={{base: "100%", lg: "48%"}}>
                 <PageContent content={toHTML(intro.third)} />
               </Box>
