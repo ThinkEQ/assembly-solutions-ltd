@@ -76,6 +76,21 @@ const Footer = ({ toggleDrawer }) => {
                   Control Panels
                 </Link>
               </ListItem>
+              <ListItem {...para}>
+                <Link as={ReachLink} to="/wiring-loom">
+                  Wiring Looms
+                </Link>
+              </ListItem>
+              <ListItem {...para}>
+                <Link as={ReachLink} to="/cable-assemblies">
+                  Cable Assemblies
+                </Link>
+              </ListItem>
+              <ListItem {...para}>
+                <Link as={ReachLink} to="/electrical-control-panels">
+                  Electrical Control Panels
+                </Link>
+              </ListItem>
             </List>
 
             <List spacing="4">
