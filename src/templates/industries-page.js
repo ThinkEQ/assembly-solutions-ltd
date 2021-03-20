@@ -46,7 +46,7 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
               <Text textStyle="p" color="#fff">
                 {testimonial.quote}
               </Text>
-              <Text fontSize="16px" marginTop="20px" color="#fff">
+              <Text textStyle="p" marginTop="20px" color="#fff">
                 {testimonial.name}
               </Text>
             </Box>
@@ -143,7 +143,7 @@ export const industryPageQuery = graphql`
           image {
             childImageSharp {
               fluid(maxHeight: 680, quality: 85) {
-                ...GatsbyImageSharpFluid_withWebp
+                ...GatsbyImageSharpFluid_withWebp_noBase64
                 presentationHeight
               }
             }
@@ -152,7 +152,7 @@ export const industryPageQuery = graphql`
         image {
           childImageSharp {
             fluid(maxHeight: 480, quality: 80) {
-              ...GatsbyImageSharpFluid_withWebp
+              ...GatsbyImageSharpFluid_withWebp_noBase64
               presentationHeight
             }
           }

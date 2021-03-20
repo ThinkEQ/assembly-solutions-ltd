@@ -8,7 +8,7 @@ const TestimonialBlock = ({ quote, author }) => {
                 "{quote}"
             </Text>
             {author &&
-                <Text fontSize="16px" marginTop="20px" color="#fff">
+                <Text textStyle="p" marginTop="20px" color="#fff">
                     {author}
                 </Text>
             }
