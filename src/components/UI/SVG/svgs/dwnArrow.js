@@ -11,7 +11,6 @@ const SVG = ({
     viewBox = "0 0 55 55"
 }) => (
     <svg id="downArrow" width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <title>3BADD2B6-9ED7-4DC0-AB35-8AA65A064700</title>
     <defs>
    
         <linearGradient x1="90.6921309%" y1="6.15017361%" x2="95.4427926%" y2="100%" id="linearGradient">

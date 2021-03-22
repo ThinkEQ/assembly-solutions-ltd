@@ -124,7 +124,7 @@ query VideosIndexQuery($skip: Int!, $limit: Int!) {
             image {
               childImageSharp {
                 fluid(maxHeight: 600, quality: 80) {
-                  ...GatsbyImageSharpFluid_withWebp
+                  ...GatsbyImageSharpFluid_withWebp_noBase64
                   presentationHeight
                 }
               }
