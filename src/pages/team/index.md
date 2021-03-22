@@ -173,6 +173,18 @@ team-members:
       - xbox
       - football
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
+  - name: Aaron Hesketh
+    jobtitle: Production Supervisor
+    interests:
+      - cooking
+      - decorating
+    bio: Aaron is a true team player who supervises our wire preparation and cable
+      assembly production areas. He has served an incredible 10 years with the
+      company and has proved excellent leadership skills which has been
+      invaluable for the companies growth. In his spare time Aaron enjoys
+      computer programming and music & drumming, followed by his favourite
+      Indian dish!
+    image: /img/aaron-hesketh.jpg
   - name: Ioan Moreno
     jobtitle: Production Supervisor
     interests:
@@ -197,18 +209,6 @@ team-members:
       - cycling
       - decorating
     image: /img/gareth-jones.jpg
-  - name: Aaron Hesketh
-    jobtitle: Production Supervisor
-    interests:
-      - cooking
-      - decorating
-    bio: Aaron is a true team player who supervises our wire preparation and cable
-      assembly production areas. He has served an incredible 10 years with the
-      company and has proved excellent leadership skills which has been
-      invaluable for the companies growth. In his spare time Aaron enjoys
-      computer programming and music & drumming, followed by his favourite
-      Indian dish!
-    image: /img/aaron-hesketh.jpg
   - name: Kevin Westfield
     jobtitle: Stores Supervisor
     linkedin: https://www.linkedin.com/in/kevin-westfield-bb144bba/
