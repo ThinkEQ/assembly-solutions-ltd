@@ -188,6 +188,13 @@ team-members:
       - cycling
       - decorating
     image: /img/gareth-jones.jpg
+  - name: Aaron Hesketh
+    jobtitle: Production Supervisor
+    interests:
+      - cooking
+      - decorating
+    bio: Bio coming soon
+    image: /img/aaron-hesketh.jpg
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
