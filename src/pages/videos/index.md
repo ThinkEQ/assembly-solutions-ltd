@@ -3,7 +3,7 @@ templateKey: video-page
 title: Videos
 youtube:
   - name: Full Video
-    id: wusos_tZNIQ
+    id: mkjb73l9zyY
     image: /img/who-we-are-012.jpg
   - name: Wire & Cable Preparation
     id: Cp3lVNhtjrI
