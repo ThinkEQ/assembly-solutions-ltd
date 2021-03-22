@@ -180,6 +180,14 @@ team-members:
       - football
     image: /img/ioan-moreno.jpg
     bio: Bio coming soon
+  - name: Gareth Jones
+    jobtitle: Machine & Maintenance Supervisor
+    linkedin: https://www.linkedin.com/in/gareth-jones-5167201b8/
+    bio: Bio coming soon
+    interests:
+      - cycling
+      - decorating
+    image: /img/gareth-jones.jpg
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
