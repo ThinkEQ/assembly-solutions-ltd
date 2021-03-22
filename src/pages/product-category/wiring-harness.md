@@ -25,6 +25,22 @@ introcol:
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/TTebZ3qU9sQ?loop=1&playlist=TTebZ3qU9sQ' frameborder='0' allowfullscreen></iframe></div>
+  third: some content here
+  testimonial:
+    quote: >-
+      ASL is without a doubt the best UK manufacturer of wiring looms and wiring
+      harnesses.
+
+      They have been our preferred supplier for 10 years because their quality and attention to
+
+      detail is none other than excellent, and they deliver when they say they will (which is
+
+      something my other suppliers don’t do!). For us we find working with ASL extremely easy,
+
+      they are always quick to respond and support us with fast turnaround deliveries when we
+
+      have urgent demands.
+    name: Electrical Engineering Manager – Alexander Dennis
 images:
   - image: /img/wiring-loom-harness.jpg
     alt: Wiring Harness
