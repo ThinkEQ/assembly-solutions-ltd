@@ -187,7 +187,12 @@ team-members:
   - name: Gareth Jones
     jobtitle: Machinery Supervisor
     linkedin: https://www.linkedin.com/in/gareth-jones-5167201b8/
-    bio: Bio coming soon.
+    bio: Gareth is our second longest serving employee and is soon to reach an
+      incredible 20 year service in January 2022! Gareth has been a key player
+      throughout the years supporting with production and being the wizard on
+      running and supervising all wire cut and strip machinery. When Gareth
+      isn't in the factory maintaining machines he is out biking or doing some
+      home DIY!
     interests:
       - cycling
       - decorating
