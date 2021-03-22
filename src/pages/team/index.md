@@ -173,6 +173,13 @@ team-members:
       - xbox
       - football
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
+  - name: Ioan Moreno
+    jobtitle: Production Supervisor
+    interests:
+      - formula1
+      - football
+    image: /img/ioan-moreno.jpg
+    bio: Bio coming soon
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
