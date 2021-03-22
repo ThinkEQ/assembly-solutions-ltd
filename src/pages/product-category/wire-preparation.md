@@ -40,7 +40,7 @@ introcol:
     #### Fast Turnaround & Consistent Quality
 
 
-    All our wire preparation assemblies are made in our Bolton factory and turned around on a fast four week lead time. Our investment in high speed machinery has allowed us to be as competitive as China because of the low labour time. The quality of our products is continually consistent due to the high spec Swiss made Schleuniger machines.
+    All our wire preparation assemblies are made in our Bolton factory and turned around on a fast four week lead time. Our investment in high speed machinery has allowed us to be as competitive as China because of the low labour time. The quality of our products is continually consistent due to the high spec Swiss made Schleuniger machines, that we have boast a range of in our wire cable cutting area.
 images:
   - image: /img/wire-preparation-02.png
     alt: Wire Preparation
