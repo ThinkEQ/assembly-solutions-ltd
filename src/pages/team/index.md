@@ -191,7 +191,7 @@ team-members:
       incredible 20 year service in January 2022! Gareth has been a key player
       throughout the years supporting with production and being the wizard on
       running and supervising all wire cut and strip machinery. When Gareth
-      isn't in the factory maintaining machines he is out biking or doing some
+      isn't in the factory running the machines, he is out biking or doing some
       home DIY!
     interests:
       - cycling
