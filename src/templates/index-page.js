@@ -46,10 +46,10 @@ return (
             <Box height="100%" maxWidth="1900px" margin="0 auto" minHeight={{base: "600px", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
               <Box textStyle="section">
                 <Heading textStyle="h1" textTransform="uppercase" color="#fff">
-                 The home of Cable Assemblies, Wiring Harnessess and <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>Control Panels</Text>
+                EFFICIENT MANUFACTURING THAT DELIVERS <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>QUALITY & SPEED</Text>
                 </Heading>
                 <Text fontSize={{base: "16px", lg:"24px"}} lineHeight={{base: "28px", lg:"38px"}} color="#fff" marginBottom="50px">
-                ASL is a manufacturer of electrical wiring assemblies and control panels
+                The home of Cable Assemblies, Wiring Harnessess and Control Panels
                 </Text>
                 <Box display="flex" justifyContent="space-between" width="100%">
                   <Button variant="solid" onClick={onOpen}>Watch Full Video</Button>
