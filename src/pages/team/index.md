@@ -179,7 +179,11 @@ team-members:
       - formula1
       - football
     image: /img/ioan-moreno.jpg
-    bio: Bio coming soon
+    bio: Ioan is a highly motivated production supervisor who has served an
+      incredible 10 years. Joining in 2011 as a production operator, Ioan has
+      worked his way up where is now supervises a team of 20 production staff
+      covering our automotive wiring harnesses and control panels. Ioan is a
+      passionate Manchester United fan and an F1 fanatic!
   - name: Gareth Jones
     jobtitle: Machinery Supervisor
     linkedin: https://www.linkedin.com/in/gareth-jones-5167201b8/
