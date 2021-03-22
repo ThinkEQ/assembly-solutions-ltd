@@ -195,6 +195,14 @@ team-members:
       - decorating
     bio: Bio coming soon
     image: /img/aaron-hesketh.jpg
+  - name: Kevin Westfield
+    jobtitle: Stores Supervisor
+    linkedin: https://www.linkedin.com/in/kevin-westfield-bb144bba/
+    interests:
+      - football
+      - church
+    bio: Bio coming soon
+    image: /img/kevin-westfield.jpg
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
