@@ -202,7 +202,11 @@ team-members:
     interests:
       - cooking
       - decorating
-    bio: Bio coming soon
+    bio: Aaron is a true team player who supervises our wire preparation and cable
+      assembly production areas. He has served an incredible 10 years with the
+      company and has proved excellent leadership skills which has shown been an
+      invaluable . In his spare time Aaron enjoys computer programming and music
+      & drumming, followed by his favourite Indian dish!
     image: /img/aaron-hesketh.jpg
   - name: Kevin Westfield
     jobtitle: Stores Supervisor
