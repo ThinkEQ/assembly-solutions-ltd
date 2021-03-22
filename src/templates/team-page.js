@@ -66,7 +66,7 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
         <ModalContent padding="0" marginTop="0rem" top={{base: "0", md:"50%"}} transform={{base: "none", md:"translateY(-50%) !important"}} minWidth="70vw">
           <ModalHeader padding="0" position="relative">
             <TeamHeader name={teamMember.name} />
-            <ModalCloseButton color="#fff" padding="20px" borderRadius="50%" top="50%" transform="translateY(-50%)" _hover={{ backgroundColor: "neutral.900", borderRadius: "50%", color: "blue.900"}} />
+            <ModalCloseButton color="#fff" padding="20px" borderRadius="50%" top="50%" right="20px" transform="translateY(-50%)" _hover={{ backgroundColor: "neutral.900", borderRadius: "50%", color: "blue.900"}} />
           </ModalHeader>
           <ModalBody padding="0">
             <TeamBody iconList={teamMember.interests} bio={teamMember.bio} linkedIn={teamMember.linkedIn} />
