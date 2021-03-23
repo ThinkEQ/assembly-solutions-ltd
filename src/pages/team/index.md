@@ -200,11 +200,13 @@ team-members:
     jobtitle: Machinery Supervisor
     linkedin: https://www.linkedin.com/in/gareth-jones-5167201b8/
     bio: Gareth is our second longest serving employee and is soon to reach an
-      incredible 20 years service in January 2022! Gareth has been a key player
-      throughout the years supporting with production and being the wizard on
-      running and supervising all wire cut and strip machinery. When Gareth
-      isn't in the factory running the machines, he is out biking or doing some
-      home DIY!
+      incredible 20 years service in January 2022! Gareth is our wizard on all
+      wire cutting machinery and has a very keen eye for quality after having a
+      role as quality inspector. With 20 years of wire and cable assembly
+      knowledge, Gareth is a very valuable team player and has an brilliant work
+      ethic which includes an achievement of 13 years with 100% attendance. When
+      Gareth isn't in the factory running the machines, he is out biking or
+      doing some home DIY!
     interests:
       - cycling
       - decorating
