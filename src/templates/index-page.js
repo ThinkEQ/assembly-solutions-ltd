@@ -46,7 +46,7 @@ return (
             <Box height="100%" maxWidth="1900px" margin="0 auto" minHeight={{base: "600px", md:"700px"}} maxHeight="100vh"  display="flex" alignItems="flex-start" flexDirection="column" justifyContent="center" position="relative">
               <Box textStyle="section">
                 <Heading textStyle="h1" textTransform="uppercase" color="#fff">
-                EFFICIENT MANUFACTURING THAT DELIVERS <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>QUALITY & SPEED</Text>
+                EFFICIENT MANUFACTURING <br />THAT DELIVERS <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>QUALITY & SPEED</Text>
                 </Heading>
                 <Text fontSize={{base: "16px", lg:"24px"}} lineHeight={{base: "28px", lg:"38px"}} color="#fff" marginBottom="50px">
                 The home of Cable Assemblies, Wiring Harnessess and Control Panels
