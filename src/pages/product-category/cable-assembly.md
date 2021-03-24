@@ -24,15 +24,10 @@ introcol:
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/JM9UP2GiQ_M?loop=1&playlist=JM9UP2GiQ_M' frameborder='0' allowfullscreen></iframe></div>
   testimonial:
     name: Henry Moreta, Buyer – Brompton Bicycle
-    quote: >-
-      We continue to buy cable assemblies from ASL because their quality is
-      excellent, prices are
-
-      competitive and they are a friendly company to work with. They have been one of our top
-
-      suppliers for 10 years because they always deliver on time and we never have issues with
-
-      quality. We highly recommend ASL.
+    quote: We build our bikes with cable assemblies made by Assembly Solutions as
+      their quality is first class and products are always delivered on time,
+      which is vital for our production lines. The team are an absolute pleasure
+      to deal with and the overall service is 5 star!
   third: >-
     ### A Family Run Quality Supplier
 
