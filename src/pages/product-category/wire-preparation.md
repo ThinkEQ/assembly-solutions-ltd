@@ -17,11 +17,7 @@ introcol:
 
     \
 
-    Dedicated to efficient manufacturing, we have invested heavily in machinery that enables us to offer customers the complete wire and cable preparation package. This includes; crimp termination, soldering, tinning, wire printing and ultrasonic welding. All these services are carried out on our machines which guarantee a significantly reduced lead time compared to being hand made, and for any urgent demands we have spare resource to deliver on an incredibly fast turnaround.\
-
-    \
-
-    Wire preparation is a service that we have supplied for over 25 years and we are incredibly proud to have built up a customer base including two world leading companies, Siemens and Stanley. If you watch our wire preparation video you will see the full range of services we provide under our purpose built family run factory in Bolton.
+    Dedicated to efficient manufacturing, we have invested heavily in machinery that enables us to offer customers the complete wire and cable preparation package. This includes; crimp termination, soldering, tinning, wire printing and ultrasonic welding. All these services are carried out on our machines which guarantee a significantly reduced lead time compared to being hand made, and for any urgent demands we have spare resource to deliver on an incredibly fast turnaround.
   second: >-
     ### **Wire Preparation Video**
 
