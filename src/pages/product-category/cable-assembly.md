@@ -44,10 +44,12 @@ introcol:
 images:
   - image: /img/cable-assembly-01.png
     alt: Cable Assembly
-  - image: /img/cable-assembly-asl3rdnovember-74.jpg
+  - image: /img/heavy-duty-cable-assembly.png
+    alt: nigel-cable-assembly
+  - image: /img/cable-assembly-img_4030.jpg
     alt: Cable Assembly
     products: Cable Preperation
-  - image: /img/cable-assembly-img_4030.jpg
+  - image: /img/cable-assembly-asl3rdnovember-74.jpg
     alt: Cable Assembly
     products: Cable Preperation
   - products: Cable Preperation
