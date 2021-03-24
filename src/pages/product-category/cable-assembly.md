@@ -13,10 +13,7 @@ introcol:
     ### **UK Cable Assembly Manufacturer**
 
 
-    We are the preferred supplier of Cable Assembly products to some of the worlds leading manufacturers including; Aston Martin, Siemens and Vodafone.
-
-
-    Producing over 1,000 cable assemblies per week, our friendly and focused team of 70 are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer.
+    We are the preferred supplier of Cable Assembly products to some of the worlds leading manufacturers including; Aston Martin, Siemens and Vodafone. Producing over 1,000 cable assemblies per week, our friendly and focused team of 70 are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer.
 
 
     With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
