@@ -38,7 +38,7 @@ introcol:
 
       quality. We highly recommend ASL.
     name: Henry Moreta, Buyer – Brompton Bicycle
-  third: "#### ."
+  third: "###### ."
 images:
   - image: /img/wire-preparation-02.png
     alt: Wire Preparation
