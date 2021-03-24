@@ -4,12 +4,13 @@ image: /img/cable-assemblies-siemens.png
 title: Siemens
 intro: Intro
 projectfeature:
-  quote: We have a great relationship with ASL and have worked with them for many
-    years, simply because they continue to deliver quality products. Being a
-    well-established business, we have trusted them from start and appreciate
-    their knowledge staff, who have gone above and beyond to help with technical
-    design.
-  name: Electrical Engineer, Siemens
+  quote: '"We have a great relationship with Assembly Solutions and have worked
+    with them for many years, simply because they continue to deliver quality
+    products and always meet promised delivery dates. Being a well-established
+    business, we have trusted them from start and really value the knowledgeable
+    team, who have recently gone above and beyond to help with some technical
+    design changes on the wire assembly termination"'
+  name: Electrical Engineering Manager, Siemens
   image: /img/siemens-project.png
 seo:
   title: Project Siemens Cable Assemblies | ASL Customer Project
