@@ -59,11 +59,12 @@ layout:
         By selecting the correct braid, termination and insulation, our earth straps are optimised for each application. We are open to looking at any size and quantity, and ensure that every single strap reaches the required performance criteria with respect to; temperature, flexibility, corrosion resistance, weight and electrical characteristics.
   - type: testimonial
     testimonial:
-      quote: We continue to buy cable assemblies from ASL because their quality is
-        excellent, prices are competitive and they are a friendly company to
-        work with. They have been one of our top suppliers for 10 years because
-        they always deliver on time and we never have issues with quality. We
-        highly recommend ASL.
+      quote: We build our bikes with cable assemblies made by Assembly Solutions as
+        their quality is first class and deliveries are always on time, which is
+        vital for our fast moving production lines! The sales and engineering
+        team are an absolute pleasure to deal with, very friendly and quick to
+        respond to any technical changes and quotations. It is very easy to say
+        that ASL are one of our best suppliers!
       name: Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Earth Strap | Earth Lead | Braided Cable | ASL
