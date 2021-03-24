@@ -17,7 +17,7 @@ seo:
   description: Cable Assemblies and Wire Preparation manufactured for world
     leading technology company Siemens
 ---
-**Supplying Wire Prep to World Leader Siemens**
+#### **Supplying Wire Preparation to World Leader Siemens**
 
 Siemens is a world leading engineering & technology company, and is the largest industrial manufacturing company in Europe.
 
