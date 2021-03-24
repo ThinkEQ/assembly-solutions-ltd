@@ -74,8 +74,8 @@ layout:
       name: Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Cable Assemblies | Cable Assembly Manufactures | ASL
-  description: Cable Assemblies and Cable Assembly Manufacture from Assembly
-    Solutions. Visit our website to understand our wide range cable assembly
+  description: Custom made Cable Assemblies manufactured to customer drawing and
+    specification. Visit our website to understand our wide range cable assembly
     capability.
 testimonial:
   quote: >
