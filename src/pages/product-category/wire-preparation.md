@@ -10,16 +10,17 @@ usps:
   - usp: Excellent Service
 introcol:
   first: >-
-    ### **Wire & Cable Preparation**
+    ### **Wire Preparation**
 
 
-    ASL is an established and efficient specialist of high volume custom-made wire and cable preparation. 
+    ASL is an established and customer focused manufacturer of high volume wire preparation and cable preparation. Equipped with an extensive range of automatic high speed wire cutting and wire termination machinery, we produce custom designed wire assemblies on an incredibly fast turnaround. With all our wire preparation assemblies being primarily machine manufactured, quality is continually consistent and meets ISO 9001 approvals.\
+
+    \
+
+    Dedicated to efficient manufacturing, we have invested heavily in machinery that enables us to offer customers the complete wire and cable preparation package. This includes; crimp termination, soldering, tinning, wire printing and ultrasonic welding. All these services are carried out on our machines which guarantee a significantly reduced lead time compared to being hand made, and for any urgent demands we have spare resource to deliver on an incredibly fast turnaround.
 
 
-    Equipped with the latest technology and automatic high speed machinery, our wire preparation services are produced to the highest standards and delivered on an fast turnaround.
-
-
-    We manufacture wire and cable assemblies to customer specification and our full service includes; cutting, stripping, terminating and tinning.
+    Wire preparation is a service that we have supplied for over 25 years and we are incredibly proud to have built up a customer base including two world leading companies, Siemens and Stanley. If you watch our wire preparation video you will see the full range of services we provide under our purpose built family run factory in Bolton.
   second: >-
     ### **Wire Preparation Video**
 
@@ -36,11 +37,7 @@ introcol:
 
       quality. We highly recommend ASL.
     name: Henry Moreta, Buyer – Brompton Bicycle
-  third: >-
-    #### Fast Turnaround & Consistent Quality
-
-
-    All our wire preparation assemblies are made in our Bolton factory and turned around on a fast four week lead time. Our investment in high speed machinery has allowed us to be as competitive as China because of the low labour time. The quality of our products is continually consistent due to the high spec Swiss made Schleuniger machines, that we have boast a range of in our wire cable cutting area.
+  third: "#### ."
 images:
   - image: /img/wire-preparation-02.png
     alt: Wire Preparation
