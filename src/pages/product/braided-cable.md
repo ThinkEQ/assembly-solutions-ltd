@@ -61,11 +61,12 @@ layout:
         If you have your drawings ready and want a quick quote, email your RFQ to enquiry@assembly-solutions.com or if you want to chat with our engineers, call 01204 521999.
   - type: testimonial
     testimonial:
-      quote: We continue to buy cable assemblies from ASL because their quality is
-        excellent, prices are competitive and they are a friendly company to
-        work with. They have been one of our top suppliers for 10 years because
-        they always deliver on time and we never have issues with quality. We
-        highly recommend ASL.
+      quote: We build our bikes with cable assemblies made by Assembly Solutions as
+        their quality is first class and deliveries are always on time, which is
+        vital for our fast moving production lines! The sales and engineering
+        team are an absolute pleasure to deal with, very friendly and quick to
+        respond to any technical changes and quotations. It is very easy to say
+        that ASL are one of our best suppliers!
       name: Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Braided Cable | Earth Straps | Earth Leads
