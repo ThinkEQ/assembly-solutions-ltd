@@ -48,8 +48,7 @@ layout:
         * Waterproof cable assemblies
         * Custom-made cables and harnesses
         * Nuclear cable assemblies
-        * Automotive cables and looms
-        * Battery cable assemblies  
+        * Automotive cables and looms  
         * Ribbon cable assemblies
         * Braided cable assemblies
   - type: column
