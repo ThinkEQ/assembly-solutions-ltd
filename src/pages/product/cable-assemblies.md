@@ -42,10 +42,7 @@ layout:
     column:
       title: Range of Cable Assemblies
       text: |-
-        * Military cable assemblies
-        * Access control and security cables
         * Over-moulded cable assemblies
-        * Waterproof cable assemblies
         * Custom-made cables and harnesses
         * Nuclear cable assemblies
         * Automotive cables and looms  
