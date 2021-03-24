@@ -28,16 +28,13 @@ introcol:
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Cp3lVNhtjrI?loop=1&playlist=Cp3lVNhtjrI' frameborder='0' allowfullscreen></iframe></div>
   testimonial:
-    quote: >-
-      We continue to buy cable assemblies from ASL because their quality is
-      excellent, prices are
-
-      competitive and they are a friendly company to work with. They have been one of our top
-
-      suppliers for 10 years because they always deliver on time and we never have issues with
-
-      quality. We highly recommend ASL.
-    name: Henry Moreta, Buyer – Brompton Bicycle
+    quote: '"We have a great relationship with ASL and have worked with them for
+      many years, simply because they continue to deliver quality products and
+      always meet promised delivery dates. Being a well-established business, we
+      have trusted them from start and really value the knowledgeable team, who
+      have recently gone above and beyond to help with some design changes on
+      the wire assembly termination."'
+    name: Electrical Engineering Manager – Siemens
   third: "###### ."
 images:
   - image: /img/wire-preparation-02.png
