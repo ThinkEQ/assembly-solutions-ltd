@@ -6,9 +6,12 @@ intro: Intro
 projectfeature:
   image: /img/brompton-bicycle-project.png
   name: Henry Moreta, Buyer - Brompton Bicycle
-  quote: We continue to buy from ASL because for 10 years we haven’t had any
-    reason to go elsewhere. Their quality is excellent, prices are competitive
-    and they are a friendly company to work with.
+  quote: "We build our bikes with cable assemblies made by Assembly Solutions as
+    their quality is first class and deliveries are always on time, which is
+    vital for our fast moving production lines! The sales and engineering team
+    are an absolute pleasure to deal with, very friendly and quick to respond to
+    any technical changes and quotations. It is very easy to say that ASL are
+    one of our best suppliers! "
 seo:
   title: Brompton Bicycle
   description: Brompton Bicycle
