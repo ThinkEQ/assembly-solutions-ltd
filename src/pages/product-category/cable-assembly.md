@@ -34,7 +34,7 @@ introcol:
 
       quality. We highly recommend ASL.
   third: >-
-    #### A Customer Focused Quality Supplier
+    ### A Customer Focused Quality Supplier
 
 
     Our cable assembly products are delivered on a fast four week delivery, from receipt of sample approval. We make a cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
