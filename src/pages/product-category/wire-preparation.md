@@ -31,7 +31,11 @@ introcol:
       knowledgeable team, who have recently gone above and beyond to help with
       some technical design changes on the wire assembly termination
     name: Electrical Engineering Manager – Siemens
-  third: "###### ."
+  third: >-
+    #### Cable Preparation
+
+
+    Cable preparation is a service that we have supplied for over 25 years and we are incredibly proud to have built up a customer base including two world leading companies, Siemens and Stanley. If you watch our wire preparation video you will see the full range of services we provide under our purpose built family run factory in Bolton.
 images:
   - image: /img/wire-preparation-02.png
     alt: Wire Preparation
