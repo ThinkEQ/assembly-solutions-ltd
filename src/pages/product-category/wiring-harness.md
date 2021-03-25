@@ -27,7 +27,7 @@ introcol:
     ### A Family Run Business
 
 
-    Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed. We pride ourselves most of our fast deliveries which all include 100% electrically tested harnesses. Quality is the most important part of the wiring harnesses and we are pleased to be ISO 9001 accredited.
+    We are a family run business dedicated to building relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed. We pride ourselves most of our fast deliveries which all include 100% electrically tested harnesses. Quality is the most important part of the wiring harnesses and we are pleased to be ISO 9001 accredited.
   testimonial:
     quote: ASL is without a doubt the best UK manufacturer of wiring looms and
       wiring harnesses. They have been our preferred supplier for 10 years
