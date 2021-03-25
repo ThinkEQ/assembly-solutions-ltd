@@ -49,6 +49,8 @@ images:
     alt: Wiring Harness
   - image: /img/asl-wiring-harness.jpg
     alt: Wiring Harness
+  - image: /img/madalina-wiring-loom.png
+    alt: wiring-loom
   - image: /img/asl-wiring-loom.jpg
     alt: Wiring Harness
   - image: /img/asl3rdnovember-7.jpg
