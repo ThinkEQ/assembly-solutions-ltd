@@ -21,7 +21,7 @@ const CardVideo = ({ title, imgSrc, click, imglocal }) => {
                 </Box>
             </Box>
             <Box position="relative" display="flex" flexDirection="column" justifyContent="space-between" padding="6" height="50%">
-                <Text fontSize="28px">{title}</Text>
+                <Text fontSize="24px">{title}</Text>
             </Box>
         </Box>
     )
