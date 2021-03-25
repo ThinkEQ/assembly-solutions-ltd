@@ -13,7 +13,7 @@ introcol:
     ### **UK Wiring Harness Manufacture**
 
 
-    Assembly Solutions is a customer focused and thriving manufacturer of high quality custom-made wiring harnesses and wiring looms. With 25 years of experience, we have grown to become a national leading supplier and have built up an incredible portfolio of customers including; Aston Martin, Ford, Rolls Royce and Siemens. We manufacture in low and high volume to support any wiring harness requirement and we offer design/engineering support to ensure the loom or harness is built both cost-effective and fit for its application.\
+    Assembly Solutions is a customer focused and thriving manufacturer of high quality custom-made wiring harnesses and wiring looms. With 25 years of experience, we have grown to become a national leading supplier and have built up an incredible portfolio of customers including; Aston Martin, Ford, Rolls Royce and Siemens. We manufacture in low & high volume, and offer design/engineering support to ensure the loom or harness is built both cost-effective and fit for its application.\
 
     \
 
