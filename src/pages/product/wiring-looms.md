@@ -12,6 +12,8 @@ images:
     image: /img/wiring-loom-harness.jpg
   - image: /img/cable-assembly-01.png
     alt: Wiring Loom
+  - image: /img/wiring-harness-03.jpg
+    alt: cable-reels
   - alt: Wiring Harness
     image: /img/wiring-harness-wiring-loom.jpg
   - alt: Wiring Harness
