@@ -4,21 +4,6 @@ usps:
   - usp: UK Manufactured
   - usp: Fast Turnaround
   - usp: Excellent Service
-related-products:
-  - name: Cable Assemblies
-    slug: cable-assemblies
-    image: /img/products-grid3.jpg
-    alt: Cable Assemblies
-  - name: |-
-      Battery & HV 
-      Cables
-    slug: battery-hv-cables
-    image: /img/home-jumbotron.jpg
-    alt: Battery and HV Cables
-  - name: Braided Cables
-    slug: braded-cables
-    image: /img/chemex.jpg
-    alt: Braided Cables
 title: Cable Preparation
 subtitle: Wire & Cable Preparation
 image: /img/cable-preparation.jpg
