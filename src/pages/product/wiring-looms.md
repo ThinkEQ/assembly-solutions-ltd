@@ -16,6 +16,8 @@ images:
     alt: cable-reels
   - alt: Wiring Harness
     image: /img/wiring-harness-wiring-loom.jpg
+  - image: /img/madalina-wiring-loom.png
+    alt: wiring-loom
   - alt: Wiring Harness
     image: /img/asl-wiring-harness.jpg
   - alt: Wiring Harness
