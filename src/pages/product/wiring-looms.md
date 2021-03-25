@@ -31,7 +31,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### UK Wiring Loom Manufacture
+        ### UK Wiring Loom Manufacture
 
 
         ASL is a fast paced and forward thinking manufacturer of wiring looms and wiring harnesses. Our harness production lines are streamlined for efficient manufacture, complete with 10m long wiring boards and side stock filled trolleys for all materials and tooling. As a leading UK manufacturer, we supply into a range of industries including; Automotive, Agriculture and Utilities.
