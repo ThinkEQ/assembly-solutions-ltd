@@ -24,36 +24,32 @@ layout:
   - type: column
     column:
       title: UK Manufactured Trailer Wiring Looms
-      text: >-
-        ASL is a sub-contract manufacturer of wiring looms and harnesses for
-        commercial and domestic trailers.
-
-
-        Our wiring loom production lines are streamlined for efficient manufacture, complete with 10m long wiring boards and side stock filled trolleys for all materials and tooling.
-
-
-        As a leading UK manufacturer, we guarantee competitive prices, short lead times and exceptional customer service.
+      text: We supply wiring looms and harnesses for into commercial and domestic
+        trailer manufacturers. Our wiring loom production lines are streamlined
+        for efficient manufacture, complete with 10m long wiring boards and side
+        stock filled trolleys for all materials and tooling. As a leading UK
+        manufacturer, we guarantee competitive prices, short lead times and
+        exceptional customer service.
   - type: column
     column:
       title: Fast & Flexible Lead Times
-      text: >-
-        In this fast paced world that we live in, we have adapted our [wiring
-        loom](www.assembly-solutions.com/wiring-loom) processes and set up our
-        production lines so that we can offer a fast and competitive lead time.
-
-
-        Whilst we know it can be tempting to keep wiring looms ‘in-house’, we find many customers out-source these items to give their design and development engineers more time to spend on future projects and products.
+      text: In this fast paced world that we live in, we have adapted our [wiring
+        loom](/wiring-loom) processes and set up our production lines so that we
+        can offer a fast and competitive lead time. Whilst we know it can be
+        tempting to keep wiring looms ‘in-house’, we find many customers
+        out-source these items to give their design and development engineers
+        more time to spend on future projects and products.
   - type: column
     column:
       title: Quality Wiring Looms
-      text: >-
-        Quality is crucial for all our wiring looms. We deliver into industries
+      text: Quality is crucial for all our wiring looms. We deliver into industries
         including Automotive and Agriculture so we have to take extra care
         ensuring that the looms will be robust enough and perform reliably when
-        out on the roads.
-
-
-        All our [wiring looms](www.assembly-solutions.com/wiring-loom) are 100% electrically tested and all our production processes conform to Quality ISO 9001. Our technical experts have the knowledge and experience at hand to find flexible solutions for any wiring loom or harness requirement.
+        out on the roads. All our [wiring looms](/wiring-loom) are 100%
+        electrically tested and all our production processes conform to Quality
+        ISO 9001. Our technical experts have the knowledge and experience at
+        hand to find flexible solutions for any wiring loom or harness
+        requirement.
   - type: testimonial
     testimonial:
       quote: ASL is without a doubt the best UK manufacturer of wiring looms and

@@ -25,7 +25,7 @@ introcol:
       their quality is first class and deliveries are always on time, which is
       vital for our fast moving production lines! The sales and engineering team
       are an absolute pleasure to deal with, very friendly and quick to respond
-      to any technical changes and quotations. It is very easy to say that ASL
+      to any technical changes and quotations. It's very easy to say that ASL
       are one of our best suppliers!  "
   third: >-
     ### A Family Run Business
