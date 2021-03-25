@@ -28,7 +28,7 @@ introcol:
       to any technical changes and quotations. It is very easy to say that ASL
       are one of our best suppliers!  "
   third: >-
-    ### A Family Run Quality Supplier
+    ### A Family Run Business
 
 
     Our cable assembly products are delivered on a fast four week delivery, from receipt of sample approval. We make a cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
