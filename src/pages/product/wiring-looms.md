@@ -27,7 +27,7 @@ images:
 layout:
   - type: column
     column:
-      title: UK Manufactured Wiring Looms
+      title: ""
       text: >-
         #### UK Wiring Loom Manufacture
 
