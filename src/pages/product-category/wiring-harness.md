@@ -13,13 +13,7 @@ introcol:
     ### **UK Manufactured Wiring Harnesses**
 
 
-    ASL is a fast paced and forward thinking manufacturer of quality custom-made wiring harnesses.
-
-
-    Our harness production lines are streamlined for efficient manufacture, complete with 10m long wiring boards and side stock filled trolleys for all materials and tooling.
-
-
-    As a leading UK manufacturer we supply into a range of Industries including; Automotive, Agriculture and Utilities.
+    ASL is a fast paced and forward thinking manufacturer of quality custom-made wiring harnesses. Our harness production lines are streamlined for efficient manufacture, complete with 10m long wiring boards and side stock filled trolleys for all materials and tooling. As a leading UK manufacturer we supply into a range of Industries including; Automotive, Agriculture and Utilities.
   second: >-
     ### **Wiring Harness Video**
 
