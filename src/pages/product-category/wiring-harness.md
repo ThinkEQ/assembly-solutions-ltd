@@ -39,9 +39,9 @@ introcol:
 images:
   - image: /img/wiring-loom-harness.jpg
     alt: Wiring Harness
-  - image: /img/cable-assembly-01.png
-    alt: Wiring Harness
   - image: /img/cable-looms-3-.jpg
+    alt: Wiring Harness
+  - image: /img/cable-assembly-01.png
     alt: Wiring Harness
   - image: /img/wiring-harness-03.jpg
     alt: Wiring Harness
