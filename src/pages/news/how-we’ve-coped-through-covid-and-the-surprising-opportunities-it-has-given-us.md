@@ -33,21 +33,17 @@ layout:
         #### **The Surprising Opportunity**
 
 
-        It was around April time that this Coronavirus pandemic was starting to look pretty serious and we were worried that it was about to affect our customers and therefore our business. Did we need to start putting a plan together on how we survive through this, keeping all our team in a job and still be able to pay bills and wages? It was the most worrying time we have ever faced.\
+        It was around April time that this Coronavirus pandemic was starting to look pretty serious and we were worried that it was about to affect our customers and therefore our business. Did we need to start putting a plan together on how we survive through this, keeping all our team in a job and still be able to pay bills and wages? It was the most worrying time we have ever faced.
 
-        \
 
-        Then very much to our surprise on April 20th we received the biggest opportunity we have ever been given, a cable assembly contract worth £700,000. This would not only guarantee to keep all our team in a job, but we would actually have to recruit an additional 20 production operators! We jumped at the chance and did everything we could to offer the most competitive prices and the fastest turnaround as delivery was critical. This UK customer was under pressure and required the services of a UK supplier after experiencing delays on cable assembly deliveries from it's Indian factory which during a period was closed due to the coronavirus outbreak.\
+        Then very much to our surprise on April 20th we received the biggest opportunity we have ever been given, a cable assembly contract worth £700,000. This would not only guarantee to keep all our team in a job, but we would actually have to recruit an additional 20 production operators! We jumped at the chance and did everything we could to offer the most competitive prices and the fastest turnaround as delivery was critical. This UK customer was under pressure and required the services of a UK supplier after experiencing delays on cable assembly deliveries from it's Indian factory which during a period was closed due to the coronavirus outbreak.
 
-        \
 
-        Two weeks from receiving the enquiry, we then received the incredible news that we had won the contract - we were absolutely delighted! With no time to celebrate (well, all the pubs were shut anyway!) we got started on setting up production lines, training the team, recruiting more staff and getting all technical documentation in order. A big part of winning this work was to prove we could meet the urgent delivery schedule and we could do with our fast and flexible capability to create new production lines at very short notice, utilising our space shop floor capacity, resource in equipment.\
+        Two weeks from receiving the enquiry, we then received the incredible news that we had won the contract - we were absolutely delighted! With no time to celebrate (well, all the pubs were shut anyway!) we got started on setting up production lines, training the team, recruiting more staff and getting all technical documentation in order. A big part of winning this work was to prove we could meet the urgent delivery schedule and we could do with our fast and flexible capability to create new production lines at very short notice, utilising our space shop floor capacity, resource in equipment.
 
-        \
 
-        It was an exciting and extremely busy time from May to November fulfilling the contract - our factory had never been filled with so much energy and team were on their A game to make it a success. Every department and individual pulled together like clock work to make sure every part was made to exact specification and highest quality and to ensure every delivery date was met. We had a couple of bumps along the way with delays on tooling and shortages on free issue material, but overall the project was a huge success and importantly the customer was thrilled with our performance throughout.\
+        It was an exciting and extremely busy time from May to November fulfilling the contract - our factory had never been filled with so much energy and team were on their A game to make it a success. Every department and individual pulled together like clock work to make sure every part was made to exact specification and highest quality and to ensure every delivery date was met. We had a couple of bumps along the way with delays on tooling and shortages on free issue material, but overall the project was a huge success and importantly the customer was thrilled with our performance throughout.
 
-        \
 
         This contract has contributed to an incredible record growth in sales of £1.2million.
 
