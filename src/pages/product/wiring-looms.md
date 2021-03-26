@@ -34,7 +34,7 @@ layout:
         ### UK Wiring Loom Manufacture
 
 
-        Assembly Solutions is an established and thriving manufacturer of wiring looms and harnesses. With 25 years of experience we have grown to become a national leading supplier and created strong partnerships with world class companies including; Ford, Siemens and Vodafone. In our spacious and organised factory, we have created a seamless wiring harness operation, complete with complete with 10m long wiring boards and side stock filled trolleys for all materials and tooling.
+        Assembly Solutions is an established and thriving manufacturer of wiring looms and [wiring harnesses](/wiring-harness). With 25 years of experience we have grown to become a national leading supplier and created strong partnerships with world class companies including; Ford, Siemens and Vodafone. In our spacious and organised factory, we have created a seamless wiring harness operation, complete with complete with 10m long wiring boards and side stock filled trolleys for all materials and tooling.
   - type: column
     column:
       text: >-
