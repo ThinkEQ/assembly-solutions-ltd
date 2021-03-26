@@ -18,9 +18,9 @@ layout:
         * Moving fast for critical worldwide demand
 
 
-        \
+        #### \
 
-        **ASL Machinery Investment to support Medical sector**
+        **Machinery Investment to support Medical sector**
 
 
         The Medical sector has without a doubt never been under this much pressure.
