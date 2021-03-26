@@ -11,11 +11,11 @@ layout:
   - type: full
     full:
       text: >-
-        * Sales growth of £1million including supporting Medical Sector
+        * Incredible Record Sales Growth of £1Million
 
-        * £25,000 investment to adapt to stay at home government guideline
+        * Winning biggest ever Purchase Order worth £700,000
 
-        * Biggest ever single purchase order £700,000
+        * Stay at Home Investment of over £25,000
 
 
         #### **Coping through Coronavirus**
@@ -33,7 +33,7 @@ layout:
         #### **The Surprising Opportunity**
 
 
-        It was around April time that this Coronavirus pandemic was starting to look pretty serious and we were worried that it was about to affect our customers and therefore our business. Did we need to start putting a plan together on how we survive through this, keeping all our team in a job and still be able to pay bills and wages? It was the most worrying time we have ever faced. \
+        It was around April time that this Coronavirus pandemic was starting to look pretty serious and we were worried that it was about to affect our customers and therefore our business. Did we need to start putting a plan together on how we survive through this, keeping all our team in a job and still be able to pay bills and wages? It was the most worrying time we have ever faced.\
 
         \
 
@@ -52,7 +52,7 @@ layout:
         This contract has contributed to an incredible record growth in sales of £1.2million.
 
 
-        #### **Supporting the Medical Industry**
+        #### **Supporting the NHS & Medical Industry**
 
 
         We have supplied the medical industry for over 20 years with various electrical [cable assemblies](/cable-assemblies) and [wiring looms](/wiring-loom) for apparatus and equipment. 
