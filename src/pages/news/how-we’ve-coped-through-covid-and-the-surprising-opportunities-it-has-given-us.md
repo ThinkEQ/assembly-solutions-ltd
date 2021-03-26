@@ -11,11 +11,11 @@ layout:
   - type: full
     full:
       text: >-
-        * Incredible Record Sales Growth of £1Million
+        * Record Sales Growth of £1Million
 
         * Winning biggest ever Purchase Order worth £700,000
 
-        * Stay at Home Investment of over £25,000
+        * Stay at Home Investment over £25,000
 
 
         #### **Coping through Coronavirus**
