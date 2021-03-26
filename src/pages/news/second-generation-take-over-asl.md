@@ -18,7 +18,7 @@ layout:
         * Gareth, Sophie and Oliver strive for £10million growth
 
 
-        \
+        #### \
 
         **Celebrating New Ownership**
 
