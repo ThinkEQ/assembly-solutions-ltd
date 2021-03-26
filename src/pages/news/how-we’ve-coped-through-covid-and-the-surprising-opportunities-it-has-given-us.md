@@ -11,7 +11,7 @@ layout:
   - type: full
     full:
       text: >-
-        * Sales growth of 1 MILLION including supporting Medical Sector
+        * Sales growth of £1million including supporting Medical Sector
 
         * £25,000 investment to adapt to stay at home government guideline
 
@@ -21,7 +21,7 @@ layout:
         #### **Coping through Coronavirus**
 
 
-        When COVID-19 struck us all last year, it was without a doubt the most uncertain and worrying time for a lot of businesses.
+        When the Coronavirus pandemic struck us all last year, it was without a doubt the most uncertain and worrying time for a lot of businesses.
 
 
         On Monday 16th March 2020, we were instructed to "Stay at Home" if you could work from home. The following morning we called all managers into an urgent meeting and discussed what we needed to do to start following the new government guidelines.
@@ -33,7 +33,7 @@ layout:
         #### **The Surprising Opportunity**
 
 
-        It was around April time that this Coronavirus pandemic was starting to look very serious and we were worried that it was about to affect our customers and therefore our business. Did we need to start putting a plan together on how we survive through this, keeping all our team in a job and still be able to pay bills and wages? It was the most worrying time we have ever faced. \
+        It was around April time that this Coronavirus pandemic was starting to look pretty serious and we were worried that it was about to affect our customers and therefore our business. Did we need to start putting a plan together on how we survive through this, keeping all our team in a job and still be able to pay bills and wages? It was the most worrying time we have ever faced. \
 
         \
 
@@ -45,7 +45,7 @@ layout:
 
         \
 
-        It was an exciting and extremely busy time from May to November fulfilling the contract - our factory had never been filled with so much energy and team were on their A game to make it a success. Every department and individual pulled together like clock work to make sure every part was made to exact specification and highest quality and to ensure every delivery date was met. We had a couple of bumps along the way with delays on tooling and free issue material, but overall the project was a huge success and importantly the customer was overjoyed with our performance throughout. praised our efforts.\
+        It was an exciting and extremely busy time from May to November fulfilling the contract - our factory had never been filled with so much energy and team were on their A game to make it a success. Every department and individual pulled together like clock work to make sure every part was made to exact specification and highest quality and to ensure every delivery date was met. We had a couple of bumps along the way with delays on tooling and shortages on free issue material, but overall the project was a huge success and importantly the customer was thrilled with our performance throughout.\
 
         \
 
