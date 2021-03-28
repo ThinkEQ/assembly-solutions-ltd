@@ -18,7 +18,9 @@ layout:
         * Stay at Home Investment over £25,000
 
 
-        #### **Coping through Coronavirus**
+        #### \
+
+        **Coping through Coronavirus**
 
 
         When the Coronavirus pandemic struck us all last year, it was without a doubt the most uncertain and worrying time for a lot of businesses.
