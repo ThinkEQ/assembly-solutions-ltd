@@ -35,7 +35,7 @@ layout:
         #### **The Surprising Opportunity**
 
 
-        It was around April time that this Coronavirus pandemic was starting to look pretty serious and we were worried that it was about to affect our customers and therefore our business. Did we need to start putting a plan together on how we survive through this, keeping all our team in a job and still be able to pay bills and wages? It was the most worrying time we have ever faced.
+        It was around April time that this Coronavirus pandemic was starting to look very serious and we were worried that it was about to affect our customers and therefore our business. Did we need to start putting a plan together on how we survive through this, keeping all our team in a job and still be able to pay bills and wages? It was the most worrying time we have ever faced.
 
 
         Then very much to our surprise on April 20th we received the biggest opportunity we have ever been given, a cable assembly contract worth £700,000. This would not only guarantee to keep all our team in a job, but we would actually have to recruit an additional 20 production operators! We jumped at the chance and did everything we could to offer the most competitive prices and the fastest turnaround as delivery was critical. This UK customer was under pressure and required the services of a UK supplier after experiencing delays on cable assembly deliveries from it's Indian factory which during a period was closed due to the coronavirus outbreak.
