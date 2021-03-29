@@ -11,23 +11,42 @@ layout:
   - type: full
     full:
       text: >-
-        * Record Sales Growth of £1Million
+        * Reaching a Record Sales Growth of £1Million
 
         * Winning biggest ever Purchase Order worth £700,000
 
-        * Stay at Home Investment over £25,000
+        * Investing £20,000 to meet "Stay at Home" guidelines
 
+
+        #### \
 
         **Coping through Covid**
 
 
-        When the Coronavirus pandemic struck us all last year, it was without a doubt the most uncertain and worrying time for a lot of businesses.
+        Monday 16th March 2020 was without a doubt the most uncertain and worrying time for a lot of people and businesses after Boris Johnson instructed that we must "Stay at Home". As a manufacturer of ambulance wiring looms and cable assemblies for medical equipment, we were concerned as our products are delivered into safety critical industries. Understandably we were not required to close the factory, however we put immediate measures in place for the health of safety of the team. 
 
 
-        On Monday 16th March 2020, we were instructed to "Stay at Home" if you could work from home. The following morning we called all managers into an urgent meeting and discussed what we needed to do to start following the new government guidelines.
+        By this point it was common knowledge that everyone was struggling to get hold of hand sanitiser (and loo roll!) but we managed to get by with our own sanitisers before bulk stock arrived in the factory a week later. To ensure staff felt safe coming to work, we implemented the following measures;
 
 
-        Probably like most businesses, we weren't equipped or prepared for this change. We quickly recognised that we needed to invest £10,000 in new laptops for all those who would have to start working from home. This was a cost we hadn't budgeted for in the year, but we had no other option but to go ahead. Our IT Support did a super job getting the laptops arranged and we're thankful to our office staff, who all made the "work from home" transition very smooth and stress-free. 
+        * Social distance signage throughout whole factory
+
+        * Split breaks & lunch times up to reduce traffic in canteen
+
+        * Transformed canteen into a covid friendly area with one way system and transparent screens on tables
+
+        * Transformed offices into covid friendly areas with transparent screens 
+
+        * Increased cleaning hours from 2 hours per day to 4 hours 
+
+        * Daily sanitising on all door handles and light switches
+
+        * Propped doors open where possible to reduce touching of high traffic surfaces
+
+        * Enforced rule that face masks must be worn unless sat at work bench/desk, or sat eating in the canteen (keeping 2m apart)
+
+
+        Whilst all the urgent health and safety measures were being implemented, our IT department were hard at work ordering 20 new laptops to prepare us, not only for those staff who would start working from home, but also for those who may have to isolate at some point and require remote working access. This IT investment cost the company £20,000, which being an un-planned purchase wasn't in our budget, however the laptops have been a great success where staff now utilise them within the factory as a way of "hot-desking". 
 
 
         #### **The Surprising Opportunity**
