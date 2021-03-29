@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: How we’ve coped through COVID and the surprising opportunities it has given us
+title: How we’ve coped through Covid and the surprising opportunities it has given us
 date: 2020-12-01T09:11:24.756Z
 image: /img/asl-47.png
 seo:
@@ -18,9 +18,7 @@ layout:
         * Stay at Home Investment over £25,000
 
 
-        #### \
-
-        **Coping through Coronavirus**
+        **Coping through Covid**
 
 
         When the Coronavirus pandemic struck us all last year, it was without a doubt the most uncertain and worrying time for a lot of businesses.
