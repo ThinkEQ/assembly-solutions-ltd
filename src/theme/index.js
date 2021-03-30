@@ -23,6 +23,17 @@ const overrides = {
                 a: {
                     color: mode("green.900")(props)
                 },
+                blockquote: {
+                    backgroundColor: "blue.900",
+                    padding: "8",
+                    color: "#fff",
+                    "& p": {
+                        fontSize: {base: "16px", md:"20px"},
+                        lineHeight: {base: "28px", md:"32px"},
+                        letterSpacing: "0.71px",
+                        marginBottom: "10px"
+                    }
+                },
                 iframe: {
                     marginTop: "10px"
                 },
@@ -120,6 +131,17 @@ const overrides = {
             marginBottom: "20px",
             lettSpacing: "-2.12px",
             fontWeight: 600
+        },
+        blockquote: {
+            backgroundColor: "blue.900",
+            padding: "8",
+            color: "#fff",
+            "& p": {
+                fontSize: {base: "16px", md:"20px"},
+                lineHeight: {base: "28px", md:"32px"},
+                letterSpacing: "0.71px",
+                marginBottom: "10px"
+            }
         },
         h2: {
             fontSize: {base: "28px", md:"44px"},
