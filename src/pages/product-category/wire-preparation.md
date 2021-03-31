@@ -13,11 +13,7 @@ introcol:
     ### **Wire Preparation**
 
 
-    ASL is an established and customer focused manufacturer of high volume wire preparation and cable preparation. Equipped with an extensive range of automatic high speed wire cutting and wire termination machinery, we produce custom designed wire assemblies on an incredibly fast turnaround. With all our wire preparation assemblies being primarily machine manufactured, quality is continually consistent and meets ISO 9001 standards.\
-
-    \
-
-    Dedicated to efficient manufacturing, we have invested heavily in machinery that enables us to offer customers the complete wire and cable preparation package. This includes; crimp termination, soldering, tinning, wire printing and ultrasonic welding. All these services are carried out on our machines which guarantee a significantly reduced lead time compared to being hand made, and for any urgent demands we have spare resource to deliver on an incredibly fast turnaround.
+    ASL is an established and customer focused manufacturer of high volume wire preparation and cable preparation. Equipped with an extensive range of automatic high speed wire cutting and wire termination machinery, we produce custom designed wire assemblies on an incredibly fast turnaround. With all our wire preparation assemblies being primarily machine manufactured, quality is continually consistent and meets ISO 9001 standards.
   second: >-
     ### **Wire Preparation Video**
 
