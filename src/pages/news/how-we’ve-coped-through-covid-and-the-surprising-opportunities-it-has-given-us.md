@@ -18,9 +18,7 @@ layout:
         * Investing £20,000 to meet "Stay at Home" guidelines
 
 
-        #### \
-
-        **Coping through the Coronavirus Pandemic**
+        #### **Coping through the Coronavirus Pandemic**
 
 
         Monday 16th March 2020 was without a doubt the most uncertain and worrying time for a lot of people and businesses after Boris Johnson instructed that we must "Stay at Home". As a manufacturer of ambulance wiring looms and cable assemblies for medical equipment, we were concerned as our products are delivered into safety critical industries. Understandably we were not required to close the factory, however we put immediate measures in place for the health of safety of the team. 
