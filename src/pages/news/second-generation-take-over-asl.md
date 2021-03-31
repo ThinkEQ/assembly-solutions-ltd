@@ -45,5 +45,5 @@ layout:
         Oliver, Purchasing Director, looks forward to next chapter in the business;
 
 
-        “Electronics has been part of my life since I was young for as long as I can remember, from Dad teaching me how to wire my first plug, to wiring my first house! It’s really exciting to now be taking over the business that my Dad started from scratch. I can’t wait to see what the future holds and am looking forward to working with my family to make my old man proud!”
+        “Electronics has been part of my life since I was very young, from Dad teaching me how to wire my first plug, to wiring my first house! It’s really exciting to now be taking over the business that my Dad started from scratch. I can’t wait to see what the future holds and am looking forward to working with my family to make my old man proud!”
 ---
