@@ -18,9 +18,7 @@ layout:
         * Gareth, Sophie and Oliver strive for £10million growth
 
 
-        #### \
-
-        **Celebrating a Special Milestone & New Ownership**
+        #### **Celebrating a Special Milestone & New Ownership**
 
 
         Founder Graham Balshaw has passed the ownership of Assembly Solutions that he created 25 years ago, down to his three children; Gareth, Sophie and Oliver.
