@@ -2,6 +2,10 @@
 templateKey: industries-page
 title: Industries
 subtitle: Supplying Industries Worldwide
+aside: We open our arms and welcome any enquiry no matter what industry you’re
+  in. If you would like to send an enquiry, simply email
+  [enquiry@assembly-solutions.com](enquiry@assembly-solutions.com) and we will
+  be right back to you.
 image: /img/alexander-dennis-project.jpg
 testimonial:
   quote: "\"ASL is without a doubt the best UK manufacturer of wiring looms and

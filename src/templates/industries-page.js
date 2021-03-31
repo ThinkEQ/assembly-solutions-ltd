@@ -4,13 +4,13 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 
 // Load components
-import { Box, Heading, Text, Link, useMediaQuery } from '@chakra-ui/react'
+import { Box, Heading, Text, useMediaQuery } from '@chakra-ui/react'
 import NewsArticle from '../components/StaticQueries/NewsArticles'
 import PreviewImage from '../components/PreviewCompatibleImage'
-import Content, { HTMLContent, MDXWrapper } from '../components/Content'
+import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
 import Carousel from '../components/Carousel/CustomCarousel'
 
-export const IndustryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, testimonial, industries }) => {
+export const IndustryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, testimonial, industries, aside }) => {
   const PageContent = contentComponent || Content
   const [isLessThan464] = useMediaQuery("(max-width: 474px")
 
@@ -50,9 +50,11 @@ export const IndustryPageTemplate = ({ title, content, contentComponent, subtitl
                 {testimonial.name}
               </Text>
             </Box>
-            <Text textStyle="p" marginTop="20px">
-              We open our arms and welcome any enquiry no matter what industry you’re in. If you would like to send an enquiry, simply email <Link fontWeight="bold" href="mailto:enquiry@assembly-solutions.com" color="green.900" display="inline-block" isExternal>enquiry@assembly-solutions.com</Link> and we will be right back to you.
-            </Text>
+            <Box mt="20px">
+              <MDXWrapper>
+                  <PageContent content={toHTML(aside)} />
+              </MDXWrapper>
+            </Box>
           </Box>
         </Box>
       </Box>
@@ -108,6 +110,7 @@ const IndustryPage = ({ data }) => {
         intro={post.frontmatter.intro}
         industries={post.frontmatter.industries || []}
         testimonial={post.frontmatter.testimonial || {}}
+        aside={post.frontmatter.aside || ''}
         content={post.html}
         imgHeader={post.frontmatter.image}
       />
@@ -128,6 +131,7 @@ export const industryPageQuery = graphql`
       frontmatter {
         title,
         subtitle,
+        aside,
         intro,
         seo {
           title
