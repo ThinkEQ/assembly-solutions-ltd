@@ -18,8 +18,6 @@ layout:
         * Investing £20,000 to meet "Stay at Home" guidelines
 
 
-        #### \
-
         **Coping through Covid**
 
 
