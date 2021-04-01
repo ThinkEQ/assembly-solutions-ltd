@@ -26,7 +26,7 @@ layout:
         Founder Graham Balshaw has passed the ownership of Assembly Solutions Ltd down to next generation, his three children; Gareth, Sophie and Oliver.
 
 
-        After creating the cable assembly assembly business 25 years ago, Father Graham is thrilled and beyond proud to be passing down what he started from his back bedroom in 1995, aged 35.
+        After creating the cable assembly business 25 years ago in 1995, Father Graham is thrilled and beyond proud to be passing down what he started from his back bedroom, aged 35.
 
 
         "When I created the business 25 years ago, I never dreamt that Gareth, Sophie and Oliver would all join me one day, let alone enjoy it so much that they would eventually take over. It has been a blessing to see all three of them thrive in their positions and grow into such hard working and respectful professionals. With all their knowledge, ambition and passion, I can already see they're going to take ASL further than I could have ever imagined, and I will be the proudest father watching them. Whilst the actual running of the business is now completely down to Gareth, Sophie & Oliver, I plan on acting as Chairman for the next few years overseeing only the very top level information"\
