@@ -27,6 +27,7 @@ const overrides = {
                     backgroundColor: "blue.900",
                     padding: "8",
                     color: "#fff",
+                    margin: "20px 0",
                     "& p": {
                         fontSize: {base: "16px", md:"20px"},
                         lineHeight: {base: "28px", md:"32px"},
@@ -73,6 +74,7 @@ const overrides = {
                 },
                 ul: {
                     listStyle: 'none',
+                    marginBottom: "20px",
                     "li::before": {
                         position: 'absolute',
                         top: '8px',
