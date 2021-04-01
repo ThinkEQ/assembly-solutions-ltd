@@ -6,7 +6,7 @@ image: /img/news-img.png
 seo:
   title: Second Generation take over ASL | New Family Ownership
   description: "ASL celebrates new ownership after company is passed down to
-    Second Generation from Father and Founder Graham Balshaw "
+    Second Generation from Father and Founder Graham Balshaw  "
 layout:
   - type: full
     full:
