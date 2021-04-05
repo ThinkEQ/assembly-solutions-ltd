@@ -39,6 +39,12 @@ layout:
         * ISO9001 Quality Assurance
 
         * Fast & Flexible Delivery
+
+
+        #### Committed to customers
+
+
+        As a manufacturer who is committed to supporting customers as best we can, we usually assist with the initial design by bringing our engineering expertise to every panel wiring project. We generally work from drawings and bills of materials, but if required we can reverse engineer [control panels](www.assembly-solutions.com/control-panels) from a sample or prototype.
   - type: column
     column:
       title: Panel Wiring Team
@@ -51,23 +57,13 @@ layout:
 
 
         All our panel wiring products are electrically tested using our automatic testing facilities or bespoke test equipment designed specifically for the control panel.
-  - type: column
-    column:
-      title: Committed to customers
-      text: As a manufacturer who is committed to supporting customers as best we can,
-        we usually assist with the initial design by bringing our engineering
-        expertise to every panel wiring project. We generally work from drawings
-        and bills of materials, but if required we can reverse engineer [control
-        panels](www.assembly-solutions.com/control-panels) from a sample or
-        prototype.
-  - type: testimonial
-    testimonial:
-      quote: We have a great relationship with ASL and have worked with them for many
-        years, simply because they continue to deliver quality products. Being a
-        well-established business, we have trusted them from start and
-        appreciate their knowledge staff, who have gone above and beyond to help
-        with technical design.
-      name: Electrical Engineer – Siemens
+
+
+        > We have a great relationship with ASL and have worked with them for many years, simply because they continue to deliver quality products. Being a well-established business, we have trusted them from start and appreciate their knowledge staff, who have gone above and beyond to help with technical design.
+
+        >
+
+        > Electrical Engineer – Siemens
 seo:
   title: Panel Wiring | Panel Build Manufacturer | ASL
   description: Electrical Panel Wiring and Control Panel Build from Assembly

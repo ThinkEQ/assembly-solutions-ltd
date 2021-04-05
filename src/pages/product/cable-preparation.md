@@ -1,11 +1,11 @@
 ---
 templateKey: product
+title: Cable Preparation
+subtitle: Wire & Cable Preparation
 usps:
   - usp: UK Manufactured
   - usp: Fast Turnaround
   - usp: Excellent Service
-title: Cable Preparation
-subtitle: Wire & Cable Preparation
 image: /img/cable-preparation.jpg
 images:
   - image: /img/heavy-duty-cable-assembly.png
@@ -36,6 +36,15 @@ layout:
 
 
         Our [cable assembly](www.assembly-solutions.com/cable-assembly) production lines are streamlined for efficient manufacture and all our production operators are accredited to IPC A-620 – the standards for cable assemblies.
+
+
+        #### Reverse Engineering from Samples
+
+
+        As a manufacturer committed to supporting customers the best we can, we usually assist with the initial design by bringing our engineering expertise to every panel wiring project.
+
+
+        We generally work from drawings, specifications and bills of materials, but if required we can reverse engineer products from a sample or prototype. Our engineers can visit customer factories to discuss products in detail to come up with the best solution.
   - type: column
     column:
       title: Low Prices & Fast Turnaround
@@ -47,25 +56,13 @@ layout:
 
 
         Our [wire and cable preparation](www.assembly-solutions.com/wire-preparation) work is generally turned around on a speedy and promised 4 week turn around. This includes quoting, engineering, production set-up, production manufacture, quality assurance and delivery.
-  - type: column
-    column:
-      title: Reverse Engineering from Samples
-      text: >-
-        As a manufacturer committed to supporting customers the best we can, we
-        usually assist with the initial design by bringing our engineering
-        expertise to every panel wiring project.
 
 
-        We generally work from drawings, specifications and bills of materials, but if required we can reverse engineer products from a sample or prototype. Our engineers can visit customer factories to discuss products in detail to come up with the best solution.
-  - type: testimonial
-    testimonial:
-      quote: We build our bikes with cable assemblies made by Assembly Solutions as
-        their quality is first class and deliveries are always on time, which is
-        vital for our fast moving production lines! The sales and engineering
-        team are an absolute pleasure to deal with, very friendly and quick to
-        respond to any technical changes and quotations. It is very easy to say
-        that ASL are one of our best suppliers!
-      name: Henry Moreta, Buyer - Brompton Bicycle
+        > We build our bikes with cable assemblies made by Assembly Solutions as their quality is first class and deliveries are always on time, which is vital for our fast moving production lines! The sales and engineering team are an absolute pleasure to deal with, very friendly and quick to respond to any technical changes and quotations. It is very easy to say that ASL are one of our best suppliers!
+
+        >
+
+        > Henry Moreta, Buyer - Brompton Bicycle
 seo:
   title: Cable Preparation | Wire Preparation | ASL
   description: Cable Preparation and Wire Preparation. Cut, Strip and Terminate
