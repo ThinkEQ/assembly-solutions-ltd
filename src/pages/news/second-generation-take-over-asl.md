@@ -44,7 +44,7 @@ layout:
         **Sophie Balshaw, Marketing Director**
 
 
-        “Electronics has been a part of my life since I was very young, I can still remember Dad teaching me how to wire my first plug when I was about 4 years old! It's because of him that I grew up with a passion for electronics and after going to University to study Electrical Engineering, joining Assembly Solutions was the future path I wanted to take. Taking over the business from dad has been such a great opportunity and one I feel extremely grateful for. He has built an incredible platform for us, and it's now time for us to work the hardest we ever have as there is so much we want to achieve for the business!"\
+        “Electronics has been a part of my life since I was very young, I can still remember Dad teaching me how to wire my first plug when I was about 4 years old! It's because of him that I grew up with a passion for electronics and after going to University to study Electrical Engineering, joining Assembly Solutions was the future path I wanted to take. Taking over the business from dad has been such a great opportunity and one I feel extremely grateful for. He has built an incredible platform for us, and it's now time for us to push for everything we want to achieve!"\
 
         **Oliver Balshaw, Purchasing Director**
 ---
