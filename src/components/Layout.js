@@ -76,12 +76,12 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
         <meta name="theme-color" content="#fff" />
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
+       {/*  <meta property="og:url" content="/" />
         <meta property="author" content="Magma" />
         <meta
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
-        />
+        /> */}
         <script type="text/javascript" src="https://secure.iron0walk.com/js/207700.js" ></script>
         <noscript>{`<img alt="" src="https://secure.iron0walk.com/207700.png" style="display:none;" />`}</noscript>
       </Helmet>
