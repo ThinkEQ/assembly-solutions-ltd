@@ -29,6 +29,15 @@ layout:
 
 
         We supply braided cable in a wide range of industries and interestingly recently supplied braided earth leads into the QE2 Ship that is now a floating hotel in Dubai!
+
+
+        #### Large Stock Holding
+
+
+        With our large stock holding, we can manufacture your braided [cable assembly](www.assembly-solutions.com/cable-assembly) within a very short lead time. Whether you are looking for braided earth cable, braided earth leads or braided earth straps, we will be able to help!
+
+
+        If you have your drawings ready and want a quick quote, email your RFQ to enquiry@assembly-solutions.com or if you want to chat with our engineers, call 01204 521999.
   - type: column
     column:
       title: Braided Earth Leads
@@ -48,26 +57,13 @@ layout:
         * Earth Straps
 
         * Custom made Braid Leads
-  - type: column
-    column:
-      title: Large Stock Holding
-      text: >-
-        With our large stock holding, we can manufacture your braided [cable
-        assembly](www.assembly-solutions.com/cable-assembly) within a very short
-        lead time. Whether you are looking for braided earth cable, braided
-        earth leads or braided earth straps, we will be able to help!
 
 
-        If you have your drawings ready and want a quick quote, email your RFQ to enquiry@assembly-solutions.com or if you want to chat with our engineers, call 01204 521999.
-  - type: testimonial
-    testimonial:
-      quote: We build our bikes with cable assemblies made by Assembly Solutions as
-        their quality is first class and deliveries are always on time, which is
-        vital for our fast moving production lines! The sales and engineering
-        team are an absolute pleasure to deal with, very friendly and quick to
-        respond to any technical changes and quotations. It is very easy to say
-        that ASL are one of our best suppliers!
-      name: Henry Moreta, Buyer – Brompton Bicycle
+        > We build our bikes with cable assemblies made by Assembly Solutions as their quality is first class and deliveries are always on time, which is vital for our fast moving production lines! The sales and engineering team are an absolute pleasure to deal with, very friendly and quick to respond to any technical changes and quotations. It is very easy to say that ASL are one of our best suppliers!
+
+        >
+
+        > Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Braided Cable | Earth Straps | Earth Leads
   description: Braided Cable range from Assembly Solutions includes Braided Earth
