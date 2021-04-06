@@ -248,7 +248,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
         <DrawerOverlay />
         <DrawerContent animation={`${flow} infinite 10s ease`}  background={menu === 'nav' ? 'gradient.900' : 'gradient.800'}  zIndex="2000" backgroundSize="600% 600%" >
           <DrawerHeader minHeight="100px" padding="0" width="100%">
-          {menu === 'contact' && <DrawerCloseButton color="#fff" padding="20px" borderRadius="50%" _hover={{ backgroundColor: "neutral.900", borderRadius: "50%", color: "blue.900"}} />}
+          {menu === 'contact' && <DrawerCloseButton color="#fff" padding="20px" borderRadius="50%" _focus  _hover={{ backgroundColor: "neutral.900", borderRadius: "50%", color: "blue.900"}} />}
           {menu === 'nav' &&
             <Box display="flex" justifyContent="flex-end"  alignItems="center" height="72px">
               <Box padding="4" >
