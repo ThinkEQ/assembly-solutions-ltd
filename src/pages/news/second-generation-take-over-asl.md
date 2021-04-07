@@ -34,7 +34,7 @@ layout:
         **Graham Balshaw, Founder & Chairman**
 
 
-        “This is an incredibly special milestone for the family and one that myself, Sophie and Oliver are extremely grateful for. I've worked alongside my dad for 17 years and made so many great memories with him. My fondest memory is when he took me to Hong Kong for a week visiting exhibitions and suppliers. It was a great trip and really opened my eyes to the opportunities in international business, which since we have developed partnerships in China and Eastern Europe. I'm excited for this new chapter where we plan to double turnover to £10million"\
+        “This is a special milestone for the family and one that myself, Sophie and Oliver are extremely grateful for. I've learnt a lot working alongside my father for 17 years and we share some great memories. One of my fondest memories was travelling to China visiting suppliers, this was a great trip and really opened my eyes to the opportunities with international business. Since then we have developed partnerships all over the world. I'm excited for this new chapter where we plan to double turnover to £10million"\
 
         **Gareth Balshaw, Managing Director**
 
