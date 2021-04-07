@@ -34,17 +34,17 @@ layout:
         **Graham Balshaw, Founder & Chairman**
 
 
-        “This is a special milestone for the family and one that myself, Sophie and Oliver are extremely grateful for. I've learnt a lot working alongside my father for 17 years and we share some great memories. One of my fondest memories was travelling to China visiting suppliers, this was a great trip and really opened my eyes to the opportunities with international business. Since then we have developed partnerships all over the world. I'm excited for this new chapter where we plan to double turnover to £10million"\
+        “This is a very special milestone for the family and one that myself, Sophie and Oliver are extremely grateful for. I've learnt a lot working alongside my father for 17 years and we share some great memories. One of my fondest memories was travelling to China where we visited suppliers. It was a great trip and really opened my eyes to the opportunities with international business, which we have since developed partnerships all over the world. I'm excited for this new chapter where we plan to double turnover to £10 million"\
 
         **Gareth Balshaw, Managing Director**
 
 
-        “It feels such a privilege to take on the role of ownership and we are certainly stepping into some very big shoes! Going through this process of taking over the company has been a really special time for us as a family. It's quite an emotional milestone, especially when you look back and see how far we have all come. We started off as kids helping dad out in the school holidays learning all about cables and wires, and here we are 20 years later taking over a £5Million turnover business! My dad has taught me so much over the years from mastering marketing techniques to understanding the overall operations of running a business. We plan to make him the proudest father alive”\
+        “It is such a privilege to take on the role of ownership and it is quite an emotional milestone, especially when you look back and see how far we've all come. When we were kids, dad would take us into the factory during the school holidays to help out, and now here we are 20 years later taking over the whole thing! We have a huge amount of respect and admiration for Dad who has built this business from nothing, and grown it so gives us a platform to grow on. I can't wait to continue this journey alongside my brothers and hope we make Dad the proudest father alive"\
 
         **Sophie Balshaw, Marketing Director**
 
 
-        “Electronics has been a part of my life since I was very young, I can still remember Dad teaching me how to wire my first plug when I was about 4 years old! It's because of him that I grew up with a passion for electronics and after going to University to study Electrical Engineering, joining Assembly Solutions was the future path I wanted to take. Taking over the business from dad has been such a great opportunity and one I feel extremely grateful for. He has built an incredible platform for us, and it's now time for us to push for everything we want to achieve!"\
+        “I am incredibly proud of what Dad has created and feel very fortunate to be given this opportunity of ownership alongside Gareth & Sophie. Although taking over the family business during a pandemic may have seemed a strange time, we have made a brilliant start and on track to have a record year. It's a very exciting time in the companies journey and we're ready to push for everything we want to achieve"\
 
         **Oliver Balshaw, Purchasing Director**
 ---
