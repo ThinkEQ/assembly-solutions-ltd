@@ -1,11 +1,11 @@
 ---
 templateKey: product
+title: Cable Preparation
+subtitle: Wire & Cable Preparation
 usps:
   - usp: UK Manufactured
   - usp: Fast Turnaround
   - usp: Excellent Service
-title: Cable Preparation
-subtitle: Wire & Cable Preparation
 image: /img/cable-preparation.jpg
 images:
   - image: /img/heavy-duty-cable-assembly.png
@@ -71,4 +71,5 @@ seo:
   description: Cable Preparation and Wire Preparation. Cut, Strip and Terminate
     service on any wire or cable. High speed machinery for fast turnaround
     Cable.
+  og-url: https://www.assembly-solutions.com/cable-preparation
 ---

@@ -35,6 +35,7 @@ seo:
   description: Industries we supply into include; Automotive, Nuclear, Security
     and Utilities. Visit our website Assembly Solutions and discover our market
     range in detail.
+  og-url: https://www.assembly-solutions.com/industries
 ---
 ### **Supplying Industries Worldwide**
 

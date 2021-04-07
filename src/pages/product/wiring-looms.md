@@ -89,4 +89,5 @@ seo:
   description: Custom quality wiring looms and wiring harnesses manufactured on a
     fast turnaround with over 25 years experience. Contact us today to discuss
     how we can reduce your wiring loom costs and improve your quality.
+  og-url: https://www.assembly-solutions.com/wiring-loom
 ---

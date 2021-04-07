@@ -79,4 +79,5 @@ seo:
   description: Nuclear Control Panel and Panel Build from Control Panel Experts
     Assembly Solutions. Contact us today on 01204 521999 to discuss your Nuclear
     Panel needs.
+  og-url: https://www.assembly-solutions.com/nuclear-control-panel
 ---

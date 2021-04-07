@@ -110,4 +110,5 @@ seo:
     manufactured by UK established and experienced wiring sub-contractor based
     in Bolton. Contact 01204 521999 to discuss your wiring harness requirements
     today.
+  og-url: https://www.assembly-solutions.com/wiring-harness
 ---

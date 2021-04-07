@@ -107,4 +107,5 @@ seo:
   description: Custom made wire preparation and cable preparation delivered on
     fast turnaround and highest quality. Contact us today to discuss your wire
     preparation and cable assembly requirements.
+  og-url: https://www.assembly-solutions.com/wire-preparation
 ---

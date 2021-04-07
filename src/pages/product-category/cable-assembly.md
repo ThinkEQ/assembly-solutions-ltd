@@ -117,4 +117,5 @@ seo:
   description: Quality custom made cable assembly products manufactured in the UK
     on a fast 4 week turnaround. Contact us today for an instant quote on your
     cable assembly drawings and specification.
+  og-url: https://www.assembly-solutions.com/cable-assembly
 ---

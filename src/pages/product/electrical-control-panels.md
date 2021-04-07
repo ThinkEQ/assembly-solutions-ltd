@@ -86,4 +86,5 @@ seo:
   description: "Electrical Control Panel Manufacturers UK: Assembly Solutions are
     low cost electrical panel builders with multi-awards in design, manufacture
     and installation."
+  og-url: https://www.assembly-solutions.com/electrical-control-panels
 ---

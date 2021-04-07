@@ -3,10 +3,6 @@ templateKey: news-article
 title: £200,000 Machinery Investment to support Medical sector
 date: 2020-08-18T20:01:54.638Z
 image: /img/asl3rdnovember-54.jpg
-seo:
-  title: £200,000 Investment to support Medical sector
-  description: ASL Machinery Investment to support Medical sector. The Medical
-    sector has without a doubt never been under this much pressure.
 layout:
   - type: full
     full:
@@ -48,4 +44,9 @@ layout:
         work carried out by NHS workers, it is very satisfying seeing our small
         contribution to controlling this virus.
       name: Gareth Balshaw, Managing Director
+seo:
+  title: £200,000 Investment to support Medical sector
+  description: ASL Machinery Investment to support Medical sector. The Medical
+    sector has without a doubt never been under this much pressure.
+  og-url: https://www.assembly-solutions.com/news/£200-000-investment-to-support-medical-sector/
 ---

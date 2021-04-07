@@ -3,10 +3,6 @@ templateKey: news-article
 title: Second Generation take over ASL
 date: 2021-01-04T16:11:30.135Z
 image: /img/news-img.png
-seo:
-  title: Second Generation take over ASL | New Family Ownership
-  description: "ASL celebrates new ownership after company is passed down to
-    Second Generation from Father and Founder Graham Balshaw  "
 layout:
   - type: full
     full:
@@ -47,4 +43,9 @@ layout:
         “I am incredibly proud of what Dad has created and feel very fortunate to be given this opportunity of ownership alongside Gareth & Sophie. Although taking over the family business during a pandemic may have seemed a strange time, we have made a brilliant start and on track to have a record year. It's a very exciting time in the companies journey and we're ready to push for everything we want to achieve"\
 
         **Oliver Balshaw, Purchasing Director**
+seo:
+  title: Second Generation take over ASL | New Family Ownership
+  description: "ASL celebrates new ownership after company is passed down to
+    Second Generation from Father and Founder Graham Balshaw  "
+  og-url: https://www.assembly-solutions.com/news/second-generation-take-over-asl/
 ---

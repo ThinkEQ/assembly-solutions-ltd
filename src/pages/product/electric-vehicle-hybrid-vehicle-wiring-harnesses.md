@@ -75,4 +75,5 @@ seo:
   description: Electric Vehicle Wiring Loom, Cable Assembly and Wiring Harness
     manufactured by Wiring Harness Experts Assembly Solutions. Also experts in
     Hybrid Wiring.
+  og-url: https://www.assembly-solutions.com/electric-vehicle-and-hybrid-vehicle-wiring-harnesses
 ---

@@ -81,4 +81,5 @@ seo:
   description: Agricultural Vehicle Wiring Loom and Wiring Harnesses manufactured
     by Wiring Experts Assembly Solutions. Contact us on 01204 521999 for more
     information.
+  og-url: https://www.assembly-solutions.com/agricultural-wiring-loom
 ---

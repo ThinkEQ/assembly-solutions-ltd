@@ -4,6 +4,7 @@ title: Terms & Conditions
 seo:
   title: Terms & Conditions
   description: Terms & Conditions
+  og-url: https://www.assembly-solutions.com/terms-and-conditions
 ---
 These terms and conditions govern all contracts for the sale or supply of goods (including any instalment(s) of such goods or any parts for them) (together the “Goods”) by Assembly Solutions Limited (the “Company”) to any person who accepts the Company’s quotation for the sale of the Goods or whose order for the Goods is accepted by the Company (each a “Buyer”) to the exclusion of any other terms and conditions subject to which any quotation is accepted or purported to be accepted, or any order is made or purported to be made, by any Buyer 
 

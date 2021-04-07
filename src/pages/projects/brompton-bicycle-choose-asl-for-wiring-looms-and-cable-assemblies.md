@@ -15,6 +15,7 @@ projectfeature:
 seo:
   title: Brompton Bicycle
   description: Brompton Bicycle
+  og-url: https://www.assembly-solutions.com/projects/brompton-bicycle-choose-asl-for-wiring-looms-and-cable-assemblies/
 ---
 #### **Celebrating 10 Years with Brompton**
 

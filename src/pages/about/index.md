@@ -16,6 +16,7 @@ seo:
   description: About ASL, Assembly Solutions is a cable assembly and wiring
     harness manufacturer based in Bolton. Call 01204 521999 for more information
     on our products.
+  og-url: https://www.assembly-solutions.com/about
 ---
 ### A thriving manufacturer of electrical wiring assemblies
 

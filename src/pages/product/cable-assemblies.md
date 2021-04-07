@@ -72,6 +72,7 @@ seo:
   description: Custom made Cable Assemblies manufactured to customer drawing and
     specification. Visit our website to understand our wide range cable assembly
     capability.
+  og-url: https://www.assembly-solutions.com/cable-assemblies
 testimonial:
   quote: >
     After being let down by previous subcontractors, I’m really pleased to have

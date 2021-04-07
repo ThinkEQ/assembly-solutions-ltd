@@ -105,4 +105,5 @@ seo:
   description: Quality custom made control panels manufactured in UK and built to
     customer drawing and specification. Contact our technical experienced team
     today to discuss you panel build requirements.
+  og-url: https://www.assembly-solutions.com/control-panels
 ---

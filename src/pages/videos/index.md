@@ -30,4 +30,5 @@ seo:
   title: Videos and Multimedia | Assembly Solutions Ltd
   description: Videos and Multimedia by Assembly Solutions Ltd. Contact us on
     01204 521999 for more information.
+  og-url: https://www.assembly-solutions.com/videos
 ---

@@ -73,4 +73,5 @@ seo:
   description: Motorsport Wiring Loom and Wiring Harness manufacture by Vehicle
     Wiring Experts Assembly Solutions. Get your FREE Quote by contacting us on
     01204 521999.
+  og-url: https://www.assembly-solutions.com/motorsport-harnesses
 ---

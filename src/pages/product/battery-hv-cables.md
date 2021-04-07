@@ -77,4 +77,5 @@ seo:
   description: Battery Cables and Cable Assemblies from Assembly Solutions.
     Experts in Low Cost Battery Cable Assemblies, Wire Harnesses and Cable
     Preparation.
+  og-url: https://www.assembly-solutions.com/battery-and-hv-cables
 ---

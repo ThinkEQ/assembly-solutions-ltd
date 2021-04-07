@@ -73,4 +73,5 @@ seo:
   description: Electrical Panel Wiring and Control Panel Build from Assembly
     Solutions. Guaranteed low costs and fast turnaround on all custom panel
     build and assemblies.
+  og-url: https://www.assembly-solutions.com/panel-wiring
 ---
