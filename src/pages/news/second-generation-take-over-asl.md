@@ -39,7 +39,7 @@ layout:
         **Gareth Balshaw, Managing Director**
 
 
-        “It feels such a privilege to take on the role of ownership and we are certainly stepping into some very big shoes! Going through this process of taking over the company has been a really special time for us as a family. It's quite an emotional milestone, especially when you look back and see how far we have all come. We started off as kids helping dad out in the school holidays learning all about cables and wires, and here we are 20 years later taking over a 5 Million turnover business! My dad has taught me so much over the years from mastering marketing techniques to understanding the overall operations of running a business. We plan to make him the proudest father alive”\
+        “It feels such a privilege to take on the role of ownership and we are certainly stepping into some very big shoes! Going through this process of taking over the company has been a really special time for us as a family. It's quite an emotional milestone, especially when you look back and see how far we have all come. We started off as kids helping dad out in the school holidays learning all about cables and wires, and here we are 20 years later taking over a £5Million turnover business! My dad has taught me so much over the years from mastering marketing techniques to understanding the overall operations of running a business. We plan to make him the proudest father alive”\
 
         **Sophie Balshaw, Marketing Director**
 
