@@ -88,7 +88,7 @@ const TeamPage = ({ data }) => {
   const description = seo ? seo.description : undefined
 
   return (
-    <Layout metaTitle={title} metaDescription={description}>
+    <Layout metaTitle={title} metaDescription={description} ogUrl={post.frontmatter.og_url}>
       <TeamPageTemplate
         title={post.frontmatter.title}
         teamMembers={post.frontmatter.team_members}
@@ -111,6 +111,7 @@ export const teamPageQuery = graphql`
         seo {
           title
           description
+          og_url
         }
         team_members {
           bio

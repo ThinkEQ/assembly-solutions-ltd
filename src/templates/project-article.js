@@ -76,7 +76,7 @@ const ProjectArticle = ({ data }) => {
   const description = seo ? seo.description : undefined
 
   return (
-    <Layout metaTitle={title} metaDescription={description}>
+    <Layout metaTitle={title} metaDescription={description} ogUrl={post.frontmatter.og_url} ogImg={post.frontmatter.relativePath}>
       <ProjectArticleTemplate
         content={post.html}
         contentComponent={HTMLContent}
@@ -108,6 +108,7 @@ export const pageQuery = graphql`
         seo {
           title 
           description
+          og_url
         }
         projectfeature {
           name
@@ -122,6 +123,7 @@ export const pageQuery = graphql`
           }
         }
         image {
+          relativePath
           childImageSharp {
             fluid(maxHeight: 480, quality: 80) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
