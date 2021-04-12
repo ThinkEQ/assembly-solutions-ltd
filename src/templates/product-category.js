@@ -247,7 +247,7 @@ const ProductCategoryPage = ({ data, pageContext }) => {
   const description = seo ? seo.description : undefined
   
   return (
-    <Layout metaTitle={title} metaDescription={description} ogUrl={post.frontmatter.og_url} ogImg={post.frontmatter.relativePath}>
+    <Layout metaTitle={title} metaDescription={description} ogUrl={post.frontmatter.seo.og_url} ogImg={post.frontmatter.image.relativePath}>
       <ProductCategoryPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

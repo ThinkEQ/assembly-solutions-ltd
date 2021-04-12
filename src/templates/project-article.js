@@ -76,7 +76,7 @@ const ProjectArticle = ({ data }) => {
   const description = seo ? seo.description : undefined
 
   return (
-    <Layout metaTitle={title} metaDescription={description} ogUrl={post.frontmatter.og_url} ogImg={post.frontmatter.relativePath}>
+    <Layout metaTitle={title} metaDescription={description} ogUrl={post.frontmatter.seo.og_url} ogImg={post.frontmatter.image.relativePath}>
       <ProjectArticleTemplate
         content={post.html}
         contentComponent={HTMLContent}

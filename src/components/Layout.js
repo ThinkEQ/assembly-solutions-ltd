@@ -18,6 +18,8 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription, ogUrl, ogImg })
   const [menu, setMenu] = useState(false)
   const {isOpen, onClose, onOpen } = useDisclosure()
   const metaImg = ogImg || 'og-image.jpg'
+  console.log(ogUrl, 'urk')
+  console.log(metaImg, 'mets')
 
   function toggleDrawer(type) {
 

@@ -72,9 +72,9 @@ AboutPageTemplate.propTypes = {
 
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
-  const { seo: { title, description } } = post.frontmatter
+  const { seo: { title, description, og_url } } = post.frontmatter
   return (
-    <Layout metaTitle={title || post.frontmatter.title} metaDescription={description} ogUrl={post.frontmatter.og_url} ogImg={post.frontmatter.relativePath}>
+    <Layout metaTitle={title || post.frontmatter.title} metaDescription={description} ogUrl={og_url} ogImg={post.frontmatter.image.relativePath}>
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}

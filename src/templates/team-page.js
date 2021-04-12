@@ -88,7 +88,7 @@ const TeamPage = ({ data }) => {
   const description = seo ? seo.description : undefined
 
   return (
-    <Layout metaTitle={title} metaDescription={description} ogUrl={post.frontmatter.og_url}>
+    <Layout metaTitle={title} metaDescription={description} ogUrl={post.frontmatter.seo.og_url}>
       <TeamPageTemplate
         title={post.frontmatter.title}
         teamMembers={post.frontmatter.team_members}

@@ -100,9 +100,8 @@ const IndustryPage = ({ data }) => {
   const { seo } = post.frontmatter
   const title = seo ? seo.title : post.frontmatter.title
   const description = seo ? seo.description : undefined
-
   return (
-    <Layout metaTitle={title} metaDescription={description} ogUrl={post.frontmatter.og_url} ogImg={post.frontmatter.relativePath}>
+    <Layout metaTitle={title} metaDescription={description} ogUrl={post.frontmatter.seo.og_url} ogImg={post.frontmatter.image.relativePath}>
       <IndustryPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
