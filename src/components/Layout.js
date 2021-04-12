@@ -18,8 +18,6 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription, ogUrl, ogImg })
   const [menu, setMenu] = useState(false)
   const {isOpen, onClose, onOpen } = useDisclosure()
   const metaImg = ogImg || 'og-image.jpg'
-  console.log(ogUrl, 'urk')
-  console.log(metaImg, 'mets')
 
   function toggleDrawer(type) {
 
@@ -80,6 +78,7 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription, ogUrl, ogImg })
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
         <meta property="og:image" content={`${withPrefix('/')}img/${metaImg}`} />
+        <meta property="og:title" content={title} />
         {/*<meta property="og:image:alt" content="" />*/}
         {/*<meta property="author" content="Magma" />*/}
         <meta property="og:url" content={ogUrl} />
