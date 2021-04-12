@@ -76,9 +76,8 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription, ogUrl, ogImg })
         <link rel="manifest"  href={`${withPrefix('/')}img/site.webmanifest`} />
         <meta name="theme-color" content="#fff" />
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
+        <meta property="og:title" content={metaTitle || title} />
         <meta property="og:image" content={`${withPrefix('/')}img/${metaImg}`} />
-        <meta property="og:title" content={title} />
         {/*<meta property="og:image:alt" content="" />*/}
         {/*<meta property="author" content="Magma" />*/}
         <meta property="og:url" content={ogUrl} />
