@@ -62,7 +62,7 @@ module.exports = {
                   embedURL: (videoId) => `https://www.youtube-nocookie.com/embed/${videoId}`,
                 }
               ], //Optional: Override URL of a service provider, e.g to enable youtube-nocookie support
-              containerClass: 'embedVideo-container', //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
+              containerClass: 'embed-container', //Optional: Custom CSS class for iframe container, for multiple classes separate them by space
             }
           },
           {
@@ -83,7 +83,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
+              wrapperStyle: `margin-bottom: 20px`,
             },
           },
           {
