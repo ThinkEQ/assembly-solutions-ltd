@@ -9,7 +9,7 @@ const LayoutCMS = ({data}) => {
     const CMSContent = HTMLContent || Content
     return ( data &&
         <MDXWrapper>
-        <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" justifyContent="center">
+        <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10} justifyContent="center">
         {data.map((content) => {
             const span = content.type === 'column' ? 1 : 2
 

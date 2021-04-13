@@ -111,7 +111,7 @@ export const ProductCategoryPageTemplate = ({ title, contentComponent, subtitle,
         <Box as="section" textStyle="section">
         <Box textStyle="container">
           <MDXWrapper>
-            <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>
+            <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} mb="40px">
               <Box width={{base: "100%", lg: "48%"}}>
                 <PageContent content={toHTML(intro.first)} />
               </Box>
