@@ -23,21 +23,25 @@ layout:
         **Coping through the Coronavirus Pandemic**
 
 
-        Monday 16th March 2020 was without a doubt the most uncertain and worrying time for a lot of people and businesses after Boris Johnson instructed that we must "Stay at Home". As a manufacturer of ambulance wiring looms and cable assemblies for medical equipment, we were concerned as our products are delivered into safety critical industries. Understandably we were not required to close the factory, however we put immediate measures in place for the health of safety of the team. 
+        Monday 16th March 2020 was without a doubt the most uncertain and worrying time for a lot of people and businesses after Boris Johnson instructed that we must "Stay at Home". \
+
+        \
+
+        As a manufacturer of cable assemblies & wiring looms for medical equipment, we were concerned about this instruction as we need to be in our factory so that we could continue delivering these products into the safety critical industries. After clarifying that our factory must remain open so that we could support the medical industry in such a crisis, we were not required to close the factory, however had to ensure immediate measures were in place for the health of safety of the team. 
 
 
-        By this point it was common knowledge that everyone was struggling to get hold of hand sanitiser (and loo roll!) but we managed to get by with our own sanitisers before bulk stock arrived in the factory a week later. To ensure staff felt safe coming to work, we implemented the following measures;
+        By this point it was common knowledge that everyone was struggling to get hold of hand sanitiser (and loo roll!), but we managed to get by with our own sanitisers before bulk stock arrived in the factory a week later. To ensure staff felt safe coming to work, we implemented the following measures;
 
 
         * Social distance signage throughout whole factory
 
-        * Split breaks & lunch times up to reduce traffic in canteen
+        * Split up breaks & lunch times to reduce traffic in canteen
 
         * Transformed canteen into a covid friendly area with one way system and transparent screens on tables
 
         * Transformed offices into covid friendly areas with transparent screens 
 
-        * Increased cleaning hours from 2 hours per day to 4 hours 
+        * Increased cleaning hours from 2 hours to 4 hours per day
 
         * Daily sanitising on all door handles and light switches
 
@@ -49,25 +53,29 @@ layout:
         Whilst all the urgent health and safety measures were being implemented, our IT department were hard at work ordering 20 new laptops to prepare us, not only for those staff who would start working from home, but also for those who may have to isolate at some point and require remote working access. This IT investment cost the company £20,000, which being an un-planned purchase wasn't in our budget, however the laptops have been a great success where staff now utilise them within the factory as a way of "hot-desking". 
 
 
-        #### **The Surprising Opportunity**
+        **The Surprising Opportunity**
 
 
-        It was around April time that this Coronavirus pandemic was starting to look very serious and we were worried that it was about to affect our customers and therefore our business. Did we need to start putting a plan together on how we survive through this, keeping all our team in a job and still be able to pay bills and wages? It was the most worrying time we have ever faced.
+        It was around a month later, middle of April, that this Coronavirus pandemic was starting to look more serious and we were worried that it was about to significantly affect our customers and therefore our business. Did we need to start putting a plan together on how we survive through this, keeping all our team in a job and still be able to pay bills and wages? It was the most worrying time we have ever faced.
 
 
-        Then very much to our surprise on April 20th we received the biggest opportunity we have ever been given, a cable assembly contract worth £700,000. This would not only guarantee to keep all our team in a job, but we would actually have to recruit an additional 20 production operators! We jumped at the chance and did everything we could to offer the most competitive prices and the fastest turnaround as delivery was critical. This UK customer was under pressure and required the services of a UK supplier after experiencing delays on cable assembly deliveries from it's Indian factory which during a period was closed due to the coronavirus outbreak.
+        Then very much to our surprise on April 20th we received the biggest opportunity we have ever been given, a cable assembly contract worth £700,000. This was amazing news. It would not only guarantee to keep all our staff in a job, but we would actually have to recruit an additional 20 production operators! We jumped at the chance and did everything we could to offer the most competitive prices and the fastest turnaround as delivery was critical. The enquiry was from a UK customer who was under pressure and required the services of a UK supplier after experiencing delays on cable assembly deliveries from it's Indian factory, which had to close suddenly due to the coronavirus outbreak. 
 
 
-        Two weeks from receiving the enquiry, we received the incredible news that we had won the contract - we were absolutely delighted! With no time to celebrate (well, all the pubs were shut anyway!) we got started on setting up production lines, training the team, recruiting more staff and getting all technical documentation in order. A big part of winning this work was to prove we could meet the urgent delivery schedule and we could do with our fast and flexible capability to create new production lines at very short notice, utilising our space shop floor capacity, resource in equipment.
+        Two weeks after we submitted our quotation, we received the incredible news - we had won the contract and we were absolutely ecstatic! With no time to celebrate (well, all the pubs were shut anyway!) we got started on setting up production lines, training the team, recruiting more staff and getting all technical documentation in order. \
+
+        \
+
+        A big part of winning this work was to prove we could meet the urgent delivery schedule and we could do with our fast and flexible capability to create new production lines at very short notice, utilising our space shop floor capacity, resource in equipment.
 
 
-        It was an exciting and extremely busy time from May to November fulfilling the contract - our factory had never been filled with so much energy and team were on their A game to make it a success. Every department and individual pulled together like clock work to make sure every part was made to exact specification and highest quality and to ensure every delivery date was met. We had a couple of bumps along the way with delays on tooling and shortages on free issue material, but overall the project was a huge success and importantly the customer was thrilled with our performance throughout.
+        It was an exciting and extremely busy time from May to November fulfilling the contract - our factory had never been filled with so much energy and team were on their A game to make it a success. Every department and individual pulled together like clock work to make sure every part was made to exact specification and highest quality. We experienced a couple of bumps along the way, delays on tooling and shortages on free issue material, but overall the project was a huge success and more importantly the customer was thrilled with our performance throughout.
 
 
         This contract has contributed to an incredible record growth in sales of £1.2million.
 
 
-        #### **Supporting the NHS & Medical Industry**
+        ##### **Supporting the NHS & Medical Industry**
 
 
         We have supplied the medical industry for over 20 years with various electrical [cable assemblies](/cable-assemblies) and [wiring looms](/wiring-loom) for apparatus and equipment. Since the outbreak of Coronavirus, we have been proud to support Medical manufacturers with urgent orders after they saw a rapid increase in demand. 
