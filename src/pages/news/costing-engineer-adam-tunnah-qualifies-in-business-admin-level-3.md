@@ -13,16 +13,18 @@ layout:
         #### Costing Engineer Adam Celebrates Qualification
 
 
-        Our Costing Engineer Adam Tunnah has successfully qualified in Business Administration Level 3. 
+        We are celebrating with our Costing Engineer Adam Tunnah after he successfully qualifies in Business Administration Level 3. 
 
 
-        Adam has been studying for this qualification over the last two years and is delighted to have passed with flying colours. Whilst studying for this qualification Adam has played a significant part in the companies recent record growth of over 20%.\
+        Adam has been studying for this qualification over the last two years with independent training provider Alliance Learning. 
 
-        \
 
         Adam commented on his achievement;
 
 
         “This qualification has really helped develop my business knowledge and has given me the confidence to progress within the company. Thank you to Alliance Learning and Assembly Solutions for supporting me through this Apprenticeship!"
+
+
+        Whilst studying for this qualification Adam has played a significant part in the companies recent record growth of over 20%. As a costing engineer, he has been involved in pricing up some of our biggest contracts to date and has helped to retain existing customers through carrying out detailed costing analysis.
       title: ""
 ---
