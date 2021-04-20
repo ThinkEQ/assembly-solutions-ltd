@@ -11,7 +11,7 @@ layout:
   - type: full
     full:
       text: >-
-        * Reaching a Record Sales Growth of £1Million
+        * Reaching Record Sales Growth of £1Million
 
         * Winning biggest ever Purchase Order worth £700,000
 
