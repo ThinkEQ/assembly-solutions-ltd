@@ -10,7 +10,7 @@ layout:
   - type: full
     full:
       text: >-
-        ##### Costing King Adam Celebrates Qualification
+        ### Costing King Adam Celebrates Qualification
 
 
         Our Costing Engineer Adam Tunnah has successfully qualified in Business Administration Level 3. 
