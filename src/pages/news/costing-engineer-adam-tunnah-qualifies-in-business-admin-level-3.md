@@ -22,7 +22,7 @@ layout:
         Adam commented on his achievement;
 
 
-        “This qualification has really helped develop my business knowledge and has given me the confidence to progress within the company. Thank you to Alliance Learning and Assembly Solutions for supporting me through this Apprenticeship!"
+        **“This qualification has really helped develop my business knowledge and has given me the confidence to progress within the company. Thank you to Alliance Learning and Assembly Solutions for supporting me through this Apprenticeship!"**
 
 
         Whilst studying for this qualification Adam has played a significant part in the companies recent record growth of over 20%. As a costing engineer, he has been involved in pricing up some of our biggest contracts to date and has helped to retain existing customers through carrying out detailed costing analysis.
