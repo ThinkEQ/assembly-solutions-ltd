@@ -10,8 +10,10 @@ layout:
   - type: full
     full:
       text: >-
-        Our Costing Engineer Adam Tunnah has successfully qualified in Business
-        Administration Level 3. 
+        ##### Costing King Adam Celebrates Qualification
+
+
+        Our Costing Engineer Adam Tunnah has successfully qualified in Business Administration Level 3. 
 
 
         Adam has been studying for this qualification over the last two years and is delighted to have passed with flying colours. Whilst studying for this qualification Adam has played a significant part in the companies recent record growth of over 20%.\
