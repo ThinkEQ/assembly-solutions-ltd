@@ -20,4 +20,7 @@ layout:
         \
 
         Adam commented on his achievement “This qualification has really helped develop my general business knowledge and has helped me understand different parts about business from Marketing to Sales and Accounts."
+  - type: full
+    full:
+      text: TEST FULL
 ---
