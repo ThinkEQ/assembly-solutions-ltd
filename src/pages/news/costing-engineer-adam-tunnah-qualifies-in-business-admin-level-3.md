@@ -21,6 +21,6 @@ layout:
         Adam commented on his achievement;
 
 
-        “This qualification has really helped develop my business administration knowledge and has taught me skills that I use in my day to day tasks. Thank you to Alliance Learning and Assembly Solutions for supporting me through this Apprenticeship!"
+        “This qualification has really helped develop my business knowledge and it has given me the confidence to progress within the company. Thank you to Alliance Learning and Assembly Solutions for supporting me through this Apprenticeship!"
       title: Costing Engineer Adam Tunnah Qualifies in Business Admin Level 3
 ---
