@@ -35,6 +35,15 @@ layout:
 
 
         As an approved supplier to Sellafield, we consider ourselves the preferred and trusted UK manufacturer for nuclear electrical control panel equipment.
+
+
+        #### Quality Critical Control Panels
+
+
+        By working with the Nuclear industry, we have proved to ourselves and our customers that we can build to the most complex of [control panels](www.assembly-solutions.com/control-panels) and meet almost any unique specification.
+
+
+        We understand quality is critical and because of this we take extra care to produce control panels that are 100% reliable under the conditions.
   - type: column
     column:
       title: Nuclear Control Panels
@@ -55,25 +64,13 @@ layout:
         * Sellafield Approved Supplier
 
         * Excellent Customer Service
-  - type: column
-    column:
-      title: "Quality Critical Control Panels "
-      text: >-
-        By working with the Nuclear industry, we have proved to ourselves and
-        our customers that we can build to the most complex of [control
-        panels](www.assembly-solutions.com/control-panels) and meet almost any
-        unique specification.
 
 
-        We understand quality is critical and because of this we take extra care to produce control panels that are 100% reliable under the conditions.
-  - type: testimonial
-    testimonial:
-      quote: We have a great relationship with ASL and have worked with them for many
-        years, simply because they continue to deliver quality products. Being a
-        well-established business, we have trusted them from start and
-        appreciate their knowledge staff, who have gone above and beyond to help
-        with technical design.
-      name: Electrical Engineer – Siemens
+        > We have a great relationship with ASL and have worked with them for many years, simply because they continue to deliver quality products. Being a well-established business, we have trusted them from start and appreciate their knowledge staff, who have gone above and beyond to help with technical design.
+
+        >
+
+        > Electrical Engineer – Siemens
 seo:
   title: Nuclear Control Panels | Control Panel Manufacturers | ASL
   description: Nuclear Control Panel and Panel Build from Control Panel Experts

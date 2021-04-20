@@ -60,7 +60,7 @@ collections:
       - {label: "Video", name: video, widget: select, required: false, multiple: false, options: [{label: "Wire & Cable Preparation", value: "wire-and-cable-preparation"}, {label: "Cable Assembly", value: "cable-assembly"}, {label: "Wiring Harness", value: "wiring-harness"}, {label: "Control Panel", value: "control-panel"}]}
       - {label: "Image", name: "image", widget: image}
       - {label: "USP", name: usps, widget: list, fields: [{label: USP, name: usp, widget: string}]}
-      - {label: "Intro Columns", name: "introcol", widget: object, fields: [{label: Column 1, name: first, widget: markdown}, {label: Column 2, name: second, widget: markdown}, {label: Column 3, name: third, widget: markdown}, {label: "Testimonial", name: testimonial, widget: object, fields: [{ label: Name, name: name, widget: string, required: false}, { label: Quote, name: quote, widget: text}]}]}
+      - {label: "Intro Columns", name: "introcol", widget: object, fields: [{label: Column 1, name: first, widget: markdown}, {label: Column 2, name: second, widget: markdown}]}
       - {label: "Image Gallery", name: images, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Alt, name: alt, widget: string}]}
       - {label: "Products", name: products, widget: relation, collection: product, searchFields: [title], displayFields: [title], valueField: title, multiple: true, required: false}
       - label: "Layout Content" 

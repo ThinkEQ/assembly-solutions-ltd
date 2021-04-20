@@ -9,16 +9,16 @@ const LayoutCMS = ({data}) => {
     const CMSContent = HTMLContent || Content
     return ( data &&
         <MDXWrapper>
-        <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" justifyContent="center" gap={10}>
+        <Grid templateColumns={{base: "1fr", lg: "repeat(2, 1fr)"}} templateRows="auto" gap={10} justifyContent="center">
         {data.map((content) => {
             const span = content.type === 'column' ? 1 : 2
 
             if (content.type === 'full') {
                 return (
                     <GridItem colSpan={span} maxWidth={{base: "100%", lg:"60%"}} margin="0 auto">
-                        <Heading as="h4" textStyle="h4" marginBottom="20px">
+                        {content.full.title && <Heading as="h4" textStyle="h4" marginBottom="20px">
                             {content.full.title}
-                        </Heading>
+                        </Heading>}
                         <CMSContent content={toHTML(content.full.text)} />
                     </GridItem>
                 )
@@ -34,9 +34,9 @@ const LayoutCMS = ({data}) => {
             }
             return (
                 <GridItem colSpan={{base: 2,  lg: span}}>
-                    <Heading as="h4" textStyle="h4" marginBottom="20px">
+                    {content.column.title && <Heading as="h4" textStyle="h4" marginBottom="20px">
                         {content.column.title}
-                    </Heading>
+                    </Heading>}
                     <CMSContent content={toHTML(content.column.text)} />
                 </GridItem>
             )

@@ -111,23 +111,13 @@ export const ProductCategoryPageTemplate = ({ title, contentComponent, subtitle,
         <Box as="section" textStyle="section">
         <Box textStyle="container">
           <MDXWrapper>
-            <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}}>
+            <Box display="flex" justifyContent="space-between" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} mb="40px">
               <Box width={{base: "100%", lg: "48%"}}>
                 <PageContent content={toHTML(intro.first)} />
               </Box>
               <Box width={{base: "100%", lg: "48%"}}>
                 <PageContent content={toHTML(intro.second)} />
               </Box>
-            </Box>
-            <Box display="flex" justifyContent="space-between" alignItems="flex-start" marginTop={4} flexDirection={{base: "column", lg: "row"}}>
-              <Box width={{base: "100%", lg: "48%"}}>
-                <PageContent content={toHTML(intro.third)} />
-              </Box>
-              {intro.testimonial &&
-                <Box width={{base: "100%", lg: "48%"}}>
-                  <Testimonial quote={intro.testimonial.quote} author={intro.testimonial.name} />
-                </Box>
-              }
             </Box>      
           </MDXWrapper>
         </Box>
@@ -278,11 +268,6 @@ query productCategoryPageQuery($id: String!) {
           introcol {
             first
             second
-            third 
-            testimonial {
-              name
-              quote
-            }
           }
           seo {
             title

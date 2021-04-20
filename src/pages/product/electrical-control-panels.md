@@ -42,6 +42,15 @@ layout:
         * ISO9001 Quality Approved
 
         * Excellent Customer Service
+
+
+        #### Quality & Family Values
+
+
+        Quality is critical for all the products we manufacture, especially [control panels](www.assembly-solutions.com/control-panels). Delivering into industries including Nuclear and Utilities means that we have to take extra care to produce quality products that are 100% reliable under their conditions.  
+
+
+        One of our strengths that we highly pride ourselves on is our family values. As a family-run business owned by the second generation, we are passionate about maintaining a happy and healthy workforce, and also building close partnerships with our customers.
   - type: column
     column:
       title: Industry Electrical Control Panels
@@ -61,26 +70,13 @@ layout:
         * Swimming Pool Control Systems
 
         * Custodial Vehicle Panel Boxes
-  - type: column
-    column:
-      title: Quality & Family Values
-      text: >-
-        Quality is critical for all the products we manufacture, especially
-        [control panels](www.assembly-solutions.com/control-panels). Delivering
-        into industries including Nuclear and Utilities means that we have to
-        take extra care to produce quality products that are 100% reliable under
-        their conditions.  
 
 
-        One of our strengths that we highly pride ourselves on is our family values. As a family-run business owned by the second generation, we are passionate about maintaining a happy and healthy workforce, and also building close partnerships with our customers.
-  - type: testimonial
-    testimonial:
-      quote: We have a great relationship with ASL and have worked with them for many
-        years, simply because they continue to deliver quality products. Being a
-        well-established business, we have trusted them from start and
-        appreciate their knowledge staff, who have gone above and beyond to help
-        with technical design.
-      name: Electrical Engineer – Siemens
+        > We have a great relationship with ASL and have worked with them for many years, simply because they continue to deliver quality products. Being a well-established business, we have trusted them from start and appreciate their knowledge staff, who have gone above and beyond to help with technical design.
+
+        >
+
+        > Electrical Engineer – Siemens
 seo:
   title: Electrical Panel Builders | Electrical Control Panel Manufacturers UK
   description: "Electrical Control Panel Manufacturers UK: Assembly Solutions are

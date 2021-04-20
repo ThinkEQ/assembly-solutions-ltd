@@ -45,6 +45,17 @@ layout:
         * Electric & Hybrid Vehicles 
 
         * Truck and Van Control Systems
+
+
+
+
+        #### Vehicle Control Panels
+
+
+        Boasting a high profile customer portfolio including Bus leading manufacturers - Alexander Dennis and Optare, we are confident on our knowledge and skillset when it comes to manufacturing for Automotive applications.
+
+
+        Vehicles are the backbone of UK industry and we help keep them moving. Our fast paced production lines are set up to please the customer with [control panels](www.assembly-solutions.com/control-panels) at low cost and quick turnaround.
   - type: column
     column:
       title: Commitment to Quality Control Panels
@@ -64,25 +75,15 @@ layout:
         * Excellent Customer Service
 
         * 25 Years Manufacturing
-  - type: column
-    column:
-      title: Vehicle Control Panels
-      text: >-
-        Boasting a high profile customer portfolio including Bus leading
-        manufacturers - Alexander Dennis and Optare, we are confident on our
-        knowledge and skillset when it comes to manufacturing for Automotive
-        applications.
 
 
-        Vehicles are the backbone of UK industry and we help keep them moving. Our fast paced production lines are set up to please the customer with [control panels](www.assembly-solutions.com/control-panels) at low cost and quick turnaround.
-  - type: testimonial
-    testimonial:
-      quote: We have a great relationship with ASL and have worked with them for many
-        years, simply because they continue to deliver quality products. Being a
-        well-established business, we have trusted them from start and
-        appreciate their knowledge staff, who have gone above and beyond to help
-        with technical design.
-      name: Electrical Engineer – Siemens
+
+
+        > We have a great relationship with ASL and have worked with them for many years, simply because they continue to deliver quality products. Being a well-established business, we have trusted them from start and appreciate their knowledge staff, who have gone above and beyond to help with technical design.
+
+        >
+
+        > Electrical Engineer – Siemens
 seo:
   title: Automotive Control Panel | Control Panel Manufacturers
   description: Assembly Solutions manufacture Automotive Control Panel and
