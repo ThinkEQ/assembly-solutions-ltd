@@ -1,10 +1,10 @@
 ---
 templateKey: news-article
-title: Costing Engineer Adam Tunnah Qualifies in Business Admin Level 3
+title: Costing Engineer Adam Tunnah Qualifies in Business Administration Level 3
 date: 2021-04-20T12:20:09.055Z
 image: /img/adam-tunnah-certificate.jpg
 seo:
-  title: Costing Engineer Adam Tunnah Qualifies in Business Admin Level 3
+  title: Costing Engineer Adam Tunnah Qualifies in Business Administration Level 3
   description: Adam Tunnah has successfully qualified in Business Administration Level 3
 layout:
   - type: column
