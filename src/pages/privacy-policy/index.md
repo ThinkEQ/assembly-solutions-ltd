@@ -7,6 +7,7 @@ seo:
     uses the personal data of its workforce, and to meeting its data protection
     obligations. This policy sets out ASL's commitment to data protection, and
     individual rights and obligations in relation to personal data.
+  og-url: https://www.assembly-solutions.com/privacy-policy
 ---
 1. Purpose
 

@@ -36,7 +36,7 @@ export const ProjectIndexTemplate = ({ data, pagination }) => {
 
 const ProjectIndex =  ({data, pageContext}) => {
   return (
-      <Layout  metaTitle="Customer Projects | Assembly Solutions Ltd" metaDescription="Project Case Studies from Assembly Solutions Ltd. Learn more about what we can do for your business today!">
+      <Layout  metaTitle="Customer Projects | Assembly Solutions Ltd" metaDescription="Project Case Studies from Assembly Solutions Ltd. Learn more about what we can do for your business today!" ogUrl="https://www.assembly-solutions.com/projects">
         <ProjectIndexTemplate data={data} pagination={pageContext} />
       </Layout>
     )

@@ -16,6 +16,7 @@ seo:
   title: Project Siemens Cable Assemblies | ASL Customer Project
   description: Cable Assemblies and Wire Preparation manufactured for world
     leading technology company Siemens
+  og-url: https://www.assembly-solutions.com/projects/siemens/
 ---
 #### **Supplying Wire Preparation to World Leader Siemens**
 

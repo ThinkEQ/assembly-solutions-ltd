@@ -223,4 +223,5 @@ seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
     and committed to delivering a quality service.
+  og-url: https://www.assembly-solutions.com/team
 ---

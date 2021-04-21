@@ -74,4 +74,5 @@ seo:
     Assembly Solutions. Call us on 01204 521999 to discuss all your electrical
     panel build needs.
   title: Panel Build | Assembly Solutions
+  og-url: https://www.assembly-solutions.com/panel-build
 ---

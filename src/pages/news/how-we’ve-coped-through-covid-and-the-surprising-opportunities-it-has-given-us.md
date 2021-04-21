@@ -3,10 +3,6 @@ templateKey: news-article
 title: How we’ve coped through Covid and the surprising opportunities it has given us
 date: 2020-12-01T09:11:24.756Z
 image: /img/asl-47.png
-seo:
-  title: How we have coped through Covid and the surprising Opportunities
-  description: Worldwide pandemic gives ASL new Opportunities to support Medical
-    Industry and suppy cable assemblies for hospital apparatus and equipment
 layout:
   - type: full
     full:
@@ -100,4 +96,9 @@ layout:
 
 
         We hope all our customers and suppliers are getting through this challenging time and if there is anything we can do to help, please get in touch.
+seo:
+  title: How we have coped through Covid and the surprising Opportunities
+  description: Worldwide pandemic gives ASL new Opportunities to support Medical
+    Industry and suppy cable assemblies for hospital apparatus and equipment
+  og-url: https://www.assembly-solutions.com/news/how-we’ve-coped-through-covid-and-the-surprising-opportunities-it-has-given-us/
 ---

@@ -14,6 +14,7 @@ seo:
   title: Project Stanley Cable Assemblies | ASL Customer Project
   description: Cable Assemblies and Wiring Looms manufactured for world leading
     security company Stanley Security Solutions
+  og-url: https://www.assembly-solutions.com/projects/stanley/
 ---
 **Celebrating a Successful 20 Year Partnership**
 

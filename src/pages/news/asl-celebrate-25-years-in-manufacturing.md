@@ -3,11 +3,6 @@ templateKey: news-article
 title: Celebrating 25 Years
 date: 2020-10-01T19:49:27.681Z
 image: /img/25yearbanner.png
-seo:
-  title: Celebrating 25 Years
-  description: Since ASL was founded back in 1995 by our Chairman Graham Balshaw,
-    it has been an incredible journey and we’re delighted to have reached this
-    special milestone.
 layout:
   - type: full
     full:
@@ -43,4 +38,10 @@ layout:
         position to hand this over to the three of them and look forward to
         seeing them achieve their dreams
       name: " Graham Balshaw, Founder and Chairman"
+seo:
+  title: Celebrating 25 Years
+  description: Since ASL was founded back in 1995 by our Chairman Graham Balshaw,
+    it has been an incredible journey and we’re delighted to have reached this
+    special milestone.
+  og-url: https://www.assembly-solutions.com/news/asl-celebrate-25-years-in-manufacturing/
 ---

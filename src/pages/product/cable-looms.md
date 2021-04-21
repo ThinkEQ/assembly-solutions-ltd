@@ -75,4 +75,5 @@ seo:
   description: Cable Looms are a product that ASL are experts in. They have a
     range of pin boards set up in their brand new 32,000 sq ft factory to ensure
     they offer flexibility and a custom-made service.
+  og-url: https://www.assembly-solutions.com/cable-looms
 ---

@@ -68,4 +68,5 @@ seo:
   title: Braided Cable | Earth Straps | Earth Leads
   description: Braided Cable range from Assembly Solutions includes Braided Earth
     Leads, Braided Earth Straps in all sizes. Contact us on 01204 521999.
+  og-url: https://www.assembly-solutions.com/braided-cable
 ---

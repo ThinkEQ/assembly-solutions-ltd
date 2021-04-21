@@ -36,7 +36,7 @@ export const NewsIndexTemplate = ({ data, pagination }) => {
 
 const NewsIndex =  ({data, pageContext}) => { 
   return (
-    <Layout metaTitle="News and Articles | Assembly Solutions Ltd" metaDescription="News and articles from Assembly Solutions Ltd. Contact us on 01204 521999 for more information.">
+    <Layout metaTitle="News and Articles | Assembly Solutions Ltd" metaDescription="News and articles from Assembly Solutions Ltd. Contact us on 01204 521999 for more information." ogUrl="https://www.assembly-solutions.com/news" >
       <NewsIndexTemplate data={data} pagination={pageContext} />
     </Layout>
   )

@@ -87,9 +87,10 @@ const VideosIndex =  ({data, pageContext}) => {
   const { seo } = posts[0].node.frontmatter
   const title = seo ? seo.title : posts[0].node.frontmatter.title
   const description = seo ? seo.description : undefined
+  const url = seo ? seo.og_url : undefined
 
   return (
-    <Layout metaTitle={title} metaDescription={description}>
+    <Layout metaTitle={title} metaDescription={description} ogUrl={url}>
       <VideoIndexTemplate videos={posts[0].node.frontmatter.youtube || []} pagination={pageContext} />
     </Layout>
   )
@@ -117,6 +118,7 @@ query VideosIndexQuery($skip: Int!, $limit: Int!) {
           seo {
             title
             description
+            og_url
           }
           youtube {
             name

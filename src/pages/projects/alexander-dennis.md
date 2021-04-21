@@ -17,6 +17,7 @@ seo:
   title: Project Alexander Dennis Wiring Looms | ASL Customer Project
   description: Wiring Looms and Cable Harness manufactured for UK leading Bus
     Manufacturer Alexander Dennis
+  og-url: https://www.assembly-solutions.com/projects/alexander-dennis/
 ---
 **Celebrating 10 productive years with Alexander Dennis**
 

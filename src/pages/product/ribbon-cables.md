@@ -72,4 +72,5 @@ seo:
   description: Ribbon Cables and Cable Assemblies from Assembly Solutions.
     Business of the Years winners have built up a strong reputation for the
     supply of Cables.
+  og-url: https://www.assembly-solutions.com/ribbon-cables
 ---

@@ -59,4 +59,5 @@ seo:
   description: Trailer Wiring Loom and Wiring Harness manufacture by UK
     Manufacturer Assembly Solutions. Contact us on 01204 521999 to discuss your
     Trailer Wiring Loom.
+  og-url: https://www.assembly-solutions.com/trailer-wiring-loom
 ---

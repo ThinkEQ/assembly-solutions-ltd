@@ -89,4 +89,5 @@ seo:
   description: Assembly Solutions manufacture Automotive Control Panel and
     Instrumentation Panels. Call us on 01204 521999 to discuss your panel build
     requirements.
+  og-url: https://www.assembly-solutions.com/automotive-control-panel
 ---

@@ -12,11 +12,12 @@ import CookieConsent from 'react-cookie-consent'
 // Load theme
 import theme from '../theme/index'
 
-const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
+const TemplateWrapper = ({ children, metaTitle, metaDescription, ogUrl, ogImg }) => {
   const { title, description } = useSiteMetadata()
   
   const [menu, setMenu] = useState(false)
   const {isOpen, onClose, onOpen } = useDisclosure()
+  const metaImg = ogImg || 'og-image.jpg'
 
   function toggleDrawer(type) {
 
@@ -75,13 +76,12 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription }) => {
         <link rel="manifest"  href={`${withPrefix('/')}img/site.webmanifest`} />
         <meta name="theme-color" content="#fff" />
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-       {/*  <meta property="og:url" content="/" />
-        <meta property="author" content="Magma" />
-        <meta
-          property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
-        /> */}
+        <meta property="og:title" content={metaTitle || title} />
+        <meta property="og:image" content={`${withPrefix('/')}img/${metaImg}`} />
+        {/*<meta property="og:image:alt" content="" />*/}
+        {/*<meta property="author" content="Magma" />*/}
+        <meta property="og:url" content={ogUrl} />
+       
         <script type="text/javascript" src="https://secure.iron0walk.com/js/207700.js" ></script>
         <noscript>{`<img alt="" src="https://secure.iron0walk.com/207700.png" style="display:none;" />`}</noscript>
       </Helmet>
