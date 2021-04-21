@@ -227,6 +227,20 @@ team-members:
       - church
     bio: Bio coming soon
     image: /img/kevin-westfield.jpg
+  - name: Tony Lundy
+    jobtitle: Health & Safety Officer
+    bio: Tony is a Chartered Manager, OSHCR registered health & safety professional
+      and ISO management consultant. He served his time as a production fitter
+      at Ferranti Engineering before moving into a production machinery
+      maintenance role at BTR Fatati. Tony moved into senior management roles
+      and eventually became the HSQE Director for his family construction and
+      manufacturing business. Tony has vast experience in strategic management
+      and leadership as well as workplace safety and engagement. He is a keen
+      walker, qualified mountain leader and enjoys adventures with his 6
+      grandchildren!
+    interests:
+      - hiking
+    image: /img/aslheadshot-31.jpg
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
