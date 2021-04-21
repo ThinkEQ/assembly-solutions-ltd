@@ -228,7 +228,7 @@ team-members:
     bio: Bio coming soon
     image: /img/kevin-westfield.jpg
   - name: Tony Lundy
-    jobtitle: Health & Safety Officer
+    jobtitle: Health & Safety Advisor
     bio: Tony is a Chartered Manager, OSHCR registered health & safety professional
       and ISO management consultant. He served his time as a production fitter
       at Ferranti Engineering before moving into a production machinery
