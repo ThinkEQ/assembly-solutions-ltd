@@ -137,6 +137,7 @@ team-members:
       - xbox
     image: /img/optimized-aslheadshot-23-website.jpg
     bio: Coming soon.
+    linkedin: https://www.linkedin.com/in/adam-saoudi-8459a2106/
   - name: Gary Scowcroft
     jobtitle: Technical Sales Engineer
     bio: Gary has an impressive 40 years of experience and is our technical wizard
