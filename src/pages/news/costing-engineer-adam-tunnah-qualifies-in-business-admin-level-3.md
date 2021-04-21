@@ -3,9 +3,6 @@ templateKey: news-article
 title: Costing Engineer Adam Tunnah Qualifies in Business Administration Level 3
 date: 2021-04-20T12:20:09.055Z
 image: /img/adam-tunnah-certificate.jpg
-seo:
-  title: Costing Engineer Adam Tunnah Qualifies in Business Administration Level 3
-  description: Adam Tunnah has successfully qualified in Business Administration Level 3
 layout:
   - type: full
     full:
@@ -26,5 +23,14 @@ layout:
 
 
         Whilst studying for this qualification Adam has played a significant part in the companies recent record growth of over 20%. As a costing engineer, he has been involved in pricing up some of our biggest contracts to date and has helped to retain existing customers through carrying out detailed costing analysis.
+
+
+        ***“I am delighted to see Adam successfully pass this qualification. I know he has worked hard to complete all the course modules and look forward to seeing him implement his newly learnt skills in the office.”***\
+
+        Gareth Edwards, Head of Sales & Commercial
       title: ""
+seo:
+  title: Costing Engineer Adam Tunnah Qualifies in Business Administration Level 3
+  description: Adam Tunnah has successfully qualified in Business Administration Level 3
+  og-url: www.assembly-solutions.com
 ---
