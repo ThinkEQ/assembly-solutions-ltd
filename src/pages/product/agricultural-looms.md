@@ -34,6 +34,15 @@ layout:
 
 
         As a family-run business we enjoy building long-term relationships with customers and giving them the perfect wiring solution.
+
+
+        #### Technical & Engineering Support
+
+
+        To ensure we manufacture quality wiring looms that are fit for purpose and cost-effective, we offer technical support from our knowledgeable engineers on all wiring loom and [wiring harness](www.assembly-solutions.com/wiring-harness) projects. Our engineers are committed to understanding customer requirements before passing final drawing and specification over to production, to commence with manufacture. 
+
+
+        Our friendly team enjoy working with customers to create a wiring harness solution that facilitates continuous innovation in vehicle technology, emissions control and safety systems.
   - type: column
     column:
       title: Low Prices & Fast Turnaround
@@ -52,30 +61,13 @@ layout:
         * Fast 4 week delivery
 
         * Excellent customer service
-  - type: column
-    column:
-      title: Technical & Engineering Support
-      text: >-
-        To ensure we manufacture quality wiring looms that are fit for purpose
-        and cost-effective, we offer technical support from our knowledgeable
-        engineers on all wiring loom and [wiring
-        harness](www.assembly-solutions.com/wiring-harness) projects. Our
-        engineers are committed to understanding customer requirements before
-        passing final drawing and specification over to production, to commence
-        with manufacture. 
 
 
-        Our friendly team enjoy working with customers to create a wiring harness solution that facilitates continuous innovation in vehicle technology, emissions control and safety systems.
-  - type: testimonial
-    testimonial:
-      quote: ASL is without a doubt the best UK manufacturer of wiring looms and
-        wiring harnesses. They have been our preferred supplier for 10 years
-        because their quality and attention to detail is none other than
-        excellent, and they deliver when they say they will - which is something
-        my other suppliers don’t do! For us we find working with ASL extremely
-        easy, they are always quick to respond and support us with fast
-        turnaround deliveries when we have urgent demands.
-      name: Electrical Engineering Manager – Alexander Dennis
+        > ASL is without a doubt the best UK manufacturer of wiring looms and wiring harnesses. They have been our preferred supplier for 10 years because their quality and attention to detail is none other than excellent, and they deliver when they say they will - which is something my other suppliers don’t do! For us we find working with ASL extremely easy, they are always quick to respond and support us with fast turnaround deliveries when we have urgent demands.
+
+        >
+
+        > Electrical Engineering Manager – Alexander Dennis
 seo:
   title: Agricultural Vehicle Wiring Loom | Wiring Looms | ASL
   description: Agricultural Vehicle Wiring Loom and Wiring Harnesses manufactured

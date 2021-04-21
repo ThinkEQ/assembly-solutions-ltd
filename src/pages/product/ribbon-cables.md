@@ -33,6 +33,15 @@ layout:
 
 
         We are passionate about giving a quality and personable service that gives customers a cost-effective solution for all their ribbon [cable assembly](www.assembly-solutions.com/cable-assembly) requirements.
+
+
+        #### Quick Quote and Lead Time
+
+
+        We thrive off being a fast paced team and giving customers a service that is quicker than Usain Bolt in an Olympic sprint. Email your drawings to enquiry@assembly-solutions.com and we’ll be straight back to you with prices and lead times. 
+
+
+        Our super sales engineers are here to help with your ribbon cable assemblies so if would like to chat with them, call us on 01204 521999 and let’s get started!
   - type: column
     column:
       title: Fast Turnaround & Testing
@@ -51,26 +60,13 @@ layout:
         * Fast 4 week delivery
 
         * Excellent customer service
-  - type: column
-    column:
-      title: Quick Quote and Lead Time
-      text: >-
-        We thrive off being a fast paced team and giving customers a service
-        that is quicker than Usain Bolt in an Olympic sprint. Email your
-        drawings to enquiry@assembly-solutions.com and we’ll be straight back to
-        you with prices and lead times. 
 
 
-        Our super sales engineers are here to help with your ribbon cable assemblies so if would like to chat with them, call us on 01204 521999 and let’s get started!
-  - type: testimonial
-    testimonial:
-      quote: We build our bikes with cable assemblies made by Assembly Solutions as
-        their quality is first class and deliveries are always on time, which is
-        vital for our fast moving production lines! The sales and engineering
-        team are an absolute pleasure to deal with, very friendly and quick to
-        respond to any technical changes and quotations. It is very easy to say
-        that ASL are one of our best suppliers!
-      name: Henry Moreta, Buyer – Brompton Bicycle
+        > We build our bikes with cable assemblies made by Assembly Solutions as their quality is first class and deliveries are always on time, which is vital for our fast moving production lines! The sales and engineering team are an absolute pleasure to deal with, very friendly and quick to respond to any technical changes and quotations. It is very easy to say that ASL are one of our best suppliers!
+
+        >
+
+        > Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Ribbon Cables | Ribbon Cable Assembly | ASL
   description: Ribbon Cables and Cable Assemblies from Assembly Solutions.

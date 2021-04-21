@@ -29,44 +29,45 @@ layout:
   - type: column
     column:
       title: UK Manufactured Cable Assemblies
-      text: ASL is an industry leading manufacturer of custom-made quality cable
+      text: >-
+        ASL is an industry leading manufacturer of custom-made quality cable
         assemblies. We have been making cable assemblies for 25 years and over
         this time built a wealth of knowledge and experience from working with a
         range of different industries including; Automotive, Agriculture and
         Test & Measurement. Our services are tailored specific to your [cable
         assembly](/cable-assembly) requirements and our prices will be
         cost-effective for your application.
-  - type: column
-    column:
-      title: Range of Cable Assemblies
-      text: |-
-        * Over-moulded cable assemblies
-        * Custom-made cables and harnesses
-        * Nuclear cable assemblies
-        * Automotive cables and looms  
-        * Ribbon cable assemblies
-        * Braided cable assemblies
-  - type: column
-    column:
-      title: Want a quick quote?
-      text: >-
-        We thrive off being a fast paced team and giving customers a speedy
-        service. Email your [custom cable
-        assembly](www.assembly-solutions.com/cable-assembly) drawings to
-        enquiry@assembly-solutions.com and we’ll be straight back to you with
-        prices. 
+
+
+        #### Want a quick quote?
+
+
+        We thrive off being a fast paced team and giving customers a speedy service. Email your [custom cable assembly](www.assembly-solutions.com/cable-assembly) drawings to enquiry@assembly-solutions.com and we’ll be straight back to you with prices. 
 
 
         Our super sales engineers are here to help at any time so if would like to chat with us about your cable assemblies, call  01204 521999 and let’s get started!
-  - type: testimonial
-    testimonial:
-      quote: We build our bikes with cable assemblies made by Assembly Solutions as
-        their quality is first class and deliveries are always on time, which is
-        vital for our fast moving production lines! The sales and engineering
-        team are an absolute pleasure to deal with, very friendly and quick to
-        respond to any technical changes and quotations. It's very easy to say
-        that ASL are one of our best suppliers!
-      name: Henry Moreta, Buyer – Brompton Bicycle
+  - type: column
+    column:
+      title: Range of Cable Assemblies
+      text: >-
+        * Over-moulded cable assemblies
+
+        * Custom-made cables and harnesses
+
+        * Nuclear cable assemblies
+
+        * Automotive cables and looms  
+
+        * Ribbon cable assemblies
+
+        * Braided cable assemblies
+
+
+        > We build our bikes with cable assemblies made by Assembly Solutions as their quality is first class and deliveries are always on time, which is vital for our fast moving production lines! The sales and engineering team are an absolute pleasure to deal with, very friendly and quick to respond to any technical changes and quotations. It's very easy to say that ASL are one of our best suppliers!
+
+        >
+
+        > Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Cable Assemblies | Cable Assembly Manufactures | ASL
   description: Custom made Cable Assemblies manufactured to customer drawing and

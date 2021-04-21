@@ -14,24 +14,24 @@ introcol:
 
 
     ASL is an established and customer focused manufacturer of high volume wire preparation and cable preparation. Equipped with an extensive range of automatic high speed wire cutting and wire termination machinery, we produce custom designed wire assemblies on an incredibly fast turnaround. With all our wire preparation assemblies being primarily machine manufactured, quality is continually consistent and meets ISO 9001 standards.
+
+
+    #### Cable Preparation
+
+
+    Cable preparation is a service that we have supplied for over 25 years and we are incredibly proud to have built up a customer base including two world leading companies, Siemens and Stanley. If you watch our wire preparation video you will see the full range of services we provide under our purpose built family run factory in Bolton.
   second: >-
     ### **Wire Preparation Video**
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/Cp3lVNhtjrI?loop=1&playlist=Cp3lVNhtjrI' frameborder='0' allowfullscreen></iframe></div>
-  testimonial:
-    quote: We have a great relationship with Assembly Solutions and have worked with
-      them for many years, simply because they continue to deliver quality
-      products and always meet promised delivery dates. Being a well-established
-      business, we have trusted them from start and really value their
-      knowledgeable team, who have recently gone above and beyond to help with
-      some technical design changes on the wire assembly termination
-    name: Electrical Engineering Manager – Siemens
-  third: >-
-    #### Cable Preparation
 
 
-    Cable preparation is a service that we have supplied for over 25 years and we are incredibly proud to have built up a customer base including two world leading companies, Siemens and Stanley. If you watch our wire preparation video you will see the full range of services we provide under our purpose built family run factory in Bolton.
+    > We have a great relationship with Assembly Solutions and have worked with them for many years, simply because they continue to deliver quality products and always meet promised delivery dates. Being a well-established business, we have trusted them from start and really value their knowledgeable team, who have recently gone above and beyond to help with some technical design changes on the wire assembly termination
+
+    >
+
+    > Electrical Engineering Manager – Siemens
 images:
   - image: /img/wire-preparation-02.png
     alt: Wire Preparation

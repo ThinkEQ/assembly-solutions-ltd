@@ -33,6 +33,15 @@ layout:
 
 
         Our range of battery cables are delivered into a range of industries and used for; Cars, Buses and Commercial Vehicles.
+
+
+        #### Quality Assurance
+
+
+        We are quality approved to ISO 9001 and electrically test all [battery cable assemblies](www.assembly-solutions.com/cable-assemblies) upon completion of production. We also propose that a first-off sample is made before volume manufacture commences, so that the customer can approve the quality checking that it meets their standards.
+
+
+        Being a trusted supplier of high reliability, high quality and technically advanced components and products, we are proud to be the supplier of choice to an impressive list of blue-chip companies including; Aston Martin, Siemens and Vodafone.
   - type: column
     column:
       title: Battery & High Voltage Cables
@@ -51,27 +60,13 @@ layout:
         * Fast 4 week delivery
 
         * Excellent customer service
-  - type: column
-    column:
-      title: Quality Assurance
-      text: >-
-        We are quality approved to ISO 9001 and electrically test all [battery
-        cable assemblies](www.assembly-solutions.com/cable-assemblies) upon
-        completion of production. We also propose that a first-off sample is
-        made before volume manufacture commences, so that the customer can
-        approve the quality checking that it meets their standards.
 
 
-        Being a trusted supplier of high reliability, high quality and technically advanced components and products, we are proud to be the supplier of choice to an impressive list of blue-chip companies including; Aston Martin, Siemens and Vodafone.
-  - type: testimonial
-    testimonial:
-      quote: We build our bikes with cable assemblies made by Assembly Solutions as
-        their quality is first class and deliveries are always on time, which is
-        vital for our fast moving production lines! The sales and engineering
-        team are an absolute pleasure to deal with, very friendly and quick to
-        respond to any technical changes and quotations. It is very easy to say
-        that ASL are one of our best suppliers!
-      name: Henry Moreta, Buyer – Brompton Bicycle
+        > We build our bikes with cable assemblies made by Assembly Solutions as their quality is first class and deliveries are always on time, which is vital for our fast moving production lines! The sales and engineering team are an absolute pleasure to deal with, very friendly and quick to respond to any technical changes and quotations. It is very easy to say that ASL are one of our best suppliers!
+
+        >
+
+        > Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Battery Cables | Cable Assembly | ASL
   description: Battery Cables and Cable Assemblies from Assembly Solutions.

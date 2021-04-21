@@ -27,6 +27,7 @@ const overrides = {
                     backgroundColor: "blue.900",
                     padding: "8",
                     color: "#fff",
+                    margin: "40px 0",
                     "& p": {
                         fontSize: {base: "16px", md:"20px"},
                         lineHeight: {base: "28px", md:"32px"},
@@ -35,7 +36,8 @@ const overrides = {
                     }
                 },
                 iframe: {
-                    marginTop: "10px"
+                    marginTop: "10px",
+                    marginBottom: "20px"
                 },
                 h1: {
                     fontSize: {base: "42px", md:"60px"},
@@ -73,6 +75,7 @@ const overrides = {
                 },
                 ul: {
                     listStyle: 'none',
+                    marginBottom: "20px",
                     "li::before": {
                         position: 'absolute',
                         top: '8px',

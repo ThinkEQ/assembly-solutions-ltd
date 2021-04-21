@@ -14,27 +14,30 @@ introcol:
 
 
     ASL is an established and experienced manufacturer of quality custom-designed Control Panels. We have been building electrical control panels for 25 years and supply into some of the worlds most demanding and safety critical industries including Nuclear and Medical. We provide a personable service which is tailored to your specific requirements. Our technical control panel engineers are dedicated to work with customers from supporting the initial design, right through to prototype and volume production.
+
+
+    ### Experienced Panel Builders
+
+
+    We have 25 years manufacturing control panels to a very diverse range of industries, including Automotive, Nuclear, Utilities and Test & Measurement. Our experienced team of panel builders have an incredible amount of knowledge and understand the importance of quality.
   second: >-
     ### **Control Panel Video**
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/BG1WAnAd6mI?loop=1&playlist=BG1WAnAd6mI' frameborder='0' allowfullscreen></iframe></div>
-  third: >-
-    ### Experienced Panel Builders
 
 
-    We have 25 years manufacturing control panels to a very diverse range of industries, including Automotive, Nuclear, Utilities and Test & Measurement. Our experienced team of panel builders have an incredible amount of knowledge and understand the importance of quality.
-  testimonial:
-    quote: >-
-      We have a great relationship with ASL and have worked with them for many
-      years, simply
+    > We have a great relationship with ASL and have worked with them for many years, simply
 
-      because they continue to deliver quality products. Being a well-established business, we
+    > because they continue to deliver quality products. Being a well-established business, we
 
-      have trusted them from start and appreciate their knowledge staff, who have gone above
+    > have trusted them from start and appreciate their knowledge staff, who have gone above
 
-      and beyond to help with technical design.
-    name: Electrical Engineer – Siemens
+    > and beyond to help with technical design.
+
+    >
+
+    > Electrical Engineer – Siemens
 images:
   - image: /img/control-panel-manufacturing.jpg
     alt: Control Panels

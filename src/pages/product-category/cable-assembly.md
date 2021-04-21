@@ -14,24 +14,24 @@ introcol:
 
 
     We are the preferred supplier of Cable Assembly products to some of the worlds leading manufacturers including; Aston Martin, Siemens and Vodafone. Producing over 1,000 cable assemblies per week, our friendly and focused team are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer. With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
+
+
+    ### A Family Run Business
+
+
+    Our cable assembly products are delivered on a fast four week delivery, from receipt of sample approval. We make a cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
   second: >-
     ### **Cable Assembly Video**
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/JM9UP2GiQ_M?loop=1&playlist=JM9UP2GiQ_M' frameborder='0' allowfullscreen></iframe></div>
-  testimonial:
-    name: Henry Moreta, Buyer – Brompton Bicycle
-    quote: "We build our bikes with cable assemblies made by Assembly Solutions as
-      their quality is first class and deliveries are always on time, which is
-      vital for our fast moving production lines! The sales and engineering team
-      are an absolute pleasure to deal with, very friendly and quick to respond
-      to any technical changes and quotations. It is very easy to say that ASL
-      are one of our best suppliers!  "
-  third: >-
-    ### A Family Run Business
 
 
-    Our cable assembly products are delivered on a fast four week delivery, from receipt of sample approval. We make a cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
+    > We build our bikes with cable assemblies made by Assembly Solutions as their quality is first class and deliveries are always on time, which is vital for our fast moving production lines! The sales and engineering team are an absolute pleasure to deal with, very friendly and quick to respond to any technical changes and quotations. It is very easy to say that ASL are one of our best suppliers!  
+
+    >
+
+    > Henry Moreta, Buyer – Brompton Bicycle
 images:
   - image: /img/cable-assembly-01.png
     alt: Cable Assembly
