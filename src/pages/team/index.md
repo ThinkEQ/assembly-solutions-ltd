@@ -130,13 +130,13 @@ team-members:
     interests:
       - football
       - golf
-  - name: Adam Sourari
+  - name: Adam Saoudi
     jobtitle: Customer Account Manager
     interests:
       - football
       - xbox
     image: /img/optimized-aslheadshot-23-website.jpg
-    bio: Coming soon
+    bio: Coming soon.
   - name: Gary Scowcroft
     jobtitle: Technical Sales Engineer
     bio: Gary has an impressive 40 years of experience and is our technical wizard
