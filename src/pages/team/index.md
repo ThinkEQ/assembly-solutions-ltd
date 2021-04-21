@@ -118,6 +118,25 @@ team-members:
     interests:
       - decorating
       - gardening
+  - name: John Waterworth
+    jobtitle: Customer Accounts Manager
+    bio: John has worked in the electrical industry for 40 years and is extremely
+      knowledgeable on cable assemblies and components. With his wealth of
+      expertise after having his own electrical component distributer, we were
+      delighted to welcome John on board in 2020 to support with customer
+      account management. John is a passionate Manchester City supporter and
+      enjoys to watch them with a cold pint of Guinness!
+    image: /img/team10-1-.png
+    interests:
+      - football
+      - golf
+  - name: Adam Sourari
+    jobtitle: Customer Account Manager
+    interests:
+      - football
+      - xbox
+    image: /img/optimized-aslheadshot-23-website.jpg
+    bio: Coming soon
   - name: Gary Scowcroft
     jobtitle: Technical Sales Engineer
     bio: Gary has an impressive 40 years of experience and is our technical wizard
@@ -132,18 +151,6 @@ team-members:
     interests:
       - hiking
       - climbing-wall
-  - name: John Waterworth
-    jobtitle: Customer Accounts Manager
-    bio: John has worked in the electrical industry for 40 years and is extremely
-      knowledgeable on cable assemblies and components. With his wealth of
-      expertise after having his own electrical component distributer, we were
-      delighted to welcome John on board in 2020 to support with customer
-      account management. John is a passionate Manchester City supporter and
-      enjoys to watch them with a cold pint of Guinness!
-    image: /img/team10-1-.png
-    interests:
-      - football
-      - golf
   - name: Michele Barnes
     jobtitle: Sales Administrator
     bio: Michele is our bubbly sales office administrator who is the backbone of our
@@ -219,13 +226,6 @@ team-members:
       - church
     bio: Bio coming soon
     image: /img/kevin-westfield.jpg
-  - name: Adam Sourari
-    jobtitle: Customer Account Manager
-    interests:
-      - football
-      - xbox
-    image: /img/optimized-aslheadshot-23-website.jpg
-    bio: Coming soon
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
