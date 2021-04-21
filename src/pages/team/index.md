@@ -219,6 +219,13 @@ team-members:
       - church
     bio: Bio coming soon
     image: /img/kevin-westfield.jpg
+  - name: Adam Sourari
+    jobtitle: Customer Account Manager
+    interests:
+      - football
+      - xbox
+    image: /img/optimized-aslheadshot-23-website.jpg
+    bio: Coming soon
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
