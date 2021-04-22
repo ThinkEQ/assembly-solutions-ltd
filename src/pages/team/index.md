@@ -135,7 +135,7 @@ team-members:
     interests:
       - football
       - xbox
-    image: /img/aslheadshot-23.jpg
+    image: /img/aslheadshot-23-website.jpg
     bio: Coming soon.
     linkedin: https://www.linkedin.com/in/adam-saoudi-8459a2106/
   - name: Gary Scowcroft
