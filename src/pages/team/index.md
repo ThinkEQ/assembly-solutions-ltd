@@ -136,7 +136,7 @@ team-members:
       - football
       - xbox
     image: /img/aslheadshot-23-web.jpg
-    bio: Coming soon.
+    bio: Bio coming soon.
     linkedin: https://www.linkedin.com/in/adam-saoudi-8459a2106/
   - name: Gary Scowcroft
     jobtitle: Technical Sales Engineer
