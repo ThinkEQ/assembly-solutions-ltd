@@ -134,7 +134,7 @@ team-members:
     jobtitle: Customer Account Manager
     interests:
       - football
-      - xbox
+      - hiking
     image: /img/adam-saoudi.jpg
     bio: Adam is a recent addition to our team joining in April 2021. We're thrilled
       to have him on board as he brings with him, five years sales experience
