@@ -202,6 +202,7 @@ team-members:
     interests:
       - hiking
     image: /img/tony-lundy.jpg
+    linkedin: https://www.linkedin.com/in/tony-lundy-cmgr-rsp-fiirsm-tech-iosh-pcqi-fcmi-miiai-finstlm-23269216/
   - name: Aaron Hesketh
     jobtitle: Production Supervisor
     interests:
