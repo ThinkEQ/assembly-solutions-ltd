@@ -247,12 +247,12 @@ team-members:
     interests:
       - formula1
       - football
-    bio: Kevin is our South American super stores supervisor who has the responsible
-      job of controlling all goods that enter and leave the factory. With over
-      10 years stores experience, Kev is an efficient and valuable member of the
-      team who always leaves us smiling with his favourite words "Happy Days!".
-      Kev is a huge Formula 1 fan who supports Team Mercedes. He also enjoys and
-      supports NY Yankees and Liverpool FC!
+    bio: Kevin is our Super Stores Supervisor who has the responsible role of
+      controlling all goods that enter and leave the factory. With over 10 years
+      stores experience, Kev is an efficient and valuable member of the team who
+      always leaves us smiling with his favourite words "Happy Days!". Kev is a
+      huge Formula 1 fan who supports Team Mercedes. He also enjoys and supports
+      NY Yankees and Liverpool FC!
     image: /img/kevin-westfield.jpg
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
