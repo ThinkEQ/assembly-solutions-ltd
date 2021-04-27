@@ -201,7 +201,7 @@ team-members:
       grandchildren!
     interests:
       - hiking
-    image: /img/aslheadshot-32-website.jpg
+    image: /img/tony-lundy.jpg
   - name: Aaron Hesketh
     jobtitle: Production Supervisor
     interests:
