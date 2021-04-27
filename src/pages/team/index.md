@@ -247,7 +247,7 @@ team-members:
     interests:
       - football
       - formula1
-    bio: Kevin is our South American Super stores supervisor who has the responsible
+    bio: Kevin is our South American super stores supervisor who has the responsible
       job of controlling all goods that enter and leave the factory. With over
       10 years stores experience, Kev is an efficient and valuable member of the
       team who always leaves us smiling with his favourite words "Happy Days!".
