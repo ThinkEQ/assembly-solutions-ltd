@@ -252,7 +252,7 @@ team-members:
       10 years stores experience, Kev is an efficient and valuable member of the
       team who always leaves us smiling with his favourite words "Happy Days!".
       Kev is a huge Formula 1 fan who supports Team Mercedes. He also enjoys and
-      supports NY Yankees Team and Liverpool FC!
+      supports NY Yankees and Liverpool FC!
     image: /img/kevin-westfield.jpg
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
