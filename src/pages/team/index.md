@@ -131,7 +131,7 @@ team-members:
       - football
       - golf
   - name: Adam Saoudi
-    jobtitle: Customer Account Manager
+    jobtitle: Customer Accounts Manager
     interests:
       - football
       - hiking
