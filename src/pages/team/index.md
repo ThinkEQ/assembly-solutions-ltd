@@ -135,15 +135,15 @@ team-members:
     interests:
       - football
       - xbox
-    image: /img/optimized-adam-image-2.jpg
+    image: /img/adam-saoudi.jpg
     bio: Adam is a recent addition to our team joining in April 2021. We're thrilled
       to have him on board as he brings with him, five years sales experience
       and over the last few years has worked for an R&D Engineering company
       where he gained knowledge in similar product markets. Adam is a Guide Dog
       Boarder, looking after Guide Dogs during evenings & weekends for 16-18
-      weeks with the hope they pass and move onto advanced stages of there
-      training and hopefully on to become somebody’s Guide Dog! Adam is also a
-      passionate Liverpool fan and loves nothing more than a pint in the pub!
+      weeks with the hope they pass and move onto advanced stages of training
+      and on to become somebody’s Guide Dog! Adam is also a passionate Liverpool
+      fan and loves nothing more than a pint in the pub!
     linkedin: https://www.linkedin.com/in/adam-saoudi-8459a2106/
   - name: Gary Scowcroft
     jobtitle: Technical Sales Engineer
