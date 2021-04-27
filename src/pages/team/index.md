@@ -195,8 +195,8 @@ team-members:
       at Ferranti Engineering before moving into a production machinery
       maintenance role at BTR Fatati. Tony moved into senior management roles
       and eventually became the HSQE Director for his family construction and
-      manufacturing business. Tony has vast experience in strategic management
-      and leadership as well as workplace safety and engagement. He is a keen
+      manufacturing business. He has vast experience in strategic management and
+      leadership as well as workplace safety and engagement. Tony is a keen
       walker, qualified mountain leader and enjoys adventures with his 6
       grandchildren!
     interests:
