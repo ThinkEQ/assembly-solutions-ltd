@@ -19,7 +19,7 @@ layout:
         Adam commented on his achievement;
 
 
-        ***“I have really enjoyed completing this Level 3 Qualification and it has given me a lot of knowledge on different areas of a Business. Thank you to Alliance Learning and Assembly Solutions for supporting me through this Apprenticeship!"***
+        ***"I’ve really enjoyed completing this Qualification and have learnt so much on different areas of Business. I joined Assembly Solutions with no previous office experience, so this has really helped give me the knowledge and confidence as I start to grow and work my way up to a more senior level"***.
 
 
         Whilst studying for this qualification Adam has played a significant part in the companies recent record growth of over 20%. As a costing engineer, he has been involved in pricing up some of our biggest contracts to date and has helped to retain existing customers through carrying out detailed costing analysis.
