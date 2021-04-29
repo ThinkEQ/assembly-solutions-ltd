@@ -208,12 +208,14 @@ team-members:
     interests:
       - cooking
       - decorating
-    bio: Aaron is a true team player who supervises our wire preparation and cable
-      assembly production areas. He has served an incredible 10 years with the
-      company and has proved excellent leadership skills which has been
-      invaluable for the companies growth. In his spare time Aaron enjoys
-      cooking up his signature Indian dish and he is a wizard at computer
-      programming!
+    bio: Aaron is a reliable and experienced Production Supervisor with a tremendous
+      technical knowledge in electrical assembly manufacture and more
+      specifically IPC (Industry standard to measure Quality). He is a true team
+      player who supervises our wire preparation and cable assembly production
+      areas. He has served an incredible 10 years with the company and has
+      proved excellent leadership skills which has been invaluable for the
+      companies growth. In his spare time Aaron enjoys cooking up his signature
+      Indian dish and is a wizard at computer programming!
     image: /img/aaron-hesketh.jpg
   - name: Ioan Moreno
     jobtitle: Production Supervisor
@@ -221,13 +223,13 @@ team-members:
       - formula1
       - football
     image: /img/ioan-moreno.jpg
-    bio: Ioan is our highly motivated and skilled Production Supervisor who has
-      almost served an incredible 10 years. His ability to organise his work
-      team quickly and efficiently has been key in achieving some of the
-      shortest product turn around times in our industry and he has a strong
-      commercial awareness. Ioan's leadership method has been to lead by
-      example, which has helped us to develop a world class harness team. Ioan
-      is a passionate Manchester United fan and an F1 fanatic!
+    bio: Ioan is our highly motivated and skilled Production Supervisor who is
+      nearing his 10 year anniversary with ASL. His ability to organise a
+      production team quickly and efficiently has been key in achieving some of
+      the shortest product turn around times in our industry and he has a strong
+      commercial awareness. Ioan has a leadership method which is to lead by
+      example, and this has helped him to develop a world class harness team.
+      Ioan is a passionate Manchester United fan and an F1 fanatic!
   - name: Gareth Jones
     jobtitle: Machinery Supervisor
     linkedin: https://www.linkedin.com/in/gareth-jones-5167201b8/
@@ -250,7 +252,7 @@ team-members:
       - formula1
       - football
     bio: Kevin is our Super Stores Supervisor who has the responsible role of
-      controlling all goods that enter and leave the factory. With over 10 years
+      controlling all goods that enter and leave the factory. With many years of
       stores experience, Kev is an efficient and valuable member of the team who
       always leaves us smiling with his favourite words "Happy Days!". Kev is a
       huge Formula 1 fan who supports Team Mercedes. He also enjoys and supports
