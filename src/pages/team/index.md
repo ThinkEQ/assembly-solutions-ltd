@@ -184,8 +184,8 @@ team-members:
       Tottenham Hotspur fan and a competitive Xbox gamer!
     image: /img/team12.png
     interests:
-      - xbox
       - football
+      - xbox
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
   - name: Tony Lundy
     jobtitle: Health & Safety Advisor
