@@ -61,9 +61,9 @@ export const TeamPageTemplate = ({ title, teamMembers }) => {
       <Box as="section">
           <CarouselWhatWeDo />
       </Box>
-      <Modal scrollBehavior="outside"  isOpen={isOpen} autoFocus={false} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
+      <Modal scrollBehavior="outside" isOpen={isOpen} autoFocus={false} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
       <ModalOverlay />
-        <ModalContent padding="0" marginTop="0rem" top={{base: "0", md:"50%"}} transform={{base: "none", md:"translateY(-50%) !important"}} minWidth="70vw">
+        <ModalContent padding="0" marginTop="0rem" top={{base: "0", md:"50%"}} transform={{base: "none", md:"translateY(-50%) !important"}} minHeight={{base:"100vh", md: "auto"}} minWidth="70vw">
           <ModalHeader padding="0" position="relative">
             <TeamHeader name={teamMember.name} />
             <ModalCloseButton color="#fff" padding="20px" borderRadius="50%" top="50%" right="20px" transform="translateY(-50%)" _focus _hover={{ backgroundColor: "neutral.900", borderRadius: "50%", color: "blue.900"}} />
