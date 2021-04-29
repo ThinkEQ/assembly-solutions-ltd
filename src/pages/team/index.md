@@ -215,7 +215,8 @@ team-members:
       areas. He has served an incredible 10 years with the company and has
       proved excellent leadership skills which has been invaluable for the
       companies growth. In his spare time Aaron enjoys cooking up his signature
-      Indian dish and is a wizard at computer programming!
+      Indian dish - Chicken Tikka Dopiza! He also enjoys a spot of home DIY, and
+      is a wizard at computer programming!
     image: /img/aaron-hesketh.jpg
   - name: Ioan Moreno
     jobtitle: Production Supervisor
