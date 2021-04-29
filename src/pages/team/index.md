@@ -174,13 +174,14 @@ team-members:
     linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
   - name: Adam Tunnah
     jobtitle: Costing Engineer
-    bio: Adam is our young and skilful Costing Engineer with expertise in driving
-      down product costs to secure new and existing business. His role is to
-      carry out costings for parts by obtaining prices from suppliers and
-      studying customer drawings to understand labour time. After joining in
-      2018 through an Apprenticeship scheme, Adam has already hugely contributed
-      towards winning new contracts and retaining existing customers. Adam is a
-      competitive Xbox gamer and a passionate Tottenham Hotspur fan!
+    bio: Adam is our young and skilful Costing Engineer who has expertise in driving
+      down product costs to secure new and existing business. With a close
+      attention to detail, Adam is excellent at producing cost-effective
+      costings through negotiating with the supply chain and having a clear
+      understanding of production batch cards. After joining in 2018 through an
+      Apprenticeship scheme, he has already hugely contributed towards winning
+      new contracts and retaining existing customers. Adam is a passionate
+      Tottenham Hotspur fan and a competitive Xbox gamer!
     image: /img/team12.png
     interests:
       - xbox
