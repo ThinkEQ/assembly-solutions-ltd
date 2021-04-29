@@ -251,7 +251,7 @@ team-members:
     interests:
       - formula1
       - football
-    bio: Kevin is our Super Stores Supervisor who has the responsible role of
+    bio: Kevin is our cheerful Stores Supervisor who has the responsible role of
       controlling all goods that enter and leave the factory. With many years of
       stores experience, Kev is an efficient and valuable member of the team who
       always leaves us smiling with his favourite words "Happy Days!" Kev is a
