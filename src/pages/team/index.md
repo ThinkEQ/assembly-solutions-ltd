@@ -229,7 +229,7 @@ team-members:
       the shortest product turn around times in our industry and he has a strong
       commercial awareness. Ioan has a leadership method which is to lead by
       example, and this has helped him to develop a world class harness team.
-      Ioan is a passionate Manchester United fan and an F1 fanatic!
+      Ioan is a Manchester United fan and an F1 fanatic!
   - name: Gareth Jones
     jobtitle: Machinery Supervisor
     linkedin: https://www.linkedin.com/in/gareth-jones-5167201b8/
