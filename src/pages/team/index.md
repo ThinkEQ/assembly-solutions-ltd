@@ -119,7 +119,7 @@ team-members:
       - decorating
       - gardening
   - name: John Waterworth
-    jobtitle: Customer Accounts Manager
+    jobtitle: Customer Account Manager
     bio: John has worked in the electrical industry for 40 years and is extremely
       knowledgeable on cable assemblies and components. With his wealth of
       expertise after having his own electrical component distributer, we were
@@ -131,7 +131,7 @@ team-members:
       - football
       - golf
   - name: Adam Saoudi
-    jobtitle: Customer Accounts Manager
+    jobtitle: Customer Account Manager
     interests:
       - football
       - hiking
