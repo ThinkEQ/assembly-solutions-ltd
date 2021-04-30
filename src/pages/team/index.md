@@ -209,13 +209,13 @@ team-members:
       - decorating
     bio: Aaron is a reliable and experienced Production Supervisor with a tremendous
       technical knowledge in electrical assembly manufacture and more
-      specifically IPC (Industry standard to measure Quality). He is a true team
-      player who supervises our wire preparation and cable assembly production
-      areas. He has served an incredible 10 years with the company and has
-      proved excellent leadership skills which have been invaluable for the
-      companies growth. In his spare time Aaron enjoys cooking up his signature
-      Indian dish - Chicken Tikka Dopiza! He also enjoys a spot of home DIY, and
-      is a wizard at computer programming!
+      specifically IPC Standards. He is a true team player who supervises our
+      wire preparation and cable assembly production areas. He has served an
+      incredible 10 years with the company and has proved excellent leadership
+      skills which have been invaluable for the companies growth. In his spare
+      time Aaron enjoys cooking up his signature Indian dish - Chicken Tikka
+      Dopiza! He also enjoys a spot of home DIY, and is a wizard at computer
+      programming!
     image: /img/aaron-hesketh.jpg
   - name: Ioan Moreno
     jobtitle: Production Supervisor
