@@ -260,10 +260,14 @@ team-members:
   - name: Niel Cope
     jobtitle: HR Advisor
     interests:
+      - formula1
       - football
-      - cooking
     image: /img/aslheadshot-niel-1.jpg
-    bio: Bio coming soon.
+    bio: Niel is our humorous HR advisor who brings over 10 years of experience to
+      the team. Niel is mad about Motorsport, in particular F1, where he has
+      even named his kids middle names after some famous formula 1 drivers! His
+      children keep him young and sporty after his son was signed up for
+      Lancashire Rugby Team!
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
