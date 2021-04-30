@@ -257,6 +257,13 @@ team-members:
       always leaves us smiling with his favourite words "Happy Days!" Kev is a
       Formula 1 fanatic and  enjoys supporting the NY Yankees and Liverpool FC!
     image: /img/kevin-westfield.jpg
+  - name: Niel Cope
+    jobtitle: HR Advisor
+    interests:
+      - football
+      - cooking
+    image: /img/aslheadshot-niel-1.jpg
+    bio: Bio coming soon.
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
