@@ -43,14 +43,13 @@ export const ProjectArticleTemplate = ({
                 <CMSContent content={content} /> 
             </MDXWrapper>
             
-        
             {/**Feature image + testimonial */}
             {feature && 
-              <Box display="flex" flexDirection={{base: "column", lg: "row"}} justifyContent="space-between" margin="20px 0" padding="30px 0">
-                <Box width={{base: "100%", lg: "48%"}}>
+              <Box display="flex" flexDir="column" justifyContent="space-between" margin="20px 0" padding="30px 0">
+                <Box width="100%">
                   <PreviewCompatibleImage imageInfo={feature.image} />
                 </Box>
-                <Box width={{base: "100%", lg: "48%"}} display="flex" marginTop={{base: "20px", lg: "0"}}>
+                <Box width="100%" display="flex" marginTop="20px">
                   <Testimonial author={feature.name} quote={feature.quote} />
                 </Box>
               </Box>}
