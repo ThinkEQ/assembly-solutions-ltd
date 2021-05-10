@@ -21,7 +21,7 @@ const SVG = ({
     <title>Customer Satisfaction</title>
     <defs>
        <style>
-           @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+           @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
         </style>
         <linearGradient x1="12.7685237%" y1="6.15017361%" x2="91.7711704%" y2="100%" id="linearGradient-1">
             <stop stop-color="#00ABAC" offset="0%"></stop>
