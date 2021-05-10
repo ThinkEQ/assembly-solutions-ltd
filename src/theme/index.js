@@ -93,6 +93,7 @@ const overrides = {
                         paddingBottom: "10px",
                         fontFamily: "inherit",
                         fontSize: {base: "16px", md:"20px"},
+                        letterSpacing: "0.71px",
                     }
                     
                 },
@@ -102,6 +103,7 @@ const overrides = {
                     li: {
                         fontFamily: "inherit",
                         fontSize: {base: "16px", md:"20px"},
+                        letterSpacing: "0.71px",
                         _first: {
                             marginBottom: "10px"
                         }
