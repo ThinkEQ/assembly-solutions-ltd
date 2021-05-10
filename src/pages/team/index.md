@@ -24,8 +24,9 @@ team-members:
       Sales Director, Gareth understands the importance of building strong
       customer relationships and he now drives those values throughout the
       organisation. In 2019 Gareth was appointed Managing Director and since
-      then the company has seen a 20% growth in sales. Gareth is extremely
-      sporty, he is a cycling fanatic and also has a black belt in Jujutsu!
+      then the company has seen over 20% growth in sales. Gareth is a keen
+      cyclist and enjoys hiking up the highest of mountains. He also has a black
+      belt in Jujutsu!
     image: /img/team2-2-.png
     interests:
       - cycling
