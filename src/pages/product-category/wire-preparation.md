@@ -22,6 +22,8 @@ introcol:
     We manufacture an incredible 5,000 wire assemblies a minute using our high speed automatic machines. With very little labour involved, we are as competitive as china and eastern European countries, and is a reason why we are the preferred supplier to some of the worlds leading companies including Siemens, Stanley and Vodafone.
 
 
+    * Reduced Labour Time
+
     * Consistent Quality
 
     * Accurate Assemblies
