@@ -16,10 +16,21 @@ introcol:
     ASL is an established and customer focused manufacturer of high volume wire preparation and cable preparation. Equipped with an extensive range of automatic high speed wire cutting and wire termination machinery, we produce custom designed wire assemblies on an incredibly fast turnaround. With all our wire preparation assemblies being primarily machine manufactured, quality is continually consistent and meets ISO 9001 standards.
 
 
-    #### Cable Preparation
+    #### High Volume Wire Preparation
 
 
-    Cable preparation is a service that we have supplied for over 25 years and we are incredibly proud to have built up a customer base including two world leading companies, Siemens and Stanley. If you watch our wire preparation video you will see the full range of services we provide under our purpose built family run factory in Bolton.
+    We manufacture an incredible 5,000 wire assemblies a minute using our high speed automatic machines. With very little labour involved, we are as competitive as china and eastern European countries, and is a reason why we are the preferred supplier to some of the worlds leading companies including Siemens, Stanley and Vodafone.
+
+
+    * Consistent Quality
+
+    * Accurate Assemblies
+
+    * Quick Turnaround
+
+    * Made in UK Factory
+
+    * Experienced Workforce
   second: >-
     ### **Wire Preparation Video**
 
@@ -54,10 +65,10 @@ layout:
     column:
       title: ""
       text: >-
-        #### **High Volume Wire & Cable Preparation**
+        #### **Cable Preparation**
 
 
-        We manufacture an incredible 5,000 wire assemblies a minute using our high speed automatic machines. With very little labour involved, we are as competitive as china and eastern European countries, and is a reason why we are the preferred supplier to some of the worlds leading companies including Siemens, Stanley and Vodafone.
+        Cable preparation is a service that we have supplied for over 25 years and we are incredibly proud to have built up a customer base including two world leading companies, Siemens and Stanley. If you watch our wire preparation video you will see the full range of services we provide under our purpose built family run factory in Bolton.
   - type: column
     column:
       text: >-
