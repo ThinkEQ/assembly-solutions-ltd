@@ -19,9 +19,8 @@ layout:
         **Coping through the Coronavirus Pandemic**
 
 
-        Monday 16th March 2020 was without a doubt the most uncertain and worrying time for a lot of people and businesses after Boris Johnson instructed that we must "Stay at Home". \
+        Monday 16th March 2020 was without a doubt the most uncertain and worrying time for a lot of people and businesses after Boris Johnson instructed that we must "Stay at Home".
 
-        \
 
         As a manufacturer of cable assemblies & wiring looms for medical equipment, we were concerned about this instruction as we need to be in our factory so that we could continue delivering these products into the safety critical industries. After clarifying that our factory must remain open so that we could support the medical industry in such a crisis, we were not required to close the factory, however had to ensure immediate measures were in place for the health of safety of the team. 
 
