@@ -22,7 +22,7 @@ layout:
         Monday 16th March 2020 was without a doubt the most uncertain and worrying time for a lot of people and businesses after Boris Johnson instructed that we must "Stay at Home".
 
 
-        As a manufacturer of cable assemblies & wiring looms for medical equipment, we were concerned about this instruction as we need to be in our factory so that we could continue delivering these products into the safety critical industries. After clarifying that our factory must remain open so that we could support the medical industry in such a crisis, we were not required to close the factory, however had to ensure immediate measures were in place for the health of safety of the team. 
+        As a manufacturer of cable assemblies & wiring looms for medical equipment, we were concerned about this instruction as it was vital for us to be in our factory so that we could continue delivering these products into the safety critical industries. After clarifying that our factory must remain open so that we could support the medical industry in such a crisis, we were not required to close the factory, however had to ensure immediate measures were in place for the health of safety of the team. 
 
 
         By this point it was common knowledge that everyone was struggling to get hold of hand sanitiser (and loo roll!), but we managed to get by with our own sanitisers before bulk stock arrived in the factory a week later. To ensure staff felt safe coming to work, we implemented the following measures;
