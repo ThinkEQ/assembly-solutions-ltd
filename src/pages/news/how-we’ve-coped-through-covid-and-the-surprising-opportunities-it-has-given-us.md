@@ -70,9 +70,7 @@ layout:
         This contract has contributed to an incredible record growth in sales of £1.2million.
 
 
-        #### \
-
-        **Supporting the NHS & Medical Industry**
+        #### **Supporting the NHS & Medical Industry**
 
 
         We have supplied the medical industry for over 20 years with various electrical [cable assemblies](/cable-assemblies) and [wiring looms](/wiring-loom) for apparatus and equipment. Since the outbreak of Coronavirus, we have been proud to support Medical manufacturers with urgent orders after they saw a rapid increase in demand. 
