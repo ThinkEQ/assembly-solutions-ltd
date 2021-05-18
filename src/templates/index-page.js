@@ -91,8 +91,8 @@ return (
       </Box>
       <Modal onClose={onClose} size="100%" motionPreset="scale" isOpen={isOpen} isCentered closeOnEsc>
       <ModalOverlay />
-      <ModalContent width="80%">
-        <ModalBody padding="0">
+      <ModalContent width="80%" background="none">
+        <ModalBody padding="0" background="none">
             <Box paddingBottom="50%" position="relative" height="0" overflow="hidden">
               <iframe width="100%"
                 height="315"
