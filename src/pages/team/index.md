@@ -13,7 +13,7 @@ team-members:
     interests:
       - cycling
       - golf
-    name: Graham Balshaw
+    name: Graham Balshaw BSc
     jobtitle: Founder & Chairman
     image: /img/team1-1-.png
   - name: Gareth Balshaw
@@ -47,7 +47,7 @@ team-members:
       - skiing
     image: /img/team3-1-.png
     linkedin: https://www.linkedin.com/in/sophie-balshaw/
-  - name: Oliver Balshaw
+  - name: Oliver Balshaw MCIPS
     jobtitle: Purchasing Director
     bio: Oliver is a man of many hats but his core focus is managing our Supply
       Chain. He is due to qualify in CIPS (Chartered Institute of Procurement &
