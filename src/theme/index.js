@@ -35,10 +35,6 @@ const overrides = {
                         marginBottom: "10px"
                     }
                 },
-                iframe: {
-                    marginTop: "10px",
-                    marginBottom: "20px"
-                },
                 h1: {
                     fontSize: {base: "42px", md:"60px"},
                     lineHeight: {base: "62px", md:"72px"},
