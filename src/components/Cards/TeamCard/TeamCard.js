@@ -3,7 +3,7 @@ import React from 'react'
 // Load components
 import { useMediaQuery, Text, Heading, Box, Link } from '@chakra-ui/react'
 import PreviewCompatibleImage from '../../PreviewCompatibleImage'
-import SVG from '../../UI/SVG/index'
+import Svg from '../../UI/SVG/index'
 import { HTMLContent, MDXWrapper, toHTML } from '../../Content'
 
 const TeamHeader = ({name}) => {
@@ -24,7 +24,7 @@ const TeamBody = ({ iconList, bio, linkedIn }) => {
                     <HTMLContent content={toHTML(bio)} />
                 </MDXWrapper>
                 {linkedIn && <Link href={linkedIn} isExternal>
-                    <SVG name="linkedin" />
+                    <Svg name="linkedin" />
                 </Link>}
             </Box>
             <Box width={{base: "100%", lg:"25%"}} minHeight="150px" background="neutral.900" height="auto"  display="flex" padding={{base: "20px", lg:"15px 0"}} flexDirection={{base: "row", lg: "column"}} alignContent="center" alignItems="center">
@@ -33,7 +33,7 @@ const TeamBody = ({ iconList, bio, linkedIn }) => {
                 iconList.map((icon) => {
                     return (
                     <Box width={{base: "80px", md: "80px", lg: "100px"}} margin={{base: "10px 15px", lg:"10px 0"}}  height={{base:"80px", md: "80px", lg: "100px"}}>
-                        <SVG name={icon} width="100%" height="100%" fill="#091540"/>
+                        <Svg name={icon} width="100%" height="100%" fill="#091540"/>
                     </Box>
                     )
                 })}

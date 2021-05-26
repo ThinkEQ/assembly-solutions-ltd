@@ -10,7 +10,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 import { Box, Heading, Link } from '@chakra-ui/react'
 
-export const ProjectArticleTemplate = ({
+const ProjectArticleTemplate = ({
   contentComponent,
   title,
   img,

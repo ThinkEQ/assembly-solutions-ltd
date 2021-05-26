@@ -12,7 +12,6 @@ import PreviewImage from '../components/PreviewCompatibleImage'
 import Video from '../components/Video/Video'
 import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
 import LayoutCMS from '../components/LayoutCMS/LayoutCMS'
-import Testimonial from '../components/Testimonial/Testimonial'
 
 // Load asset
 import Check from '../components/UI/SVG/svgs/check'
@@ -25,7 +24,7 @@ import WiringWEB from '../videos/WIRING_HARNESSES.webm'
 import ControlMP from '../videos/CONTROL_PANELS.mp4'
 import ControlWEB from '../videos/CONTROL_PANEL.webm'
 
-export const ProductCategoryPageTemplate = ({ title, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent, video, intro }) => {
+const ProductCategoryPageTemplate = ({ title, contentComponent, subtitle, imgHeader, usps, imgCarousel, relatedProducts, mainContent, video, intro }) => {
   const PageContent = contentComponent || Content
   const [isMoving, setMoving] = useState(false)
   const [mounted, setMounted] = useState(false)
@@ -256,8 +255,6 @@ const ProductCategoryPage = ({ data, pageContext }) => {
   )
 }
 
-export default ProductCategoryPage
-
 export const productCategoryPageQuery = graphql`
 query productCategoryPageQuery($id: String!) {
   markdownRemark(id: { eq: $id }, frontmatter: {templateKey: {eq: "product-category"}}) {
@@ -318,3 +315,5 @@ query productCategoryPageQuery($id: String!) {
     }
   }
 `
+
+export default ProductCategoryPage

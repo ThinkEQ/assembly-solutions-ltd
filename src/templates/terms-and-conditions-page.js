@@ -7,7 +7,7 @@ import { Box, Heading, Text } from '@chakra-ui/react'
 import Layout from '../components/Layout'
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 
-export const TermsPageTemplate = ({ title, content, contentComponent }) => {
+const TermsPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -60,8 +60,6 @@ TermsPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default TermsPage
-
 export const termsPageQuery = graphql`
   query TermsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
@@ -76,3 +74,4 @@ export const termsPageQuery = graphql`
     }
   }
 `
+export default TermsPage

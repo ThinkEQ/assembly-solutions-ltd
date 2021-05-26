@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout'
 import { Box, Heading } from '@chakra-ui/react'
 
-export default () => (
+const Subscribed = () => (
   <Layout>
     <Box as="header" paddingTop={{base: "100px", lg:"100px"}}>
       <Box textStyle="section">
@@ -15,3 +15,4 @@ export default () => (
     </Box>
   </Layout>
 )
+export default Subscribed

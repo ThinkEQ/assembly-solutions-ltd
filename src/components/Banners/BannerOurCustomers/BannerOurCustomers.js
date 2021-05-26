@@ -4,7 +4,7 @@ import React, { Fragment } from 'react'
 import { Box, Heading, Text, Image, useMediaQuery } from '@chakra-ui/react'
 import Carousel from '../../Carousel/CustomCarousel'
 import 'react-circular-progressbar/dist/styles.css';
-import SVG from '../../UI/SVG/index'
+import Svg from '../../UI/SVG/index'
 
 // Load asset
 import AstonMartin from '../../../img/brands/astonmarton.png'
@@ -73,10 +73,10 @@ const BannerOurCustomers = () => {
                 </Box>
                 <Box display="flex" alignSelf="center" justifyContent="space-around" height="100%" width={{base: "100%", lg:"40%"}}>
                     <Box width="48%" maxW="200px">
-                       <SVG name="satisfaction" height="100%" width="100%" />
+                       <Svg name="satisfaction" height="100%" width="100%" />
                     </Box>
                     <Box width="48%" maxW="200px">
-                        <SVG name="retention" height="100%" width="100%" />
+                        <Svg name="retention" height="100%" width="100%" />
                     </Box>
                 </Box>
             </Box>

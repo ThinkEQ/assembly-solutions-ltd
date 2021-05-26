@@ -21,7 +21,7 @@ const VideoCard = ({ videoSrc }) => {
   )
 }
 
-export const VideoIndexTemplate = ({ videos, pagination }) => {
+const VideoIndexTemplate = ({ videos, pagination }) => {
   const {isOpen, onOpen, onClose } = useDisclosure()
   const [vidSrc, setSrc] = useState('')
 
@@ -138,5 +138,4 @@ query VideosIndexQuery($skip: Int!, $limit: Int!) {
   }
 }
 `
-
 export default VideosIndex

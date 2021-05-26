@@ -7,7 +7,7 @@ import { Box, Heading, Text } from '@chakra-ui/react'
 import Layout from '../components/Layout'
 import Content, { HTMLContent, MDXWrapper } from '../components/Content'
 
-export const PrivacyPageTemplate = ({ title, content, contentComponent }) => {
+const PrivacyPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (

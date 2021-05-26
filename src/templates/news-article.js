@@ -9,7 +9,7 @@ import { HTMLContent } from '../components/Content'
 import LayoutCMS from '../components/LayoutCMS/LayoutCMS'
 import { Box, Heading, Text, Link } from '@chakra-ui/react'
 
-export const NewsArticleTemplate = ({
+const NewsArticleTemplate = ({
   title,
   date,
   img,

@@ -7,6 +7,7 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    'gatsby-plugin-preload-fonts',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -125,7 +126,7 @@ module.exports = {
       resolve: 'gatsby-plugin-sitemap',
       options: {
         // Exclude specific pages or groups of pages using glob parameters
-        exclude: ['/contact/thanks/', '/subscribed/'],
+        excludes: ['/contact/thanks/', '/subscribed/'],
       },
     },
     // must be after other CSS plugins
