@@ -33,15 +33,6 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
-      resolve: `gatsby-plugin-web-font-loader`,
-      options: {
-        custom: {
-            families: [`Titillium Web`],
-            urls: ['/fonts/fonts.css'],
-          }
-      },
-    },
-    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [

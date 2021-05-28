@@ -128,7 +128,7 @@ const overrides = {
     },
     textStyles: {
         h1: {
-            fontSize: {base: "42px", md:"60px"},
+            fontSize: {base: "42px", md:"60px", lg: "60px"},
             lineHeight: {base: "62px", md:"72px"},
             marginBottom: "20px",
             lettSpacing: "-2.12px",
