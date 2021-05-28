@@ -67,7 +67,8 @@ const overrides = {
                     fontSize: {base: "16px", md:"20px"},
                     lineHeight: {base: "28px", md:"32px"},
                     letterSpacing: "0.71px",
-                    marginBottom: "20px"
+                    marginBottom: "20px",
+                    fontWeight: 300
                 },
                 ul: {
                     listStyle: 'none',
@@ -127,7 +128,7 @@ const overrides = {
     },
     textStyles: {
         h1: {
-            fontSize: {base: "42px", md:"60px"},
+            fontSize: {base: "42px", md:"60px", lg: "60px"},
             lineHeight: {base: "62px", md:"72px"},
             marginBottom: "20px",
             lettSpacing: "-2.12px",
@@ -169,6 +170,7 @@ const overrides = {
             fontSize: {base: "16px", md:"20px"},
             lineHeight: {base: "28px", md:"32px"},
             letterSpacing: "0.71px",
+            fontWeight: 300,
             marginBottom: "10px"
         },
         section: {

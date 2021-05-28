@@ -10,7 +10,7 @@ const NewsArticles = ({ data }) => {
     )
 }
 
-export default () => (
+const NewsQuery = () => (
     <StaticQuery
       query={graphql`
         query NewsArticleQuery {
@@ -44,5 +44,5 @@ export default () => (
       `}
       render={(data) => <NewsArticles data={data.allMarkdownRemark} />}
     />
-  )
-  
+)
+export default NewsQuery

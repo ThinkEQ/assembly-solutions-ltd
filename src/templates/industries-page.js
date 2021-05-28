@@ -10,7 +10,7 @@ import PreviewImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent, MDXWrapper, toHTML } from '../components/Content'
 import Carousel from '../components/Carousel/CustomCarousel'
 
-export const IndustryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, testimonial, industries, aside }) => {
+const IndustryPageTemplate = ({ title, content, contentComponent, subtitle, imgHeader, testimonial, industries, aside }) => {
   const PageContent = contentComponent || Content
   const [isLessThan464] = useMediaQuery("(max-width: 474px")
 

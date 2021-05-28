@@ -15,7 +15,7 @@ import LayoutCMS from '../components/LayoutCMS/LayoutCMS'
 // Load asset
 import Check from '../components/UI/SVG/svgs/check'
 
-export const ProductPageTemplate = ({ title, mainContent, subtitle, imgHeader, usps, imgCarousel }) => {
+const ProductPageTemplate = ({ title, mainContent, subtitle, imgHeader, usps, imgCarousel }) => {
  
   return (
     <Fragment>
@@ -92,8 +92,6 @@ const ProductPage = ({ data }) => {
   )
 }
 
-export default ProductPage
-
 export const productPageQuery = graphql`
 query productPageQuery($id: String!) {
   markdownRemark(id: { eq: $id }, frontmatter: {templateKey: {eq: "product"}}) {
@@ -147,3 +145,4 @@ query productPageQuery($id: String!) {
     }
   }
 `
+export default ProductPage

@@ -7,7 +7,7 @@ import Roll from '../components/Roll/Roll'
 import Pagination from '../components/Pagination/Pagination'
 import { graphql } from 'gatsby'
 
-export const NewsIndexTemplate = ({ data, pagination }) => {
+const NewsIndexTemplate = ({ data, pagination }) => {
   return (
          <Fragment>
           <Box as="header" textStyle="section" >

@@ -13,7 +13,7 @@ import Button from '../theme/button'
 // Load layout
 import Layout from '../components/Layout'
 
-export const AboutPageTemplate = ({ title, content, contentComponent, subtitle, imgSrc }) => {
+const AboutPageTemplate = ({ title, content, contentComponent, subtitle, imgSrc }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -91,8 +91,6 @@ AboutPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default AboutPage
-
 export const aboutPageQuery = graphql`
   query AboutPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
@@ -120,3 +118,4 @@ export const aboutPageQuery = graphql`
     }
   }
 `
+export default AboutPage

@@ -4,7 +4,7 @@ import { Field } from 'formik'
 
 // Load components
 import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl } from '@chakra-ui/react'
-import SVG from './UI/SVG/index'
+import Svg from './UI/SVG/index'
 import FormProvider from './Form/Form'
 
 const para = {
@@ -142,7 +142,7 @@ const Footer = ({ toggleDrawer }) => {
                 </Link>
               </ListItem>
               <ListItem display="flex" justifyContent="center">
-                <SVG name="twentyEmblem" fill="#fff" width="85px" height="90px" />
+                <Svg name="twentyEmblem" fill="#fff" width="85px" height="90px" />
               </ListItem>
             </List>
           </Box>
@@ -151,13 +151,13 @@ const Footer = ({ toggleDrawer }) => {
         <Box display="flex" flexDirection={{base: "column", lg: "row"}} alignItems={{base: "flex-start", lg:"center"}} justifyContent="space-between" marginTop={{base: "50px", lg: "70px"}}>
           <Box display="flex" alignItems="flex-start" justifyContent="space-between" width="125px" marginBottom={{base: "30px", lg: "0"}}>
             <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
-              <SVG name="youtube" />
+              <Svg name="youtube" />
             </Link>
             <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
-              <SVG name="linkedin" />
+              <Svg name="linkedin" />
             </Link>
             <Link href="https://www.instagram.com/assemblysolutionsltd" marginRight="15px" target="_blank" isExternal cursor="pointer">
-              <SVG name="instagram" fill="#00ABAC" />
+              <Svg name="instagram" fill="#00ABAC" />
             </Link>
           </Box>
 

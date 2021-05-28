@@ -11,7 +11,7 @@ import CarouselWhatWeDo from '../components/Carousel/CarouselWhatWeDo'
 // Load layout
 import Layout from '../components/Layout'
 
-export const TeamPageTemplate = ({ title, teamMembers }) => {
+const TeamPageTemplate = ({ title, teamMembers }) => {
   const [teamMember, setTeamMember] = useState({})
   const {isOpen, onOpen, onClose} = useDisclosure()
 
@@ -101,8 +101,6 @@ TeamPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export default TeamPage
-
 export const teamPageQuery = graphql`
   query TeamPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
@@ -133,3 +131,4 @@ export const teamPageQuery = graphql`
     }
   }
 `
+export default TeamPage
