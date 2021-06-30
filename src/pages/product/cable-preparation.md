@@ -10,6 +10,8 @@ image: /img/cable-preparation.jpg
 images:
   - image: /img/heavy-duty-cable-assembly.png
     alt: Cable Preparation
+  - image: /img/img_4045.jpg
+    alt: Cable Preparation
   - image: /img/img_4030.jpg
     alt: Cable Preparation
   - image: /img/cable-assembly-01.png
@@ -17,8 +19,6 @@ images:
   - image: /img/img_4022.jpg
     alt: Cable Preparation
   - image: /img/wire-cable-machinery-01.jpg
-    alt: Cable Preparation
-  - image: /img/img_4045.jpg
     alt: Cable Preparation
   - image: /img/img_4054.jpg
     alt: Cable Preparation
