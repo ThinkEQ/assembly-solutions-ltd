@@ -35,7 +35,7 @@ layout:
         **Gareth Balshaw, Managing Director**
 
 
-        “It is such a privilege to take on the role of ownership and it is quite an emotional milestone, especially when you look back and see how far we've all come. When we were kids, dad would take us into the factory during the school holidays to help out, and now here we are 20 years later taking over the whole thing! We have a huge amount of respect and admiration for Dad who has built this business from nothing, and grown it so gives us a platform to grow on. I can't wait to continue this journey alongside my brothers and hope we make Dad the proudest father alive"\
+        “It is such a privilege to take on the role of ownership and quite an emotional milestone, especially when you look back and see how far we've all come. When we were kids, dad would take us into the factory during the school holidays to help out, and here we are 20 years later, running the show. We have a huge amount of respect and admiration for Dad who has built this business from nothing and given us a platform that most could only dream of. I can't wait to continue this evolving journey alongside my brothers and look forward to reaching new records and milestones in the business."\
 
         **Sophie Balshaw, Marketing Director**
 
