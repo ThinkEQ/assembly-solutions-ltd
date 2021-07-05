@@ -265,6 +265,12 @@ team-members:
       always leaves us smiling with his favourite words "Happy Days!" Kev is a
       Formula 1 fanatic and  enjoys supporting the NY Yankees and Liverpool FC!
     image: /img/kevin-westfield.jpg
+  - name: Aubrey Oldham
+    jobtitle: Production Supervisor
+    interests:
+      - gardening
+    image: /img/aubrey-oldham.jpg
+    bio: Bio Coming soon.
   - name: Niel Cope
     jobtitle: HR Advisor
     interests:
@@ -276,12 +282,6 @@ team-members:
       even named his kids middle names after some famous formula 1 drivers! His
       children keep him young and sporty after his son was signed up for
       Lancashire Rugby Team!
-  - name: Aubrey Oldham
-    jobtitle: Production Supervisor
-    interests:
-      - gardening
-    image: /img/aubrey-oldham.jpg
-    bio: Bio Coming soon.
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
