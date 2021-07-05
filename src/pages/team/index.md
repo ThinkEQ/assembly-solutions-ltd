@@ -276,6 +276,12 @@ team-members:
       - hiking
     image: /img/susan-gaskell.jpg
     bio: Coming soon.
+  - name: Aubrey Oldham
+    jobtitle: Production Supervisor
+    interests:
+      - gardening
+    image: /img/aubrey-oldham.jpg
+    bio: Coming soon.
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
