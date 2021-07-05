@@ -269,6 +269,13 @@ team-members:
       even named his kids middle names after some famous formula 1 drivers! His
       children keep him young and sporty after his son was signed up for
       Lancashire Rugby Team!
+  - name: Susan Gaskell
+    jobtitle: Production Planner
+    interests:
+      - cooking
+      - hiking
+    image: /img/susan-gaskell.jpg
+    bio: Coming soon.
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
