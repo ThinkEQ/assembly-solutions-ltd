@@ -188,6 +188,13 @@ team-members:
       - football
       - xbox
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
+  - name: Susan Gaskell
+    jobtitle: Production Planner
+    interests:
+      - cooking
+      - hiking
+    image: /img/susan-gaskell.jpg
+    bio: Bio Coming soon.
   - name: Tony Lundy
     jobtitle: Health & Safety Advisor
     bio: Tony is a Chartered Manager, OSHCR registered health & safety professional
@@ -269,13 +276,6 @@ team-members:
       even named his kids middle names after some famous formula 1 drivers! His
       children keep him young and sporty after his son was signed up for
       Lancashire Rugby Team!
-  - name: Susan Gaskell
-    jobtitle: Production Planner
-    interests:
-      - cooking
-      - hiking
-    image: /img/susan-gaskell.jpg
-    bio: Bio Coming soon.
   - name: Aubrey Oldham
     jobtitle: Production Supervisor
     interests:
