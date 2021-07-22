@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: Second Generation take over ASL
+title: Second Generation Step Up to Take Over ASL
 date: 2021-01-04T16:11:30.135Z
 image: /img/news-img.png
 layout:
