@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Celebrate Record Financial Year 2020-21
+title: ASL Successfully Surpass a Record £5Million Turnover
 date: 2021-06-01T14:46:40.391Z
 image: /img/assembly-solutions-growth-pandemic.jpg
 layout:
