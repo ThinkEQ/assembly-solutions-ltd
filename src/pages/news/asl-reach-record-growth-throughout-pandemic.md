@@ -22,13 +22,18 @@ layout:
 
         \
 
-        Family owners Gareth Balshaw, Sophie Balshaw and Oliver Balshaw are thrilled to see such significant growth within their first year of ownership, after the company was passed down to them by Father Graham Balshaw in 2020.\
-
-        \
-
-        *“After starting the year off with a number of challenges and so much uncertainty, I am absolutely delighted to have finished the financial year with a record 20% growth and to have surpassed for the first time, 5 million turnover. The whole team have worked seamlessly throughout the pandemic and really pulled together to support the company through it's busiest and demanding time ever. We now have an exciting journey ahead as we ambitiously push for another year of growth in 2021-22.”*\
-
-        **Gareth Balshaw, Managing Director**
+        Family owners Gareth Balshaw, Sophie Balshaw and Oliver Balshaw are thrilled to see such significant growth within their first year of ownership, after the company was passed down to them by Father Graham Balshaw in 2020.
+  - type: testimonial
+    testimonial:
+      alignment: standard
+      name: Gareth Balshaw, Managing Director
+      quote: After starting the year off with a number of challenges and so much
+        uncertainty, I am absolutely delighted to have finished the financial
+        year with a record 20% growth and to have surpassed for the first time,
+        5 million turnover. The whole team have worked seamlessly throughout the
+        pandemic and really pulled together to support the company through it's
+        busiest and demanding time ever. We now have a very exciting journey
+        ahead as we ambitiously push for another year of growth in 2021-22
 seo:
   title: ASL reach record growth throughout pandemic
   description: Assembly Solutions celebrate after reaching record growth in sales
