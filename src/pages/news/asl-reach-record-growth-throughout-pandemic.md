@@ -9,17 +9,31 @@ layout:
       title: ASL surpass a record £5million turnover throughout challenging financial
         year
       text: >-
-        Closing our financial year on 30th April 2021, we have been celebrating
-        a record year of £5million sales turnover which is an exceptional 25%
-        growth on the previous year.\
+        It has been a goal the company has been working towards for a number of
+        years now, so it is with great pride that we share a record milestone of
+        surpassing £5million turnover in our financial year 2021-22.\
 
         \
+
+        Since closing our financial year on 30th April 2021, we have been celebrating the record year which was made up of a number of highlights;
+
+
+        * Record £5million sales turnover
+
+        * Biggest ever growth in one year of 20%
+
+        * Awarded biggest ever contract over £700,000
+
+        * Supported NHS with Cable Assemblies for Covid Apparatus
+
+        * Finalists of "Insider Made in North West" Award
+
 
         As manufacturers of electrical cable assemblies for medical equipment, we have been busier than ever and proud to be supporting the Medical sector with cable assemblies for Covid testing equipment and other medical equipment including Hospital beds and Ventilation applications.\
 
         \
 
-        Family owners Gareth Balshaw, Sophie Balshaw and Oliver Balshaw are thrilled to see such significant growth within their first year of ownership, after the company was passed down to them by Father Graham Balshaw in 2020.
+        Pictured above is family owners; Gareth Balshaw, Oliver Balshaw and Sophie Balshaw who are thrilled to see such significant growth within their first year of ownership, after the company was passed down by their Father Graham Balshaw in early 2020.
   - type: testimonial
     testimonial:
       alignment: centre
