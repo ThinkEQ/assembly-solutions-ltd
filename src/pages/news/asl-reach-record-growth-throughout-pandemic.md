@@ -6,7 +6,7 @@ image: /img/assembly-solutions-growth-pandemic.jpg
 layout:
   - type: full
     full:
-      title: ASL surpass sales of £5m breaking record throughout pandemic
+      title: ASL reach record £5million turnover throughout pandemic
       text: >-
         Assembly Solutions, a Cable Assembly manufacturer based in Bolton have
         surpassed a record £5million turnover after securing new contracts
