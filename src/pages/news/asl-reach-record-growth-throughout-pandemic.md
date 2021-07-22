@@ -28,7 +28,7 @@ layout:
       alignment: standard
       name: Gareth Balshaw, Managing Director
       quote: After starting the year off with a number of challenges and so much
-        uncertainty, I am absolutely delighted to have finished the financial
+        uncertainty, I am absolutely delighted to see us finish the financial
         year with a record 20% growth and to have surpassed for the first time,
         5 million turnover. The whole team have worked seamlessly throughout the
         pandemic and really pulled together to support the company through it's
