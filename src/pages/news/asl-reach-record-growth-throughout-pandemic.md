@@ -9,9 +9,9 @@ layout:
       title: ASL surpass a record £5million turnover throughout challenging financial
         year
       text: >-
-        It has been a goal the company has been working towards for a number of
-        years now, so it is with great pride that we share a record milestone of
-        surpassing £5million turnover in our financial year 2021-22.\
+        \
+
+        It has been a goal the company has been working towards for a number of years now, so it is with great pride that we share a record milestone of surpassing £5million turnover in our financial year 2021-22.\
 
         \
 
