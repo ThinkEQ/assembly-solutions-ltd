@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: ASL Reach Record Growth throughout Pandemic
-date: 2021-07-22T14:46:40.391Z
+date: 2021-06-01T14:46:40.391Z
 image: /img/assembly-solutions-growth-pandemic.jpg
 layout:
   - type: full
