@@ -39,13 +39,13 @@ layout:
       alignment: centre
       name: Gareth Balshaw, Managing Director
       quote: After starting the year off with a number of challenges and so much
-        uncertainty, I am absolutely delighted to see us finish the financial
-        year with a record 20% growth and to have surpassed for the first time,
-        5 million turnover. The whole team have worked brilliantly throughout
-        the pandemic and really pulled together to support the company through
-        it's busiest and demanding time ever. We now have a very exciting
-        journey ahead as we ambitiously push for another year of growth in
-        2021-22
+        uncertainty due to the Coronavirus outbreak, I am absolutely delighted
+        to see us finish the financial year with a record 20% growth and to have
+        surpassed for the first time, 5 million turnover. The whole team have
+        worked brilliantly throughout the pandemic and really pulled together to
+        support the company through it's busiest and demanding time ever. We now
+        have a very exciting journey ahead as we ambitiously push for another
+        year of growth in 2021-22
 seo:
   title: ASL reach record growth throughout pandemic
   description: Assembly Solutions celebrate after reaching record growth in sales
