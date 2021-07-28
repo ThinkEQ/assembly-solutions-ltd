@@ -270,7 +270,14 @@ team-members:
     interests:
       - gardening
     image: /img/aubrey-oldham.jpg
-    bio: Bio Coming soon.
+    bio: Aubrey is our recently promoted Production Supervisor who brings a valuable
+      wealth of knowledge and experience to the team with his phenomenal 40
+      years in the electronics industry. His role covers supervising 15 cable
+      assembly operators, overseeing quality inspection, and proactively looking
+      for areas to improve efficiencies. When he isn't busy on production,
+      Aubrey enjoys his sporting passion of Motorsport - in particular Rallying,
+      and he also likes to attend charity events to support many worthwhile
+      causes.
   - name: Niel Cope
     jobtitle: HR Advisor
     interests:
