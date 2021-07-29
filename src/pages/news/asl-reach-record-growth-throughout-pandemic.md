@@ -40,7 +40,7 @@ layout:
       name: Gareth Balshaw, Managing Director
       quote: The company has seen continuous growth year on year, but the start of
         2020 proved the most challenging due to the pandemic. We have been
-        fortunate that many companies have seeked UK manufacture rather than
+        fortunate that many companies have required UK manufacture rather than
         overseas during the past 12 months which has given us the opportunity to
         win news contracts which will hopefully remain in the UK indefinitely.
         We have taken the opportunity of this growth to invest in our people and
