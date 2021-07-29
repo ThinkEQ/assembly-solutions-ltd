@@ -45,7 +45,7 @@ layout:
         win news contracts which will hopefully remain in the UK indefinitely.
         We have taken the opportunity of this growth to invest in our people and
         machinery and I am absolutely delighted to see us finish the year with a
-        record 20% growth and £5illion turnover. The whole team have worked
+        record 20% growth and £5million turnover. The whole team have worked
         brilliantly throughout the pandemic and really pulled together to
         support the company through it's busiest and demanding time ever. We now
         have a very exciting year ahead with the goal to grow by another 20% and
