@@ -42,9 +42,11 @@ layout:
         and I’m exceptionally proud to see the company reach this record. We
         have always seen growth year on year, but to expand by 20% during a
         period of much uncertainty, is testament to our team and their
-        performance. We now have a very exciting and ambitious year ahead as we
-        push to grow by another 20% and reach a turnover of £6million by April
-        2022.
+        performance. It has been a pleasant surprise to see a rise in
+        opportunity for UK manufacturing and has been an exciting time for ASL,
+        investing in new people and machinery to meet customer demand. We now
+        have a very exciting and ambitious year ahead as we push to grow by
+        another 20% and reach a turnover of £6million by April 2022.
 seo:
   title: ASL reach record growth throughout pandemic
   description: Assembly Solutions celebrate after reaching record growth in sales
