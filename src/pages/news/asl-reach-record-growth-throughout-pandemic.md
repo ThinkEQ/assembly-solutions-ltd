@@ -38,18 +38,13 @@ layout:
     testimonial:
       alignment: centre
       name: Gareth Balshaw, Managing Director
-      quote: The company has seen continuous growth year on year, but the start of
-        2020 proved the most challenging due to the pandemic. We have been
-        fortunate that many companies have required UK manufacture rather than
-        overseas during the past 12 months, giving us the opportunity to win
-        news contracts. We have taken the opportunity of this growth to invest
-        in our people and machinery and I am absolutely delighted to see us
-        finish the year with a record 20% growth and £5million turnover. The
-        whole team have worked brilliantly throughout the pandemic and really
-        pulled together to support the company through it's busiest and
-        demanding time ever. We now have a very exciting and ambitious year
-        ahead as we push to grow by another 20% and reach a turnover of
-        £6million by April 2022.
+      quote: To achieve what we have in the last 12 months is absolutely incredible,
+        and I’m exceptionally proud to see the company reach this record. We
+        have always seen growth year on year, but to expand by 20% during a
+        period of much uncertainty, is testament to our team and their
+        performance. We now have a very exciting and ambitious year ahead as we
+        push to grow by another 20% and reach a turnover of £6million by April
+        2022.
 seo:
   title: ASL reach record growth throughout pandemic
   description: Assembly Solutions celebrate after reaching record growth in sales
