@@ -9,13 +9,11 @@ layout:
       title: ASL surpass a record £5million turnover throughout challenging financial
         year
       text: >-
-        \
+        The past 12 months has been an exceptional time at ASL as the company
+        has seen record growth surpassing an incredible £5million turnover.
 
-        It has been a goal the company has been working towards for a number of years now, so it is with great pride that we share a record milestone of surpassing £5million turnover in our financial year 2020-21.\
 
-        \
-
-        Since closing our financial year on 30th April 2021, we have been celebrating the record year which was made up of a number of highlights;
+        Since closing the financial year on 30th April 2021, we have been celebrating the record year which was made up of a number of highlights;
 
 
         * Record £5Million Sales Turnover
@@ -46,7 +44,7 @@ layout:
         opportunity for UK manufacturing and an exciting time for ASL, investing
         in new people and machinery to meet customer demand. We now have a very
         exciting and ambitious year ahead as we push for even further growth and
-        reach a turnover of £6million by April 2022.
+        aim to reach £6million turnover by April 2022.
 seo:
   title: ASL reach record growth throughout pandemic
   description: Assembly Solutions celebrate after reaching record growth in sales
