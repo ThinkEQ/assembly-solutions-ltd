@@ -41,7 +41,7 @@ layout:
       quote: To achieve what we have in the last 12 months is absolutely incredible,
         and I’m exceptionally proud to see the company reach this record. We
         have always seen growth year on year, but to expand by 20% during a
-        period of much uncertainty, is testament to our team and their
+        period of much uncertainty, is testament to our fantastic team and their
         performance. It's been a pleasant surprise to see an increase in
         opportunity for UK manufacturing and an exciting time for ASL, investing
         in new people and machinery to meet customer demand. We now have a very
