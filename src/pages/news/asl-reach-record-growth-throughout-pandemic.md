@@ -9,7 +9,7 @@ layout:
       title: ASL surpass a record £5million turnover throughout challenging financial
         year
       text: >-
-        The past 12 months has been an exceptional time at ASL as the company
+        The last 12 months has been an exceptional time at ASL as the company
         has seen record growth surpassing an incredible £5million turnover.
 
 
