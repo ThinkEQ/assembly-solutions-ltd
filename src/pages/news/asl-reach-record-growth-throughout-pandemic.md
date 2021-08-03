@@ -45,7 +45,7 @@ layout:
         performance. It's been a pleasant surprise to see an increase in
         opportunity for UK manufacturing and an exciting time for ASL, investing
         in new people and machinery to meet customer demand. We now have a very
-        exciting and ambitious year ahead as we push to grow by another 20% and
+        exciting and ambitious year ahead as we push for even further growth and
         reach a turnover of £6million by April 2022.
 seo:
   title: ASL reach record growth throughout pandemic
