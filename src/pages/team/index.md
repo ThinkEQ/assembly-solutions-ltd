@@ -268,7 +268,8 @@ team-members:
   - name: Aubrey Oldham
     jobtitle: Production Supervisor
     interests:
-      - gardening
+      - formula1
+      - hiking
     image: /img/aubrey-oldham.jpg
     bio: Aubrey is our recently promoted Production Supervisor who brings a valuable
       wealth of knowledge and experience to the team with his phenomenal 40
