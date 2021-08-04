@@ -13,7 +13,7 @@ layout:
         has seen record growth surpassing an incredible £5million turnover.
 
 
-        Since closing the financial year on 30th April 2021, we have been celebrating the record year which was made up of a number of highlights;
+        Since closing the financial year on 30th April 2021, we have been celebrating a record year which was made up of a number of highlights;
 
 
         * Record £5Million Sales Turnover
