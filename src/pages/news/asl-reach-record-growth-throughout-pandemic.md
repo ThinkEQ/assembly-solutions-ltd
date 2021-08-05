@@ -6,7 +6,8 @@ image: /img/assembly-solutions-growth-pandemic.jpg
 layout:
   - type: full
     full:
-      title: ASL have surpassed a record £5million turnover throughout pandemic
+      title: Family delight as ASL surpass a record £5million turnover throughout
+        pandemic
       text: >-
         The last 12 months has been an exceptional time at ASL as the company
         has seen record growth surpassing an incredible £5million turnover.
