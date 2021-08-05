@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Successfully Surpass a Record £5Million Turnover
+title: ASL Reach Record £5Million Turnover throughout Pandemic
 date: 2021-06-01T14:46:40.391Z
 image: /img/assembly-solutions-growth-pandemic.jpg
 layout:
@@ -46,7 +46,7 @@ layout:
         exciting and ambitious year ahead as we push for even further growth and
         aim to reach £6million turnover by April 2022.
 seo:
-  title: ASL reach record growth throughout pandemic
+  title: ASL Reach Record Growth throughout Pandemic
   description: Assembly Solutions celebrate after reaching record growth in sales
     throughout the covid pandemic.
   og-url: asl-reach-record-growth-throughout-pandemic
