@@ -69,7 +69,7 @@ return (
       <Box as="section" background="#fff" >
           <BannerOurCustomers />
       </Box>
-      <Box as="section" textStyle="section" backgroundImage={{base: mobile,  sm: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height="auto" minHeight={{base: "auto", sm: "400px",  md: "auto", xxl: "auto"}} width="100%" position="relative">
+      <Box as="section" textStyle="section" backgroundImage={{base: mobile,  sm: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center" height="auto" minHeight={{base: "auto", sm: "400px",  md: "auto", xxl: "auto"}} width="100%" position="relative">
           <Box textStyle="container" height="100%" paddingY={{base: 6, md:12}}>
               <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
                 <Box marginBottom={{base: "10px", md:"25px"}} fill="#fff" width={{base:"100px", md: "150px"}}>
