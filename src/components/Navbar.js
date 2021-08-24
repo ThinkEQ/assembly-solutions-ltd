@@ -232,8 +232,13 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
   return (
      <Box animation={`${flow} infinite 10s ease`} position="fixed" width={{base:"100%", md: "auto", lg: "648px"}} top="0" right="0" height="72px" background="gradient.900" backgroundSize="600% 600%"  borderBottomLeftRadius="3px" display="flex" justifyContent="space-between" zIndex="1000"  alignItems="center">
           <Box padding={4}>
-            <Link as={ReachLink} to="/">
-              <Svg name="logo" width="200px" />
+            <Link as={ReachLink} display="flex" alignItems="center" to="/">
+              <Box as="span" display={{base: "inline-block", md: "none"}}>
+                <Svg name="logo" width="100px" />
+              </Box>
+              <Box as="span" display={{base: "none", md: "inline-block"}}>
+                  <Svg name="logo" />
+              </Box>
             </Link>
           </Box>
           <Box padding="4" display="flex" alignItems="center" justifyContent="center" zIndex={menu === 'nav' ? "2000" : ""} marginRight="15px">
@@ -252,9 +257,14 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
           {menu === 'nav' &&
             <Box display="flex" justifyContent="flex-end"  alignItems="center" height="72px">
               <Box padding="4" >
-              <Link as={ReachLink} to="/">
-                <Svg name="logo" width="200px" />
-              </Link>
+                  <Link as={ReachLink} display="flex" alignItems="center" to="/">
+                    <Box as="span" display={{base: "inline-block", md: "none"}}>
+                      <Svg name="logo" width="100px" />
+                    </Box>
+                    <Box as="span" display={{base: "none", md: "inline-block"}}>
+                      <Svg name="logo" />
+                    </Box>
+                </Link>
               </Box>
               <Box padding="4" display="flex" alignItems="center" justifyContent="center" marginRight="15px">
                 <Text {...navText} minWidth="90px" display={{base: "none", lg: "block"}} onClick={openDrawer}>Close menu</Text>
