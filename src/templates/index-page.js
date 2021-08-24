@@ -17,11 +17,11 @@ import Svg from '../components/UI/SVG/index'
 import Video from '../components/Video/Video'
 
 // Load asset
-import teamTablet from '../img/default/tablet-about.png'
-import teamMobile from '../img/default/mobile-team.png'
 import homvidwm from '../videos/HOMEPAGE.webmsd.webm'
 import homvidmp from '../videos/HOMEPAGE.mp4'
-import teamDesktop from '../img/default/meettheteam2.jpg'
+import desktopTeam from '../img/default/Desktop.jpg'
+import tabletTeam from '../img/default/Tablet.png'
+import mobileTeam from '../img/default/Mobile.png'
 import '../components/UI/SVG/styles.css'
 
 const bounce = keyframes `
@@ -30,9 +30,9 @@ const bounce = keyframes `
   100%{transform: translateY(-25px)}
 `
 
-const mobile = `linear-gradient(184.08deg, rgba(9,21,64, 0.6), 100%, rgba(255,255,255,1), #091540 100%), url(${teamMobile})`
-const tablet = `linear-gradient(270deg, rgba(36,155,171,0) 0%, rgba(36,155,171,0) 31.24%, #249BAB 90%), url(${teamTablet})`
-const dekstop = `url(${teamDesktop})`
+const mobile = `linear-gradient(184.08deg, rgba(9,21,64, 0.6), 100%, rgba(255,255,255,1), #091540 100%), url(${mobileTeam})`
+const tablet = `linear-gradient(270deg, rgba(36,155,171,0) 0%, rgba(36,155,171,0) 31.24%, #249BAB 90%), url(${tabletTeam})`
+const dekstop = `url(${desktopTeam})`
 
 const IndexPageTemplate = () => {
 const {isOpen, onOpen, onClose } = useDisclosure()
@@ -68,7 +68,7 @@ return (
       <Box as="section" background="#fff" >
           <BannerOurCustomers />
       </Box>
-      <Box as="section" textStyle="section" backgroundImage={{base: mobile,  sm: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center bottom" height="auto" minHeight={{base: "auto", sm: "400px",  md: "auto", xxl: "700px"}} width="100%" position="relative">
+      <Box as="section" textStyle="section" backgroundImage={{base: mobile,  sm: tablet, lg: dekstop}} backgroundRepeat="no-repeat" backgroundSize="cover" backgroundPosition="center" height="auto" minHeight={{base: "auto", sm: "400px",  md: "auto", xxl: "700px"}} width="100%" position="relative">
           <Box textStyle="container" height="100%" paddingY={{base: 6, md:12}}>
               <Box display="flex" flexDirection="column" justifyContent="center" height="100%">
                 <Box marginBottom={{base: "10px", md:"25px"}} fill="#fff" width={{base:"100px", md: "150px"}}>
