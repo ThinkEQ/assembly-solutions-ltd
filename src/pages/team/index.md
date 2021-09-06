@@ -189,7 +189,7 @@ team-members:
       - xbox
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
   - name: Susan Gaskell
-    jobtitle: Production Planner
+    jobtitle: Purchasing Supervisor & Production Planner
     interests:
       - cooking
       - hiking
