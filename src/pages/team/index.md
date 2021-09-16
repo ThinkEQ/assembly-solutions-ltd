@@ -106,6 +106,19 @@ team-members:
       - hiking
       - church
     linkedin: https://www.linkedin.com/in/gareth-edwards-370509119/
+  - name: John Martin
+    jobtitle: Head of Quality and Health & Safety
+    interests:
+      - football
+    bio: John is the newest member of our team after joining in August, and we're
+      delighted to have him on board. He has a wealth of knowledge and
+      experience in Quality and Health & Safety, John will be heading up this
+      department and new Integrated Management System (IMS) ensuring we are
+      conforming to ISO9001 and ISO45001, as well as handling quality matters
+      and overseeing samples for new customers which may include doing
+      Production Part Approval Processes (PPAP’s). John is a passionate Man
+      United fan and enjoys a good pint in the pub!
+    image: /img/john-martin-1.jpg
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
@@ -292,19 +305,6 @@ team-members:
       even named his kids middle names after some famous formula 1 drivers! His
       children keep him young and sporty after his son was signed up for
       Lancashire Rugby Team!
-  - name: John Martin
-    jobtitle: Head of Quality and Health & Safety
-    interests:
-      - football
-    bio: John is the newest member of our team after joining in August, and we're
-      delighted to have him on board. He has a wealth of knowledge and
-      experience in Quality and Health & Safety, John will be heading up this
-      department and new Integrated Management System (IMS) ensuring we are
-      conforming to ISO9001 and ISO45001, as well as handling quality matters
-      and overseeing samples for new customers which may include doing
-      Production Part Approval Processes (PPAP’s). John is a passionate Man
-      United fan and enjoys a good pint in the pub!
-    image: /img/john-martin-1.jpg
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
   description: Meet our experienced and qualified team who are customer focused
