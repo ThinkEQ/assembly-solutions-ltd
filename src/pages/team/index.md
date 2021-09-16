@@ -296,7 +296,14 @@ team-members:
     jobtitle: Head of Quality and Health & Safety
     interests:
       - football
-    bio: Bio coming soon.
+    bio: John is the newest member of our team after joining in August, and we're
+      delighted to have him on board. He has a wealth of knowledge and
+      experience in Quality and Health & Safety, John will be heading up this
+      department and new Integrated Management System (IMS) ensuring we are
+      conforming to ISO9001 and ISO45001, as well as handling quality matters
+      and overseeing samples for new customers which may include doing
+      Production Part Approval Processes (PPAP’s). John is a passionate Man
+      United fan and enjoys a good pint in the pub!
     image: /img/john-martin-1.jpg
 seo:
   title: Meet the Assembly Solutions Team | Get to know our People
