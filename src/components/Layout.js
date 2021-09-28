@@ -81,7 +81,7 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription, ogUrl, ogImg })
         {/*<meta property="og:image:alt" content="" />*/}
         {/*<meta property="author" content="Magma" />*/}
         <meta property="og:url" content={ogUrl} />
-       
+        <meta name="google-site-verification" content="sys1rmHGIe_AcuVINs11ZrbrOxAxPLsDzhU9hIYyMSw" />
         <script type="text/javascript" src="https://secure.iron0walk.com/js/207700.js" ></script>
         <noscript>{`<img alt="" src="https://secure.iron0walk.com/207700.png" style="display:none;" />`}</noscript>
       </Helmet>
