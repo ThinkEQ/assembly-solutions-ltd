@@ -25,8 +25,8 @@ const FormProvider = ({ formName = 'contact', initialValues = {}, children, url 
          if(!values.firstName.trim() && setRules.includes('firstName')) {
              errors.firstName = 'Required'
          }
-         if(!values.lastName.trim() && setRules.includes('lastName')) {
-            errors.lastName = 'Required'
+         if(!values.company.trim() && setRules.includes('company')) {
+            errors.company = 'Required'
         }
         if(!values.enquiry.trim() && setRules.includes('enquiry')) {
             errors.enquiry= 'Required'

@@ -27,21 +27,21 @@ const flow = keyframes `
 const ContactForm = ({ isSubmitting }) => {
   return (
     <Box spacing="4" display="flex" justifyContent="space-between" flexDirection={{base: "column", lg: "row"}} flexWrap={{base: "nowrap", lg: "wrap" }}>
-    <Field name="firstName">
+    <Field name="fullName">
       {({ field, form }) => (
-        <FormControl id="firstName" color="#fff" width={{base: "100%", lg:"48%"}} isInvalid={form.errors.firstName && form.touched.firstName} marginBottom="6">
-          <FormLabel fontSize="18px" htmlFor="firstName" fontWeight="bold">First name</FormLabel>
-          <Input {...field} id="firstName" name="firstName" type="text" focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
-          <FormErrorMessage>{form.errors.firstName}</FormErrorMessage>
+        <FormControl id="fullName" color="#fff" width={{base: "100%", lg:"48%"}} isInvalid={form.errors.fullName && form.touched.fullName} marginBottom="6">
+          <FormLabel fontSize="18px" htmlFor="fullName" fontWeight="bold">Full name</FormLabel>
+          <Input {...field} id="fullName" name="fullName" type="text" focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
+          <FormErrorMessage>{form.errors.fullName}</FormErrorMessage>
         </FormControl>
       )}
       </Field>
-      <Field name="lastName">
+      <Field name="company">
       {({ field, form }) => (
-        <FormControl color="#fff" id="lastName" width={{base: "100%", lg:"48%"}} isInvalid={form.errors.lastName && form.touched.lastName} marginBottom="6">
-          <FormLabel htmlFor="lastName" fontSize="18px" fontWeight="bold">Last name</FormLabel>
-          <Input {...field} id="lastName" name="lastName" type="text" focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
-          <FormErrorMessage>{form.errors.lastName}</FormErrorMessage>
+        <FormControl color="#fff" id="company" width={{base: "100%", lg:"48%"}} isInvalid={form.errors.company && form.touched.company} marginBottom="6">
+          <FormLabel htmlFor="company" fontSize="18px" fontWeight="bold">Company</FormLabel>
+          <Input {...field} id="company" name="company" type="text" focusBorderColor="green.900" size="lg" height="67px" display="inline-block" />
+          <FormErrorMessage>{form.errors.company}</FormErrorMessage>
         </FormControl>
       )}
     </Field>
@@ -202,7 +202,7 @@ const ContactUs = () => {
         </Box>
       </Box> 
       <Box marginTop="30px" paddingLeft={{base: "0", lg:"20px"}}>
-        <FormProvider url="/contact/thanks" formName="contact" initialValues={{firstName: "", lastName: "", telephone: "", email: "", enquiry: ""}} setRules={['firstName', 'lastName', 'enquiry', 'telephone']}>
+        <FormProvider url="/contact/thanks" formName="contact" initialValues={{fullName: "", company: "", telephone: "", email: "", enquiry: ""}} setRules={['fullName', 'company', 'enquiry', 'telephone']}>
           <ContactForm  />
         </FormProvider>
       </Box>
