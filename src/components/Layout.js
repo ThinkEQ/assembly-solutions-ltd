@@ -92,8 +92,8 @@ const TemplateWrapper = ({ children, metaTitle, metaDescription, ogUrl, ogImg })
         data-netlify="true"
         netlify-honeypot="bot-field"
       >
-        <input type="text" name="firstName" />
-        <input type="text" name="lastName" />
+        <input type="text" name="fullName" />
+        <input type="text" name="company" />
         <input type="email" name="email" />
         <input type="tel" name="telephone" />
         <input type="textarea" name="enquiry" />

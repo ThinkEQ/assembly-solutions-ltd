@@ -3,7 +3,7 @@ import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
 
 // Load components
-import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl } from '@chakra-ui/react'
+import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl, LinkBox } from '@chakra-ui/react'
 import Svg from './UI/SVG/index'
 import FormProvider from './Form/Form'
 
@@ -141,6 +141,21 @@ const Footer = ({ toggleDrawer }) => {
                   Privacy Policy
                 </Link>
               </ListItem>
+              <ListItem {...para} fontWeight="300" fontSize="16px">
+            <a href="/docs/oh-s-policy-statement.pdf" target="_blank">
+              OH&S Policy Statement
+            </a>
+          </ListItem>
+          <ListItem {...para} fontWeight="300" fontSize="16px">
+            <a href="/docs/environment-policy-statement.pdf" target="_blank">
+              Environment Policy Statement
+            </a>
+          </ListItem>
+          <ListItem {...para} fontWeight="300" fontSize="16px">
+            <a href="/docs/quality-policy-statement.pdf" target="_blank">
+              Quality Policy Statement
+            </a>
+          </ListItem>
               <ListItem display="flex" justifyContent="center">
                 <Svg name="twentyEmblem" fill="#fff" width="85px" height="90px" />
               </ListItem>
@@ -168,12 +183,30 @@ const Footer = ({ toggleDrawer }) => {
             </Link>
           </ListItem>
           <ListItem {...para} fontWeight="300">
-            <Link as={ReachLink} to="/privacy-policy">
+            <Link as={ReachLink} to="/privacy-policy" target="_blank">
               Privacy Policy
             </Link>
           </ListItem>
+          </List>
+          <List justifyContent="space-around" alignItems="flex-start" width="100%" marginBottom="20px" display={{base: "flex", lg: "none"}}>
+          <ListItem {...para} fontWeight="300" fontSize="16px">
+            <a href="/docs/oh-s-policy-statement.pdf" target="_blank">
+              OH&S Policy Statement
+            </a>
+          </ListItem>
+          <ListItem {...para} fontWeight="300" fontSize="16px">
+            <a href="/docs/environment-policy-statement.pdf" target="_blank">
+              Environment Policy Statement
+            </a>
+          </ListItem>
         </List>
-          
+        <List justifyContent="space-around" alignItems="flex-start" width="100%" marginBottom="20px" display={{base: "flex", lg: "none"}}>
+          <ListItem {...para} fontWeight="300" fontSize="16px">
+            <a href="/docs/quality-policy-statement.pdf">
+              Quality Policy Statement
+            </a>
+          </ListItem>
+        </List>
           <Box>
             <Text fontSize="14px" lineHeight="17px" marginBottom={{base: "20px", lg: "0"}}>
               Assembly Solutions Ltd is registered in England  under registration number 3131352.
