@@ -1,6 +1,7 @@
 ---
 templateKey: news-article
-title: ASL Invest £100,000 In New Wire & Cable Cutting Machinery
+title: Boost in Plant Machinery After £100,000 Investment In New Wire & Cable
+  Cutting Machine
 date: 2021-10-28T09:24:41.863Z
 image: /img/madars-machinery.jpg
 layout:
