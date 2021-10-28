@@ -20,9 +20,8 @@ layout:
         Plant investment is an area the company is continually reviewing as part of our ambitious growth plans and we actively encourage staff to put forward ideas of areas to improve and spending suggestions.
   - type: testimonial
     testimonial:
-      alignment: standard
-      quote: >-
-        “It was our Production Manager Rob Parkinson who identified the need to
+      alignment: centre
+      quote: It was our Production Manager Rob Parkinson who identified the need to
         invest in further machinery after our customer demand got so big earlier
         this year that we were running out of resource to promise customers our
         usual lead times. With this machine now up and running, we’re happy and
@@ -30,10 +29,8 @@ layout:
         future for even more machinery investment is looking bright as we are
         currently reviewing more opportunities and analysing in detail where we
         can improve efficiencies and become better technically equipped than we
-        have ever been”
-
-
-        Gareth Balshaw, Managing Director
+        have ever been
+      name: Gareth Balshaw, Managing Director
 seo:
   title: ASL Invest £100,000 In New Wire & Cable Cutting Machinery
   description: Assembly Solutions to have boosted their plant machinery after
