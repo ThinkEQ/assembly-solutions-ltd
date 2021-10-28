@@ -8,8 +8,8 @@ layout:
     column:
       title: ASL Invest £100,000 In New Wire & Cable Cutting Machinery
       text: >-
-        We have significantly boosted output after investing £100,000 in a brand
-        new Schleinger fully automatic wire cutting & terminating machine.\
+        We have boosted our plant machinery after investing £100,000 in a brand
+        new Schleuniger fully automatic wire cutting & terminating machine.\
 
         \
 
