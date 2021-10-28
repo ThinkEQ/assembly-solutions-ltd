@@ -1,7 +1,6 @@
 ---
 templateKey: news-article
-title: Boost in Plant Machinery After £100,000 Investment In New Wire & Cable
-  Cutting Machine
+title: Boost in Plant Machinery After £100,000 Investment
 date: 2021-10-28T09:24:41.863Z
 image: /img/madars-machinery.jpg
 layout:
