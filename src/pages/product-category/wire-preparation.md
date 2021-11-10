@@ -48,6 +48,8 @@ introcol:
 images:
   - image: /img/wire-preparation-cutting-machinery.jpg
     alt: Wire Preparation
+  - image: /img/wire-preparation-hand-bundle.jpg
+    alt: Wire Preparation
   - image: /img/wire-preparation-03.jpg
     alt: Wire Preparation
   - image: /img/wire-preparation-02.png
