@@ -8,9 +8,11 @@ usps:
   - usp: Excellent Service
 image: /img/cable-preparation.jpg
 images:
-  - image: /img/heavy-duty-cable-assembly.png
-    alt: Cable Preparation
+  - image: /img/wire-preparation-cutting-machinery.jpg
+    alt: Wire Preparation
   - image: /img/img_4045.jpg
+    alt: Cable Preparation
+  - image: /img/heavy-duty-cable-assembly.png
     alt: Cable Preparation
   - image: /img/img_4030.jpg
     alt: Cable Preparation
