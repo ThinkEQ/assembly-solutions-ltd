@@ -12,10 +12,10 @@ intro: >-
   Family values are not just words, they're a real thing that you can see when walking around the factory. We work together as a team, sharing the same vision, values and goals.
 image: /img/about-us-cover.png
 seo:
-  title: About ASL | Information on Assembly Solutions Ltd
-  description: About ASL, Assembly Solutions is a cable assembly and wiring
-    harness manufacturer based in Bolton. Call 01204 521999 for more information
-    on our products.
+  title: The UK's Leading Cable Assembly Company | Assembly Solutions
+  description: "The UK's leading cable assembly company. Established for over 25
+    years. We manufacture quality assured cables and wiring harnesses for a
+    range of sectors. "
   og-url: https://www.assembly-solutions.com/about
 ---
 ### A thriving manufacturer of electrical wiring assemblies
