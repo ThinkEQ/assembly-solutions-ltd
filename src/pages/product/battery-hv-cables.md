@@ -69,8 +69,8 @@ layout:
         > Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Battery Cables | Cable Assembly | ASL
-  description: Battery Cables and Cable Assemblies from Assembly Solutions.
-    Experts in Low Cost Battery Cable Assemblies, Wire Harnesses and Cable
-    Preparation.
+  description: "We are custom cable assembly manufacturers specializing in battery
+    & high voltage cables. Quality assured fast delivery & excellent service.
+    Contact Assembly Solutions now. "
   og-url: https://www.assembly-solutions.com/battery-and-hv-cables
 ---
