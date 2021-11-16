@@ -66,7 +66,8 @@ layout:
         > Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Braided Cable | Earth Straps | Earth Leads
-  description: Braided Cable range from Assembly Solutions includes Braided Earth
-    Leads, Braided Earth Straps in all sizes. Contact us on 01204 521999.
+  description: UK made electric cable wire. Discover our braided cable & braided
+    earth lead assemblies. Large stock holdings & short lead times. Enquire with
+    us today.
   og-url: https://www.assembly-solutions.com/braided-cable
 ---
