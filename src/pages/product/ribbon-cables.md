@@ -69,8 +69,8 @@ layout:
         > Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: Ribbon Cables | Ribbon Cable Assembly | ASL
-  description: Ribbon Cables and Cable Assemblies from Assembly Solutions.
-    Business of the Years winners have built up a strong reputation for the
-    supply of Cables.
+  description: "UK manufactured flat ribbon cables. We offer fast quotes + lead
+    times on your project. Benefit from fast turnaround and testing on all of
+    our cable assemblies. Contact Assembly Solutions today. "
   og-url: https://www.assembly-solutions.com/ribbon-cables
 ---
