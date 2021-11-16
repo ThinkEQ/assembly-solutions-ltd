@@ -120,9 +120,9 @@ layout:
         * Made in UK Factory
         * Experienced Workforce
 seo:
-  title: Wire Preparation | Wire & Cable Capabilities
-  description: Custom made wire preparation and cable preparation delivered on
-    fast turnaround and highest quality. Contact us today to discuss your wire
-    preparation and cable assembly requirements.
+  title: "Wire Preparation and Wire Assembly | Assembly Solutions "
+  description: "Discover our custom made, high volume wire preparation services.
+    UK manufactured and quality assured with fast turnarounds. Enquire with us
+    today. "
   og-url: https://www.assembly-solutions.com/wire-preparation
 ---
