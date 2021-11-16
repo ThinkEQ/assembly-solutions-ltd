@@ -113,9 +113,9 @@ layout:
         * Reliable & Flexible
         * Experienced Team
 seo:
-  title: Cable Assembly Manufacturer | Quality Custom Made Cables
-  description: Quality custom made cable assembly products manufactured in the UK
-    on a fast 4 week turnaround. Contact us today for an instant quote on your
-    cable assembly drawings and specification.
+  title: "Custom Made Cable Assemblies | Assembly Solutions "
+  description: "Discover our range of quality custom made cable assemblies. UK
+    manufactured on a 4-week turnaround. Quality assured at affordable prices.
+    Contact us for an instant quote on your requirements. "
   og-url: https://www.assembly-solutions.com/cable-assembly
 ---
