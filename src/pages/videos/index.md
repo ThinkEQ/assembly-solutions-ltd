@@ -28,7 +28,8 @@ youtube:
     image: /img/heavy-duty-cables2.jpg
 seo:
   title: Videos and Multimedia | Assembly Solutions Ltd
-  description: Videos and Multimedia by Assembly Solutions Ltd. Contact us on
-    01204 521999 for more information.
+  description: "Learn about our UK based family business. Discover how we build
+    quality assured cable assemblies, panel wiring & control panels for
+    world-leading companies. "
   og-url: https://www.assembly-solutions.com/videos
 ---
