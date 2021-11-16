@@ -32,9 +32,9 @@ industries:
     alt: Nuclear
 seo:
   title: Industries We Supply | Assembly Solutions
-  description: Industries we supply into include; Automotive, Nuclear, Security
-    and Utilities. Visit our website Assembly Solutions and discover our market
-    range in detail.
+  description: "We supply a range of industries including the automotive, nuclear,
+    security and utility sectors. Discover how we support the world's most
+    innovative industries. "
   og-url: https://www.assembly-solutions.com/industries
 ---
 ### **Supplying Industries Worldwide**
