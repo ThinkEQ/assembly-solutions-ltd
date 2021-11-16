@@ -69,10 +69,10 @@ layout:
 
         > Henry Moreta, Buyer – Brompton Bicycle
 seo:
-  title: Cable Assemblies | Cable Assembly Manufactures | ASL
-  description: Custom made Cable Assemblies manufactured to customer drawing and
-    specification. Visit our website to understand our wide range cable assembly
-    capability.
+  title: "Custom Cable Assemblies | Assembly Solutions "
+  description: "Custom made cable assemblies. Manufactured in the UK to your
+    drawing and specification. Huge range available. Chat to our team or get a
+    quick quote today. "
   og-url: https://www.assembly-solutions.com/cable-assemblies
 testimonial:
   quote: >
