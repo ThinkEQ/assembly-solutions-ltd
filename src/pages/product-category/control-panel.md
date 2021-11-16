@@ -104,9 +104,9 @@ layout:
         * Fast Turnaround
         * Quality Assurance
 seo:
-  title: Control Panel Manufacturer | Electrical Panel Production Build
-  description: Quality custom made control panels manufactured in UK and built to
-    customer drawing and specification. Contact our technical experienced team
-    today to discuss you panel build requirements.
+  title: "Electric Panels & Panel Wiring | Assembly Solutions "
+  description: "Leading UK control panel manufacturer. Established for over 25
+    years we supply quality approved electrical control panels + panel wiring to
+    a range of industries. Contact us today. "
   og-url: https://www.assembly-solutions.com/control-panels
 ---
