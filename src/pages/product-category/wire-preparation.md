@@ -120,7 +120,7 @@ layout:
         * Made in UK Factory
         * Experienced Workforce
 seo:
-  title: "Wire Preparation and Wire Assembly | Assembly Solutions "
+  title: "Wire Preparation  | Assembly Solutions "
   description: "Discover our custom made, high volume wire preparation services.
     UK manufactured and quality assured with fast turnarounds. Enquire with us
     today. "
