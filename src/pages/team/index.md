@@ -293,8 +293,9 @@ team-members:
       children keep him young and sporty after his son was signed up for
       Lancashire Rugby Team!
 seo:
-  title: Meet the Assembly Solutions Team | Get to know our People
-  description: Meet our experienced and qualified team who are customer focused
-    and committed to delivering a quality service.
+  title: "Meet the Team |  Assembly Solutions "
+  description: "Meet our experienced and qualified team of experts.
+    Customer-focused and committed to delivering quality service. Learn what
+    makes us the UK market leader. "
   og-url: https://www.assembly-solutions.com/team
 ---
