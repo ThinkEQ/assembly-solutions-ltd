@@ -66,9 +66,9 @@ layout:
 
         > Henry Moreta, Buyer - Brompton Bicycle
 seo:
-  title: Cable Preparation | Wire Preparation | ASL
-  description: Cable Preparation and Wire Preparation. Cut, Strip and Terminate
-    service on any wire or cable. High speed machinery for fast turnaround
-    Cable.
+  title: "Service Cables and Wire Preparation | Assembly Solutions "
+  description: "Custom made service cables and wire preparation. We deliver
+    excellent service, low prices and fast lead times. Chat to our specialists
+    about your project. "
   og-url: https://www.assembly-solutions.com/cable-preparation
 ---
