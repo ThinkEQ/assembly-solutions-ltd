@@ -63,9 +63,9 @@ layout:
 
         > Electrical Engineering Manager – Alexander Dennis
 seo:
-  title: Motorsport Wiring Loom | Wiring Loom Manufacturers | ASL
-  description: Motorsport Wiring Loom and Wiring Harness manufacture by Vehicle
-    Wiring Experts Assembly Solutions. Get your FREE Quote by contacting us on
-    01204 521999.
+  title: "Motor Sport Wire Harness Manufacturers | Assembly Solutions "
+  description: "Expert automotive wiring loom and harness manufacturers and
+    vehicle wiring experts especially for the motorsport industry. Get your free
+    quote today. "
   og-url: https://www.assembly-solutions.com/motorsport-harnesses
 ---
