@@ -72,9 +72,9 @@ layout:
 
         > Electrical Engineer – Siemens
 seo:
-  title: Nuclear Control Panels | Control Panel Manufacturers | ASL
-  description: Nuclear Control Panel and Panel Build from Control Panel Experts
-    Assembly Solutions. Contact us today on 01204 521999 to discuss your Nuclear
-    Panel needs.
+  title: " Nuclear Control Panels | Assembly Solutions "
+  description: Experts in complex and technical control panels and cable
+    assemblies. We can handle low or high volume builds and offer specialist
+    design support. Call us today to discuss your requirements.
   og-url: https://www.assembly-solutions.com/nuclear-control-panel
 ---
