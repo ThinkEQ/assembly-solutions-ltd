@@ -55,9 +55,9 @@ layout:
 
         > Electrical Engineering Manager – Alexander Dennis
 seo:
-  title: Trailer Wiring Loom | Wiring Loom Manufacturers | ASL
-  description: Trailer Wiring Loom and Wiring Harness manufacture by UK
-    Manufacturer Assembly Solutions. Contact us on 01204 521999 to discuss your
-    Trailer Wiring Loom.
+  title: Trailer Wiring Loom Manufacturers | ASL
+  description: "UK manufacturer of trailer and wiring looms for the commercial and
+    domestic trailer market. Competitive prices, short lead times & exceptional
+    customer service. "
   og-url: https://www.assembly-solutions.com/trailer-wiring-loom
 ---
