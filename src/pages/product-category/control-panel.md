@@ -104,9 +104,9 @@ layout:
         * Fast Turnaround
         * Quality Assurance
 seo:
-  title: "Electric Panels & Panel Wiring | Assembly Solutions "
-  description: "Leading UK control panel manufacturer. Established for over 25
-    years we supply quality approved electrical control panels + panel wiring to
-    a range of industries. Contact us today. "
+  title: "Control Panel Wire Manufacturing | Assembly Solutions "
+  description: Trusted control panel manufacturer. Low cost with multi-awards in
+    design, manufacture & installation. Small or highly complex builds
+    available. Enquire today with Assembly Solutions.
   og-url: https://www.assembly-solutions.com/control-panels
 ---
