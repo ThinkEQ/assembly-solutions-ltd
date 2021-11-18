@@ -63,8 +63,9 @@ layout:
 
         > Henry Moreta, Buyer – Brompton Bicycle
 seo:
-  title: Earth Strap | Earth Lead | Braided Cable | ASL
-  description: Earth Strap and Earth Leads from Assembly Solutions. Suppliers of
-    any Braided Cable Assembly. Call 01204 521999 for a quick low cost quote.
+  title: "Earth Leads | Low Price & Fast Delivery | Assembly Solutions "
+  description: "UK leading manufacturer of earth straps and braided leads. Quality
+    approved products are supplied to a wide range of industries. Contact us
+    today to discuss your requirements. "
   og-url: https://www.assembly-solutions.com/earth-strap
 ---
