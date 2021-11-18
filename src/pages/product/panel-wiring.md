@@ -65,9 +65,9 @@ layout:
 
         > Electrical Engineer – Siemens
 seo:
-  title: Panel Wiring | Panel Build Manufacturer | ASL
-  description: Electrical Panel Wiring and Control Panel Build from Assembly
-    Solutions. Guaranteed low costs and fast turnaround on all custom panel
-    build and assemblies.
+  title: "Panel Wiring Manufacturer | Assembly Solutions "
+  description: Renowned UK panel wiring manufacturer. Fast & flexible turnarounds.
+    Expert service from our team of specialists. Speak to us today about your
+    project.
   og-url: https://www.assembly-solutions.com/panel-wiring
 ---
