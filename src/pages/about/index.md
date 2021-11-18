@@ -12,10 +12,10 @@ intro: >-
   Family values are not just words, they're a real thing that you can see when walking around the factory. We work together as a team, sharing the same vision, values and goals.
 image: /img/about-us-cover.png
 seo:
-  title: The UK's Leading Cable Assembly Company | Assembly Solutions
-  description: "The UK's leading cable assembly company. Established for over 25
-    years. We manufacture quality assured cables and wiring harnesses for a
-    range of sectors. "
+  title: About Us | Assembly Solutions
+  description: "Leading cable assembly company & cable manufacturer in the UK.
+    Established for over 25 years. We manufacture quality assured cables and
+    wiring harnesses for a range of sectors. "
   og-url: https://www.assembly-solutions.com/about
 ---
 ### A thriving manufacturer of electrical wiring assemblies
