@@ -70,9 +70,9 @@ layout:
 
         > Electrical Engineer – Siemens
 seo:
-  description: Panel Build and Panel Wiring from the electrical wiring experts,
-    Assembly Solutions. Call us on 01204 521999 to discuss all your electrical
-    panel build needs.
+  description: Leading UK manufacturer with panel builder expertise in a range of
+    industries including automotive, rail & utilities. Quality assured, fast
+    service. Enquire now.
   title: Panel Build | Assembly Solutions
   og-url: https://www.assembly-solutions.com/panel-build
 ---
