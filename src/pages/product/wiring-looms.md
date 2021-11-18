@@ -76,9 +76,9 @@ layout:
         All our wiring looms come with a 100% electrical test to ensure that the harness is functioning exactly how it should be. Our quality assurance department will not allow any wiring looms to leave the factory unless they match 100% against the customers drawing & specification and that they are finished to the highest quality.
       title: Wiring Loom Video
 seo:
-  title: Wiring Loom Manufacturer | Quality Custom Made Looms
-  description: Custom quality wiring looms and wiring harnesses manufactured on a
-    fast turnaround with over 25 years experience. Contact us today to discuss
-    how we can reduce your wiring loom costs and improve your quality.
+  title: "Quality Wiring Looms | Assembly Solutions "
+  description: "Leading UK supplier of custom quality wiring looms and wiring
+    harnesses. Fast and flexible lead times. Low cost and excellent service.
+    Speak to us today. "
   og-url: https://www.assembly-solutions.com/wiring-loom
 ---
