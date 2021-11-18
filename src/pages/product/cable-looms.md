@@ -71,9 +71,9 @@ layout:
 
         > Electrical Engineering Manager – Alexander Dennis
 seo:
-  title: Cable Looms | Assembly Solutions
-  description: Cable Looms are a product that ASL are experts in. They have a
-    range of pin boards set up in their brand new 32,000 sq ft factory to ensure
-    they offer flexibility and a custom-made service.
+  title: "Cable Looms | Low Cost & UK Made | Assembly Solutions "
+  description: "UK preferred supplier with over 25 years of experience. We make
+    quality approved cable looms that are low cost and have a fast turnaround.
+    Enquire today. "
   og-url: https://www.assembly-solutions.com/cable-looms
 ---
