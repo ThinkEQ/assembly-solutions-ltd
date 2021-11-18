@@ -69,9 +69,9 @@ layout:
 
         > Electrical Engineering Manager – Alexander Dennis
 seo:
-  title: Agricultural Vehicle Wiring Loom | Wiring Looms | ASL
-  description: Agricultural Vehicle Wiring Loom and Wiring Harnesses manufactured
-    by Wiring Experts Assembly Solutions. Contact us on 01204 521999 for more
-    information.
+  title: Agricultural Wiring Looms | Industrial Cables | Assembly Solutions
+  description: Specialists in quality industrial cables, UK made wiring looms &
+    harnesses for agriculture. We offer expert support, low prices & fast
+    service. Enquire today.
   og-url: https://www.assembly-solutions.com/agricultural-wiring-loom
 ---
