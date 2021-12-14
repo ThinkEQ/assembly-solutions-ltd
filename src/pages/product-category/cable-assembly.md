@@ -65,10 +65,10 @@ layout:
     column:
       title: ""
       text: >-
-        #### Custom Made Cable Assembly
+        #### Custom Cable Assemblies
 
 
-        We build custom made cable assembly products for two world renowned manufacturers, Aston Martin and Brompton Bicycle. Their supply chain required our technical expertise to create the most cost-effective solution for their application. Working with leading brands for over 25 years has broadened our knowledge and expertise on [cable assemblies](/cable-assemblies) which has opening opportunities in other Industries across the globe.
+        We build custom made cable assembly products for two world-renowned manufacturers, Aston Martin and Brompton Bicycle. Their supply chain required our technical expertise to create the most cost-effective solution for their application. Working with leading brands for over 25 years has broadened our knowledge and expertise on [cable assemblies](/cable-assemblies) which has opening opportunities in other Industries across the globe.
   - type: column
     column:
       title: ""
@@ -79,7 +79,7 @@ layout:
         We deliver over 1,000 cable assembly products per week and these are shipped worldwide to Industries including; Automotive, Medical, Security and Test & Measurement. Based in our large and lively Bolton factory, our cable assembly production is set up for fast turnaround and accurate manufacture.
   - type: column
     column:
-      title: 25 Years of Cable Experience
+      title: Decades of Cable Assembly Experience
       text: In 2020 we celebrated an incredible 25 years since Assembly Solutions was
         created by Founder Graham Balshaw. Our experience and knowledge has
         grown hugely over the years, leading us to become a UK trusted supplier
@@ -113,7 +113,7 @@ layout:
         * Reliable & Flexible
         * Experienced Team
 seo:
-  title: "Custom Made Cable Assemblies | Assembly Solutions "
+  title: "Cable Assembly | Custom Made Cable Assemblies | Assembly Solutions "
   description: "Discover our range of quality custom made cable assemblies. UK
     manufactured on a 4-week turnaround. Quality assured at affordable prices.
     Contact us for an instant quote on your requirements. "
