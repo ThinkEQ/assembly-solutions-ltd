@@ -10,7 +10,7 @@ usps:
   - usp: Excellent Service
 introcol:
   first: >-
-    ### **Wire Preparation**
+    ### **Expert Wire Preparation**
 
 
     ASL is an established and customer focused manufacturer of high volume wire preparation and cable preparation. Equipped with an extensive range of automatic high speed wire cutting and wire termination machinery, we produce custom designed wire assemblies on an incredibly fast turnaround. With all our wire preparation assemblies being primarily machine manufactured, quality is continually consistent and meets ISO 9001 standards.
@@ -19,20 +19,23 @@ introcol:
     ### High Volume Wire Preparation
 
 
-    We manufacture an incredible 5,000 wire assemblies a minute using our high speed automatic machines. With very little labour involved, we are as competitive as china and eastern European countries, and is a reason why we are the preferred supplier to some of the worlds leading companies including Siemens, Stanley and Vodafone.
+    We manufacture an incredible 5,000 wire assemblies a minute using our high speed automatic machines. With very little labour involved, we are as competitive as china and eastern European countries. This is one of the many reasons why we are the supplier of choice for some of the worlds leading companies including Siemens, Stanley and Vodafone. At Assembly Solutions, we pride ourselves on being trusted and effective wire assembly manufacturers, without compromising on quality- or price.
 
 
-    * Reduced Labour Time
+    ### Why Choose Assembly Solutions for Wire Preparation?
 
-    * Consistent Quality
 
-    * Accurate Assemblies
+    * Shorter labour times and lower labour costs
 
-    * Quick Turnaround
+      Quality Assured Products
 
-    * Made in UK Factory
+      Concise Assemblies 
 
-    * Experienced Workforce
+      Expert Equipment Means Faster Turnarounds 
+
+      Made in Bolton 
+
+      Specialist Workforce
   second: >-
     ### **Wire Preparation Video**
 
@@ -71,10 +74,13 @@ layout:
     column:
       title: ""
       text: >-
-        #### **Cable Preparation**
+        #### **Trusted Wire & Cable Preparation**
 
 
         Cable preparation is a service that we have supplied for over 25 years and we are incredibly proud to have built up a customer base including two world leading companies, Siemens and Stanley. If you watch our wire preparation video you will see the full range of services we provide under our purpose built family run factory in Bolton.
+
+
+         All the assemblies we manufacture for Siemens are produced on our high speed fully automotive wire preparation machine which has the capability to cut, strip, tin and terminate wires. You can read the full Siemens project case study [here](https://www.assembly-solutions.com/projects/siemens/).
   - type: column
     column:
       text: >-
@@ -102,7 +108,7 @@ layout:
   - type: column
     column:
       text: |-
-        #### Our Wire Preparation Services include;
+        #### **Discover ASL Wire Preparation Services**
 
         * Crimp Termination
         * Soldering
@@ -111,14 +117,23 @@ layout:
         * Ultrasonic Welding
   - type: column
     column:
-      text: |-
-        #### Made with Quality
+      text: >-
+        #### Made with Quality In Mind
 
-        * Consistent Quality
+
+        *  Quality Assured
+
         * Accurate Assemblies
+
         * Quick Turnaround
+
         * Made in UK Factory
+
         * Experienced Workforce
+
+
+
+          **Get in touch with [our team today ](enquiry@assembly-solutions.com)to discuss your wire preparation needs and requirements. Our experts will be happy to help.**
 seo:
   title: "Wire Preparation  | Assembly Solutions "
   description: "Discover our custom made, high volume wire preparation services.
