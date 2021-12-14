@@ -29,7 +29,7 @@ images:
 layout:
   - type: column
     column:
-      title: Custom-made Cable Preparation
+      title: Quality Cable Preparation
       text: >-
         ASL is a UK manufacturer of custom-made cable preparation.
 
@@ -66,7 +66,7 @@ layout:
 
         > Henry Moreta, Buyer - Brompton Bicycle
 seo:
-  title: "Cable Preparation & Service Cables | Assembly Solutions "
+  title: "Cable Preparation & Service Cable Solutions | Assembly Solutions "
   description: "Custom made service cable preparation and wire preparation. We
     deliver excellent service, low prices and fast lead times. Chat to our
     specialists about your project now. "
