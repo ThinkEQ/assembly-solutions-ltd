@@ -18,7 +18,7 @@ seo:
     wiring harnesses for a range of sectors. "
   og-url: https://www.assembly-solutions.com/about
 ---
-### A thriving manufacturer of electrical wiring assemblies
+### A thriving cable assembly company and electrical wiring manufacturer.  
 
 Assembly Solutions is a UK Bolton based sub-contract manufacturer of wire preparation, cable assemblies, wiring harnesses and control panels.
 
