@@ -65,7 +65,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### Custom Cable Assemblies
+        #### Expert Cable Assemblies
 
 
         We build custom made cable assembly products for two world-renowned manufacturers, Aston Martin and Brompton Bicycle. Their supply chain required our technical expertise to create the most cost-effective solution for their application. Working with leading brands for over 25 years has broadened our knowledge and expertise on [cable assemblies](/cable-assemblies) which has opening opportunities in other Industries across the globe.
