@@ -1,8 +1,8 @@
 ---
 templateKey: news-article
 title: Reflecting On A Record Year 2021
-date: 2022-01-11T15:41:15.572Z
-image: /img/saduf-cable-assemblies.jpg
+date: 2022-01-03T15:41:15.572Z
+image: /img/petronela-wiring-harnesses.jpg
 layout:
   - type: full
     full:
