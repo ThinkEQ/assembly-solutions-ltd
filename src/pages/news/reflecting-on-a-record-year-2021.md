@@ -38,10 +38,10 @@ layout:
         * 4 People Reached 10 Years Service
 
 
-        Overall it was a year to be extremely proud of, especially after the damaging impact that the pandemic has has of some areas of manufacturing the in UK.
+        Overall it was a year to be extremely proud of, especially after the damaging impact that the pandemic has had on some areas of manufacturing in the UK.
 
 
-        We're excited to continue to thrive in this new year ahead, reaching new records and evolving to new heights.
+        We're excited to continue thriving in this new year ahead, reaching new records and evolving to new heights.
 seo:
   title: Reflecting On A Record Year 2021
   description: Reflecting On A Record Year 2021
