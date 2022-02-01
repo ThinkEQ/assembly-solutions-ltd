@@ -33,6 +33,8 @@ introcol:
 
     > Henry Moreta, Buyer – Brompton Bicycle
 images:
+  - image: /img/saduf-cable-assemblies.jpg
+    alt: saduf-cable-assemblies
   - image: /img/cable-assembly-01.png
     alt: Cable Assembly
   - image: /img/heavy-duty-cable-assembly.png
@@ -54,8 +56,6 @@ images:
     image: /img/aslnew-16.jpg
   - image: /img/heavy-duty-cable-02.png
     alt: Cable Assembly
-  - image: /img/saduf-cable-assemblies.jpg
-    alt: saduf-cable-assemblies
 products:
   - Cable Assemblies
   - Battery & HV Cables
