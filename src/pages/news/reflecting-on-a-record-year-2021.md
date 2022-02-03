@@ -9,7 +9,8 @@ layout:
       title: Reflecting On A Record Year 2021
       text: >-
         Manufacturing was undoubtedly an industry hit hard in 2021. As an
-        electrical cable assembly and wiring harness manufacturer shipping to
+        electrical cable assembly and [wiring harness
+        manufacturer](www.assembly-solutions.com/wiring-harness) shipping to
         customers worldwide, we witnessed first hand the supply chain issues and
         delivery disruptions.
 
@@ -41,7 +42,7 @@ layout:
         Overall it was a year to be extremely proud of, especially after the damaging impact that the pandemic has had on some areas of manufacturing in the UK.
 
 
-        We're excited to continue thriving in this new year ahead, reaching new records and evolving to new heights.
+        We have an exciting year ahead working on more [cable assembly](www.assembly-solutions.com/cable-assembly) and [wiring harness projects](www.assembly-solutions.com/wiring-harness) which we look forward to sharing in the coming months.
 seo:
   title: Reflecting On A Record Year 2021
   description: Reflecting On A Record Year 2021
