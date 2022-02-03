@@ -12,10 +12,10 @@ layout:
         that we have been supplying for over 10 years.
 
 
-        It is a product that we only took into production after a customer visited our factory, and whilst walking around commented "Do you think you could make our control panels as well as cable assemblies?"
+        It is a product that we only took into production after a customer visited our factory, and whilst walking around commented "Do you think you could make our control panels as well as [cable assemblies](https://www.assembly-solutions.com/cable-assemblies)?"
 
 
-        Of course the answer was, yes! When a customer asks for something, even if it is slightly out of our expertise, we always find a way to do it. And from that moment on, the control panel journey began.
+        Of course the answer was, yes! When a customer asks for something, even if it is slightly out of our expertise, we always find a way to do it. And from that moment on, the [control panel](www.assembly-solutions.com/electrical-control-panels) journey began.
 
 
         Over the last 10 years, we have grown rapidly in this product range and manufactured all types of small and large custom-designed panels, to markets including; Automotive, Nuclear and Utilities.
