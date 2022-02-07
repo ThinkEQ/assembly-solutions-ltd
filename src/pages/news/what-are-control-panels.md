@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: What are control panels?
+title: What Are Control Panels?
 date: 2022-02-07T13:38:19.339Z
 image: /img/asl-control-panel-manufacture.jpg
 layout:
