@@ -71,7 +71,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### **Supplying Industry Wiring Harness** 
+        #### **Supplying Industry Wiring Harnesses**
 
 
         We manufacture wiring harnesses into a wide range of Industries and applications;
@@ -103,12 +103,12 @@ layout:
         #### **Automotive Wiring Harness Manufacture**
 
 
-        We have supplied wiring harness products to the Automotive Industry for over 25 years and now proudly supply; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles. These include; Ambulances, Buses, Cars, Trucks, Trailers and Vans. Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters.
+        We have supplied wiring harness products to the Automotive Industry for over 25 years and now proudly supply; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles. These include; Ambulances, Buses, Cars, Trucks, Trailers and Vans. Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters. Every  industrial wire harness we manufacutre is expertly designed and created with the best instruments and materials to assure both quality and safety for our customers.
 seo:
   title: Wiring Harness Manufacturer | Wire Harness Production
-  description: Custom quality wiring harness and wire harness products
+  description: Custom quality wiring harnesses and electrical harness products
     manufactured by UK established and experienced wiring sub-contractor based
-    in Bolton. Contact 01204 521999 to discuss your wiring harness requirements
-    today.
+    in Bolton. Contact 01204 521999 to discuss your industrial wiring harness
+    requirements today.
   og-url: https://www.assembly-solutions.com/wiring-harness
 ---
