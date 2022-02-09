@@ -2,7 +2,7 @@
 templateKey: news-article
 title: "Top Trends In The Electrical Industry "
 date: 2021-03-08T08:52:41.028Z
-image: /img/og-image.jpg
+image: /img/asl-wiring-harness.jpg
 layout:
   - type: full
     full:
