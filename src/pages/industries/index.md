@@ -31,10 +31,11 @@ industries:
     image: /img/nuclear-min.jpg
     alt: Nuclear
 seo:
-  title: Industries We Supply | Assembly Solutions
-  description: "We supply a range of industries including the automotive, nuclear,
-    security and utility sectors. Discover how we support the world's most
-    innovative industries. "
+  title: Cable Suppliers UK | Industries |  Assembly Solutions
+  description: "Quality cable suppliers UK manufacturers & cable assembly
+    solutions for a range of industries including the automotive, security and
+    utility sectors. Discover how we support innovative industries. Contact us
+    today. "
   og-url: https://www.assembly-solutions.com/industries
 ---
 ### **Supplying Industries Worldwide**
