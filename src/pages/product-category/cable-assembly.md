@@ -13,13 +13,13 @@ introcol:
     ### **UK Cable Assembly Manufacturer**
 
 
-    We are the preferred supplier of Cable Assembly products to some of the worlds leading manufacturers including; Aston Martin, Siemens and Vodafone. Producing over 1,000 cable assemblies per week, our friendly and focused team are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer. With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
+    We are the preferred supplier of Cable Assembly UK products to some of the worlds leading manufacturers including; Aston Martin, Siemens and Vodafone. Producing over 1,000 cable assemblies per week, our friendly and focused team are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer. With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
 
 
     ### A Family Run Business
 
 
-    Our cable assembly products are delivered on a fast four week delivery, from receipt of sample approval. We make a cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
+    Our cable assembly UK products are delivered on a fast four week delivery, from receipt of sample approval. We make a cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
   second: >-
     ### **Cable Assembly Video**
 
@@ -116,8 +116,9 @@ layout:
         * Experienced Team
 seo:
   title: "Cable Assembly | Custom Made Cable Assemblies | Assembly Solutions "
-  description: "Discover our range of quality custom made cable assemblies. UK
-    manufactured on a 4-week turnaround. Quality assured at affordable prices.
-    Contact us for an instant quote on your requirements. "
+  description: "Cable Assembly UK services & custom made cable assemblies from
+    Assembly Solutions. UK manufactured on a 4-week turnaround. Quality assured
+    at affordable prices. Contact us for an instant quote on your requirements.
+    "
   og-url: https://www.assembly-solutions.com/cable-assembly
 ---
