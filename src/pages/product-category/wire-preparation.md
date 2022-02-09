@@ -16,7 +16,7 @@ introcol:
     ASL is an established and customer focused manufacturer of high volume wire preparation and cable preparation. Equipped with an extensive range of automatic high speed wire cutting and wire termination machinery, we produce custom designed wire assemblies on an incredibly fast turnaround. With all our wire preparation assemblies being primarily machine manufactured, quality is continually consistent and meets ISO 9001 standards.
 
 
-    ### High Volume Wire Preparation
+    ### High Volume Wire & Cable Preparation
 
 
     We manufacture an incredible 5,000 wire assemblies a minute using our high speed automatic machines. With very little labour involved, we are as competitive as china and eastern European countries. This is one of the many reasons why we are the supplier of choice for some of the worlds leading companies including Siemens, Stanley and Vodafone. At Assembly Solutions, we pride ourselves on being trusted and effective wire assembly manufacturers, without compromising on quality- or price.
@@ -108,7 +108,7 @@ layout:
   - type: column
     column:
       text: |-
-        #### **Discover ASL Wire Preparation Services**
+        #### **Discover ASL Wire & Cable Preparation Services**
 
         * Crimp Termination
         * Soldering
@@ -135,9 +135,9 @@ layout:
 
           **Get in touch with [our team today ](enquiry@assembly-solutions.com)to discuss your wire preparation needs and requirements. Our experts will be happy to help.**
 seo:
-  title: "Wire Preparation  | Assembly Solutions "
-  description: "Discover our custom made, high volume wire preparation services.
-    UK manufactured and quality assured with fast turnarounds. Enquire with us
-    today. "
+  title: "Wire Preparation | Cable Preparation |  Assembly Solutions "
+  description: "Discover our custom made, high volume wire preparation & cable
+    preparation services. UK manufactured and quality assured with fast
+    turnarounds. Enquire with us today. "
   og-url: https://www.assembly-solutions.com/wire-preparation
 ---
