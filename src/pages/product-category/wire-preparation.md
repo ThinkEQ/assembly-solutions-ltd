@@ -1,7 +1,7 @@
 ---
 templateKey: product-category
 title: Wire Preparation
-subtitle: Wire & Cable Preparation
+subtitle: Wire Preparation
 video: wire-and-cable-preparation
 image: /img/img_4046.jpg
 usps:
@@ -77,7 +77,7 @@ layout:
         #### **Trusted Wire & Cable Preparation**
 
 
-        Cable preparation is a service that we have supplied for over 25 years and we are incredibly proud to have built up a customer base including two world leading companies, Siemens and Stanley. If you watch our wire preparation video you will see the full range of services we provide under our purpose built family run factory in Bolton.
+        Cable and wire preparation is a service that we have supplied for over 25 years and we are incredibly proud to have built up a customer base including two world leading companies, Siemens and Stanley. If you watch our wire preparation video you will see the full range of services we provide under our purpose built family run factory in Bolton.
 
 
          All the assemblies we manufacture for Siemens are produced on our high speed fully automotive wire preparation machine which has the capability to cut, strip, tin and terminate wires. You can read the full Siemens project case study [here](https://www.assembly-solutions.com/projects/siemens/).
