@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: "Top Trends In The Electrical Industry "
-date: 2022-02-09T08:52:41.028Z
+date: 2021-03-08T08:52:41.028Z
 image: /img/og-image.jpg
 layout:
   - type: full
