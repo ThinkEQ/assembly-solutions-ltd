@@ -70,9 +70,9 @@ layout:
         > Henry Moreta, Buyer – Brompton Bicycle
 seo:
   title: "Custom Cable Assemblies | Assembly Solutions "
-  description: "Custom made cable assemblies. Manufactured in the UK to your
-    drawing and specification. Huge range available. Chat to our team or get a
-    quick quote today. "
+  description: "Cable assemblies. Custom made & manufactured in the UK to your
+    drawing and specification. Cable assemblies & cable solutions
+    available.  Chat to our team or get a quick quote today. "
   og-url: https://www.assembly-solutions.com/cable-assemblies
 testimonial:
   quote: >
