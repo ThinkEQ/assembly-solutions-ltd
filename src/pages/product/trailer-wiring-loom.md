@@ -26,17 +26,17 @@ layout:
       title: UK Manufactured Trailer Wiring Looms
       text: >-
         We supply wiring looms and harnesses for into commercial and domestic
-        trailer manufacturers. Our wiring loom production lines are streamlined
-        for efficient manufacture, complete with 10m long wiring boards and side
-        stock filled trolleys for all materials and tooling. As a leading UK
-        manufacturer, we guarantee competitive prices, short lead times and
-        exceptional customer service.
+        trailer manufacturers. Our wiring loom and engine loom production lines
+        are streamlined for efficient manufacture, complete with 10m long wiring
+        boards and side stock filled trolleys for all materials and tooling. As
+        a leading UK manufacturer, we guarantee competitive prices, short lead
+        times and exceptional customer service.
 
 
         #### Quality Wiring Looms
 
 
-        Quality is crucial for all our wiring looms. We deliver into industries including Automotive and Agriculture so we have to take extra care ensuring that the looms will be robust enough and perform reliably when out on the roads. All our [wiring looms](/wiring-loom) are 100% electrically tested and all our production processes conform to Quality ISO 9001. Our technical experts have the knowledge and experience at hand to find flexible solutions for any wiring loom or harness requirement.
+        Quality is crucial for all our wiring looms and every engine loom we manufacture. We deliver into industries including Automotive and Agriculture so we have to take extra care ensuring that the looms will be robust enough and perform reliably when out on the roads. All our [wiring looms](/wiring-loom) are 100% electrically tested and all our production processes conform to Quality ISO 9001. Our technical experts have the knowledge and experience at hand to find flexible solutions for any wiring loom or harness requirement.
   - type: column
     column:
       title: Fast & Flexible Lead Times
@@ -57,7 +57,8 @@ layout:
 seo:
   title: Trailer Wiring Loom Manufacturers | ASL
   description: "UK manufacturer of trailer and wiring looms for the commercial and
-    domestic trailer market. Competitive prices, short lead times & exceptional
-    customer service. "
+    domestic trailer market. In need of an engine loom? Speak to Assembly
+    Solutions now. Competitive prices, short lead times & exceptional customer
+    service. "
   og-url: https://www.assembly-solutions.com/trailer-wiring-loom
 ---
