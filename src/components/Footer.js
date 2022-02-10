@@ -206,6 +206,11 @@ const Footer = ({ toggleDrawer }) => {
               Quality Policy Statement
             </a>
           </ListItem>
+        <ListItem {...para} fontWeight="300" fontSize="16px">
+            <a href="/docs/iso-45001-certificate.pdf" target="_blank">
+              ISO 45001 Certificate
+            </a>
+          </ListItem>
         </List>
           <Box>
             <Text fontSize="14px" lineHeight="17px" marginBottom={{base: "20px", lg: "0"}}>
