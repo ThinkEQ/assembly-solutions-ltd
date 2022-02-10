@@ -212,6 +212,13 @@ const Footer = ({ toggleDrawer }) => {
             </a>
           </ListItem>
         </List>
+        <List justifyContent="space-around" alignItems="flex-start" width="100%" marginBottom="20px" display={{base: "flex", lg: "none"}}>
+          <ListItem {...para} fontWeight="300" fontSize="16px">
+            <a href="/docs/iso-9001-certificate.pdf">
+              ISO 9001 Certificate
+            </a>
+          </ListItem>
+        </List>
           <Box>
             <Text fontSize="14px" lineHeight="17px" marginBottom={{base: "20px", lg: "0"}}>
               Assembly Solutions Ltd is registered in England  under registration number 3131352.
