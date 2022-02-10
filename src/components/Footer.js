@@ -156,6 +156,16 @@ const Footer = ({ toggleDrawer }) => {
               Quality Policy Statement
             </a>
           </ListItem>
+          <ListItem {...para} fontWeight="300" fontSize="16px">
+            <a href="/docs/iso-45001-certificate.pdf" target="_blank">
+              ISO 45001 Certificate
+            </a>
+          </ListItem>
+          <ListItem {...para} fontWeight="300" fontSize="16px">
+            <a href="/docs/iso-9001-certificate.pdf" target="_blank">
+              ISO 9001 Certificate
+            </a>
+          </ListItem>
               <ListItem display="flex" justifyContent="center">
                 <Svg name="twentyEmblem" fill="#fff" width="85px" height="90px" />
               </ListItem>
