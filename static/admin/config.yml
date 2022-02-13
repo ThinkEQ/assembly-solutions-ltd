@@ -206,4 +206,13 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, {label: Open Graph URL, name: og-url, widget: string}]}
-      
+      - file: "src/pages/contact/index.md"
+        label: "Contact"
+        name: "contact"
+        editor:
+          preview: false
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "contact-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Sub-title", name: "subtitle", widget: "string"}
+          - {label: "SEO", name: seo, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, {label: Open Graph URL, name: og-url, widget: string}]}

@@ -214,7 +214,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
  
   let menuDisplay = null
   
-  switch(menu) {
+  switch(menu) {  
     case 'nav':
       menuDisplay = <MainNav onClose={onClose} />
       break
