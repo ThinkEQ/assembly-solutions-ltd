@@ -73,12 +73,6 @@ layout:
         \
 
         A special shout out and thanks to our Health & Safety Advisor Tony Lundy who has done an exceptional job implementing the new IMS and helping us obtain ISO 45001.
-
-
-        “We have always taken H&S seriously but without the official certification our efforts were going unnoticed. Now we have the ISO45001 certification, we are also being considered for large tenders by blue chip companies who (in many cases) require their suppliers to have this accreditation. It has also really benefited our staff as they all now have a better understanding of why Health & Safety is so important around the factory”.
-
-
-        Gareth Balshaw, Managing Director
   - type: testimonial
     testimonial:
       alignment: standard
