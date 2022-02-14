@@ -13,56 +13,33 @@ layout:
 
         \
 
-        It has been an exciting 12 months after we set off on the challenge to achieve the exceptionally high Health & Safety standards of ISO 45001, and we are happy to announce that we have done it!\
-
-        \
-
-        The processes to pass this incredibly important accreditation involved implementing;
+        It has been an exciting 12 months after we set off on the challenge to achieve the exceptionally high Health & Safety standards of ISO 45001, and we are happy to announce that we have done it!
 
 
-        * Creating new risk assessments
-
-        * Carrying out health & safety committee meetings
-
-        * Involving whole workforce in changes to help reduce number of accidents
+        The implementation and certification of our ISO 45001 Safety Management System took around 6 months to complete. Initially, our external health and safety advisor carried out a gap analysis of our existing safety management processes compared to the requirements of the ISO 45001 standard. This identified where we needed to implement new procedures or processes. Our health and safety advisor then prepared an integrated management system that encompassed our existing ISO 9001 quality process and procedures.
 
 
-        This ISO 45001 Certification has been integrated into with our “ISO 9001:2015 Quality Management System Certification” which now forms our new "Implemented Management System".\
+        Our approach to the Safety Management System was risk based and the senior management team worked with our safety advisor to better understand our organisation, context and the internal and external issues that could influence our Safety Management System. From this we identified any interested parties and considered their needs and expectations and deciding upon the scope of the Safety Management System.
 
-        \
+
+        Our senior management team were committed to the process and worked with our safety advisor to develop the health and safety policy and objectives ensuring they were aligned to the strategic direction of ASL. As part of the process we fully engaged with our workforce ensuring that everyone received ISO awareness training ensured the workforce were represented at our health and safety committee meetings and are also part of the Safety Leadership Team.
+
+
+        After full implementation of the ISO 45001 Safety Management System we carried out our internal audits and a management review meeting ready for our certification audit. Our certification audit went well and we successfully passed the audit without any non conformances being raised. 
+
+
+        Health and Safety continues to be a priority within our business and we are committed to maintaining a safe working environment and continual improvement.
+
+
+        Our ISO 45001 Safety Management System will help with building trust and brand integrity by providing an assurance that ASL’s management system meets the requirements of the international standard and will improve our operational performance.
+
 
         Over the last 12 months we have rapidly grown and recruited an extra 20 staff. This incredible growth led us to look at how we can ensure that as growth continues, but that our accidents don't. Having ISO45001 standards in place all around our factory will ensure all employees feel they are in a safe working environment.\
 
         \
 
-        As a manufacturer of [Cable Assemblies](https://www.assembly-solutions.com/cable-assemblies), [Wiring Looms](https://www.assembly-solutions.com/wiring-loom) and [Control Panels](https://www.assembly-solutions.com/control-panels), there are many processes involved in making the products which employees need to feel safe.
+        As a manufacturer of [Cable Assemblies](https://www.assembly-solutions.com/cable-assemblies), [Wiring Looms](https://www.assembly-solutions.com/wiring-loom) and [Control Panels](https://www.assembly-solutions.com/control-panels), there are many processes involved in making the products which employees need to feel safe. All processes carried out on the factory floor have undergone safety risk assessments to ensure accidents are kept at an absolute minimum. These processes include; Soldering, Heat Guns, and moving heavy cable drums.
 
-
-        All processes carried out on the factory floor have undergone safety risk assessments to ensure accidents are kept at an absolute minimum. These processes include; Soldering, Heat Guns, and moving heavy cable drums.
-
-
-        To gain ISO 45001, an external auditor was on site for four days and went through our Integrated Management System thoroughly with the team. It involved participation from production staff answering questions to show their health and safety knowledge.
-
-
-        There are many benefits to our company now that we are following the ISO 45001 Framework. Here are a few;
-
-
-        * We now involve all production and office staff with Continuous Improvement Projects which has led to full day workshops improving their knowledge on Health & Safety matters.
-
-        * It has increased our awareness of Health & Safety, where all employees better understand the risks and ensure that workers take an active role in health and safety matters.
-
-        * Our reputation is enhanced with this international benchmark and we are now able to bid for new opportunities where they require this accreditation.
-
-        * Reduced absenteeism is expected by better managing the H&S risks in the workplace, we will be able to protect employees, reducing absenteeism and turnover rates.
-
-        * Reduced Insurance Premiums – By demonstrating that you have an effective occupational health and safety management system in place, many businesses can go on to benefit from reduced insurance premiums.
-
-        * Improve Management of H&S Compliance Issues – ISO 45001 helps to improve your ability to respond to regulatory compliance issues, reducing the overall costs of incidents and downtime.
-
-        * Better Manage Health and Safety Risks – the standard will help you to determine hazards and the health and safety risks associated with your activities; seeking to either eliminate them or put controls in place to minimise their effects.
-
-
-        \
 
         To implement ISO 45001 has cost the company £10,000 which is a substantial investment but it is absolutely essential as we strive forward in becoming the industry leader for [quality cable assembly](https://www.assembly-solutions.com/cable-assembly) services and [wiring harness manufacture](https://www.assembly-solutions.com/wiring-harness) services.\
 
