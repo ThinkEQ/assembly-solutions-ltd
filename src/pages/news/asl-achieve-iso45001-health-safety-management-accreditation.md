@@ -75,7 +75,7 @@ layout:
         A special shout out and thanks to our Health & Safety Advisor Tony Lundy who has done an exceptional job implementing the new IMS and helping us obtain ISO 45001.
   - type: testimonial
     testimonial:
-      alignment: standard
+      alignment: centre
       quote: We have always taken Health & Safety seriously but without the official
         certification our efforts were going unnoticed. Now we have the ISO45001
         certification, we are also being considered for large tenders by blue
