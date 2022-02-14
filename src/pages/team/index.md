@@ -174,7 +174,7 @@ team-members:
       - knitting
     linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
   - name: Adam Tunnah
-    jobtitle: Costing Engineer
+    jobtitle: Costing Analyst
     bio: Adam is our young and skilful Costing Engineer who has expertise in driving
       down product costs to secure new and existing business. With a close
       attention to detail, Adam is excellent at producing cost-effective
