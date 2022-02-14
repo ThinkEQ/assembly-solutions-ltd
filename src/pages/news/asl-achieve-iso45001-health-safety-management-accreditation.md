@@ -79,6 +79,17 @@ layout:
 
 
         Gareth Balshaw, Managing Director
+  - type: testimonial
+    testimonial:
+      alignment: standard
+      quote: We have always taken Health & Safety seriously but without the official
+        certification our efforts were going unnoticed. Now we have the ISO45001
+        certification, we are also being considered for large tenders by blue
+        chip companies who (in many cases) require their suppliers to have this
+        accreditation. It has also really benefited our staff as they all now
+        have a better understanding of why Health & Safety is so important
+        around the factory
+      name: Gareth Balshaw, Managing Director
 seo:
   title: ASL Achieve ISO45001 - Health & Safety Management Accreditation
   description: We have achieved ISO45001, the industry recognised accreditation
