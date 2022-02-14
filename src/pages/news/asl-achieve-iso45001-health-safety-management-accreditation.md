@@ -20,11 +20,11 @@ layout:
         The processes to pass this incredibly important accreditation involved implementing;
 
 
-        1. Creating new risk assessments
+        * Creating new risk assessments
 
-        2. Carrying out health & safety committee meetings
+        * Carrying out health & safety committee meetings
 
-        3. Involving whole workforce in changes to help reduce number of accidents
+        * Involving whole workforce in changes to help reduce number of accidents
 
 
         This ISO 45001 Certification has been integrated into with our “ISO 9001:2015 Quality Management System Certification” which now forms our new "Implemented Management System".\
