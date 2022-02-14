@@ -72,7 +72,7 @@ layout:
 
         \
 
-        A special shout out and thanks to our Health & Safety Advisor Tony Lundy who has done an exceptional job implementing the new IMS and helping us obtain ISO 45001.
+        A special shout out and thanks to our Health & Safety Advisor Tony Lundy, who has done an exceptional job implementing the new IMS and helping ASL obtain ISO 45001.
   - type: testimonial
     testimonial:
       alignment: centre
