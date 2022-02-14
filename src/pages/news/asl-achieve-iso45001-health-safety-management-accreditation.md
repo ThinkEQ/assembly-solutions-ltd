@@ -1,19 +1,19 @@
 ---
 templateKey: news-article
-title: ASL Achieve ISO45001 - Health & Safety Management Accreditation
+title: ASL Achieve ISO 45001 - Health & Safety Management Accreditation
 date: 2020-08-01T11:22:58.705Z
 image: /img/heavy-duty-cable-02.png
 layout:
   - type: full
     full:
-      title: ASL Have Achieved ISO45001 - Health & Safety Management Accreditation
+      title: ASL Have Achieved ISO 45001 - Health & Safety Management Accreditation
       text: >-
-        We Have Successfully Achieved ISO45001 - The Industry Recognised
+        We Have Successfully Achieved ISO 45001 - The Industry Recognised
         Accreditation for Occupational Health & Safety Management.\
 
         \
 
-        It has been an exciting 12 months after we set off on the challenge to achieve the exceptionally high Health & Safety standards of ISO45001, and we are happy to announce that we have done it!\
+        It has been an exciting 12 months after we set off on the challenge to achieve the exceptionally high Health & Safety standards of ISO 45001, and we are happy to announce that we have done it!\
 
         \
 
@@ -41,7 +41,7 @@ layout:
         All processes carried out on the factory floor have undergone safety risk assessments to ensure accidents are kept at an absolute minimum. These processes include; Soldering, Heat Guns, and moving heavy cable drums.
 
 
-        To gain ISO45001, an external auditor was on site for four days and went through our Integrated Management System thoroughly with the team. It involved participation from production staff answering questions to show their H&S knowledge.
+        To gain ISO 45001, an external auditor was on site for four days and went through our Integrated Management System thoroughly with the team. It involved participation from production staff answering questions to show their health and safety knowledge.
 
 
         There are many benefits to our company now that we are following the ISO 45001 Framework. Here are a few;
