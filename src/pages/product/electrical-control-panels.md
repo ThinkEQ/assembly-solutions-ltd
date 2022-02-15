@@ -3,7 +3,7 @@ templateKey: product
 title: Electrical Control Panels
 subtitle: Electrical Control Panels
 usps:
-  - usp: ISO9001 Quality Approved
+  - usp: ISO 9001 Quality Assurance
   - usp: Design Support
   - usp: Low to high volume builds
 image: /img/control-panel.jpg
