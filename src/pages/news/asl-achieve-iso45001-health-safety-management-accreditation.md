@@ -34,22 +34,22 @@ layout:
         Our ISO 45001 Safety Management System will help with building trust and brand integrity by providing an assurance that ASL’s management system meets the requirements of the international standard and will improve our operational performance.
 
 
-        Over the last 12 months we have rapidly grown and recruited an extra 20 staff. This incredible growth led us to look at how we can ensure that as growth continues, but that our accidents don't. Having ISO45001 standards in place all around our factory will ensure all employees feel they are in a safe working environment.\
+        Over the last 12 months we have rapidly grown and recruited an extra 20 staff. This incredible growth led us to look at how we can ensure that as growth continues, our accidents don't and our safety culture continually improves. Having ISO45001 standards in place ensures all employees feel they are working in a safe environment.\
 
         \
 
-        As a manufacturer of [Cable Assemblies](https://www.assembly-solutions.com/cable-assemblies), [Wiring Looms](https://www.assembly-solutions.com/wiring-loom) and [Control Panels](https://www.assembly-solutions.com/control-panels), there are many processes involved in making the products which employees need to feel safe. All processes carried out on the factory floor have undergone safety risk assessments to ensure accidents are kept at an absolute minimum. These processes include; Soldering, Heat Guns, and moving heavy cable drums.
+        As a manufacturer of [Cable Assemblies](https://www.assembly-solutions.com/cable-assemblies), [Wiring Looms](https://www.assembly-solutions.com/wiring-loom) and [Control Panels](https://www.assembly-solutions.com/control-panels), there are many processes involved in making the products which employees need to feel safe. All processes carried out on the factory floor have undergone safety risk assessments to ensure accidents are kept to an absolute minimum. These processes include; Hot Works and manual handling, inclusive of moving heavy cable drums and [control boxes](https://www.assembly-solutions.com/electrical-control-panels).
 
 
-        To implement ISO 45001 has cost the company £10,000 which is a substantial investment but it is absolutely essential as we strive forward in becoming the industry leader for [quality cable assembly](https://www.assembly-solutions.com/cable-assembly) services and [wiring harness manufacture](https://www.assembly-solutions.com/wiring-harness) services.\
-
-        \
-
-        Achieving this accreditation is only the beginning of how we prioritise the safety and wellbeing for our workforce, and we look forward to the maintaining these new standards and exploring even more ways to become better in these crucial areas.\
+        To implement ISO 45001 has cost the company £10,000 which is a substantial investment but it is absolutely essential as we strive forward in maintaining our position as the industry leader for [quality cable assembly](https://www.assembly-solutions.com/cable-assembly) services and [wiring harness manufacture](https://www.assembly-solutions.com/wiring-harness) services.\
 
         \
 
-        A special shout out and thanks to our Health & Safety Advisor Tony Lundy, who has done an exceptional job implementing the new IMS and helping ASL obtain ISO 45001.
+        Achieving this accreditation is only the beginning of how we prioritise the safety and wellbeing for our workforce and customers. We look forward to the maintaining and continual improvement these new standards and exploring even more ways to become better in these crucial areas.\
+
+        \
+
+        A special shout out and thanks to our Health & Safety Advisor Tony Lundy from TL Safety, who has done an exceptional job implementing the new IMS and helping ASL obtain ISO 45001.
   - type: testimonial
     testimonial:
       alignment: centre
