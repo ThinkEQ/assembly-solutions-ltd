@@ -8,8 +8,8 @@ layout:
     full:
       title: ASL Have Achieved ISO 45001 - Health & Safety Management Accreditation
       text: >-
-        We Have Successfully Achieved ISO 45001 - The Industry Recognised
-        Accreditation for Occupational Health & Safety Management.\
+        We Have Successfully Achieved ISO 45001 - The International Standard for
+        Occupational Health & Safety Management.\
 
         \
 
