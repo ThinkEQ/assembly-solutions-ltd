@@ -117,7 +117,7 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout metaTitle="ASL - Cable Assembly, Panel Wiring & Control Panel Manufacturers" metaDescription="ASL are the UK leading Cable Assembly, Panel Wiring & Control Panel Manufacturers. Proud winners of Manufacturing Business of the Year Award.">
+    <Layout metaTitle="Cable Assembly UK | Custom Cable Manufacturers | Assembly Solutions" metaDescription="Custom Cable Manufacturers & wire manufacturers based in Bolton. Contact Assembly Solutions today for professional cable assembly UK services at competitive prices.">
       <IndexPageTemplate
         title={frontmatter.title}
       />
