@@ -173,7 +173,7 @@ const Footer = ({ toggleDrawer }) => {
           </Box>
         </Box>
 
-        <Box display="flex" flexDirection={{base: "column", lg: "row"}} alignItems={{base: "flex-start", lg:"center"}} justifyContent="space-between" marginTop={{base: "50px", lg: "70px"}}>
+        <Box display="flex" flexDirection={{base: "column", lg: "row"}} alignItems={{base: "flex-start", lg:"center"}} justifyContent="space-between" marginTop={{base: "50px", lg: "40px"}}>
           <Box display="flex" alignItems="flex-start" justifyContent="space-between" width="125px" marginBottom={{base: "30px", lg: "0"}}>
             <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
               <Svg name="youtube" />
