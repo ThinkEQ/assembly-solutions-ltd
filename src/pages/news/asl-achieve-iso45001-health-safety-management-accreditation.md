@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Achieve ISO 45001 - Health & Safety Management Accreditation
+title: ASL Achieve ISO 45001 - Health & Safety Management Certification
 date: 2022-02-16T12:22:58.705Z
 image: /img/iso-4001-accreditation-news.png
 layout:
@@ -65,7 +65,7 @@ layout:
         to maintaining a continuous improvement approach.
       name: Gareth Balshaw, Managing Director
 seo:
-  title: ASL Achieve ISO45001 - Health & Safety Management Accreditation
+  title: ASL Achieve ISO45001 - Health & Safety Management Certification
   description: Assembly Solutions have achieved ISO 45001, the industry recognised
     accreditation for Occupational Health & Safety Management
   og-url: ASL Achieve ISO45001 - Health & Safety Management Accreditation
