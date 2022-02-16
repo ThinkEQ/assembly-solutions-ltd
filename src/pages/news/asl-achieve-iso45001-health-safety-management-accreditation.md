@@ -58,13 +58,11 @@ layout:
   - type: testimonial
     testimonial:
       alignment: centre
-      quote: We have always taken Health & Safety seriously but without the official
-        certification our efforts were going unnoticed. Now we have the ISO45001
-        certification, we are also being considered for large tenders by blue
-        chip companies who (in many cases) require their suppliers to have this
-        accreditation. It has also really benefited our staff as they all now
-        have a better understanding of why Health & Safety is so important
-        around the factory
+      quote: This is a key milestone for ASL and we're thrilled to have developed our
+        Health & Safety Management, which has had a hugely positive impact on
+        the workforce. It is great to the whole team is on board with the high
+        standards that come with being ISO 45001 accredited, and we look forward
+        to maintaining a continuous improvement approach.
       name: Gareth Balshaw, Managing Director
 seo:
   title: ASL Achieve ISO45001 - Health & Safety Management Accreditation
