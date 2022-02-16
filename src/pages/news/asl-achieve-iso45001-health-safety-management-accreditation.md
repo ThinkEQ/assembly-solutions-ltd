@@ -6,13 +6,10 @@ image: /img/iso-4001-accreditation-news.png
 layout:
   - type: full
     full:
-      title: ASL Have Achieved ISO 45001 - Health & Safety Management Accreditation
+      title: ASL Have Achieved ISO 45001 - Health & Safety Management Certification
       text: >-
-        We Have Successfully Achieved ISO 45001 - The International Standard for
-        Occupational Health & Safety Management.
-
-
-        It has been an exciting 12 months after we set off on the challenge to achieve the exceptionally high Health & Safety standards of ISO 45001, and we are happy to announce that we have done it!
+        We are thrilled to announce we have successfully achieved ISO 45001 -
+        The International Standard for Occupational Health & Safety Management.
 
 
         **Implementing ISO 45001 Over 6 Months**
