@@ -24,7 +24,7 @@ layout:
         Our senior management team were committed to the process and worked with our safety advisor to develop the health and safety policy and objectives ensuring they were aligned to the strategic direction of ASL. As part of the process, we fully engaged our workforce with ISO 45001 awareness training and ensured they are part of the Safety Leadership Team and represented at our health and safety committee meetings.
 
 
-        After full implementation of the ISO 45001 Safety Management System, we carried out our internal audits and a management review meeting ready for our certification audit. Our certification audit went well and we successfully passed the audit without any non conformances being raised. 
+        After full implementation of the ISO 45001 Safety Management System, we carried out our internal audits and a management review meeting ready for our certification audit. Our certification audit went well and we successfully passed the audit without any non-conformances being raised. 
 
 
         **Commitment to a safe working environment**
