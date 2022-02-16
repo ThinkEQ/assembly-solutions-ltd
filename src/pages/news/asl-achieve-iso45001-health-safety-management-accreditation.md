@@ -63,7 +63,7 @@ layout:
       name: Gareth Balshaw, Managing Director
 seo:
   title: ASL Achieve ISO45001 - Health & Safety Management Accreditation
-  description: We have achieved ISO45001, the industry recognised accreditation
-    for Occupational Health & Safety Management
+  description: Assembly Solutions have achieved ISO 45001, the industry recognised
+    accreditation for Occupational Health & Safety Management
   og-url: ASL Achieve ISO45001 - Health & Safety Management Accreditation
 ---
