@@ -95,14 +95,24 @@ layout:
   - type: column
     column:
       title: ""
-      text: |-
+      text: >-
         #### **Control Panel Services**
 
+
         * Knowledgeable Workforce
+
         * Experienced Engineers
+
         * Competitive Prices
+
         * Fast Turnaround
+
         * Quality Assurance
+
+
+
+
+        ### [Contact our team](https://www.assembly-solutions.com/contact) at Assembly Solutions today for specially tailored quotes, advice and support.
 seo:
   title: "Control Panel Wire Manufacturing | Assembly Solutions "
   description: Trusted control panel manufacturer. Low cost with multi-awards in
