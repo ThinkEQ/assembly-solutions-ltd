@@ -2,7 +2,7 @@
 templateKey: news-article
 title: ASL Achieve ISO 45001 - Health & Safety Management Accreditation
 date: 2022-02-16T12:22:58.705Z
-image: /img/heavy-duty-cable-02.png
+image: /img/iso-4001-accreditation-header.png
 layout:
   - type: full
     full:
