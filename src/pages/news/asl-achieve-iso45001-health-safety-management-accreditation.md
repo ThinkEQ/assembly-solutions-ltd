@@ -68,5 +68,5 @@ seo:
   title: ASL Achieve ISO45001 - Health & Safety Management Certification
   description: Assembly Solutions have achieved ISO 45001, the industry recognised
     accreditation for Occupational Health & Safety Management
-  og-url: ASL Achieve ISO45001 - Health & Safety Management Accreditation
+  og-url: ASL Achieve ISO45001 - Health & Safety Management Certification
 ---
