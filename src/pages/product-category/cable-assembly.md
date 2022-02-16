@@ -106,14 +106,24 @@ layout:
         * Extensive Tooling
   - type: column
     column:
-      text: |-
+      text: >-
         #### Professional Cable Assembly Service
 
+
         * Knowledgeable Engineers
+
         * Competitive Prices
+
         * Excellent Service
+
         * Reliable & Flexible
+
         * Experienced Team
+
+
+
+
+        ### For expert and professional cable assembly services, [contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for a specially tailored quote and advice on your project.
 seo:
   title: "Cable Assembly | Custom Made Cable Assemblies | Assembly Solutions "
   description: "Cable Assembly UK services & custom made cable assemblies from
