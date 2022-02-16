@@ -20,6 +20,9 @@ introcol:
 
 
     We are a family run business dedicated to building relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed. We pride ourselves most of our fast deliveries which all include 100% electrically tested harnesses. Quality is the most important part of the wiring harnesses and we are pleased to be ISO 9001 accredited.
+
+
+    [Contact](https://www.assembly-solutions.com/contact) our team at Assembly Solutions today for more information and support.
   second: >-
     ### **Wiring Harness Video**
 
