@@ -24,7 +24,7 @@ layout:
         Our approach to the Safety Management System was risk based and the senior management team worked with our safety advisor to better understand our organisation, context and the internal and external issues that could influence our Safety Management System. From this we identified any interested parties and considered their needs and expectations and deciding upon the scope of the Safety Management System.
 
 
-        Our senior management team were committed to the process and worked with our safety advisor to develop the health and safety policy and objectives ensuring they were aligned to the strategic direction of ASL. As part of the process, we fully engaged with our workforce with ISO 45001 awareness training and ensured the workforce are part of the Safety Leadership Team and  represented at our health and safety committee meetings.
+        Our senior management team were committed to the process and worked with our safety advisor to develop the health and safety policy and objectives ensuring they were aligned to the strategic direction of ASL. As part of the process, we fully engaged our workforce with ISO 45001 awareness training and ensured they are part of the Safety Leadership Team and represented at our health and safety committee meetings.
 
 
         After full implementation of the ISO 45001 Safety Management System, we carried out our internal audits and a management review meeting ready for our certification audit. Our certification audit went well and we successfully passed the audit without any non conformances being raised. 
