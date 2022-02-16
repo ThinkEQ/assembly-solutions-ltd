@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: ASL Achieve ISO 45001 - Health & Safety Management Accreditation
-date: 2020-08-01T11:22:58.705Z
+date: 2022-02-16T12:22:58.705Z
 image: /img/heavy-duty-cable-02.png
 layout:
   - type: full
@@ -49,7 +49,7 @@ layout:
 
         \
 
-        A special shout out and thanks to our Health & Safety Advisor Tony Lundy from TL Safety, who has done an exceptional job implementing the new IMS and helping ASL obtain ISO 45001.
+        A special shout out and thanks to our Health & Safety Advisor Tony Lundy from [TL Safety](https://www.tlsafety.co.uk/), who has done an exceptional job implementing the new IMS and helping ASL obtain ISO 45001.
   - type: testimonial
     testimonial:
       alignment: centre
