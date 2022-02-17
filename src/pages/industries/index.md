@@ -58,3 +58,9 @@ The Medical Industry has seen extreme pressure these last 12 months and we've be
 * Security
 * Test & Measurement
 * Nuclear & Utilities
+
+
+
+**Contact Assembly Solutions Today** 
+
+For specialist advice, quality assured electrical assembly products or to discuss your specific requirements, [get in touch ](https://www.assembly-solutions.com/contact)with our expert team. We'll be happy to answer any questions you may have.
