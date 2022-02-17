@@ -107,6 +107,11 @@ layout:
 
 
         We have supplied wiring harness products to the Automotive Industry for over 25 years and now proudly supply; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles. These include; Ambulances, Buses, Cars, Trucks, Trailers and Vans. Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters. Every  industrial wire harness we manufacutre is expertly designed and created with the best instruments and materials to assure both quality and safety for our customers.
+
+
+
+
+        #### [Contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for expert advice and support. Our team will be happy to discuss your needs and provide you with a free quote.
 seo:
   title: Wiring Harness Manufacturer | Wire Harness Production
   description: "Custom made wire harnesses are available direct from Assembly
