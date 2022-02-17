@@ -16,7 +16,7 @@ introcol:
     ASL is an established and experienced manufacturer of quality custom-designed Control Panels. We have been building electrical control panels for 25 years and supply into some of the worlds most demanding and safety critical industries including Nuclear and Medical. We provide a personable service which is tailored to your specific requirements. Our technical control panel engineers are dedicated to work with customers from supporting the initial design, right through to prototype and volume production.
 
 
-    ### Experienced Panel Builders
+    ### Experienced Panel Builder
 
 
     We have 25 years manufacturing control panels to a very diverse range of industries, including Automotive, Nuclear, Utilities and Test & Measurement. Our experienced team of panel builders have an incredible amount of knowledge and understand the importance of quality.
@@ -96,7 +96,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### **Control Panel Services**
+        #### **Control Panel Builder Services**
 
 
         * Knowledgeable Workforce
@@ -110,11 +110,11 @@ layout:
         * Quality Assurance
 
 
-        ##### [Contact our team](https://www.assembly-solutions.com/contact) at Assembly Solutions today for specially tailored quotes, advice and support.
+        #### [Contact our team](https://www.assembly-solutions.com/contact) at Assembly Solutions today for specially tailored quotes, advice and support.
 seo:
   title: "Control Panel Wire Manufacturing | Assembly Solutions "
-  description: Trusted control panel manufacturer. Low cost with multi-awards in
-    design, manufacture & installation. Small or highly complex builds
-    available. Enquire today with Assembly Solutions.
+  description: "Trusted control panel manufacturer. Low cost, quality-assured &
+    expert panel builder. Small or highly complex builds available. Enquire
+    today with Assembly Solutions. Contact us now. "
   og-url: https://www.assembly-solutions.com/control-panels
 ---
