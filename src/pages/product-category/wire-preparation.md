@@ -121,7 +121,7 @@ layout:
         #### Made with Quality In Mind
 
 
-        *  Quality Assured
+        * Quality Assured
 
         * Accurate Assemblies
 
@@ -132,8 +132,7 @@ layout:
         * Experienced Workforce
 
 
-
-          **Get in touch with [our team today ](enquiry@assembly-solutions.com)to discuss your wire preparation needs and requirements. Our experts will be happy to help.**
+        #### **Get in touch with [our team today ](enquiry@assembly-solutions.com)to discuss your wire preparation needs and requirements. Our experts will be happy to help.**
 seo:
   title: "Wire Preparation | Cable Preparation |  Assembly Solutions "
   description: "Discover our custom made, high volume wire preparation & cable
