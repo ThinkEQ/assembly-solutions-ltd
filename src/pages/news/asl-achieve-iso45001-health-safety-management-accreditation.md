@@ -58,7 +58,7 @@ layout:
       quote: This is a key milestone for ASL and we're thrilled to have developed our
         Health & Safety Management, which has had a hugely positive impact on
         the workforce. It's great to see the whole team on board with the high
-        standards that come with being ISO 45001 accredited, and we look forward
+        standards that come with being ISO 45001 accredited and we look forward
         to maintaining a continuous improvement approach.
       name: Gareth Balshaw, Managing Director
 seo:
