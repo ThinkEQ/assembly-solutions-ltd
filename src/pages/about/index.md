@@ -34,7 +34,7 @@ Being an award winning family business is what we pride ourselves on as we're pa
 * ISO 9001 Accredited - Quality Management
 * ISO 45001 Accredited - Health & Safety Management
 * £6Million Annual Turnover
-* Markets Served Include: Automotive, Security, Utilities, Nuclear, Medical
+* Markets Sectors: Automotive, Security, Utilities, Nuclear, Medical
 * 25% Growth In 2021
 * 98% Customer Satisfaction
 
