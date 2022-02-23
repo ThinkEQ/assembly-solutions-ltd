@@ -25,13 +25,7 @@ Assembly Solutions Ltd (or for short you can call us ASL), is a Bolton based man
 
 We have been around for over 25 years after being founded by Graham Balshaw in 1995. Graham recently retired in 2021 and passed the company down with great pleasure to his three children, Gareth, Sophie & Oliver.
 
-Being an award winning family business is what we pride ourselves on as we're passionate about building strong relationships that are reliable, loyal and trustworthy.\
-\
-Quality and Customer Satisfaction is always our priority, and is why we continually conform to the International Standards of ISO 9001 and ISO 45001. 
-
-The market sectors we deliver into include; Automotive, Security, Medical, Nuclear, Rail, Utilities.
-
-Our customers include some of the worlds most recognised and respected companies; Ford, Rolls-Royce, Siemens and Vodafone. We are thrilled to supply [cable assemblies](https://www.assembly-solutions.com/cable-assemblies) and [wiring harnesses](https://www.assembly-solutions.com/wiring-harness) to so many blue chip leading organisations, and we enjoy the diversity of the different market sectors.\
+Being an award winning family business is what we pride ourselves on as we're passionate about building strong relationships that are reliable, loyal and trustworthy. Quality and Customer Satisfaction is always our priority, and is why we continually conform to the International Standards of ISO 9001 and ISO 45001. \
 \
 **Assembly Solutions Ltd**
 
@@ -44,8 +38,12 @@ Our customers include some of the worlds most recognised and respected companies
 * 25% Growth In 2021
 * 98% Customer Satisfaction
 
-**Our Automotive Experience**
+**Market Sectors & Automotive Experience**
 
+The market sectors we deliver into include; Automotive, Security, Medical, Nuclear, Rail, Utilities.\
+\
+Our customers include some of the worlds most recognised and respected companies; Ford, Rolls-Royce, Siemens and Vodafone. We are thrilled to supply [cable assemblies](https://www.assembly-solutions.com/cable-assemblies) and [wiring harnesses](https://www.assembly-solutions.com/wiring-harness) to so many blue chip leading organisations, and we enjoy the diversity of the different market sectors. \
+\
 We are a leading manufacturer of Automotive Wiring Harnesses after having 25 years in the industry and now being the preferred supplier to world leading Automotive companies; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](https://www.assembly-solutions.com/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles including; Ambulances, Buses, Cars, Trucks, Trailers and Vans.
 
 Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](https://www.assembly-solutions.com/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters.
