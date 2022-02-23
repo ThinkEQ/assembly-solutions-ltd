@@ -25,17 +25,22 @@ introcol:
     ### Why Choose Assembly Solutions for Wire Preparation?
 
 
-    * Shorter labour times and lower labour costs
+    Shorter labour times and lower labour costs
 
-      Quality Assured Products
 
-      Concise Assemblies 
+    Quality Assured Products
 
-      Expert Equipment Means Faster Turnarounds 
 
-      Made in Bolton 
+    Concise Assemblies 
 
-      Specialist Workforce
+
+    Expert Equipment Means Faster Turnarounds 
+
+
+    Made in Bolton 
+
+
+    Specialist Workforce
   second: >-
     ### **Wire Preparation Video**
 
