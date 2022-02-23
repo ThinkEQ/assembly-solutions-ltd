@@ -19,7 +19,7 @@ seo:
     market sectors. "
   og-url: https://www.assembly-solutions.com/about
 ---
-### A UK Manufacturer of Cable Assemblies & Wiring Looms
+### A UK Manufacturer Of Cable Assemblies And Wiring Looms
 
 Assembly Solutions Ltd (or for short you can call us ASL), is a Bolton based manufacturer of electrical cable assemblies, wiring looms & harnesses, and control panels.
 
