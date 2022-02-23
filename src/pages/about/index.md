@@ -25,7 +25,7 @@ Assembly Solutions Ltd (or for short you can call us ASL), is a Bolton based man
 
 We have been around for over 25 years after being founded by Graham Balshaw in 1995. Graham recently retired in 2021 and passed the company down with great pleasure to his three children, Gareth, Sophie & Oliver.
 
-Being an award winning family business is what we pride ourselves on as we're passionate about building strong relationships that are reliable, loyal and trustworthy. Quality and Customer Satisfaction is always our priority, and is why we continually conform to the International Standards of ISO 9001 and ISO 45001. \
+Being an award winning family business is what we pride ourselves on as we're passionate about building strong relationships that are reliable, loyal and trustworthy. Customer Satisfaction and Quality is always our priority, and we demonstrate this by continually conforming to the International Standards of ISO 9001 and ISO 45001. \
 \
 **Assembly Solutions Ltd**
 
