@@ -23,7 +23,7 @@ seo:
 
 Assembly Solutions Ltd (or for short you can call us ASL), is a Bolton based manufacturer of electrical cable assemblies, wiring looms & harnesses, and control panels.
 
-We're an award winning family business who pride themselves on driving family values. We're passionate about building strong relationships that are reliable, loyal and trustworthy. \
+We're a friendly award winning family business and pride ourselves on delivering an exceptional service. Our family values run right through the company and we're passionate about building strong relationships that are reliable, loyal and trustworthy. \
 \
 Customer Satisfaction and Quality is always our priority, and we demonstrate this by maintaining the International Standards of ISO 9001 and ISO 45001. \
 \
