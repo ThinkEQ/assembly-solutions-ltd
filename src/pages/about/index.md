@@ -25,7 +25,7 @@ Assembly Solutions Ltd (or for short you can call us ASL), is a Bolton based man
 
 We're a friendly award winning family business and pride ourselves on delivering an exceptional service. Our family values run right through the company and we're passionate about building strong relationships that are reliable, loyal and trustworthy. \
 \
-Customer Satisfaction and Quality is always our priority, and we demonstrate this by maintaining the International Standards of ISO 9001 and ISO 45001. \
+Customer Satisfaction and Quality is a priority, and we demonstrate this by maintaining the International Standards of ISO 9001 and ISO 45001. \
 \
 **Assembly Solutions Ltd**
 
