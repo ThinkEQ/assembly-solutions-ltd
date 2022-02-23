@@ -2,7 +2,7 @@
 templateKey: about-page
 path: /about
 title: About us
-subtitle: About Assembly Solutions
+subtitle: About Assembly Solutions Ltd
 intro: >-
   In October 2020 we celebrated 25 years in business. This anniversary followed
   another big milestone where Founder Graham Balshaw passed ASL down to his
@@ -13,21 +13,47 @@ intro: >-
 image: /img/about-us-cover.png
 seo:
   title: About Us | Assembly Solutions
-  description: "Leading cable assembly company & cable manufacturer in the UK.
-    Established for over 25 years. We manufacture quality assured cables and
-    wiring harnesses for a range of sectors. "
+  description: "Assembly Solutions Ltd is a UK leading manufacturer of cable
+    assembly services and wiring harnesses. Established for over 25 years, we
+    manufacture quality assured cables and wire preparation for a range of
+    market sectors. "
   og-url: https://www.assembly-solutions.com/about
 ---
-### A thriving cable assembly company and electrical wiring manufacturer.  
+### Assembly Solutions is a UK Manufacturer of Cable Assemblies & Wiring Looms
 
-Assembly Solutions is a UK Bolton based sub-contract manufacturer of wire preparation, cable assemblies, wiring harnesses and control panels.
+Assembly Solutions Ltd (or for short you can call us ASL), is a Bolton based manufacturer of electrical cable assemblies, wiring looms & harnesses, and control panels.
 
-Created in 1995 by our Founder & Chairman Graham Balshaw, we have been established for 25 years and grown into a leading manufacturer, supplying to some of the worlds biggest organisations. 
+We have been around for over 25 years after being founded by Graham Balshaw in 1995. Graham recently retired in 2021 and passed the company down with great pleasure to his three children, Gareth, Sophie & Oliver.
 
-ASL is passionately run by the second generation; Gareth, Sophie & Oliver Balshaw, after father Graham proudly passed down ownership in March 2020. 
+Being a family business is what makes us stand out, and it's our family values that are driving our success. We are committed to building relationships that are reliable, strong, trustworthy and loyal.\
+\
+Quality and Customer Satisfaction is always our priority, and is why we continually conform to the International Standards of ISO 9001 and ISO 45001. 
 
-As a family run business we drive the values of respect, loyalty and teamwork through-out all departments and we're proud to have a team that work together and deliver outstanding quality every day.
+The market sectors we deliver into include; Automotive, Security, Medical, Nuclear, Rail, Utilities.
 
-We are on an exciting journey of growth after seeing sales increase by 20% in 2020 and forecast further growth throughout 2021 and 2022.
+Our customers include some of the worlds most recognised and respected companies; Ford, Rolls-Royce, Siemens and Vodafone. We are thrilled to supply [cable assemblies](https://www.assembly-solutions.com/cable-assemblies) and [wiring harnesses](https://www.assembly-solutions.com/wiring-harness) to so many blue chip leading organisations, and we enjoy the diversity of the different market sectors.\
+\
+**Assembly Solutions Ltd**
 
-As an ISO 9001 Quality Approved manufacturer, we are the trusted supplier to an impressive list of world leading companies including; Aston Martin, Ford, Siemens and Vodafone.
+* UK Award Winning Family Business
+* Cable Assemblies, Wiring Looms, Control Panels, Wire Preparation
+* ISO 9001 Accredited - Quality Management
+* ISO 45001 Accredited - Health & Safety Management
+* £6Million Annual Turnover
+* Markets Served Include: Automotive, Security, Utilities, Nuclear, Medical
+* 25% Growth In 2021
+* 98% Customer Satisfaction
+
+**Our Automotive Experience**
+
+We are a leading manufacturer of Automotive Wiring Harnesses after having 25 years in the industry and now being the preferred supplier to world leading Automotive companies; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](https://www.assembly-solutions.com/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles including; Ambulances, Buses, Cars, Trucks, Trailers and Vans.
+
+Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](https://www.assembly-solutions.com/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters.
+
+**Meet The Team**
+
+Get to know more About us by meeting our people. Click here > [Meet The Team](https://www.assembly-solutions.com/team)
+
+**Contact Us**
+
+If you have an enquiry, call 01204 521999 or email enquiry@assembly-solutions.com
