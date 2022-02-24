@@ -2,10 +2,15 @@
 templateKey: industries-page
 title: Industries
 subtitle: Supplying Industries Worldwide
-aside: We open our arms and welcome any enquiry no matter what industry you’re
-  in. If you would like to send an enquiry, simply email
-  [enquiry@assembly-solutions.com](enquiry@assembly-solutions.com) and we will
-  be right back to you.
+aside: >-
+  **Contact Assembly Solutions Today** 
+
+
+  For specialist advice, quality assured electrical assembly products or to discuss your specific requirements, [get in touch](www.assembly-solutions.com/contact) with our expert team. We'll be happy to answer any questions you may have.\
+
+  \
+
+  We currently have spare factory capacity to undertake new cable assembly projects and wiring harness manufacture opportunities, so please contact us if you are looking for a quote. Call us on **01204 521999** or email enquiry@assembly-solutions.com.
 image: /img/alexander-dennis-project.jpg
 testimonial:
   quote: "\"ASL is without a doubt the best UK manufacturer of wiring looms and
@@ -58,9 +63,3 @@ The Medical Industry has seen extreme pressure these last 12 months and we've be
 * Security
 * Test & Measurement
 * Nuclear & Utilities
-
-
-
-**Contact Assembly Solutions Today** 
-
-For specialist advice, quality assured electrical assembly products or to discuss your specific requirements, [get in touch ](https://www.assembly-solutions.com/contact)with our expert team. We'll be happy to answer any questions you may have.
