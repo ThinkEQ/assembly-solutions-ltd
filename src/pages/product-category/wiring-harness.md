@@ -3,17 +3,23 @@ templateKey: product-category
 title: Wiring Harness
 subtitle: Wiring Harness Manufacturer
 video: wiring-harness
-image: /img/chemex.jpg
+image: /img/cable-looms-3-.jpg
 usps:
   - usp: UK Made in Bolton
   - usp: Fast 3-6 Week Delivery
   - usp: ISO 9001 Quality Approved
 introcol:
   first: >-
-    ### **UK Wiring Harness Manufacture**
+    **UK Wiring Harness Manufacture**
 
 
-    Assembly Solutions is a customer focused and thriving manufacturer of high quality custom-made wiring harnesses and [wiring looms](/wiring-loom). With 25 years of experience, we have grown to become a national leading supplier and have built up an incredible portfolio of customers including; Aston Martin, Ford, Rolls Royce and Siemens. We manufacture in low & high volume, and offer design/engineering support to ensure all looms and harnesses are built both cost-effective and fit for its application.
+    Assembly Solutions is the UK leading manufacturer of high quality custom-made wiring harnesses and [wiring looms](/wiring-loom). With over 25 years in the industry, we have built up an incredible portfolio of customers including; Aston Martin, Ford, Rolls Royce and Siemens. 
+
+
+    We're based in the heart of Bolton and operate under our own purpose built 32,000 sqft factory. All our wiring loom projects are quoted from customer drawing ad specification. Our speciality is manufacture and build, but we have in-house wiring harness engineers who can assist with technical design.
+
+
+    We manufacture in low & high volume, and offer design/engineering support to ensure all looms and harnesses are built both cost-effective and fit for its application.
 
 
     ### A Family Run Business
