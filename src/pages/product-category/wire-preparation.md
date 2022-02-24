@@ -140,8 +140,10 @@ layout:
         #### **Get in touch with [our team today ](enquiry@assembly-solutions.com)to discuss your wire preparation needs and requirements. Our experts will be happy to help.**
 seo:
   title: "Wire Preparation | Cable Preparation |  Assembly Solutions "
-  description: "Discover our custom made, high volume wire preparation & cable
-    preparation services. UK manufactured and quality assured with fast
-    turnarounds. Enquire with us today. "
+  description: Assembly Solutions is the UK leading manufacturer of Wire
+    Preparation and Cable Preparation. With a range of high speed cable cutting
+    machines, we offer low costs and fast deliveries on all custom made Wire
+    Assemblies. Contact us today on 01204 521999 to discuss your wiring
+    requirements.
   og-url: https://www.assembly-solutions.com/wire-preparation
 ---
