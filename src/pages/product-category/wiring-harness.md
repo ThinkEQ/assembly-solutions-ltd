@@ -16,7 +16,7 @@ introcol:
     Assembly Solutions is the UK leading manufacturer of high quality custom-made wiring harnesses and [wiring looms](/wiring-loom). With over 25 years in the industry, we have built up an incredible portfolio of customers including; Aston Martin, Ford, Rolls Royce and Siemens. 
 
 
-    We're based in the heart of Bolton and operate under our own purpose built 32,000 sqft factory. All our wiring loom projects are quoted from customer drawing ad specification. Our speciality is manufacture and build, but we have in-house wiring harness engineers who can assist with technical design.
+    We're based in the heart of Bolton and operate under our own purpose built 32,000 sqft factory. All our wiring loom projects are quoted from customer drawing and specification. Our speciality is manufacture and build, but we have in-house wiring harness engineers who can assist with technical design.
 
 
     We manufacture in low & high volume, and offer design/engineering support to ensure all looms and harnesses are built both cost-effective and fit for its application.\
