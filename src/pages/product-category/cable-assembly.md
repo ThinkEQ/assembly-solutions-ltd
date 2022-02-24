@@ -132,10 +132,10 @@ layout:
 
         #### For expert and professional cable assembly services, [contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for a specially tailored quote and advice on your project.
 seo:
-  title: "Cable Assembly | Custom Made Cable Assemblies | Assembly Solutions "
-  description: "Cable Assembly UK services & custom made cable assemblies from
-    Assembly Solutions. UK manufactured on a 4-week turnaround. Quality assured
-    at affordable prices. Contact us for an instant quote on your requirements.
-    "
+  title: "Cable Assembly Manufacturer | Cable Assemblies | Assembly Solutions "
+  description: Assembly Solutions is the UK leading manufacturer of Cable Assembly
+    services and custom made Cable Assemblies. An award winning company with 98%
+    customer satisfaction reviews. Contact us today for a quote on your cable
+    assembly requirements.
   og-url: https://www.assembly-solutions.com/cable-assembly
 ---
