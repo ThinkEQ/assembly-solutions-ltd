@@ -69,10 +69,11 @@ layout:
 
         > Henry Moreta, Buyer – Brompton Bicycle
 seo:
-  title: "Custom Cable Assemblies | Assembly Solutions "
-  description: "Cable assemblies. Custom made & manufactured in the UK to your
-    drawing and specification. Cable assemblies & cable solutions
-    available.  Chat to our team or get a quick quote today. "
+  title: "Cable Assemblies | UK Cable Assembly Supplier | Assembly Solutions "
+  description: Assembly Solutions Is A UK Manufacturer Of Cable Assemblies And
+    Custom Cable Assembly Services. Award Winning Family Business With Over 25
+    Years Of Cable Assembly Excellence. Contact Us Today On 01204 521999 To
+    Discuss Your Cable Assemblies.
   og-url: https://www.assembly-solutions.com/cable-assemblies
 testimonial:
   quote: >
