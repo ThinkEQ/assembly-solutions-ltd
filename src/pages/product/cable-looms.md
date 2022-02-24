@@ -71,9 +71,10 @@ layout:
 
         > Electrical Engineering Manager – Alexander Dennis
 seo:
-  title: "Cable Looms | Low Cost & UK Made | Assembly Solutions "
-  description: "UK preferred supplier with over 25 years of experience. We make
-    quality approved cable looms that are low cost and have a fast turnaround.
-    Enquire today. "
+  title: "Cable Looms | Wiring Loom Supplier | Assembly Solutions "
+  description: Assembly Solutions Is A UK Manufacturer Of Cable Looms And Wiring
+    Looms. We Are Quality Approved To ISO 9001 And Have An Excellent 98%
+    Customer Satisfaction Reviews. Call Us Today On 01204 521999 To Discuss Your
+    Cable Loom Requirements.
   og-url: https://www.assembly-solutions.com/cable-looms
 ---
