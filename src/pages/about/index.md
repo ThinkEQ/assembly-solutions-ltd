@@ -50,8 +50,8 @@ Working with the latest models in vehicle technology, our technical team have th
 
 **Meet The Team**
 
-Get to know more About us by meeting our people. Click here > [Meet The Team](https://www.assembly-solutions.com/team)
-
+Get to know more About us by meeting our people. Click here > [Meet The Team](https://www.assembly-solutions.com/team)\
+\
 **Contact Us**
 
 If you have an enquiry, call 01204 521999 or email enquiry@assembly-solutions.com
