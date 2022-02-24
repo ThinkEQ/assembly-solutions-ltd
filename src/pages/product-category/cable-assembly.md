@@ -13,10 +13,14 @@ introcol:
     ### **UK Cable Assembly Manufacturer**
 
 
-    We are the preferred supplier of Cable Assembly UK products to some of the worlds leading manufacturers including; Aston Martin, Siemens and Vodafone. Producing over 1,000 cable assemblies per week, our friendly and focused team are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer. With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
+    Assembly Solutions is the UK leading manufacturer of cable assembly and cable preparation services. We have been making cable assemblies for over 25 years, and over this time have built an incredible portfolio of world-class customers including; Aston Martin, Siemens and Vodafone. 
 
 
-    ### A Family Run Business
+    We operate from our custom built cable assembly factory in Bolton and have a team of 70 staff who help produce over 1,000 cable assemblies per week. Our friendly and focused team are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer. \
+
+    \
+
+    **Quality & Quick Turnaround Cable Assemblies**
 
 
     Our cable assembly UK products are delivered on a fast four week delivery, from receipt of sample approval. We make a cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
@@ -79,6 +83,9 @@ layout:
 
 
         We deliver over 1,000 cable assembly products per week and these are shipped worldwide to Industries including; Automotive, Medical, Security and Test & Measurement. Based in our large and lively Bolton factory, our cable assembly production is set up for fast turnaround and accurate manufacture.
+
+
+        With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
   - type: column
     column:
       title: Decades of Cable Assembly Experience
