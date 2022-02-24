@@ -19,13 +19,18 @@ introcol:
     We're based in the heart of Bolton and operate under our own purpose built 32,000 sqft factory. All our wiring loom projects are quoted from customer drawing ad specification. Our speciality is manufacture and build, but we have in-house wiring harness engineers who can assist with technical design.
 
 
-    We manufacture in low & high volume, and offer design/engineering support to ensure all looms and harnesses are built both cost-effective and fit for its application.
+    We manufacture in low & high volume, and offer design/engineering support to ensure all looms and harnesses are built both cost-effective and fit for its application.\
+
+    \
+
+    **Award Winning Family Business**
 
 
-    ### A Family Run Business
+    We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed. \
 
+    \
 
-    We are a family run business dedicated to building relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed. We pride ourselves most of our fast deliveries which all include 100% electrically tested harnesses. Quality is the most important part of the wiring harnesses and we are pleased to be ISO 9001 accredited.
+    We pride ourselves most of our fast deliveries which all include 100% electrically tested harnesses. Quality is the most important part of the wiring harnesses and we are pleased to be ISO 9001 accredited.
 
 
     [Contact](https://www.assembly-solutions.com/contact) our team at Assembly Solutions today for more information and support.
