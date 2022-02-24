@@ -36,7 +36,7 @@ Customer Satisfaction and Quality is our priority and we demonstrate this by mai
 * £6Million Annual Turnover
 * Markets Sectors: Automotive, Security, Utilities, Nuclear, Medical
 * 25% Growth In 2021
-* 98% Customer Satisfaction
+* 99% Customer Satisfaction
 
 **Market Sectors & Automotive Experience**
 
