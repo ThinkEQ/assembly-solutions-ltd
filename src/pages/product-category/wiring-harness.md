@@ -31,7 +31,7 @@ introcol:
 
     \
 
-    [Meet The Team](/team) who are passionate about producing quality wiring harnesses and providing an excellent customer service..
+    [Meet The Team](/team) who are passionate about producing quality wiring harnesses and providing an excellent customer service.
   second: >-
     ### **Wiring Harness Video**
 
@@ -128,9 +128,9 @@ layout:
 
         #### [Contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for expert advice and support. Our team will be happy to discuss your needs and provide you with a free quote.
 seo:
-  title: Wiring Harness Manufacturer | Wire Harness Production
-  description: "Custom made wire harnesses are available direct from Assembly
-    Solutions. Order wiring harnesses today. Quality assured & fast turnaround
-    guaranteed. "
+  title: Wiring Harness Manufacturer | Wire Harness Supplier
+  description: Assembly Solutions is the UK leading manufacturer of Wiring
+    Harnesses and Wiring Looms. Award winning customer service and quality
+    committed products made to ISO 9001 & 100% electrically tested.
   og-url: https://www.assembly-solutions.com/wiring-harness
 ---
