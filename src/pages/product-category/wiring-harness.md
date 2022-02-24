@@ -30,10 +30,7 @@ introcol:
 
     \
 
-    We pride ourselves most of our fast deliveries which all include 100% electrically tested harnesses. Quality is the most important part of the wiring harnesses and we are pleased to be ISO 9001 accredited.
-
-
-    [Contact](https://www.assembly-solutions.com/contact) our team at Assembly Solutions today for more information and support.
+    [Meet The Team](www.assembly-solutions.com/team) who are passionate about producing quality wiring harnesses and providing an excellent customer service..
   second: >-
     ### **Wiring Harness Video**
 
@@ -110,6 +107,12 @@ layout:
 
 
         In our bright and spacious Bolton factory we have an efficient production set-up including 10m long wiring build boards and cable reels and connectors on stock trolleys. Due to the complexity and size of wiring harnesses and [wiring looms](/wiring-loom), our production team find that the fastest and most efficient way to build is by working off floor standing harness boards. All boards are custom made for each wiring harness part number with a CAD drawing made to scale and placed on the board prior to build. Our technical engineers ensure that the CAD drawing is printed with correct cable specifications and lengths, connectors and note any special processes that may need to be carried out ie. heat shrinking to protect particular areas of the harnesses.
+
+
+        We pride ourselves most of our fast deliveries which all include 100% electrically tested harnesses. Quality is the most important part of the wiring harnesses and we are pleased to be ISO 9001 accredited.
+
+
+        [Contact](https://www.assembly-solutions.com/contact) our team at Assembly Solutions today for more information and support
   - type: column
     column:
       title: ""
