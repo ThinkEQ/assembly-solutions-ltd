@@ -40,7 +40,7 @@ Customer Satisfaction and Quality is our priority and we demonstrate this by mai
 
 **Market Sectors & Automotive Experience**
 
-The market sectors we deliver into include; Automotive, Security, Medical, Nuclear, Rail, Utilities.
+We manufacture wiring assemblies for a wide range of industries including; Automotive, General Equipment, Medical, Nuclear, Rail, Security and Utilities.
 
 Our customers include some of the worlds most recognised and respected companies; Ford, Rolls-Royce, Siemens and Vodafone. We are thrilled to supply [cable assemblies](https://www.assembly-solutions.com/cable-assemblies) and [wiring harnesses](https://www.assembly-solutions.com/wiring-harness) to so many blue chip leading organisations, and we enjoy the diversity of the different market sectors.
 
