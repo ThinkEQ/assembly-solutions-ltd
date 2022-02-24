@@ -31,6 +31,7 @@ Customer Satisfaction and Quality is our priority and we demonstrate this by mai
 
 * UK Award Winning Family Business
 * Cable Assemblies, Wiring Looms, Control Panels, Wire Preparation
+* Established 25 Years 
 * ISO 9001 Accredited - Quality Management
 * ISO 45001 Accredited - Health & Safety Management
 * Markets Sectors: Automotive, Security, Utilities, Nuclear, Medical
