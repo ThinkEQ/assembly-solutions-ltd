@@ -112,9 +112,10 @@ layout:
 
         #### [Contact our team](https://www.assembly-solutions.com/contact) at Assembly Solutions today for specially tailored quotes, advice and support.
 seo:
-  title: "Control Panel Wire Manufacturing | Assembly Solutions "
-  description: "Trusted control panel manufacturer. Low cost, quality-assured &
-    expert panel builder. Small or highly complex builds available. Enquire
-    today with Assembly Solutions. Contact us now. "
+  title: "Control Panel Manufacturer | Panel Wiring | Assembly Solutions "
+  description: Assembly Solutions is the UK leading manufacturer of Electrical
+    Control Panels. With over 25 Years of Panel Wiring experience, we provide a
+    quality and fast turnaround service. Contact us today to discuss your
+    Control Panel Build requirements.
   og-url: https://www.assembly-solutions.com/control-panels
 ---
