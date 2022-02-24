@@ -1,7 +1,7 @@
 ---
 templateKey: about-page
 path: /about
-title: About us
+title: About Us
 subtitle: About Assembly Solutions Ltd
 intro: >-
   In October 2020 we celebrated 25 years in business. This anniversary followed
@@ -19,8 +19,8 @@ seo:
     market sectors. "
   og-url: https://www.assembly-solutions.com/about
 ---
-### A UK Manufacturer Of Cable Assemblies And Wiring Looms
-
+**About Us**\
+\
 Assembly Solutions Ltd (or for short you can call us ASL), is a Bolton based manufacturer of electrical cable assemblies, wiring looms & harnesses, and control panels.
 
 We're an award winning family business and pride ourselves on delivering a personable quality service. With instilled family values, we are passionate about building strong relationships that are reliable, loyal and trustworthy. \
