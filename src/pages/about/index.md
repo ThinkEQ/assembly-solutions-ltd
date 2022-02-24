@@ -25,7 +25,7 @@ Assembly Solutions Ltd is a Bolton based manufacturer of electrical cable assemb
 
 We are an award winning family business and pride ourselves on delivering a personable quality service. With instilled family values, we're passionate about building strong relationships that are reliable, loyal and trustworthy.
 
-Customer Satisfaction and Quality is our priority and we demonstrate this by maintaining the International Standards of ISO 9001 and ISO 45001. \
+With 25 Years of excellence in manufacturing, we are recognised as the UK leader for electrical wiring assemblies, and our quality is a reflection of our world class customers, including; Ford, Rolls-Royce, Siemens and Vodafone.\
 \
 **Assembly Solutions Ltd**
 
