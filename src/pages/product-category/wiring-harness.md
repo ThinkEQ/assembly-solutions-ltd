@@ -10,7 +10,7 @@ usps:
   - usp: ISO 9001 Quality Approved
 introcol:
   first: >-
-    **UK Wiring Harness Manufacture**
+    #### **UK Wiring Harness Manufacture**
 
 
     Assembly Solutions is the UK leading manufacturer of high quality custom-made wiring harnesses and [wiring looms](/wiring-loom). With over 25 years in the industry, we have built up an incredible portfolio of customers including; Aston Martin, Ford, Rolls Royce and Siemens. 
@@ -23,8 +23,9 @@ introcol:
 
     \
 
-    **Award Winning Family Business**
+    **Award Winning Wiring Harnesses**\
 
+    \
 
     We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed. \
 
