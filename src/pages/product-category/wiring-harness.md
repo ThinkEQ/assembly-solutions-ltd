@@ -30,7 +30,7 @@ introcol:
 
     \
 
-    [Meet The Team](www.assembly-solutions.com/team) who are passionate about producing quality wiring harnesses and providing an excellent customer service..
+    [Meet The Team](/team) who are passionate about producing quality wiring harnesses and providing an excellent customer service..
   second: >-
     ### **Wiring Harness Video**
 
