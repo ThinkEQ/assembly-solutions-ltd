@@ -65,9 +65,11 @@ layout:
 
         > Electrical Engineer – Siemens
 seo:
-  title: "Panel Wiring Manufacturer | Assembly Solutions "
-  description: Renowned UK panel wiring manufacturer. Fast & flexible turnarounds.
-    Expert service from our team of specialists. Speak to us today about your
-    project.
+  title: "Panel Wiring | Control Panel Manufacturer | Assembly Solutions "
+  description: Assembly Solutions Is A UK Supplier Of Panel Wiring Manufacture And
+    Control Panel Build. With Over 25 Years Control Panel Excellence We Are A
+    Preferred Supplier To World-Class Companies Including Ford, Siemens And
+    Vodafone. Contact Us Today On 01204 521999 To Discuss Your Panel Wiring
+    Requirements.
   og-url: https://www.assembly-solutions.com/panel-wiring
 ---
