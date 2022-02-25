@@ -10,22 +10,21 @@ usps:
   - usp: ISO 9001 Quality Approved
 introcol:
   first: >-
-    ### **UK Cable Assembly Manufacturer**
+    #### **UK Cable Assembly Manufacturer**
 
 
     Assembly Solutions is the UK leading manufacturer of cable assembly and cable preparation services. We have been making cable assemblies for over 25 years, and over this time have built an incredible portfolio of world-class customers including; Aston Martin, Siemens and Vodafone. 
 
 
-    We operate from our custom built cable assembly factory in Bolton and have a team of 70 staff who help produce over 1,000 cable assemblies per week. Our friendly and focused team are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer. \
+    We operate from our custom built cable assembly factory in Bolton and have a team of 70 staff who help produce over 1,000 cable assemblies per week. Our friendly and focused team are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer.
 
-    \
 
-    **Quality & Quick Turnaround Cable Assemblies**
+    #### **Quality & Quick Turnaround Cable Assemblies**
 
 
     Our cable assembly UK products are delivered on a fast four week delivery, from receipt of sample approval. We make a cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
   second: >-
-    ### **Cable Assembly Video**
+    #### **Cable Assembly Video**
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/JM9UP2GiQ_M?loop=1&playlist=JM9UP2GiQ_M' frameborder='0' allowfullscreen></iframe></div>
