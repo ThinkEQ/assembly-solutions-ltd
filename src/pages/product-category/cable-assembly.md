@@ -70,15 +70,21 @@ layout:
     column:
       title: ""
       text: >-
-        #### Expert Cable Assemblies
+        #### Custom Cable Assemblies
 
 
-        We build custom made cable assembly products for two world-renowned manufacturers, Aston Martin and Brompton Bicycle. Their supply chain required our technical expertise to create the most cost-effective solution for their application. Working with leading brands for over 25 years has broadened our knowledge and expertise on [cable assemblies](/cable-assemblies) which has opening opportunities in other Industries across the globe.
+        All our cable assemblies are custom made to customer drawing and specification. We can assist with technical engineering before producing prototypes for sample approval, and our flexible way of working allows for any changes to specification before full volume batches begin. 
+
+
+        Our customers really are a reflection of our quality and care, which is why we are immensely proud to manufacture cable assemblies for two world-renowned manufacturers, Aston Martin and Brompton Bicycle. These two customers are examples where the opportunities have grown from manufacturing a handful of their cable assembly products, to now producing an extensive range of cost-effective [cable assemblies](/cable-assemblies) and wiring looms to their operational plants.
+
+
+        Being a supplier of cable assembly services for over 25 years has broadened our knowledge and expertise in multiple markets including; Automotive, General Engineering, Medical & Nuclear.
   - type: column
     column:
       title: ""
       text: >-
-        #### Cable Assembly Production Build
+        #### Cable Assembly Production
 
 
         We deliver over 1,000 cable assembly products per week and these are shipped worldwide to Industries including; Automotive, Medical, Security and Test & Measurement. Based in our large and lively Bolton factory, our cable assembly production is set up for fast turnaround and accurate manufacture.
@@ -87,12 +93,12 @@ layout:
         With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
   - type: column
     column:
-      title: 25 Years Of Cable Assemblies
+      title: ""
       text: >-
-        In 2020 we celebrated an incredible 25 years since Assembly Solutions
-        was created by Founder Graham Balshaw. Our experience and knowledge has
-        grown hugely over the years, leading us to become a UK trusted supplier
-        of [cable assemblies](/cable-assemblies) and other wiring products.
+        #### 25 Years Of Cable Assemblies
+
+
+        In 2020 we celebrated an incredible 25 years since Assembly Solutions was created by Founder Graham Balshaw. Our experience and knowledge has grown hugely over the years, leading us to become a UK trusted supplier of [cable assemblies](/cable-assemblies) and other wiring products.
 
 
         Our cable assembly services and processes include;
@@ -114,7 +120,7 @@ layout:
         #### NHS Medical Cable Assemblies
 
 
-        Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for covid testing apparatus, hospital bed cables, sterilisation[](www.assembly-solutions.com/cable-assemblies) [cable assemblies](/cable-assemblies)[](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. It has been an extremely challenging time and we're proud our of team that put in extra over time every week to show their support in helping hospitals all across the world.
+        Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for Covid testing apparatus, hospital bed cables, sterilisation[](www.assembly-solutions.com/cable-assemblies) [cable assemblies](/cable-assemblies)[](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. It has been an extremely challenging time and we're proud our of team that put in extra over time every week to show their support in helping hospitals all across the world.
 
 
         * Knowledgeable Engineers
