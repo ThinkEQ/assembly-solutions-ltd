@@ -13,7 +13,7 @@ introcol:
     #### **Cable Assembly Manufacturer**
 
 
-    Assembly Solutions is a UK leading manufacturer of Cable Assembly Services. We boast an incredible 25 Years of cable assembly excellence and accredited to the International Standards of **ISO 9001** and **ISO 45001**.
+    Assembly Solutions is a UK leading manufacturer of Cable Assembly & Cable Preparation Services. We boast an incredible 25 Years of cable assembly excellence and accredited to the International Standards of **ISO 9001** and **ISO 45001**.
 
 
     We're an award winning manufacturer based in Bolton and have a skilful team of 70 staff who help produce over 1,000 cable assemblies per week. Our friendly and focused operators are fully trained to the **Cable Assembly Standards of IPC** on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer.
