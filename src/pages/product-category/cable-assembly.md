@@ -87,11 +87,26 @@ layout:
         With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
   - type: column
     column:
-      title: Decades of Cable Assembly Experience
-      text: In 2020 we celebrated an incredible 25 years since Assembly Solutions was
-        created by Founder Graham Balshaw. Our experience and knowledge has
+      title: 25 Years Of Cable Assemblies
+      text: >-
+        In 2020 we celebrated an incredible 25 years since Assembly Solutions
+        was created by Founder Graham Balshaw. Our experience and knowledge has
         grown hugely over the years, leading us to become a UK trusted supplier
         of [cable assemblies](/cable-assemblies) and other wiring products.
+
+
+        #### Cable Assembly Services
+
+
+        * Cable Printing
+
+        * Over Moulding
+
+        * Ultrasonic Welding
+
+        * Soldering & Tinning
+
+        * Extensive Tooling
   - type: column
     column:
       title: ""
@@ -100,19 +115,8 @@ layout:
 
 
         Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for covid testing apparatus, hospital bed cables, sterilisation[](www.assembly-solutions.com/cable-assemblies) [cable assemblies](/cable-assemblies)[](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. It has been an extremely challenging time and we're proud our of team that put in extra over time every week to show their support in helping hospitals all across the world.
-  - type: column
-    column:
-      text: |-
-        #### Cable Assembly Services
 
-        * Cable Printing
-        * Over Moulding
-        * Ultrasonic Welding
-        * Soldering & Tinning
-        * Extensive Tooling
-  - type: column
-    column:
-      text: >-
+
         #### Professional Cable Assembly Service
 
 
@@ -127,9 +131,7 @@ layout:
         * Experienced Team
 
 
-
-
-        #### For expert and professional cable assembly services, [contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for a specially tailored quote and advice on your project.
+        ##### For expert and professional cable assembly services, [contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for a specially tailored quote and advice on your project.
 seo:
   title: "Cable Assembly Manufacturer | Cable Assemblies | Assembly Solutions "
   description: Assembly Solutions is the UK leading manufacturer of Cable Assembly
