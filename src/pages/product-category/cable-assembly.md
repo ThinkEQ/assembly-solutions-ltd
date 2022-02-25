@@ -10,7 +10,7 @@ usps:
   - usp: ISO 9001 Quality Approved
 introcol:
   first: >-
-    #### **UK Cable Assembly Manufacturer**
+    #### **Cable Assembly Manufacturer**
 
 
     Assembly Solutions is the UK leading manufacturer of cable assembly and cable preparation services. We have been making cable assemblies for over 25 years, and over this time have built an incredible portfolio of world-class customers including; Aston Martin, Siemens and Vodafone. 
