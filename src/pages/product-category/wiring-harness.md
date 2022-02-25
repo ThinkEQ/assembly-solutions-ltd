@@ -19,21 +19,18 @@ introcol:
     We're based in the heart of Bolton and operate under our own purpose built 32,000 sqft factory. All our wiring loom projects are quoted from customer drawing and specification. Our speciality is manufacture and build, but we have in-house wiring harness engineers who can assist with technical design.
 
 
-    We manufacture in low & high volume, and offer design/engineering support to ensure all looms and harnesses are built both cost-effective and fit for its application.\
+    We manufacture in low & high volume, and offer design/engineering support to ensure all looms and harnesses are built both cost-effective and fit for its application.
 
-    \
 
-    **Award Winning Wiring Harnesses**\
+    #### **Award Winning Wiring Harnesses**
 
-    \
 
-    We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed. \
+    We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed.
 
-    \
 
     [Meet The Team](/team) who are passionate about producing quality wiring harnesses and providing an excellent customer service.
   second: >-
-    ### **Wiring Harness Video**
+    #### **Wiring Harness Video**
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/TTebZ3qU9sQ?loop=1&playlist=TTebZ3qU9sQ' frameborder='0' allowfullscreen></iframe></div>
