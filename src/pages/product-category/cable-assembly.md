@@ -24,7 +24,7 @@ introcol:
 
     Our cable assembly UK products are delivered on a fast four week delivery, from receipt of sample approval. We make a cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
   second: >-
-    #### **Cable Assembly Video**
+    #### **Video: Cable Assembly**
 
 
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/JM9UP2GiQ_M?loop=1&playlist=JM9UP2GiQ_M' frameborder='0' allowfullscreen></iframe></div>
