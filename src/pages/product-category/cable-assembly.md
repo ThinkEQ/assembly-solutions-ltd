@@ -13,7 +13,7 @@ introcol:
     #### **Cable Assembly Manufacturer**
 
 
-    Assembly Solutions is the UK leading manufacturer of cable assembly and cable preparation services. We have been making cable assemblies for over 25 years, and over this time have built an incredible portfolio of world-class customers including; Aston Martin, Siemens and Vodafone. 
+    Assembly Solutions is the UK leading manufacturer of Cable Assembly and Cable Preparation services. We have been making cable assemblies for over 25 years, and over this time have built an incredible portfolio of world-class customers including; Aston Martin, Siemens and Vodafone. 
 
 
     We operate from our custom built cable assembly factory in Bolton and have a team of 70 staff who help produce over 1,000 cable assemblies per week. Our friendly and focused team are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer.
