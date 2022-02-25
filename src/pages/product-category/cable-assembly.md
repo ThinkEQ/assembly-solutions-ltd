@@ -95,7 +95,7 @@ layout:
         of [cable assemblies](/cable-assemblies) and other wiring products.
 
 
-        #### Cable Assembly Services
+        Our cable assembly services and processes include;
 
 
         * Cable Printing
@@ -115,9 +115,6 @@ layout:
 
 
         Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for covid testing apparatus, hospital bed cables, sterilisation[](www.assembly-solutions.com/cable-assemblies) [cable assemblies](/cable-assemblies)[](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. It has been an extremely challenging time and we're proud our of team that put in extra over time every week to show their support in helping hospitals all across the world.
-
-
-        #### Professional Cable Assembly Service
 
 
         * Knowledgeable Engineers
