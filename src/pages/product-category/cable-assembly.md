@@ -13,10 +13,10 @@ introcol:
     #### **Cable Assembly Manufacturer**
 
 
-    Assembly Solutions is the UK leading manufacturer of Cable Assembly and Cable Preparation services. We have been making cable assemblies for over 25 years, and over this time have built an incredible portfolio of world-class customers including; Aston Martin, Siemens and Vodafone. 
+    Assembly Solutions is a UK leading manufacturer of Cable Assembly Services. We boast an incredible 25 Years of cable assembly excellence and accredited to the International Standards of **ISO 9001** and **ISO 45001**.
 
 
-    We operate from our custom built cable assembly factory in Bolton and have a team of 70 staff who help produce over 1,000 cable assemblies per week. Our friendly and focused team are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer.
+    We're an award winning manufacturer based in Bolton and have a skilful team of 70 staff who help produce over 1,000 cable assemblies per week. Our friendly and focused operators are fully trained to the **Cable Assembly Standards of IPC** on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer.
 
 
     #### **Cable Assemblies**
@@ -79,7 +79,7 @@ layout:
         Our customers really are a reflection of our quality and care, which is why we are immensely proud to manufacture cable assemblies for two world-renowned manufacturers, Aston Martin and Brompton Bicycle. These two customers are examples where the opportunities have grown from manufacturing a handful of their cable assembly products, to now producing an extensive range of cost-effective [cable assemblies](/cable-assemblies) and wiring looms to their operational plants.
 
 
-        Being a supplier of cable assembly services for over 25 years has broadened our knowledge and expertise in multiple markets including; Automotive, General Engineering, Medical & Nuclear.
+        Being a supplier of cable assembly services for over 25 years has extensively broadened our knowledge and expertise in multiple markets. These include; Automotive, General Engineering, Medical & Nuclear.
   - type: column
     column:
       title: ""
