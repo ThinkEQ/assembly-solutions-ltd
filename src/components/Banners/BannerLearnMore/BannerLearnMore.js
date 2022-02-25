@@ -5,7 +5,7 @@ const BannerLearnMore = () => {
     return (
         <Box as="section" textStyle="section" backgroundColor="green.900" minHeight={{base: "auto", md: "400px"}} display="flex" flexDirection="column" justifyContent="center" alignContent="center">
             <Box textAlign="center">
-                <Heading as="h1" textStyle="h1" marginBottom="30px">
+                <Heading as="h2" textStyle="h2" marginBottom="30px">
                     Ready to learn more?
                 </Heading>
                 <Text textStyle="p">
