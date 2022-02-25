@@ -19,7 +19,7 @@ introcol:
     We operate from our custom built cable assembly factory in Bolton and have a team of 70 staff who help produce over 1,000 cable assemblies per week. Our friendly and focused team are fully trained on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer.
 
 
-    #### **Quality & Quick Turnaround Cable Assemblies**
+    #### **Cable Assemblies**
 
 
     Our cable assembly UK products are delivered on a fast four week delivery, from receipt of sample approval. We make a cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
