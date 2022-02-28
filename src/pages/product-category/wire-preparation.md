@@ -10,13 +10,13 @@ usps:
   - usp: Excellent Service
 introcol:
   first: >-
-    ### **Expert Wire Preparation**
+    #### **Wire Preparation Services**
 
 
-    ASL is an established and customer focused manufacturer of high volume wire preparation and cable preparation. Equipped with an extensive range of automatic high speed wire cutting and wire termination machinery, we produce custom designed wire assemblies on an incredibly fast turnaround. With all our wire preparation assemblies being primarily machine manufactured, quality is continually consistent and meets ISO 9001 standards.
+    Assembly Solutions is an established manufacturer of wire preparation and [cable preparation](/cable-preparation) services. Equipped with an extensive range of automatic high speed machinery, we have the capability to cut, strip and terminate custom designed wire assemblies on an incredibly fast turnaround. With all our wire preparation assemblies being primarily machine manufactured, quality is continually consistent and meets ISO 9001 standards.
 
 
-    ### High Volume Wire & Cable Preparation
+    #### Wire Assemblies & Cable Preparation
 
 
     We manufacture an incredible 5,000 wire assemblies a minute using our high speed automatic machines. With very little labour involved, we are as competitive as china and eastern European countries. This is one of the many reasons why we are the supplier of choice for some of the worlds leading companies including Siemens, Stanley and Vodafone. At Assembly Solutions, we pride ourselves on being trusted and effective wire assembly manufacturers, without compromising on quality- or price.
