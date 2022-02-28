@@ -50,7 +50,7 @@ Assembly Solutions supply their custom-made cable assembly services and wiring h
 
 We enjoy and thrive off being involved in some of the most innovative and ground-breaking Automotive projects ever, that are changing the future of vehicles. With electric and hybrid vehicles increasing in demand we have adapted to this ever-growing revolution and work with world leading Automotive manufacturers including; Aston Martin, Ford and Vodafone Automotive. 
 
-Our Automotive projects include manufacturing cable assemblies for vehicle safety & security systems including stolen vehicle tracking devices. From transport to tractors, we also supply the Agricultural market with robust and hard wearing wiring harnesses for crop spraying machinery and potato harvesting equipment. 
+Our Automotive projects include manufacturing cable assemblies for vehicle safety & security systems including stolen vehicle tracking devices. From transport to tractors, we also supply the Agricultural market with robust and hard wearing [wiring harnesses](/wiring-harness) for crop spraying machinery and potato harvesting equipment. 
 
 **Medical Sector & Supporting NHS**
 
