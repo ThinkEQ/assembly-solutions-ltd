@@ -104,10 +104,10 @@ layout:
         #### 25 Years Of Cable Assembly Services
 
 
-        In 2020 we celebrated an incredible 25 years since Assembly Solutions was created by Founder Graham Balshaw. Our experience and knowledge has grown hugely over the years, leading us to become a UK trusted supplier of [cable assemblies](/cable-assemblies) and other wiring products.
+        We have supplied Cable Assembly services for over 25 Years, after the company was founded in 2020. It was an incredible milestone to reach and has been a journey of growth since the start, where we started off manufacturing only cable assemblies, and from there steadily grown, where we now also build [wiring looms and wiring harnesses](/wiring-loom).
 
 
-        Being a supplier of cable assembly services for over 25 years has extensively broadened our knowledge and expertise in multiple markets. These include; Automotive, General Engineering, Medical & Nuclear.
+        Our years of establishment and wealth of experience has see us grow into one a trusted UK leading British manufacturer which is reputable for all cable assembly services and other wiring products. Being a supplier of cable assembly services for over 25 years has extensively broadened our knowledge and expertise in multiple markets. These include; Automotive, General Engineering, Medical & Nuclear.
 
 
         Our cable assembly services and processes include;
