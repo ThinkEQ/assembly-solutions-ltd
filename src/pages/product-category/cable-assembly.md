@@ -131,18 +131,26 @@ layout:
         #### NHS Medical Cable Assemblies
 
 
-        Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for Covid testing apparatus, hospital bed cables, sterilisation[](www.assembly-solutions.com/cable-assemblies) [cable assemblies](/cable-assemblies)[](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. It has been an extremely challenging time and we're proud our of team that put in extra over time every week to show their support in helping hospitals all across the world.
+        Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for Covid testing apparatus, hospital bed cables, sterilisation[](www.assembly-solutions.com/cable-assemblies) [cable assemblies](/cable-assemblies)[](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. 
 
 
-        * Knowledgeable Engineers
+        It has been an extremely challenging time supporting the medical and healthcare industry, but we're immensely proud of our workforce that have put in extra over time every week to show their support in helping hospitals and ill patients all over the world.
+
+
+        **Why choose us for your cable assembly services?**
+
+
+        * Award Winning Company
+
+        * 98% Customer Satisfaction
 
         * Competitive Prices
 
-        * Excellent Service
+        * Fast Turnaround
+
+        * 25 Years Of Cable Assembly
 
         * Reliable & Flexible
-
-        * Experienced Team
 
 
         For expert and professional cable assembly services, [contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for a specially tailored quote and advice on your project.
