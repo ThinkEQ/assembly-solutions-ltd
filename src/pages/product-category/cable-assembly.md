@@ -96,7 +96,7 @@ layout:
         Manufacturing a prototype is a process we carry out for the introduction of all new cable assembly and [cable preparation assemblies](/cable-preparation). It helps to reveal any design flaws that could affect functionality, but also potential problems in the supply chain or manufacturing processes. A sample is good practice to ensure production is streamlined and efficient for the future volume builds.
 
 
-        Being able to offer the most cost-effective solution, is another reason that we carry out a prototype before production, as creating the first one-off helps us fully understand the total cost of production. Some connectors take longer to assemble if they require soldering or specialist skills and labour costs are based on the time it takes to complete a cable assembly. Prototyping a design allows us to explore ways to speed up production and reduce costs – for example by using components that are easier and quicker to assemble.
+        Being able to offer the most cost-effective solution, is another reason we carry out a prototype before production, as creating the first one-off helps us fully understand the total cost of production. Some connectors take longer to assemble if they require soldering or specialist skills so prototyping a design allows us to explore ways to speed up production, reduce labour time and reduce costs – for example by using components that are easier and quicker to assemble.
   - type: column
     column:
       title: ""
