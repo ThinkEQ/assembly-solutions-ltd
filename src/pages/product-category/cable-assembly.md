@@ -33,7 +33,7 @@ introcol:
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/JM9UP2GiQ_M?loop=1&playlist=JM9UP2GiQ_M' frameborder='0' allowfullscreen></iframe></div>
 
 
-    > ASL are a technically knowledgeable and quality committed cable assembly company. They have been our supplier for over 10 Years and continue to deliver excellent products & customer service. 
+    > "ASL are a brilliant technically knowledgeable and quality committed company. They have been our cable assembly supplier for over 10 Years and continue to deliver excellence. We really enjoy working with them, the sales team and technical engineers are always a delight to deal with!"
 
     >
 
@@ -93,7 +93,7 @@ layout:
         For all new cable assembly and cable preparation products, we create a sample prototype. This to ensure it meets customer approval and also helps to avoid any issues that could occur in future build including; part availability, quality processes or cost of components.   
 
 
-        Manufacturing a prototype is a process we carry out for the introduction of all new cable assembly and cable preparation assemblies. It helps to reveal any design flaws that could affect functionality, but also potential problems in the supply chain or manufacturing processes. A sample is good practice to ensure production is streamlined and efficient for the future volume builds.
+        Manufacturing a prototype is a process we carry out for the introduction of all new cable assembly and [cable preparation assemblies](/cable-preparation). It helps to reveal any design flaws that could affect functionality, but also potential problems in the supply chain or manufacturing processes. A sample is good practice to ensure production is streamlined and efficient for the future volume builds.
 
 
         Being able to offer the most cost-effective solution, is another reason that we carry out a prototype before production, as creating the first one-off helps us fully understand the total cost of production. Some connectors take longer to assemble if they require soldering or specialist skills and labour costs are based on the time it takes to complete a cable assembly. Prototyping a design allows us to explore ways to speed up production and reduce costs – for example by using components that are easier and quicker to assemble.
@@ -112,6 +112,8 @@ layout:
 
         Our cable assembly services and processes include;
 
+
+        * Cable Cut, Strip, Terminate
 
         * Cable Printing
 
@@ -143,7 +145,7 @@ layout:
         * Experienced Team
 
 
-        ##### For expert and professional cable assembly services, [contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for a specially tailored quote and advice on your project.
+        For expert and professional cable assembly services, [contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for a specially tailored quote and advice on your project.
 seo:
   title: "Cable Assembly Manufacturer | Cable Assemblies | Assembly Solutions "
   description: Assembly Solutions is the UK leading manufacturer of Cable Assembly
