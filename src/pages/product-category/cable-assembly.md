@@ -13,19 +13,19 @@ introcol:
     #### **Cable Assembly Manufacturer**
 
 
-    Assembly Solutions is a UK leading manufacturer of Cable Assembly & Cable Preparation Services. 
+    Assembly Solutions is a UK leading manufacturer of Cable Assembly & Cable Preparation Services. We're an award winning Bolton based family business, fully accredited to the Quality International Standards of **ISO 9001** and **ISO 45001**.
 
 
-    **We are accredited to the International Standards of ISO 9001 and ISO 45001.**
+    From simple cable assemblies through to large heavy duty cable prepared assemblies seen on our cable assembly video, we are fully equipped to manufacturer any type of electrical cable requirement. Our highly skilled wiring operating team are fully trained to the IPC Cable Assembly Standards, proving their quality in all cable assembly production processes; crimping, soldering, tinning and understanding acceptable tolerances set by the customer.
 
 
-    We're an award winning manufacturer based in Bolton and have a skilful team of 70 staff who help produce over 1,000 cable assemblies per week. Our friendly and focused operators are fully trained to the Cable Assembly Standards of IPC on all cable assembly production processes including; crimping, soldering, tinning and understanding acceptable tolerances set by the customer.
+    #### **Our Cable Assembly Services**
 
 
-    #### **Cable Assemblies**
+    We manufacture a wide range range of custom-made Cable Assembly products, from Automotive Electric Vehicle Battery Cables, through to Heavy Duty Machinery Equipment Power Cable Assemblies.
 
 
-    Our cable assembly UK products are delivered on a fast four week delivery, from receipt of sample approval. We make a cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
+    Every cable assembly batch is made exact to customer specification and passes through a precise Quality Inspection and 100% electrical test to ensure accuracy and reliability before being packed and despatched.  We pride ourselves on providing a highly efficient and cost-effective service, where all our cable assembly products are manufactured competitively and on a fast turnaround.
   second: >-
     #### **Video: Cable Assembly**
 
@@ -73,27 +73,30 @@ layout:
     column:
       title: ""
       text: >-
-        #### Custom Cable Assemblies
+        #### Custom Made Cable Assembly
 
 
-        All our cable assemblies are custom made to customer drawing and specification. We can assist with technical engineering before producing prototypes for sample approval, and our flexible way of working allows for any changes to specification before full volume batches begin. 
+        All our cable assembly products are manufactured to the exact customer drawing and specification. We have technical engineering expertise to support and advise of any beneficial technical or cost-effective changes to the cable assembly.
+
+
+        Every customer and their cable assembly requirement is unique and different to others that we manufacture, as we supply to such a diverse set of Industries. Our sales and engineering team work closely with customers to ensure we fully understand the application and purpose of the assembly. We provide cost-effective quotes, and run sample prototypes prior to full batch production to ensure quality and specification meets customer approval.
 
 
         Our customers really are a reflection of our quality and care, which is why we are immensely proud to manufacture cable assemblies for two world-renowned manufacturers, Aston Martin and Brompton Bicycle. These two customers are examples where the opportunities have grown from manufacturing a handful of their cable assembly products, to now producing an extensive range of cost-effective [cable assemblies](/cable-assemblies) and wiring looms to their operational plants.
-
-
-        Being a supplier of cable assembly services for over 25 years has extensively broadened our knowledge and expertise in multiple markets. These include; Automotive, General Engineering, Medical & Nuclear.
   - type: column
     column:
       title: ""
       text: >-
-        #### Cable Assembly Production
+        #### Cable Assembly Sample Prototype & Production
 
 
         We deliver over 1,000 cable assembly products per week and these are shipped worldwide to Industries including; Automotive, Medical, Security and Test & Measurement. Based in our large and lively Bolton factory, our cable assembly production is set up for fast turnaround and accurate manufacture.
 
 
         With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
+
+
+        A cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
   - type: column
     column:
       title: ""
@@ -102,6 +105,9 @@ layout:
 
 
         In 2020 we celebrated an incredible 25 years since Assembly Solutions was created by Founder Graham Balshaw. Our experience and knowledge has grown hugely over the years, leading us to become a UK trusted supplier of [cable assemblies](/cable-assemblies) and other wiring products.
+
+
+        Being a supplier of cable assembly services for over 25 years has extensively broadened our knowledge and expertise in multiple markets. These include; Automotive, General Engineering, Medical & Nuclear.
 
 
         Our cable assembly services and processes include;
