@@ -90,13 +90,13 @@ layout:
         #### Cable Assembly Prototype & Production
 
 
-        We deliver over 1,000 cable assembly products per week and these are shipped worldwide to Industries including; Automotive, Medical, Security and Test & Measurement. Based in our large and lively Bolton factory, our cable assembly production is set up for fast turnaround and accurate manufacture.
+        For all new cable assembly and cable preparation products, we create a sample prototype. This to ensure it meets customer approval and also helps to avoid any issues that could occur in future build including; part availability, quality processes or cost of components.   
 
 
-        With 25 years experience we have built a seamless service that offers customers a cable assembly solution, supporting them with design & development and delivering on a fast and flexible turnaround.
+        Manufacturing a prototype is a process we carry out for the introduction of all new cable assembly and cable preparation assemblies. It helps to reveal any design flaws that could affect functionality, but also potential problems in the supply chain or manufacturing processes. A sample is good practice to ensure production is streamlined and efficient for the future volume builds.
 
 
-        A cable assembly sample for all new products to ensure that the customer is 100% satisfied and happy for us to commence with full volume production. We work to only the highest quality standards and proud that all our cable assemblies are manufactured in our family run British Bolton factory.
+        Being able to offer the most cost-effective solution, is another reason that we carry out a prototype before production, as creating the first one-off helps us fully understand the total cost of production. Some connectors take longer to assemble if they require soldering or specialist skills and labour costs are based on the time it takes to complete a cable assembly. Prototyping a design allows us to explore ways to speed up production and reduce costs – for example by using components that are easier and quicker to assemble.
   - type: column
     column:
       title: ""
