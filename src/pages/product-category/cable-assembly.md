@@ -87,7 +87,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### Cable Assembly Sample Prototype & Production
+        #### Cable Assembly Prototype & Production
 
 
         We deliver over 1,000 cable assembly products per week and these are shipped worldwide to Industries including; Automotive, Medical, Security and Test & Measurement. Based in our large and lively Bolton factory, our cable assembly production is set up for fast turnaround and accurate manufacture.
@@ -101,7 +101,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### 25 Years Of Cable Assemblies
+        #### 25 Years Of Cable Assembly Services
 
 
         In 2020 we celebrated an incredible 25 years since Assembly Solutions was created by Founder Graham Balshaw. Our experience and knowledge has grown hugely over the years, leading us to become a UK trusted supplier of [cable assemblies](/cable-assemblies) and other wiring products.
