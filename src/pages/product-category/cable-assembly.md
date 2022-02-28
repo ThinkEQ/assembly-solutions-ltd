@@ -90,7 +90,7 @@ layout:
         #### Cable Assembly Prototype & Production
 
 
-        For all new cable assembly and cable preparation products, we create a sample prototype. This to ensure it meets customer approval and also helps to avoid any issues that could occur in future build including; part availability, quality processes or cost of components.   
+        For all new cable assembly and cable preparation products, we create a sample prototype. This to ensure it meets customer approval and also helps to avoid any issues that could occur in future build, such as part availability or quality processes.   
 
 
         Manufacturing a prototype is a process we carry out for the introduction of all new cable assembly and [cable preparation assemblies](/cable-preparation). It helps to reveal any design flaws that could affect functionality, but also potential problems in the supply chain or manufacturing processes. A sample is good practice to ensure production is streamlined and efficient for the future volume builds.
