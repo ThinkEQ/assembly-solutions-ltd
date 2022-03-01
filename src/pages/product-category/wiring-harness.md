@@ -10,22 +10,19 @@ usps:
   - usp: ISO 9001 Quality Approved
 introcol:
   first: >-
-    #### **UK Wiring Harness Manufacture**
+    #### **Wiring Harness Manufacturer**
 
 
-    Assembly Solutions is the UK leading manufacturer of high quality custom-made wiring harnesses and [wiring looms](/wiring-loom). With over 25 years in the industry, we have built up an incredible portfolio of customers including; Aston Martin, Ford, Rolls Royce and Siemens. 
+    Assembly Solutions is a UK leading manufacturer of high quality Wiring Harnesses and Wiring Looms. We're an award winning Bolton based family business, fully accredited to the Quality International Standards of **ISO 45001** and **ISO 45001**.
 
 
-    We're based in the heart of Bolton and operate under our own purpose built 32,000 sqft factory. All our wiring loom projects are quoted from customer drawing and specification. Our speciality is manufacture and build, but we have in-house wiring harness engineers who can assist with technical design.
+    We're based in the heart of Bolton and operate under our own purpose built 32,000 sqft factory. All our wiring loom projects are quoted from customer drawing and specification. Our speciality is manufacture and build, but we have in-house wiring harness engineers who can assist with technical design. We manufacture in low & high volume, and offer design/engineering support to ensure all looms and harnesses are built both cost-effective and fit for its application.
 
 
-    We manufacture in low & high volume, and offer design/engineering support to ensure all looms and harnesses are built both cost-effective and fit for its application.
+    #### **Our Wiring Harnesses Services**
 
 
-    #### **Award Winning Wiring Harnesses**
-
-
-    We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed.
+    We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed. With over 25 years in the industry, we have built up an incredible portfolio of customers including; Aston Martin, Ford, Rolls Royce and Siemens. 
 
 
     [Meet The Team](/team) who are passionate about producing quality wiring harnesses and providing an excellent customer service.
@@ -72,7 +69,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### **Custom Made Quality Wiring Harnesses**
+        #### **Custom Made Wiring Harnesses**
 
 
         As an ISO 9001 approved manufacturer we produce wiring harnesses to the highest quality and carry out a full electrical test on every product before despatch. Our harness team are trained to IPC A-620 standards and understand the importance of reliability. All our harnesses are built against customer drawing, and our skilled and quality conscious team are fully trained and technically well experienced harness builders. Every loom is made to perfection and turned around on an efficient 3-6 weeks. All our wiring assemblies are built to a robust and high quality standard that ensures products will withstand any environmental condition.
@@ -80,7 +77,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### **Supplying Industry Wire Harnesses**
+        #### **Industries We Supply Wire Harnesses**
 
 
         We manufacture wiring harnesses into a wide range of Industries and applications;
@@ -101,7 +98,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### **25 Years Wire Harness Experience**
+        #### **25 Years Of Wiring Harness**
 
 
         In our bright and spacious Bolton factory we have an efficient production set-up including 10m long wiring build boards and cable reels and connectors on stock trolleys. Due to the complexity and size of wiring harnesses and [wiring looms](/wiring-loom), our production team find that the fastest and most efficient way to build is by working off floor standing harness boards. All boards are custom made for each wiring harness part number with a CAD drawing made to scale and placed on the board prior to build. Our technical engineers ensure that the CAD drawing is printed with correct cable specifications and lengths, connectors and note any special processes that may need to be carried out ie. heat shrinking to protect particular areas of the harnesses.
@@ -115,15 +112,13 @@ layout:
     column:
       title: ""
       text: >-
-        #### **Automotive Wire Harness Manufacturer**
+        #### **Automotive Wiring Harness Manufacture**
 
 
-        We have supplied wiring harness products to the Automotive Industry for over 25 years and now proudly supply; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles. These include; Ambulances, Buses, Cars, Trucks, Trailers and Vans. Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters. Every  industrial wire harness we manufacutre is expertly designed and created with the best instruments and materials to assure both quality and safety for our customers.
+        We have supplied the Automotive Industry with Wiring Harness services for 25 Years and over this time have built a portfolio including; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles. These include; Ambulances, Buses, Cars, Trucks, Trailers and Vans. Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters. Every industrial wire harness we manufacture is expertly designed and created with the best instruments and materials to assure both quality and safety for our customers.
 
 
-
-
-        #### [Contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for expert advice and support. Our team will be happy to discuss your needs and provide you with a free quote.
+        [Contact Assembly Solutions](/contact) today for expert wiring harness advice. Our sales team will be happy to discuss your needs and provide you with a quick quote.
 seo:
   title: Wiring Harness Manufacturer | Wire Harness Supplier
   description: Assembly Solutions is the UK leading manufacturer of Wiring
