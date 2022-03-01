@@ -25,7 +25,7 @@ introcol:
     We supply a range a custom made wiring harness services, from assembling simple automotive harness leads, to high complexity full vehicle wiring harnesses combined with electrical control panel cabinets. 
 
 
-    Along side the harnesses, we also manufacture high voltage cables, electric cables, HV battery cables and EV inverter cables. We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed.
+    Along side the supply of harnesses, we also manufacture high voltage cables, electric cables, HV battery cables and EV inverter cables. We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed.
   second: >-
     #### **Wiring Harness Video**
 
