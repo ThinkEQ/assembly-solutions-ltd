@@ -16,13 +16,13 @@ introcol:
     Assembly Solutions is a UK leading manufacturer of high quality Wiring Harnesses and Wiring Looms. We're an award winning Bolton based family business, fully accredited to the Quality International Standards of **ISO 45001** and **ISO 45001**.
 
 
-    We're based in the heart of Bolton and operate under our own purpose built 32,000 sqft factory. All our wiring loom projects are quoted from customer drawing and specification. Our speciality is manufacture and build, but we have in-house wiring harness engineers who can assist with technical design. We manufacture in low & high volume, and offer design/engineering support to ensure all looms and harnesses are built both cost-effective and fit for its application.
+    With over 25 years in the industry, we have a wealth of experience in all types of electrical wiring harnesses and wire looms, and continue to supply to world leading companies. These include; Aston Martin, Ford, Rolls Royce and Siemens. All our wiring harness projects are quoted from customers CAD drawings, and we have in-house wiring harness engineers who can assist with technical design. We manufacture in low & high volume, and offer design/engineering support to ensure all cable looms and harnesses are built both cost-effective and fit for application.
 
 
-    #### **Our Wiring Harnesses Services**
+    #### **Our Wiring Harness Services**
 
 
-    We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed. With over 25 years in the industry, we have built up an incredible portfolio of customers including; Aston Martin, Ford, Rolls Royce and Siemens. 
+    We supply a range a custom made wiring harness services, from assembling simple automotive harness leads, to high complexity full vehicle wiring harnesses combined with electrical control panel cabinets. Along side the harnesses, we also manufacture high voltage cables, electric cables, HV battery cables and EV inverter cables. We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed. 
 
 
     [Meet The Team](/team) who are passionate about producing quality wiring harnesses and providing an excellent customer service.
