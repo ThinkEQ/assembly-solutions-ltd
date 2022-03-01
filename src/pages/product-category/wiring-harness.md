@@ -72,7 +72,7 @@ layout:
         #### **Custom Made Wiring Harnesses**
 
 
-        As an ISO 9001 approved manufacturer we produce wiring harnesses to the highest quality and carry out a full electrical test on every product before despatch. Our harness team are trained to IPC A-620 standards and understand the importance of reliability. All our harnesses are built against customer drawing, and our skilled and quality conscious team are fully trained and technically well experienced harness builders. Every loom is made to perfection and turned around on an efficient 3-6 weeks. All our wiring assemblies are built to a robust and high quality standard that ensures products will withstand any environmental condition.
+        All our wiring harnesses are custom made and manufactured against customer specification & drawing. As an ISO 9001 approved manufacturer we produce wiring harnesses to the highest quality and carry out a full electrical test on every product before despatch. Our harness team are trained to IPC A-620 standards and understand the importance of reliability. All our harnesses are built against customer drawing, and our skilled and quality conscious team are fully trained and technically well experienced harness builders. Every loom is made to perfection and turned around on an efficient 3-6 weeks. All our wiring assemblies are built to a robust and high quality standard that ensures products will withstand any environmental condition.
   - type: column
     column:
       title: ""
@@ -101,13 +101,10 @@ layout:
         #### **25 Years Of Wiring Harness**
 
 
-        In our bright and spacious Bolton factory we have an efficient production set-up including 10m long wiring build boards and cable reels and connectors on stock trolleys. Due to the complexity and size of wiring harnesses and [wiring looms](/wiring-loom), our production team find that the fastest and most efficient way to build is by working off floor standing harness boards. All boards are custom made for each wiring harness part number with a CAD drawing made to scale and placed on the board prior to build. Our technical engineers ensure that the CAD drawing is printed with correct cable specifications and lengths, connectors and note any special processes that may need to be carried out ie. heat shrinking to protect particular areas of the harnesses.
+        We're proud to have been in business for an impressive 25 Years and over this time been involved with some interesting and innovative wiring harness projects. In our bright and spacious Bolton factory we have an efficient production set-up including 10m long wiring build boards and cable reels and connectors on stock trolleys. 
 
 
-        We pride ourselves most of our fast deliveries which all include 100% electrically tested harnesses. Quality is the most important part of the wiring harnesses and we are pleased to be ISO 9001 accredited.
-
-
-        [Contact](https://www.assembly-solutions.com/contact) our team at Assembly Solutions today for more information and support
+        Due to the complexity and size of wiring harnesses and [wiring looms](/wiring-loom), our production team find that the fastest and most efficient way to build is by working off floor standing harness boards. All boards are custom made for each wiring harness part number with a CAD drawing made to scale and placed on the board prior to build. Our technical engineers ensure that the CAD drawing is printed with correct cable specifications and lengths, connectors and note any special processes that may need to be carried out ie. heat shrinking to protect particular areas of the harnesses. We pride ourselves most of our fast deliveries which all include 100% electrically tested harnesses. Quality is the most important part of the wiring harnesses and we are pleased to be ISO 9001 accredited.
   - type: column
     column:
       title: ""
