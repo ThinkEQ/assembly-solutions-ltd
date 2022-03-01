@@ -76,7 +76,7 @@ layout:
         #### Custom Made Cable Assembly
 
 
-        All our cable assembly products are manufactured to the exact customer drawing and specification. We have technical engineering expertise to support and advise of any beneficial technical or cost-effective changes to the cable assembly.
+        All our cable assembly products are manufactured to customer drawing and specification. We have technical engineering expertise to support and advise of any beneficial technical or cost-effective changes to the cable assembly.
 
 
         Every customer and their cable assembly requirement is unique and different to others that we manufacture, as we supply to such a diverse set of Industries. Our sales and engineering team work closely with customers to ensure we fully understand the application and purpose of the assembly. We provide cost-effective quotes, and run sample prototypes prior to full batch production to ensure quality and specification meets customer approval.
