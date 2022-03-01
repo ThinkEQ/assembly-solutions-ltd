@@ -22,10 +22,10 @@ introcol:
     #### **Our Wiring Harness Services**
 
 
-    We supply a range a custom made wiring harness services, from assembling simple automotive harness leads, to high complexity full vehicle wiring harnesses combined with electrical control panel cabinets. Along side the harnesses, we also manufacture high voltage cables, electric cables, HV battery cables and EV inverter cables. We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed. 
+    We supply a range a custom made wiring harness services, from assembling simple automotive harness leads, to high complexity full vehicle wiring harnesses combined with electrical control panel cabinets. 
 
 
-    [Meet The Team](/team) who are passionate about producing quality wiring harnesses and providing an excellent customer service.
+    Along side the harnesses, we also manufacture high voltage cables, electric cables, HV battery cables and EV inverter cables. We're an award winning family business who are committed to quality and building strong relationships with customers. Our fantastic team of wiring harness builders all have over 10 years of wiring experience and work at such an incredible speed.
   second: >-
     #### **Wiring Harness Video**
 
@@ -105,6 +105,9 @@ layout:
 
 
         Due to the complexity and size of wiring harnesses and [wiring looms](/wiring-loom), our production team find that the fastest and most efficient way to build is by working off floor standing harness boards. All boards are custom made for each wiring harness part number with a CAD drawing made to scale and placed on the board prior to build. Our technical engineers ensure that the CAD drawing is printed with correct cable specifications and lengths, connectors and note any special processes that may need to be carried out ie. heat shrinking to protect particular areas of the harnesses. We pride ourselves most of our fast deliveries which all include 100% electrically tested harnesses. Quality is the most important part of the wiring harnesses and we are pleased to be ISO 9001 accredited.
+
+
+        [Meet The Team](/team) who are passionate about producing quality wiring harnesses and providing an excellent customer service.
   - type: column
     column:
       title: ""
@@ -112,7 +115,11 @@ layout:
         #### **Automotive Wiring Harness Manufacture**
 
 
-        We have supplied the Automotive Industry with Wiring Harness services for 25 Years and over this time have built a portfolio including; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles. These include; Ambulances, Buses, Cars, Trucks, Trailers and Vans. Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters. Every industrial wire harness we manufacture is expertly designed and created with the best instruments and materials to assure both quality and safety for our customers.
+        We have supplied the Automotive Industry with Wiring Harness services for 25 Years and over this time have built a portfolio including; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles. These include; Ambulances, Buses, Cars, Trucks, Trailers and Vans. \
+
+        \
+
+        Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters. Every industrial wire harness we manufacture is expertly designed and created with the best instruments and materials to assure both quality and safety for our customers.
 
 
         [Contact Assembly Solutions](/contact) today for expert wiring harness advice. Our sales team will be happy to discuss your needs and provide you with a quick quote.
