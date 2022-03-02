@@ -37,7 +37,7 @@ introcol:
 
     >
 
-    > Electrical Engineering Manager – Alexander Dennis
+    > Electrical Engineering Manager, Alexander Dennis
 images:
   - image: /img/wiring-loom-harness.jpg
     alt: Wiring Harness
