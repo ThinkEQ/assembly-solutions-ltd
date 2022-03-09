@@ -33,7 +33,7 @@ layout:
         Based in Bolton, we run an efficient manufacturing service that covers a range of control panel types, from small simple box build to highly complex panel build assembly.
 
 
-        * Electrical Control Panel Wiring
+        * Electrical Control Panel Wire
 
         * CAD & Development 
 
@@ -47,13 +47,13 @@ layout:
         #### Quality & Family Values
 
 
-        Quality is critical for all the products we manufacture, especially [control panels](www.assembly-solutions.com/control-panels). Delivering into industries including Nuclear and Utilities means that we have to take extra care to produce quality products that are 100% reliable under their conditions.  
+        Quality is critical for all the products we manufacture, especially [control panels](www.assembly-solutions.com/control-panels). Delivering into industries including Nuclear and Utilities means that we have to take extra care to produce quality products that are 100% reliable under their conditions.   Our control panel wire and instruments are quality assured to provide our customers with reliable and effective products. 
 
 
         One of our strengths that we highly pride ourselves on is our family values. As a family-run business owned by the second generation, we are passionate about maintaining a happy and healthy workforce, and also building close partnerships with our customers.
   - type: column
     column:
-      title: Industry Electrical Control Panels
+      title: Specialist Electrical Control Panel Wire
       text: >-
         Here is a range of [control
         panels](www.assembly-solutions.com/control-panels) that we manufacture;
