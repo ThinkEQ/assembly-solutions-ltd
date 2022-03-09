@@ -78,7 +78,8 @@ layout:
 
         > Electrical Engineer – Siemens
 seo:
-  title: Electrical Control Panels | UK Panel Wiring Supplier | Assembly Solutions
+  title: Control Panel Wire Manufacturers | Electrical Control Panels | Assembly
+    Solutions
   description: "Control panel wire & electrical control panels available from
     Assembly Solutions. Safety accredited and quality assured control panel wire
     products. Contact our team today. "
