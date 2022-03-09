@@ -79,9 +79,8 @@ layout:
         > Electrical Engineer – Siemens
 seo:
   title: Electrical Control Panels | UK Panel Wiring Supplier | Assembly Solutions
-  description: Assembly Solutions Is A UK Manufacturer Of Electrical Control
-    Panels and Electrical Panel Wiring. We Are A Quality Approved Supplier With
-    ISO 9001 And Have An Excellent 98% Customer Satisfaction Reviews. Contact Us
-    Today To Discuss Your Electrical Control Panel Requirements.
+  description: "Control panel wire & electrical control panels available from
+    Assembly Solutions. Safety accredited and quality assured control panel wire
+    products. Contact our team today. "
   og-url: https://www.assembly-solutions.com/electrical-control-panels
 ---
