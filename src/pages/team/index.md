@@ -173,9 +173,9 @@ team-members:
     linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
   - name: Adam Tunnah
     jobtitle: Costing Analyst
-    bio: Adam is our young and skilful Costing Engineer who has expertise in driving
-      down product costs to secure new and existing business. With a close
-      attention to detail, Adam is excellent at producing cost-effective
+    bio: Adam is our bright and skilful Costing Engineer who has expertise in
+      driving down product costs to secure new and existing business. With a
+      close attention to detail, Adam is excellent at producing cost-effective
       costings through negotiating with the supply chain and having a clear
       understanding of production batch cards. Adam has hugely contributed
       towards winning new contracts and retaining existing customers. He is a
