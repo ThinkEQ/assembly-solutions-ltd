@@ -177,10 +177,9 @@ team-members:
       down product costs to secure new and existing business. With a close
       attention to detail, Adam is excellent at producing cost-effective
       costings through negotiating with the supply chain and having a clear
-      understanding of production batch cards. After joining in 2018 through an
-      Apprenticeship scheme, he has already hugely contributed towards winning
-      new contracts and retaining existing customers. Adam is a passionate
-      Tottenham Hotspur fan and a competitive Xbox gamer!
+      understanding of production batch cards. Adam has hugely contributed
+      towards winning new contracts and retaining existing customers. He is a
+      passionate Tottenham Hotspur fan and a competitive Xbox gamer!
     image: /img/team12.png
     interests:
       - football
