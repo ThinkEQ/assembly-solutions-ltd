@@ -53,8 +53,8 @@ team-members:
       oversees our Supply Chain. He is qualified in CIPS (Chartered Institute of
       Procurement & Supply) and has over 10 years experience in production
       manufacturing. His skills have recently been utilised to support our
-      production team with project management for an urgent order. Oliver is an
-      F1 fanatic and an awesome snowboarder!
+      production team with project management for urgent customer orders. Oliver
+      is an F1 fanatic and an awesome snowboarder!
     image: /img/team4-2-.png
     interests:
       - formula1
