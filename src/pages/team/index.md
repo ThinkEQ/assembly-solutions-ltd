@@ -49,14 +49,12 @@ team-members:
     linkedin: https://www.linkedin.com/in/sophie-balshaw/
   - name: Oliver Balshaw MCIPS
     jobtitle: Purchasing Director
-    bio: Oliver is a man of many hats but his core focus is managing our Supply
-      Chain. He is due to qualify in CIPS (Chartered Institute of Procurement &
-      Supply) in summer 2021, after 4 lengthy years of night classes and exams.
-      Oliver has over 10 years of production manufacturing experience after
-      working hands on and learning from his father from a very young age. His
-      skills have recently been utilised to support our production team with
-      project management for an urgent order. Oliver is an F1 fanatic and an
-      awesome snowboarder!
+    bio: Oliver is our technically knowledgeable Purchasing Director who manages and
+      oversees our Supply Chain. He is qualified in CIPS (Chartered Institute of
+      Procurement & Supply) and has over 10 years experience in production
+      manufacturing. His skills have recently been utilised to support our
+      production team with project management for an urgent order. Oliver is an
+      F1 fanatic and an awesome snowboarder!
     image: /img/team4-2-.png
     interests:
       - formula1
