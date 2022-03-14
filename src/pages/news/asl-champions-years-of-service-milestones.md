@@ -54,10 +54,9 @@ layout:
     testimonial:
       alignment: standard
       name: Gareth Balshaw, Managing Director
-      quote: This feels like a very special place in our factory and is a feature
+      quote: "This feels like a very special place in our factory and is a feature
         we're proud to have created, showing thanks and recognition to those
-        that have been on our journey for so long. We have two more people to
-        add later in the year when they reach their 10 Years.
+        that have been on our journey for so long. "
 seo:
   title: ASL Champions | Years Of Service Milestones
   description: Assembly Solutions have a wall dedicated to those staff who have
