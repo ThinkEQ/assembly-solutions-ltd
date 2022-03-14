@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Champions - Years Of Service Milestones
+title: ASL Champions - Celebrating Staff Milestones
 date: 2022-03-14T14:43:50.428Z
 image: /img/asl-champions.jpg
 layout:
@@ -22,7 +22,7 @@ layout:
         When a staff member reaches the 10 Year Milestone, they are gifted with a voucher, bottle of bubbly and chocolate hamper. We also get a Domino's Delivery or Carrs Pasties Delivery at dinner time on the day, for all the team to enjoy - this goes down a treat!
 
 
-        The current champions are;\
+        **The current champions are;**\
 
         \
 
