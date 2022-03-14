@@ -19,7 +19,7 @@ layout:
         We're always looking at ways to continually improve our culture and when reflecting on how we celebrate a staff milestone, we had the idea to dedicate a wall to those who had served 10 years or more.
 
 
-        When a staff member reaches the 10 Year Milestone, they're gifted with a Voucher, bottle of Bubbly and Chocolate Hamper. We also arrange a Domino's Delivery or Carrs Pasties Delivery at dinner time on the day, for all the team to enjoy - this goes down a treat!\
+        When a staff member reaches their 10 Year Milestone, the company is pleased they're gifted with a Voucher, bottle of Bubbly and Chocolate Hamper. We also arrange a Domino's Delivery or Carrs Pasties Delivery at dinner time on the day, for all the team to enjoy - this goes down a treat!\
 
         \
 
@@ -57,6 +57,18 @@ layout:
         10 Years - Kath Postle\
 
         10 Years - Ioan Moreno
+
+
+        At Assembly Solutions we realise that our greatest asset is our employees and it's with immense pride to see so many that have reached significant years of service milestones.
+
+
+        It is our employees who uphold our core values, demonstrate our vision and deliver an excellent customer service in all areas of our [cable assembly](/cable-assembly), [wiring harness](/wiring-harness) and [control panel manufacturing](/control-panels).
+
+
+        The success of our manufacturing services is a direct result of teams efforts and dedication. Their commitment to quality and their effort to work well with the team and keep aligned to the family values, is of upmost importance to the companies future.
+
+
+        Today, and everyday we celebrate those who continue their loyalty and commitment to our success, and we look forward to seeing many more ASL Champions on the wall.
   - type: testimonial
     testimonial:
       alignment: centre
