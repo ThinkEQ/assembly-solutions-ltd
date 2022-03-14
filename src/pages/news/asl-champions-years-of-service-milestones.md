@@ -59,7 +59,7 @@ layout:
         10 Years - Ioan Moreno
   - type: testimonial
     testimonial:
-      alignment: standard
+      alignment: centre
       name: Gareth Balshaw, Managing Director
       quote: This feels like a very special place in our factory and is a feature
         we're proud to have created, showing thanks and recognition to those
