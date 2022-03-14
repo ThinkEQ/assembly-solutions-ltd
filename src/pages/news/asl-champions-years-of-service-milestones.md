@@ -8,7 +8,7 @@ layout:
     full:
       title: ""
       text: >-
-        14th March 2022\
+        March 14, 2022\
 
         **ASL Champions - Celebrating Staff Milestones**
 
@@ -16,16 +16,15 @@ layout:
         The loyalty and level of commitment from our team is absolutely outstanding and so high that we have created a feature wall representing staff who have reached 10 Years (or more) service.
 
 
-        We're always looking at way to continually improve our culture and when reflecting on how we celebrate a staff milestone, we had the idea to dedicate a wall to those who had served 10 years or more.
+        We're always looking at ways to continually improve our culture and when reflecting on how we celebrate a staff milestone, we had the idea to dedicate a wall to those who had served 10 years or more.
 
 
         When a staff member reaches the 10 Year Milestone, they're gifted with a Voucher, bottle of Bubbly and Chocolate Hamper. We also arrange a Domino's Delivery or Carrs Pasties Delivery at dinner time on the day, for all the team to enjoy - this goes down a treat!\
 
         \
 
-        **The current champions are;**\
+        **The current champions are;**
 
-        \
 
         20 Years - Damien Walsh\
 
