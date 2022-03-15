@@ -42,7 +42,7 @@ seo:
     to discuss your electrical assembly requirements. "
   og-url: https://www.assembly-solutions.com/industries
 ---
-##### **Industries & Market Sectors**
+**Industries & Market Sectors**
 
 Assembly Solutions supply their custom-made cable assembly services and wiring harness assemblies to an extensive range of innovative Industries and Markets including; Automotive, Rail, Security and Utilities. 
 
