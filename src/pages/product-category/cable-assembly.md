@@ -41,6 +41,8 @@ introcol:
 images:
   - image: /img/saduf-cable-assemblies.jpg
     alt: saduf-cable-assemblies
+  - image: /img/cable-assembly-new.png
+    alt: cable-assembly-connector
   - image: /img/cable-assembly-01.png
     alt: Cable Assembly
   - image: /img/heavy-duty-cable-assembly.png
