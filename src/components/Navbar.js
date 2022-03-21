@@ -104,18 +104,57 @@ const MainNav = ({ onClose}) => (
       <Link as={ReachLink} to="/team" onClick={onClose} size="lg" variant="nav">Team</Link>
     </Box>
     <Box as="li" display="block">
+      <Link as={ReachLink} to="/projects" onClick={onClose} size="lg" variant="nav">Projects</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/industries" onClick={onClose} size="lg" variant="nav">Markets</Link>
+    </Box>
+    <Box as="li" display="block">
       <Link as={ReachLink} to="/videos" onClick={onClose} size="lg" variant="nav">Videos</Link>
     </Box>
     <Box as="li" display="block">
       <Link as={ReachLink} to="/news" onClick={onClose} size="lg" variant="nav">News</Link>
     </Box>
+
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/projects" onClick={onClose} size="lg" variant="nav">Projects</Link>
+      <Link as={ReachLink} to="/cable-assembly" onClick={onClose} size="lg" variant="nav">Cable Assembly</Link>
     </Box>
     <Box as="li" display="block">
-      <Link as={ReachLink} to="/industries" onClick={onClose} size="lg" variant="nav">Industries</Link>
+      <Link as={ReachLink} to="/cable-assemblies" onClick={onClose} size="lg" variant="nav">Cable Assemblies</Link>
     </Box>
+
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/wiring-harness" onClick={onClose} size="lg" variant="nav">Wiring Harness</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/wiring-loom" onClick={onClose} size="lg" variant="nav">Wiring Looms</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/cable-looms" onClick={onClose} size="lg" variant="nav">Cable Looms</Link>
+    </Box>
+
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/control-panels" onClick={onClose} size="lg" variant="nav">Control Panels</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/electrical-control-panels" onClick={onClose} size="lg" variant="nav">Electrical Control Panels</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/panel-wiring" onClick={onClose} size="lg" variant="nav">Panel Wiring</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/panel-build" onClick={onClose} size="lg" variant="nav">Panel Build</Link>
+    </Box>
+
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/wire-preparation" onClick={onClose} size="lg" variant="nav">Wire Preparation</Link>
+    </Box>
+    <Box as="li" display="block">
+      <Link as={ReachLink} to="/cable-preparation" onClick={onClose} size="lg" variant="nav">Cable Preparation</Link>
+    </Box>
+    
   </Box>
+  
   <Box as="ul" textDecoration="none">
       <Box as="li" display="block">
         <Link as={ReachLink} to="/wire-preparation" onClick={onClose} size="lg" variant="nav">Wire Preparation</Link>
