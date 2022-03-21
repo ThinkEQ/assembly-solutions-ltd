@@ -10,6 +10,8 @@ image: /img/cable-assemblies.jpg
 images:
   - image: /img/cable-assembly-01.png
     alt: Cable Assemblies
+  - image: /img/cable-assembly-new.png
+    alt: cable-assembly-connector
   - image: /img/cable-assembly-asl3rdnovember-74.jpg
     alt: Cable Assembly
     products: Cable Preperation
