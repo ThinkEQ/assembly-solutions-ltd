@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: "What’s the Difference: Wiring Harnesses & Cable Assembly"
-date: 2021-11-10T08:23:08.524Z
+date: 2020-11-10T08:23:08.524Z
 image: /img/cable-looms-3-.jpg
 layout:
   - type: full
