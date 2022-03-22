@@ -1,10 +1,9 @@
 import React from 'react'
 import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
-import { } from 'gatsby-plugin-google-gtag'
 
 // Load components
-import { keyframes, Heading, Button, Box, Text, Link, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from '@chakra-ui/react'
+import { keyframes, Heading, Button, Box, Text, Link, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea, Stack } from '@chakra-ui/react'
 import Hamburger from './UI/Hamburger/Hamburger'
 import Svg from '../components/UI/SVG/index'
 import GMap from '../components/Map/Map'
@@ -82,18 +81,7 @@ const ContactForm = ({ isSubmitting }) => {
 
 const MainNav = ({ onClose}) => (
   <Box paddingBottom={{base: "40px", lg: "0"}}>
-  <Box display="flex" alignItems="flex-start" flexDirection={{base: "column", lg: "row"}} justifyContent="space-around">
-   <Box as="ul" paddingBottom="20px" position="relative" _after={{ 
-    display: {base: "none", lg: "block"},
-    position: "absolute",
-    content: "''",
-    top:  "20px",
-    right: "-40px",
-    opacity: "0.3",
-    height: "70%",
-    width: "1px",
-    background: "#fff"
-  }}>
+   <Box as="ul" paddingBottom="20px" >
     <Box as="li" display="block">
       <Link as={ReachLink} to="/" onClick={onClose} size="lg" variant="nav">Home</Link>
     </Box>
@@ -112,14 +100,14 @@ const MainNav = ({ onClose}) => (
     <Box as="li" display="block">
       <Link as={ReachLink} to="/videos" onClick={onClose} size="lg" variant="nav">Videos</Link>
     </Box>
-    <Box as="li" display="block">
+    <Box as="li" display="block" mb={6}>
       <Link as={ReachLink} to="/news" onClick={onClose} size="lg" variant="nav">News</Link>
     </Box>
 
     <Box as="li" display="block">
       <Link as={ReachLink} to="/cable-assembly" onClick={onClose} size="lg" variant="nav">Cable Assembly</Link>
     </Box>
-    <Box as="li" display="block">
+    <Box as="li" display="block" mb={6}>
       <Link as={ReachLink} to="/cable-assemblies" onClick={onClose} size="lg" variant="nav">Cable Assemblies</Link>
     </Box>
 
@@ -129,7 +117,7 @@ const MainNav = ({ onClose}) => (
     <Box as="li" display="block">
       <Link as={ReachLink} to="/wiring-loom" onClick={onClose} size="lg" variant="nav">Wiring Looms</Link>
     </Box>
-    <Box as="li" display="block">
+    <Box as="li" display="block" mb={6}>
       <Link as={ReachLink} to="/cable-looms" onClick={onClose} size="lg" variant="nav">Cable Looms</Link>
     </Box>
 
@@ -142,7 +130,7 @@ const MainNav = ({ onClose}) => (
     <Box as="li" display="block">
       <Link as={ReachLink} to="/panel-wiring" onClick={onClose} size="lg" variant="nav">Panel Wiring</Link>
     </Box>
-    <Box as="li" display="block">
+    <Box as="li" display="block" mb={6}>
       <Link as={ReachLink} to="/panel-build" onClick={onClose} size="lg" variant="nav">Panel Build</Link>
     </Box>
 
@@ -152,27 +140,10 @@ const MainNav = ({ onClose}) => (
     <Box as="li" display="block">
       <Link as={ReachLink} to="/cable-preparation" onClick={onClose} size="lg" variant="nav">Cable Preparation</Link>
     </Box>
-    
-  </Box>
-  
-  <Box as="ul" textDecoration="none">
-      <Box as="li" display="block">
-        <Link as={ReachLink} to="/wire-preparation" onClick={onClose} size="lg" variant="nav">Wire Preparation</Link>
-      </Box>
-      <Box as="li" display="block">
-      <Link as={ReachLink} to="/cable-assembly" onClick={onClose} size="lg" variant="nav">Cable Assembly</Link>
-      </Box>
-      <Box as="li" display="block">
-      <Link as={ReachLink} to="/wiring-harness" onClick={onClose} size="lg" variant="nav">Wiring Harness</Link>
-      </Box>
-      <Box as="li" display="block">
-      <Link as={ReachLink} to="/control-panels" onClick={onClose} size="lg" variant="nav">Control Panels</Link>
-      </Box>
-    </Box>
-  </Box>
+</Box>
  
  
-  <Box display="flex" alignItems="center" margin={{base: "20px 0px", lg: "0 70px"}} paddingBottom="20px">
+  <Box display="flex" alignItems="center" paddingBottom="20px">
     <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" target="_blank" isExternal cursor="pointer">
       <Svg name="youtube" fill="#fff" />
     </Link>
@@ -288,7 +259,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
             <Svg name="chat" color="#fff" />
             <Text {...navText} marginLeft="5px">get in touch</Text>
           </Box>
-        <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="xl">
+        <Drawer autoFocus={false} placement="right" isOpen={isOpen} onClose={onClose} closeOnEsc closeOnOverlayClick size="lg">
         <DrawerOverlay />
         <DrawerContent animation={`${flow} infinite 10s ease`}  background={menu === 'nav' ? 'gradient.900' : 'gradient.800'}  zIndex="2000" backgroundSize="600% 600%" >
           <DrawerHeader minHeight="100px" padding="0" width="100%">
@@ -316,7 +287,7 @@ const Navbar = ({ menu, toggleDrawer, isOpen, onClose }) => {
             </Box>
           }
           </DrawerHeader>
-            <DrawerBody paddingRight={{base: "20px", lg: "100px"}}>
+            <DrawerBody>
              {menuDisplay}
             </DrawerBody>
         </DrawerContent>
