@@ -2,14 +2,15 @@
 templateKey: team-page
 title: Team
 team-members:
-  - bio: Graham created Assembly Solutions in 1995 aged 35 after always having a
-      passion to build a leading electrical sub-contract manufacturer.
-      Electrical wiring came natural to Graham from a very early age after his
-      father Terry taught him how to wire his first plug aged 4! Attending
-      Manchester University to qualify in Electrical Engineering, Graham went on
-      to work for electrical giants Phillips and Triscan before creating ASL.
-      Graham is the National Time Trials Cycling Champion (CAT E) after winning
-      the title in 2020!
+  - bio: Graham created Assembly Solutions in 1995 aged 35 after always having the
+      passion to build a successful business in electrical assemblies. From a
+      very early age, Electronics came natural to Graham and it's not surprising
+      after his father Terry taught him how to wire his first plug when he was
+      just 4 years old! After studying Electrical Engineering at Manchester
+      University, Graham secured a sought after Production Manager position at
+      Phillips, and later down the line made the big leap to leave and create
+      Assembly Solutions. Graham enjoys cycling & golf, and a challenge at
+      chess!
     interests:
       - cycling
       - golf
