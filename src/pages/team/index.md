@@ -147,7 +147,7 @@ team-members:
   - name: Gary Scowcroft
     jobtitle: Technical Sales Engineer
     bio: Gary has an impressive 40 years of experience in the Electronics & Cable
-      Assembly Industry. Since joining us in 2017, his phenomenal wealth of
+      Assembly Industry. Since he joined us in 2017, his phenomenal wealth of
       knowledge has transformed the way we win new business by working with
       customers and supporting them with project design development. He ensures
       that the transition from engineering out to production runs absolutely
