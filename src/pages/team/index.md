@@ -160,12 +160,13 @@ team-members:
       - climbing-wall
   - name: Michele Barnes
     jobtitle: Sales Administrator
-    bio: Michele is our bubbly sales office administrator who is the backbone of our
-      sales department. She is committed to giving customers the best possible
-      service and the work she carries out is always to the highest quality. Her
-      role covers a range of responsibilities including processing customer
-      orders and dealing with customer queries. Michele is a devoted grandma and
-      a real bookworm!
+    bio: Michele is our bright & bubbly Sales Administrator and is the fastest
+      typist you've even seen! She is committed to giving customers the best
+      possible service and the work she carries out is always to the highest
+      quality. Her role covers a range of responsibilities including processing
+      customer orders and dealing with customer queries. Michele is a big lover
+      of cake & gin, and enjoys spending spare time with her gorgeous
+      Grand-daughter Emily.
     image: /img/team11-1-.png
     interests:
       - reading
