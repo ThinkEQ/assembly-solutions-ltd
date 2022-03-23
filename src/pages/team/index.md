@@ -192,9 +192,9 @@ team-members:
       - cooking
       - hiking
     image: /img/susan-gaskell.jpg
-    bio: Susan is Purchasing & Production Planner with over 10 Years Experience. In
-      her spare time Susan enjoys travelling and has practised yoga for an
-      incredible 33 years!
+    bio: Susan is our Purchasing Supervisor & Production Planner with over 10 Years
+      Experience. In her spare time Susan enjoys travelling and has practised
+      yoga for an incredible 33 years!
   - name: Tony Lundy
     jobtitle: Health & Safety Advisor
     bio: Tony is a Chartered Manager, OSHCR registered health & safety professional
