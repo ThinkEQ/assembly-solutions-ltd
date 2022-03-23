@@ -66,10 +66,10 @@ team-members:
     image: /img/team5-1-.png
     bio: Damien holds the incredible title of being our longest serving employee! He
       has served an outstanding 20 Years, after joining as a production operator
-      in 1999! Throughout the years, Damien has shown a quality and commitment
-      to his work that has led him to his role today as Production Manager for
-      Harnesses and Control Panels. Damien is an expert in Automotive Wiring and
-      his technical & leadership skills have contributed to some of our most
+      in 1999! Throughout the years, he has shown a quality and commitment to
+      his work that has led him to his role today as Production Manager for
+      Harnesses and Control Panels. He's an expert in Automotive Wiring and his
+      technical & leadership skills have contributed to some of our most
       challenging but successful contracts to date. Damien enjoys field archery
       and likes to cook tasty vegan dishes!
     interests:
