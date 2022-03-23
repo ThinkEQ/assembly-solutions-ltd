@@ -28,7 +28,7 @@ layout:
         There a huge benefits of outsourcing wire harness production, for example, from Assembly Solutions. For one, there are significantly reduced costs both in terms of direct labour and capital spend. There is also greater efficiencies that are achieved by using a company like Assembly Solutions for wiring harness production. At Assembly Solutions, we supply great quality and safety assured wiring harnesses for a wide variety of industries.  Using a wiring harness producer, like Assembly Solutions, offer a superior quality finish and incorporate quality assurance procedures to reduce the risk of faults in the completed products.
 
 
-        ## What is Cable Assembly? 
+        ## What is a Cable Assembly? 
 
 
         A [cable assembly](www.assembly-solutions.com/cable-assembly) is very similar to a wiring harness. This is because both types follow a pre-designed layout that holds several wires together. However, cable assemblies have the ability to incorporate and hold together individual wires and multicore cables. The biggest difference between cable assemblies and wiring harnesses is that with cable assembly the wiring system is protected by an external casing. Usually made from rubber or vinyl in order to protect the wires and cables from extreme weather, chemical substances and physical damage.   
