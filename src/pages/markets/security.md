@@ -18,5 +18,5 @@ seo:
     Custom Made Cables And Wiring Assemblies. Contact us today on 01204 521999
     for a Competitive Quotation.
   title: Security Cable Assemblies & Wire Preparation
-  og-url: www.assembly-solutions.com/security
+  og-url: www.assembly-solutions.com/markets/security
 ---
