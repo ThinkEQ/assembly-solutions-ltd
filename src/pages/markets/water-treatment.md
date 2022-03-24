@@ -16,5 +16,5 @@ seo:
     Water Treatment Sector. Contact us today on 01204 521999 for a Competitive
     Quote.
   title: Water Treatment Cable Assemblies
-  og-url: www.assembly-solutions.com/water-treatment
+  og-url: www.assembly-solutions.com/markets/water-treatment
 ---
