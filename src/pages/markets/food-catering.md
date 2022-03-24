@@ -15,5 +15,5 @@ seo:
   description: Assembly Solutions is a UK manufacturer of Cable Assemblies and
     Wiring Looms for the Food & Catering Industry. Contact us today on 01204
     521999 to discuss your cable requirements.
-  og-url: www.assembly-solutions.com/food-and-catering
+  og-url: www.assembly-solutions.com/markets/food-and-catering
 ---
