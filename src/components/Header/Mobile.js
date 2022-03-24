@@ -3,7 +3,7 @@ import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
 
 // Load components
-import { keyframes, Heading, Button, Box, Text, Link, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea, Stack } from '@chakra-ui/react'
+import { keyframes, Heading, Button, Box, Text, Link, Drawer, DrawerBody, DrawerContent, DrawerOverlay, DrawerHeader, DrawerCloseButton, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from '@chakra-ui/react'
 import Hamburger from '../UI/Hamburger/Hamburger'
 import Svg from '../UI/SVG/index'
 import GMap from '../Map/Map'

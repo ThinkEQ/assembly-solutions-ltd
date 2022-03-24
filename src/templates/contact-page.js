@@ -68,8 +68,8 @@ const ContactForm = ({ isSubmitting }) => {
   )
 }
 
-const ContactPageTemplate = ({ title, content, contentComponent, subtitle, imgSrc }) => {
-  const PageContent = contentComponent || Content
+const ContactPageTemplate = ({ title, subtitle }) => {
+  //const PageContent = contentComponent || Content
 
   function ga() {
             

@@ -4,36 +4,13 @@ import { Link as ReachLink } from 'gatsby'
 // Load components
 import { Box, Text, Link, keyframes, List, ListItem, Menu, MenuItem, MenuButton, MenuList } from '@chakra-ui/react'
 import Svg from '../UI/SVG/index'
+import MarketsList from '../StaticQueries/MarketsListNav'
 
 const flow = keyframes `
   0%{background-position: 0% 50%}
   50%{background-position: 100% 50%}
   100%{background-position: 0% 50%}
 `
-// const producsList = [
-//     //     {
-//     //         to: '/cable-assembly',
-//     //         name: 'Cable Assembly'
-//     //     },
-//     //     {
-//     //         to: '/cable-assemblies',
-//     //         name: 'Cable Assemblies'
-//     //     },
-//     //     {
-//     //         to: '/wiring-harness',
-//     //         name: 'Wiring Harness'
-//     //     },
-//     //     {
-//     //         to: '/wiring-loom',
-//     //         name: 'Wiring Looms'
-//     //     },
-//     //     {
-//     //         to: '/cable-looms',
-//     //         name: 'Cable Looms'
-//     //     }
-//     // ]
-
-
 const productList = [
         <Link as={ReachLink} fontWeight="bold" to="/wire-preparation" size="md">Wire Preparation</Link>,   
         <Link as={ReachLink} to="/cable-preparation" size="md">Cable Preparation</Link>,
@@ -88,9 +65,9 @@ const MainNav = ({ onClose }) => (
       <ListItem mr={2}>
         <Link as={ReachLink} to="/team" onClick={onClose} size="md" >Team</Link>
       </ListItem>
-      <MenuMain title="Products" list={productList} />
+        <MenuMain title="Products" list={productList} />
       <ListItem mx={2}>
-        <Link as={ReachLink} to="/industries" onClick={onClose} size="md">Markets</Link>
+        <MarketsList />
       </ListItem>
       <ListItem mr={2}>
         <Link as={ReachLink} to="/videos" onClick={onClose} size="md" >Videos</Link>
