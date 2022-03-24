@@ -16,5 +16,5 @@ seo:
     and Control Panels. Award Winning Manufacturer with 25 Years Experience and
     Excellent 98% Customer Satisfaction.
   title: Nuclear Cable Assemblies & Control Panels
-  og-url: www.assembly-solutions.com/nuclear
+  og-url: www.assembly-solutions.com/markets/nuclear
 ---
