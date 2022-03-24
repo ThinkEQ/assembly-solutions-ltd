@@ -2,27 +2,20 @@ import React from 'react'
 import { Link as ReachLink, graphql, StaticQuery } from 'gatsby'
 
 // Load components
-import { Link, Menu, MenuItem, MenuButton, MenuList } from '@chakra-ui/react'
+import { Link, MenuItem } from '@chakra-ui/react'
 
 const MarketsMenu = ({ data }) => {
     const list = data.allMarkdownRemark.edges
     return (
-        <Menu>
-            <MenuButton as={Link}>
-               Markets
-            </MenuButton>
-            <MenuList>
-                {list && list.map((item) => {
-                    return (
-                        <MenuItem>
-                            <Link as={ReachLink} fontWeight="bold" to={item.node.fields.slug} size="md">
-                                {item.node.frontmatter.title}
-                            </Link>
-                        </MenuItem>
-                    )
-                })}
-            </MenuList>
-        </Menu>
+        list && list.map((item) => {
+            return (
+                <MenuItem>
+                    <Link as={ReachLink} to={item.node.fields.slug} size="md">
+                        {item.node.frontmatter.title}
+                    </Link>
+                </MenuItem>
+            )
+        })
     )
 }
 

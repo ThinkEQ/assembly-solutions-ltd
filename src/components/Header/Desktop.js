@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link as ReachLink } from 'gatsby'
+import { Link as ReachLink, navigate } from 'gatsby'
 
 // Load components
-import { Box, Text, Link, keyframes, List, ListItem, Menu, MenuItem, MenuButton, MenuList } from '@chakra-ui/react'
+import { Box, Text, Link, keyframes, List, ListItem, Menu, MenuItem, MenuButton, MenuList, Button, useDisclosure, MenuGroup } from '@chakra-ui/react'
 import Svg from '../UI/SVG/index'
 import MarketsList from '../StaticQueries/MarketsListNav'
 
@@ -29,14 +29,19 @@ const productList = [
 ]
 
 
-const MenuMain = ({ title, list = []}) => {
+const MenuMain = ({ isOpen, onOpen, onClose, list = []}) => {
+   
     return (
-        <Menu>
-            <MenuButton as={Link}>
-                {title}
+        <Menu placement="bottom" offset={[0, 1]} isOpen={isOpen}>
+            <MenuButton onMouseEnter={onOpen} as={Link}>
+                Products
             </MenuButton>
-            <MenuList>
-                {list.map((item) => {
+            <MenuButton mx={2} onMouseEnter={onOpen} as={Link}>
+                Markets
+            </MenuButton>
+            <MenuList width="100vw" transform="translateX(-381px)" borderTop="none" borderRadius="none" justifyContent="center" display="flex">
+                <MenuGroup>
+                     {list.map((item) => {
 
                     if (item === 'spacer') {
                         return (
@@ -49,13 +54,19 @@ const MenuMain = ({ title, list = []}) => {
                         </MenuItem>
                     )
                 })}
+                </MenuGroup>
+               <MenuGroup>
+                    <MarketsList />
+               </MenuGroup>
             </MenuList>
         </Menu>
     )
 }
 
-const MainNav = ({ onClose }) => (
-     <List display="flex" justifyContent="space-between">
+const MainNav = () => {
+    const { isOpen, onOpen, onClose } = useDisclosure()
+    return (
+    <List display="flex" justifyContent="space-between" onMouseLeave={onClose} >
       <ListItem mr={2}>
         <Link as={ReachLink} to="/" onClick={onClose} size="md">Home</Link>
       </ListItem>
@@ -65,57 +76,42 @@ const MainNav = ({ onClose }) => (
       <ListItem mr={2}>
         <Link as={ReachLink} to="/team" onClick={onClose} size="md" >Team</Link>
       </ListItem>
-        <MenuMain title="Products" list={productList} />
-      <ListItem mx={2}>
-        <MarketsList />
-      </ListItem>
+        <MenuMain isOpen={isOpen} onOpen={onOpen} onClose={onClose} title="Products" list={productList} />
       <ListItem mr={2}>
         <Link as={ReachLink} to="/videos" onClick={onClose} size="md" >Videos</Link>
       </ListItem>
       <ListItem mr={2}>
         <Link as={ReachLink} to="/news" onClick={onClose} size="md">News</Link>
       </ListItem>
-      <ListItem>
-        <Link as={ReachLink} to="/contact" onClick={onClose} size="md">Contact</Link>
-      </ListItem>
   </List>
   )
+}
 
 const DesktopNav = () => {
     return (
-        <Box backgroundColor="white">
+        <Box backgroundColor="white" borderBottom="1px solid" borderColor="gray.200">
             <Box px={6} py={2} backgroundColor="gray.200">
-                <Text>Award winning UK manufacturer</Text>
+                <Text textAlign="center" textTransform="uppercase">Excellent 98% customer satisfaction</Text>
             </Box>
             <Box display="flex" alignItems="center" justifyContent="space-between" padding={6}>
                 <Box width="25%">
-                    <Link as={ReachLink} display="flex" alignItems="center" to="/">
+                    <Link as={ReachLink} display="inline-block" to="/">
                         <Box animation={`${flow} infinite 10s ease`} background="gradient.900" backgroundSize="600% 600%" px={6} py={2} borderRadius="sm">
                             <Svg name="logo" width="100px" />
                         </Box>
                     </Link>
                 </Box>
-             
-
                 <Box textAlign="center">
                     <Text as="h1" textStyle="h2" fontWeight="light" color="blue.900">
                         Assembly Solutions Ltd
                     </Text>
                     <MainNav />
                 </Box>
-    
-                <Box width="25%" display="flex" justifyContent="flex-end">        
-                    <Box display="flex" alignItems="center" animation={`${flow} infinite 10s ease`} background="gradient.900" backgroundSize="600% 600%" px={6} py={2} borderRadius="sm">
-                        <Link href="https://youtube.com/channel/UCm-VKCwJo14nlcp8RzrUMUw" fontSize="10px" target="_blank" isExternal cursor="pointer">
-                            <Svg name="youtube" width="40px" fill="#fff" />
-                        </Link>
-                        <Link href="https://www.linkedin.com/company/asl-bolton/" margin="0 15px" target="_blank" isExternal cursor="pointer">
-                            <Svg name="linkedin" width="40px" fill="#fff" />
-                        </Link>
-                        <Link href="https://www.instagram.com/assemblysolutionsltd" target="_blank" isExternal cursor="pointer">
-                            <Svg name="instagram" width="40px" fill="#fff" />
-                        </Link>
-                    </Box>
+                <Box width="25%" display="flex" justifyContent="flex-end">     
+                    <Button display="flex" alignItems="center" variant="default" bg="blue.800" onClick={() => navigate("/contact")}>
+                        <Svg name="chat" color="#fff" />
+                        <Text marginLeft="5px">Contact</Text>
+                    </Button>
                 </Box>
             </Box>
         </Box>
