@@ -16,5 +16,5 @@ seo:
   description: Assembly Solutions Ltd are a UK manufacturer of Automotive Wiring
     Looms and Harnesses. Suppliers of Wiring Looms, HV Cables, Battery Cables
     and EV Cable Assemblies.
-  og-url: www.assembly-solutions.com/automotive
+  og-url: www.assembly-solutions.com/markets/automotive
 ---
