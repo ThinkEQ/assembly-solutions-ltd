@@ -2,14 +2,15 @@
 templateKey: team-page
 title: Team
 team-members:
-  - bio: Graham created Assembly Solutions in 1995 aged 35 after always having a
-      passion to build a leading electrical sub-contract manufacturer.
-      Electrical wiring came natural to Graham from a very early age after his
-      father Terry taught him how to wire his first plug aged 4! Attending
-      Manchester University to qualify in Electrical Engineering, Graham went on
-      to work for electrical giants Phillips and Triscan before creating ASL.
-      Graham is the National Time Trials Cycling Champion (CAT E) after winning
-      the title in 2020!
+  - bio: Graham created Assembly Solutions in 1995 aged 35 after always having the
+      passion to build a successful business in electrical assemblies. From a
+      very early age, Electronics came natural to Graham and it's not surprising
+      after his father Terry taught him how to wire his first plug when he was
+      just 4 years old! After studying Electrical Engineering at Manchester
+      University, Graham secured a sought after Production Manager position at
+      Phillips, and later down the line made the big leap to leave and create
+      Assembly Solutions. Graham enjoys cycling & golf, and a challenge at
+      chess!
     interests:
       - cycling
       - golf
@@ -65,10 +66,10 @@ team-members:
     image: /img/team5-1-.png
     bio: Damien holds the incredible title of being our longest serving employee! He
       has served an outstanding 20 Years, after joining as a production operator
-      in 1999! Throughout the years, Damien has shown a quality and commitment
-      to his work that has led him to his role today as Production Manager for
-      Harnesses and Control Panels. Damien is an expert in Automotive Wiring and
-      his technical & leadership skills have contributed to some of our most
+      in 1999! Throughout the years, he has shown a quality and commitment to
+      his work that has led him to his role today as Production Manager for
+      Harnesses and Control Panels. He's an expert in Automotive Wiring and his
+      technical & leadership skills have contributed to some of our most
       challenging but successful contracts to date. Damien enjoys field archery
       and likes to cook tasty vegan dishes!
     interests:
@@ -145,9 +146,9 @@ team-members:
     linkedin: https://www.linkedin.com/in/adam-saoudi-8459a2106/
   - name: Gary Scowcroft
     jobtitle: Technical Sales Engineer
-    bio: Gary has an impressive 40 years of experience and is our technical wizard
-      with his wealth of knowledge in wire and cable assemblies. Since joining 5
-      years ago, he has transformed the way we win new business, by working with
+    bio: Gary has an impressive 40 years of experience in the Electronics & Cable
+      Assembly Industry. Since he joined us in 2017, his phenomenal wealth of
+      knowledge has transformed the way we win new business by working with
       customers and supporting them with project design development. He ensures
       that the transition from engineering out to production runs absolutely
       seamless and that we have built a solid relationship with the customer.
@@ -159,12 +160,13 @@ team-members:
       - climbing-wall
   - name: Michele Barnes
     jobtitle: Sales Administrator
-    bio: Michele is our bubbly sales office administrator who is the backbone of our
-      sales department. She is committed to giving customers the best possible
-      service and the work she carries out is always to the highest quality. Her
-      role covers a range of responsibilities including processing customer
-      orders and dealing with customer queries. Michele is a devoted grandma and
-      a real bookworm!
+    bio: Michele is our bright & bubbly Sales Administrator and is the fastest
+      typist you've even seen! She is committed to giving customers the best
+      possible service and the work she carries out is always to the highest
+      quality. Her role covers a range of responsibilities including processing
+      customer orders and dealing with customer queries. Michele is a big lover
+      of cake & gin, and enjoys spending spare time with her gorgeous
+      Grand-daughter Emily.
     image: /img/team11-1-.png
     interests:
       - reading
@@ -190,9 +192,9 @@ team-members:
       - cooking
       - hiking
     image: /img/susan-gaskell.jpg
-    bio: Susan is Purchasing & Production Planner with over 10 Years Experience. In
-      her spare time Susan enjoys travelling and has practised yoga for an
-      incredible 33 years!
+    bio: Susan is our Purchasing Supervisor & Production Planner with over 10 Years
+      Experience. In her spare time Susan enjoys travelling and has practised
+      yoga for an incredible 33 years!
   - name: Tony Lundy
     jobtitle: Health & Safety Advisor
     bio: Tony is a Chartered Manager, OSHCR registered health & safety professional
@@ -213,15 +215,14 @@ team-members:
     interests:
       - cooking
       - decorating
-    bio: Aaron is a reliable and experienced Production Supervisor with a tremendous
+    bio: Aaron is a reliable and experienced Production Supervisor with tremendous
       technical knowledge in electrical assembly manufacture and more
       specifically IPC Standards. He is a true team player who supervises our
       wire preparation and cable assembly production areas. He has served an
       incredible 10 years with the company and has proved excellent leadership
-      skills which have been invaluable for the companies growth. In his spare
-      time Aaron enjoys cooking up his signature Indian dish - Chicken Tikka
-      Dopiza! He also enjoys a spot of home DIY, and is a wizard at computer
-      programming!
+      skills which have been invaluable for the companies growth. Aaron is a
+      computer programming wizard and in his spare time enjoys Home DIY and
+      cooking up his signature Indian dish "Chicken Tikka Dopiza"!
     image: /img/aaron-hesketh.jpg
   - name: Ioan Moreno
     jobtitle: Production Supervisor
