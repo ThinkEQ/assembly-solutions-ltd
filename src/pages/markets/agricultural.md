@@ -25,5 +25,5 @@ seo:
   description: Assembly Solutions are a UK manufacturer of Agricultural Wiring
     Looms and Cable Assemblies. A Quality Committed Company with ISO9001 and 25
     Years Excellent Customer Service.
-  og-url: www.assembly-solutions.com/agricultural
+  og-url: www.assembly-solutions.com/markets/agricultural
 ---
