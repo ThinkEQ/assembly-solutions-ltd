@@ -16,5 +16,5 @@ seo:
   description: Assembly Solutions is a UK manufacturer of Wiring Looms and Wiring
     Harnesses for Industrial Machinery Manufacturers. Suppliers of Custom Cables
     and Wiring Assemblies for Machinery & Equipment.
-  og-url: www.assembly-solutions.com/industrial-machinery
+  og-url: www.assembly-solutions.com/markets/industrial-machinery
 ---
