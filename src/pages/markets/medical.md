@@ -17,5 +17,5 @@ seo:
   description: Assembly Solutions is a UK manufacturer of Medical Equipment Cable
     Assemblies and Wire Looms. A Quality Committed Company with 25 Years of
     Excellence.
-  og-url: www.assembly-solutions.com/medical
+  og-url: www.assembly-solutions.com/markets/medical
 ---
