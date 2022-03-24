@@ -16,5 +16,5 @@ seo:
   description: Assembly Solutions are a UK manufacturer of Construction Cable
     Assemblies and Wiring Harnesses. Contact our friendly sales team today for a
     quote.
-  og-url: www.assembly-solutions.com/construction
+  og-url: www.assembly-solutions.com/markets/construction
 ---
