@@ -16,5 +16,5 @@ seo:
     Cable Preparation for the Test & Measurement Sector. Parts Delivered
     On-Time, To Promised Schedule And Include Full Electrical Testing.
   title: Test & Measurement Cable Assemblies
-  og-url: www.assembly-solutions.com/test-and-measurement
+  og-url: www.assembly-solutions.com/markets/test-and-measurement
 ---
