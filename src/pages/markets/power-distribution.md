@@ -16,5 +16,5 @@ seo:
     Wiring Looms for the Power Distribution Industry. A Quality Committed
     Supplier with 25 Years of Excellence and 98% Customer Satisfaction.
   title: Power Distribution Cable Assemblies and Wiring Looms
-  og-url: www.assembly-solutions.com/power-distribution
+  og-url: www.assembly-solutions.com/markets/power-distribution
 ---
