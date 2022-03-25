@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link as ReachLink, navigate } from 'gatsby'
 
 // Load components
@@ -12,52 +12,72 @@ const flow = keyframes `
   100%{background-position: 0% 50%}
 `
 const productList = [
-        <Link as={ReachLink} fontWeight="bold" to="/wire-preparation" size="md">Wire Preparation</Link>,   
-        <Link as={ReachLink} to="/cable-preparation" size="md">Cable Preparation</Link>,
-         'spacer',
-        <Link as={ReachLink} fontWeight="bold" to="/cable-assembly" size="md">Cable Assembly</Link>,
-        <Link as={ReachLink} to="/cable-assemblies" size="md">Cable Assemblies</Link>,
-        'spacer',
-        <Link as={ReachLink} fontWeight="bold" to="/wiring-harness" size="md">Wiring Harness</Link>,
-        <Link as={ReachLink} to="/wiring-loom" size="md">Wiring Looms</Link>,
-        <Link as={ReachLink} to="/cable-looms" size="md">Cable Looms</Link>,
-        'spacer',
-        <Link as={ReachLink} fontWeight="bold" to="/control-panels" size="md">Control Panels</Link>,
-        <Link as={ReachLink} to="/electrical-control-panels" size="md">Electrical Control Panels</Link>,
-        <Link as={ReachLink} to="/panel-wiring" size="md">Panel Wiring</Link>,
-        <Link as={ReachLink} to="/panel-build" size="md">Panel Build</Link>
+        { group: [
+            <Link as={ReachLink} fontWeight="bold" to="/wire-preparation" size="md">Wire Preparation</Link>,   
+            <Link as={ReachLink} to="/cable-preparation" size="md">Cable Preparation</Link>,
+        ]},
+        { group: [
+            <Link as={ReachLink} fontWeight="bold" to="/cable-assembly" size="md">Cable Assembly</Link>,
+            <Link as={ReachLink} to="/cable-assemblies" size="md">Cable Assemblies</Link>,
+        ]},
+        { group: [
+            <Link as={ReachLink} fontWeight="bold" to="/wiring-harness" size="md">Wiring Harness</Link>,
+            <Link as={ReachLink} to="/wiring-loom" size="md">Wiring Looms</Link>,
+            <Link as={ReachLink} to="/cable-looms" size="md">Cable Looms</Link>,
+        ]},
+        { group: [
+            <Link as={ReachLink} fontWeight="bold" to="/control-panels" size="md">Control Panels</Link>,
+            <Link as={ReachLink} to="/electrical-control-panels" size="md">Electrical Control Panels</Link>,
+            <Link as={ReachLink} to="/panel-wiring" size="md">Panel Wiring</Link>,
+            <Link as={ReachLink} to="/panel-build" size="md">Panel Build</Link>
+        ]}        
 ]
 
 
-const MenuMain = ({ isOpen, onOpen, onClose, list = []}) => {
+const MenuMain = ({ isOpen, onOpen, list = []}) => {
+    const [menuType, setMenuType] = useState(null)
+    
+    function onOpenMenu(menu) {
+        if(menuType !== menu) {
+            setMenuType(menu)
+        }
+
+        if (!isOpen) {
+            onOpen()
+        }
+    }
    
     return (
         <Menu placement="bottom" offset={[0, 1]} isOpen={isOpen}>
-            <MenuButton onMouseEnter={onOpen} as={Link}>
+            <MenuButton onMouseEnter={() => onOpenMenu('products')} as={Link}>
                 Products
             </MenuButton>
-            <MenuButton mx={2} onMouseEnter={onOpen} as={Link}>
+            <MenuButton mx={2} onMouseEnter={() => onOpenMenu('markets')} as={Link}>
                 Markets
             </MenuButton>
             <MenuList width="100vw" transform="translateX(-381px)" borderTop="none" borderRadius="none" justifyContent="center" display="flex">
-                <MenuGroup>
-                     {list.map((item) => {
+                {menuType === 'products' &&
+                    <MenuGroup>
+                        <Box display="grid" gridTemplateColumns="repeat(2, 1fr)" gridGap={2}>
+                        {list.map((item) => {
 
-                    if (item === 'spacer') {
+                        if (item === 'spacer') {
+                            return (
+                                <Box mb={6} />
+                            )
+                        }
                         return (
-                            <Box mb={6} />
+                            <MenuItem display="flex" flexDir="column">
+                                {item.group.map((li) => li)}
+                            </MenuItem>
                         )
-                    }
-                    return (
-                        <MenuItem>
-                            {item}
-                        </MenuItem>
-                    )
-                })}
-                </MenuGroup>
-               <MenuGroup>
+                    })}
+                        </Box>
+                    </MenuGroup>
+                }
+               {menuType === 'markets' &&<MenuGroup>
                     <MarketsList />
-               </MenuGroup>
+               </MenuGroup>}
             </MenuList>
         </Menu>
     )
