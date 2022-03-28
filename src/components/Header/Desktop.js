@@ -49,23 +49,18 @@ const MenuMain = ({ isOpen, onOpen, list = []}) => {
    
     return (
         <Menu placement="bottom" offset={[0, 1]} isOpen={isOpen}>
-            <MenuButton onMouseEnter={() => onOpenMenu('products')} as={Link}>
+            <MenuButton onMouseEnter={() => onOpenMenu('products')} variant="navAlt" as={Link}>
                 Products
             </MenuButton>
-            <MenuButton mx={2} onMouseEnter={() => onOpenMenu('markets')} as={Link}>
+            <MenuButton mx={6} onMouseEnter={() => onOpenMenu('markets')} variant="navAlt" as={Link}>
                 Markets
             </MenuButton>
-            <MenuList width="100vw" transform="translateX(-381px)" borderTop="none" borderRadius="none" justifyContent="center" display="flex">
+            <MenuList width="100vw" transform="translateX(-381px)" pt={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
                 {menuType === 'products' &&
                     <MenuGroup>
-                        <Box display="grid" gridTemplateColumns="repeat(2, 1fr)" gridGap={2}>
+                        <Box display="grid" gridTemplateColumns="repeat(4, 1fr)" gridColumnGap={4}>
                         {list.map((item) => {
 
-                        if (item === 'spacer') {
-                            return (
-                                <Box mb={6} />
-                            )
-                        }
                         return (
                             <MenuItem display="flex" flexDir="column">
                                 {item.group.map((li) => li)}
@@ -87,21 +82,21 @@ const MainNav = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     return (
     <List display="flex" justifyContent="space-between" onMouseLeave={onClose} >
-      <ListItem mr={2}>
-        <Link as={ReachLink} to="/" onClick={onClose} size="md">Home</Link>
+      <ListItem mr={6}>
+        <Link as={ReachLink} to="/" onClick={onClose} size="md" variant="navAlt">Home</Link>
       </ListItem>
-      <ListItem mr={2}>
-        <Link as={ReachLink} to="/about" onClick={onClose} size="md">About</Link>
+      <ListItem mr={6}>
+        <Link as={ReachLink} to="/about" onClick={onClose} size="md" variant="navAlt">About</Link>
       </ListItem>
-      <ListItem mr={2}>
-        <Link as={ReachLink} to="/team" onClick={onClose} size="md" >Team</Link>
+      <ListItem mr={6}>
+        <Link as={ReachLink} to="/team" onClick={onClose} size="md" variant="navAlt">Team</Link>
       </ListItem>
-        <MenuMain isOpen={isOpen} onOpen={onOpen} onClose={onClose} title="Products" list={productList} />
-      <ListItem mr={2}>
-        <Link as={ReachLink} to="/videos" onClick={onClose} size="md" >Videos</Link>
+        <MenuMain isOpen={isOpen} onOpen={onOpen} onClose={onClose} title="Products"  list={productList} />
+      <ListItem mr={6}>
+        <Link as={ReachLink} to="/videos" onClick={onClose} size="md" variant="navAlt" >Videos</Link>
       </ListItem>
-      <ListItem mr={2}>
-        <Link as={ReachLink} to="/news" onClick={onClose} size="md">News</Link>
+      <ListItem>
+        <Link as={ReachLink} to="/news" onClick={onClose} size="md" variant="navAlt">News</Link>
       </ListItem>
   </List>
   )
@@ -122,8 +117,8 @@ const DesktopNav = () => {
                     </Link>
                 </Box>
                 <Box textAlign="center">
-                    <Text as="h1" textStyle="h2" fontWeight="light" color="blue.900">
-                        Assembly Solutions Ltd
+                    <Text as="h1" textStyle="h2" textTransform="uppercase" fontWeight="light" color="blue.900">
+                        Assembly Solutions
                     </Text>
                     <MainNav />
                 </Box>
