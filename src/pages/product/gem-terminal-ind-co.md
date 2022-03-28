@@ -29,8 +29,6 @@ layout:
 
         * Fully Certified GEM Distributor
 
-        * UK Delivery 4 Weeks
-
         * Full range of Stock Available from GEM Catalogue
 
         * Excellent Customer Service
