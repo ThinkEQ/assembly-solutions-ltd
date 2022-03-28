@@ -42,9 +42,9 @@ layout:
 
         For expert electrical assembly services, contact Assembly Solutions today. We are specialist automotive cable suppliers and manufacturers that offer competitive pricing for a range of different automotive electrical products. All of our automotive wiring harnesses and cable looms are quality assured and are manufactured to the highest standards. For more information or to place an order, contact Assembly Solutions today.
 seo:
-  title: Automotive Wiring Looms & Cables
-  description: Assembly Solutions Ltd are a UK manufacturer of Automotive Wiring
-    Looms and Harnesses. Suppliers of Wiring Looms, HV Cables, Battery Cables
-    and EV Cable Assemblies.
+  title: Automotive | Assembly Solutions
+  description: Quality Automotive Cable Suppliers & Car Wiring Harness
+    Manufacturers UK based company Assembly Solutions. Expertly crafted & safety
+    accredited automotive wiring supplies.
   og-url: www.assembly-solutions.com/markets/automotive
 ---
