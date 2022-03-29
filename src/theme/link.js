@@ -10,7 +10,7 @@ export const LinkStyles = {
     },
     sizes: {
         md: {
-            fontSize: "22px"
+            fontSize: "18px"
         },
         lg: {
             fontSize: "34px",

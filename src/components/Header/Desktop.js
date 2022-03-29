@@ -11,25 +11,34 @@ const flow = keyframes `
   50%{background-position: 100% 50%}
   100%{background-position: 0% 50%}
 `
+
+const style = {
+    color: 'gray.600',
+    _hover: {
+        textDecoration: 'none',
+        color: 'blackAlpha.900'
+    }
+}
+
 const productList = [
         { group: [
-            <Link as={ReachLink} fontWeight="bold" to="/wire-preparation" size="md">Wire Preparation</Link>,   
-            <Link as={ReachLink} to="/cable-preparation" size="md">Cable Preparation</Link>,
+            <Link as={ReachLink} fontWeight="bold" to="/wire-preparation" size="md" {...style} color="blackAlpha.900" >Wire Preparation</Link>,   
+            <Link as={ReachLink} to="/cable-preparation" size="md" {...style}>Cable Preparation</Link>,
         ]},
         { group: [
-            <Link as={ReachLink} fontWeight="bold" to="/cable-assembly" size="md">Cable Assembly</Link>,
-            <Link as={ReachLink} to="/cable-assemblies" size="md">Cable Assemblies</Link>,
+            <Link as={ReachLink} fontWeight="bold" to="/cable-assembly" size="md" {...style} color="blackAlpha.900" >Cable Assembly</Link>,
+            <Link as={ReachLink} to="/cable-assemblies" size="md" {...style}>Cable Assemblies</Link>,
         ]},
         { group: [
-            <Link as={ReachLink} fontWeight="bold" to="/wiring-harness" size="md">Wiring Harness</Link>,
-            <Link as={ReachLink} to="/wiring-loom" size="md">Wiring Looms</Link>,
-            <Link as={ReachLink} to="/cable-looms" size="md">Cable Looms</Link>,
+            <Link as={ReachLink} fontWeight="bold" to="/wiring-harness" size="md" {...style} color="blackAlpha.900" >Wiring Harness</Link>,
+            <Link as={ReachLink} to="/wiring-loom" size="md" {...style}>Wiring Looms</Link>,
+            <Link as={ReachLink} to="/cable-looms" size="md" {...style}>Cable Looms</Link>,
         ]},
         { group: [
-            <Link as={ReachLink} fontWeight="bold" to="/control-panels" size="md">Control Panels</Link>,
-            <Link as={ReachLink} to="/electrical-control-panels" size="md">Electrical Control Panels</Link>,
-            <Link as={ReachLink} to="/panel-wiring" size="md">Panel Wiring</Link>,
-            <Link as={ReachLink} to="/panel-build" size="md">Panel Build</Link>
+            <Link as={ReachLink} fontWeight="bold" to="/control-panels" size="md" {...style} color="blackAlpha.900" >Control Panels</Link>,
+            <Link as={ReachLink} to="/electrical-control-panels" size="md" {...style}>Electrical Control Panels</Link>,
+            <Link as={ReachLink} to="/panel-wiring" size="md" {...style}>Panel Wiring</Link>,
+            <Link as={ReachLink} to="/panel-build" size="md" {...style}>Panel Build</Link>
         ]}        
 ]
 
@@ -57,12 +66,12 @@ const MenuMain = ({ isOpen, onOpen, list = []}) => {
             </MenuButton>
             <MenuList width="100vw" transform="translateX(-381px)" py={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
                 {menuType === 'products' &&
-                    <MenuGroup>
+                    <MenuGroup _hover={{ backgroundColor: "none"}}>
                         <Box display="grid" gridTemplateColumns="repeat(4, 1fr)" gridColumnGap={4}>
                         {list.map((item) => {
 
                         return (
-                            <MenuItem display="flex" justifyContent="flex-start" alignItems="flex-start" flexDir="column">
+                            <MenuItem display="flex" justifyContent="flex-start" _hover alignItems="flex-start" flexDir="column">
                                 {item.group.map((li) => li)}
                             </MenuItem>
                         )
