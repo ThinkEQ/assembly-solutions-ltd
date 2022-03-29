@@ -13,7 +13,7 @@ layout:
         Assembly Solutions are a UK manufacturer of Construction Cable Assemblies and Wiring Harnesses.
 
 
-        The UK’s construction industry is heavily regulated to ensure safety and quality is guaranteed. This is the same for construction cables that are used in both domestic and commercial building and renovation sectors. At Assembly Solutions, our cable preparation and wire harnessing products can be designed and manufactured to suit your specific requirements for a range of different construction needs.
+        The UK’s construction industry is heavily regulated to ensure safety and quality is guaranteed. This is the same for construction cables that are used in both domestic and commercial building and renovation sectors. At Assembly Solutions, our [cable preparation](www.assembly-solutions.com/cable-preparation) and [wire harnessing](www.assembly-solutions.com/wiring-harness) products can be designed and manufactured to suit your specific requirements for a range of different construction needs.
 
 
         ## Expert Construction Cable Manufacturers & Suppliers 
@@ -25,13 +25,13 @@ layout:
         All of our products are safety and quality assured to provide our customers with high-grade electrical assemblies and wire harnesses. Our custom cable services can be designed and manufactured to meet specific requirements. Made by our expert teams in the UK, our products are proven to be more cost-effective and time-saving than outsourcing electrical assemblies from abroad. 
 
 
-        Assembly Solutions have supplied expert construction cable and wire preparation solutions for a wide range of different building and construction companies. Our services and products are ideal for large installations and commercial developments that require high safety standards and meet quality regulations.
+        Assembly Solutions have supplied expert construction [cable and wire preparation](www.assembly-solutions.com/cable-preparation) solutions for a wide range of different building and construction companies. Our services and products are ideal for large installations and commercial developments that require high safety standards and meet quality regulations.
 
 
         ### Why Assembly Solutions?
 
 
-        At Assembly Solutions, we have over 20 years of experience within the cable assembly and wire preparation industry. We have supplied a wide variety of different construction companies across the UK for a range of different projects and developments. We’ve worked with well-known construction businesses including Balfour Beatty. Our customers always receive the highest level of quality and service at affordable prices. Assembly Solutions provide expertly designed and crafted electrical assemblies and wiring harnesses, ideal for a huge range of professional applications.
+        At Assembly Solutions, we have over 20 years of experience within the [cable assembly](www.assembly-solutions.com/cable-assembly) and wire preparation industry. We have supplied a wide variety of different construction companies across the UK for a range of different projects and developments. We’ve worked with well-known construction businesses including Balfour Beatty. Our customers always receive the highest level of quality and service at affordable prices. Assembly Solutions provide expertly designed and crafted electrical assemblies and [wiring harnesses](www.assembly-solutions.com/wiring-harness), ideal for a huge range of professional applications.
 
 
         For quality electrical harnesses and construction cable preparation services, contact Assembly Solutions today. Our team will be happy to help and advise you on any questions you may have.
