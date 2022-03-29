@@ -13,7 +13,7 @@ import Button from '../theme/button'
 // Load layout
 import Layout from '../components/Layout'
 
-const AboutPageTemplate = ({ title, content, contentComponent, subtitle, imgSrc }) => {
+const ServicesPageTemplate = ({ title, content, contentComponent, subtitle, imgSrc }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -64,18 +64,18 @@ const AboutPageTemplate = ({ title, content, contentComponent, subtitle, imgSrc 
   )
 }
 
-AboutPageTemplate.propTypes = {
+ServicesPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
 
-const AboutPage = ({ data }) => {
+const ServicesPage = ({ data }) => {
   const { markdownRemark: post } = data
   const { seo: { title, description, og_url } } = post.frontmatter
   return (
     <Layout metaTitle={title || post.frontmatter.title} metaDescription={description} ogUrl={og_url} ogImg={post.frontmatter.image.relativePath}>
-      <AboutPageTemplate
+      <ServicesPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
         subtitle={post.frontmatter.subtitle}
@@ -87,12 +87,12 @@ const AboutPage = ({ data }) => {
   )
 }
 
-AboutPage.propTypes = {
+ServicesPage.propTypes = {
   data: PropTypes.object.isRequired,
 }
 
-export const aboutPageQuery = graphql`
-  query AboutPage($id: String!) {
+export const servicesPageQuery = graphql`
+  query ServicesPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       id
@@ -118,4 +118,4 @@ export const aboutPageQuery = graphql`
     }
   }
 `
-export default AboutPage
+export default ServicesPage
