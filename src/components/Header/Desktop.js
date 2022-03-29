@@ -14,6 +14,7 @@ const flow = keyframes `
 
 const style = {
     color: 'gray.600',
+    fontWeight: "bold",
     _hover: {
         textDecoration: 'none',
         color: 'blackAlpha.900'
@@ -71,7 +72,7 @@ const MenuMain = ({ isOpen, onOpen, list = []}) => {
                         {list.map((item) => {
 
                         return (
-                            <MenuItem display="flex" justifyContent="flex-start" _hover alignItems="flex-start" flexDir="column">
+                            <MenuItem display="flex" justifyContent="flex-start" _hover={{ background: "none"}} alignItems="flex-start" flexDir="column">
                                 {item.group.map((li) => li)}
                             </MenuItem>
                         )

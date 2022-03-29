@@ -67,7 +67,7 @@ export const LinkStyles = {
                 width: "0%",
                 height: "2px",
                 background: "#111111",
-                transition: "width .5s ease",
+                //transition: "width .5s ease",
             },
             _visited: {
                 outline: 'none',
