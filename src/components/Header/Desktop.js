@@ -68,13 +68,13 @@ const MenuMain = ({ isOpen, onOpen, list = []}) => {
             <MenuList width="100vw" transform="translateX(-381px)" py={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
                 {menuType === 'products' &&
                     <MenuGroup _hover={{ backgroundColor: "none"}}>
-                        <Box display="grid" gridTemplateColumns="repeat(4, 1fr)" gridColumnGap={3}>
+                        <Box display="grid" gridTemplateColumns="repeat(4, 200px)">
                         {list.map((item) => {
 
                         return (
-                            <MenuItem display="flex" justifyContent="flex-start" _hover={{ background: "none"}} alignItems="flex-start" flexDir="column">
+                            <Box display="flex" justifyContent="flex-start" _hover={{ background: "none"}} alignItems="flex-start" flexDir="column">
                                 {item.group.map((li) => li)}
-                            </MenuItem>
+                            </Box>
                         )
                     })}
                         </Box>
@@ -105,8 +105,11 @@ const MainNav = () => {
       <ListItem mr={6}>
         <Link as={ReachLink} to="/videos" onClick={onClose} size="md" variant="navAlt" >Videos</Link>
       </ListItem>
-      <ListItem>
+      <ListItem mr={6}>
         <Link as={ReachLink} to="/news" onClick={onClose} size="md" variant="navAlt">News</Link>
+      </ListItem>
+      <ListItem>
+        <Link as={ReachLink} to="/services" onClick={onClose} size="md" variant="navAlt">Services</Link>
       </ListItem>
   </List>
   )
