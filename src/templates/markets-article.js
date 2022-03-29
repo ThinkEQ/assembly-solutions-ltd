@@ -26,9 +26,6 @@ const MarketsArticleTemplate = ({
           <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
           {title}
           </Heading>
-          <Text fontSize="18px" marginTop="20px" color="neutral.800">
-            {date}
-          </Text>
         </Box>
       </Box>
       <Box as="section" textStyle="section" paddingTop="0 !important" backgroundColor="neutral.900">
