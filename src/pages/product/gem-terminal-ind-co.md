@@ -46,5 +46,5 @@ seo:
   title: GEM Terminal Distribution
   description: Assembly Solutions is a UK Distributor of GEM Terminals and
     Connectors for Wire Assembly Manufactured Products.
-  og-url: www.assembly-solutions/gem-terminal-distribution
+  og-url: www.assembly-solutions.com/gem-terminal-distribution
 ---
