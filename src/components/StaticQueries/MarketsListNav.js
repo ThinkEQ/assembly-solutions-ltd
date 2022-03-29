@@ -6,7 +6,6 @@ import { Link, MenuItem } from '@chakra-ui/react'
 
 const style = {
     color: 'gray.600',
-    fontWeight: "bold",
     _hover: {
         textDecoration: 'none',
         color: 'blackAlpha.900'
