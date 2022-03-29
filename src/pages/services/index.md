@@ -12,12 +12,12 @@ intro: >-
   Family values are not just words, they're a real thing that you can see when walking around the factory. We work together as a team, sharing the same vision, values and goals.
 image: /img/about-us-cover.png
 seo:
-  title: About Us | Assembly Solutions
+  title: Services | Assembly Solutions
   description: "Assembly Solutions Ltd is a UK leading manufacturer of cable
     assembly services and wiring harnesses. Established for over 25 years, we
     manufacture quality assured cables and wire preparation for a range of
     market sectors. "
-  og-url: https://www.assembly-solutions.com/about
+  og-url: https://www.assembly-solutions.com/services
 ---
 **About Us**
 
