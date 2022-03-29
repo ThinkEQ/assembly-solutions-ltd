@@ -6,6 +6,7 @@ import { Link, MenuItem } from '@chakra-ui/react'
 
 const style = {
     color: 'gray.600',
+    fontWeight: "bold",
     _hover: {
         textDecoration: 'none',
         color: 'blackAlpha.900'
@@ -17,7 +18,7 @@ const MarketsMenu = ({ data }) => {
     return (
         list && list.map((item) => {
             return (
-                <MenuItem pb={0}>
+                <MenuItem _hover={{ background: "none"}} pb={0}>
                     <Link as={ReachLink} to={item.node.fields.slug} size="md" {...style}>
                         {item.node.frontmatter.title}
                     </Link>
