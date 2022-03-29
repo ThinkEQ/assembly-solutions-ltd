@@ -117,7 +117,7 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout metaTitle="Cable Assembly UK | Custom Cable Manufacturers | Assembly Solutions" metaDescription="Custom Cable Manufacturers & wire manufacturers based in Bolton. Contact Assembly Solutions today for professional cable assembly UK services at competitive prices.">
+    <Layout metaTitle="Cable Assembly UK | Custom Cable Manufacturers | Assembly Solutions" metaDescription="Custom cable assemblies & manufacturers based in Bolton. A Quality Committed Company with 25 Years of Experience and an Excellent 98% Customer Satisfaction. Contact Assembly Solutions today.">
       <IndexPageTemplate
         title={frontmatter.title}
       />
