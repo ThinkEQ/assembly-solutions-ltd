@@ -55,14 +55,14 @@ const MenuMain = ({ isOpen, onOpen, list = []}) => {
             <MenuButton mx={6} onMouseEnter={() => onOpenMenu('markets')} variant="navAlt" as={Link}>
                 Markets
             </MenuButton>
-            <MenuList width="100vw" transform="translateX(-381px)" pt={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
+            <MenuList width="100vw" transform="translateX(-381px)" py={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
                 {menuType === 'products' &&
                     <MenuGroup>
                         <Box display="grid" gridTemplateColumns="repeat(4, 1fr)" gridColumnGap={4}>
                         {list.map((item) => {
 
                         return (
-                            <MenuItem display="flex" flexDir="column">
+                            <MenuItem display="flex" justifyContent="flex-start" alignItems="flex-start" flexDir="column">
                                 {item.group.map((li) => li)}
                             </MenuItem>
                         )
