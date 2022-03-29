@@ -16,7 +16,8 @@ const style = {
     color: 'gray.600',
     _hover: {
         textDecoration: 'none',
-        color: 'blackAlpha.900'
+        color: 'blackAlpha.900',
+        fontWeight: 'bold'
     }
 }
 
@@ -67,7 +68,7 @@ const MenuMain = ({ isOpen, onOpen, list = []}) => {
             <MenuList width="100vw" transform="translateX(-381px)" py={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
                 {menuType === 'products' &&
                     <MenuGroup _hover={{ backgroundColor: "none"}}>
-                        <Box display="grid" gridTemplateColumns="repeat(4, 1fr)" gridColumnGap={4}>
+                        <Box display="grid" gridTemplateColumns="repeat(4, 1fr)" gridColumnGap={3}>
                         {list.map((item) => {
 
                         return (

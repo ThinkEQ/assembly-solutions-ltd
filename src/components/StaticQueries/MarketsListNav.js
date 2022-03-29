@@ -8,7 +8,8 @@ const style = {
     color: 'gray.600',
     _hover: {
         textDecoration: 'none',
-        color: 'blackAlpha.900'
+        color: 'blackAlpha.900',
+        fontWeight: 'bold'
     }
 }
 
