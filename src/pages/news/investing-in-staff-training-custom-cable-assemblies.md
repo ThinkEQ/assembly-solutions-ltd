@@ -1,13 +1,13 @@
 ---
 templateKey: news-article
-title: Investing In Staff Training - Custom Cable Assemblies
-date: 2020-08-01T15:06:48.479Z
-image: /img/cable-assembly-training.jpg
+title: Investing In Staff Training
+date: 2022-03-28T15:06:48.479Z
+image: /img/staff-training-alex-daryl.jpg
 layout:
   - type: full
     full:
       text: >-
-        **Investing in Staff Training - Custom Cable Assemblies**
+        **Investing in Staff Training**
 
 
         What happens if you invest in your employees and then they leave?\
@@ -15,7 +15,7 @@ layout:
         What happens if you don't, and they stay?
 
 
-        Investing in staff training is a priority at Assembly Solutions as we continually push for higher quality standards and to give employees confidence in all their work.
+        Investing in staff training is a top priority at Assembly Solutions as we continually push for higher quality standards and to give employees confidence in all their work.
 
 
         We are currently providing training to a selection of new starters who have joined our [Cable Assembly](www.assembly-solutions.com/cable-assembly) department after significant growth in this product area. We have recruited 5 new production operators to support the work load, and over the next 4 weeks they will learn the skills of how to manufacture [custom cable assemblies](www.assembly-solutions.com/cable-assemblies) and understand the standards that every product must be made to.
