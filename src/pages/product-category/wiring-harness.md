@@ -41,8 +41,8 @@ introcol:
 images:
   - image: /img/wiring-loom-harness.jpg
     alt: Wiring Harness
-  - image: /img/staff-training-alex-daryl.jpg
-    alt: harness-training
+  - image: /img/staff-training-alex-daryl-small.jpg
+    alt: wiring-harness-training
   - image: /img/wiring-harness-03.jpg
     alt: Wiring Harness
   - image: /img/cable-looms-3-.jpg
