@@ -68,5 +68,5 @@ seo:
   description: Assembly Solutions treats training as a priority as we continually
     strive for the highest Quality Standards in all Cable Assembly and Wiring
     Harness products.
-  og-url: www.assembly-solutions.com/news/investing-staff-training-cable-assemblies
+  og-url: www.assembly-solutions.com/news/investing-staff-training
 ---
