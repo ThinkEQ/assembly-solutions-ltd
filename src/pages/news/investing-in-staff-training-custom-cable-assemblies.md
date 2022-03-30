@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: Investing In Staff Training
+title: Investing In Staff Training for Continuous Quality
 date: 2022-03-28T15:06:48.479Z
 image: /img/staff-training-alex-daryl.jpg
 layout:
@@ -9,7 +9,7 @@ layout:
       text: >-
         March 28, 2022\
 
-        **Investing in Staff Training**
+        **Investing in Staff Training for Continuous Quality**
 
 
         What happens if you invest in your employees and then they leave?\
@@ -64,7 +64,7 @@ layout:
 
         Our products are 100% electrically tested before being despatched from our factory, giving customers confidence that all cables will work without any faults when being installed into their [Food & Catering Equipment](www.assembly-solutions.com/markets/food-and-catering).
 seo:
-  title: Investing in Staff Training - Cable Assemblies
+  title: Investing in Staff Training for Continuous Quality
   description: Assembly Solutions treats training as a priority as we continually
     strive for the highest Quality Standards in all Cable Assembly and Wiring
     Harness products.
