@@ -3,13 +3,15 @@ templateKey: services-page
 path: /services
 title: Services
 subtitle: Assembly Solutions Ltd Services
-intro: >-
-  In October 2020 we celebrated 25 years in business. This anniversary followed
-  another big milestone where Founder Graham Balshaw passed ASL down to his
-  three children, Gareth, Sophie and Oliver.
+intro: >
+  At Assembly Solutions, we supply a wide range of different expert services. We
+  specialise in wire manufacturing and cable manufacturing, as well as wire
+  harnesses and cable looms. We’re expert electrical panel manufacturers based
+  in the UK and we provide a variety of different specialist services and
+  electrical solutions for a range of industries and companies. 
 
 
-  Family values are not just words, they're a real thing that you can see when walking around the factory. We work together as a team, sharing the same vision, values and goals.
+  Discover what Assembly Solutions can do for you, contact us today for a free quote and expert advice. 
 image: /img/about-us-cover.png
 seo:
   title: Services | Assembly Solutions
@@ -19,39 +21,64 @@ seo:
     market sectors. "
   og-url: https://www.assembly-solutions.com/services
 ---
-**About Us**
+<!--StartFragment-->
 
-Assembly Solutions Ltd is a Bolton based manufacturer of electrical cable assemblies, wiring looms, wiring harnesses and electrical control panels.
+##  Assembly Solutions Services 
 
-We are an award winning family business and pride ourselves on delivering a personable quality service. With instilled family values, we're passionate about building strong relationships that are reliable, loyal and trustworthy.
+We specialise in a range of different electrical assemblies, harnesses and looms. Our tried and tested manufacturing methods are efficient and cost effective to provide our customers with the best possible outcome for their requirements. We offer expert services that guarantee high quality electrical products, that’s why we’re one of the most trusted electrical panel manufacturers and wire manufacturers in the UK. 
 
-With 25 Years of excellence in manufacturing, we are recognised as the UK leader for wiring assemblies, and our quality is a reflection of our world-class customers, including; Ford, Rolls-Royce, Siemens and Vodafone.\
-\
-**Assembly Solutions Ltd**
+###  Cable Assembly & Cable Manufacturers UK 
 
-* UK Award Winning Family Business
-* Cable Assemblies, Wiring Looms, Wiring Harnesses, Control Panels
-* Established 25 Years 
-* ISO 9001 Accredited - Quality Management
-* ISO 45001 Accredited - Health & Safety Management
-* Markets Sectors: Automotive, Security, Utilities, Nuclear, Medical
-* 25% Growth In 2021
-* 98% Customer Satisfaction
+Assembly Solutions are a top supplier and manufacturer of [custom cable assemblies](https://www.assembly-solutions.com/cable-assembly) and cable prototypes and productions. Our specialist operating and production team are expertly trained to IPC Cable Assembly Standards to ensure both high quality and safety standards are kept throughout production and delivery. View our designated cable assembly product pages for more information. 
 
-**Market Sectors & Automotive Experience**
+* [Ribbon Cables ](https://www.assembly-solutions.com/ribbon-cables)
+* [Battery & HV Cables ](https://www.assembly-solutions.com/battery-and-hv-cables)
+* [Braided Cables](https://www.assembly-solutions.com/braided-cable) 
+* [Earth Straps](https://www.assembly-solutions.com/earth-strap) 
 
-We manufacture wiring assemblies for a wide range of industries including; Automotive, General Equipment, Medical, Nuclear, Rail, Security and Utilities.
+###  Electrical Panel Manufacturers 
 
-Our customers include some of the worlds most recognised and respected companies; Ford, Rolls-Royce, Siemens and Vodafone. We are thrilled to supply [cable assemblies](https://www.assembly-solutions.com/cable-assemblies) and [wiring harnesses](https://www.assembly-solutions.com/wiring-harness) to so many blue chip leading organisations, and we enjoy the diversity of the different market sectors.
+At Assembly Solutions, we’re expert electrical panel manufacturers for a wide range of industries and applications. Our design and manufacturing techniques ensure highest quality and safety standards for all electrical [control panels](https://www.assembly-solutions.com/control-panels). We supply a wide variety of different industries, from nuclear power to automotive production and electrical companies. We understand the importance of cost efficiency and reliability, that’s why all of our products are quality and safety checked throughout production and all staff are expertly trained. Our specialist control panel services include: 
 
-We are a leading manufacturer of Automotive Wiring Harnesses after having 25 years in the industry and now being the preferred supplier to world leading Automotive companies; Aston Martin, Ford and Rolls-Royce. Our expertise in [wiring looms](https://www.assembly-solutions.com/wiring-loom) has grown tremendously, where we now boast an extensive range of experience in commercial vehicles including; Ambulances, Buses, Cars, Trucks, Trailers and Vans.
+* [Nuclear Control Panels](https://www.assembly-solutions.com/nuclear-control-panel) 
+* [Panel Builds ](https://www.assembly-solutions.com/panel-build)
+* [Panel Wiring ](https://www.assembly-solutions.com/panel-wiring)
+* [Automotive Control Panel](https://www.assembly-solutions.com/automotive-control-panel) 
+* [Electrical Control Panels](https://www.assembly-solutions.com/electrical-control-panels) 
 
-Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](https://www.assembly-solutions.com/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters.
 
-**Meet The Team**
 
-Get to know more About us by meeting our people. Click here > [Meet The Team](https://www.assembly-solutions.com/team)\
-\
-**Contact Us**
+###  Wire Preparation 
 
-If you have an enquiry, call 01204 521999 or email enquiry@assembly-solutions.com
+Our wire and cable preparation services are expertly engineered to provide our customers with fast turnaround times, cost efficiency and superior grade preparation products and services. Assembly Solutions guarantees expert quality and authentic [wire preparation](https://www.assembly-solutions.com/wire-preparation) and cable preparation services for a variety of different applications and requirements. Based in the UK, our wire preparation facilities provide our customers with safe and reliable products for a huge range of needs and specifications, whilst maintaining extremely affordable prices. For more information, take a look at our [cable preparation](https://www.assembly-solutions.com/cable-preparation) services 
+
+Our wire and cable preparation include; 
+
+* Crimp Termination
+* Soldering
+* Tinning
+* Wire Printing
+* Ultrasonic Welding
+
+
+
+###  Wiring Harnesses 
+
+Assembly Solutions are experienced in all aspects of wire manufacturing and [wire harness production](https://www.assembly-solutions.com/wiring-harness). We apply our decades of experience to provide our customers with high-grade wire harnesses for a multitude of applications and industries. Our staff apply their specialist expertise to ensure both safety and quality standards are maintained throughout our product ranges. Assembly Solutions offer a huge choice of different wiring harnesses suitable for a variety of different industries and technical applications. Our wiring harness services include: 
+
+* [Wiring Looms ](https://www.assembly-solutions.com/wiring-loom)
+* [Agricultural Wiring Looms ](https://www.assembly-solutions.com/agricultural-wiring-loom)
+* [Electric & Hybrid Vehicle Wiring Harnesses ](https://www.assembly-solutions.com/electric-vehicle-and-hybrid-vehicle-wiring-harnesses)
+* [Motor Sport Harnesses](https://www.assembly-solutions.com/motorsport-harnesses) 
+* [Trailer Wiring Looms ](https://www.assembly-solutions.com/trailer-wiring-loom)
+* [Cable Looms](https://www.assembly-solutions.com/cable-looms)
+
+
+
+###  Why Choose Assembly Solutions? 
+
+Assembly Solutions are experts in wire preparation and cable assembly services. With over 25 years of experience, we strive to ensure our customers are happy with each order and purchase. Our staff are intensely trained to ensure each batch of products are manufactured to the highest standards of quality and safety. 
+
+Our range of clients and customers include Siemans, Aston Martin and Vodaphone as well as many others. Our products are versatile and can be custom designed and manufactured to meet your specific needs. [Contact our team today](https://www.assembly-solutions.com/contact) to discuss your project and requirements.
+
+<!--EndFragment-->
