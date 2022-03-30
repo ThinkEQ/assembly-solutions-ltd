@@ -53,13 +53,13 @@ layout:
         Our Production Supervisor Daryl is one of our in-house Cable Assembly trainers and has almost achieved 10 Years Service at Assembly Solutions. He is a highly skilled cable assembly technician who has worked on some our biggest contracts that have consisted of [EV & HV Battery Cables](www.assembly-solutions.com/battery-and-hv-cables) and 10m long [Automotive Wiring Harnesses](www.assembly-solutions.com/wiring-harness). He is an exceptional team player and is fully qualified to IPC 620 standards. Daryl is also on our Health & Safety Committee Board which means he contributes to top level continuous improvement projects relating to our Health & Safety.
 
 
-        **Cable Assembly Standards for Food, Beverage & Catering Industry**
+        **Cable Assembly Quality Standards**
 
 
-        As a leading UK manufacturer, quality and consistency is key to maintaining our reputation and reliability of products. 
+        As a leading UK manufacturer, quality and consistency is key to maintaining our reputation and reliability of products, but standards are significantly important in the Food & Catering Industry.
 
 
-        Our [cable assembly products](www.assembly-solutions.com/cable-assembly) are specially manufactured to meet the high standards of the food & catering market sector. We understand the significant importance of clean equipment but also the high temperatures that the equipment can reach. The cables we manufacture are made to withstand aggressive corrosive cleaning chemicals that is used to kill germs and counteract contamination. All [cable assemblies](www.assembly-solutions.com/cable-assemblies) must also offer strong resistance and remain undamaged when in contact with extreme high temperatures. Our cables are made against customer specification and we hold a wide range of stock of all wire, cable, glands, crimps and connectors. 
+        Our [cable assembly products](www.assembly-solutions.com/cable-assembly) are specially manufactured to meet the high standards of the food & catering market sector. We understand the importance of clean equipment but also the high temperatures that the equipment can reach. The cables we manufacture are made to withstand aggressive corrosive cleaning chemicals that is used to kill germs and counteract contamination. All [cable assemblies](www.assembly-solutions.com/cable-assemblies) must also offer strong resistance and remain undamaged when in contact with extreme high temperatures. Our cables are made against customer specification and we hold a wide range of stock of all wire, cable, glands, crimps and connectors. 
 
 
         Our products are 100% electrically tested before being despatched from our factory, giving customers confidence that all cables work without any faults when being installed into their [Food & Catering Equipment](www.assembly-solutions.com/markets/food-and-catering).
