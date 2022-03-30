@@ -62,7 +62,10 @@ const MenuMain = ({ isOpen, onOpen, list = []}) => {
             <MenuButton onMouseEnter={() => onOpenMenu('products')} variant="navAlt" as={Link}>
                 Products
             </MenuButton>
-            <MenuButton mx={6} onMouseEnter={() => onOpenMenu('markets')} variant="navAlt" as={Link}>
+            <MenuButton mx={6} as={Link} to="/services" size="md" variant="navAlt" >
+                Services
+            </MenuButton>
+            <MenuButton mr={6} onMouseEnter={() => onOpenMenu('markets')} variant="navAlt" as={Link}>
                 Markets
             </MenuButton>
             <MenuList width="100vw" transform="translateX(-381px)" py={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
@@ -105,11 +108,8 @@ const MainNav = () => {
       <ListItem mr={6}>
         <Link as={ReachLink} to="/videos" onClick={onClose} size="md" variant="navAlt" >Videos</Link>
       </ListItem>
-      <ListItem mr={6}>
-        <Link as={ReachLink} to="/news" onClick={onClose} size="md" variant="navAlt">News</Link>
-      </ListItem>
       <ListItem>
-        <Link as={ReachLink} to="/services" onClick={onClose} size="md" variant="navAlt">Services</Link>
+        <Link as={ReachLink} to="/news" onClick={onClose} size="md" variant="navAlt">News</Link>
       </ListItem>
   </List>
   )

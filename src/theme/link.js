@@ -62,7 +62,7 @@ export const LinkStyles = {
             _before: {
                 position: "absolute",
                 content: "''",
-                bottom: "-25px",
+                bottom: "-12px",
                 left: 0,
                 width: "0%",
                 height: "2px",
