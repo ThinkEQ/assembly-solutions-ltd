@@ -23,7 +23,7 @@ layout:
         We are currently providing training to a selection of new starters who have joined our [Cable Assembly](www.assembly-solutions.com/cable-assembly) department after significant growth in this product area. We have recruited 5 new production operators to support the work load, and over the next 4 weeks they will learn the skills of how to manufacture [custom cable assemblies](www.assembly-solutions.com/cable-assemblies) and understand the standards that every product must be made to.
 
 
-        A lot of our training is done in-house by our qualified and well experienced cable assembly Technicians. By training in-house, we can work with real projects that are passing through production, showing staff how a cable assembly is made from start to finish. The training journey starts right at the beginning with the CAD drawing, specification, wire list, parts list and work instructions which are all custom created by our Engineering Team.
+        A lot of our training is done in-house by our qualified and well experienced cable assembly Technicians. By training in-house, we can work with real projects that are passing through production, showing staff how a cable assembly is made from start to finish. The training journey starts right at the beginning with the CAD drawing, specification, wire list, parts list and work instructions which are all custom created by our Technical & Engineering Team.
 
 
         **Benefits of Cable Assembly Training** 
