@@ -39,7 +39,7 @@ layout:
         **Why Buy from Assembly Solutions**
 
 
-        * UK Official Stockist for GEM Terminals
+        * UK Official Stockist of GEM Terminals
 
         * Full Range of Stock Available from GEM Catalogue
 
