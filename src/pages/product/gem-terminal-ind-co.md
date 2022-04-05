@@ -26,7 +26,7 @@ layout:
         GEM Terminals are a Taiwan based manufacturer of over 1,000 AC Terminals and Plug Inserts for Powercords. 
 
 
-        **[Click here](http://www.gem.com.tw/)** to view the full range of GEM Terminals and Connectors.\
+        **[Click here](http://www.gem.com.tw/English/Products.asp?cid=73)** to view the full range of GEM Terminals and Connectors.\
 
         \
 
