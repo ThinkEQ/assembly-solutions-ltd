@@ -6,10 +6,10 @@ image: /img/reel-terminal.png
 images:
   - alt: wiring-terminal
     image: /img/wiring-terminal.jpg
-  - image: /img/gem-terminal.jpg
-    alt: gem-terminal
   - image: /img/connector-terminals.png
     alt: connector-terminals
+  - image: /img/gem-terminal.jpg
+    alt: gem-terminal
 layout:
   - type: full
     full:
