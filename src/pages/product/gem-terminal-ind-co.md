@@ -6,8 +6,8 @@ image: /img/reel-terminal.png
 images:
   - alt: wiring-terminal
     image: /img/wiring-terminal.jpg
-  - alt: gem-terminal
-    image: /img/gem-terminal.jpg
+  - image: /img/gem-terminal.jpg
+    alt: gem-terminal
   - image: /img/3.jpg
     alt: braid-cable
 layout:
@@ -47,7 +47,7 @@ layout:
         Contact Assembly Solutions on **01204 521999** to discuss your GEM Terminal requirements or email your needs to enquiry@assembly-solutions.com
 seo:
   title: GEM Terminal Distribution
-  description: Assembly Solutions is a UK Distributor of GEM Terminals and
+  description: Assembly Solutions is the UK Distributor of GEM Terminals and
     Connectors for Wire Assembly Manufactured Products.
   og-url: www.assembly-solutions.com/gem-terminal-distribution
 ---
