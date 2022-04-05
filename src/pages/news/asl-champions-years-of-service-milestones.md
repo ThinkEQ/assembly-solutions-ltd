@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Champions - Celebrating Staff Milestones
+title: ASL Create Champions Wall To Celebrate Staff Milestones
 date: 2022-03-14T14:43:50.428Z
 image: /img/asl-champions.jpg
 layout:
@@ -8,7 +8,7 @@ layout:
     full:
       title: ""
       text: >-
-        March 14, 2022\
+        14th March, 2022\
 
         **ASL Champions - Celebrating Staff Milestones**
 
