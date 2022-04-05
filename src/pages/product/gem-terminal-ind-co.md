@@ -1,6 +1,6 @@
 ---
 templateKey: product
-title: GEM Terminal Ind Co
+title: GEM Terminals
 subtitle: GEM Terminal Distribution
 image: /img/reel-terminal.png
 images:
