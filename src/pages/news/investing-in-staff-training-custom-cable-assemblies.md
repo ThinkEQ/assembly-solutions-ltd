@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Invest In Staff Training for Continuous Quality Improvements
+title: ASL Invest In Staff for Continuous Quality Improvements
 date: 2022-03-28T15:06:48.479Z
 image: /img/staff-training-alex-daryl.jpg
 layout:
@@ -9,7 +9,7 @@ layout:
       text: >-
         28th March, 2022\
 
-        **ASL** **Invest in Staff Training for Continuous Quality Improvements**
+        **ASL** **Invest in Staff for Continuous Quality Improvements**
 
 
         What happens if you invest in your employees and then they leave?\
