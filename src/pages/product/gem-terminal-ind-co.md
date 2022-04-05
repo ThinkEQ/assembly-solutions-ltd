@@ -8,8 +8,8 @@ images:
     image: /img/wiring-terminal.jpg
   - image: /img/gem-terminal.jpg
     alt: gem-terminal
-  - image: /img/3.jpg
-    alt: braid-cable
+  - image: /img/connector-terminals.png
+    alt: connector-terminals
 layout:
   - type: full
     full:
