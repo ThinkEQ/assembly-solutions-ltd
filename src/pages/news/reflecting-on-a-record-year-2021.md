@@ -23,7 +23,7 @@ layout:
         With a surprise surge in demand we experienced 20% growth and had to work closely with our customers and suppliers to keep production moving as smoothly and efficiently as possible. 
 
 
-        To our delight, 2021 saw Assembly Solutions reach a record of £6million turnover, and for that we thank our customers, supportive suppliers and most importantly our team - for being absolutely awesome.
+        To our delight, 2021 saw Assembly Solutions reach a record £6million turnover, and for that we thank our customers, supportive suppliers and most importantly our team - for being absolutely awesome.
 
 
         **2021 Highlights;**
