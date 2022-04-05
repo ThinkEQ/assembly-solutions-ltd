@@ -10,8 +10,6 @@ images:
     alt: connector-terminals
   - image: /img/crimps-connectors.png
     alt: crimps-connectors
-  - image: /img/gem-terminal.jpg
-    alt: gem-terminal
 layout:
   - type: full
     full:
@@ -20,7 +18,7 @@ layout:
         ### **GEM Terminal Distribution**
 
 
-        Assembly Solutions is the UK Distributor of GEM Terminals and Connectors.
+        Assembly Solutions is a UK Distributor of GEM Terminals and Connectors.
 
 
         GEM Terminals are a Taiwan based manufacturer of over 1,000 AC Terminals and Plug Inserts for Powercords. 
@@ -39,9 +37,9 @@ layout:
         **Why Buy from Assembly Solutions**
 
 
-        * UK Official Stockist of GEM Terminals
+        * UK Stockist of GEM Terminals
 
-        * Full Range of Stock Available from GEM Catalogue
+        * Range of Stock Available from GEM Catalogue
 
         * Excellent Customer Service
 
