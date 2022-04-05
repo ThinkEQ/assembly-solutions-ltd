@@ -30,7 +30,7 @@ layout:
 
         **Contact Us**\
 
-        Call our sales team on **01204 521999** to discuss your GEM Terminal requirements or email your needs to enquiry@assembly-solutions.com\
+        Call our sales team on **01204 521999** to discuss your GEM Terminal requirements or email **enquiry@assembly-solutions.com** and we'll be straight back to you.\
 
         \
 
