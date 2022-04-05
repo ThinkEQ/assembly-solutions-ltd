@@ -24,8 +24,15 @@ layout:
         GEM Terminals are the Taiwan based Asia leading manufacturer of over 1,000 AC Terminals and Plug Inserts for Powercords. 
 
 
-        **Click here** to view the full range of GEM Terminals and Connectors.
+        **Click here** to view the full range of GEM Terminals and Connectors.\
 
+        \
+
+        **Contact Us**\
+
+        Call our sales team on **01204 521999** to discuss your GEM Terminal requirements or email your needs to enquiry@assembly-solutions.com\
+
+        \
 
         **Why Buy from Assembly Solutions**
 
@@ -37,14 +44,6 @@ layout:
         * Excellent Customer Service
 
         * Quick Quotation & Lead Time
-
-
-        \
-
-        **Contact Us**
-
-
-        Contact Assembly Solutions on **01204 521999** to discuss your GEM Terminal requirements or email your needs to enquiry@assembly-solutions.com
 seo:
   title: GEM Terminal Distribution
   description: Assembly Solutions is the UK Distributor of GEM Terminals and
