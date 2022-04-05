@@ -8,6 +8,8 @@ images:
     image: /img/wiring-terminal.jpg
   - image: /img/connector-terminals.png
     alt: connector-terminals
+  - image: /img/crimps-connectors.png
+    alt: crimps-connectors
   - image: /img/gem-terminal.jpg
     alt: gem-terminal
 layout:
