@@ -14,14 +14,13 @@ layout:
         **GEM Terminal Distribution**
 
 
-        Assembly Solutions is a UK Distributor of GEM Terminals and Connectors for Wire Assembly Manufactured Products.\
-
-        \
-
-        **GEM Terminal Catalogue**
+        Assembly Solutions is a UK Distributor of GEM Terminals and Connectors.
 
 
-        **Click here** to view the full range of GEM Terminals and Connectors
+        GEM Terminals are the Taiwan based Asia leading manufacturer of over 1,000 AC Terminals and Plug Inserts for Powercords. 
+
+
+        **Click here** to view the full range of GEM Terminals and Connectors.
 
 
         **Why Buy from Assembly Solutions**
