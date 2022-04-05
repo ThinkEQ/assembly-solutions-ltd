@@ -6,22 +6,27 @@ image: /img/petronela-wiring-harnesses.jpg
 layout:
   - type: full
     full:
-      title: Reflecting On A Record Year 2021
+      title: ""
       text: >-
-        Manufacturing was undoubtedly an industry hit hard in 2021. As an
-        electrical cable assembly and [wiring harness
-        manufacturer](www.assembly-solutions.com/wiring-harness) shipping to
-        customers worldwide, we witnessed first hand the supply chain issues and
-        delivery disruptions.
+        3rd January, 2022\
+
+        **Reflecting On A Record Year 2021**\
+
+        \
+
+        Manufacturing was undoubtedly an Industry hit hard in 2021 where we witnessed first hand the supply chain issues and delivery disruptions that were caused not only in the UK, but overseas too.
 
 
-        Times were tough and we were tested like never before.
+        As a cable assembly and [wiring harness manufacturer](www.assembly-solutions.com/wiring-harness) shipping to customers worldwide, there were periods of pressure and we were tested like never before.
 
 
-        But remaining positive throughout and In the end we reached an incredible record of £6million turnover, and for that we send thanks to our loyal customers, supportive suppliers and our team - for being absolutely awesome.
+        With a surprise surge in demand we experienced 20% growth and had to work closely with our customers and suppliers to keep production moving as smoothly and efficiently as possible. 
 
 
-        Here's the highlights;
+        To our delight, 2021 saw Assembly Solutions reach a record of £6million turnover, and for that we thank our customers, supportive suppliers and most importantly our team - for being absolutely awesome.
+
+
+        **2021 Highlights;**
 
 
         * Reached Record £6Million Turnover
