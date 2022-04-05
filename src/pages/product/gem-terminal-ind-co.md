@@ -6,6 +6,8 @@ image: /img/reel-terminal.png
 images:
   - alt: wiring-terminal
     image: /img/wiring-terminal.jpg
+  - alt: gem-terminal
+    image: /img/gem-terminal.jpg
   - image: /img/3.jpg
     alt: braid-cable
 layout:
