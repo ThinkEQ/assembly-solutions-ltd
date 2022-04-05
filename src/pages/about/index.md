@@ -48,10 +48,8 @@ We are a leading manufacturer of Automotive Wiring Harnesses after having 25 yea
 
 Working with the latest models in vehicle technology, our technical team have the knowledge and skills to support wiring harnesses for any [electric and hybrid](https://www.assembly-solutions.com/electric-vehicle-and-hybrid-vehicle-wiring-harnesses) system. We also supply wiring harnesses for equipment used in the Agricultural Industry. These include; Crop Spraying tractors, Flail Mowers and Harvesters.
 
-**Meet The Team**
-
-Get to know more About us by meeting our people. Click here > [Meet The Team](https://www.assembly-solutions.com/team)\
+**Meet The Team**\
+Get to know more About us by meeting our people. Click here [Meet The Team](https://www.assembly-solutions.com/team)\
 \
-**Contact Us**
-
-If you have an enquiry, call 01204 521999 or email enquiry@assembly-solutions.com
+**Contact Us**\
+If you have an enquiry, call our sales team on 01204 521999 or email enquiry@assembly-solutions.com
