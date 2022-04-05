@@ -7,7 +7,7 @@ layout:
   - type: full
     full:
       text: >-
-        March 28, 2022\
+        28th March, 2022\
 
         **ASL** **Invest in Staff Training for Continuous Quality Improvements**
 
