@@ -17,7 +17,7 @@ const NewsIndexTemplate = ({ data, pagination }) => {
               </Text>
 
               <Heading as="h1" textStyle="h2" width={{base: "100%", lg:"80%"}} marginBottom={{base: "20px", lg: "0"}}>
-                We are always up to something new, so keep yourself up to date on all our latest news stories
+                News & Updates
               </Heading>
             </Box>
           </Box>
