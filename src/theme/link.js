@@ -53,7 +53,7 @@ export const LinkStyles = {
             }
         },
         navAlt: {
-            color: "#111111",
+            color: "gray.600",
             display: "inline-block",
             position: "relative",
             transition: "transform .5s ease",
@@ -62,7 +62,7 @@ export const LinkStyles = {
             _before: {
                 position: "absolute",
                 content: "''",
-                bottom: "-12px",
+                bottom: "-25px",
                 left: 0,
                 width: "0%",
                 height: "2px",
@@ -80,6 +80,7 @@ export const LinkStyles = {
             },
             _hover: {
                 textDecoration: "none",
+                color: 'blackAlpha.900',
                 '&::before': {
                    width: "100%"
                 },

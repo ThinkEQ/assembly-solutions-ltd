@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import { Link as ReachLink, navigate } from 'gatsby'
 
 // Load components
-import { Box, Text, Link, keyframes, List, ListItem, Menu, MenuItem, MenuButton, MenuList, Button, useDisclosure, MenuGroup } from '@chakra-ui/react'
+import { Box, Text, Link, keyframes, List, ListItem, Menu, MenuItem, MenuButton, MenuList, Button, useDisclosure, MenuGroup, Image } from '@chakra-ui/react'
 import Svg from '../UI/SVG/index'
 import MarketsList from '../StaticQueries/MarketsListNav'
+import Logo from '../../img/logo.png'
 
 const flow = keyframes `
   0%{background-position: 0% 50%}
@@ -14,29 +15,29 @@ const flow = keyframes `
 
 const style = {
     color: 'gray.600',
+    fontSize: 'md',
     _hover: {
         textDecoration: 'none',
-        color: 'blackAlpha.900',
-        fontWeight: 'bold'
+        color: 'blackAlpha.900'
     }
 }
 
 const productList = [
         { group: [
-            <Link as={ReachLink} fontWeight="bold" to="/wire-preparation" size="md" {...style} color="blackAlpha.900" >Wire Preparation</Link>,   
+            <Link as={ReachLink} fontWeight="bold" to="/wire-preparation" size="md" {...style} >Wire Preparation</Link>,   
             <Link as={ReachLink} to="/cable-preparation" size="md" {...style}>Cable Preparation</Link>,
         ]},
         { group: [
-            <Link as={ReachLink} fontWeight="bold" to="/cable-assembly" size="md" {...style} color="blackAlpha.900" >Cable Assembly</Link>,
+            <Link as={ReachLink} fontWeight="bold" to="/cable-assembly" size="md" {...style} >Cable Assembly</Link>,
             <Link as={ReachLink} to="/cable-assemblies" size="md" {...style}>Cable Assemblies</Link>,
         ]},
         { group: [
-            <Link as={ReachLink} fontWeight="bold" to="/wiring-harness" size="md" {...style} color="blackAlpha.900" >Wiring Harness</Link>,
+            <Link as={ReachLink} fontWeight="bold" to="/wiring-harness" size="md" {...style} >Wiring Harness</Link>,
             <Link as={ReachLink} to="/wiring-loom" size="md" {...style}>Wiring Looms</Link>,
             <Link as={ReachLink} to="/cable-looms" size="md" {...style}>Cable Looms</Link>,
         ]},
         { group: [
-            <Link as={ReachLink} fontWeight="bold" to="/control-panels" size="md" {...style} color="blackAlpha.900" >Control Panels</Link>,
+            <Link as={ReachLink} fontWeight="bold" to="/control-panels" size="md" {...style} >Control Panels</Link>,
             <Link as={ReachLink} to="/electrical-control-panels" size="md" {...style}>Electrical Control Panels</Link>,
             <Link as={ReachLink} to="/panel-wiring" size="md" {...style}>Panel Wiring</Link>,
             <Link as={ReachLink} to="/panel-build" size="md" {...style}>Panel Build</Link>
@@ -68,10 +69,10 @@ const MenuMain = ({ isOpen, onOpen, list = []}) => {
             <MenuButton mr={6} onMouseEnter={() => onOpenMenu('markets')} variant="navAlt" as={Link}>
                 Markets
             </MenuButton>
-            <MenuList width="100vw" transform="translateX(-381px)" py={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
+            <MenuList width="100vw" transform="translateX(-381px)" pt={10} pb={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
                 {menuType === 'products' &&
                     <MenuGroup _hover={{ backgroundColor: "none"}}>
-                        <Box display="grid" gridTemplateColumns="repeat(4, 200px)">
+                        <Box display="grid" gridTemplateColumns="repeat(4, 1fr)">
                         {list.map((item) => {
 
                         return (
@@ -124,13 +125,15 @@ const DesktopNav = () => {
             <Box display="flex" alignItems="center" justifyContent="space-between" padding={6}>
                 <Box width="25%">
                     <Link as={ReachLink} display="inline-block" to="/">
-                        <Box animation={`${flow} infinite 10s ease`} background="gradient.900" backgroundSize="600% 600%" px={6} py={2} borderRadius="sm">
+                        {/* <Box animation={`${flow} infinite 10s ease`} background="gradient.900" backgroundSize="600% 600%" px={6} py={2} borderRadius="sm">
                             <Svg name="logo" width="100px" />
-                        </Box>
+                           
+                        </Box> */}
+                        <Image src={Logo} maxW="180px" />
                     </Link>
                 </Box>
                 <Box textAlign="center">
-                    <Text as="h1" textStyle="h2" textTransform="uppercase" fontWeight="light" color="blue.900">
+                    <Text as="h1" textStyle="h2" textTransform="uppercase" fontWeight="bold" color="blue.900">
                         Assembly Solutions
                     </Text>
                     <MainNav />
