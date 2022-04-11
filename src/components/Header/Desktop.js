@@ -41,7 +41,11 @@ const productList = [
             <Link as={ReachLink} to="/electrical-control-panels" size="md" {...style}>Electrical Control Panels</Link>,
             <Link as={ReachLink} to="/panel-wiring" size="md" {...style}>Panel Wiring</Link>,
             <Link as={ReachLink} to="/panel-build" size="md" {...style}>Panel Build</Link>
-        ]}        
+        ]},
+        { group: [
+            <Link as={ReachLink} fontWeight="bold" to="/distribution" size="md" {...style} >Distribution</Link>,
+            <Link as={ReachLink} to="/gem-terminals" size="md" {...style}>GEM Terminals</Link>
+        ]},      
 ]
 
 
@@ -72,7 +76,7 @@ const MenuMain = ({ isOpen, onOpen, list = []}) => {
             <MenuList width="100vw" transform="translateX(-381px)" pt={10} pb={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
                 {menuType === 'products' &&
                     <MenuGroup _hover={{ backgroundColor: "none"}}>
-                        <Box display="grid" gridTemplateColumns="repeat(4, 1fr)">
+                        <Box display="grid" gridTemplateColumns="repeat(5, max-content)" gridColumnGap={6}>
                         {list.map((item) => {
 
                         return (
