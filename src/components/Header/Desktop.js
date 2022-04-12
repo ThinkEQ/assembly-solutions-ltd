@@ -38,7 +38,7 @@ const productList = [
         ]},
         { group: [
             <Link as={ReachLink} fontWeight="bold" to="/control-panels" size="md" {...style} >Control Panels</Link>,
-            <Link as={ReachLink} to="/electrical-control-panels" size="md" {...style}>Electrical Control Panels</Link>,
+            <Link as={ReachLink} to="/electrical-control-panels" size="md" {...style}>Electrical Panels</Link>,
             <Link as={ReachLink} to="/panel-wiring" size="md" {...style}>Panel Wiring</Link>,
             <Link as={ReachLink} to="/panel-build" size="md" {...style}>Panel Build</Link>
         ]},
@@ -133,7 +133,7 @@ const DesktopNav = () => {
                             <Svg name="logo" width="100px" />
                            
                         </Box> */}
-                        <Image src={Logo} maxW="180px" />
+                        <Image src={Logo} maxW="160px" />
                     </Link>
                 </Box>
                 <Box textAlign="center">
@@ -145,7 +145,7 @@ const DesktopNav = () => {
                 <Box width="25%" display="flex" justifyContent="flex-end">     
                     <Button display="flex" alignItems="center" variant="default" bg="blue.800" onClick={() => navigate("/contact")}>
                         <Svg name="chat" color="#fff" />
-                        <Text marginLeft="5px">Contact</Text>
+                        <Text marginLeft="5px">Contact Us</Text>
                     </Button>
                 </Box>
             </Box>
