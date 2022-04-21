@@ -49,7 +49,7 @@ const productList = [
 ]
 
 
-const MenuMain = ({ isOpen, onOpen, list = []}) => {
+const MenuMain = ({ isOpen, onOpen, onClose, list = []}) => {
     const [menuType, setMenuType] = useState(null)
     
     function onOpenMenu(menu) {
@@ -67,7 +67,7 @@ const MenuMain = ({ isOpen, onOpen, list = []}) => {
             <MenuButton onMouseEnter={() => onOpenMenu('products')} variant="navAlt" as={Link}>
                 Products
             </MenuButton>
-            <MenuButton mx={6} as={Link} to="/services" size="md" variant="navAlt" >
+            <MenuButton mx={6} as={Link} to="/services" size="md" variant="navAlt" onMouseEnter={onClose}>
                 Services
             </MenuButton>
             <MenuButton mr={6} onMouseEnter={() => onOpenMenu('markets')} variant="navAlt" as={Link}>
@@ -101,20 +101,20 @@ const MainNav = () => {
     return (
     <List display="flex" justifyContent="space-between" onMouseLeave={onClose} >
       <ListItem mr={6}>
-        <Link as={ReachLink} to="/" onClick={onClose} size="md" variant="navAlt">Home</Link>
+        <Link as={ReachLink} to="/" onClick={onClose} size="md" variant="navAlt" onMouseEnter={onClose}>Home</Link>
       </ListItem>
       <ListItem mr={6}>
-        <Link as={ReachLink} to="/about" onClick={onClose} size="md" variant="navAlt">About</Link>
+        <Link as={ReachLink} to="/about" onClick={onClose} size="md" variant="navAlt" onMouseEnter={onClose}>About</Link>
       </ListItem>
       <ListItem mr={6}>
-        <Link as={ReachLink} to="/team" onClick={onClose} size="md" variant="navAlt">Team</Link>
+        <Link as={ReachLink} to="/team" onClick={onClose} size="md" variant="navAlt" onMouseEnter={onClose}>Team</Link>
       </ListItem>
-        <MenuMain isOpen={isOpen} onOpen={onOpen} onClose={onClose} title="Products"  list={productList} />
+        <MenuMain isOpen={isOpen} onOpen={onOpen} onClose={onClose} title="Products" list={productList} />
       <ListItem mr={6}>
-        <Link as={ReachLink} to="/videos" onClick={onClose} size="md" variant="navAlt" >Videos</Link>
+        <Link as={ReachLink} to="/videos" onClick={onClose} size="md" variant="navAlt" onMouseEnter={onClose} >Videos</Link>
       </ListItem>
       <ListItem>
-        <Link as={ReachLink} to="/news" onClick={onClose} size="md" variant="navAlt">News</Link>
+        <Link as={ReachLink} to="/news" onClick={onClose} size="md" variant="navAlt" onMouseEnter={onClose}>News</Link>
       </ListItem>
   </List>
   )
@@ -123,10 +123,10 @@ const MainNav = () => {
 const DesktopNav = () => {
     return (
         <Box backgroundColor="white" borderBottom="1px solid" borderColor="gray.200">
-            <Box px={6} py={2} backgroundColor="gray.200">
+            <Box px={6} py={2} backgroundColor="neutral.700">
                 <Text textAlign="center" textTransform="uppercase">Excellent 98% customer satisfaction</Text>
             </Box>
-            <Box display="flex" alignItems="center" justifyContent="space-between" padding={6}>
+            <Box display="flex" alignItems="center" justifyContent="space-between" px={6} py={4}>
                 <Box width="25%">
                     <Link as={ReachLink} display="inline-block" to="/">
                         {/* <Box animation={`${flow} infinite 10s ease`} background="gradient.900" backgroundSize="600% 600%" px={6} py={2} borderRadius="sm">
