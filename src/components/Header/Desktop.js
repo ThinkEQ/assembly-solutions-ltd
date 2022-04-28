@@ -5,7 +5,7 @@ import { Link as ReachLink, navigate } from 'gatsby'
 import { Box, Text, Link, keyframes, List, ListItem, Menu, MenuItem, MenuButton, MenuList, Button, useDisclosure, MenuGroup, Image } from '@chakra-ui/react'
 import Svg from '../UI/SVG/index'
 import MarketsList from '../StaticQueries/MarketsListNav'
-import Logo from '../../img/logo.png'
+import Logo from '../../img/logoAlt.png'
 
 const flow = keyframes `
   0%{background-position: 0% 50%}
@@ -127,7 +127,7 @@ const DesktopNav = () => {
                 <Text textAlign="center" textTransform="uppercase">Excellent 98% customer satisfaction</Text>
             </Box>
             <Box display="flex" alignItems="center" justifyContent="space-between" px={6} py={4}>
-                <Box width="25%">
+                <Box width="25%" pt={5}>
                     <Link as={ReachLink} display="inline-block" to="/">
                         {/* <Box animation={`${flow} infinite 10s ease`} background="gradient.900" backgroundSize="600% 600%" px={6} py={2} borderRadius="sm">
                             <Svg name="logo" width="100px" />
