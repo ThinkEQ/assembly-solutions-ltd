@@ -49,7 +49,7 @@ return (
                 EFFICIENT MANUFACTURING <br />THAT DELIVERS <Text as="span" background="gradient.900" style={{ backgroundClip: "text", WebkitTextFillColor: "transparent", WebkitBackgroundClip: "text"}}>QUALITY & SPEED</Text>
                 </Heading>
                 <Text fontSize={{base: "16px", lg:"24px"}} fontWeight="light" lineHeight={{base: "28px", lg:"38px"}} color="#fff" marginBottom="50px">
-                The Home of Cable Assemblies, Wiring Harnessess and Control Panels
+                UK Manufacturer of Cable Assemblies, Wiring Harnesses & Control Panels
                 </Text>
                 <Box display="flex" justifyContent="space-between" width="100%">
                   <Button variant="solid" onClick={onOpen}>Watch Full Video</Button>
