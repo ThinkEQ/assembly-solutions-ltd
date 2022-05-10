@@ -125,7 +125,7 @@ const Footer = ({ toggleDrawer }) => {
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link onClick={() => toggleDrawer('contact')} to="#">
+                <Link as={ReachLink} to="/contact">
                   Contact Us
                 </Link>
               </ListItem>

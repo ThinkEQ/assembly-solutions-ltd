@@ -99,7 +99,7 @@ const MenuMain = ({ isOpen, onOpen, onClose, list = []}) => {
 const MainNav = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     return (
-    <List display="flex" justifyContent="space-between" onMouseLeave={onClose} >
+    <List display="flex" justifyContent="space-between" overflow="hidden" onMouseLeave={onClose} >
       <ListItem mr={6}>
         <Link as={ReachLink} to="/" onClick={onClose} size="md" variant="navAlt" onMouseEnter={onClose}>Home</Link>
       </ListItem>
