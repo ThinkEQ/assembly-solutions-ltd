@@ -70,9 +70,9 @@ const MenuMain = ({ isOpen, onOpen, onClose, list = []}) => {
             <MenuButton onMouseEnter={() => onOpenMenu('products')} variant="navAlt" as={Link}>
                 Products
             </MenuButton>
-            <MenuButton mx={6} as={Link} to="/services" size="md" variant="navAlt" onMouseEnter={onClose}>
+            <Link mx={6} as={ReachLink} to="/services" size="md" variant="navAlt" onMouseEnter={onClose}>
                 Services
-            </MenuButton>
+            </Link>
             <MenuButton mr={6} onMouseEnter={() => onOpenMenu('markets')} variant="navAlt" as={Link}>
                 Markets
             </MenuButton>
