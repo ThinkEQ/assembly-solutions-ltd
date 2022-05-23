@@ -3,7 +3,7 @@ import { Link as ReachLink } from 'gatsby'
 import { Field } from 'formik'
 
 // Load components
-import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl, LinkBox } from '@chakra-ui/react'
+import { Box, Heading, Input, Button, InputGroup, InputRightElement, Text, ListItem, List, Link, FormErrorMessage, FormControl } from '@chakra-ui/react'
 import Svg from './UI/SVG/index'
 import FormProvider from './Form/Form'
 
@@ -125,7 +125,7 @@ const Footer = ({ toggleDrawer }) => {
                 </Link>
               </ListItem>
               <ListItem {...para}>
-                <Link onClick={() => toggleDrawer('contact')} to="#">
+                <Link as={ReachLink} to="/contact">
                   Contact Us
                 </Link>
               </ListItem>

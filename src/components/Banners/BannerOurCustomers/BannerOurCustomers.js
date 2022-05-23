@@ -67,7 +67,7 @@ const BannerOurCustomers = () => {
                         Our customers
                     </Heading>
                     <Text textStyle="p">
-                    Our customers are a true reflection of the quality and service that we deliver. With a satisfaction score of 99% and partnerships with world class companies including Ford and Siemens, we are extremely proud but also motivated to maintain these high standards.
+                    Our customers are a true reflection of the quality and service that we deliver. With a satisfaction score of 98% and partnerships with world class companies including Ford and Siemens, we are extremely proud but also motivated to maintain these high standards.
                     </Text>
                     <Image src={Google} pointerEvents="none" alt="Google reviews" />
                 </Box>
