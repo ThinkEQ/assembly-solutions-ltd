@@ -30,11 +30,14 @@ const productList = [
         { group: [
             <Link as={ReachLink} fontWeight="bold" to="/cable-assembly" size="md" {...style} >Cable Assembly</Link>,
             <Link as={ReachLink} to="/cable-assemblies" size="md" {...style}>Cable Assemblies</Link>,
+            <Link as={ReachLink} to="/battery-and-hv-cables" size="md" {...style}>Battery &amp; HV Cables</Link>,
+            <Link as={ReachLink} to="/earth-strap" size="md" {...style}>Earth Straps</Link>,
         ]},
         { group: [
             <Link as={ReachLink} fontWeight="bold" to="/wiring-harness" size="md" {...style} >Wiring Harness</Link>,
             <Link as={ReachLink} to="/wiring-loom" size="md" {...style}>Wiring Looms</Link>,
             <Link as={ReachLink} to="/cable-looms" size="md" {...style}>Cable Looms</Link>,
+            <Link as={ReachLink} to="/electric-vehicle-and-hybrid-vehicle-wiring-harnesses" size="md" {...style}>EV &amp; HV Harnesses</Link>,
         ]},
         { group: [
             <Link as={ReachLink} fontWeight="bold" to="/control-panels" size="md" {...style} >Control Panels</Link>,
