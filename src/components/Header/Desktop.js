@@ -46,7 +46,7 @@ const productList = [
             <Link as={ReachLink} to="/panel-build" size="md" {...style}>Panel Build</Link>
         ]},
         { group: [
-            <Link as={ReachLink} fontWeight="bold" to="/distribution" size="md" {...style} >Distribution</Link>,
+            <Link as={ReachLink} fontWeight="bold" to="/gem-terminals" size="md" {...style} >Distribution</Link>,
             <Link as={ReachLink} to="/gem-terminals" size="md" {...style}>GEM Terminals</Link>
         ]},      
 ]
