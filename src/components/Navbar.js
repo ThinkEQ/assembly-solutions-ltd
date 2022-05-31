@@ -8,7 +8,7 @@ import DesktopNav from './Header/Desktop'
 
 const Navbar = (props) => { 
   return (
-     <Box>
+     <Box as="header" position={{ base: "initial", lg: "sticky"}} top={0} overflow="hidden" zIndex="sticky">
       <Box display={{ base: "block", lg: "none"}}>
           <MobileHeader {...props} />
       </Box>
