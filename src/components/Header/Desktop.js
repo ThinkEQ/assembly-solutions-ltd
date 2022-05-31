@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link as ReachLink, navigate } from 'gatsby'
 
 // Load components
@@ -124,9 +124,35 @@ const MainNav = () => {
 }
 
 const DesktopNav = () => {
+    const [shrunk, setShrunk] = useState(false)
+    
+    useEffect(() => {
+
+        const handler = () => {
+            setShrunk((isShrunk) => {
+                
+                if (!isShrunk && document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    return true
+                }
+
+                if (isShrunk && document.body.scrollTop < 4 || document.documentElement.scrollTop < 4) {
+                    return false
+                }
+
+                return isShrunk
+            })
+        }
+        
+        if (typeof window !== 'undefined') {
+
+            window.addEventListener('scroll', handler)
+            return () => window.removeEventListener('scroll', handler)
+        }
+    }, [])
+   
     return (
         <Box backgroundColor="white" borderBottom="1px solid" borderColor="gray.200">
-            <Box px={6} py={2} backgroundColor="neutral.700">
+            <Box display="flex" alignItems="center" justifyContent="center" height={shrunk ? '0' : '50px'} backgroundColor="neutral.700" overflow="hidden" transition='all .3s'>
                 <Text textAlign="center" textTransform="uppercase">Excellent 98% customer satisfaction</Text>
             </Box>
             <Box display="flex" alignItems="center" justifyContent="space-between" px={6} py={4}>
