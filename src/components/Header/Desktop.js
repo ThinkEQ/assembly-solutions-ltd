@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useRef } from 'react'
 import { Link as ReachLink, navigate } from 'gatsby'
 
 // Load components
-import { Box, Text, Link, keyframes, List, ListItem, Menu, MenuItem, MenuButton, MenuList, Button, useDisclosure, MenuGroup, Image } from '@chakra-ui/react'
+import { Box, Text, Link, keyframes, List, ListItem, Menu, MenuButton, MenuList, Button, useDisclosure, MenuGroup, Image } from '@chakra-ui/react'
 import Svg from '../UI/SVG/index'
 import MarketsList from '../StaticQueries/MarketsListNav'
 import Logo from '../../img/logoAlt.png'
@@ -54,8 +54,14 @@ const productList = [
 
 const MenuMain = ({ isOpen, onOpen, onClose, list = []}) => {
     const [menuType, setMenuType] = useState(null)
+    const ref = useRef()
     
     function onOpenMenu(menu) {
+
+        if (!ref.current) {
+            ref.current = true
+        }
+
         if(menuType !== menu) {
             setMenuType(menu)
         }
@@ -76,7 +82,7 @@ const MenuMain = ({ isOpen, onOpen, onClose, list = []}) => {
             <MenuButton mr={6} onMouseEnter={() => onOpenMenu('markets')} variant="navAlt" as={Link}>
                 Markets
             </MenuButton>
-            <MenuList width="100vw" transform="translateX(-381px)" pt={10} pb={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
+            <MenuList width={ref.current ? "100vw" : "100%"} transform="translateX(-381px)"  pt={10} pb={6} borderTop="none" borderRadius="none" justifyContent="center" display="flex">
                 {menuType === 'products' &&
                     <MenuGroup _hover={{ backgroundColor: "none"}}>
                         <Box display="grid" gridTemplateColumns="repeat(5, max-content)" gridColumnGap={6}>
@@ -102,7 +108,7 @@ const MenuMain = ({ isOpen, onOpen, onClose, list = []}) => {
 const MainNav = () => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     return (
-    <List display="flex" justifyContent="space-between" onMouseLeave={onClose} >
+    <List display="flex" justifyContent="space-between" onMouseLeave={onClose}>
       <ListItem mr={6}>
         <Link as={ReachLink} to="/" onClick={onClose} size="md" variant="navAlt" onMouseEnter={onClose}>Home</Link>
       </ListItem>
@@ -124,37 +130,37 @@ const MainNav = () => {
 }
 
 const DesktopNav = () => {
-    const [shrunk, setShrunk] = useState(false)
+    //const [shrunk, setShrunk] = useState(false)
     
-    useEffect(() => {
+    // useEffect(() => {
 
-        const handler = () => {
-            setShrunk((isShrunk) => {
+    //     const handler = () => {
+    //         setShrunk((isShrunk) => {
                 
-                if (!isShrunk && document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                    return true
-                }
+    //             if (!isShrunk && document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    //                 return true
+    //             }
 
-                if (isShrunk && document.body.scrollTop < 4 || document.documentElement.scrollTop < 4) {
-                    return false
-                }
+    //             if (isShrunk && document.body.scrollTop < 4 || document.documentElement.scrollTop < 4) {
+    //                 return false
+    //             }
 
-                return isShrunk
-            })
-        }
+    //             return isShrunk
+    //         })
+    //     }
         
-        if (typeof window !== 'undefined') {
+    //     if (typeof window !== 'undefined') {
 
-            window.addEventListener('scroll', handler)
-            return () => window.removeEventListener('scroll', handler)
-        }
-    }, [])
+    //         window.addEventListener('scroll', handler)
+    //         return () => window.removeEventListener('scroll', handler)
+    //     }
+    // }, [])
    
     return (
         <Box backgroundColor="white" borderBottom="1px solid" borderColor="gray.200">
-            <Box display="flex" alignItems="center" justifyContent="center" height={shrunk ? '0' : '50px'} backgroundColor="neutral.700" overflow="hidden" transition='all .3s'>
+            {/* <Box display="flex" alignItems="center" justifyContent="center" height={shrunk ? '0' : '50px'} backgroundColor="neutral.700" overflow="hidden" transition='all .3s'>
                 <Text textAlign="center" textTransform="uppercase">Excellent 98% customer satisfaction</Text>
-            </Box>
+            </Box> */}
             <Box display="flex" alignItems="center" justifyContent="space-between" px={6} py={4}>
                 <Box width="25%" pt={5}>
                     <Link as={ReachLink} display="inline-block" to="/">
@@ -166,7 +172,7 @@ const DesktopNav = () => {
                     </Link>
                 </Box>
                 <Box textAlign="center">
-                    <Text as="h1" textStyle="h2" textTransform="uppercase" fontWeight="bold" color="blue.900">
+                    <Text as="h1" textStyle="h2" textTransform="uppercase" fontWeight="bold" color="blue.900" mb={3}>
                         Assembly Solutions
                     </Text>
                     <MainNav />
