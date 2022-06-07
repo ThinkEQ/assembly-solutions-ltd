@@ -108,7 +108,7 @@ layout:
         #### 25 Years Of Cable Assembly Services
 
 
-        We have supplied Cable Assembly services for over 25 Years, after the company was founded in 2020. It was an incredible milestone to reach and has been a journey of growth since the start, where we started off manufacturing only cable assemblies, and from there steadily grown, where we now also build [wiring looms and wiring harnesses](/wiring-loom).
+        We have supplied Cable Assembly services for over 25 Years, after the company was founded in 2020. It was an incredible milestone to reach and has been a journey of growth since the start, where we started off manufacturing only certain types of cable assembly, and from there steadily grown, where we now also build [wiring looms and wiring harnesses](/wiring-loom).
 
 
         Our years of establishment and wealth of experience has see us grow into one a trusted UK leading British manufacturer which is reputable for all cable assembly services and other wiring products. Being a supplier of cable assembly services for over 25 years has extensively broadened our knowledge and expertise in multiple markets. These include; Automotive, General Engineering, Medical & Nuclear.
@@ -132,7 +132,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### NHS Medical Cable Assemblies
+        #### NHS Medical Custom Cable Assembly
 
 
         Throughout the coronavirus pandemic we supported the NHS with a range cable assembly products for medical equipment. These included; cable assemblies for Covid testing apparatus, hospital bed cables, sterilisation[](www.assembly-solutions.com/cable-assemblies) [cable assemblies](/cable-assemblies)[](www.assembly-solutions.com/cable-assemblies) and ventilation equipment cables. 
@@ -159,10 +159,10 @@ layout:
 
         For expert and professional cable assembly services, [contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for a specially tailored quote and advice on your project.
 seo:
-  title: "Cable Assembly Manufacturer | Cable Assemblies | Assembly Solutions "
-  description: Assembly Solutions is the UK leading manufacturer of Cable Assembly
-    services and custom made Cable Assemblies. An award winning company with 98%
-    customer satisfaction reviews. Contact us today for a quote on your cable
-    assembly requirements.
+  title: "Custom Cable Assembly  | Assembly Solutions "
+  description: The UK's leading manufacturer of Cable Assembly services and Custom
+    Cable Assembly products. An award-winning company with 98% customer
+    satisfaction reviews. Contact us today for a quote on your cable assembly
+    requirements.
   og-url: https://www.assembly-solutions.com/cable-assembly
 ---
