@@ -33,12 +33,12 @@ layout:
       title: UK Manufactured Cable Assemblies
       text: >-
         ASL is an industry leading manufacturer of custom-made quality cable
-        assemblies. We have been making cable assemblies for 25 years and over
-        this time built a wealth of knowledge and experience from working with a
-        range of different industries including; Automotive, Agriculture and
-        Test & Measurement. Our services are tailored specific to your [cable
-        assembly](/cable-assembly) requirements and our prices will be
-        cost-effective for your application.
+        assemblies. We have been making custom cable assemblies for 25 years and
+        over this time built a wealth of knowledge and experience from working
+        with a range of different industries including; Automotive, Agriculture
+        and Test & Measurement. Our services are tailored specific to your
+        [e](/cable-assembly)lectrical assemblies requirement and our prices will
+        be cost-effective for your application.
 
 
         #### Want a quick quote?
@@ -47,7 +47,7 @@ layout:
         We thrive off being a fast paced team and giving customers a speedy service. Email your [custom cable assembly](www.assembly-solutions.com/cable-assembly) drawings to enquiry@assembly-solutions.com and we’ll be straight back to you with prices. 
 
 
-        Our super sales engineers are here to help at any time so if would like to chat with us about your cable assemblies, call  01204 521999 and let’s get started!
+        Our super sales engineers are here to help at any time so if would like to chat with us about your cable assemblies and electrical assemblies, call  01204 521999 and let’s get started!
   - type: column
     column:
       title: Range of Cable Assemblies
@@ -71,11 +71,11 @@ layout:
 
         > Henry Moreta, Buyer – Brompton Bicycle
 seo:
-  title: "Cable Assemblies | UK Cable Assembly Supplier | Assembly Solutions "
-  description: Assembly Solutions Is A UK Manufacturer Of Cable Assemblies And
-    Custom Cable Assembly Services. Award Winning Family Business With Over 25
-    Years Of Cable Assembly Excellence. Contact Us Today On 01204 521999 To
-    Discuss Your Cable Assemblies.
+  title: "Custom Cable Assemblies | Assembly Solutions "
+  description: Top UK Manufacturer of Custom Cable Assemblies & Electrical
+    Assembly services. Award Winning Family Business With Over 25 Years Of Cable
+    Assembly Excellence. Contact Us Today On To Discuss Your  Custom Cable
+    Assemblies.
   og-url: https://www.assembly-solutions.com/cable-assemblies
 testimonial:
   quote: >
