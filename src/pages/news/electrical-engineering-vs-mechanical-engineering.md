@@ -10,7 +10,7 @@ layout:
         # Electrical engineering vs Mechanical engineering 
 
 
-        At Assembly Solutions, we work with many different engineers and engineering companies because we supply a vast selection of electrical assemblies and wire harnesses for a variety of industries. We understand the difference between the different roles and industries and what each role consists of. There are certain aspects of each engineering role that can be difficult to differentiate from, however we’ve cleared a few unanswered questions so you can better understand the difference between electrical engineering vs mechanical engineering.
+        At Assembly Solutions, we work with many different engineers and engineering companies because we supply a vast selection of electrical assemblies and wire harnesses for a variety of [industries](https://www.assembly-solutions.com/services). We understand the difference between the different roles and industries and what each role consists of. There are certain aspects of each engineering role that can be difficult to differentiate from, however we’ve cleared a few unanswered questions so you can better understand the difference between electrical engineering vs mechanical engineering.
 
 
         ## What’s the similarities between electrical and mechanical engineering?  
@@ -40,10 +40,10 @@ layout:
         ### Contact Assembly Solutions
 
 
-        Whether you work within the electrical or mechanical engineering sector, Assembly Solutions are a great choice for a variety of different custom cable assembly and electrical harnesses that are ideal for a huge selection of different applications and industries. Our expert team is always on hand to provide your project with the reliability and quality assurance it needs. 
+        Whether you work within the electrical or mechanical engineering sector, [Assembly Solutions](https://www.assembly-solutions.com/) are a great choice for a variety of different custom cable assembly and electrical harnesses that are ideal for a huge selection of different applications and industries. Our expert team is always on hand to provide your project with the reliability and quality assurance it needs. 
 
 
-        For a choice of electrical assemblies and wire harnesses for a variety of applications, contact Assembly Solutions for more information and a custom quote.
+        For a choice of electrical assemblies and wire harnesses for a variety of applications, [contact Assembly Solutions ](https://www.assembly-solutions.com/contact)for more information and a custom quote.
       title: Electrical Engineering vs Mechanical Engineering
 seo:
   title: Electrical Engineering vs Mechanical Engineering
