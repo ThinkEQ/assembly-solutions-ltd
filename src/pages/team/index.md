@@ -173,7 +173,7 @@ team-members:
       - hiking
       - climbing-wall
   - name: Susan Gaskell
-    jobtitle: Purchasing Supervisor & Production Planner
+    jobtitle: Purchasing & Planning Manager
     interests:
       - cooking
       - hiking
