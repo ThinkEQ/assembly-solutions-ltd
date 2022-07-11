@@ -10,19 +10,15 @@ image: /img/cable-preparation.jpg
 images:
   - image: /img/wire-preparation-cutting-machinery.jpg
     alt: Wire Preparation
+  - image: /img/wire-preparation-002.jpg
+    alt: cable-preparation-002
   - image: /img/img_4045.jpg
-    alt: Cable Preparation
-  - image: /img/heavy-duty-cable-assembly.png
     alt: Cable Preparation
   - image: /img/img_4030.jpg
     alt: Cable Preparation
   - image: /img/cable-assembly-01.png
     alt: Cable Preparation
   - image: /img/img_4022.jpg
-    alt: Cable Preparation
-  - image: /img/wire-cable-machinery-01.jpg
-    alt: Cable Preparation
-  - image: /img/img_4054.jpg
     alt: Cable Preparation
   - image: /img/image0.jpg
     alt: Cable Preparation
