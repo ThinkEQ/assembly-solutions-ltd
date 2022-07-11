@@ -131,6 +131,15 @@ team-members:
     interests:
       - decorating
       - gardening
+  - name: Susan Gaskell
+    jobtitle: Purchasing & Planning Manager
+    interests:
+      - cooking
+      - hiking
+    image: /img/susan-gaskell.jpg
+    bio: Susan is our Purchasing Supervisor & Production Planner with over 10 Years
+      Experience. In her spare time Susan enjoys travelling and has practised
+      yoga for an incredible 33 years!
   - name: John Waterworth
     jobtitle: Customer Account Manager
     bio: John has worked in the electrical industry for 40 years and is extremely
@@ -172,15 +181,6 @@ team-members:
     interests:
       - hiking
       - climbing-wall
-  - name: Susan Gaskell
-    jobtitle: Purchasing & Planning Manager
-    interests:
-      - cooking
-      - hiking
-    image: /img/susan-gaskell.jpg
-    bio: Susan is our Purchasing Supervisor & Production Planner with over 10 Years
-      Experience. In her spare time Susan enjoys travelling and has practised
-      yoga for an incredible 33 years!
   - name: Chris Speakman
     jobtitle: Production Engineer
     interests:
