@@ -278,17 +278,13 @@ team-members:
       Aubrey enjoys his sporting passion of Motorsport - in particular Rallying,
       and he also likes to attend charity events to support many worthwhile
       causes.
-  - name: Niel Cope
-    jobtitle: HR Advisor
+  - name: Sam Croston
+    jobtitle: HR Support
     interests:
       - formula1
       - football
-    image: /img/aslheadshot-niel-1.jpg
-    bio: Niel is our humorous HR advisor who brings over 10 years of experience to
-      the team. Niel is mad about Motorsport, in particular F1, where he has
-      even named his kids middle names after some famous formula 1 drivers! His
-      children keep him young and sporty after his son was signed up for
-      Lancashire Rugby Team!
+    image: /img/sam-croston-team.jpg
+    bio: TBC
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
