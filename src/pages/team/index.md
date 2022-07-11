@@ -105,7 +105,7 @@ team-members:
       - football
     linkedin: https://www.linkedin.com/in/robert-parkinson-43007b10b/
   - name: Aubrey Oldham
-    jobtitle: Production Supervisor
+    jobtitle: Production Manager
     interests:
       - formula1
       - hiking
