@@ -218,7 +218,7 @@ team-members:
       understanding of production batch cards. Adam has hugely contributed
       towards winning new contracts and retaining existing customers. He is a
       passionate Tottenham Hotspur fan and a competitive Xbox gamer!
-    image: /img/team12.png
+    image: /img/adam-tunnah-team.jpg
     interests:
       - football
       - xbox
