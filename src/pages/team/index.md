@@ -61,6 +61,19 @@ team-members:
       - formula1
       - snowboarding
     linkedin: https://www.linkedin.com/in/oliver-balshaw-624a9ab4/
+  - name: Gareth Edwards
+    jobtitle: Head of Sales & Commercial
+    bio: Gareth is an exceptional sales professional with extensive technical
+      knowledge in electrical components and parts. With all his experience from
+      previously working as a production manager, he understands technical
+      issues customers are challenged with. Gareth is a keen explorer and enjoys
+      visiting UK countrysides with his family and has even hiked up Scotland's
+      tallest mountain, Ben Nevis - in treacherous snow conditions!
+    image: /img/team7-1-.png
+    interests:
+      - hiking
+      - church
+    linkedin: https://www.linkedin.com/in/gareth-edwards-370509119/
   - name: Damien Walsh
     jobtitle: Production Manager
     image: /img/team5-1-.png
@@ -91,19 +104,20 @@ team-members:
       - formula1
       - football
     linkedin: https://www.linkedin.com/in/robert-parkinson-43007b10b/
-  - name: Gareth Edwards
-    jobtitle: Head of Sales & Commercial
-    bio: Gareth is an exceptional sales professional with extensive technical
-      knowledge in electrical components and parts. With all his experience from
-      previously working as a production manager, he understands technical
-      issues customers are challenged with. Gareth is a keen explorer and enjoys
-      visiting UK countrysides with his family and has even hiked up Scotland's
-      tallest mountain, Ben Nevis - in treacherous snow conditions!
-    image: /img/team7-1-.png
+  - name: Aubrey Oldham
+    jobtitle: Production Supervisor
     interests:
+      - formula1
       - hiking
-      - church
-    linkedin: https://www.linkedin.com/in/gareth-edwards-370509119/
+    image: /img/aubrey-oldham.jpg
+    bio: Aubrey is our recently promoted Production Supervisor who brings a valuable
+      wealth of knowledge and experience to the team with his phenomenal 40
+      years in the electronics industry. His role covers supervising 15 cable
+      assembly operators, overseeing quality inspection, and proactively looking
+      for areas to improve efficiencies. When he isn't busy on production,
+      Aubrey enjoys his sporting passion of Motorsport - in particular Rallying,
+      and he also likes to attend charity events to support many worthwhile
+      causes.
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
@@ -224,19 +238,6 @@ team-members:
       computer programming wizard and in his spare time enjoys Home DIY and
       cooking up his signature Indian dish "Chicken Tikka Dopiza"!
     image: /img/aaron-hesketh.jpg
-  - name: Ioan Moreno
-    jobtitle: Production Supervisor
-    interests:
-      - formula1
-      - football
-    image: /img/ioan-moreno.jpg
-    bio: Ioan is our highly motivated and skilled Production Supervisor who is
-      nearing his 10 year anniversary with ASL. His ability to organise a
-      production team quickly and efficiently has been key in achieving some of
-      the shortest product turn around times in our industry and he has a strong
-      commercial awareness. Ioan has a leadership method which is to lead by
-      example, and this has helped him to develop a world class harness team.
-      Ioan is a Manchester United fan and an F1 fanatic!
   - name: Gareth Jones
     jobtitle: Machinery Supervisor
     linkedin: https://www.linkedin.com/in/gareth-jones-5167201b8/
@@ -264,20 +265,6 @@ team-members:
       always leaves us smiling with his favourite words "Happy Days!" Kev is a
       Formula 1 fanatic and  enjoys supporting the NY Yankees and Liverpool FC!
     image: /img/kevin-westfield.jpg
-  - name: Aubrey Oldham
-    jobtitle: Production Supervisor
-    interests:
-      - formula1
-      - hiking
-    image: /img/aubrey-oldham.jpg
-    bio: Aubrey is our recently promoted Production Supervisor who brings a valuable
-      wealth of knowledge and experience to the team with his phenomenal 40
-      years in the electronics industry. His role covers supervising 15 cable
-      assembly operators, overseeing quality inspection, and proactively looking
-      for areas to improve efficiencies. When he isn't busy on production,
-      Aubrey enjoys his sporting passion of Motorsport - in particular Rallying,
-      and he also likes to attend charity events to support many worthwhile
-      causes.
   - name: Sam Croston
     jobtitle: HR Support
     interests:
