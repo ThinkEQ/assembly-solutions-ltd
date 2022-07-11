@@ -172,6 +172,29 @@ team-members:
     interests:
       - hiking
       - climbing-wall
+  - name: Susan Gaskell
+    jobtitle: Purchasing Supervisor & Production Planner
+    interests:
+      - cooking
+      - hiking
+    image: /img/susan-gaskell.jpg
+    bio: Susan is our Purchasing Supervisor & Production Planner with over 10 Years
+      Experience. In her spare time Susan enjoys travelling and has practised
+      yoga for an incredible 33 years!
+  - name: Chris Speakman
+    jobtitle: Production Engineer
+    interests:
+      - cycling
+      - football
+    bio: TBC
+    image: /img/chris-speakman-team.jpg
+  - name: Steve Lyon
+    jobtitle: Quality Engineer
+    interests:
+      - cycling
+      - football
+    image: /img/stephen-lyon-team.jpg
+    bio: TBC
   - name: Michele Barnes
     jobtitle: Sales Administrator
     bio: Michele is our bright & bubbly Sales Administrator and is the fastest
@@ -200,15 +223,6 @@ team-members:
       - football
       - xbox
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
-  - name: Susan Gaskell
-    jobtitle: Purchasing Supervisor & Production Planner
-    interests:
-      - cooking
-      - hiking
-    image: /img/susan-gaskell.jpg
-    bio: Susan is our Purchasing Supervisor & Production Planner with over 10 Years
-      Experience. In her spare time Susan enjoys travelling and has practised
-      yoga for an incredible 33 years!
   - name: Tony Lundy
     jobtitle: Health & Safety Advisor
     bio: Tony is a Chartered Manager, OSHCR registered health & safety professional
@@ -224,20 +238,6 @@ team-members:
       - hiking
     image: /img/tony-lundy.jpg
     linkedin: https://www.linkedin.com/in/tony-lundy-cmgr-rsp-fiirsm-tech-iosh-pcqi-fcmi-miiai-finstlm-23269216/
-  - name: Chris Speakman
-    jobtitle: Production Engineer
-    interests:
-      - cycling
-      - football
-    bio: TBC
-    image: /img/chris-speakman-team.jpg
-  - name: Steve Lyon
-    jobtitle: Quality Engineer
-    interests:
-      - cycling
-      - football
-    image: /img/stephen-lyon-team.jpg
-    bio: TBC
   - name: Aaron Hesketh
     jobtitle: Production Supervisor
     interests:
