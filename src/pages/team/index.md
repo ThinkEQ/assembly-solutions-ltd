@@ -272,6 +272,20 @@ team-members:
       - football
     image: /img/sam-croston-team.jpg
     bio: TBC
+  - name: Chris Speakman
+    jobtitle: Production Engineer
+    interests:
+      - cycling
+      - football
+    bio: TBC
+    image: /img/chris-speakman-team.jpg
+  - name: Steve Lyon
+    jobtitle: Quality Engineer
+    interests:
+      - cycling
+      - football
+    image: /img/stephen-lyon-team.jpg
+    bio: TBC
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
