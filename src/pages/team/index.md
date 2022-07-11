@@ -224,6 +224,20 @@ team-members:
       - hiking
     image: /img/tony-lundy.jpg
     linkedin: https://www.linkedin.com/in/tony-lundy-cmgr-rsp-fiirsm-tech-iosh-pcqi-fcmi-miiai-finstlm-23269216/
+  - name: Chris Speakman
+    jobtitle: Production Engineer
+    interests:
+      - cycling
+      - football
+    bio: TBC
+    image: /img/chris-speakman-team.jpg
+  - name: Steve Lyon
+    jobtitle: Quality Engineer
+    interests:
+      - cycling
+      - football
+    image: /img/stephen-lyon-team.jpg
+    bio: TBC
   - name: Aaron Hesketh
     jobtitle: Production Supervisor
     interests:
@@ -271,20 +285,6 @@ team-members:
       - formula1
       - football
     image: /img/sam-croston-team.jpg
-    bio: TBC
-  - name: Chris Speakman
-    jobtitle: Production Engineer
-    interests:
-      - cycling
-      - football
-    bio: TBC
-    image: /img/chris-speakman-team.jpg
-  - name: Steve Lyon
-    jobtitle: Quality Engineer
-    interests:
-      - cycling
-      - football
-    image: /img/stephen-lyon-team.jpg
     bio: TBC
 seo:
   title: "Meet The Team |  Assembly Solutions "
