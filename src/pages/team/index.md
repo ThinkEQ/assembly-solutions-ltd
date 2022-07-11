@@ -134,7 +134,7 @@ team-members:
     interests:
       - football
       - hiking
-    image: /img/adam-saoudi-new.jpg
+    image: /img/adam-saoudi-team.jpg
     bio: Adam is a recent addition to our team joining in April 2021. We're thrilled
       to have him on board as he brings with him, five years sales experience
       and over the last few years has worked for an R&D Engineering company
