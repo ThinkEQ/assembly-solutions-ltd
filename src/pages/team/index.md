@@ -187,7 +187,7 @@ team-members:
       - cycling
       - football
     bio: TBC
-    image: /img/chris-speakman-team-001.jpg
+    image: /img/chris-speakman-team.jpg
   - name: Steve Lyon
     jobtitle: Quality Engineer
     interests:
