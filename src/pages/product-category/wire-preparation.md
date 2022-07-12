@@ -62,8 +62,6 @@ images:
     alt: wire-preparation-003
   - image: /img/wire-preparation-cutting-machinery.jpg
     alt: Wire Preparation
-  - image: /img/wire-preparation-hand-bundle.jpg
-    alt: Wire Preparation
   - image: /img/wire-preparation-03.jpg
     alt: Wire Preparation
   - image: /img/wire-preparation-02.png
@@ -73,8 +71,6 @@ images:
   - image: /img/wire-preparation-01.png
     alt: Wire Preparation
   - image: /img/image001.jpg
-    alt: Wire Preparation
-  - image: /img/img_4772.jpg
     alt: Wire Preparation
 products:
   - Cable Preparation
