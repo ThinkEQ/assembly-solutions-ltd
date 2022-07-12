@@ -10,6 +10,8 @@ image: /img/cable-preparation.jpg
 images:
   - image: /img/wire-preparation-002.jpg
     alt: cable-preparation-002
+  - image: /img/wire-preparation-001.jpg
+    alt: cable-preparation-002
   - image: /img/wire-preparation-003.jpg
     alt: wire-preparation-003
   - image: /img/wire-preparation-cutting-machinery.jpg
