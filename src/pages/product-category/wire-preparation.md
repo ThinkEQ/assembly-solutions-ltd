@@ -54,12 +54,14 @@ introcol:
 
     > Electrical Engineering Manager – Siemens
 images:
-  - image: /img/wire-preparation-cutting-machinery.jpg
-    alt: Wire Preparation
   - image: /img/wire-preparation-002.jpg
     alt: wire-preparation-002
   - image: /img/wire-preparation-001.jpg
     alt: wire-preparation-001
+  - image: /img/wire-preparation-003.jpg
+    alt: wire-preparation-003
+  - image: /img/wire-preparation-cutting-machinery.jpg
+    alt: Wire Preparation
   - image: /img/wire-preparation-hand-bundle.jpg
     alt: Wire Preparation
   - image: /img/wire-preparation-03.jpg
