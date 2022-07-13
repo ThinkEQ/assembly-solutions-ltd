@@ -39,6 +39,8 @@ introcol:
 
     > Buyer, Brompton Bicycle
 images:
+  - image: /img/cable-assemblies-001.jpg
+    alt: cable-assemblies-001
   - image: /img/staff-training-alex-daryl-small.jpg
     alt: cable-assembly-training
   - image: /img/cable-assembly-new.png
