@@ -8,6 +8,8 @@ usps:
   - usp: ISO 9001 Quality Approved
 image: /img/cable-assemblies.jpg
 images:
+  - image: /img/cable-assemblies-001.jpg
+    alt: cable-assemblies-001
   - image: /img/cable-assembly-01.png
     alt: Cable Assemblies
   - image: /img/cable-assembly-new.png
