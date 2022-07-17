@@ -62,8 +62,6 @@ images:
     alt: Cable Assembly
   - image: /img/cable-assembly-img_4032.jpg
     alt: Cable Assembly
-  - image: /img/cable-assembly-img_4733.jpg
-    alt: Cable Assembly
   - image: /img/heavy-duty-cable-02.png
     alt: Cable Assembly
 products:
