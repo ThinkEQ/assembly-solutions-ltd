@@ -46,7 +46,7 @@ team-members:
     interests:
       - surfing
       - skiing
-    image: /img/team3-1-.png
+    image: /img/sophie-balshaw-team.jpg
     linkedin: https://www.linkedin.com/in/sophie-balshaw/
   - name: Oliver Balshaw MCIPS
     jobtitle: Purchasing Director
