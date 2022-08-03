@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: "Wire Preparation: A Guide"
-date: 2022-08-03T11:52:10.235Z
+date: 2021-02-07T14:02:49.009Z
 image: /img/wire-preparation-01.png
 layout:
   - type: full
