@@ -41,30 +41,21 @@ layout:
 
         1. Cut the wire to the required length.
 
-
         2. Measure how much of the insulated jacket will need to be stripped.
-
 
         3. Mark a line on the jacket to act as a guide.
 
-
         4. Slice through the jacket along the mark.
-
 
         5. Strip the end of the wire, either with a handheld tool or purpose-built machine.
 
-
         6. Arrange the stripped end alongside the connector you intend to use.
-
 
         7. Terminate the wire by soldering or crimping.
 
-
         8. Repeat steps 2-7 on the other end of the wire if needed.
 
-
         9. Examine the length of the wire for any damage to the insulated jacket.
-
 
         10. Test the wire in a controlled manner before using it for any projects.
 
@@ -82,13 +73,6 @@ layout:
 
 
         ## Wire Preparation: Our Service
-
-
-        ```
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Cp3lVNhtjrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-        ```
 
 
         As we discuss above, wire preparation can take many forms, but if you’re looking for high-spec wires for manufacturing, our in-house [wire preparation service](https://www.assembly-solutions.com/wire-preparation) is second to none. 
