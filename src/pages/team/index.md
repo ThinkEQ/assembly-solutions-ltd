@@ -92,13 +92,13 @@ team-members:
   - name: Rob Parkinson
     jobtitle: Production Manager
     bio: Rob is a remarkable and incredibly loyal member of our team as he has
-      served 18 years and holds the outstanding record of 100% attendance for 17
+      served 19 years and holds the outstanding record of 100% attendance for 18
       years! Since joining in 2003 as a production operator, Rob has been
       fiercely committed to improving our operations by lean manufacturing and
       project managing machinery investments. Rob also oversees our engineering
       department and is responsible for all machinery services and tooling
-      calibrations. Rob is an F1 fanatic and a proud father after his daughter
-      recently signed up with Manchester United U9's Girls Football Club!
+      calibrations. Rob is an F1 fanatic and a proud father to daughter Daisy
+      who is signed with Manchester United U11's Girls Football Club!
     image: /img/team6-1-.png
     interests:
       - formula1
