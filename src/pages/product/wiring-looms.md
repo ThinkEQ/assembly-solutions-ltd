@@ -69,6 +69,29 @@ layout:
 
         All our wiring looms come with a 100% electrical test to ensure that the harness is functioning exactly how it should be. Our quality assurance department will not allow any wiring looms to leave the factory unless they match 100% against the customer's specifications, and that they are finished to the highest quality.
       title: ""
+  - type: full
+    full:
+      title: ""
+      text: >-
+        ## Wiring Loom and Harness FAQs
+
+
+        ### What is a wiring loom?
+
+
+        A wiring loom, sometimes known as a wiring harness or cable assembly, is a collection of electrical wires which are connected or bound together, with the aim of transmitting electrical signals within a machine. Wiring looms are carefully arranged and bound together, and are a safer, more streamlined form of connection than large numbers of loose wires. 
+
+
+        ### What does a wiring loom do?
+
+
+        A wiring loom is an assembly of wires, which fulfils the purpose that multiple loose wires would fulfil within a machine. The benefits of wiring looms is that they are easier for engineers to work with, and minimise risks of damage to wires as they are bundled together and not hanging loose.
+
+
+        ### What is a loom wiring harness?
+
+
+        A wiring harness is another name given to a wiring loom or wire assembly. It refers to a collection of wires which are arranged into a single unit, sometimes with the same connectors so that multiple wires can transmit electricity between two points. Wiring harnesses are commonly used in manufacturing, as well as related industries such as agriculture or automotive, which rely heavily on machinery.
 seo:
   title: Wiring Loom Manufacturer | Wiring Looms and Harnesses | ASL
   description: We customise high-quality wiring looms, which are electric
