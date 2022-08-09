@@ -14,13 +14,13 @@ introcol:
     custom-designed control panels, electric panels, and panel wiring.
 
 
-    ### **UK Control Panel Manufacturer**
+    ## **UK Control Panel Manufacturer**
 
 
     At Assembly Solutions, our engineers are dedicated to working with customers from supporting the initial design, right through to prototype and volume production. Our experienced team of electric panel builders have an incredible amount of knowledge and understand the importance of quality and excellent service.
 
 
-    ### Experienced Control Panel Builders
+    ## Experienced Control Panel Builders
 
 
     We have 25 years manufacturing control panels to a very diverse range of industries, including Automotive, Nuclear, Utilities and Test & Measurement. Our experienced team of panel builders have an incredible amount of knowledge and understand the importance of quality.
@@ -103,7 +103,7 @@ layout:
     column:
       title: ""
       text: >-
-        #### **Discover our Control Panel Builder Services**
+        ## **Discover our Control Panel Builder Services**
 
 
         * Knowledgeable Workforce
