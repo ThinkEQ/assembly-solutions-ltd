@@ -188,13 +188,6 @@ team-members:
       - football
     bio: TBC
     image: /img/chris-speakman-team.jpg
-  - name: Steve Lyon
-    jobtitle: Quality Engineer
-    interests:
-      - cycling
-      - football
-    image: /img/stephen-lyon-team.jpg
-    bio: TBC
   - name: Michele Barnes
     jobtitle: Sales Administrator
     bio: Michele is our bright & bubbly Sales Administrator and is the fastest
