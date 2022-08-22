@@ -32,12 +32,12 @@ images:
 layout:
   - type: column
     column:
-      title: UK Manufactured Custom Cable Assemblies
+      title: ""
       text: >-
-        Assembly Solutions (ASL) is an industry-leading manufacturer of
-        custom-made quality cable assemblies. We have been making custom cable
-        assemblies for 25 years and have built a wealth of knowledge, expertise,
-        and experience.
+        ## UK Manufactured Custom Cable Assemblies
+
+
+        Assembly Solutions (ASL) is an industry-leading manufacturer of custom-made quality cable assemblies. We have been making custom cable assemblies for 25 years and have built a wealth of knowledge, expertise, and experience.
 
 
         We provide custom cable and harness assemblies for a range of different industries including; [automotive](https://www.assembly-solutions.com/markets/automotive), [agriculture](https://www.assembly-solutions.com/markets/agricultural/) and [construction](https://www.assembly-solutions.com/markets/construction/). Our services are specifically tailored to your assembly requirements, at an affordable price.
@@ -52,8 +52,11 @@ layout:
         Our experienced sales engineers are here to help at any time, so if you'd like to chat with us about your cable assemblies and electrical assemblies, call  01204 521999, and we can get you started!
   - type: column
     column:
-      title: Range of Custom Cable Assemblies
+      title: ""
       text: >-
+        ## Range of Custom Cable Assemblies
+
+
         * Over-moulded cable assemblies
 
         * [Custom-made cables](https://www.assembly-solutions.com/cable-assembly) and [harnesses](https://www.assembly-solutions.com/electric-vehicle-and-hybrid-vehicle-wiring-harnesses)
@@ -66,7 +69,9 @@ layout:
 
         * [Braided cable assemblies](https://www.assembly-solutions.com/braided-cable)
 
-          ## Custom Cable Assembly Testimonial
+
+        ## Custom Cable Assembly Testimonial
+
 
         > We build our bikes with cable assemblies made by Assembly Solutions as their quality is first class and deliveries are always on time, which is vital for our fast moving production lines! The sales and engineering team are an absolute pleasure to deal with, very friendly and quick to respond to any technical changes and quotations. It's very easy to say that ASL are one of our best suppliers!
 
