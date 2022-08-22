@@ -58,7 +58,9 @@ layout:
 
         * Braided Earth Strap Assemblies
 
-          ## Earth Straps: Customer Testimonial
+
+        ## Earth Straps: Customer Testimonial
+
 
         > We build our bikes with cable assemblies made by Assembly Solutions as their quality is first class and deliveries are always on time, which is vital for our fast moving production lines! The sales and engineering team are an absolute pleasure to deal with, very friendly and quick to respond to any technical changes and quotations. It is very easy to say that ASL are one of our best suppliers!
 
