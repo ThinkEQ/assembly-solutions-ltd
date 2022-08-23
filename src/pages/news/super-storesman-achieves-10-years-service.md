@@ -2,7 +2,7 @@
 templateKey: news-article
 title: Super Storesman Achieves 10 Years Service
 date: 2022-08-22T08:41:04.714Z
-image: /img/1.jpg
+image: /img/kevin-westfield-ten-years.jpg
 layout:
   - type: full
     full:
