@@ -1,7 +1,7 @@
 ---
 templateKey: product
 title: Cable Preparation
-subtitle: Wire & Cable Preparation
+subtitle: Cable Preparation
 usps:
   - usp: UK Manufactured
   - usp: Fast Turnaround
