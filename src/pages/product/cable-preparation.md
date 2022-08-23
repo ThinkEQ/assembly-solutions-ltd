@@ -1,6 +1,6 @@
 ---
 templateKey: product
-title: Wire and Service Cable Preparation
+title: Cable Preparation
 subtitle: Wire & Cable Preparation
 usps:
   - usp: UK Manufactured
