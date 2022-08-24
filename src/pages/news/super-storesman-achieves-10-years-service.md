@@ -15,6 +15,22 @@ layout:
 
 
         Kevin is an employee who everybody loves, his huge smile and contagious happy energy makes him a man we all enjoy to be around.
+  - type: testimonial
+    testimonial:
+      alignment: standard
+      quote: Reaching this milestone is a privilege and honour. Looking at the current
+        world climate today and seeing the challenges that many people face, I
+        feel extremely fortunate to be part of a thriving growing company and a
+        team that pulls together like one big family. I've thoroughly enjoyed
+        all 10 ten years and want to express great gratitude for the career
+        opportunities the company has given me. The Management Team are
+        excellent at driving the direction of the company, ensuring we achieve
+        record-breaking results year on year which creates job security and
+        investment opportunities to continually improve the facilities to give
+        employees a better place to work, which the company owners are very
+        passionate about. I'm excited for the many more years ahead, progressing
+        within my role and to see ASL grow even further!
+      name: Kevin Westfield, Warehouse Supervisor
 seo:
   title: Kevin Westfield Achieves Incredible 10 Years Service
   description: Super Storesman Kevin Westfield has reached an incredible 10 Years
