@@ -17,7 +17,7 @@ layout:
         Kevin is an employee who everybody loves, his huge smile and contagious happy energy makes him a man we all enjoy to be around.
   - type: testimonial
     testimonial:
-      alignment: standard
+      alignment: centre
       quote: Reaching this milestone is a privilege and honour. Looking at the current
         world climate today and seeing the challenges that many people face, I
         feel extremely fortunate to be part of a thriving growing company and a
