@@ -16,6 +16,15 @@ layout:
 
 
         Kevin is an employee who everybody loves, his huge smile and contagious happy energy makes him a man we all enjoy to be around.
+  - type: testimonial
+    testimonial:
+      alignment: standard
+      name: Kane Mellett, Quality Supervisor
+      quote: I have really enjoyed working at ASL for all these years and can’t thank
+        the company enough for all the opportunities they have given me. Knowing
+        I always have their support for career progression and to grow within
+        the Quality department, makes me motivated and keen to progress into a
+        more senior role.
 seo:
   title: Quality Supervisor Kane Achieves 10 Years Service
   description: Quality Supervisor Kane Achieves 10 Years Service
