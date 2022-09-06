@@ -20,11 +20,14 @@ layout:
     testimonial:
       alignment: standard
       name: Kane Mellett, Quality Supervisor
-      quote: I have really enjoyed working at ASL for all these years and can’t thank
-        the company enough for all the opportunities they have given me. Knowing
-        I always have their support for career progression and to grow within
-        the Quality department, makes me motivated and keen to progress into a
-        more senior role.
+      quote: I have really enjoyed working at ASL for all these years and it has been
+        great to see the company grow from a small team of 20 to now a strong &
+        supportive team of 90. I can’t thank the company enough for all the
+        opportunities they have given me and knowing I always have their support
+        for career progression, has really helped me grow within my role in the
+        Quality department. We're currently re-structuring the Quality
+        department so I'm excited to be a part of this, building and developing
+        our processes to improve performance and increase efficiencies.
 seo:
   title: Quality Supervisor Kane Achieves 10 Years Service
   description: Quality Supervisor Kane Achieves 10 Years Service
