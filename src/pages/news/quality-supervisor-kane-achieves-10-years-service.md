@@ -12,10 +12,12 @@ layout:
         an incredible 10 Years of Service at Assembly Solutions. 
 
 
-        Kane joined back in 2012 through an agency as a Warehouse Assistant, and over his ten years, he has worked his way up and gained a vast amount of knowledge and experience by working in multiple departments including Purchasing and Accounts. He eventually found his way back to his happy place which was the Warehouse! Kevin is now the Warehouse Supervisor and is responsible for all goods coming in and out of the factory.
+        K﻿ane joined back in 2012 through our recruitment agency as a Production Operator and very soon showed his skills and enthusiasm to work in the Quality department. Kane moved from building wiring harnesses for our Automotive customers, to a senior Quality Inspector role where he would QA all wiring harness work made by the production operators. It wasn't long after this that Kane hd the abilities and experience to step up to the role of Quality Supervisor for all wiring harness and control panel projects.
 
 
-        Kane is an employee who everybody loves, his huge smile and contagious happy energy makes him a man we all enjoy to be around.
+        "﻿Kane has been a key player in our company, and with Quality being one of our 4 core values, Kane's skill and commitment to ensuring all goods pass 100% before being packed and despatched, is vital to our success and continuing to retain customers. I'm looking forward to see Kane progress even further within the company and hope to see him on our journey for another 10 years, if he can do it all again!"\
+
+        **Gareth Balshaw, Managing Director**
   - type: testimonial
     testimonial:
       alignment: centre
