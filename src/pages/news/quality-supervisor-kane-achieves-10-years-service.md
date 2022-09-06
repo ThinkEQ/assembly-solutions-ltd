@@ -15,7 +15,7 @@ layout:
         K﻿ane joined back in 2012 through our recruitment agency as a Production Operator and very soon showed his skills and enthusiasm to work in the Quality department. Kane moved from building wiring harnesses for our Automotive customers, to a senior Quality Inspector role where he carried out all the QA for wiring harness work made by the Production Operators. It wasn't long after this that Kane proved he had the abilities and experience to step up to the role of Quality Supervisor for all wiring harness and control panel projects.
 
 
-        "﻿Kane has been a key player in our company, and with Quality being one of our 4 core values, Kane's skill and commitment to ensuring all goods pass 100% before being packed and despatched, is vital to our success and continuing to retain customers. I'm looking forward to see Kane progress even further within the company and hope to see him on our journey for another 10 years, if he can do it all again!" **Gareth Balshaw, Managing Director**
+        "﻿Kane has been a key player in our company, and with Quality being one of our 4 core values, Kane's skill and commitment to ensuring all goods pass 100% before being packed and despatched, is vital to our success and continuing to retain customers. I'm looking forward to see Kane progress even further within the company and we hope to see him on our journey for another 10 years, if he can do it all again!" **Gareth Balshaw, Managing Director**
   - type: testimonial
     testimonial:
       alignment: centre
