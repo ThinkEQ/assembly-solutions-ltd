@@ -15,7 +15,7 @@ layout:
         Kane joined back in 2012 through an agency as a Warehouse Assistant, and over his ten years, he has worked his way up and gained a vast amount of knowledge and experience by working in multiple departments including Purchasing and Accounts. He eventually found his way back to his happy place which was the Warehouse! Kevin is now the Warehouse Supervisor and is responsible for all goods coming in and out of the factory.
 
 
-        Kevin is an employee who everybody loves, his huge smile and contagious happy energy makes him a man we all enjoy to be around.
+        Ka is an employee who everybody loves, his huge smile and contagious happy energy makes him a man we all enjoy to be around.
   - type: testimonial
     testimonial:
       alignment: centre
