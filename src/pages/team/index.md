@@ -272,13 +272,6 @@ team-members:
       always leaves us smiling with his favourite words "Happy Days!" Kev is a
       Formula 1 fanatic and  enjoys supporting the NY Yankees and Liverpool FC!
     image: /img/kevin-westfield.jpg
-  - name: Sam Croston
-    jobtitle: HR Support
-    interests:
-      - formula1
-      - football
-    image: /img/sam-croston-team.jpg
-    bio: TBC
   - name: Kane Mellett
     jobtitle: Quality Supervisor
     interests:
@@ -293,6 +286,13 @@ team-members:
       - football
     image: /img/team-dave-webster.jpg
     bio: C﻿oming soon.
+  - name: Sam Croston
+    jobtitle: HR Support
+    interests:
+      - formula1
+      - football
+    image: /img/sam-croston-team.jpg
+    bio: TBC
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
