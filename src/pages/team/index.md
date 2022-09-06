@@ -286,6 +286,13 @@ team-members:
       - football
     image: /img/team-kane-mellett.jpg
     bio: C﻿oming soon.
+  - name: Dave Webster
+    jobtitle: Technical Engineer
+    interests:
+      - formula1
+      - football
+    image: /img/team-dave-webster.jpg
+    bio: C﻿oming soon.
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
