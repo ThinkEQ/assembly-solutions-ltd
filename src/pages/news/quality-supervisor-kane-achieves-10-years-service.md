@@ -18,7 +18,7 @@ layout:
         Kevin is an employee who everybody loves, his huge smile and contagious happy energy makes him a man we all enjoy to be around.
   - type: testimonial
     testimonial:
-      alignment: standard
+      alignment: centre
       name: Kane Mellett, Quality Supervisor
       quote: I have really enjoyed working at ASL for all these years and it has been
         great to see the company grow from a small team of 20 to now a strong &
