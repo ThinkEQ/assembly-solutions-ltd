@@ -24,7 +24,7 @@ layout:
         great to see the company grow from a small team of 20 to now a strong &
         supportive team of 90. I can’t thank the company enough for the
         opportunities they have given me and knowing I have their support for
-        career progression, has really helped me grow within my role in the
+        career progression, it has really helped me grow within my role in the
         Quality department. We're currently re-structuring the Quality
         department so I'm excited to be a part of this, building and developing
         our processes to improve performance and increase efficiencies.
