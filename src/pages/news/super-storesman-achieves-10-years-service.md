@@ -14,7 +14,7 @@ layout:
         Kevin joined back in 2012 through an agency as a Warehouse Assistant, and over his ten years, he has worked his way up and gained a vast amount of knowledge and experience by working in multiple departments including Purchasing and Accounts. He eventually found his way back to his happy place which was the Warehouse! Kevin is now the Warehouse Supervisor and is responsible for all goods coming in and out of the factory.
 
 
-        "Kev is a shining example of what a great employee & colleague is, and of my 10 years working with him, he has grown to feel like family. He always goes above and beyond to support the company, whether that's staying behind after hours to wait for goods to be collected, or coming in at the weekend to help with factory maintenance. It's a genuine pleasure to have people like Kev in the business as he brings a positive pleasant attitude and does a fantastic job as our Warehouse Supervisor. I hope he continues his journey with us for many more years ahead." **Oliver Balshaw, Director**
+        "Kevin is a shining example of what a great employee & colleague is, and of my 10 years working with him, he has grown to feel like family. He always goes above and beyond to support the company, whether that's staying behind after hours to wait for goods to be collected, or coming in at the weekend to help with factory maintenance. It's a genuine pleasure to have people like Kevin in the business as he brings a positive pleasant attitude and does a fantastic job as our Warehouse Supervisor. I hope he continues his journey with us for many more years ahead." **Oliver Balshaw, Director**
   - type: testimonial
     testimonial:
       alignment: centre
