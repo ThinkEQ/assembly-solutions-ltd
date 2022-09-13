@@ -190,7 +190,7 @@ team-members:
       the company including varied experience and knowledge. He is now
       supporting the ASL Engineering dept with design and production. Being a
       lover of cars and all things mechanical, Chris spends his time in his
-      workshop working on a variety of cars engines and of late his jet!
+      workshop working on a variety of cars engines and of late, his jet!
     image: /img/chris-speakman-team.jpg
   - name: Michele Barnes
     jobtitle: Sales Administrator
