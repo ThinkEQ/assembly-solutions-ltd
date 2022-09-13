@@ -7,8 +7,13 @@ layout:
   - type: full
     full:
       text: >-
-        We are celebrating our Super Storesman **Kevin Westfield** for reaching
-        an incredible 10 Years of Service at Assembly Solutions. 
+        22nd August, 2022\
+
+        **S﻿uper Storesman reaches 10 year milestone**\
+
+        \
+
+        We are celebrating our Super Storesman **Kevin Westfield** for reaching an incredible 10 Years of Service at Assembly Solutions. 
 
 
         Kevin joined back in 2012 through an agency as a Warehouse Assistant, and over his ten years, he has worked his way up and gained a vast amount of knowledge and experience by working in multiple departments including Purchasing and Accounts. He eventually found his way back to his happy place which was the Warehouse! Kevin is now the Warehouse Supervisor and is responsible for all goods coming in and out of the factory.
