@@ -28,10 +28,9 @@ layout:
         with patience and positivity, we have now built a really strong team
         that is helping the company achieve amazing things. Our priority is to
         continue growing, with people who bring great energy and believe in our
-        mission & vision of creating the best customer experience & being the
-        best in class. I’m so excited to see all the new starters shine and look
-        forward to creating many more job opportunities to the people of Bolton
-        and surrounding areas
+        mission of creating the best customer experience. I’m so excited to see
+        all the new starters shine and look forward to creating many more job
+        opportunities to the people of Bolton and surrounding areas
       name: Sophie Balshaw, HR Director
 seo:
   title: Assembly Solutions Ltd Announce Record Recruits
