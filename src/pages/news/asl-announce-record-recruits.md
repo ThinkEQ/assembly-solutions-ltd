@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Announce Record Recruits
+title: ASL Announce Record Recruits Reaching 90 Staff
 date: 2022-09-13T07:49:07.479Z
 image: /img/sophie-balshaw.jpg
 layout:
