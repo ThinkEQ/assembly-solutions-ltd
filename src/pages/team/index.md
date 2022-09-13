@@ -296,7 +296,7 @@ team-members:
       - formula1
       - football
     image: /img/sam-croston-team.jpg
-    bio: TBC
+    bio: Coming soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
