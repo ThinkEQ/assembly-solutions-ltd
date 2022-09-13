@@ -35,10 +35,8 @@ team-members:
     linkedin: https://www.linkedin.com/in/gareth-balshaw-1b100018/
   - name: Sophie Balshaw
     jobtitle: Marketing & HR Director
-    bio: Sophie is our creative Marketing Director who specialises in digital
-      marketing and advertising. Her work has led to generating some of our
-      biggest customers and contracts that have contributed to the companies
-      growth. With over 10 years experience in sales and marketing, she is a
+    bio: Sophie is our creative Marketing & HR Director, and has been with the
+      company for 15 years. With experience in sales and marketing, she is a
       passionate and talented team player who is focused today on marketing
       strategies, campaign execution and customer experience. Sophie loves ski
       holidays and is trying Snowboarding for the first time this coming season,
