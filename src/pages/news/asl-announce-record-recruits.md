@@ -7,8 +7,9 @@ layout:
   - type: full
     full:
       text: >-
-        **We are delighted to announce we have boosted our team to a record of
-        90, after recruiting an additional 15 people this summer.**
+        13th September, 2022\
+
+        **We are delighted to announce we have boosted our team to a record of 90, after recruiting an additional 15 people this summer.**
 
 
         Despite the economic challenges and shrinking labour pool that hasn’t been helped by Brexit, we have seen a surprisingly big increase in UK manufacturing opportunities this year, and this has led us to securing a number of significant cable assembly and wiring harness contracts.
