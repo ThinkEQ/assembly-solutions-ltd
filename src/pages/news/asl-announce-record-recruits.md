@@ -7,20 +7,20 @@ layout:
   - type: full
     full:
       text: >-
-        **We are delighted to announce a record number of recruits over summer
-        after signing up an additional 15 people.**
+        **We are delighted to announce we have boosted our team to a record of
+        90, after recruiting an additional 15 people this summer.**
 
 
-        Despite the economic challenges and the shrinking labour pool that hasn’t been helped by Brexit, Assembly Solutions have seen an increase in UK manufacturing opportunities which has led to securing a number of significant cable assembly and wiring harness contracts.
+        Despite the economic challenges and shrinking labour pool that hasn’t been helped by Brexit, we have seen a surprisingly big increase in UK manufacturing opportunities this year, and this has led us to securing a number of significant cable assembly and wiring harness contracts.
 
 
-        With 15 new starters joining over summer, the company has reached a record workforce of 90 full time staff. The new starters include 3 ambitious Apprentices; Alex Waterworth, Isobel Hargreaves and Jamie Preston, who are all striving to achieve senior roles in the Technical & Engineering department.
+        The 15 new starters that joined over summer included 3 ambitious Apprentices; Alex Waterworth, Isobel Hargreaves & Jamie Preston, who are all striving for senior roles in the Technical & Engineering department. Since coming on board they have all had a positive affect and bring a passion that supports the companies culture, mission and vision.
 
 
-        The signing of new recruits shows no signs of slowing down, as we are still actively searching for new stars to fill roles in their Production & Quality department.
+        The signing of new recruits shows no signs of slowing down, as we are still actively searching for new stars to fill roles in our Production & Quality department.
 
 
-        It has been a busy period for the company after seeing a 20% growth in sales and we proud to continuing supplying  some world leading manufacturers including Ford, Siemens & Vodafone.
+        It has been a busy period for the company after seeing a 20% growth in sales and we're proud to continue supplying some of the worlds leading manufacturers; Ford, Siemens & Vodafone.
   - type: testimonial
     testimonial:
       alignment: centre
