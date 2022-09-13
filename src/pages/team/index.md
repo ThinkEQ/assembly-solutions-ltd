@@ -41,8 +41,8 @@ team-members:
       growth. With over 10 years experience in sales and marketing, she is a
       passionate and talented team player who is focused today on marketing
       strategies, campaign execution and customer experience. Sophie is a lover
-      of watersports and enjoys sailing around the welsh coast - usually with a
-      prosecco in hand!
+      of winter sports, and is trying Snowboarding for the first time this
+      coming season so if you have any tips, send them her way!
     interests:
       - surfing
       - skiing
