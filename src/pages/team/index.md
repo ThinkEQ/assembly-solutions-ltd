@@ -282,7 +282,15 @@ team-members:
       - formula1
       - football
     image: /img/team-kane-mellett.jpg
-    bio: C﻿oming soon.
+    bio: Kane has just recently achieved 10 Years Service at ASL. He joined in 2012
+      through our recruitment agency as a Production Operator and very soon
+      showed his skills and enthusiasm to work in the Quality department. Kane
+      moved from building wiring harnesses for our Automotive customers, to a
+      senior Quality Inspector role where he carried out all the QA for wiring
+      harness work. It wasn't long after this that Kane proved he had the
+      abilities and experience to step up to the role of Quality Supervisor for
+      all wiring harness and control panel projects. Kane enjoys fishing,
+      walking and playing darts.
   - name: Dave Webster
     jobtitle: Technical Engineer
     interests:
