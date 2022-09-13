@@ -23,7 +23,7 @@ layout:
         It has been a busy period for the company after seeing a 20% growth in sales and we proud to continuing supplying  some world leading manufacturers including Ford, Siemens & Vodafone.
   - type: testimonial
     testimonial:
-      alignment: standard
+      alignment: centre
       quote: It has been a challenging year trying to recruit the right people, but
         with patience and positivity, we have now built a really strong team
         that is helping the company achieve amazing things. Our priority is to
