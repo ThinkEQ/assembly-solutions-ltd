@@ -21,7 +21,7 @@ seo:
 ---
 **About Us**
 
-Assembly Solutions Ltd is a Bolton based manufacturer of electrical cable assemblies, wiring looms, wiring harnesses and electrical control panels.
+Assembly Solutions Ltd is a Bolton-based sub-contract manufacturer of electrical cable assemblies, wiring looms, wiring harnesses and electrical control panels.
 
 We are an award winning family business and pride ourselves on delivering a personable quality service. With instilled family values, we're passionate about building strong relationships that are reliable, loyal and trustworthy.
 
