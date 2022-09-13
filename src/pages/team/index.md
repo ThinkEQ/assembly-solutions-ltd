@@ -300,7 +300,13 @@ team-members:
       - formula1
       - football
     image: /img/team-dave-webster.jpg
-    bio: C﻿oming soon.
+    bio: Dave is a loyal and committed team member who has served over 10 Years at
+      ASL. He is our technical wizard and is the man for the job when it comes
+      to CAD drawings for wiring harnesses. His attention to detail, draughting
+      techniques and speed at which he carries these duties out, has been vital
+      for urgent projects where the customer has made technical changes to
+      specifications mid-production. Dave is a valuable team player and is
+      currently supporting our Apprentices with in-house technical training.
   - name: Sam Croston
     jobtitle: HR Support
     interests:
