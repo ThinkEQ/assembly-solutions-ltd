@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Reach Record Of 90 Staff
+title: ASL Reach Record 90 Staff
 date: 2022-09-13T07:49:07.479Z
 image: /img/sophie-balshaw.jpg
 layout:
