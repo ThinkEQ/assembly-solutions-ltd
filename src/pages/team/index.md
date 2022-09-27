@@ -35,12 +35,12 @@ team-members:
     linkedin: https://www.linkedin.com/in/gareth-balshaw-1b100018/
   - name: Sophie Balshaw
     jobtitle: Marketing & HR Director
-    bio: Sophie is our creative Marketing & HR Director and has been with the
-      company for 15 years. Her passion for building a brand & creating a
-      first-class customer experience, has helped ASL grow into the trusted &
-      reputable manufacturer that it is today. Sophie loves ski holidays and is
-      trying Snowboarding for the first time this coming season, so if you have
-      any tips, send them her way!
+    bio: Sophie is our creative Marketing & HR Director with 15 years experience.
+      Her passion for building a brand & creating a first-class customer
+      experience, has helped ASL grow into the trusted & reputable manufacturer
+      that it is today. Sophie is a peloton fanatic and loves ski holidays. She
+      is trying Snowboarding for the first time this coming season, so if you
+      have any tips, send them her way!
     interests:
       - surfing
       - skiing
