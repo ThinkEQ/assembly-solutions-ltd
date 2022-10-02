@@ -6,7 +6,7 @@ aside: >-
   **Contact Assembly Solutions Today** 
 
 
-  For specialist advice, quality assured electrical assembly products or to discuss your specific requirements, [get in touch](www.assembly-solutions.com/contact) with our expert team. We'll be happy to answer any questions you may have.\
+  For specialist advice, quality assured electrical assembly products or to discuss your specific requirements, [get in touch](https://www.assembly-solutions.com/contact) with our expert team. We'll be happy to answer any questions you may have.\
 
   \
 
