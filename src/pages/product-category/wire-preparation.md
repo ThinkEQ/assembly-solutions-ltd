@@ -137,7 +137,7 @@ layout:
         * Experienced Workforce
 
 
-        #### **Get in touch with [our team today ](enquiry@assembly-solutions.com)to discuss your wire preparation needs and requirements. Our experts will be happy to help.**
+        #### **[Get in touch](https://www.assembly-solutions.com/contact) with our team today to discuss your wire preparation needs and requirements. Our experts will be happy to help.**
 seo:
   title: "Wire Preparation | Cable Preparation |  Assembly Solutions "
   description: Assembly Solutions is the UK leading manufacturer of Wire
