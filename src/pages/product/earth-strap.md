@@ -36,7 +36,7 @@ layout:
         ## Quality Earth Straps
 
 
-        As an ISO 9001 Quality Approved [cable assembly manufacturer](www.assembly-solutions.com/cable-assembly), we produce all our earth straps to the highest standard from our large and lively Bolton factory.
+        As an ISO 9001 Quality Approved [cable assembly manufacturer](https://www.assembly-solutions.com/cable-assembly), we produce all our earth straps to the highest standard from our large and lively Bolton factory.
 
 
         By selecting the correct braid, termination and insulation, our earth straps are optimised for each application. We are open to looking at any size and quantity, and ensure that every single strap reaches the required performance criteria with respect to; temperature, flexibility, corrosion resistance, weight and electrical characteristics.
@@ -47,7 +47,7 @@ layout:
         ## Full Range of Earth Straps and Braided Leads
 
 
-        We manufacture earth straps, as well as [braided cable](www.assembly-solutions.com/braided-cable) on reels. All our products are custom-made to customer specification, based on the size and length of cable. We also stock a range of terminations for single assemblies. We provide:
+        We manufacture earth straps, as well as [braided cable](https://www.assembly-solutions.com/braided-cable) on reels. All our products are custom-made to customer specification, based on the size and length of cable. We also stock a range of terminations for single assemblies. We provide:
 
 
         * Earth Straps
