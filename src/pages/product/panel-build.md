@@ -27,7 +27,7 @@ layout:
     column:
       title: ""
       text: >-
-        ## Experienced Panel Builders 
+        ## Experienced Panel Builders
 
 
         Assembly Solutions is a quality-committed supplier of panel build services.
@@ -53,7 +53,7 @@ layout:
         All our panel build products are manufactured to customer specifications, and 100% electrically tested using our automatic testing facilities, or our bespoke test equipment designed specifically for the control panel builds. 
 
 
-        We are committed to supporting customers as best we can, and can assist with the initial design by bringing our engineering expertise to every [control panel](www.assembly-solutions.com/control-panels) wiring project.
+        We are committed to supporting customers as best we can, and can assist with the initial design by bringing our engineering expertise to every [control panel](https://www.assembly-solutions.com/control-panels) wiring project.
   - type: column
     column:
       title: ""
@@ -61,10 +61,10 @@ layout:
         ## Panel Build Experience
 
 
-        As a leading UK manufacturer, we are proud to have panel build expertise across several industries, including [automotive](https://www.assembly-solutions.com/markets/automotive), rail, and utilities.
+        As a leading UK manufacturer, we are proud to have panel build expertise across several industries, including [automotive](https://www.assembly-solutions.com/markets/automotive/), rail, and utilities.
 
 
-        With 25 years of experience, we understand how important cost and reliability is when it comes to control panel builds. To ensure every [control panel](www.assembly-solutions.com/control-panels) project is a success, we work closely with our customers from the costing stage right through to production, focusing on producing panels that are cost-effective and fit for purpose.
+        With 25 years of experience, we understand how important cost and reliability is when it comes to control panel builds. To ensure every [control panel](https://www.assembly-solutions.com/control-panels) project is a success, we work closely with our customers from the costing stage right through to production, focusing on producing panels that are cost-effective and fit for purpose.
 
 
         ## Customer Testimonial: Siemens
