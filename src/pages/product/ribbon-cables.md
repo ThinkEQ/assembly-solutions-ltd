@@ -36,7 +36,7 @@ layout:
         We have manufactured flat ribbon cable assemblies for 25 years and over this time built a wealth of knowledge and experience from working with a range of [different industries](https://www.assembly-solutions.com/industries) including; Automotive, Security and Test & Measurement.
 
 
-        We are passionate about providing a quality and personable service that gives customers a cost-effective solution for all their flat ribbon [cable assembly](www.assembly-solutions.com/cable-assembly) requirements.
+        We are passionate about providing a quality and personable service that gives customers a cost-effective solution for all their flat ribbon [cable assembly](https://www.assembly-solutions.com/cable-assembly) requirements.
 
 
         ## Quick Quote and Lead Time
@@ -53,7 +53,7 @@ layout:
         ## Fast Turnaround & Testing
 
 
-        All our flat ribbon cables are delivered on a lighting fast turnaround by our speedy in-house operators. Each [cable assembly](www.assembly-solutions.com/cable-assembly) is made to the highest quality and given a 100% electrical inspection and test before being packaged and despatched.
+        All our flat ribbon cables are delivered on a lighting fast turnaround by our speedy in-house operators. Each [cable assembly](https://www.assembly-solutions.com/cable-assembly) is made to the highest quality and given a 100% electrical inspection and test before being packaged and despatched.
 
 
         * ISO 9001 Quality Assurance
