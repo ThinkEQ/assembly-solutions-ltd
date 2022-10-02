@@ -45,7 +45,7 @@ layout:
         ## Customer-focussed Wiring Service
 
 
-        As a manufacturer who is committed to supporting customers as best we can, we usually assist with the initial design by bringing our engineering expertise to every panel wiring project. We generally work from drawings and bills of materials, but if required we can reverse engineer [control panels](www.assembly-solutions.com/control-panels) from a sample or prototype.
+        As a manufacturer who is committed to supporting customers as best we can, we usually assist with the initial design by bringing our engineering expertise to every panel wiring project. We generally work from drawings and bills of materials, but if required we can reverse engineer [control panels](https://www.assembly-solutions.com/control-panels) from a sample or prototype.
   - type: column
     column:
       title: ""
