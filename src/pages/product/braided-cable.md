@@ -25,7 +25,7 @@ layout:
         earth lead assemblies.
 
 
-        With 25 years of experience we understand how important cost and reliability is. To ensure every project is a success, we work closely with our customers from the costing stage right through to production, focusing on producing braided [cable assemblies](www.assembly-solutions.com/cable-assemblies) that are cost effective and fit for purpose.
+        With 25 years of experience we understand how important cost and reliability is. To ensure every project is a success, we work closely with our customers from the costing stage right through to production, focusing on producing braided [cable assemblies](https://www.assembly-solutions.com/cable-assemblies) that are cost effective and fit for purpose.
 
 
         We supply braided cable in a wide range of industries and interestingly recently supplied braided earth leads into the QE2 Ship that is now a floating hotel in Dubai!
@@ -34,7 +34,7 @@ layout:
         #### Large Stock Holding
 
 
-        With our large stock holding, we can manufacture your braided [cable assembly](www.assembly-solutions.com/cable-assembly) within a very short lead time. Whether you are looking for braided earth cable, braided earth leads or braided earth straps, we will be able to help!
+        With our large stock holding, we can manufacture your braided [cable assembly](https://www.assembly-solutions.com/cable-assembly) within a very short lead time. Whether you are looking for braided earth cable, braided earth leads or braided earth straps, we will be able to help!
 
 
         If you have your drawings ready and want a quick quote, email your RFQ to enquiry@assembly-solutions.com or if you want to chat with our engineers, call 01204 521999.
