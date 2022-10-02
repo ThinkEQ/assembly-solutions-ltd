@@ -13,7 +13,7 @@ layout:
         For custom cables UK, we are the experts. At Assembly Solutions we’re the specialists when it comes to manufacturing custom cables in the UK. There are many different choices when it comes to different custom cables and custom electrical manufacturing, all come with a variety of different benefits.
 
 
-        If you’re in need of specific [cable assemblies](www.assembly-solutions.com/cable-assemblies), discover the benefits of choosing custom cables UK services and why they can help you achieve your aims and fulfil your project quotas more efficiently.
+        If you’re in need of specific [cable assemblies](https://www.assembly-solutions.com/cable-assemblies), discover the benefits of choosing custom cables UK services and why they can help you achieve your aims and fulfil your project quotas more efficiently.
 
 
         ## What Are The Benefits of Custom Cables?
@@ -26,7 +26,7 @@ layout:
 
         * Accuracy: By choosing custom cables, you are guaranteed more accurate products and designs that specifically suit your requirements for your project completely. This also ensures that wastage is minimised by ensuring that the correct cables are made without overproducing. This helps reduce the amount of used and waste materials in the long run.
 
-        * Quality assurance: With [custom cable UK](www.assembly-solutions.com/cable-assembly) orders, each batch is quality and safety tested and is guaranteed to a particular combination of components will stand up to the elements. At Assembly Solutions, our custom cables go through rigorous testing to ensure functionality and suitability for the task.
+        * Quality assurance: With [custom cable UK](https://www.assembly-solutions.com/cable-assembly) orders, each batch is quality and safety tested and is guaranteed to a particular combination of components will stand up to the elements. At Assembly Solutions, our custom cables go through rigorous testing to ensure functionality and suitability for the task.
 
         * Greater Performance: Custom cables are made to fit a specific design based on outlined specifications for an application or installation. Depending on the specific needs of the customer, each custom cable can be manufactured to include added functions and features to better suit it’s proposed environment or final product.
 
@@ -39,7 +39,7 @@ layout:
         Assembly Solutions provide effective and cost-efficient custom cables, UK assembly and manufacturing services that are ideal for a variety of industries and applications. Cable assemblies are typically used by Original Equipment Manufacturers (OEMs) to make installation quicker and easier when mass producing items or products. Although standard cables can work, oftentimes custom made cables provide the reliability and functionality that are often needed for specific industry applications.
 
 
-        At Assembly Solutions, we understand the importance of great [custom cable assembly](www.assembly-solutions.com/cable-assembly) and manufacturing. Our experts are specially trained to ensure that each custom cable UK product meets a high standard of quality and safety. Every batch of custom cables has been tested in a variety of different environments and applications to ensure satisfaction every time.
+        At Assembly Solutions, we understand the importance of great [custom cable assembly](https://www.assembly-solutions.com/cable-assembly) and manufacturing. Our experts are specially trained to ensure that each custom cable UK product meets a high standard of quality and safety. Every batch of custom cables has been tested in a variety of different environments and applications to ensure satisfaction every time.
 seo:
   title: Why Choose Custom Cables
   og-url: www.assembly-solutions.com/news/why-choose-custom-cables
