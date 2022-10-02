@@ -53,7 +53,7 @@ layout:
         Boasting a high profile customer portfolio including Bus leading manufacturers - Alexander Dennis and Optare, we are confident on our knowledge and skillset when it comes to manufacturing for Automotive applications.
 
 
-        Vehicles are the backbone of UK industry and we help keep them moving. Our fast paced production lines are set up to please the customer with [control panels](www.assembly-solutions.com/control-panels) at low cost and quick turnaround.
+        Vehicles are the backbone of UK industry and we help keep them moving. Our fast paced production lines are set up to please the customer with [control panels](https://www.assembly-solutions.com/control-panels) at low cost and quick turnaround.
   - type: column
     column:
       title: Commitment to Quality Control Panels
