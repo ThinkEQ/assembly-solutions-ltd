@@ -47,8 +47,6 @@ layout:
         * Truck and Van Control Systems
 
 
-
-
         #### Vehicle Control Panels
 
 
@@ -64,7 +62,7 @@ layout:
         reliability is. To ensure every project is a success, we work closely
         with our customers from the costing stage right through to production,
         focusing on producing [control
-        panels](www.assembly-solutions.com/control-panels) that are cost
+        panels](https://www.assembly-solutions.com/control-panels) that are cost
         effective and fit for purpose.
 
 
@@ -75,8 +73,6 @@ layout:
         * Excellent Customer Service
 
         * 25 Years Manufacturing
-
-
 
 
         > We have a great relationship with ASL and have worked with them for many years, simply because they continue to deliver quality products. Being a well-established business, we have trusted them from start and appreciate their knowledge staff, who have gone above and beyond to help with technical design.
