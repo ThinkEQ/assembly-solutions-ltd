@@ -46,7 +46,7 @@ layout:
         ## Want a quick assembly quote?
 
 
-        We pride ourselves on being a fast-paced team and giving our customers a speedy service. Email your [custom cable assembly](www.assembly-solutions.com/cable-assembly) drawings to enquiry@assembly-solutions.com, and we’ll be straight back to you with prices. 
+        We pride ourselves on being a fast-paced team and giving our customers a speedy service. Email your [custom cable assembly](https://www.assembly-solutions.com/cable-assembly) drawings to enquiry@assembly-solutions.com, and we’ll be straight back to you with prices. 
 
 
         Our experienced sales engineers are here to help at any time, so if you'd like to chat with us about your cable assemblies and electrical assemblies, call  01204 521999, and we can get you started!
