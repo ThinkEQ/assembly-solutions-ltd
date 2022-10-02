@@ -33,7 +33,7 @@ layout:
         #### Quality Wiring Looms
 
 
-        As a trusted supplier of high reliability, high quality and technically advanced components and products, we are the supplier of choice for [wiring looms](www.assembly-solutions.com/wiring-loom) to an impressive list of world leading manufacturers including; Aston Martin, Ford and Rolls Royce.
+        As a trusted supplier of high reliability, high quality and technically advanced components and products, we are the supplier of choice for [wiring looms](https://www.assembly-solutions.com/wiring-loom) to an impressive list of world leading manufacturers including; Aston Martin, Ford and Rolls Royce.
 
 
         Every wiring harness we manufacture is 100% electrically tested and all our production processes conform to Quality ISO 9001.
@@ -41,9 +41,10 @@ layout:
     column:
       title: Fast Turnaround
       text: >-
-        All our [wiring harnesses](www.assembly-solutions.com/wiring-harness)
-        are manufactured to the fastest possible lead times and built from
-        customer specification.  
+        All our [wiring
+        harnesses](https://www.assembly-solutions.com/wiring-harness) are
+        manufactured to the fastest possible lead times and built from customer
+        specification.  
 
 
         * Competitive Prices
