@@ -27,10 +27,10 @@ layout:
         year.
 
 
-        This record result was driven by our cable assembly manufacturing services which saw 25 new customers come on board. 
+        This record result was driven by our [cable assembly manufacturing services](https://www.assembly-solutions.com/cable-assembly) which saw 25 new customers come on board. 
 
 
-        We surprisingly saw some positive growth in Automotive opportunities this year and were delighted to win a cable assembly contract from an Electric Vehicle Drive Systems manufacturer. This customer approached ASL after they were struggling to keep up with demands and needed additional resource to support their sub-assembly wiring products.
+        We surprisingly saw some positive growth in Automotive opportunities this year and were delighted to win a contract for [custom cable assemblies](https://www.assembly-solutions.com/cable-assemblies)contract from an Electric Vehicle Drive Systems manufacturer. This customer approached ASL after they were struggling to keep up with demands and needed additional resource to support their sub-assembly wiring products.
 
 
         We were also pleased to support a Chassis manufacturer with their urgent need for prototype vehicle wiring harnesses. They made initial contact with us after experiencing long delays on deliveries with their then current supplier. We successfully stepped up and won this contract after demonstrating our high quality samples and competitive pricing. Their state of the art vehicles are powered by batteries and comprises 4x individual drive wheels with each chassis comprising 4 identical sets of harnesses. It's been an interesting project to work on and we're looking forward to further opportunities with volumes in the region of 1000’s per month.
