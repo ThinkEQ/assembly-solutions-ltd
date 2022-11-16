@@ -3,6 +3,23 @@ templateKey: news-article
 title: ASL Celebrates Record Financial Year 2021-22
 date: 2022-05-03T12:15:19.216Z
 image: /img/asl-celebrate-record-year-2021-22.jpg
+layout:
+  - type: testimonial
+    testimonial:
+      alignment: centre
+      quote: >
+        We set out at the start of the financial year feeling positive, but due
+        to the global variables it was difficult to forecast across different
+        sectors. The year offered its challenges with supply chain and
+        logistical difficulties caused by the Covid pandemic followed on by the
+        unrest in Europe due to the conflict in Ukraine. With the year now
+        complete, we’re delighted to report on a record £7million turnover and
+        to have brought 25 brand new customers on board. I'm exceptionally proud
+        of our Sales team who have gone above and beyond to build great
+        relationships with customers and give them the best service possible.
+        I'm excited for the new year ahead and hope we continue on this journey
+        of growth"
+      name: Gareth Edwards, Head of Sales & Commercial
 seo:
   title: ASL Celebrates Record Financial Year 2021-22
   description: >
