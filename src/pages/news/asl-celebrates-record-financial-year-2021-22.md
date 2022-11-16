@@ -2,7 +2,7 @@
 templateKey: news-article
 title: ASL Celebrates Record Financial Year 2021-22
 date: 2022-05-03T12:15:19.216Z
-image: /img/asl-celebrate-record-financial-year-2021-22.jpg
+image: /img/25yearbanner.png
 layout:
   - type: full
     full:
