@@ -8,17 +8,16 @@ layout:
     testimonial:
       alignment: centre
       quote: >
-        We set out at the start of the financial year feeling positive, but due
-        to the global variables it was difficult to forecast across different
-        sectors. The year offered its challenges with supply chain and
-        logistical difficulties caused by the Covid pandemic followed on by the
-        unrest in Europe due to the conflict in Ukraine. With the year now
-        complete, we’re delighted to report on a record £7million turnover and
-        to have brought 25 brand new customers on board. I'm exceptionally proud
-        of our Sales team who have gone above and beyond to build great
-        relationships with customers and give them the best service possible.
-        I'm excited for the new year ahead and hope we continue on this journey
-        of growth"
+        I'm absolutely delighted that we have achieved a financial record year
+        2021-22. We have closed the year on £7million sales turnover which is a
+        phenomenal growth of 20% on the previous year. It is very much
+        recognised throughout the workforce that considering the current
+        climate, all our departments have pulled together and delivered an
+        exceptional result. The year has definitely come with its challenges of
+        supply chain logistical issues and supplier price increases, and with
+        this I give credit to how our costing, procurement and sales department
+        have managed to keep this under control. I'm excited for the new year
+        ahead and hope we continue on this exciting journey of growth.
       name: Gareth Edwards, Head of Sales & Commercial
 seo:
   title: ASL Celebrates Record Financial Year 2021-22
