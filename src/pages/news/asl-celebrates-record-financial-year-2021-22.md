@@ -8,7 +8,7 @@ layout:
     testimonial:
       alignment: centre
       quote: >
-        I'm absolutely delighted that we have achieved a financial record year
+        I am absolutely delighted we have achieved a financial record year
         2021-22. We have closed the year on £7million sales turnover which is a
         phenomenal growth of 20% on the previous year. It is very much
         recognised throughout the workforce that considering the current
@@ -22,15 +22,17 @@ layout:
 seo:
   title: ASL Celebrates Record Financial Year 2021-22
   description: >
-    We are celebrating a record financial year after reaching an impressive 20%
-    growth on the previous year.
+    We have drawn our financial year 2021-22 to a close and pleased to share
+    record numbers after achieving an impressive 20% growth on the previous
+    year.
 
 
     This record result was driven by our cable assembly manufacturing services which saw 25 new customers come on board. 
 
 
-    One cable assembly contract we have won this year was from a Magent" that we won over a competitot that was struggling to keep up with their demands and couldn't support theiwould follow once settled in.
+    We surprisingly saw some positive growth in Automotive opportunities this year and were delighted to win a cable assembly contract from an Electric Vehicle Drive Systems manufacturer. This customer approached ASL after they were struggling to keep up with demands and needed additional resource to support their sub-assembly wiring products.
 
-    We saw some positive growth in Automotive opportunities this year and were pleased to support a Chassis manufacturer with their urgent need for prototype vehicle wiring harnesses. They made initial contact with us after experiencing long delays on deliveries with their then supplier. We successfully stepped up and won this contract after demonstrating our high quality of product and competitive pricing. Their state of the art vehicles are powered by batteries and comprises 4x individual drive wheels with each chassis comprising 4 identical sets of harnesses. It's been an interesting project to work on and we're looking forward to further opportunities with volumes in the region of 1000’s per month.
+
+    We were also pleased to support a Chassis manufacturer with their urgent need for prototype vehicle wiring harnesses. They made initial contact with us after experiencing long delays on deliveries with their then current supplier. We successfully stepped up and won this contract after demonstrating our high quality samples and competitive pricing. Their state of the art vehicles are powered by batteries and comprises 4x individual drive wheels with each chassis comprising 4 identical sets of harnesses. It's been an interesting project to work on and we're looking forward to further opportunities with volumes in the region of 1000’s per month.
   og-url: asl-celebrate-record-financical-year-2021-22
 ---
