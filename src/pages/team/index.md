@@ -314,6 +314,13 @@ team-members:
       - football
     image: /img/sam-croston-team.jpg
     bio: Coming soon..
+  - name: Phil Beales
+    jobtitle: Production Manager
+    interests:
+      - football
+      - formula1
+    image: /img/aaron-hesketh.jpg
+    bio: C﻿oming soon.
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
