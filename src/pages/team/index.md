@@ -342,6 +342,13 @@ team-members:
       - football
     image: /img/sam-croston-team.jpg
     bio: Coming soon..
+  - name: Amanda Carey
+    jobtitle: Production Supervisor
+    interests:
+      - football
+      - hiking
+    image: /img/amanda-carey.jpg
+    bio: C﻿oming soon.
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
