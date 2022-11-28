@@ -266,6 +266,13 @@ team-members:
       computer programming wizard and in his spare time enjoys Home DIY and
       cooking up his signature Indian dish "Chicken Tikka Dopiza"!
     image: /img/aaron-hesketh.jpg
+  - name: Simon Blezard
+    jobtitle: Production Supervisor
+    interests:
+      - formula1
+      - football
+    image: /img/simon-blezard.jpg
+    bio: C﻿oming soon.
   - name: Gareth Jones
     jobtitle: Machinery Supervisor
     linkedin: https://www.linkedin.com/in/gareth-jones-5167201b8/
