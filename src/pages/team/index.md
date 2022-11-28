@@ -116,6 +116,13 @@ team-members:
       Aubrey enjoys his sporting passion of Motorsport - in particular Rallying,
       and he also likes to attend charity events to support many worthwhile
       causes.
+  - name: Phil Beales
+    jobtitle: Production Manager
+    interests:
+      - football
+      - formula1
+    image: /img/phil-beales.jpg
+    bio: C﻿oming soon.
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
@@ -314,13 +321,6 @@ team-members:
       - football
     image: /img/sam-croston-team.jpg
     bio: Coming soon..
-  - name: Phil Beales
-    jobtitle: Production Manager
-    interests:
-      - football
-      - formula1
-    image: /img/aaron-hesketh.jpg
-    bio: C﻿oming soon.
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
