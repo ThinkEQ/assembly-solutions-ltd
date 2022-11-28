@@ -136,6 +136,13 @@ team-members:
     interests:
       - decorating
       - gardening
+  - name: Eric Briggs
+    jobtitle: Quality & H&S Manager
+    interests:
+      - football
+      - formula1
+    bio: C﻿oming soon.
+    image: /img/eric-briggs.jpg
   - name: Susan Gaskell
     jobtitle: Purchasing & Planning Manager
     interests:
@@ -321,13 +328,6 @@ team-members:
       - football
     image: /img/sam-croston-team.jpg
     bio: Coming soon..
-  - name: Eric Briggs
-    jobtitle: Quality & H&S Manager
-    interests:
-      - football
-      - formula1
-    bio: C﻿oming soon.
-    image: /img/eric-briggs.jpg
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
