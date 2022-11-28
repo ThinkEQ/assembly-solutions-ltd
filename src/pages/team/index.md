@@ -28,7 +28,7 @@ team-members:
       then the company has seen over 20% growth in sales. Gareth is a keen
       cyclist and enjoys hiking up the highest of mountains. He also has a black
       belt in Jujutsu!
-    image: /img/team2-2-.png
+    image: /img/gareth-balshaw.jpg
     interests:
       - cycling
       - hiking
