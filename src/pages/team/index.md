@@ -328,6 +328,13 @@ team-members:
       - football
     image: /img/sam-croston-team.jpg
     bio: Coming soon..
+  - name: Steven Beales
+    jobtitle: Packing & Despatch Operator
+    interests:
+      - football
+      - formula1
+    image: /img/steven-beales.jpg
+    bio: C﻿oming soon.
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
