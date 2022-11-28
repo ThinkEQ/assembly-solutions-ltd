@@ -321,13 +321,6 @@ team-members:
       for urgent projects where the customer has made technical changes to
       specifications mid-production. Dave is a valuable team player and is
       currently supporting our Apprentices with in-house technical training.
-  - name: Sam Croston
-    jobtitle: HR Support
-    interests:
-      - formula1
-      - football
-    image: /img/sam-croston-team.jpg
-    bio: Coming soon..
   - name: Steven Beales
     jobtitle: Packing & Despatch Operator
     interests:
@@ -335,6 +328,13 @@ team-members:
       - formula1
     image: /img/steven-beales.jpg
     bio: C﻿oming soon.
+  - name: Sam Croston
+    jobtitle: HR Support
+    interests:
+      - formula1
+      - football
+    image: /img/sam-croston-team.jpg
+    bio: Coming soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
