@@ -7,6 +7,10 @@ layout:
   - type: full
     full:
       text: >-
+        P﻿ictured above, left to right - Gareth Balshaw, Managing Director and
+        Rob Parkinson, Production Manager
+
+
         13th January, 2023\
 
         **Production Manager Achieves 20 Years Service**
