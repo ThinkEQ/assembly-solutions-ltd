@@ -31,11 +31,11 @@ With 25 Years of excellence in manufacturing, we are recognised as the UK leader
 
 * UK Award Winning Family Business
 * Cable Assemblies, Wiring Looms, Wiring Harnesses, Control Panels
-* Established 25 Years 
+* Established 27 Years 
 * ISO 9001 Accredited - Quality Management
 * ISO 45001 Accredited - Health & Safety Management
 * Markets Sectors: Automotive, Security, Utilities, Nuclear, Medical
-* 25% Growth In 2021
+* 20% Growth In 2022
 * 98% Customer Satisfaction
 
 **Market Sectors & Automotive Experience**
