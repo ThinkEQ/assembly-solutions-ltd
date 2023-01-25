@@ -21,7 +21,7 @@ layout:
         When Rob first started as a fresh-faced teenager working as a production operator, little did we know, one day he would become a senior manager running our multi-million pound [cable assembly department](www.assembly-solutions.com/cable-assembly).
 
 
-        We have watched Rob excel in his role and take on new responsibilities with confidence and determination. He has always been a great team player and has never hesitated to roll up his sleeves and get his hands dirty to get the job done. Rob has been fundamental in the growth of the business and has played a key role to generate sales which is currently at a record £7million per annum!
+        Since day 1, Rob has excelled in every role and taken on new responsibilities with confidence and determination. He has been fundamental in the growth of the business and has played a key role to generate sales which is currently at a record £7million per annum!
 
 
         Here's to 20 fantastic years, and hopefully many more to come!
