@@ -21,7 +21,10 @@ layout:
         When Rob first started as a fresh-faced teenager working as a production operator, little did we know, one day he would become a senior manager running our multi-million pound [cable assembly department](www.assembly-solutions.com/cable-assembly).
 
 
-        Since day 1, Rob has excelled in every role and taken on new responsibilities with confidence and determination. He has been fundamental in the growth of the business and has played a key role to generate sales which is currently at a record £7million per annum!
+        Since day 1, Rob has excelled in every role and taken on new responsibilities with confidence and determination. He has been a key player in ASL's growth journey over the last 20 years and has proved to be not only a great leader but is also very knowledgeable on equipment & machinery. Last year Rob helped the company strategically invest £250,000 in new wire preparation & cable assembly machinery to improve processes and increase capacity.
+
+
+        R﻿ob has also achieved 19 Years 100% attendance which is absolutely incredible.
 
 
         Here's to 20 fantastic years, and hopefully many more to come!
