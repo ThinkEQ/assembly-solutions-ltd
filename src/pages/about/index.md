@@ -25,7 +25,7 @@ Assembly Solutions Ltd is a Bolton-based sub-contract manufacturer of electrical
 
 We are an award winning family business and pride ourselves on delivering a personable quality service. With instilled family values, we're passionate about building strong relationships that are reliable, loyal and trustworthy.
 
-With 25 Years of excellence in manufacturing, we are recognised as the UK leader for wiring assemblies, and our quality is a reflection of our world-class customers, including; Ford, Rolls-Royce, Siemens and Vodafone.\
+With 27 Years of excellence in manufacturing, we are recognised as the UK leader for wiring assemblies, and our quality is a reflection of our world-class customers, including; Ford, Rolls-Royce, Siemens and Vodafone.\
 \
 **Assembly Solutions Ltd**
 
@@ -36,7 +36,10 @@ With 25 Years of excellence in manufacturing, we are recognised as the UK leader
 * ISO 45001 Accredited - Health & Safety Management
 * Markets Sectors: Automotive, Security, Utilities, Nuclear, Medical
 * 20% Growth In 2022
+* C﻿ustomers Include; Aston Martin, Ford, Rolls-Royce, Siemens & Vodafone
 * 98% Customer Satisfaction
+
+
 
 **Market Sectors & Automotive Experience**
 
