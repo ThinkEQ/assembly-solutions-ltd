@@ -2,7 +2,7 @@
 templateKey: news-article
 title: Production Manager Achieves 20 Years Service
 date: 2023-01-13T14:28:20.479Z
-image: /img/rob-parkinson-20-years.jpg
+image: /img/rob-parkinson-20-years-crop.jpg
 layout:
   - type: full
     full:
