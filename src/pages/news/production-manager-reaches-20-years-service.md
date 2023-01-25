@@ -18,21 +18,22 @@ layout:
         We are absolutely thrilled to be celebrating our Production Manager **Rob Parkinson** for achieving a mind-blowing milestone of 20 Years Service at ASL.
 
 
-        When Rob first started as a fresh-faced teenager working as a production operator, little did we know, that one day he would become a senior manager running our multi-million pound cable assembly department.
+        When Rob first started as a fresh-faced teenager working as a production operator, little did we know, one day he would become a senior manager running our multi-million pound cable assembly department.
 
 
-
-
-        hbecome the Production Manager he is today. We remember him as a fresh-faced teenager, eager and enthusiastic who was always keen to learn and grow.e would We have watched Rob excel in his role and take on new responsibilities with confidence and determination. He has always been a great team player and has never hesitated to roll up his sleeves and get his hands dirty to get the job done.
+        We have watched Rob excel in his role and take on new responsibilities with confidence and determination. He has always been a great team player and has never hesitated to roll up his sleeves and get his hands dirty to get the job done.
 
 
         He has been a true asset to the company and we are lucky to have him on board. He has come a long way since his days as a production operator, and we are proud of the person he has become.
 
 
         Rob has been fundamental in the growth of the business and has played a key role to generate sales which is currently at a record £7million per annum!
+
+
+        Here's to 20 fantastic years, and many more to come!
   - type: testimonial
     testimonial:
-      alignment: standard
+      alignment: centre
       name: Gareth Balshaw, Managing Director
       quote: Rob is an exceptional production manager who has consistently
         demonstrated a strong commitment to excellence throughout his 20 years
