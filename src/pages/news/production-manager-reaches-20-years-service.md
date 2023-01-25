@@ -18,19 +18,13 @@ layout:
         We are absolutely thrilled to be celebrating our Production Manager **Rob Parkinson** for achieving a mind-blowing milestone of 20 Years Service at ASL.
 
 
-        When Rob first started as a fresh-faced teenager working as a production operator, little did we know, one day he would become a senior manager running our multi-million pound cable assembly department.
+        When Rob first started as a fresh-faced teenager working as a production operator, little did we know, one day he would become a senior manager running our multi-million pound [cable assembly department](www.assembly-solutions.com/cable-assembly).
 
 
-        We have watched Rob excel in his role and take on new responsibilities with confidence and determination. He has always been a great team player and has never hesitated to roll up his sleeves and get his hands dirty to get the job done.
+        We have watched Rob excel in his role and take on new responsibilities with confidence and determination. He has always been a great team player and has never hesitated to roll up his sleeves and get his hands dirty to get the job done. Rob has been fundamental in the growth of the business and has played a key role to generate sales which is currently at a record £7million per annum!
 
 
-        He has been a true asset to the company and we are lucky to have him on board. He has come a long way since his days as a production operator, and we are proud of the person he has become.
-
-
-        Rob has been fundamental in the growth of the business and has played a key role to generate sales which is currently at a record £7million per annum!
-
-
-        Here's to 20 fantastic years, and many more to come!
+        Here's to 20 fantastic years, and hopefully many more to come!
   - type: testimonial
     testimonial:
       alignment: centre
