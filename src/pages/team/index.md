@@ -183,7 +183,7 @@ team-members:
       loves nothing more than a pint in the pub!
     linkedin: https://www.linkedin.com/in/adam-saoudi-8459a2106/
   - name: Gary Scowcroft
-    jobtitle: Technical Sales Engineer
+    jobtitle: Engineering Manager
     bio: Gary has an impressive 40 years of experience in the Electronics & Cable
       Assembly Industry. Since he joined us in 2017, his phenomenal wealth of
       knowledge has transformed the way we win new business by working with
