@@ -73,7 +73,7 @@ team-members:
       - church
     linkedin: https://www.linkedin.com/in/gareth-edwards-370509119/
   - name: Damien Walsh
-    jobtitle: Production Manager
+    jobtitle: Technical Manager
     image: /img/team5-1-.png
     bio: Damien holds the incredible title of being our longest serving employee! He
       has served an outstanding 20 Years, after joining as a production operator
