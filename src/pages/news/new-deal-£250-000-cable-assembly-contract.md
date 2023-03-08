@@ -12,7 +12,7 @@ layout:
         **New Deal: £250,000 Cable Assembly Contract**
 
 
-        Our family business, [ASL](https://www.linkedin.com/company/asl-bolton/)A﻿fter months of meetings, costing, quoting and producing sample approvals, we are delighted to have won a new deal worth a quarter of a million pounds, for the Electric Vehicle Industry.
+        A﻿fter months of meetings, costing, quoting and producing sample approvals, we are delighted to have won a new deal worth a quarter of a million pounds, for the Electric Vehicle Industry.
 
 
         Production is now well underway and our four operators - Choi, Kathy, Mei Ki & Ruby are leading the manufacturing process with some demanding deliveries to hit.\
