@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: "New Deal: £250,000 Cable Assembly Contract"
-date: 2023-03-08T12:35:27.188Z
+date: 2023-03-02T12:35:27.188Z
 image: /img/_dsc4169-1-002-.jpg
 layout:
   - type: full
