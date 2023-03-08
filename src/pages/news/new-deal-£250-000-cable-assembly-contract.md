@@ -32,6 +32,9 @@ layout:
         \
 
         We love seeing big projects like this pull off and feel proud to be part of the positive growth in UK Manufacturing & the Electric Vehicle Industry.
+
+
+        F﻿or more images of this project, [click here](https://www.linkedin.com/feed/update/urn:li:activity:7036958834820579328/)
 seo:
   title: "New Deal: £250,000 Cable Assembly Contract"
   description: ASL win new cable assembly deal for Electric Vehicle Industry
