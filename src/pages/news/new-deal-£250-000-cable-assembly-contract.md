@@ -27,7 +27,7 @@ layout:
 
         \
 
-        Also a huge well done to our sales guys who successfully got this off the ground - John Waterworth, Gareth Edwards & Adam Tunnah.[Gareth Edwards](https://www.linkedin.com/in/ACoAAB1xCsQB4aM-Utvd2j-UTEgPDcro75j94K0) & [Adam Tunnah](https://www.linkedin.com/in/ACoAACiQpNMBHImYfzjOWHxtP1Z_CSgG0-c-3z4) 👏\
+        Also a huge well done to our sales guys who successfully got this off the ground - John Waterworth, [Gareth Edwards](https://www.linkedin.com/in/ACoAAB1xCsQB4aM-Utvd2j-UTEgPDcro75j94K0) & [Adam Tunnah](https://www.linkedin.com/in/ACoAACiQpNMBHImYfzjOWHxtP1Z_CSgG0-c-3z4)\
 
         \
 
