@@ -60,7 +60,7 @@ team-members:
       - snowboarding
     linkedin: https://www.linkedin.com/in/oliver-balshaw-624a9ab4/
   - name: Gareth Edwards
-    jobtitle: Head of Sales & Commercial
+    jobtitle: Sales & Commercial Director
     bio: Gareth is an exceptional sales professional with extensive technical
       knowledge in electrical components and parts. With all his experience from
       previously working as a production manager, he understands technical
