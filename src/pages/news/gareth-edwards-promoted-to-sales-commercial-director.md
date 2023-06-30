@@ -22,7 +22,7 @@ layout:
         T﻿his is a well-deserved promotion and the family of Directors are delighted to have Gareth on the Board as the company continues it's rapid growth journey.
   - type: testimonial
     testimonial:
-      alignment: standard
+      alignment: centre
       name: Gareth Balshaw, Managing Director
       quote: "Gareth joined the business in 2005 and has worked his way up from
         Production Operator to Costing Manager, Sales Manager, and now Sales
