@@ -4,17 +4,6 @@ title: Gareth Edwards Promoted to Sales & Commercial Director
 date: 2023-04-26T09:15:33.188Z
 image: /img/gareth-edwards-promotion.jpg
 layout:
-  - type: testimonial
-    testimonial:
-      alignment: standard
-      name: Gareth Balshaw, Managing Director
-      quote: "Gareth joined the business in 2005 and has worked his way up from
-        Production Operator to Costing Manager, Sales Manager, and now Sales
-        Director. This promotion makes Gareth the first non-family member
-        Director and it is a pleasure to see him reach this well-deserved
-        milestone in his career. He has helped the company grow from by
-        £1million in the last 12 months and I am looking forward to seeing the
-        success he brings to ASL throughout the years ahead. "
   - type: full
     full:
       title: Gareth Edwards promoted to Sales & Commercial Director
@@ -31,6 +20,17 @@ layout:
 
 
         T﻿his is a well-deserved promotion and the family of Directors are delighted to have Gareth on the Board as the company continues it's rapid growth journey.
+  - type: testimonial
+    testimonial:
+      alignment: standard
+      name: Gareth Balshaw, Managing Director
+      quote: "Gareth joined the business in 2005 and has worked his way up from
+        Production Operator to Costing Manager, Sales Manager, and now Sales
+        Director. This promotion makes Gareth the first non-family member
+        Director and it is a pleasure to see him reach this well-deserved
+        milestone in his career. He has helped the company grow from by
+        £1million in the last 12 months and I am looking forward to seeing the
+        success he brings to ASL throughout the years ahead. "
 seo:
   title: Gareth Edwards Promoted to Sales Director
   description: Gareth Edwards promoted to Sales Director
