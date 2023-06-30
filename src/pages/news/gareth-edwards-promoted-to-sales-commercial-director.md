@@ -24,13 +24,17 @@ layout:
     testimonial:
       alignment: centre
       name: Gareth Balshaw, Managing Director
-      quote: "Gareth joined the business in 2005 and has worked his way up from
-        Production Operator to Costing Manager, Sales Manager, and now Sales
-        Director. This promotion makes Gareth the first non-family member
-        Director and it is a pleasure to see him reach this well-deserved
-        milestone in his career. He has helped the company grow from by
-        £1million in the last 12 months and I am looking forward to seeing the
-        success he brings to ASL throughout the years ahead. "
+      quote: >+
+        It was a special day and proud moment for me to promote Gareth to Sales
+        & Commercial Director. I have been lucky enough to work alongside Gareth
+        for over 15 years and have seen him take on multiple roles,
+        demonstrating his work ethic and loyalty. This well-deserved title makes
+        Gareth the first non-family member to become a Director, and it is a
+        pleasure to see him achieve this recognition for all his great work
+        contributed to ASL. He has helped the company grow by £1million in the
+        last 12 months and I am looking forward to seeing him create even more
+        success for himself personally and for the company.
+
 seo:
   title: Gareth Edwards Promoted to Sales Director
   description: Gareth Edwards promoted to Sales Director
