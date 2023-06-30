@@ -6,7 +6,7 @@ image: /img/gareth-edwards-promotion.jpg
 layout:
   - type: full
     full:
-      title: Gareth Edwards promoted to Sales & Commercial Director
+      title: ""
       text: >-
         2﻿6th April, 2023\
 
