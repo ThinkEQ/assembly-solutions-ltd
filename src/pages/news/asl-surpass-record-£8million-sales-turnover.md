@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: ASL surpass record £8million sales turnover
-date: 2023-06-30T08:59:42.217Z
+date: 2023-05-01T08:59:42.217Z
 image: /img/team-asl-2023-1.jpg
 layout:
   - type: testimonial
