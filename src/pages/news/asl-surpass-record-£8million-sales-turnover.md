@@ -43,7 +43,7 @@ layout:
         We wish to share a huge thank you to all our customers for their continued loyalty. It means so much to have you on our journey.
   - type: testimonial
     testimonial:
-      alignment: standard
+      alignment: centre
       name: Gareth Balshaw, Managing Director
       quote: I am absolutely delighted to see the company surpass a record £8million
         turnover. We didn't think we would have achieved this for at least
