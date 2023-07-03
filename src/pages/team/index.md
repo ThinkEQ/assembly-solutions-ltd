@@ -196,19 +196,6 @@ team-members:
     interests:
       - hiking
       - climbing-wall
-  - name: Chris Speakman
-    jobtitle: Production Engineer
-    interests:
-      - cycling
-      - football
-    bio: Chris started his career in the Automotive Industry as a technical
-      apprentice at Leyland Motors. From there he started his own business
-      working in the trade repairing damaged cars. Chris brings many skills to
-      the company including varied experience and knowledge. He is now
-      supporting the ASL Engineering dept with design and production. Being a
-      lover of cars and all things mechanical, Chris spends his time in his
-      workshop working on a variety of cars engines and of late, his jet!
-    image: /img/chris-speakman-team.jpg
   - name: Michele Barnes
     jobtitle: Sales Administrator
     bio: Michele is our bright & bubbly Sales Administrator and is the fastest
