@@ -16,7 +16,10 @@ layout:
         We are incredibly proud to announce our family Bolton business, has achieved yet another record-breaking result and for the first time surpassed 8 million pounds sales turnover.
 
 
-        It has been a challenging but exciting year that will be difficult to beat! Here’s some highlights:\
+        It has been a challenging year as we have rapidly expanded in not only sales orders, but also the growth of the team which has reached a record of 90 people.
+
+
+        Here’s some highlights from the year:\
 
         \
 
@@ -24,15 +27,15 @@ layout:
 
         👉 Workforce grown from 60 to 90\
 
-        👉 Made & delivered over 1 million cables\
+        👉 Made & delivered over one million cables\
 
-        👉 [Robert Parkinson](https://www.linkedin.com/in/ACoAABuYs6QB_wO4TDcS4iTngW9KqnIFBhBNtac) achieved 20 Years Service\
+        👉 Rob Parkinson achieved 20 Years Service\
 
-        👉 [Gareth Edwards](https://www.linkedin.com/in/ACoAAB1xCsQB4aM-Utvd2j-UTEgPDcro75j94K0) promoted to Director\
+        👉 Gareth Edwards promoted to Sales & Commercial Director\
 
         \
 
-        We wish to share a huge thanks you to all our customers for their continued loyalty and to our suppliers for support us through many challenging times in sourcing difficult parts.
+        We wish to share a huge thanks you to all our customers for their continued loyalty and to our suppliers for supporting us through many challenging times in sourcing difficult parts.
   - type: testimonial
     testimonial:
       alignment: centre
