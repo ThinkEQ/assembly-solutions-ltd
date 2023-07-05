@@ -18,7 +18,7 @@ layout:
         Production is flowing in full force at our Bolton factory today, and the collaboration between colleagues has never looked so good. Our skilled operators are hard at work with some demanding delivery dates to hit, but all parts are in and things are moving at a positive pace.
 
 
-        T﻿his contract comes from a customer who we have been supplying to for over a decade and it's testament to the team that we have strong long-term partnerships like this with customers.\
+        T﻿his contract comes from a customer who we have been supplying to for over a decade and it's testament to the team that we have built strong long-term partnerships like this with customers.\
 
         \
 
