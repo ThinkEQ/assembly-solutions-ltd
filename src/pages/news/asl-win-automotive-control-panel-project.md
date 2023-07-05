@@ -36,7 +36,9 @@ layout:
         A huge well done to our Production Manager Phil Beales & his team for getting operations efficiently up and running, and also our Technical Manager Damien Walsh whose expertise has been significant to pull this project off successfully.
 
 
-        Y﻿ou can learn more about our **electrical panel build services** by visiting: [control panel manufacturing services](https://www.assembly-solutions.com/control-panels)
+        **Learn more about our electrical panel build services**\
+
+        Visit our webpage: [control panel manufacturing services](https://www.assembly-solutions.com/control-panels)
   - type: testimonial
     testimonial:
       alignment: centre
