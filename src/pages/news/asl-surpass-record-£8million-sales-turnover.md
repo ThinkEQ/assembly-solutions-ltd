@@ -36,7 +36,7 @@ layout:
 
         \
 
-        A shout-out to Team ASL, because you don’t grow by £1 million in 12 months without (excuse my French) a bloody good team. From Sales to Costing, Technical, Engineering, Purchasing, Production and Accounts - you absolutely smashed it, well done guys! 👏\
+        A shout-out to Team ASL, because you don’t grow by £1 million in 12 months without an incredible team. From Sales to Costing, Technical, Engineering, Purchasing, Production and Accounts - you absolutely smashed it, well done guys! 👏\
 
         \
 
