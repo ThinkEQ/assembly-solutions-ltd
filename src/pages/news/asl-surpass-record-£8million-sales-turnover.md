@@ -32,10 +32,6 @@ layout:
 
         \
 
-        A shout-out to Team ASL, because you don’t grow by £1 million in 12 months without an incredible team. From Sales to Costing, Technical, Engineering, Purchasing, Production and Accounts - you absolutely smashed it, well done guys! 👏\
-
-        \
-
         We wish to share a huge thank you to all our customers for their continued loyalty. It means so much to have you on our journey.
   - type: testimonial
     testimonial:
