@@ -25,6 +25,23 @@ layout:
         \
 
         What a time to be part of uk manufacturing.
+  - type: testimonial
+    testimonial:
+      alignment: centre
+      quote: We have been a long-standing customer of ASL, with orders being submitted
+        every year for the last decade. Our past account managers have always
+        been great to deal with, and during our working relationship with ASL,
+        several have been promoted, leaving a vacancy to be filled. On such
+        person that we have had the pleasure of dealing with is Adam Saoudi who
+        is very friendly & helpful and fast in resolving queries. Adam became
+        our customer account manager approximately 18 months ago and has been
+        great to deal with. He has handled all our quotes and orders from start
+        to finish without issue. If he couldn’t return with an answer, he found
+        someone within Assembly Solutions who could. He has been extremely
+        accommodating with difficult requests that we have had to make, caused
+        by current global semiconductor shortages. Adam and ASL, as always, make
+        a difficult situation work.
+      name: Automotive Client, Specialist Vehicle Conversions
 seo:
   title: ASL Lands Lucrative Control Panel Project
   description: Assembly Solutions Ltd have landed a lucrative control panel project
