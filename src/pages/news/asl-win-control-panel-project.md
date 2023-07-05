@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Win Control Panel Project
+title: ASL Win Automotive Control Panel Project
 date: 2023-07-05T10:02:36.372Z
 image: /img/_dsc4121.jpg
 layout:
