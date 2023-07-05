@@ -18,7 +18,7 @@ layout:
         Production is flowing in full force at our Bolton factory today, and the collaboration between colleagues has never looked so good. Our skilled operators are hard at work with some demanding delivery dates to hit, but all parts are in and things are moving at a positive pace.
 
 
-        T﻿his contract comes from a customer who we have been supplying to for over a decade and it's testament to the team that we have strong long-term partnerships like this with some customers.
+        T﻿his contract comes from a customer who we have been supplying to for over a decade and it's testament to the team that we have strong long-term partnerships like this with customers.
 
 
         The control panels for this project will be used to control secure vehicles that are designed to carry cash and valuables and they control everything on the vehicle regarding the conversion. There is a biometric fingerprint unit that communicates with the panel, so the system knows if the correct person is entering the vehicle. Only the first 1 or 2 crew members that register on the vehicle in the morning can access the vehicle even if another employee tries to access the vehicle. The system regulates entry and exit as well as how many lockers are opened within a given time. The system utilises an HMI screen which allows the crew to control certain aspects of the system, and relays information about the status of the system to the crew in the event of an issue. The crew can then take action to rectify any issues.
