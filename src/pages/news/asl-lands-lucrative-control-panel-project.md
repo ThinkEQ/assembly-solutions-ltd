@@ -46,7 +46,7 @@ layout:
         a difficult situation work.
       name: Automotive Client, Specialist Vehicle Conversions
 seo:
-  title: ASL Lands Lucrative Control Panel Project
+  title: ASL Wins Control Panel Project
   description: Assembly Solutions Ltd have landed a lucrative control panel project
-  og-url: asl-land-lucrative-control-panel-project
+  og-url: asl-wins-control-panel-project
 ---
