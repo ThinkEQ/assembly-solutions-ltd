@@ -32,7 +32,7 @@ layout:
 
         \
 
-        We wish to share a huge thank you to all our customers for their continued loyalty. It means so much to have you on our journey.
+        We wish to share a huge thanks you to all our customers for their continued loyalty and to our suppliers for support us through many challenging times in sourcing difficult parts.
   - type: testimonial
     testimonial:
       alignment: centre
