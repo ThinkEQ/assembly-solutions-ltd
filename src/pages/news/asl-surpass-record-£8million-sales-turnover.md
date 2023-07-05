@@ -13,12 +13,8 @@ layout:
         **Record Year: ASL surpass £8million sales turnover in 2022-23**
 
 
-        We are incredibly proud to announce our family Bolton business, ASL, has achieved yet another record-breaking result.
+        We are incredibly proud to announce our family Bolton business, has achieved yet another record-breaking result and for the first time surpassed 8 million pounds sales turnover.
 
-
-        C﻿losing on our financial year 2022-23, we can confirm a record result that for the first time ever has seen us surpass 8 million pounds sales turnover.\
-
-        \
 
         It has been a challenging but exciting year that will be difficult to beat! Here’s some highlights:\
 
