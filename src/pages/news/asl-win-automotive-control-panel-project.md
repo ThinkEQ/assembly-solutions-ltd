@@ -22,7 +22,7 @@ layout:
 
         \
 
-        **W﻿hat the control panel capability**\
+        **Control panel capability**\
 
         The [control panels](https://www.assembly-solutions.com/control-panels) have a combined input and output capability of 200 inputs and outputs utilising IO link sensors, which have the ability to measure distances within the sensor detection range, as well as report the state of the sensor to the control system including errors and incorrect adjustment. This data can be used to report issues and defect to a service agent. The control system uses a Human Machine Interface which relays data to the operator allowing them to act when required, or to allow control of certain aspects of the system. All the panels are connected via both EtherCAT and EtherNET with remote accessibility for diagnostic purposes.
 
