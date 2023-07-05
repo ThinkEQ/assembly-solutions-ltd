@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Lands Lucrative Control Panel Project
+title: ASL Wins Control Panel Project
 date: 2023-07-05T09:04:19.182Z
 image: /img/_dsc4121.jpg
 layout:
