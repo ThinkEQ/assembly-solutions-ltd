@@ -4,8 +4,8 @@ title: ASL Win Automotive Control Panel Project
 date: 2023-07-05T10:27:58.685Z
 image: /img/automotive-control-panels.jpg
 layout:
-  - type: column
-    column:
+  - type: full
+    full:
       text: >-
         5th July, 2023\
 
