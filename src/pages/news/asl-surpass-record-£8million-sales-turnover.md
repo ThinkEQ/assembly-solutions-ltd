@@ -38,10 +38,10 @@ layout:
     testimonial:
       alignment: centre
       name: Gareth Balshaw, Managing Director
-      quote: I am absolutely delighted to see the company surpass a record £8million
-        turnover. We didn't think we would have achieved this for at least
-        another two years and it is testament to the team at the level of effort
-        they have gone to, to help the company reach this milestone.
+      quote: "I am absolutely delighted to see the company reach I record that I
+        didn't believe would be possible for at least another two years. This is
+        an unprecedented amount of growth and an astonishing achievement to grow
+        so significantly within a 12 month period. "
 seo:
   title: ASL surpass a record £8million sales turnover in 2022-23
   description: Bolton based cable assembly manufacturer, ASL, are celebrating a
