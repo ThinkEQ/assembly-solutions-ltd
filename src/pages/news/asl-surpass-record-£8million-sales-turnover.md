@@ -38,10 +38,15 @@ layout:
     testimonial:
       alignment: centre
       name: Gareth Balshaw, Managing Director
-      quote: "I am absolutely delighted to see the company reach I record that I
-        didn't believe would be possible for at least another two years. This is
-        an unprecedented amount of growth and an astonishing achievement to grow
-        so significantly within a 12 month period. "
+      quote: I am absolutely delighted to see the company reach a record that I didn't
+        believe would be possible for at least another two years. This is an
+        unprecedented amount of growth and an astonishing achievement to grow to
+        8 million turnover and from 60 to 90 staff. We have certainly felt some
+        growing pains throughout the past 12 months but it has been remarkable
+        to reach these heights and very encouraging to see the team collaborate
+        so well together. I'm looking forward to this next year ahead which will
+        see us implement a big investment in a new stock control system and
+        further developments to the factory to support the continued expansion.
 seo:
   title: ASL surpass a record £8million sales turnover in 2022-23
   description: Bolton based cable assembly manufacturer, ASL, are celebrating a
