@@ -12,7 +12,7 @@ layout:
         **New Deal: ASL Win Control Panel Project**
 
 
-        We are delighted to share the news that we have won a new contract to manufacture 50 control panels for use in **specialist vehicle conversions**.
+        We are delighted to share the news that we have won a new contract to manufacture **50 control panels** for use in **specialist vehicle conversions**.
 
 
         Production is flowing in full force at our Bolton factory today, and the collaboration between colleagues has never looked so good. Our skilled operators are hard at work with some demanding delivery dates to hit, but all parts are in and things are moving at a positive pace.
