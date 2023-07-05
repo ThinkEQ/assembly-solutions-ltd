@@ -6,7 +6,7 @@ image: /img/team-asl-2023-1.jpg
 layout:
   - type: full
     full:
-      title: ASL surpass record £8million sales turnover
+      title: ""
       text: >-
         1st May, 2023\
 
