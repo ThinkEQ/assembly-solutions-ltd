@@ -33,7 +33,7 @@ layout:
         * Gareth Edwards promoted to Sales & Commercial Director
 
 
-        We wish to share a huge thanks you to all our customers for their continued loyalty and to our suppliers for supporting us through many challenging times in sourcing difficult parts.
+        We wish to share a huge thanks you to all our customers for their continued loyalty and to our suppliers for supporting us through many tough times in sourcing difficult parts.
   - type: testimonial
     testimonial:
       alignment: centre
