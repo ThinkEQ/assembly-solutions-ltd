@@ -22,15 +22,15 @@ layout:
         Here are some highlights from the year:
 
 
-        * Sales growth from £7M to £8M
+        * **Sales growth from £7M to £8M**
 
-        * Workforce grown from 60 to 90
+        * **Workforce grown from 60 to 90**
 
-        * Made & delivered over one million cables
+        * **Made & delivered over one million cables**
 
-        * Rob Parkinson achieved 20 Years Service
+        * **Rob Parkinson achieved 20 Years Service**
 
-        * Gareth Edwards promoted to Sales & Commercial Director
+        * **Gareth Edwards promoted to Sales & Commercial Director**
 
 
         We wish to share a huge thanks you to all our customers for their continued loyalty and to our suppliers for supporting us through many tough times in sourcing difficult parts.
