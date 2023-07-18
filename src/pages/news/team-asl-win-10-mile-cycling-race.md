@@ -12,9 +12,6 @@ layout:
         **A﻿SL Win 10 Mile Cycling Time Trial Race**
 
 
-        We are delighted to share the news that our cycling Team has won a race!**100 control panels** for use in **specialist vehicle conversions**.
-
-
         Our rider **Mark Parsons** won the **Southport 10 Mile TT** on **Saturday 24th June 2023**.
 
 
