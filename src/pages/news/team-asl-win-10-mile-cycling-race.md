@@ -15,7 +15,7 @@ layout:
         We are delighted to announce the victory of our Team ASL cyclist, **Mark Parsons**.
 
 
-        On **Saturday June 24th**, Mark participated in the **Southport 10 Mile TT Cycling Race** and emerged as the champion. 
+        On **Saturday 24th June**, Mark participated in the **Southport 10 Mile TT Cycling Race** and emerged as the champion. 
 
 
         With an impressive average speed of 30 miles per hour, he maintained a commanding lead and finished with an impressive time of 20 minutes and 21 seconds. This remarkable achievement marks his first win of the season, showcasing his exceptional skills and dedication. 
