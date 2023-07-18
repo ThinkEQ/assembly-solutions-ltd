@@ -12,7 +12,10 @@ layout:
         **A﻿SL Win 10 Mile Cycling Time Trial Race**
 
 
-        Our rider, **Mark Parsons**, won the **Southport 10 Mile TT** on **Saturday 24th June 2023**.
+        W﻿e are pleased to share that our Team ASL rider, **Mark Parsons**, has won a cycling competition.
+
+
+        On **Saturday 24th June 2023**, Mark took part in the **Southport 10 Mile TT Race** and came away crowned as the winner.
 
 
         Averaging 30 miles per hour, he kept away the competition with an overall time of 20 minutes and 21 seconds.
