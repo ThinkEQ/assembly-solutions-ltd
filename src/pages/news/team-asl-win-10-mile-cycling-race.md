@@ -12,7 +12,7 @@ layout:
         **A﻿SL Win 10 Mile Cycling Time Trial Race**
 
 
-        Our rider **Mark Parsons** won the **Southport 10 Mile TT** on **Saturday 24th June 2023**.
+        Our rider, **Mark Parsons**, won the **Southport 10 Mile TT** on **Saturday 24th June 2023**.
 
 
         Averaging 30 miles per hour, he kept away the competition with an overall time of 20 minutes and 21 seconds.
