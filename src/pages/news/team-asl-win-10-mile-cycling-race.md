@@ -12,22 +12,22 @@ layout:
         **A﻿SL Win 10 Mile Cycling Time Trial Race**
 
 
-        W﻿e are pleased to share that our Team ASL rider, **Mark Parsons**, has won a cycling competition.
+        We are delighted to announce the victory of our Team ASL cyclist, **Mark Parsons**, in a recent cycling competition. 
 
 
-        On **Saturday 24th June 2023**, Mark took part in the **Southport 10 Mile TT Race** and came away crowned as the winner.
+        On **Saturday June 24th**, Mark participated in the **Southport 10 Mile TT Race** and emerged as the champion. 
 
 
-        Averaging 30 miles per hour, he kept away the competition with an overall time of 20 minutes and 21 seconds.
+        With an impressive average speed of 30 miles per hour, he maintained a commanding lead and finished with an impressive time of 20 minutes and 21 seconds. This remarkable achievement marks his first win of the season, showcasing his exceptional skills and dedication. 
 
 
-        T﻿his was an excellent performance for Mark and his first win of the season.
+        Mark, who works as a full-time athlete and self-proclaimed "personal trainer" at David Lloyd (Bolton), devotes his spare time during the day to rigorous training on the Wattbike in preparation for his upcoming races. 
 
 
-        Mark is a full time athlete, or as he puts it ‘personal trainer’ at David Lloyd (Bolton). Any spare time he has during the day, he is on the Wattbike training for his next race.
+        We would like to express our sincere gratitude to our sponsors for their unwavering support;
 
 
-        Thank you to our sponsors for their continued support: [Windwave](https://www.windwave.co.uk/), [Colnago](https://www.colnago.com/) and [OTE](https://www.otesports.co.uk/).
+        [Windwave](https://www.windwave.co.uk/), [Colnago](https://www.colnago.com/) and [OTE](https://www.otesports.co.uk/).
 seo:
   title: Team ASL Win Cycle Race
   description: Team ASL Win 10 Mile Cycling Time Trial Race
