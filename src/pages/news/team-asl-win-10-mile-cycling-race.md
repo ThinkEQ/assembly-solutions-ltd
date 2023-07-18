@@ -1,13 +1,13 @@
 ---
 templateKey: news-article
 title: Team ASL Win 10 Mile Cycling Race
-date: 2023-06-25T11:20:23.611Z
+date: 2023-06-24T11:20:23.611Z
 image: /img/mark-parsons-team-asl.png
 layout:
   - type: full
     full:
       text: >-
-        26th June, 2023\
+        24th June, 2023\
 
         **A﻿SL Win 10 Mile Cycling Time Trial Race**
 
