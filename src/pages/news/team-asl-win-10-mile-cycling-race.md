@@ -21,7 +21,7 @@ layout:
         With an impressive average speed of 30 miles per hour, he maintained a commanding lead and finished with an impressive time of 20 minutes and 21 seconds. This remarkable achievement marks his first win of the season, showcasing his exceptional skills and dedication. 
 
 
-        Mark, who works as a full-time athlete and self-proclaimed "personal trainer" at David Lloyd (Bolton), devotes his spare time during the day to rigorous training on the Wattbike in preparation for his upcoming races. 
+        Mark, who is a personal trainer at David Lloyd (Bolton), devotes his spare time during the day to rigorous training on the Wattbike in preparation for his upcoming races. 
 
 
         We would like to express our sincere gratitude to our sponsors for their unwavering support;
