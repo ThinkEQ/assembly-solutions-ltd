@@ -30,9 +30,7 @@ layout:
         [Windwave](https://www.windwave.co.uk/), [Colnago](https://www.colnago.com/) and [OTE](https://www.otesports.co.uk/).
 
 
-
-
-        ![]()
+        ![mark-parsons](/img/mark-parsons-team-asl-full.png)
 seo:
   title: Team ASL Win Cycle Race
   description: Team ASL Win 10 Mile Cycling Time Trial Race
