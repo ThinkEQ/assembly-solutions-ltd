@@ -17,7 +17,7 @@ layout:
 
         \
 
-        Production is well underway at our Bolton [ASL](https://www.linkedin.com/company/asl-bolton/) factory and the guys are hard at work to fulfill the high-volume order of 800 control boxes & wiring harness assemblies.\
+        Production is well underway at our Bolton [ASL](https://www.linkedin.com/company/asl-bolton/) factory and the guys are hard at work to fulfill the high-volume order of 800 [control boxes & wiring harness assemblies](https://www.assembly-solutions.com/control-panels).\
 
         \
 
