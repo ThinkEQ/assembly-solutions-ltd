@@ -34,6 +34,12 @@ layout:
         \
 
         For anyone really interested, if look closely inside the RAC van top left, you will see our control box & wiring assembly.
+
+
+        ![control-box-rac](/img/_dsc4132.jpg)
+
+
+        ![control-box-rac](/img/_dsc4157-edit.jpg)
 seo:
   title: ASL Win New Control Box Contract for RAC Vehicles
   description: ASL Win New Control Box Contract for RAC Vehicles
