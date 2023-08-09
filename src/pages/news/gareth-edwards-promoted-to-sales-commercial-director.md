@@ -20,6 +20,9 @@ layout:
 
 
         T﻿his is a well-deserved promotion and the family of Directors are delighted to have Gareth on the Board as the company continues it's rapid growth journey.
+
+
+        ![](/img/optimized-_dsc4009-2-1.jpg)
   - type: testimonial
     testimonial:
       alignment: centre
