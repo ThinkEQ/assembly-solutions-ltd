@@ -315,13 +315,6 @@ team-members:
       for urgent projects where the customer has made technical changes to
       specifications mid-production. Dave is a valuable team player and is
       currently supporting our Apprentices with in-house technical training.
-  - name: Steven Beales
-    jobtitle: Packing & Despatch Operator
-    interests:
-      - football
-      - formula1
-    image: /img/steven-beales.jpg
-    bio: C﻿oming soon.
   - name: Sam Croston
     jobtitle: HR Support
     interests:
