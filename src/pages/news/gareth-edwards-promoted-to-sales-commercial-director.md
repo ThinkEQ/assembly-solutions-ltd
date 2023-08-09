@@ -2,7 +2,7 @@
 templateKey: news-article
 title: Gareth Edwards Promoted to Sales & Commercial Director
 date: 2023-04-26T09:15:33.188Z
-image: /img/gareth-edwards-promotion.jpg
+image: /img/optimized-_dsc4009-2-1.jpg
 layout:
   - type: full
     full:
