@@ -47,7 +47,7 @@ team-members:
     image: /img/sophie-balshaw-team.jpg
     linkedin: https://www.linkedin.com/in/sophie-balshaw/
   - name: Oliver Balshaw MCIPS
-    jobtitle: Purchasing Director
+    jobtitle: Operations Director
     bio: Oliver is our technically knowledgeable Purchasing Director who manages and
       oversees our Supply Chain. He is qualified in CIPS (Chartered Institute of
       Procurement & Supply) and has over 10 years experience in production
@@ -156,7 +156,7 @@ team-members:
       her spare time Susan enjoys travelling and has practised yoga for 33
       years!
   - name: John Waterworth
-    jobtitle: Customer Account Manager
+    jobtitle: Sales Manager
     bio: John has worked in the electrical industry for 40 years and is extremely
       knowledgeable on cable assemblies and components. With his wealth of
       expertise after having his own electrical component distributer, we were
@@ -211,7 +211,7 @@ team-members:
       - knitting
     linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
   - name: Adam Tunnah
-    jobtitle: Costing Analyst
+    jobtitle: Costing Supervisor
     bio: Adam is our bright and skilful Costing Engineer who has expertise in
       driving down product costs to secure new and existing business. With a
       close attention to detail, Adam is excellent at producing cost-effective
@@ -254,7 +254,7 @@ team-members:
       cooking up his signature Indian dish "Chicken Tikka Dopiza"!
     image: /img/aaron-hesketh.jpg
   - name: Simon Blezard
-    jobtitle: Production Supervisor
+    jobtitle: Cell Leader
     interests:
       - formula1
       - football
@@ -315,13 +315,6 @@ team-members:
       for urgent projects where the customer has made technical changes to
       specifications mid-production. Dave is a valuable team player and is
       currently supporting our Apprentices with in-house technical training.
-  - name: Sam Croston
-    jobtitle: HR Support
-    interests:
-      - formula1
-      - football
-    image: /img/sam-croston-team.jpg
-    bio: Coming soon..
   - name: Amanda Carey
     jobtitle: Production Supervisor
     interests:
