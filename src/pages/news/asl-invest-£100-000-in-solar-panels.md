@@ -7,9 +7,12 @@ layout:
   - type: full
     full:
       text: >-
-        We have successfully implemented a comprehensive initiative to enhance
-        our sustainability profile, involving the installation of 250 solar
-        panels on our premises.
+        1st September, 2023\
+
+        **ASL Invest £100,000 in Solar Panels**
+
+
+        We have successfully implemented a comprehensive initiative to enhance our sustainability profile, involving the installation of 250 solar panels on our premises.
 
 
         A meticulous financial analysis revealed anticipated annual savings exceeding £25,000, with a projected full return on investment within a commendable 3-year timeframe.
