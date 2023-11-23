@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: ASL Invest £100,000 in Solar Panels
-date: 2023-11-23T15:20:49.642Z
+date: 2023-09-01T14:20:49.642Z
 image: /img/asl-solar-panels.jpg
 layout:
   - type: full
