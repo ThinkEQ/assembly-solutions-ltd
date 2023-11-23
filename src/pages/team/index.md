@@ -15,7 +15,7 @@ team-members:
       - cycling
       - golf
     name: Graham Balshaw BSc
-    jobtitle: Founder & Chairman
+    jobtitle: Founder
     image: /img/team1-1-.png
   - name: Gareth Balshaw
     jobtitle: Managing Director
