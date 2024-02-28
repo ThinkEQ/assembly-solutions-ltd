@@ -188,20 +188,6 @@ team-members:
     bio: C﻿oming soon..
     interests:
       - hiking
-  - name: Gary Scowcroft
-    jobtitle: Engineering Manager
-    bio: Gary has an impressive 40 years of experience in the Electronics & Cable
-      Assembly Industry. Since he joined us in 2017, his phenomenal wealth of
-      knowledge has transformed the way we win new business by working with
-      customers and supporting them with project design development. He ensures
-      that the transition from engineering out to production runs absolutely
-      seamless and that we have built a solid relationship with the customer.
-      Gary is a devoted grandfather and enjoys hiking and rock climbing - he
-      also loves a bit of rock music!
-    image: /img/gary-scowcroft.jpg
-    interests:
-      - hiking
-      - climbing-wall
   - name: Michele Barnes
     jobtitle: Sales Administrator
     bio: Michele is our bright & bubbly Sales Administrator and is the fastest
@@ -216,6 +202,20 @@ team-members:
       - reading
       - knitting
     linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
+  - name: Gary Scowcroft
+    jobtitle: Engineering Manager
+    bio: Gary has an impressive 40 years of experience in the Electronics & Cable
+      Assembly Industry. Since he joined us in 2017, his phenomenal wealth of
+      knowledge has transformed the way we win new business by working with
+      customers and supporting them with project design development. He ensures
+      that the transition from engineering out to production runs absolutely
+      seamless and that we have built a solid relationship with the customer.
+      Gary is a devoted grandfather and enjoys hiking and rock climbing - he
+      also loves a bit of rock music!
+    image: /img/gary-scowcroft.jpg
+    interests:
+      - hiking
+      - climbing-wall
   - name: Adam Tunnah
     jobtitle: Costing Supervisor
     bio: Adam is our bright and skilful Costing Engineer who has expertise in
