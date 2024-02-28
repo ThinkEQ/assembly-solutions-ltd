@@ -322,6 +322,12 @@ team-members:
       - hiking
     image: /img/amanda-carey.jpg
     bio: C﻿oming soon.
+  - name: Carly Chan
+    jobtitle: Customer Account Manager
+    image: /img/carly-chan.jpg
+    bio: C﻿oming soon..
+    interests:
+      - hiking
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
