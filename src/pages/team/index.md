@@ -211,7 +211,7 @@ team-members:
       customer orders and dealing with customer queries. Michele is a big lover
       of cake & gin, and enjoys spending spare time with her gorgeous
       Grand-daughter Emily.
-    image: /img/team11-1-.png
+    image: /img/michele-barnes.jpg
     interests:
       - reading
       - knitting
