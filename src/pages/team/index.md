@@ -346,6 +346,12 @@ team-members:
     bio: C﻿oming soon..
     interests:
       - football
+  - name: Joao Paulino Jorge
+    jobtitle: Team Leader
+    interests:
+      - football
+    image: /img/joao-paulino.jpg
+    bio: C﻿oming soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
