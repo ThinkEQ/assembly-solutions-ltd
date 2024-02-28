@@ -131,7 +131,7 @@ team-members:
     bio: C﻿oming soon.
     image: /img/eric-briggs.jpg
   - name: Susan Gaskell
-    jobtitle: Purchasing & Planning Manager
+    jobtitle: Purchasing Manager
     interests:
       - cooking
       - hiking
