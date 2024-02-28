@@ -385,6 +385,18 @@ team-members:
       - football
     bio: C﻿oming soon..
     image: /img/andrejus-tkacenko.jpg
+  - name: Steven Beales
+    jobtitle: Packing & Despatch Operator
+    interests:
+      - football
+    bio: C﻿oming soon..
+    image: /img/steven-beales.jpg
+  - name: Julie Cocker
+    jobtitle: Quality Inspector
+    interests:
+      - gardening
+    image: /img/julie-cocker.jpg
+    bio: C﻿oming soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
