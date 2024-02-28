@@ -123,19 +123,6 @@ team-members:
       Aubrey enjoys his sporting passion of Motorsport - in particular Rallying,
       and he also likes to attend charity events to support many worthwhile
       causes.
-  - name: Amanda Freeman
-    jobtitle: Accounts Manager
-    bio: >-
-      Amanda is a qualified and committed Accounts professional who has been a
-      valuable member of our team since she joined 10 years ago. With a wealth
-      of knowledge and experience in Accounting, Amanda is responsible for all
-      financial transactions and reporting on monthly P & L's.
-
-      When Amanda isn't focusing on finance, she enjoys gardening and decorating her beautiful home!
-    image: /img/amanda-freeman.jpg
-    interests:
-      - decorating
-      - gardening
   - name: Eric Briggs
     jobtitle: Quality & H&S Manager
     interests:
@@ -155,6 +142,19 @@ team-members:
       pricing, quality and delivery schedules are commercially acceptable. In
       her spare time Susan enjoys travelling and has practised yoga for 33
       years!
+  - name: Amanda Freeman
+    jobtitle: Accounts Manager
+    bio: >-
+      Amanda is a qualified and committed Accounts professional who has been a
+      valuable member of our team since she joined 10 years ago. With a wealth
+      of knowledge and experience in Accounting, Amanda is responsible for all
+      financial transactions and reporting on monthly P & L's.
+
+      When Amanda isn't focusing on finance, she enjoys gardening and decorating her beautiful home!
+    image: /img/amanda-freeman.jpg
+    interests:
+      - decorating
+      - gardening
   - name: John Waterworth
     jobtitle: Sales Manager
     bio: John has worked in the electrical industry for 40 years and is extremely
