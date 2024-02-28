@@ -367,6 +367,12 @@ team-members:
     interests:
       - football
     bio: C﻿oming soon..
+  - name: Alex Waterworth
+    jobtitle: Apprentice Technical Engineer
+    image: /img/alex-waterworth.jpg
+    interests:
+      - football
+    bio: C﻿oming soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
