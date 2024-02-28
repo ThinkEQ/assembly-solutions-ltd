@@ -328,6 +328,12 @@ team-members:
     bio: C﻿oming soon..
     interests:
       - hiking
+  - name: Danirose Gause
+    jobtitle: Team Leader
+    image: /img/danirose-gause.jpg
+    bio: C﻿oming soon..
+    interests:
+      - hiking
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
