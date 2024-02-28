@@ -340,6 +340,12 @@ team-members:
       - football
     image: /img/adam-walsh.jpg
     bio: C﻿oming soon..
+  - name: Joao Pina Jorge
+    jobtitle: Production Supervisor
+    image: /img/joao-pina.jpg
+    bio: C﻿oming soon..
+    interests:
+      - football
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
