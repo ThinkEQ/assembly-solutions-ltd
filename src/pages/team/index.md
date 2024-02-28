@@ -348,6 +348,12 @@ team-members:
       - hiking
     bio: C﻿oming soon..
     image: /img/mel-rovetto.jpg
+  - name: Daryl Hampson
+    jobtitle: Team Leader
+    image: /img/daryl-hampson.jpg
+    interests:
+      - football
+    bio: C﻿oming soon..
   - name: Dave Herbert
     jobtitle: Team Leader
     interests:
@@ -361,12 +367,6 @@ team-members:
       - football
     image: /img/simon-blezard.jpg
     bio: C﻿oming soon.
-  - name: Daryl Hampson
-    jobtitle: Team Leader
-    image: /img/daryl-hampson.jpg
-    interests:
-      - football
-    bio: C﻿oming soon..
   - name: Alex Waterworth
     jobtitle: Technical Apprentice
     image: /img/alex-waterworth.jpg
