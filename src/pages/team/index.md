@@ -352,6 +352,12 @@ team-members:
       - football
     image: /img/joao-paulino.jpg
     bio: C﻿oming soon..
+  - name: Petronela Bordeianu
+    jobtitle: Team Leader
+    interests:
+      - hiking
+    image: /img/petronela-bordeianu.jpg
+    bio: C﻿oming soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
