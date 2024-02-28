@@ -397,6 +397,12 @@ team-members:
       - gardening
     image: /img/julie-cocker.jpg
     bio: C﻿oming soon..
+  - name: Chris Bond
+    jobtitle: Team Leader
+    interests:
+      - football
+    image: /img/chris-bond.jpg
+    bio: C﻿oming soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
