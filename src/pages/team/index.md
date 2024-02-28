@@ -339,7 +339,7 @@ team-members:
     interests:
       - football
     image: /img/adam-walsh.jpg
-    bio: C﻿omig soon..
+    bio: C﻿oming soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
