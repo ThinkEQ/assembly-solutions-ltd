@@ -313,7 +313,7 @@ team-members:
     interests:
       - formula1
       - football
-    image: /img/team-dave-webster.jpg
+    image: /img/dave-webster.jpg
     bio: Dave is a loyal and committed team member who has served over 10 Years at
       ASL. He is our technical wizard and is the man for the job when it comes
       to CAD drawings for wiring harnesses. His attention to detail, draughting
