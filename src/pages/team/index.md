@@ -334,6 +334,12 @@ team-members:
     bio: C﻿oming soon..
     interests:
       - hiking
+  - name: Adam Walsh
+    jobtitle: Junior Production Engineer
+    interests:
+      - football
+    image: /img/adam-walsh.jpg
+    bio: C﻿omig soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
