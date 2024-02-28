@@ -130,18 +130,6 @@ team-members:
       - formula1
     bio: C﻿oming soon.
     image: /img/eric-briggs.jpg
-  - name: Susan Gaskell
-    jobtitle: Purchasing Manager
-    interests:
-      - cooking
-      - hiking
-    image: /img/susan-gaskell.jpg
-    bio: Susan is our Purchasing & Planning Manager, overseeing all the supply chain
-      and managing the production planning.  With over 10 years of experience in
-      purchasing, Susan excels in managing our supply chain ensuring that
-      pricing, quality and delivery schedules are commercially acceptable. In
-      her spare time Susan enjoys travelling and has practised yoga for 33
-      years!
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
@@ -155,6 +143,18 @@ team-members:
     interests:
       - decorating
       - gardening
+  - name: Susan Gaskell
+    jobtitle: Purchasing Manager
+    interests:
+      - cooking
+      - hiking
+    image: /img/susan-gaskell.jpg
+    bio: Susan is our Purchasing & Planning Manager, overseeing all the supply chain
+      and managing the production planning.  With over 10 years of experience in
+      purchasing, Susan excels in managing our supply chain ensuring that
+      pricing, quality and delivery schedules are commercially acceptable. In
+      her spare time Susan enjoys travelling and has practised yoga for 33
+      years!
   - name: John Waterworth
     jobtitle: Sales Manager
     bio: John has worked in the electrical industry for 40 years and is extremely
