@@ -90,7 +90,7 @@ team-members:
   - name: Rob Parkinson
     jobtitle: Production Manager
     bio: Rob is a remarkable and incredibly loyal member of our team as he has
-      served 19 years and holds the outstanding record of 100% attendance for 18
+      served 20 years and holds the outstanding record of 100% attendance for 20
       years! Since joining in 2003 as a production operator, Rob has been
       fiercely committed to improving our operations by lean manufacturing and
       project managing machinery investments. Rob also oversees our engineering
