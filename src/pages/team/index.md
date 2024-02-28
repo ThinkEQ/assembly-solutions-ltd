@@ -107,7 +107,7 @@ team-members:
     interests:
       - formula1
       - hiking
-    image: /img/aubrey-oldham-team.jpg
+    image: /img/aubrey-oldham.jpg
     bio: Aubrey is our recently promoted Production Supervisor who brings a valuable
       wealth of knowledge and experience to the team with his phenomenal 40
       years in the electronics industry. His role covers supervising 15 cable
