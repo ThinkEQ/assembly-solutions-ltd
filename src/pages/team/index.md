@@ -230,21 +230,6 @@ team-members:
       - football
       - xbox
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
-  - name: Tony Lundy
-    jobtitle: Health & Safety Advisor
-    bio: Tony is a Chartered Manager, OSHCR registered health & safety professional
-      and ISO management consultant. He served his time as a production fitter
-      at Ferranti Engineering before moving into a production machinery
-      maintenance role at BTR Fatati. Tony moved into senior management roles
-      and eventually became the HSQE Director for his family construction and
-      manufacturing business. He has vast experience in strategic management and
-      leadership as well as workplace safety and engagement. Tony is a keen
-      walker, qualified mountain leader and enjoys adventures with his 6
-      grandchildren!
-    interests:
-      - hiking
-    image: /img/tony-lundy.jpg
-    linkedin: https://www.linkedin.com/in/tony-lundy-cmgr-rsp-fiirsm-tech-iosh-pcqi-fcmi-miiai-finstlm-23269216/
   - name: Aaron Hesketh
     jobtitle: Production Supervisor
     interests:
