@@ -283,7 +283,7 @@ team-members:
     interests:
       - formula1
       - football
-    image: /img/team-kane-mellett.jpg
+    image: /img/kane-mellett.jpg
     bio: Kane has just recently achieved 10 Years Service at ASL. He joined in 2012
       through our recruitment agency as a Production Operator and very soon
       showed his skills and enthusiasm to work in the Quality department. Kane
@@ -360,6 +360,12 @@ team-members:
     interests:
       - cooking
     image: /img/dave-herbert.jpg
+    bio: C﻿oming soon..
+  - name: Daryl Hampson
+    jobtitle: Team Leader
+    image: /img/daryl-hampson.jpg
+    interests:
+      - football
     bio: C﻿oming soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
