@@ -279,7 +279,7 @@ team-members:
       Formula 1 fanatic and  enjoys supporting the NY Yankees and Liverpool FC!
     image: /img/kevin-westfield.jpg
   - name: Kane Mellett
-    jobtitle: Quality Supervisor
+    jobtitle: Senior Quality Inspector
     interests:
       - formula1
       - football
