@@ -330,6 +330,18 @@ team-members:
       - football
     image: /img/adam-walsh.jpg
     bio: C﻿oming soon..
+  - name: Mel Rovetto
+    jobtitle: Team Leader
+    interests:
+      - hiking
+    bio: C﻿oming soon..
+    image: /img/mel-rovetto.jpg
+  - name: Candela Rovetto
+    jobtitle: Team Leader
+    image: /img/candela-rovetto.jpg
+    bio: C﻿oming soon..
+    interests:
+      - hiking
   - name: Joao Pina Jorge
     jobtitle: Production Supervisor
     image: /img/joao-pina.jpg
@@ -348,18 +360,6 @@ team-members:
       - hiking
     image: /img/petronela-bordeianu.jpg
     bio: C﻿oming soon..
-  - name: Candela Rovetto
-    jobtitle: Team Leader
-    image: /img/candela-rovetto.jpg
-    bio: C﻿oming soon..
-    interests:
-      - hiking
-  - name: Mel Rovetto
-    jobtitle: Team Leader
-    interests:
-      - hiking
-    bio: C﻿oming soon..
-    image: /img/mel-rovetto.jpg
   - name: Daryl Hampson
     jobtitle: Team Leader
     image: /img/daryl-hampson.jpg
