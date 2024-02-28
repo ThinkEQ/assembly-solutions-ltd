@@ -373,6 +373,12 @@ team-members:
     interests:
       - football
     bio: C﻿oming soon..
+  - name: Darlinton Ezeogu
+    jobtitle: Technical Support Engineer
+    image: /img/darlinton-ezeogu.jpg
+    interests:
+      - reading
+    bio: C﻿oming soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
