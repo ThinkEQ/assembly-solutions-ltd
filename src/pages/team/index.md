@@ -361,7 +361,7 @@ team-members:
     image: /img/dave-herbert.jpg
     bio: C﻿oming soon..
   - name: Simon Blezard
-    jobtitle: Cell Leader
+    jobtitle: Team Leader
     interests:
       - formula1
       - football
