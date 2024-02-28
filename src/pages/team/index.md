@@ -132,7 +132,7 @@ team-members:
       financial transactions and reporting on monthly P & L's.
 
       When Amanda isn't focusing on finance, she enjoys gardening and decorating her beautiful home!
-    image: /img/team8-1-.png
+    image: /img/amanda-freeman.jpg
     interests:
       - decorating
       - gardening
@@ -358,6 +358,12 @@ team-members:
       - hiking
     image: /img/petronela-bordeianu.jpg
     bio: C﻿oming soon..
+  - name: Candela Rovetto
+    jobtitle: Team Leader
+    image: /img/candela-rovetto.jpg
+    bio: C﻿oming soon..
+    interests:
+      - hiking
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
