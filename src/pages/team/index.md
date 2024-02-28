@@ -286,6 +286,18 @@ team-members:
       computer programming wizard and in his spare time enjoys Home DIY and
       cooking up his signature Indian dish "Chicken Tikka Dopiza"!
     image: /img/aaron-hesketh.jpg
+  - name: Julie Cocker
+    jobtitle: Quality Inspector
+    interests:
+      - gardening
+    image: /img/julie-cocker.jpg
+    bio: C﻿oming soon..
+  - name: Andrejus Tkacenko
+    jobtitle: Junior Quality Inspector
+    interests:
+      - football
+    bio: C﻿oming soon..
+    image: /img/andrejus-tkacenko.jpg
   - name: Dave Webster
     jobtitle: Technical Engineer
     interests:
@@ -379,30 +391,18 @@ team-members:
     interests:
       - reading
     bio: C﻿oming soon..
-  - name: Andrejus Tkacenko
-    jobtitle: Junior Quality Inspector
-    interests:
-      - football
-    bio: C﻿oming soon..
-    image: /img/andrejus-tkacenko.jpg
-  - name: Steven Beales
-    jobtitle: Packing & Despatch Operator
-    interests:
-      - football
-    bio: C﻿oming soon..
-    image: /img/steven-beales.jpg
-  - name: Julie Cocker
-    jobtitle: Quality Inspector
-    interests:
-      - gardening
-    image: /img/julie-cocker.jpg
-    bio: C﻿oming soon..
   - name: Chris Bond
     jobtitle: Team Leader
     interests:
       - football
     image: /img/chris-bond.jpg
     bio: C﻿oming soon..
+  - name: Steven Beales
+    jobtitle: Packing & Despatch Operator
+    interests:
+      - football
+    bio: C﻿oming soon..
+    image: /img/steven-beales.jpg
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
