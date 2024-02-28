@@ -379,6 +379,12 @@ team-members:
     interests:
       - reading
     bio: C﻿oming soon..
+  - name: Andrejus Tkacenko
+    jobtitle: Junior Quality Inspector
+    interests:
+      - football
+    bio: C﻿oming soon..
+    image: /img/andrejus-tkacenko.jpg
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
