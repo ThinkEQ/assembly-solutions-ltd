@@ -102,6 +102,13 @@ team-members:
       - formula1
       - football
     linkedin: https://www.linkedin.com/in/robert-parkinson-43007b10b/
+  - name: Phil Beales
+    jobtitle: Production Manager
+    interests:
+      - football
+      - formula1
+    image: /img/phil-beales.jpg
+    bio: C﻿oming soon.
   - name: Aubrey Oldham
     jobtitle: Production Manager
     interests:
@@ -116,13 +123,6 @@ team-members:
       Aubrey enjoys his sporting passion of Motorsport - in particular Rallying,
       and he also likes to attend charity events to support many worthwhile
       causes.
-  - name: Phil Beales
-    jobtitle: Production Manager
-    interests:
-      - football
-      - formula1
-    image: /img/phil-beales.jpg
-    bio: C﻿oming soon.
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
@@ -225,7 +225,7 @@ team-members:
       understanding of production batch cards. Adam has hugely contributed
       towards winning new contracts and retaining existing customers. He is a
       passionate Tottenham Hotspur fan and a competitive Xbox gamer!
-    image: /img/adam-tunnah-team.jpg
+    image: /img/adam-tunnah.jpg
     interests:
       - football
       - xbox
