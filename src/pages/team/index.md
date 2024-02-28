@@ -44,7 +44,7 @@ team-members:
     interests:
       - surfing
       - skiing
-    image: /img/sophie-balshaw-team.jpg
+    image: /img/sophie-balshaw.jpg
     linkedin: https://www.linkedin.com/in/sophie-balshaw/
   - name: Oliver Balshaw MCIPS
     jobtitle: Operations Director
