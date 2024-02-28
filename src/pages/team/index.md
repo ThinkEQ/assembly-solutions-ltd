@@ -97,7 +97,7 @@ team-members:
       department and is responsible for all machinery services and tooling
       calibrations. Rob is an F1 fanatic and a proud father to daughter Daisy
       who is signed with Manchester United U11's Girls Football Club!
-    image: /img/team6-1-.png
+    image: /img/rob-parkinson.jpg
     interests:
       - formula1
       - football
