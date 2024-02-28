@@ -182,6 +182,12 @@ team-members:
       and on to become somebody’s Guide Dog! Adam is also a Liverpool fan and
       loves nothing more than a pint in the pub!
     linkedin: https://www.linkedin.com/in/adam-saoudi-8459a2106/
+  - name: Carly Chan
+    jobtitle: Customer Account Manager
+    image: /img/carly-chan.jpg
+    bio: C﻿oming soon..
+    interests:
+      - hiking
   - name: Gary Scowcroft
     jobtitle: Engineering Manager
     bio: Gary has an impressive 40 years of experience in the Electronics & Cable
@@ -322,12 +328,6 @@ team-members:
       - hiking
     image: /img/amanda-carey.jpg
     bio: C﻿oming soon.
-  - name: Carly Chan
-    jobtitle: Customer Account Manager
-    image: /img/carly-chan.jpg
-    bio: C﻿oming soon..
-    interests:
-      - hiking
   - name: Danirose Gause
     jobtitle: Team Leader
     image: /img/danirose-gause.jpg
