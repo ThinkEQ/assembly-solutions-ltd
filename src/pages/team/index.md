@@ -230,27 +230,6 @@ team-members:
       - football
       - xbox
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
-  - name: Aaron Hesketh
-    jobtitle: Quality Engineer
-    interests:
-      - cooking
-      - decorating
-    bio: Aaron is a reliable and experienced Production Supervisor with tremendous
-      technical knowledge in electrical assembly manufacture and more
-      specifically IPC Standards. He is a true team player who supervises our
-      wire preparation and cable assembly production areas. He has served an
-      incredible 10 years with the company and has proved excellent leadership
-      skills which have been invaluable for the companies growth. Aaron is a
-      computer programming wizard and in his spare time enjoys Home DIY and
-      cooking up his signature Indian dish "Chicken Tikka Dopiza"!
-    image: /img/aaron-hesketh.jpg
-  - name: Simon Blezard
-    jobtitle: Cell Leader
-    interests:
-      - formula1
-      - football
-    image: /img/simon-blezard.jpg
-    bio: C﻿oming soon.
   - name: Gareth Jones
     jobtitle: Machinery Supervisor
     linkedin: https://www.linkedin.com/in/gareth-jones-5167201b8/
@@ -293,6 +272,20 @@ team-members:
       abilities and experience to step up to the role of Quality Supervisor for
       all wiring harness and control panel projects. Kane enjoys fishing,
       walking and playing darts.
+  - name: Aaron Hesketh
+    jobtitle: Quality Engineer
+    interests:
+      - cooking
+      - decorating
+    bio: Aaron is a reliable and experienced Production Supervisor with tremendous
+      technical knowledge in electrical assembly manufacture and more
+      specifically IPC Standards. He is a true team player who supervises our
+      wire preparation and cable assembly production areas. He has served an
+      incredible 10 years with the company and has proved excellent leadership
+      skills which have been invaluable for the companies growth. Aaron is a
+      computer programming wizard and in his spare time enjoys Home DIY and
+      cooking up his signature Indian dish "Chicken Tikka Dopiza"!
+    image: /img/aaron-hesketh.jpg
   - name: Dave Webster
     jobtitle: Technical Engineer
     interests:
@@ -361,6 +354,13 @@ team-members:
       - cooking
     image: /img/dave-herbert.jpg
     bio: C﻿oming soon..
+  - name: Simon Blezard
+    jobtitle: Cell Leader
+    interests:
+      - formula1
+      - football
+    image: /img/simon-blezard.jpg
+    bio: C﻿oming soon.
   - name: Daryl Hampson
     jobtitle: Team Leader
     image: /img/daryl-hampson.jpg
