@@ -368,7 +368,7 @@ team-members:
       - football
     bio: C﻿oming soon..
   - name: Alex Waterworth
-    jobtitle: Apprentice Technical Engineer
+    jobtitle: Technical Apprentice
     image: /img/alex-waterworth.jpg
     interests:
       - football
