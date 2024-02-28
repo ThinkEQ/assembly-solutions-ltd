@@ -349,6 +349,18 @@ team-members:
     bio: C﻿oming soon..
     interests:
       - hiking
+  - name: Mel Rovetto
+    jobtitle: Team Leader
+    interests:
+      - hiking
+    bio: C﻿oming soon..
+    image: /img/mel-rovetto.jpg
+  - name: Dave Herbert
+    jobtitle: Team Leader
+    interests:
+      - cooking
+    image: /img/dave-herbert.jpg
+    bio: C﻿oming soon..
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
