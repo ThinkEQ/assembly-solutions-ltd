@@ -318,9 +318,21 @@ team-members:
       - hiking
     image: /img/amanda-carey.jpg
     bio: C﻿oming soon.
+  - name: Mel Rovetto
+    jobtitle: Production Supervisor
+    interests:
+      - hiking
+    bio: C﻿oming soon..
+    image: /img/mel-rovetto.jpg
   - name: Danirose Gause
     jobtitle: Team Leader
     image: /img/danirose-gause.jpg
+    bio: C﻿oming soon..
+    interests:
+      - hiking
+  - name: Candela Rovetto
+    jobtitle: Team Leader
+    image: /img/candela-rovetto.jpg
     bio: C﻿oming soon..
     interests:
       - hiking
@@ -330,18 +342,6 @@ team-members:
       - football
     image: /img/adam-walsh.jpg
     bio: C﻿oming soon..
-  - name: Mel Rovetto
-    jobtitle: Production Supervisor
-    interests:
-      - hiking
-    bio: C﻿oming soon..
-    image: /img/mel-rovetto.jpg
-  - name: Candela Rovetto
-    jobtitle: Team Leader
-    image: /img/candela-rovetto.jpg
-    bio: C﻿oming soon..
-    interests:
-      - hiking
   - name: Joao Pina Jorge
     jobtitle: Production Supervisor
     image: /img/joao-pina.jpg
