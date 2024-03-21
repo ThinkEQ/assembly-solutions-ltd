@@ -331,7 +331,7 @@ team-members:
     image: /img/adam-walsh.jpg
     bio: C﻿oming soon..
   - name: Mel Rovetto
-    jobtitle: Team Leader
+    jobtitle: Production Supervisor
     interests:
       - hiking
     bio: C﻿oming soon..
