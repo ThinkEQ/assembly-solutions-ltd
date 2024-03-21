@@ -272,6 +272,12 @@ team-members:
       abilities and experience to step up to the role of Quality Supervisor for
       all wiring harness and control panel projects. Kane enjoys fishing,
       walking and playing darts.
+  - name: Julie Cocker
+    jobtitle: Senior Quality Inspector
+    interests:
+      - gardening
+    image: /img/julie-cocker.jpg
+    bio: C﻿oming soon..
   - name: Aaron Hesketh
     jobtitle: Quality Engineer
     interests:
@@ -286,12 +292,6 @@ team-members:
       computer programming wizard and in his spare time enjoys Home DIY and
       cooking up his signature Indian dish "Chicken Tikka Dopiza"!
     image: /img/aaron-hesketh.jpg
-  - name: Julie Cocker
-    jobtitle: Quality Inspector
-    interests:
-      - gardening
-    image: /img/julie-cocker.jpg
-    bio: C﻿oming soon..
   - name: Andrejus Tkacenko
     jobtitle: Junior Quality Inspector
     interests:
