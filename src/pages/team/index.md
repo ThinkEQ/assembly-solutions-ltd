@@ -54,7 +54,7 @@ team-members:
       manufacturing. His skills have recently been utilised to support our
       production team with project management for urgent customer orders. Oliver
       is an F1 fanatic and an awesome snowboarder!
-    image: /img/team4-2-.png
+    image: /img/oliver-balshaw.jpg
     interests:
       - formula1
       - snowboarding
@@ -245,18 +245,6 @@ team-members:
       - cycling
       - decorating
     image: /img/gareth-jones.jpg
-  - name: Kevin Westfield
-    jobtitle: Stores Supervisor
-    linkedin: https://www.linkedin.com/in/kevin-westfield-bb144bba/
-    interests:
-      - formula1
-      - football
-    bio: Kevin is our cheerful Stores Supervisor who has the responsible role of
-      controlling all goods that enter and leave the factory. With many years of
-      stores experience, Kev is an efficient and valuable member of the team and
-      always leaves us smiling with his favourite words "Happy Days!" Kev is a
-      Formula 1 fanatic and  enjoys supporting the NY Yankees and Liverpool FC!
-    image: /img/kevin-westfield.jpg
   - name: Kane Mellett
     jobtitle: Senior Quality Inspector
     interests:
@@ -397,12 +385,25 @@ team-members:
       - football
     image: /img/chris-bond.jpg
     bio: C﻿oming soon..
-  - name: Steven Beales
-    jobtitle: Packing & Despatch Operator
+  - name: Kevin Westfield
+    jobtitle: Stores Supervisor
+    linkedin: https://www.linkedin.com/in/kevin-westfield-bb144bba/
+    interests:
+      - formula1
+      - football
+    bio: Kevin is our cheerful Stores Supervisor who has the responsible role of
+      controlling all goods that enter and leave the factory. With many years of
+      stores experience, Kev is an efficient and valuable member of the team and
+      always leaves us smiling with his favourite words "Happy Days!" Kev is a
+      Formula 1 fanatic and  enjoys supporting the NY Yankees and Liverpool FC!
+    image: /img/kevin-westfield.jpg
+  - name: Jason Shepherd
+    jobtitle: Stock Controller
     interests:
       - football
-    bio: C﻿oming soon..
-    image: /img/steven-beales.jpg
+      - formula1
+    image: /img/jason-shepherd.jpg
+    bio: C﻿oming soon.
   - name: Cameron Beales
     jobtitle: Junior Stock Controller
     interests:
@@ -410,6 +411,12 @@ team-members:
       - football
     image: /img/cameron-beales.jpg
     bio: C﻿oming soon.
+  - name: Steven Beales
+    jobtitle: Packing & Despatch Operator
+    interests:
+      - football
+    bio: C﻿oming soon..
+    image: /img/steven-beales.jpg
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
