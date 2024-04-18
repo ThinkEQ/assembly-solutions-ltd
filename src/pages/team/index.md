@@ -403,6 +403,13 @@ team-members:
       - football
     bio: C﻿oming soon..
     image: /img/steven-beales.jpg
+  - name: Cameron Beales
+    jobtitle: Junior Stock Controller
+    interests:
+      - formula1
+      - football
+    image: /img/cameron-beales.jpg
+    bio: C﻿oming soon.
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
