@@ -386,7 +386,7 @@ team-members:
     image: /img/chris-bond.jpg
     bio: C﻿oming soon..
   - name: Kevin Westfield
-    jobtitle: Stores Supervisor
+    jobtitle: Stock Controller
     linkedin: https://www.linkedin.com/in/kevin-westfield-bb144bba/
     interests:
       - formula1
@@ -412,7 +412,7 @@ team-members:
     image: /img/cameron-beales.jpg
     bio: C﻿oming soon.
   - name: Steven Beales
-    jobtitle: Packing & Despatch Operator
+    jobtitle: Junior Stock Controller
     interests:
       - football
     bio: C﻿oming soon..
