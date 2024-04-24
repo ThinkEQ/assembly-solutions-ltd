@@ -7,6 +7,8 @@ layout:
   - type: full
     full:
       text: >-
+        
+
         10th January, 2024\
 
         **ASL Invest £100,000 in New Stock System**
@@ -85,6 +87,9 @@ layout:
 
 
         We remain committed to delivering high-quality products with increased efficiency, setting a new standard in [cable assembly manufacturing](https://www.assembly-solutions.com/cable-assembly).
+
+
+        ![old-stock-system](/img/old-stock-system.png "old-stock-system")
 seo:
   title: Bolton Cable Assembly Manufacturer Enhances Efficiency with £100,000
     Stocking System Upgrade
