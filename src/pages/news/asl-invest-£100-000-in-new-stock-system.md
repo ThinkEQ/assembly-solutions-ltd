@@ -7,17 +7,12 @@ layout:
   - type: full
     full:
       text: >-
-        
-
         10th January, 2024\
 
         **ASL Invest £100,000 in New Stock System**
 
 
-        ### Bolton Cable Assembly Manufacturer Enhances Efficiency with £100,000 Stocking System Upgrade
-
-
-        In a move set to revolutionize our operations, we have just made a significant investment of £100,000 in a cutting-edge stocking system. This bold step marks a departure from their traditional method, signaling a commitment to enhanced efficiency and precision in our manufacturing processes.
+        In a move set to revolutionize our operations, we have made a significant investment of £100,000 in a cutting-edge stocking system. This bold step marks a departure from their traditional method, signaling a commitment to enhanced efficiency and precision in our manufacturing processes.
 
 
         Since ASL was founded almost 30 years ago, the company had relied on an older stocking system, where components were arranged on shelves according to part numbers. While this system had its merits, such as being cost-effective and relatively easy to navigate, it posed challenges in scalability and time efficiency.
