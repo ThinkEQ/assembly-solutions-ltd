@@ -12,7 +12,7 @@ layout:
         **ASL Invest £100,000 in New Stock System**
 
 
-        In a move set to revolutionize our operations, we have made a significant investment of £100,000 in a cutting-edge stocking system. This bold step marks a departure from our old fashioned labelled brown boxes, to a modern and more efficient electronic QR Code system.
+        In a move set to revolutionize our operations, we have made a significant investment of £100,000 in a cutting-edge stocking system. This bold step marks a departure from our old fashioned labelled brown boxes, to a modern and more efficient electronic QR Code stocking system.
 
 
         Since ASL was founded almost 30 years ago, the company had relied on an older stocking system, where components were arranged on shelves according to part numbers. While this system had its merits, such as being cost-effective and relatively easy to navigate, it posed challenges in scalability and time efficiency.
