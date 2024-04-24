@@ -85,6 +85,9 @@ layout:
 
 
         ![old-stock-system](/img/old-stock-system.png "old-stock-system")
+
+
+        ![oliver-stock-system](/img/oliver-stock-system.jpg "oliver-stock-system")
 seo:
   title: Bolton Cable Assembly Manufacturer Enhances Efficiency with £100,000
     Stocking System Upgrade
