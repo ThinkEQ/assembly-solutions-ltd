@@ -12,7 +12,7 @@ layout:
         **ASL Invest £100,000 in New Stock System**
 
 
-        In a move set to revolutionize our operations, we have made a significant investment of £100,000 in a cutting-edge stocking system. This bold step marks a departure from their traditional method, signaling a commitment to enhanced efficiency and precision in our manufacturing processes.
+        In a move set to revolutionize our operations, we have made a significant investment of £100,000 in a cutting-edge stocking system. This bold step marks a departure from our old fashioned labelled brown boxes, to a modern and more efficient electronic QR Code system.
 
 
         Since ASL was founded almost 30 years ago, the company had relied on an older stocking system, where components were arranged on shelves according to part numbers. While this system had its merits, such as being cost-effective and relatively easy to navigate, it posed challenges in scalability and time efficiency.
@@ -47,7 +47,7 @@ layout:
         #### The New Era: Efficiency and Precision
 
 
-        The recent investment has ushered in a new era for ASL, where each component is now organized based on availability rather than part number sequence. This modernized approach streamlines the kitting process, improving accuracy and efficiency at every stage.
+        Signaling a commitment to enhanced efficiency and precision in our manufacturing processes, the recent investment has ushered in a new era for ASL, where each component is now organised based on availability rather than part number sequence. This modernized approach streamlines the kitting process, improves accuracy and improves efficiency at every stage.
 
 
         When initiating a new job, kitting is now a breeze with the introduction of a BOM location report. This report pinpoints the exact storage location of each component. Kitters simply scan the QR code at each designated spot, automatically deducting the required quantity as per the BOM. A printed label, detailing the part number and quantity, is then generated and attached to the components, ready for assembly.
