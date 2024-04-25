@@ -94,9 +94,6 @@ layout:
 
 
         We remain committed to delivering high-quality products with increased efficiency, setting a new standard in [cable assembly manufacturing](https://www.assembly-solutions.com/cable-assembly).
-
-
-        C﻿ables.
 seo:
   title: Bolton Cable Assembly Manufacturer Enhances Efficiency with £100,000
     Stocking System Upgrade
