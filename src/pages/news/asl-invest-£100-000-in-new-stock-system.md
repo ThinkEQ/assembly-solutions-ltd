@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: ASL Invest £100,000 in New Stock System
-date: 2024-04-25T11:18:43.063Z
+date: 2024-01-10T12:18:43.063Z
 image: /img/oliver-stock-system-header.jpg
 layout:
   - type: full
