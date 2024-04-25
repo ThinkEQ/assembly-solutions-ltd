@@ -81,10 +81,17 @@ layout:
         Operations Director of ASL, Oliver Balshaw, commented "***While the transition to this state-of-the-art system required a substantial investment, exceeding £100,000 for scanners and printers, this as a strategic move towards future-proofing our operations and as we strive to grow beyond £10million turnover.***"
 
 
-        We remain committed to delivering high-quality products with increased efficiency, setting a new standard in [cable assembly manufacturing](https://www.assembly-solutions.com/cable-assembly).
+        We remain committed to delivering high-quality products with increased efficiency, setting a new standard in [cable assembly manufacturing](https://www.assembly-solutions.com/cable-assembly).\
+
+        \
+
+        **O﻿ld Stock System**
 
 
         ![old-stock-system](/img/old-stock-system.png "Old Stock System")
+
+
+        **N﻿ew Stock System**
 
 
         ![new-stock-system](/img/oliver-stock-system.jpg "New Stock System")
