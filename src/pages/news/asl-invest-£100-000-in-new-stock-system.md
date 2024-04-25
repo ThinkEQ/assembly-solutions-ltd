@@ -75,16 +75,6 @@ layout:
         * **Improved Aesthetics:** A visually appealing and organized system.
 
 
-        **Investment and Future Outlook**
-
-
-        Operations Director of ASL, Oliver Balshaw, commented "***While the transition to this state-of-the-art system required a substantial investment, exceeding £100,000 for scanners and printers, this as a strategic move towards future-proofing our operations and as we strive to grow beyond £10million turnover.***"
-
-
-        We remain committed to delivering high-quality products with increased efficiency, setting a new standard in [cable assembly manufacturing](https://www.assembly-solutions.com/cable-assembly).\
-
-        \
-
         **O﻿ld Stock System**
 
 
@@ -95,6 +85,15 @@ layout:
 
 
         ![new-stock-system](/img/oliver-stock-system.jpg "New Stock System")
+
+
+        **Investment and Future Outlook**
+
+
+        Operations Director of ASL, Oliver Balshaw, commented "***While the transition to this state-of-the-art system required a substantial investment, exceeding £100,000 for scanners and printers, this as a strategic move towards future-proofing our operations and as we strive to grow beyond £10million turnover.***"
+
+
+        We remain committed to delivering high-quality products with increased efficiency, setting a new standard in [cable assembly manufacturing](https://www.assembly-solutions.com/cable-assembly).
 seo:
   title: Bolton Cable Assembly Manufacturer Enhances Efficiency with £100,000
     Stocking System Upgrade
