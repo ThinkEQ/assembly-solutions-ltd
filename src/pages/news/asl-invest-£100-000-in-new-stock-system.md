@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: ASL Invest £100,000 in New Stock System
+title: ASL Invest £75,000 in New Stock System
 date: 2024-04-25T11:18:43.063Z
 image: /img/oliver-stock-system-header.jpg
 layout:
@@ -95,10 +95,10 @@ layout:
 
         We remain committed to delivering high-quality products with increased efficiency, setting a new standard in [cable assembly manufacturing](https://www.assembly-solutions.com/cable-assembly).
 seo:
-  title: Bolton Cable Assembly Manufacturer Enhances Efficiency with £100,000
+  title: Bolton Cable Assembly Manufacturer Enhances Efficiency with £75,000
     Stocking System Upgrade
   description: Assembly Solutions has made a move set to revolutionize their cable
-    assembly operations by investing £100,000 in a cutting-edge stocking system.
+    assembly operations by investing £75,000 in a cutting-edge stocking system.
     This bold step marks a departure from their traditional method, signaling a
     commitment to enhanced efficiency and precision in our manufacturing
     processes.
