@@ -14,32 +14,31 @@ image: /img/about-us-cover.png
 seo:
   title: About Us | Assembly Solutions
   description: "Assembly Solutions Ltd is a UK leading manufacturer of cable
-    assembly services and wiring harnesses. Established for over 25 years, we
+    assembly services and wiring harnesses. Established for 29 years, we
     manufacture quality assured cables and wire preparation for a range of
     market sectors. "
   og-url: https://www.assembly-solutions.com/about
 ---
 **About Us**
 
-Assembly Solutions Ltd is a Bolton-based sub-contract manufacturer of electrical cable assemblies, wiring looms, wiring harnesses and electrical control panels.
+Assembly Solutions Ltd is a UK manufacturer of cable assemblies, wiring looms and control panels.
 
-We are an award winning family business and pride ourselves on delivering a personable quality service. With instilled family values, we're passionate about building strong relationships that are reliable, loyal and trustworthy.
+We are a Bolton based family business and pride ourselves on delivering a personable quality service. With instilled family values, we are passionate about building strong relationships.
 
-With 27 Years of excellence in manufacturing, we are recognised as the UK leader for wiring assemblies, and our quality is a reflection of our world-class customers, including; Ford, Rolls-Royce, Siemens and Vodafone.\
+With 29 years of excellence in manufacturing, we are recognised as the UK leader for wiring assemblies, and our quality is a reflection of our world-class customers, including; Ford, Rolls-Royce, Siemens and Vodafone.\
 \
 **Assembly Solutions Ltd**
 
 * UK Award Winning Family Business
 * Cable Assemblies, Wiring Looms, Wiring Harnesses, Control Panels
-* Established 27 Years 
+* Current Turnover in 2024 is £8.23 million
+* C﻿urrent staff headcount is 90
+* Established 29 Years (1995)
 * ISO 9001 Accredited - Quality Management
 * ISO 45001 Accredited - Health & Safety Management
 * Markets Sectors: Automotive, Security, Utilities, Nuclear, Medical
-* 20% Growth In 2022
 * C﻿ustomers Include; Aston Martin, Ford, Rolls-Royce, Siemens & Vodafone
 * 98% Customer Satisfaction
-
-
 
 **Market Sectors & Automotive Experience**
 
