@@ -157,10 +157,9 @@ layout:
 
         For expert and professional cable assembly services, [contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for a specially tailored quote and advice on your project.
 seo:
-  title: "Custom Cable Assembly  | Assembly Solutions "
-  description: The UK's leading manufacturer of Cable Assembly services and Custom
-    Cable Assembly products. An award-winning company with 98% customer
-    satisfaction reviews. Contact us today for a quote on your cable assembly
-    requirements.
+  title: Cable Assembly Manufacturer
+  description: ASL is the UK leading manufacturer of Cable Assembly services and
+    custom-made cable assemblies for a wide range of industries including
+    Automotive, Medical and Security.
   og-url: https://www.assembly-solutions.com/cable-assembly
 ---
