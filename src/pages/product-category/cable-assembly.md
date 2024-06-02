@@ -157,7 +157,7 @@ layout:
 
         For expert and professional cable assembly services, [contact Assembly Solutions ](https://www.assembly-solutions.com/contact)today for a specially tailored quote and advice on your project.
 seo:
-  title: Cable Assembly Manufacturer
+  title: UK Cable Assembly Manufacturer
   description: ASL is the UK leading manufacturer of Cable Assembly services and
     custom-made cable assemblies for a wide range of industries including
     Automotive, Medical and Security.
