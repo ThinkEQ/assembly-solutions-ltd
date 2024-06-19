@@ -17,7 +17,7 @@ layout:
 
         \
 
-        OurBolton factory is busy at work with 7 full-time production operators in this cell, all doing a smashing job and successfully meeting the customers demanding delivery dates!\
+        Our Bolton factory is busy at work with 7 full-time production operators in this cell, all doing a smashing job and successfully meeting the customers demanding delivery dates!\
 
         \
 
