@@ -33,6 +33,9 @@ layout:
         We really enjoy days like this, there’s been a lot of laughs and some happy grateful tears!
 
 
+        ![stephen-and-rob](/img/stephen-and-rob.jpg "Stephen with Manager Rob")
+
+
         ![stephen-soldering](/img/stephen-soldering.jpg "Stephen Soldering")
 seo:
   description: Cable assembly production operator, Stephen Farrell has achieved an
