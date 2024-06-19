@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: Paulino Achieves 10 Years Service
-date: 2024-06-19T12:43:51.067Z
+date: 2024-05-13T12:43:51.067Z
 image: /img/paulino-team.jpg
 layout:
   - type: full
