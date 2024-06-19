@@ -34,6 +34,9 @@ layout:
 
 
         Here’s some photos of Stephen, our super solderer! 💪
+
+
+        ![stephen-soldering](/img/stephen-soldering.jpg "Stephen Soldering")
 seo:
   description: Cable assembly production operator, Stephen Farrell has achieved an
     incredible 10 years of service at ASL.
