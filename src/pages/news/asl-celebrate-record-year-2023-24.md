@@ -16,10 +16,10 @@ layout:
         We are overjoyed to announce, ASL have achieved a record-breaking financial year with a remarkable turnover of £8.2 million. This significant achievement is further highlighted by £927,000 of brand-new business secured over the past year, showcasing our strong growth and strategic success.
 
 
-        Our dedicated team of 90 staff at the Bolton manufacturing facility has set an ambitious target of reaching a £10 million turnover by 2026. To accommodate our growing workforce, we plan to construct a mezzanine within the factory, creating additional office space to support our increasing number of employees.
+        Our dedicated team of 90 staff are now on a mission to achieve £10 million turnover by 2026, and we are putting in the plans to accommodate for the expansion. We are currently planning one of biggest renovation projects to date, which is to construct a construct a mezzanine within the factory that will create additional office space to support an extra 20 employees.
 
 
-        In addition to our financial success, we have made substantial investments in infrastructure and our workforce. Recent expenditures include £100,000 on solar panels and £75,000 on a state-of-the-art stock system with two new stock controllers. These investments reflect our commitment to innovation, sustainability, and operational excellence, aiming to enhance efficiency and build customer trust.
+        In addition to our financial success, we have also made substantial investments in infrastructure and workforce. Recent expenditures include £100,000 on solar panels and £75,000 on a state-of-the-art stock system with two new stock controllers. These investments reflect our commitment to innovation, sustainability, and operational excellence, aiming to enhance efficiency and build customer trust.
 
 
         As a family-owned business, managed by siblings Gareth, Sophie, and Oliver Balshaw, we are thrilled with this year's achievements and optimistic about future growth. 
