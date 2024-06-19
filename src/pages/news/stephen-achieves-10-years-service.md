@@ -18,7 +18,7 @@ layout:
         Since joining our Bolton family business back in June 2014, Stephen has become a super skilled cable assembly production operator.
 
 
-        His quality of soldering and attention to detail has earned him extensive credibility throughout the company - so I’ll not talk about that one time when he picked up the wrong end of the soldering iron! Ouch!
+        His quality of soldering and attention to detail has earned him extensive credibility throughout the company - so we'll not talk about that one time when he picked up the wrong end of the soldering iron! Ouch!
 
 
         This morning we gave an empowering presentation and surprised Stephen to a £250 Amazon voucher, box of Kopparberg, and a card signed by everyone.
