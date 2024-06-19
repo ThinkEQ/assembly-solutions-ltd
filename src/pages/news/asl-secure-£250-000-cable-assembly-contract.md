@@ -25,15 +25,10 @@ layout:
 
         \
 
-        This deal actually comes from our biggest new customer this year so it’s a special one, and I’m happy to hear sales are now forecasting annual orders of up to £500,000!\
+        This deal actually comes from our biggest new customer this year so it’s a special one, and it's giving us a lot of confidence for future growth as sales forecast this contract could surpass over £500,000.
 
-        \
 
-        If you’re wondering how we attracted such a significant new customer that helped ASL achieve a record year, scroll to the end.\
-
-        \
-
-        This is why I’m so grateful for your support! 👏
+        H﻿uge well done to Team ASL for another successful new customer!
 
 
         ![cable-assembly](/img/cable-assembly-june-2024.jpg "Cable Assembly")
