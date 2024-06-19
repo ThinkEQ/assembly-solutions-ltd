@@ -7,7 +7,7 @@ layout:
   - type: full
     full:
       text: >-
-        10th June, 202\
+        10th June, 2024\
 
         **Stephen Achieves 10 Years Service**
 
