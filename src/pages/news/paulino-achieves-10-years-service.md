@@ -19,7 +19,7 @@ layout:
 
         \
 
-        Since moving from Portugal to the UK, Joao very quickly became a strong part of the ASL family - a quality-driven team leader and super skilled at making control panels and wiring harnesses.\
+        Since moving from Portugal to the UK, Paulino very quickly became a strong part of the ASL family - a quality-driven team leader and super skilled at making control panels and wiring harnesses.\
 
         \
 
