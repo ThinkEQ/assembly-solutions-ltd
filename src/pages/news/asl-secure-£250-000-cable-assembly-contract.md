@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: ASL Secure £250,000 Cable Assembly Contract
-date: 2024-06-19T12:18:34.870Z
+date: 2024-06-18T12:18:34.870Z
 image: /img/wayne-soldering-banner.jpg
 layout:
   - type: full
