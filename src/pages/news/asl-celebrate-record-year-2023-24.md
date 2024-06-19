@@ -1,7 +1,7 @@
 ---
 templateKey: news-article
 title: ASL Celebrate Record Year 2023-24
-date: 2024-06-18T11:00:34.050Z
+date: 2024-05-05T11:00:34.050Z
 image: /img/record-year-2024-header.jpg
 layout:
   - type: full
