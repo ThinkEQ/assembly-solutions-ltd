@@ -6,7 +6,7 @@ image: /img/record-year-2024-header.jpg
 layout:
   - type: full
     full:
-      title: ASL Achieve Record-Breaking Turnover and Plan for Expansion
+      title: ""
       text: >-
         1st May, 2024\
 
