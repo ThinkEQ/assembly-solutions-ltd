@@ -339,12 +339,6 @@ team-members:
     interests:
       - football
     bio: C﻿oming soon..
-  - name: Dave Herbert
-    jobtitle: Team Leader
-    interests:
-      - cooking
-    image: /img/dave-herbert.jpg
-    bio: C﻿oming soon..
   - name: Simon Blezard
     jobtitle: Team Leader
     interests:
