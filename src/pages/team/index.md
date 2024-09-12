@@ -2,21 +2,6 @@
 templateKey: team-page
 title: Team
 team-members:
-  - bio: Graham created Assembly Solutions in 1995 aged 35 after always having the
-      passion to build a successful business in electrical assemblies. From a
-      very early age, Electronics came natural to Graham and it's not surprising
-      after his father Terry taught him how to wire his first plug when he was
-      just 4 years old! After studying Electrical Engineering at Manchester
-      University, Graham secured a sought after Production Manager position at
-      Phillips, and later down the line made the big leap to leave and create
-      Assembly Solutions. Graham enjoys cycling & golf, and a challenge at
-      chess!
-    interests:
-      - cycling
-      - golf
-    name: Graham Balshaw BSc
-    jobtitle: Founder
-    image: /img/team1-1-.png
   - name: Gareth Balshaw
     jobtitle: Managing Director
     bio: Gareth joined the business as a production operator in 2002 aged 18. Since
