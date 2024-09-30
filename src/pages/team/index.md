@@ -87,13 +87,6 @@ team-members:
       - formula1
       - football
     linkedin: https://www.linkedin.com/in/robert-parkinson-43007b10b/
-  - name: Phil Beales
-    jobtitle: Production Manager
-    interests:
-      - football
-      - formula1
-    image: /img/phil-beales.jpg
-    bio: C﻿oming soon.
   - name: Aubrey Oldham
     jobtitle: Production Manager
     interests:
