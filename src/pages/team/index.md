@@ -72,6 +72,25 @@ team-members:
       - archery
       - cooking
     linkedin: https://www.linkedin.com/in/damien-walsh-a99a333b/
+  - name: John Waterworth
+    jobtitle: Sales Manager
+    bio: John has worked in the electrical industry for 40 years and is extremely
+      knowledgeable on cable assemblies and components. With his wealth of
+      expertise after having his own electrical component distributer, we were
+      delighted to welcome John on board in 2020 to support with customer
+      account management. John is a passionate Manchester City supporter and
+      enjoys to watch them with a cold pint of Guinness!
+    image: /img/team10-1-.png
+    interests:
+      - football
+      - golf
+  - name: Eric Briggs
+    jobtitle: Quality & H&S Manager
+    interests:
+      - football
+      - formula1
+    bio: C﻿oming soon.
+    image: /img/eric-briggs.jpg
   - name: Rob Parkinson
     jobtitle: Production Manager
     bio: Rob is a remarkable and incredibly loyal member of our team as he has
@@ -101,13 +120,6 @@ team-members:
       Aubrey enjoys his sporting passion of Motorsport - in particular Rallying,
       and he also likes to attend charity events to support many worthwhile
       causes.
-  - name: Eric Briggs
-    jobtitle: Quality & H&S Manager
-    interests:
-      - football
-      - formula1
-    bio: C﻿oming soon.
-    image: /img/eric-briggs.jpg
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
@@ -121,65 +133,6 @@ team-members:
     interests:
       - decorating
       - gardening
-  - name: Susan Gaskell
-    jobtitle: Purchasing Manager
-    interests:
-      - cooking
-      - hiking
-    image: /img/susan-gaskell.jpg
-    bio: Susan is our Purchasing & Planning Manager, overseeing all the supply chain
-      and managing the production planning.  With over 10 years of experience in
-      purchasing, Susan excels in managing our supply chain ensuring that
-      pricing, quality and delivery schedules are commercially acceptable. In
-      her spare time Susan enjoys travelling and has practised yoga for 33
-      years!
-  - name: John Waterworth
-    jobtitle: Sales Manager
-    bio: John has worked in the electrical industry for 40 years and is extremely
-      knowledgeable on cable assemblies and components. With his wealth of
-      expertise after having his own electrical component distributer, we were
-      delighted to welcome John on board in 2020 to support with customer
-      account management. John is a passionate Manchester City supporter and
-      enjoys to watch them with a cold pint of Guinness!
-    image: /img/team10-1-.png
-    interests:
-      - football
-      - golf
-  - name: Adam Saoudi
-    jobtitle: Customer Account Manager
-    interests:
-      - football
-      - hiking
-    image: /img/adam-saoudi.jpg
-    bio: Adam is a recent addition to our team joining in April 2021. We're thrilled
-      to have him on board as he brings with him, five years sales experience
-      and over the last few years has worked for an R&D Engineering company
-      where he gained knowledge in similar product markets. Adam is a Guide Dog
-      Boarder, looking after Guide Dogs during evenings & weekends for 16-18
-      weeks with the hope they pass and move onto advanced stages of training
-      and on to become somebody’s Guide Dog! Adam is also a Liverpool fan and
-      loves nothing more than a pint in the pub!
-    linkedin: https://www.linkedin.com/in/adam-saoudi-8459a2106/
-  - name: Carly Chan
-    jobtitle: Customer Account Manager
-    image: /img/carly-chan.jpg
-    bio: C﻿oming soon..
-    interests:
-      - hiking
-  - name: Michele Barnes
-    jobtitle: Sales Administrator
-    bio: Michele is our bright & bubbly Sales Administrator and is the fastest
-      typist you've even seen! She is committed to giving customers the best
-      possible service and the work she carries out is always to the highest
-      quality. Her role covers a range of responsibilities including processing
-      customer orders and dealing with customer queries. Michele is a big lover
-      of cake & gin, and enjoys spending spare time with her gorgeous
-      Grand-daughter Emily.
-    image: /img/michele-barnes.jpg
-    interests:
-      - reading
-      - knitting
-    linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
   - name: Gary Scowcroft
     jobtitle: Engineering Manager
     bio: Gary has an impressive 40 years of experience in the Electronics & Cable
@@ -208,6 +161,38 @@ team-members:
       - football
       - xbox
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
+  - name: Carly Chan
+    jobtitle: Customer Account Manager
+    image: /img/carly-chan.jpg
+    bio: C﻿oming soon..
+    interests:
+      - hiking
+  - name: Susan Gaskell
+    jobtitle: Purchasing Manager
+    interests:
+      - cooking
+      - hiking
+    image: /img/susan-gaskell.jpg
+    bio: Susan is our Purchasing & Planning Manager, overseeing all the supply chain
+      and managing the production planning.  With over 10 years of experience in
+      purchasing, Susan excels in managing our supply chain ensuring that
+      pricing, quality and delivery schedules are commercially acceptable. In
+      her spare time Susan enjoys travelling and has practised yoga for 33
+      years!
+  - name: Michele Barnes
+    jobtitle: Sales Administrator
+    bio: Michele is our bright & bubbly Sales Administrator and is the fastest
+      typist you've even seen! She is committed to giving customers the best
+      possible service and the work she carries out is always to the highest
+      quality. Her role covers a range of responsibilities including processing
+      customer orders and dealing with customer queries. Michele is a big lover
+      of cake & gin, and enjoys spending spare time with her gorgeous
+      Grand-daughter Emily.
+    image: /img/michele-barnes.jpg
+    interests:
+      - reading
+      - knitting
+    linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
   - name: Dave Webster
     jobtitle: Technical Engineer
     interests:
@@ -251,12 +236,6 @@ team-members:
       abilities and experience to step up to the role of Quality Supervisor for
       all wiring harness and control panel projects. Kane enjoys fishing,
       walking and playing darts.
-  - name: Julie Cocker
-    jobtitle: Senior Quality Inspector
-    interests:
-      - gardening
-    image: /img/julie-cocker.jpg
-    bio: C﻿oming soon..
   - name: Aaron Hesketh
     jobtitle: Quality Engineer
     interests:
@@ -271,12 +250,6 @@ team-members:
       computer programming wizard and in his spare time enjoys Home DIY and
       cooking up his signature Indian dish "Chicken Tikka Dopiza"!
     image: /img/aaron-hesketh.jpg
-  - name: Andrejus Tkacenko
-    jobtitle: Junior Quality Inspector
-    interests:
-      - football
-    bio: C﻿oming soon..
-    image: /img/andrejus-tkacenko.jpg
   - name: Amanda Carey
     jobtitle: Production Supervisor
     interests:
@@ -296,49 +269,18 @@ team-members:
     bio: C﻿oming soon..
     interests:
       - hiking
-  - name: Candela Rovetto
-    jobtitle: Team Leader
-    image: /img/candela-rovetto.jpg
-    bio: C﻿oming soon..
-    interests:
-      - hiking
   - name: Adam Walsh
     jobtitle: Junior Production Engineer
     interests:
       - football
     image: /img/adam-walsh.jpg
     bio: C﻿oming soon..
-  - name: Joao Pina Jorge
-    jobtitle: Production Supervisor
-    image: /img/joao-pina.jpg
-    bio: C﻿oming soon..
-    interests:
-      - football
   - name: Joao Paulino Jorge
     jobtitle: Team Leader
     interests:
       - football
     image: /img/joao-paulino.jpg
     bio: C﻿oming soon..
-  - name: Petronela Bordeianu
-    jobtitle: Team Leader
-    interests:
-      - hiking
-    image: /img/petronela-bordeianu.jpg
-    bio: C﻿oming soon..
-  - name: Daryl Hampson
-    jobtitle: Team Leader
-    image: /img/daryl-hampson.jpg
-    interests:
-      - football
-    bio: C﻿oming soon..
-  - name: Simon Blezard
-    jobtitle: Team Leader
-    interests:
-      - formula1
-      - football
-    image: /img/simon-blezard.jpg
-    bio: C﻿oming soon.
   - name: Alex Waterworth
     jobtitle: Technical Apprentice
     image: /img/alex-waterworth.jpg
@@ -351,44 +293,37 @@ team-members:
     interests:
       - reading
     bio: C﻿oming soon..
-  - name: Chris Bond
+  - name: Joao Pina Jorge
+    jobtitle: Production Supervisor
+    image: /img/joao-pina.jpg
+    bio: C﻿oming soon..
+    interests:
+      - football
+  - name: Petronela Bordeianu
     jobtitle: Team Leader
     interests:
-      - football
-    image: /img/chris-bond.jpg
+      - hiking
+    image: /img/petronela-bordeianu.jpg
     bio: C﻿oming soon..
-  - name: Kevin Westfield
-    jobtitle: Stock Controller
-    linkedin: https://www.linkedin.com/in/kevin-westfield-bb144bba/
+  - name: Simon Blezard
+    jobtitle: Team Leader
     interests:
       - formula1
       - football
-    bio: Kevin is our cheerful Stores Supervisor who has the responsible role of
-      controlling all goods that enter and leave the factory. With many years of
-      stores experience, Kev is an efficient and valuable member of the team and
-      always leaves us smiling with his favourite words "Happy Days!" Kev is a
-      Formula 1 fanatic and  enjoys supporting the NY Yankees and Liverpool FC!
-    image: /img/kevin-westfield.jpg
-  - name: Jason Shepherd
-    jobtitle: Stock Controller
-    interests:
-      - football
-      - formula1
-    image: /img/jason-shepherd.jpg
+    image: /img/simon-blezard.jpg
     bio: C﻿oming soon.
-  - name: Cameron Beales
-    jobtitle: Junior Stock Controller
+  - name: Candela Rovetto
+    jobtitle: Team Leader
+    image: /img/candela-rovetto.jpg
+    bio: C﻿oming soon..
     interests:
-      - formula1
-      - football
-    image: /img/cameron-beales.jpg
-    bio: C﻿oming soon.
-  - name: Steven Beales
-    jobtitle: Junior Stock Controller
+      - hiking
+  - name: Andrejus Tkacenko
+    jobtitle: Junior Quality Inspector
     interests:
       - football
     bio: C﻿oming soon..
-    image: /img/steven-beales.jpg
+    image: /img/andrejus-tkacenko.jpg
 seo:
   title: "Meet The Team |  Assembly Solutions "
   description: "Meet our experienced and qualified team of experts.
