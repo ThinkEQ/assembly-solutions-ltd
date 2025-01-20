@@ -36,11 +36,14 @@ layout:
 
         I
          think she deserves a big applause, don’t you?
+
+        ![Soldering-Icon](/img/julie-20yrs-2.jfif "Soldering-Icon")
 seo:
   title: Julie Achieves 20 Years Service
   description: |-
     ASL
     award-winning UK leading cable assembly company
     20 Years at ASL
+    Soldering-Icon
   og-url: Julie-Achieves-20-Years-Service
 ---
