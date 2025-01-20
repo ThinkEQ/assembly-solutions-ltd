@@ -42,7 +42,7 @@ layout:
 
         <!--EndFragment-->
 seo:
-  title: Agricultural Wiring Looms and Cable Assemblies
+  title: Agricultural Wiring Looms and Cable Assembly
   description: Assembly Solutions are a UK manufacturer of Agricultural Wiring
     Looms and Cable Assemblies. A Quality Committed Company with ISO9001 and 25
     Years Excellent Customer Service.
