@@ -49,5 +49,6 @@ seo:
     award-winning UK leading cable assembly company
     20 Years at ASL
     Soldering-Icon
+    Assembly Solution Limited
   og-url: Julie-Achieves-20-Years-Service
 ---
