@@ -148,7 +148,7 @@ team-members:
       - hiking
       - climbing-wall
   - name: Adam Tunnah
-    jobtitle: Costing Supervisor
+    jobtitle: Sales Estimator
     bio: Adam is our bright and skilful Costing Engineer who has expertise in
       driving down product costs to secure new and existing business. With a
       close attention to detail, Adam is excellent at producing cost-effective
