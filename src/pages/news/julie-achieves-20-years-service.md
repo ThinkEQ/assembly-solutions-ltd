@@ -2,7 +2,7 @@
 templateKey: news-article
 title: Julie Achieves 20 Years Service
 date: 2024-10-17T11:07:36.815Z
-image: /img/battery-cable-assembly.jpg
+image: /img/julie-20yrs-1.jpg
 layout:
   - type: full
     full:
@@ -27,6 +27,9 @@ layout:
 
 
         Congratulations Julie!
+
+
+        ![](/img/julie-20yrs-2.jpg)
 seo:
   title: Julie Achieves 20 Years Service
   description: |-
