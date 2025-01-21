@@ -8,8 +8,7 @@ layout:
     full:
       title: Julie Achieves 20 Years Service
       text: >-
-        <!--StartFragment-->
-
+        17th October, 2024\
 
         **Celebrating Julie’s Remarkable 20-Year Career with ASL**
 
