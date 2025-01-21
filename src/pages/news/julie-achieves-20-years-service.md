@@ -2,31 +2,40 @@
 templateKey: news-article
 title: Julie Achieves 20 Years Service
 date: 2024-10-17T11:07:36.815Z
-image: /img/julie-20yrs-1.jpg
+image: /img/img_0625.jpg
 layout:
   - type: full
     full:
       title: Julie Achieves 20 Years Service
       text: >-
-        Yesterday we celebrated Julie for 20 Years at ASL!
+        <!--StartFragment-->
 
 
-        Julie started her journey in 2004 as a production operator, and in her words, "the intention was to stay just a couple of months before I found something more local to home in Leigh."
+        **Celebrating Julie’s Remarkable 20-Year Career with ASL**
 
 
-        But much to our delight, she grew into a professional quality inspector, and stayed with us for 20 years - an incredible achievement that demonstrates not only her loyalty, but her commitment and dedication to grow ASL into an award-winning UK leading cable assembly company.
+        Yesterday, ASL had the privilege of honoring Julie for an incredible milestone—20 years of dedicated service.
 
 
-        This special day also came with some tears, as it was her last and final working day at ASL, before she sets off to enjoy a well-earned retirement.
+        Julie began her journey with ASL in 2004 as a production operator. Reflecting on her early days, she shared, *“The intention was to stay just a couple of months before I found something more local to home in Leigh.”*
 
 
-        We gave her an amazing send-off and it was our pleasure as company owners to gift Julie with a £500 voucher, bottle of champagne, flowers & balloons. We also arranged the Fish & Chips van to serve everyone in the company a delicious chippy lunch!
+        However, her brief plans evolved into a remarkable two-decade career. Over the years, Julie grew into a highly skilled quality inspector, exemplifying loyalty, commitment, and professionalism. Her invaluable contributions have played a key role in ASL’s success and growth into an award-winning, UK-leading cable assembly company.
 
 
-        The team are going to miss her so much - and Friday’s at 10:30 will not be same when we don’t hear her shout across the factory "Butttties!"
+        While this celebration was a testament to Julie’s exceptional career, it was also bittersweet, as it marked her final day with ASL. Julie is now retiring to enjoy a well-earned new chapter of life.
 
 
-        Congratulations Julie!
+        To commemorate the occasion, Julie was presented with a £500 voucher, a bottle of champagne, flowers, and balloons. The entire team also enjoyed a special Fish & Chips lunch arranged in her honor, ensuring a memorable send-off.
+
+
+        Julie’s presence will be deeply missed by colleagues across the company, and her warmth and humor will leave a lasting impression. Fridays at 10:30 won’t be the same without her signature call of *“Butttties!”*
+
+
+        Congratulations to Julie on this incredible achievement. We wish her a long and happy retirement filled with new adventures!
+
+
+        <!--EndFragment-->
 
 
         ![](/img/julie-20yrs-2.jpg)
