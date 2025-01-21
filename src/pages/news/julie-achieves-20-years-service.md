@@ -35,9 +35,6 @@ layout:
         Scroll to the end to see Julie on the ASL cable production line 20 years ago!
 
         I think she deserves a big applause, don’t you?
-
-
-        ![Soldering-Icon](/img/julie-20yrs-2.jfif "Soldering-Icon")
 seo:
   title: Julie Achieves 20 Years Service
   description: |-
