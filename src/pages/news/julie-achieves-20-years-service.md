@@ -17,7 +17,7 @@ layout:
         We do work I promise! 
 
 
-        So Julie started her journey in 2004 as a production operator, and in her words, “the intention was to stay just a couple of months before I found something more local to home in Leigh.”
+        So Julie started her journey in 2004 as a production operator, and in her words, "the intention was to stay just a couple of months before I found something more local to home in Leigh."
 
 
         But much to our delight, she grew into a professional quality inspector, and stayed with us for 20 years - an incredible achievement that demonstrates not only her loyalty, but her commitment and dedication to grow ASL into an award-winning UK leading cable assembly company.
