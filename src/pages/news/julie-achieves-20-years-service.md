@@ -29,7 +29,7 @@ layout:
         We gave her an amazing send-off and it was our pleasure as company owners to gift Julie with a £500 voucher, bottle of champagne, flowers & balloons. We also arranged the Fish & Chips van to serve everyone in the company a delicious chippy lunch!
 
 
-        The team are going to miss her so much - and Friday’s at 10:30 will not be same when we don’t hear her shout across the factory “Butttties!” 
+        The team are going to miss her so much - and Friday’s at 10:30 will not be same when we don’t hear her shout across the factory "Butttties!"
 
 
         Scroll to the end to see Julie on the ASL cable production line 20 years ago!
