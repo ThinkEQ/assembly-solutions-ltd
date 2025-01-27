@@ -46,12 +46,20 @@ team-members:
     linkedin: https://www.linkedin.com/in/oliver-balshaw-624a9ab4/
   - name: Gareth Edwards
     jobtitle: Sales & Commercial Director
-    bio: Gareth is an exceptional sales professional with extensive technical
-      knowledge in electrical components and parts. With all his experience from
-      previously working as a production manager, he understands technical
-      issues customers are challenged with. Gareth is a keen explorer and enjoys
-      visiting UK countrysides with his family and has even hiked up Scotland's
-      tallest mountain, Ben Nevis - in treacherous snow conditions!
+    bio: "Gareth is a skilled sales professional with a deep understanding of cable
+      assemblies and wiring harness manufacturing. With hands-on experience as a
+      Wireman and Production Manager, he has firsthand knowledge of the
+      challenges our customers face, making him a trusted and reliable partner.
+
+      \r
+
+      Outside of work, Gareth loves exploring the beautiful UK countryside
+      with his family, often taking on the challenge of hiking the nation's
+      tallest peaks. This year, he’s climbing Snowdon to raise funds for local
+      children, giving them the chance to experience the joy of summer camp.
+      Gareth is also passionate about giving back to his community, actively
+      volunteering at his local church and participating in various community
+      initiatives.\r\n"
     image: /img/gareth-edwards-new.jpg
     interests:
       - hiking
