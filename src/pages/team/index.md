@@ -275,7 +275,7 @@ team-members:
     linkedin: https://www.linkedin.com/in/ho-sammy/
     interests:
       - football
-    image: /img/sammy-ho.jpeg
+    image: /img/sammy-k-ho.jpg
     bio: >-
       Sammy recently joined Team ASL, bringing over 10 years of business
       development experience. He collaborates closely with the sales team,
