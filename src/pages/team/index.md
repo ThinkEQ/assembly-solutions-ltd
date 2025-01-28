@@ -187,13 +187,17 @@ team-members:
       - climbing-wall
   - name: Adam Tunnah
     jobtitle: Sales Estimator
-    bio: Adam is our bright and skilful Costing Engineer who has expertise in
-      driving down product costs to secure new and existing business. With a
-      close attention to detail, Adam is excellent at producing cost-effective
-      costings through negotiating with the supply chain and having a clear
-      understanding of production batch cards. Adam has hugely contributed
-      towards winning new contracts and retaining existing customers. He is a
-      passionate Tottenham Hotspur fan and a competitive Xbox gamer!
+    bio: >-
+      Adam is our Sales Estimator with over six years of experience at the
+      company. Specialising in cost analysis and process optimisation, he plays
+      a crucial role in maintaining business relationships and securing new
+      opportunities. Adam’s expertise in cost structures and his ability to
+      streamline processes make him an asset to the team. Adam is currently
+      furthering his studies in Leadership & Management.
+
+
+
+      When Adam is not at work he loves following his favourite sports particularly football, basketball, Formula One, and darts and you may often find him unwinding with friends at his local pub.
     image: /img/adam-tunnah.jpg
     interests:
       - football
