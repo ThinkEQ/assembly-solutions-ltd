@@ -35,12 +35,15 @@ team-members:
     linkedin: https://www.linkedin.com/in/sophie-balshaw/
   - name: Oliver Balshaw MCIPS
     jobtitle: Operations Director
-    bio: Oliver is our technically knowledgeable Purchasing Director who manages and
-      oversees our Supply Chain. He is qualified in CIPS (Chartered Institute of
-      Procurement & Supply) and has over 10 years experience in production
-      manufacturing. His skills have recently been utilised to support our
-      production team with project management for urgent customer orders. Oliver
-      is an F1 fanatic and an awesome snowboarder!
+    bio: >-
+      As Operations Director at ASL, Oliver plays a key role in driving
+      efficiency and excellence across the organisation. With a focus on
+      continuous improvement, he ensures ASL maintains its high operational
+      standards while fostering a collaborative environment for all teams.
+
+
+
+      Outside of work, he enjoys spending time with his family, cheering on Bolton Wanderers, and following Formula One. An avid golfer and budding sourdough baker, he enjoys exploring new hobbies. A lover of adventure, his favourite holidays involve snowboarding, combining his love for the outdoors with a thrill for speed.
     image: /img/oliver-balshaw.jpg
     interests:
       - formula1
