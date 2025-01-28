@@ -110,7 +110,15 @@ team-members:
     interests:
       - football
       - formula1
-    bio: C﻿oming soon.
+    bio: >-
+      Eric brings a wealth of experience across various manufacturing industries
+      and is recognised for his leadership, approachability, and commitment to
+      occupational health and safety. With a strong passion for quality,
+      innovation, and customer-centric culture, he also champions psychological
+      health and employee development in the workplace.
+
+
+      Outside of work, Eric, being a food lover, enjoys a good home-cooked meal and dining out. A fan of high-performance cars, his favourites are the Ferrari F355 and BMW E60 V10 M5. In his downtime, Eric enjoys cycling, swimming, academic reading, and watching the iconic 1980s Miami Vice series.
     image: /img/eric-briggs.jpg
   - name: Rob Parkinson
     jobtitle: Production Manager
