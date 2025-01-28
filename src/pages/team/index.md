@@ -255,7 +255,7 @@ team-members:
       - knitting
     linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
   - name: Mel Rovetto
-    jobtitle: Production Supervisor
+    jobtitle: Production Planner
     interests:
       - hiking
     bio: >-
@@ -275,7 +275,7 @@ team-members:
     linkedin: linkedin.com/in/ho-sammy
     interests:
       - football
-    image: /img/sammy-ho.jpeg
+    image: /img/sammy-k-ho.jpg
     bio: >-
       Sammy recently joined Team ASL, bringing over 10 years of business
       development experience. He collaborates closely with the sales team,
