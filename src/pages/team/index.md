@@ -17,8 +17,7 @@ team-members:
       Outside of work, Gareth enjoys playing chess and working on house renovations, where his attention to detail and problem-solving skills shine.
     image: /img/gareth-balshaw.jpg
     interests:
-      - cycling
-      - hiking
+      - decorating
     linkedin: https://www.linkedin.com/in/gareth-balshaw-1b100018/
   - name: Sophie Balshaw
     jobtitle: Marketing & HR Director
