@@ -122,14 +122,17 @@ team-members:
     image: /img/eric-briggs.jpg
   - name: Rob Parkinson
     jobtitle: Production Manager
-    bio: Rob is a remarkable and incredibly loyal member of our team as he has
-      served 20 years and holds the outstanding record of 100% attendance for 20
-      years! Since joining in 2003 as a production operator, Rob has been
-      fiercely committed to improving our operations by lean manufacturing and
-      project managing machinery investments. Rob also oversees our engineering
-      department and is responsible for all machinery services and tooling
-      calibrations. Rob is an F1 fanatic and a proud father to daughter Daisy
-      who is signed with Manchester United U11's Girls Football Club!
+    bio: >-
+      Rob is a dedicated and highly experienced member of the ASL team, with 22
+      years of service and an exceptional 21 years of perfect attendance.
+      Starting as a production operator in 2003, Rob has been integral in
+      driving operational efficiency through lean manufacturing and managing key
+      machinery investments. As head of the engineering department, he ensures
+      the smooth running of all machinery services and tooling calibrations.
+
+
+
+      Outside of work, Rob is an avid F1 fan and enjoys cheering on his daughter, Daisy, who is plays football for Blackburn Rovers U14’s Girls Academy.
     image: /img/rob-parkinson.jpg
     interests:
       - formula1
