@@ -144,14 +144,15 @@ team-members:
       - formula1
       - hiking
     image: /img/aubrey-oldham.jpg
-    bio: Aubrey is our recently promoted Production Supervisor who brings a valuable
-      wealth of knowledge and experience to the team with his phenomenal 40
-      years in the electronics industry. His role covers supervising 15 cable
-      assembly operators, overseeing quality inspection, and proactively looking
-      for areas to improve efficiencies. When he isn't busy on production,
-      Aubrey enjoys his sporting passion of Motorsport - in particular Rallying,
-      and he also likes to attend charity events to support many worthwhile
-      causes.
+    bio: >-
+      Aubrey is one of our Production Manager, bringing an incredible 40 years
+      of experience in the electronics industry to the team. His expertise is
+      instrumental in leading his team whilst driving continuous improvement to
+      enhance operational efficiencies.
+
+
+
+      When he isn't busy on production, Aubrey enjoys walking, swimming, and motorsports, along with spending quality time with his family, including his stepdaughters and three grandchildren. He is also a passionate supporter of various charitable events and causes, always eager to give back to the community.
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
