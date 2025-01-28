@@ -226,12 +226,17 @@ team-members:
       - cooking
       - hiking
     image: /img/susan-gaskell.jpg
-    bio: Susan is our Purchasing & Planning Manager, overseeing all the supply chain
-      and managing the production planning.  With over 10 years of experience in
-      purchasing, Susan excels in managing our supply chain ensuring that
-      pricing, quality and delivery schedules are commercially acceptable. In
-      her spare time Susan enjoys travelling and has practised yoga for 33
-      years!
+    bio: >-
+      Susan is our Purchasing & Planning Manager here at ASL, where she is
+      responsible for overseeing the supply chain and managing production
+      planning. With 35 years of experience in purchasing, she ensures that
+      pricing, quality, and delivery schedules meet commercial expectations,
+      contributing to ASL's success in maintaining a competitive edge in the
+      industry.
+
+
+
+      Away from work, Susan loves to travel, enjoying discovering new destinations and cultures. She has also been practicing yoga for 37 years, finding balance and relaxation through this lifelong passion.
   - name: Michele Barnes
     jobtitle: Sales Administrator
     bio: Michele is our bright & bubbly Sales Administrator and is the fastest
