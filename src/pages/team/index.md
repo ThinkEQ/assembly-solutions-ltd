@@ -206,7 +206,17 @@ team-members:
   - name: Carly Chan
     jobtitle: Customer Account Manager
     image: /img/carly-chan.jpg
-    bio: C﻿oming soon..
+    bio: >-
+      Carly joined ASL as a Production Operator in 2022. With over 10 years of
+      sales experience back home in Hong Kong, Carly was the perfect fit to join
+      our growing Sales Team in 2023. Carly is dedicated to providing
+      outstanding service by managing customer orders with precision. She
+      thrives on building relationships, visiting customers, and identifying
+      additional service opportunities.
+
+
+
+      Carly is a passionate foodie, particularly fond of desserts and Japanese cuisine. In her free time she loves to experiment in the kitchen, cooking dishes from different global cuisines. Carly also enjoys traveling to new destinations with her daughters, creating lasting memories along the way.
     interests:
       - hiking
   - name: Susan Gaskell
