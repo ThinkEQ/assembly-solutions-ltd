@@ -73,14 +73,17 @@ team-members:
   - name: Damien Walsh
     jobtitle: Technical Manager
     image: /img/team5-1-.png
-    bio: Damien holds the incredible title of being our longest serving employee! He
-      has served an outstanding 20 Years, after joining as a production operator
-      in 1999! Throughout the years, he has shown a quality and commitment to
-      his work that has led him to his role today as Production Manager for
-      Harnesses and Control Panels. He's an expert in Automotive Wiring and his
-      technical & leadership skills have contributed to some of our most
-      challenging but successful contracts to date. Damien enjoys field archery
-      and likes to cook tasty vegan dishes!
+    bio: >-
+      Damien is our longest-serving employee, with an impressive 25 years at
+      Assembly Solutions. He began as a production operator in 1999 and has
+      steadily advanced to his current role as Technical Manager. With his
+      extensive expertise in automotive wiring, Damien's technical and
+      leadership skills have been pivotal in the successful delivery of some of
+      our most complex projects.
+
+
+
+      To relax, Damien enjoys preparing delicious vegan meals and experimenting with new recipes. He has a deep appreciation for the outdoors and cherishes spending time exploring nature with his family. In addition, Damien has a passion for Field Archery, which combines his love for precision and adventure.
     interests:
       - archery
       - cooking
