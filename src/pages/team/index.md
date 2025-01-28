@@ -4,15 +4,17 @@ title: Team
 team-members:
   - name: Gareth Balshaw
     jobtitle: Managing Director
-    bio: Gareth joined the business as a production operator in 2002 aged 18. Since
-      his early years working on the production lines, he has taken on senior
-      roles and responsibilities in purchasing and sales. During his time as
-      Sales Director, Gareth understands the importance of building strong
-      customer relationships and he now drives those values throughout the
-      organisation. In 2019 Gareth was appointed Managing Director and since
-      then the company has seen over 20% growth in sales. Gareth is a keen
-      cyclist and enjoys hiking up the highest of mountains. He also has a black
-      belt in Jujutsu!
+    bio: >-
+      Gareth joined the company in 2002 as a production operator at 18 and has
+      since taken on senior roles in both purchasing and sales. As Sales
+      Director, he prioritized building strong customer relationships, a value
+      he continues to champion as Managing Director. Since his appointment in
+      2019, Gareth has driven a 20% growth each year, ensuring the company's
+      continued success.
+
+
+
+      Outside of work, Gareth enjoys playing chess and working on house renovations, where his attention to detail and problem-solving skills shine.
     image: /img/gareth-balshaw.jpg
     interests:
       - cycling
