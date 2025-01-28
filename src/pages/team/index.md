@@ -107,8 +107,8 @@ team-members:
   - name: Eric Briggs
     jobtitle: Quality & H&S Manager
     interests:
-      - football
       - formula1
+      - cooking
     bio: >-
       Eric brings a wealth of experience across various manufacturing industries
       and is recognised for his leadership, approachability, and commitment to
