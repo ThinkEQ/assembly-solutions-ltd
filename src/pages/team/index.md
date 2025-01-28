@@ -171,14 +171,16 @@ team-members:
       - gardening
   - name: Gary Scowcroft
     jobtitle: Engineering Manager
-    bio: Gary has an impressive 40 years of experience in the Electronics & Cable
-      Assembly Industry. Since he joined us in 2017, his phenomenal wealth of
-      knowledge has transformed the way we win new business by working with
-      customers and supporting them with project design development. He ensures
-      that the transition from engineering out to production runs absolutely
-      seamless and that we have built a solid relationship with the customer.
-      Gary is a devoted grandfather and enjoys hiking and rock climbing - he
-      also loves a bit of rock music!
+    bio: >-
+      Gary brings 45 years of invaluable experience in the Electronics and Cable
+      Assembly industry. Since joining us in 2017, his vast knowledge has
+      greatly enhanced our ability to win new business, guiding customers
+      through project design development while ensuring a smooth transition from
+      engineering to production.
+
+
+
+      Gary is a devoted grandfather who enjoys hiking and rock climbing, embracing the challenges of the great outdoors. A lover of rock music, he also finds joy in attending live performances.
     image: /img/gary-scowcroft.jpg
     interests:
       - hiking
