@@ -219,6 +219,7 @@ team-members:
       Carly is a passionate foodie, particularly fond of desserts and Japanese cuisine. In her free time she loves to experiment in the kitchen, cooking dishes from different global cuisines. Carly also enjoys traveling to new destinations with her daughters, creating lasting memories along the way.
     interests:
       - hiking
+      - cooking
   - name: Susan Gaskell
     jobtitle: Purchasing Manager
     interests:
