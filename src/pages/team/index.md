@@ -200,7 +200,7 @@ team-members:
     image: /img/adam-tunnah.jpg
     interests:
       - football
-      - xbox
+      - formula1
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
   - name: Carly Chan
     jobtitle: Customer Account Manager
