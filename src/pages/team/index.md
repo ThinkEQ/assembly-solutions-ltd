@@ -156,12 +156,15 @@ team-members:
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
-      Amanda is a qualified and committed Accounts professional who has been a
-      valuable member of our team since she joined 10 years ago. With a wealth
-      of knowledge and experience in Accounting, Amanda is responsible for all
-      financial transactions and reporting on monthly P & L's.
+      Amanda is a qualified and experienced Accounts professional who has been a
+      vital part of the ASL team for over 10 years. She oversees all financial
+      transactions and ensures accurate monthly P&L reporting, supporting the
+      company’s efficient financial operations. Her extensive expertise in
+      accounting makes her a key contributor to the company’s success.
 
-      When Amanda isn't focusing on finance, she enjoys gardening and decorating her beautiful home!
+
+
+      When Amanda isn't focusing on finance, she enjoys nurturing her garden and creating a peaceful, beautiful home.
     image: /img/amanda-freeman.jpg
     interests:
       - decorating
