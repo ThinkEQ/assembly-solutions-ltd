@@ -144,60 +144,50 @@ team-members:
       - formula1
       - hiking
     image: /img/aubrey-oldham.jpg
-    bio: >-
-      Aubrey is one of our Production Manager, bringing an incredible 40 years
-      of experience in the electronics industry to the team. His expertise is
-      instrumental in leading his team whilst driving continuous improvement to
-      enhance operational efficiencies.
-
-
-
-      When he isn't busy on production, Aubrey enjoys walking, swimming, and motorsports, along with spending quality time with his family, including his stepdaughters and three grandchildren. He is also a passionate supporter of various charitable events and causes, always eager to give back to the community.
+    bio: Aubrey is our recently promoted Production Supervisor who brings a valuable
+      wealth of knowledge and experience to the team with his phenomenal 40
+      years in the electronics industry. His role covers supervising 15 cable
+      assembly operators, overseeing quality inspection, and proactively looking
+      for areas to improve efficiencies. When he isn't busy on production,
+      Aubrey enjoys his sporting passion of Motorsport - in particular Rallying,
+      and he also likes to attend charity events to support many worthwhile
+      causes.
   - name: Amanda Freeman
     jobtitle: Accounts Manager
     bio: >-
-      Amanda is a qualified and experienced Accounts professional who has been a
-      vital part of the ASL team for over 10 years. She oversees all financial
-      transactions and ensures accurate monthly P&L reporting, supporting the
-      company’s efficient financial operations. Her extensive expertise in
-      accounting makes her a key contributor to the company’s success.
+      Amanda is a qualified and committed Accounts professional who has been a
+      valuable member of our team since she joined 10 years ago. With a wealth
+      of knowledge and experience in Accounting, Amanda is responsible for all
+      financial transactions and reporting on monthly P & L's.
 
-
-
-      When Amanda isn't focusing on finance, she enjoys nurturing her garden and creating a peaceful, beautiful home.
+      When Amanda isn't focusing on finance, she enjoys gardening and decorating her beautiful home!
     image: /img/amanda-freeman.jpg
     interests:
       - decorating
       - gardening
   - name: Gary Scowcroft
     jobtitle: Engineering Manager
-    bio: >-
-      Gary brings 45 years of invaluable experience in the Electronics and Cable
-      Assembly industry. Since joining us in 2017, his vast knowledge has
-      greatly enhanced our ability to win new business, guiding customers
-      through project design development while ensuring a smooth transition from
-      engineering to production.
-
-
-
-      Gary is a devoted grandfather who enjoys hiking and rock climbing, embracing the challenges of the great outdoors. A lover of rock music, he also finds joy in attending live performances.
+    bio: Gary has an impressive 40 years of experience in the Electronics & Cable
+      Assembly Industry. Since he joined us in 2017, his phenomenal wealth of
+      knowledge has transformed the way we win new business by working with
+      customers and supporting them with project design development. He ensures
+      that the transition from engineering out to production runs absolutely
+      seamless and that we have built a solid relationship with the customer.
+      Gary is a devoted grandfather and enjoys hiking and rock climbing - he
+      also loves a bit of rock music!
     image: /img/gary-scowcroft.jpg
     interests:
       - hiking
       - climbing-wall
   - name: Adam Tunnah
     jobtitle: Sales Estimator
-    bio: >-
-      Adam is our Sales Estimator with over six years of experience at the
-      company. Specialising in cost analysis and process optimisation, he plays
-      a crucial role in maintaining business relationships and securing new
-      opportunities. Adam’s expertise in cost structures and his ability to
-      streamline processes make him an asset to the team. Adam is currently
-      furthering his studies in Leadership & Management.
-
-
-
-      When Adam is not at work he loves following his favourite sports particularly football, basketball, Formula One, and darts and you may often find him unwinding with friends at his local pub.
+    bio: Adam is our bright and skilful Costing Engineer who has expertise in
+      driving down product costs to secure new and existing business. With a
+      close attention to detail, Adam is excellent at producing cost-effective
+      costings through negotiating with the supply chain and having a clear
+      understanding of production batch cards. Adam has hugely contributed
+      towards winning new contracts and retaining existing customers. He is a
+      passionate Tottenham Hotspur fan and a competitive Xbox gamer!
     image: /img/adam-tunnah.jpg
     interests:
       - football
@@ -206,69 +196,40 @@ team-members:
   - name: Carly Chan
     jobtitle: Customer Account Manager
     image: /img/carly-chan.jpg
-    bio: >-
-      Carly joined ASL as a Production Operator in 2022. With over 10 years of
-      sales experience back home in Hong Kong, Carly was the perfect fit to join
-      our growing Sales Team in 2023. Carly is dedicated to providing
-      outstanding service by managing customer orders with precision. She
-      thrives on building relationships, visiting customers, and identifying
-      additional service opportunities.
-
-
-
-      Carly is a passionate foodie, particularly fond of desserts and Japanese cuisine. In her free time she loves to experiment in the kitchen, cooking dishes from different global cuisines. Carly also enjoys traveling to new destinations with her daughters, creating lasting memories along the way.
+    bio: C﻿oming soon..
     interests:
       - hiking
-      - cooking
   - name: Susan Gaskell
     jobtitle: Purchasing Manager
     interests:
       - cooking
       - hiking
     image: /img/susan-gaskell.jpg
-    bio: >-
-      Susan is our Purchasing & Planning Manager here at ASL, where she is
-      responsible for overseeing the supply chain and managing production
-      planning. With 35 years of experience in purchasing, she ensures that
-      pricing, quality, and delivery schedules meet commercial expectations,
-      contributing to ASL's success in maintaining a competitive edge in the
-      industry.
-
-
-
-      Away from work, Susan loves to travel, enjoying discovering new destinations and cultures. She has also been practicing yoga for 37 years, finding balance and relaxation through this lifelong passion.
+    bio: Susan is our Purchasing & Planning Manager, overseeing all the supply chain
+      and managing the production planning.  With over 10 years of experience in
+      purchasing, Susan excels in managing our supply chain ensuring that
+      pricing, quality and delivery schedules are commercially acceptable. In
+      her spare time Susan enjoys travelling and has practised yoga for 33
+      years!
   - name: Michele Barnes
     jobtitle: Sales Administrator
-    bio: >-
-      Michele is bright, bubbly, and the fastest typist you'll ever meet! She’s
-      dedicated to delivering top-notch customer service, ensuring every task
-      she handles is completed to the highest standard. Her role is as varied as
-      it is essential, from processing customer orders to managing enquiries
-      with her signature enthusiasm and efficiency.
-
-
-
-      When Michele’s not at work, she enjoys baking delicious cakes and cherishing time with her granddaughter, Emily. During the summer, she loves watching Wimbledon with a refreshing glass of gin. Her other hobbies include bike riding, losing herself in a good novel, and knitting.
+    bio: Michele is our bright & bubbly Sales Administrator and is the fastest
+      typist you've even seen! She is committed to giving customers the best
+      possible service and the work she carries out is always to the highest
+      quality. Her role covers a range of responsibilities including processing
+      customer orders and dealing with customer queries. Michele is a big lover
+      of cake & gin, and enjoys spending spare time with her gorgeous
+      Grand-daughter Emily.
     image: /img/michele-barnes.jpg
     interests:
       - reading
       - knitting
     linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
   - name: Mel Rovetto
-    jobtitle: Production Supervisor
+    jobtitle: Production Planner
     interests:
       - hiking
-    bio: >-
-      Melania (Mel) is a dedicated professional with over 7 years of experience
-      at ASL. Starting as a Production Operative, she quickly advanced through
-      roles in the Quality Department before becoming a supervisor. Known for
-      her meticulous attention to detail and strong commitment to quality, Mel
-      transitioned into the role of Production Planner in February 2025, where
-      she continues to contribute to ASL’s success.
-
-
-
-      Outside of work, Mel enjoys unwinding with a game of pool, embracing the friendly competition it offers. She also loves relaxing with a good TV series. Additionally, Mel enjoys going for walks, whether it’s exploring new trails or simply taking in the fresh air and calming scenery.
+    bio: C﻿oming soon..
     image: /img/mel-rovetto.jpg
 seo:
   title: "Meet The Team |  Assembly Solutions "
