@@ -17,7 +17,8 @@ team-members:
       Outside of work, Gareth enjoys playing chess and working on house renovations, where his attention to detail and problem-solving skills shine.
     image: /img/gareth-balshaw.jpg
     interests:
-      - decorating
+      - cycling
+      - hiking
     linkedin: https://www.linkedin.com/in/gareth-balshaw-1b100018/
   - name: Sophie Balshaw
     jobtitle: Marketing & HR Director
@@ -107,8 +108,8 @@ team-members:
   - name: Eric Briggs
     jobtitle: Quality & H&S Manager
     interests:
+      - football
       - formula1
-      - cooking
     bio: >-
       Eric brings a wealth of experience across various manufacturing industries
       and is recognised for his leadership, approachability, and commitment to
@@ -200,7 +201,7 @@ team-members:
     image: /img/adam-tunnah.jpg
     interests:
       - football
-      - formula1
+      - xbox
     linkedin: https://www.linkedin.com/in/adam-tunnah-297b0716b/
   - name: Carly Chan
     jobtitle: Customer Account Manager
@@ -254,7 +255,7 @@ team-members:
       - knitting
     linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
   - name: Mel Rovetto
-    jobtitle: Production Planner
+    jobtitle: Production Supervisor
     interests:
       - hiking
     bio: >-
@@ -271,7 +272,7 @@ team-members:
     image: /img/mel-rovetto.jpg
   - name: Sammy Ho
     jobtitle: Sales and Marketing Executive
-    linkedin: https://www.linkedin.com/in/ho-sammy/
+    linkedin: linkedin.com/in/ho-sammy
     interests:
       - football
     image: /img/sammy-k-ho.jpg
