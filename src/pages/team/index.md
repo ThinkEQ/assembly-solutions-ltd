@@ -258,7 +258,17 @@ team-members:
     jobtitle: Production Supervisor
     interests:
       - hiking
-    bio: C﻿oming soon..
+    bio: >-
+      Melania (Mel) is a dedicated professional with over 7 years of experience
+      at ASL. Starting as a Production Operative, she quickly advanced through
+      roles in the Quality Department before becoming a supervisor. Known for
+      her meticulous attention to detail and strong commitment to quality, Mel
+      transitioned into the role of Production Planner in February 2025, where
+      she continues to contribute to ASL’s success.
+
+
+
+      Outside of work, Mel enjoys unwinding with a game of pool, embracing the friendly competition it offers. She also loves relaxing with a good TV series. Additionally, Mel enjoys going for walks, whether it’s exploring new trails or simply taking in the fresh air and calming scenery.
     image: /img/mel-rovetto.jpg
 seo:
   title: "Meet The Team |  Assembly Solutions "
