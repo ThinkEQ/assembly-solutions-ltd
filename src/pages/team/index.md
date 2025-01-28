@@ -239,13 +239,16 @@ team-members:
       Away from work, Susan loves to travel, enjoying discovering new destinations and cultures. She has also been practicing yoga for 37 years, finding balance and relaxation through this lifelong passion.
   - name: Michele Barnes
     jobtitle: Sales Administrator
-    bio: Michele is our bright & bubbly Sales Administrator and is the fastest
-      typist you've even seen! She is committed to giving customers the best
-      possible service and the work she carries out is always to the highest
-      quality. Her role covers a range of responsibilities including processing
-      customer orders and dealing with customer queries. Michele is a big lover
-      of cake & gin, and enjoys spending spare time with her gorgeous
-      Grand-daughter Emily.
+    bio: >-
+      Michele is bright, bubbly, and the fastest typist you'll ever meet! She’s
+      dedicated to delivering top-notch customer service, ensuring every task
+      she handles is completed to the highest standard. Her role is as varied as
+      it is essential, from processing customer orders to managing enquiries
+      with her signature enthusiasm and efficiency.
+
+
+
+      When Michele’s not at work, she enjoys baking delicious cakes and cherishing time with her granddaughter, Emily. During the summer, she loves watching Wimbledon with a refreshing glass of gin. Her other hobbies include bike riding, losing herself in a good novel, and knitting.
     image: /img/michele-barnes.jpg
     interests:
       - reading
