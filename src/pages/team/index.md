@@ -90,12 +90,17 @@ team-members:
     linkedin: https://www.linkedin.com/in/damien-walsh-a99a333b/
   - name: John Waterworth
     jobtitle: Sales Manager
-    bio: John has worked in the electrical industry for 40 years and is extremely
-      knowledgeable on cable assemblies and components. With his wealth of
-      expertise after having his own electrical component distributer, we were
-      delighted to welcome John on board in 2020 to support with customer
-      account management. John is a passionate Manchester City supporter and
-      enjoys to watch them with a cold pint of Guinness!
+    bio: >-
+      John, our Sales Manager, joined the team in 2020, bringing over 40 years
+      of industry experience. With a strong background in manufacturing and
+      running his own electrical component distribution business, John is a true
+      expert in cable assemblies and components. His extensive knowledge and
+      expertise have been invaluable in supporting our customers and driving
+      success across projects.
+
+
+
+      Outside of work, John is a dedicated Manchester City supporter who enjoys watching their matches with a pint of Guinness in hand. His enthusiasm for football reflects the same energy and passion he brings to his work every day.
     image: /img/team10-1-.png
     interests:
       - football
