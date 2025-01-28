@@ -254,7 +254,7 @@ team-members:
       - knitting
     linkedin: https://www.linkedin.com/in/michele-barnes-8b102039/
   - name: Mel Rovetto
-    jobtitle: Production Supervisor
+    jobtitle: Production Planner
     interests:
       - hiking
     bio: >-
