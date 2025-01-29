@@ -272,7 +272,7 @@ team-members:
     image: /img/mel-rovetto.jpg
   - name: Sammy Ho
     jobtitle: Sales and Marketing Executive
-    linkedin: linkedin.com/in/ho-sammy
+    linkedin: ""
     interests:
       - football
     image: /img/sammy-k-ho.jpg
