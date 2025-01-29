@@ -17,8 +17,8 @@ team-members:
       Outside of work, Gareth enjoys playing chess and working on house renovations, where his attention to detail and problem-solving skills shine.
     image: /img/gareth-balshaw.jpg
     interests:
-      - cycling
       - hiking
+      - decorating
     linkedin: https://www.linkedin.com/in/gareth-balshaw-1b100018/
   - name: Sophie Balshaw
     jobtitle: Marketing & HR Director
@@ -108,8 +108,8 @@ team-members:
   - name: Eric Briggs
     jobtitle: Quality & H&S Manager
     interests:
-      - football
       - formula1
+      - cycling
     bio: >-
       Eric brings a wealth of experience across various manufacturing industries
       and is recognised for his leadership, approachability, and commitment to
@@ -223,7 +223,7 @@ team-members:
   - name: Susan Gaskell
     jobtitle: Purchasing Manager
     interests:
-      - cooking
+      - jiujitsu
       - hiking
     image: /img/susan-gaskell.jpg
     bio: >-
