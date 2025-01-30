@@ -9,10 +9,7 @@ layout:
       text: >-
         20th September, 2024\
 
-        **Celebrating Julie’s Remarkable 20-Year Career with ASL**
-
-
-        ### ASL Named Bolton Business of the Year 2024
+        **ASL Win Bolton Business of the Year 2024**
 
 
         We are proud to announce that ASL has been awarded Bolton Business of the Year 2024, a prestigious recognition that reflects our commitment to excellence, innovation, and continuous growth.
