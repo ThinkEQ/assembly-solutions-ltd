@@ -2,7 +2,7 @@
 templateKey: news-article
 title: ASL Win Bolton Business of the Year 2024
 date: 2024-09-19T13:00:07.372Z
-image: /img/25yearbanner.png
+image: /img/1727264325897.jpg
 layout:
   - type: full
     full:
