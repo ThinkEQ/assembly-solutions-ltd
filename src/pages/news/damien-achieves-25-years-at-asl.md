@@ -1,6 +1,6 @@
 ---
 templateKey: news-article
-title: Damien Achieves 25 Years at ASL
+title: Damien Celebrates 25 Years at ASL
 date: 2024-10-11T12:34:14.747Z
 image: /img/damien-walsh-banner.jpg
 layout:
