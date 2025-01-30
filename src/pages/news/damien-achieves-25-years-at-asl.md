@@ -12,13 +12,7 @@ layout:
         **Celebrating Damien for 25 Years Service**
 
 
-        <!--StartFragment-->
-
-
-        ### Celebrating 25 Years of Service: Honoring Damien Walsh
-
-
-        We are proud to celebrate a remarkable milestone at ASL—the first employee to achieve 25 years of service!
+        We are proud to celebrate a remarkable milestone at ASL - the first employee to achieve 25 years of service!
 
 
         Damien Walsh joined ASL in 1999 as a young production operator and, through dedication and expertise, has grown into his current role as a highly respected Technical Manager. Over the years, Damien has played a pivotal role in the company's success, contributing his extensive technical knowledge in electrical wiring and supporting ASL in securing numerous high-profile contracts, particularly in the automotive sector.
@@ -34,8 +28,12 @@ layout:
 
 
         Congratulations Damien!
+      title: ""
 seo:
   title: Damien Walsh is the first to achieve 25 years of service at ASL
-  description: Damien Walsh is the first to achieve 25 years of service at ASL
+  description: Celebrating Damien Walsh’s 25-year milestone at ASL! From
+    Production Operator to Technical Manager, Damien’s dedication and expertise
+    in electrical wiring have been instrumental in ASL’s success, especially in
+    the automotive sector.
   og-url: www.assembly-solutions.com/news/damien-achieves-25-years-service
 ---
